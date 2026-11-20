@@ -1,0 +1,15 @@
+import { q, q1 } from '@/lib/db';
+import { currentUser } from '@/lib/auth';
+import { ok, fail } from '@/lib/respond';
+export async function POST(req) {
+  const me = await currentUser(); if (!me) return fail('Not signed in', 401);
+  const b = await req.json().catch(() => null); const call = await q1('SELECT * FROM calls WHERE id = ?', [Number(b?.call_id)]);
+  if (!call) return fail('Call not found', 404);
+  const secs = Math.max(0, Math.floor((Date.now() - new Date(call.started_at || call.created_at).getTime()) / 1000));
+  await q("UPDATE calls SET status = 'ended', ended_at = NOW(), duration_seconds = ? WHERE id = ?", [secs, call.id]);
+  const mins = Math.round(secs / 60);
+  if (mins > 0) for (const uid of [call.caller_id, call.callee_id].filter(Boolean)) {
+    await q('INSERT INTO user_daily_stats (user_id, day, minutes, calls) VALUES (?, CURDATE(), ?, 1) ON DUPLICATE KEY UPDATE minutes = minutes + VALUES(minutes), calls = calls + 1', [uid, mins]);
+  }
+  return ok({ duration_seconds: secs, can_rate: secs >= 300 && !!call.callee_id, partner_id: call.caller_id === me.id ? call.callee_id : call.caller_id });
+}

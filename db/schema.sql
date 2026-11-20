@@ -1,0 +1,258 @@
+-- Talk App schema — MySQL / MariaDB compatible. No MySQL-8-only syntax.
+SET NAMES utf8mb4;
+
+CREATE TABLE IF NOT EXISTS users (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(120) NOT NULL,
+  username VARCHAR(40) NULL UNIQUE,
+  note VARCHAR(160) NULL,
+  email VARCHAR(190) NOT NULL UNIQUE,
+  password_hash VARCHAR(255) NOT NULL,
+  avatar VARCHAR(255) NULL,
+  phone VARCHAR(40) NULL,
+  phone_visibility ENUM('onlyme','friends','public') NOT NULL DEFAULT 'onlyme',
+  gender ENUM('female','male') NULL,
+  talk_preference ENUM('female','male','both') NOT NULL DEFAULT 'both',
+  goal VARCHAR(60) NULL,
+  bio TEXT NULL,
+  city VARCHAR(120) NULL,
+  country VARCHAR(120) NULL,
+  device VARCHAR(190) NULL,
+  last_ip VARCHAR(64) NULL,
+  is_online TINYINT(1) NOT NULL DEFAULT 0,
+  last_seen_at DATETIME NULL,
+  suspended TINYINT(1) NOT NULL DEFAULT 0,
+  ai_reports_optin TINYINT(1) NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS user_daily_stats (
+  user_id INT UNSIGNED NOT NULL,
+  day DATE NOT NULL,
+  minutes INT NOT NULL DEFAULT 0,
+  calls INT NOT NULL DEFAULT 0,
+  PRIMARY KEY (user_id, day),
+  CONSTRAINT fk_stats_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS packages (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(60) NOT NULL,
+  price_taka INT NOT NULL DEFAULT 0,
+  period VARCHAR(20) NOT NULL DEFAULT 'month',
+  daily_call_minutes INT NULL,
+  ai_reports TINYINT(1) NOT NULL DEFAULT 0,
+  ai_report_frequency VARCHAR(10) NOT NULL DEFAULT 'none',
+  tag VARCHAR(60) NULL,
+  description VARCHAR(255) NULL,
+  included TEXT NULL,
+  not_included TEXT NULL,
+  is_active TINYINT(1) NOT NULL DEFAULT 1,
+  sort_order INT NOT NULL DEFAULT 0,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS subscriptions (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  user_id INT UNSIGNED NOT NULL,
+  package_id INT UNSIGNED NOT NULL,
+  status ENUM('active','expired','cancelled') NOT NULL DEFAULT 'active',
+  started_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  expires_at DATETIME NULL,
+  CONSTRAINT fk_sub_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+  CONSTRAINT fk_sub_pkg FOREIGN KEY (package_id) REFERENCES packages(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS payment_requests (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  user_id INT UNSIGNED NOT NULL,
+  package_id INT UNSIGNED NOT NULL,
+  method ENUM('bkash','nagad') NOT NULL,
+  sender_number VARCHAR(40) NOT NULL,
+  trxid VARCHAR(80) NOT NULL,
+  amount_taka INT NOT NULL,
+  status ENUM('waiting','approved','rejected') NOT NULL DEFAULT 'waiting',
+  admin_note VARCHAR(255) NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  decided_at DATETIME NULL,
+  CONSTRAINT fk_pay_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+  CONSTRAINT fk_pay_pkg FOREIGN KEY (package_id) REFERENCES packages(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS friendships (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  requester_id INT UNSIGNED NOT NULL,
+  addressee_id INT UNSIGNED NOT NULL,
+  status ENUM('pending','accepted') NOT NULL DEFAULT 'pending',
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY uq_friend_pair (requester_id, addressee_id),
+  CONSTRAINT fk_fr_req FOREIGN KEY (requester_id) REFERENCES users(id) ON DELETE CASCADE,
+  CONSTRAINT fk_fr_add FOREIGN KEY (addressee_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS blocks (
+  blocker_id INT UNSIGNED NOT NULL,
+  blocked_id INT UNSIGNED NOT NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (blocker_id, blocked_id),
+  CONSTRAINT fk_bl_a FOREIGN KEY (blocker_id) REFERENCES users(id) ON DELETE CASCADE,
+  CONSTRAINT fk_bl_b FOREIGN KEY (blocked_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS reports (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  reporter_id INT UNSIGNED NOT NULL,
+  reported_id INT UNSIGNED NOT NULL,
+  reason VARCHAR(255) NULL,
+  status ENUM('open','reviewed','actioned') NOT NULL DEFAULT 'open',
+  admin_note TEXT NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT fk_rp_a FOREIGN KEY (reporter_id) REFERENCES users(id) ON DELETE CASCADE,
+  CONSTRAINT fk_rp_b FOREIGN KEY (reported_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS rooms (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(190) NOT NULL,
+  topic VARCHAR(255) NULL,
+  visibility ENUM('public','private') NOT NULL DEFAULT 'public',
+  password_hash VARCHAR(255) NULL,
+  creator_id INT UNSIGNED NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT fk_room_creator FOREIGN KEY (creator_id) REFERENCES users(id) ON DELETE SET NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS calls (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  caller_id INT UNSIGNED NOT NULL,
+  callee_id INT UNSIGNED NULL,
+  room_id INT UNSIGNED NULL,
+  livekit_room VARCHAR(120) NOT NULL,
+  kind ENUM('audio','video','room') NOT NULL DEFAULT 'audio',
+  status ENUM('ringing','active','ended','missed') NOT NULL DEFAULT 'ringing',
+  started_at DATETIME NULL,
+  ended_at DATETIME NULL,
+  duration_seconds INT NOT NULL DEFAULT 0,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT fk_call_a FOREIGN KEY (caller_id) REFERENCES users(id) ON DELETE CASCADE,
+  CONSTRAINT fk_call_b FOREIGN KEY (callee_id) REFERENCES users(id) ON DELETE SET NULL,
+  CONSTRAINT fk_call_r FOREIGN KEY (room_id) REFERENCES rooms(id) ON DELETE SET NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS call_queue (
+  user_id INT UNSIGNED PRIMARY KEY,
+  want_gender ENUM('female','male','any') NOT NULL DEFAULT 'any',
+  kind ENUM('audio','video') NOT NULL DEFAULT 'audio',
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT fk_q_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS ratings (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  call_id INT UNSIGNED NOT NULL,
+  rater_id INT UNSIGNED NOT NULL,
+  ratee_id INT UNSIGNED NOT NULL,
+  fluency TINYINT NOT NULL,
+  speaking TINYINT NOT NULL,
+  behaviour TINYINT NOT NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT fk_rt_call FOREIGN KEY (call_id) REFERENCES calls(id) ON DELETE CASCADE,
+  CONSTRAINT fk_rt_a FOREIGN KEY (rater_id) REFERENCES users(id) ON DELETE CASCADE,
+  CONSTRAINT fk_rt_b FOREIGN KEY (ratee_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS conversations (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  user_a INT UNSIGNED NOT NULL,
+  user_b INT UNSIGNED NOT NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY uq_conv_pair (user_a, user_b),
+  CONSTRAINT fk_cv_a FOREIGN KEY (user_a) REFERENCES users(id) ON DELETE CASCADE,
+  CONSTRAINT fk_cv_b FOREIGN KEY (user_b) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Message bodies are end-to-end encrypted by clients; the server stores only ciphertext.
+CREATE TABLE IF NOT EXISTS messages (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  conversation_id INT UNSIGNED NOT NULL,
+  sender_id INT UNSIGNED NOT NULL,
+  kind ENUM('text','photo_ref') NOT NULL DEFAULT 'text',
+  ciphertext TEXT NULL,
+  read_at DATETIME NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT fk_ms_conv FOREIGN KEY (conversation_id) REFERENCES conversations(id) ON DELETE CASCADE,
+  CONSTRAINT fk_ms_sender FOREIGN KEY (sender_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS notifications (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  user_id INT UNSIGNED NOT NULL,
+  kind ENUM('message','missed_call','subscription_reminder','payment','system') NOT NULL,
+  actor_id INT UNSIGNED NULL,
+  title VARCHAR(190) NOT NULL,
+  body VARCHAR(255) NULL,
+  is_read TINYINT(1) NOT NULL DEFAULT 0,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT fk_nt_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS support_tickets (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  user_id INT UNSIGNED NOT NULL,
+  kind VARCHAR(60) NOT NULL,
+  subject VARCHAR(190) NOT NULL,
+  body TEXT NOT NULL,
+  status ENUM('open','answered','resolved') NOT NULL DEFAULT 'open',
+  admin_note TEXT NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  CONSTRAINT fk_tk_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS admin_users (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  email VARCHAR(190) NOT NULL UNIQUE,
+  password_hash VARCHAR(255) NOT NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS admin_activity_log (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  admin_id INT UNSIGNED NULL,
+  action VARCHAR(120) NOT NULL,
+  detail VARCHAR(255) NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS ai_settings (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  provider VARCHAR(60) NOT NULL DEFAULT 'DeepSeek',
+  base_url VARCHAR(255) NOT NULL DEFAULT 'https://api.deepseek.com',
+  api_key_masked VARCHAR(80) NULL,
+  stt_model VARCHAR(120) NULL,
+  analysis_model VARCHAR(120) NULL,
+  credit_balance_usd DECIMAL(10,2) NOT NULL DEFAULT 25.00,
+  soft_daily_ai_minutes INT NOT NULL DEFAULT 30,
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS ai_reports (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  user_id INT UNSIGNED NOT NULL,
+  report_date DATE NOT NULL,
+  fluency TEXT NULL,
+  proficiency TEXT NULL,
+  grammar TEXT NULL,
+  lexical TEXT NULL,
+  improvements TEXT NULL,
+  ai_minutes INT NOT NULL DEFAULT 0,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY uq_ai_report_day (user_id, report_date),
+  CONSTRAINT fk_ai_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS app_settings (
+  k VARCHAR(80) PRIMARY KEY,
+  v VARCHAR(255) NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

@@ -1,0 +1,19 @@
+/* Production glue only — layout for the full-viewport app. All design tokens/classes come from the preview CSS in globals.css. */
+html,body{height:100%}
+.app-root{min-height:100vh;background:#fff}
+.app-root .desk-app{min-height:100vh}
+.app-topbar{position:sticky;top:0;z-index:40;display:flex;justify-content:flex-end;align-items:center;gap:10px;padding:10px 22px;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line2)}
+.app-topbar .me{font-size:12px;font-weight:800;background:var(--ink);color:#fff;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;border:0;cursor:pointer;overflow:hidden}
+.app-topbar .me img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.bell-btn{position:relative}
+.bottomnav{display:none}
+/* The two round room buttons belong to the mobile design only (in the preview they exist solely on the mobile page). */
+@media(min-width:901px){.m-room-iconbtn{display:none}.rooms-view .m-room-search-row{margin:0}.rooms-view .m-room-search-row .search{margin:0 0 16px}}
+@media(max-width:900px){
+  .app-root .desk-app{grid-template-columns:1fr}
+  .app-root .sidebar{display:none}
+  .app-root .center{padding:22px 16px 96px}
+  .bottomnav{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:50}
+  .chatview.show-main .bottomnav{display:none}
+}
+
