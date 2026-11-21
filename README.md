@@ -9,7 +9,8 @@ and `~/workspace/your_files/Talk-App-Design-Instruction.md`. See `FUNCTIONALITY.
 - The user app, admin and Super Admin remain Next.js (everything under `app/`).
 
 ## Run locally
-1. MariaDB running, database `talk_app` (see `.env.example`; real values in `.env.local`).
+1. MariaDB running (local XAMPP default: user `root`, empty password — no DB user to create),
+   with an empty database named `talk_app` created. Copy `.env.example` to `.env.local`.
 2. `npm install`
 3. `npm run migrate` — creates the 21 tables (MariaDB-compatible).
 4. `npm run seed` — preview dummy users/rooms/packages. Demo login for every seeded
@@ -21,4 +22,4 @@ and `~/workspace/your_files/Talk-App-Design-Instruction.md`. See `FUNCTIONALITY.
 ## Notes
 - Chat photos are never uploaded: the API stores only a `photo_ref` marker with no image.
 - Expired paid subscriptions auto-switch to Free (checked on /api/me and /api/packages).
-- No GitHub push / deployment has been made — local build only, per the owner's rule.
+- Code is pushed to GitHub `zahidhasannipu01/JustTalk` (main). No deployment has been made.

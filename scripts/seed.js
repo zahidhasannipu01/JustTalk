@@ -1,7 +1,7 @@
 const fs = require('fs'); const path = require('path'); const mysql = require('mysql2/promise'); const bcrypt = require('bcryptjs');
 function env() { const e = { ...process.env }; for (const f of ['.env.local', '.env.local-db']) { const p = path.join(__dirname, '..', f); if (fs.existsSync(p)) for (const line of fs.readFileSync(p, 'utf8').split('\n')) { const m = line.match(/^([A-Z_]+)=(.*)$/); if (m && !e[m[1]]) e[m[1]] = m[2].trim(); } } return e; }
 (async () => {
-  const e = env(); const conn = await mysql.createConnection({ host: e.DB_HOST || '127.0.0.1', port: Number(e.DB_PORT || 3306), user: e.DB_USER || 'talkapp', password: e.DB_PASSWORD || '', database: e.DB_NAME || 'talk_app', multipleStatements: true });
+  const e = env(); const conn = await mysql.createConnection({ host: e.DB_HOST || '127.0.0.1', port: Number(e.DB_PORT || 3306), user: e.DB_USER || 'root', password: e.DB_PASSWORD || '', database: e.DB_NAME || 'talk_app', multipleStatements: true });
   const hash = pw => bcrypt.hashSync(pw, 10);
   // Packages — Free 15 min/day; Plus 100 taka; Pro 150 taka. AI reports (owner decision 2026-11-21): Plus = weekly, Pro = daily, Free = none.
   // `description` is the card's "Best for …" line, exactly as in the approved preview.
