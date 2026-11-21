@@ -196,11 +196,12 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
       } catch (e) { setStatus('Could not connect'); toast('Call could not connect — check microphone/camera permission'); }
     })();
     return () => {
+      // NOTE: no 'bye' is sent from here. React StrictMode (dev) unmounts and
+      // remounts every component once, so a 'bye' sent from a cleanup kills a
+      // healthy call the moment it connects. A real hang-up sends 'bye' from
+      // endCall() instead; this cleanup only releases local resources, which
+      // the remount re-acquires.
       if (ringTimer) clearTimeout(ringTimer);
-      if (phaseRef.current === 'live') {
-        if (partner.id) sendSignal(Number(partner.id), 'bye', {});
-        else sendSignal(null, 'bye', {});
-      }
       cleanupMedia();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
