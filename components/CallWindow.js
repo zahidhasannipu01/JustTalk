@@ -24,6 +24,7 @@ const VIDEO_CONSTRAINTS = { width: { ideal: 1280 }, height: { ideal: 720 }, fram
 export default function CallWindow({ session, me, onClose, onAddPeople }) {
   const roomId = session.room_id || (String(session.room_name || '').startsWith('room-') ? Number(String(session.room_name).slice(5)) : null);
   const [min, setMin] = useState(false);
+  const [pos, setPos] = useState(null); // dragged window position {left, top} — kept in state so minimize/restore returns to the same spot
   const [micOn, setMicOn] = useState(true);
   const [spkOn, setSpkOn] = useState(true);
   const [camOn, setCamOn] = useState(!!roomId && session.kind === 'video');
@@ -38,6 +39,8 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
   const [videoState, setVideoState] = useState('off'); // off | requested | on  (1-to-1 consent flow)
   const [videoAsk, setVideoAsk] = useState(false); // partner asked me for video
   const [remoteVideo, setRemoteVideo] = useState(false); // partner's video is showing
+  const [chrome, setChrome] = useState(true); // video mode: header + controls overlay visible (tap the video to toggle)
+  const [headphone, setHeadphone] = useState(false); // a headphone-type audio output is connected
   const peersRef = useRef(new Map()); // userId -> { pc, polite, makingOffer, ignoreOffer, audioEl }
   const localRef = useRef(null); // my own mic/camera stream
   const connectedRef = useRef(false);
@@ -123,6 +126,10 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
     if (sig.kind === 'video-accepted') { setVideoState('on'); setCamOn(true); return; }
     if (sig.kind === 'video-declined') { setVideoState('off'); toast('Partner declined video'); return; }
     if (sig.kind === 'video-off') { setRemoteVideo(false); return; }
+    // If I am still "ringing" and my partner sends an offer, they accepted —
+    // the call-accepted push may have raced my listener registration, so the
+    // offer itself is proof enough to go live.
+    if (sig.kind === 'offer' && phaseRef.current === 'ringing' && partner.id && from === Number(partner.id)) goPhase('live');
     const entry = createPeer(from); const pc = entry.pc;
     try {
       if (sig.kind === 'offer') {
@@ -185,6 +192,12 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
             toast('Partner declined the call');
             onCloseRef.current();
           }));
+          if (phaseRef.current === 'live') {
+            // I am the one who accepted: open the connection from my side too,
+            // so the call still connects if the caller missed the accept push.
+            // Perfect negotiation (above) resolves any double-offer.
+            createPeer(Number(partner.id));
+          }
           if (phaseRef.current === 'ringing') {
             ringTimer = setTimeout(async () => {
               if (phaseRef.current !== 'ringing') return;
@@ -213,6 +226,28 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
     const t = setInterval(() => setSecs(Math.floor((Date.now() - startedRef.current) / 1000)), 1000);
     return () => clearInterval(t);
   }, [phase]);
+
+  // The speaker button shows the real output: headphones when a headphone-type
+  // output is connected (device list, refreshed on devicechange), else the
+  // speaker. Browsers cannot force a phone between earpiece and loudspeaker —
+  // the OS owns that — so this reports what is actually connected.
+  useEffect(() => {
+    if (!navigator.mediaDevices?.enumerateDevices) return;
+    let alive = true;
+    const detect = async () => {
+      try {
+        const devs = await navigator.mediaDevices.enumerateDevices();
+        const hp = devs.some(d => d.kind === 'audiooutput' && /head|earbud|airpod|bluetooth/i.test(d.label || ''));
+        if (alive) setHeadphone(hp);
+      } catch {}
+    };
+    detect();
+    try { navigator.mediaDevices.addEventListener('devicechange', detect); } catch {}
+    return () => { alive = false; try { navigator.mediaDevices.removeEventListener('devicechange', detect); } catch {} };
+  }, []);
+
+  // A video request (either direction) always brings the overlay controls up.
+  useEffect(() => { if (videoAsk || videoState === 'requested') setChrome(true); }, [videoAsk, videoState]);
 
   useEffect(() => {
     (async () => {
@@ -304,9 +339,14 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
     const win = winRef.current; if (!win) return;
     const r = win.getBoundingClientRect(); const dx = e.clientX - r.left, dy = e.clientY - r.top;
     function move(ev) { win.style.left = Math.max(0, ev.clientX - dx) + 'px'; win.style.top = Math.max(0, ev.clientY - dy) + 'px'; win.style.right = 'auto'; win.style.bottom = 'auto'; }
-    function up() { window.removeEventListener('pointermove', move); window.removeEventListener('pointerup', up); }
+    function up() {
+      window.removeEventListener('pointermove', move); window.removeEventListener('pointerup', up);
+      // Commit the drop point: restoring from minimized must land here again.
+      const r2 = win.getBoundingClientRect(); setPos({ left: Math.round(r2.left), top: Math.round(r2.top) });
+    }
     window.addEventListener('pointermove', move); window.addEventListener('pointerup', up);
   }
+  const winStyle = pos ? { left: pos.left, top: pos.top, right: 'auto', bottom: 'auto' } : { right: 18, bottom: 18 };
   const mm = String(Math.floor(secs / 60)).padStart(2, '0'), ss = String(secs % 60).padStart(2, '0');
 
   if (rate) return (
@@ -332,7 +372,7 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
   );
 
   if (phase === 'searching') return (
-    <div className="callwin open" ref={winRef} role="dialog" aria-label="Call window" style={{ right: 18, bottom: 18 }}>
+    <div className="callwin open" ref={winRef} role="dialog" aria-label="Call window" style={winStyle}>
       <div className="callwin-head" onPointerDown={onDragStart}><span className="drag-dots">⠿</span>
         <div><b>Start calling</b><small>Audio call · 00:00</small></div>
         <div className="hw">
@@ -354,9 +394,14 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
   );
 
   if (min) return (
-    <div className="callmin open" style={{ display: 'flex' }}>
+    // left/top MUST be cleared here: React reuses this same DOM node for the
+    // call window, and dragging the window writes inline left/top on it. If
+    // they survived, the pill would keep them alongside its CSS right/bottom
+    // and stretch across the whole screen (the giant-oval bug on phones,
+    // where the window gets touch-dragged before minimizing).
+    <div className="callmin open" style={{ display: 'flex', left: 'auto', top: 'auto' }}>
       <Avatar user={partner} size={36} /><span><b>{partner.name}</b><small>{mm}:{ss}</small></span>
-      <button type="button" onClick={toggleMic} title="Mute / unmute" aria-label="Mute / unmute"><Ic n="mic" /></button>
+      <button type="button" className={!micOn ? 'off' : ''} onClick={toggleMic} title="Mute / unmute" aria-label="Mute / unmute"><Ic n={micOn ? 'mic' : 'micoff'} /></button>
       <button type="button" onClick={() => setMin(false)} title="Restore call" aria-label="Restore call"><Ic n="plus" /></button>
       <button type="button" className="endb" onClick={endCall} title="End call" aria-label="End call"><Ic n="phone" /></button>
     </div>
@@ -364,7 +409,7 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
 
   const statusText = phase === 'ringing' ? 'Waiting for them to accept…' : status;
   return (
-    <div className="callwin open" ref={winRef} role="dialog" aria-label="Call window" style={{ right: 18, bottom: 18 }}>
+    <div className={`callwin open ${remoteVideo ? 'videomode' : ''} ${chrome ? '' : 'chromeoff'}`} ref={winRef} role="dialog" aria-label="Call window" style={winStyle}>
       <div className="callwin-head" onPointerDown={onDragStart}><span className="drag-dots">⠿</span>
         <div><b>{partner.name}</b><small>{partner.roomPeople != null ? `Room · ${partner.roomPeople} people` : videoOn ? 'Video call' : 'Audio call'} · {mm}:{ss}</small></div>
         <div className="hw">
@@ -372,30 +417,32 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
           <button type="button" className="endb" title="End call" aria-label="End call" onClick={endCall}><Ic n="phone" /></button>
         </div>
       </div>
-      <div className={`call-stage ${statusText !== 'Connected' ? 'ringing' : ''}`}>
-        <div style={{ display: 'grid', justifyItems: 'center' }}>
+      <div className={`call-stage ${statusText !== 'Connected' ? 'ringing' : ''}`} onClick={() => { if (remoteVideo) setChrome(c => !c); }}>
+        <video ref={remoteRef} className="cw-remote" autoPlay playsInline />
+        <div className="cw-partnerbox">
           <span className="avatar big-av" style={{ background: partner.color || '#0E9594', overflow: 'hidden' }}>{partner.avatar ? <img src={partner.avatar} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} /> : initials(partner.name)}</span>
           <div className="status-txt">{statusText}</div>
           <div className="sub-txt">{videoOn ? 'Video call' : 'Audio call'}</div>
-          <video ref={remoteRef} autoPlay playsInline style={{ width: '100%', borderRadius: 14, marginTop: 10, display: remoteVideo ? 'block' : 'none' }} />
         </div>
-        <div className="cw-selfview" hidden={!camOn}><video ref={selfVideoRef} autoPlay muted playsInline style={{ width: '100%', height: '100%', objectFit: 'cover' }} /><span>You · camera on</span></div>
+        <div className="cw-selfview" hidden={!camOn}><video ref={selfVideoRef} autoPlay muted playsInline /><span>You · camera on</span></div>
       </div>
-      {videoAsk && partner.id ? <div className="cw-video-ask"><span>{partner.name} wants to turn on video</span><span className="cw-va-btns"><button type="button" className="fr-btn" onClick={declineVideo}>Decline</button><button type="button" className="fr-btn cw-va-accept" onClick={acceptVideo}>Accept</button></span></div> : null}
-      {videoState === 'requested' && partner.id ? <div className="cw-video-ask"><span>Waiting for {partner.name} to accept video…</span></div> : null}
-      <div className="cw-enc"><Ic n="lock" size={14} /><span>Encrypted. Only people in the call can hear you.</span></div>
-      <div className="call-controls">
-        <button type="button" className={`cc-btn ${!micOn ? 'off' : ''}`} title="Mute microphone" aria-label="Mute microphone" onClick={toggleMic}><Ic n="mic" /></button>
-        <button type="button" className={`cc-btn ${!spkOn ? 'off' : ''}`} title="Speaker" aria-label="Toggle speaker" onClick={toggleSpk}><Ic n="speaker" /></button>
-        <button type="button" className={`cc-btn cc-video ${camOn ? 'off' : ''}`} title="Turn camera on" aria-label="Turn camera on" onClick={toggleVideo} disabled={phase === 'ringing'}><Ic n="video" /></button>
-        <button type="button" className="cc-btn" title="Add people" aria-label="Add people" onClick={() => onAddPeople && onAddPeople()}><Ic n="adduser" /></button>
-        <button type="button" className="cc-btn" title="Minimize" aria-label="Minimize call" onClick={() => setMin(true)}><Ic n="minus" /></button>
-        <button type="button" className="cc-end" title="End call" aria-label="End call" onClick={endCall}><Ic n="phone" /></button>
+      <div className="cw-dock">
+        {videoAsk && partner.id ? <div className="cw-video-ask"><span>{partner.name} wants to turn on video</span><span className="cw-va-btns"><button type="button" className="fr-btn" onClick={declineVideo}>Decline</button><button type="button" className="fr-btn cw-va-accept" onClick={acceptVideo}>Accept</button></span></div> : null}
+        {videoState === 'requested' && partner.id ? <div className="cw-video-ask"><span>Waiting for {partner.name} to accept video…</span></div> : null}
+        <div className="cw-enc"><Ic n="lock" size={14} /><span>Encrypted. Only people in the call can hear you.</span></div>
+        <div className="call-controls">
+          <button type="button" className={`cc-btn ${!micOn ? 'off' : ''}`} title={micOn ? 'Mute microphone' : 'Unmute microphone'} aria-label="Mute microphone" onClick={toggleMic}><Ic n={micOn ? 'mic' : 'micoff'} /></button>
+          <button type="button" className={`cc-btn ${!spkOn ? 'off' : ''}`} title={headphone ? 'Headphones connected' : 'Speaker'} aria-label="Toggle speaker" onClick={toggleSpk}><Ic n={headphone ? 'headphone' : 'speaker'} /></button>
+          <button type="button" className={`cc-btn cc-video ${camOn ? 'off' : ''}`} title="Turn camera on" aria-label="Turn camera on" onClick={toggleVideo} disabled={phase === 'ringing'}><Ic n="video" /></button>
+          <button type="button" className="cc-btn" title="Add people" aria-label="Add people" onClick={() => onAddPeople && onAddPeople()}><Ic n="adduser" /></button>
+          <button type="button" className="cc-btn" title="Minimize" aria-label="Minimize call" onClick={() => setMin(true)}><Ic n="minus" /></button>
+          <button type="button" className="cc-end" title="End call" aria-label="End call" onClick={endCall}><Ic n="phone" /></button>
+        </div>
+        {partner.id ? <div className="cw-safety">
+          <button type="button" className="cw-report-btn" onClick={() => setShowReport(true)}>Report</button>
+          <button type="button" className="cw-block-btn" onClick={() => setShowBlock(true)}>Block this person</button>
+        </div> : null}
       </div>
-      {partner.id ? <div className="cw-safety">
-        <button type="button" className="cw-report-btn" onClick={() => setShowReport(true)}>Report</button>
-        <button type="button" className="cw-block-btn" onClick={() => setShowBlock(true)}>Block this person</button>
-      </div> : null}
       {showReport && <ReportModal person={partner} onClose={() => setShowReport(false)} />}
       {showBlock && <BlockModal person={partner} onClose={() => setShowBlock(false)} onBlocked={() => { setShowBlock(false); endCall(); }} />}
     </div>

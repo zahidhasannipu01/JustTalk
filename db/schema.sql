@@ -189,7 +189,7 @@ CREATE TABLE IF NOT EXISTS messages (
 CREATE TABLE IF NOT EXISTS notifications (
   id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   user_id INT UNSIGNED NOT NULL,
-  kind ENUM('message','missed_call','subscription_reminder','payment','system') NOT NULL,
+  kind ENUM('message','missed_call','subscription_reminder','payment','system','friend_request','friend_accepted') NOT NULL,
   actor_id INT UNSIGNED NULL,
   title VARCHAR(190) NOT NULL,
   body VARCHAR(255) NULL,

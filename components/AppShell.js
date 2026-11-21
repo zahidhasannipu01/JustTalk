@@ -10,6 +10,7 @@ import ChatView from './views/ChatView';
 import { ProfileView, SettingsView } from './views/ProfileSettings';
 import SubscriptionView from './views/SubscriptionView';
 import SupportView from './views/SupportView';
+import NotificationsView from './views/NotificationsView';
 import { api, toast, colorFor, Taka } from '@/lib/toast';
 import { socket } from '@/lib/socket';
 
@@ -98,7 +99,19 @@ export default function AppShell({ initialUser }) {
       setIncoming(prev => prev || { call_id: m.call_id, room_name: m.room_name, kind: m.kind, from_match: !!m.from_match, partner: { ...m.partner, color: m.partner?.color || colorFor(m.partner?.id) } });
     });
     const offCancel = socket.on('call-cancelled', m => setIncoming(prev => (prev && prev.call_id === m.call_id ? null : prev)));
-    return () => { offIn(); offCancel(); };
+    // Friends' green dots are live: a presence push flips the person's online
+    // flag in place (sidebar Friends online + People page) — no refetch.
+    const offPres = socket.on('presence', m => {
+      if (!m) return;
+      setPeople(ps => ps.map(p => Number(p.id) === Number(m.user_id) ? { ...p, online: !!m.online } : p));
+    });
+    // A pushed notification (friend request, acceptance, message…) refreshes
+    // the bell, the tray and the People requests at once.
+    const offNotif = socket.on('notification', () => loadAll());
+    // The "live now" count is pushed by the server the moment it changes —
+    // both the top pill and the Start-calling card read dash.live_now.
+    const offLive = socket.on('live-count', m => { if (m && typeof m.count === 'number') setDash(d => (d ? { ...d, live_now: m.count } : d)); });
+    return () => { offIn(); offCancel(); offPres(); offNotif(); offLive(); };
   }, []);
 
   async function answerIncoming(accept) {
@@ -175,11 +188,22 @@ export default function AppShell({ initialUser }) {
   const curPlan = subData?.packages?.find(p => p.id === subData?.subscription?.package_id);
   const payNotifs = notifs.filter(n => n.kind === 'subscription_reminder');
   const missedNotifs = notifs.filter(n => n.kind === 'missed_call');
+  const reqNotifs = notifs.filter(n => n.kind === 'friend_request' || n.kind === 'friend_accepted');
   const msgNotifs = notifs.filter(n => n.kind === 'message');
-  const otherNotifs = notifs.filter(n => !['subscription_reminder', 'missed_call', 'message'].includes(n.kind));
+  const otherNotifs = notifs.filter(n => !['subscription_reminder', 'missed_call', 'message', 'friend_request', 'friend_accepted'].includes(n.kind));
+  // The bell tray is a preview — at most 10 rows across all sections. The full
+  // list lives on the Notifications page, one "See all" away.
+  let ntBudget = 10;
+  const ntTake = arr => { const s = arr.slice(0, Math.max(0, ntBudget)); ntBudget -= s.length; return s; };
+  const payShown = ntTake(payNotifs);
+  const missedShown = ntTake(missedNotifs);
+  const reqShown = ntTake(reqNotifs);
+  const msgShown = ntTake(msgNotifs);
+  const otherShown = ntTake(otherNotifs);
+  const ntShownCount = payShown.length + missedShown.length + reqShown.length + msgShown.length + otherShown.length;
 
   return (
-    <div className="app-root">
+    <div className={`app-root ${trayOpen ? 'nt-open' : ''}`}>
       <div className="desk-app">
         <aside className="sidebar">
           <div className="logo">talk<i>.</i></div>
@@ -196,12 +220,12 @@ export default function AppShell({ initialUser }) {
             {onlineFriends.length === 0 && <p className="empty-note" style={{ padding: '2px 10px' }}>No friends online right now.</p>}
           </div>
         </aside>
-        <div>
+        <div className="main-col">
           <div className="app-topbar">
             <button className="bell-btn" type="button" aria-label="Notifications" aria-expanded={trayOpen} onClick={() => { setTrayOpen(o => !o); setMenuOpen(false); }}><Ic n="bell" />{unread ? <span className="bell-badge">{unread}</span> : null}</button>
             <button className="me" type="button" title="Profile menu" aria-haspopup="menu" aria-expanded={menuOpen} onClick={() => { setMenuOpen(o => !o); setTrayOpen(false); }}>{me?.avatar ? <img src={me.avatar} alt="" /> : (me?.name || '?').split(' ').map(w => w[0]).slice(0, 2).join('')}</button>
           </div>
-          <div className="center" style={{ paddingTop: 8 }}>
+          <div className={`center ${view === 'chats' ? 'center-fixed' : ''}`} style={{ paddingTop: 8 }}>
             <div className="center-top"><div><div className="hi js-greeting">{greeting}, {displayName(me?.name)}</div><h3>Ready to practise?</h3></div><span className="live-pill"><i></i><span>{dash?.live_now || 0} live now</span></span></div>
             {view === 'dashboard' && <DashboardView me={me} dash={dash} onStartCalling={openStartCalling} />}
             {view === 'rooms' && <RoomsView rooms={rooms} onJoin={joinRoom} onOpenPeople={() => go('people')} onOpenCreate={() => setCreateOpen(true)} />}
@@ -211,6 +235,7 @@ export default function AppShell({ initialUser }) {
             {view === 'settings' && <SettingsView me={me} subData={subData} reload={loadAll} />}
             {view === 'subscription' && <SubscriptionView data={subData} reload={loadAll} />}
             {view === 'support' && <SupportView />}
+            {view === 'notifications' && <NotificationsView notifs={notifs} onMarkAllRead={async () => { await api('/api/notifications', { method: 'POST' }); setReminderNotif(null); loadAll(); }} onOpenPeople={() => go('people')} />}
           </div>
         </div>
       </div>
@@ -242,23 +267,28 @@ export default function AppShell({ initialUser }) {
           <button type="button" className="pm-item pm-logout" onClick={logout}><Ic n="logout" />Log out</button>
         </div>
       )}
-      {trayOpen && (
-        <div className="notif-tray" style={{ top: 58, right: 16 }}>
+      <div className={`nt-scrim ${trayOpen ? 'show' : ''}`} onClick={() => setTrayOpen(false)}></div>
+      {(
+        <div className={`notif-tray ${trayOpen ? 'open' : ''}`}>
           <div className="nt-head"><b>Notifications</b><button type="button" className="nt-clear" onClick={async () => { await api('/api/notifications', { method: 'POST' }); setReminderNotif(null); loadAll(); }}>Mark all read</button></div>
           <div>
-            {payNotifs.length > 0 && <><div className="nt-sec">Payments</div>{payNotifs.map(n => (
+            {payShown.length > 0 && <><div className="nt-sec">Payments</div>{payShown.map(n => (
               <NtItem key={n.id} icon={<span className="avatar" style={{ background: "var(--green)" }}><Taka>৳</Taka></span>} title="Payment reminder" body={n.body} time="Auto" unread={!n.is_read} />
             ))}</>}
-            {missedNotifs.length > 0 && <><div className="nt-sec">Missed calls</div>{missedNotifs.map(n => (
+            {missedShown.length > 0 && <><div className="nt-sec">Missed calls</div>{missedShown.map(n => (
               <NtItem key={n.id} icon={<Avatar user={{ name: n.actor_name || n.title, avatar: n.actor_avatar, color: colorFor(n.actor_id || 0) }} size={40} />} title={n.actor_name || n.title} body="Missed call" time={ntTime(n.created_at)} unread={!n.is_read} missed />
             ))}</>}
-            {msgNotifs.length > 0 && <><div className="nt-sec">Messages</div>{msgNotifs.map(n => (
+            {reqShown.length > 0 && <><div className="nt-sec">Friend requests</div>{reqShown.map(n => (
               <NtItem key={n.id} icon={<Avatar user={{ name: n.actor_name || n.title, avatar: n.actor_avatar, color: colorFor(n.actor_id || 0) }} size={40} />} title={n.actor_name || n.title} body={n.body} time={ntTime(n.created_at)} unread={!n.is_read} />
             ))}</>}
-            {otherNotifs.map(n => (
+            {msgShown.length > 0 && <><div className="nt-sec">Messages</div>{msgShown.map(n => (
+              <NtItem key={n.id} icon={<Avatar user={{ name: n.actor_name || n.title, avatar: n.actor_avatar, color: colorFor(n.actor_id || 0) }} size={40} />} title={n.actor_name || n.title} body={n.body} time={ntTime(n.created_at)} unread={!n.is_read} />
+            ))}</>}
+            {otherShown.map(n => (
               <NtItem key={n.id} icon={<Avatar user={{ name: n.actor_name || n.title, avatar: n.actor_avatar, color: colorFor(n.actor_id || 0) }} size={40} />} title={n.title} body={n.body} time={ntTime(n.created_at)} unread={!n.is_read} />
             ))}
             {notifs.length === 0 && <p className="nt-empty">No notifications.</p>}
+            {notifs.length > ntShownCount && <button type="button" className="nt-seeall" onClick={() => { setTrayOpen(false); go('notifications'); }}>See all notifications</button>}
           </div>
         </div>
       )}

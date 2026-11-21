@@ -14,4 +14,5 @@ function env() { const e = { ...process.env }; for (const f of ['.env.local', '.
   await conn.query("ALTER TABLE notifications ADD COLUMN IF NOT EXISTS actor_id INT UNSIGNED NULL");
   await conn.query("ALTER TABLE calls ADD COLUMN IF NOT EXISTS source VARCHAR(10) NOT NULL DEFAULT 'direct'");
   await conn.query("ALTER TABLE calls MODIFY status ENUM('ringing','active','ended','missed','declined','cancelled') NOT NULL DEFAULT 'ringing'");
+  await conn.query("ALTER TABLE notifications MODIFY kind ENUM('message','missed_call','subscription_reminder','payment','system','friend_request','friend_accepted') NOT NULL");
   const [t] = await conn.query('SHOW TABLES'); console.log('migrate OK, tables:', t.length); await conn.end(); })().catch(err => { console.error('migrate FAILED:', err.message); process.exit(1); });

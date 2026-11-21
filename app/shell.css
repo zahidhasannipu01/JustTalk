@@ -14,6 +14,56 @@ html,body{height:100%}
   .app-root .sidebar{display:none}
   .app-root .center{padding:22px 16px 96px}
   .bottomnav{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:50}
-  .chatview.show-main .bottomnav{display:none}
+  body.chat-open .bottomnav{display:none}
+  /* Chats on the phone (the preview's mobile behaviour): the list comes first
+     at full height; tapping a person opens the conversation full-screen in
+     place of the list — never stacked underneath it. These are the preview's
+     #page-mobile chat rules, applied to the real app shell. */
+  .chatview{display:flex;flex-direction:column;min-height:0}
+  .cv-list{border-right:0;border-bottom:0}
+  .cv-convs{max-height:none}
+  .cv-main{display:none}
+  .chatview.show-main .cv-list{display:none}
+  .chatview.show-main .cv-main{display:flex;position:fixed;inset:0;z-index:70;background:#fff;flex-direction:column}
+  .cv-head{gap:4px;padding:10px 14px 10px 8px}
+  .cv-back{display:grid;width:34px;height:42px;background:none;border-radius:10px;font-size:20px;color:var(--ink)}
+  .cv-back:active{background:var(--soft)}
+  .cv-id{flex:1;gap:10px;padding:2px 0}
+  .cv-head .avatar{width:40px;height:40px}
+  .cv-head .presence{width:12px;height:12px;border-width:2px;right:0;bottom:0}
+  .cv-name{font-size:16px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .cv-sub{font-size:12px;line-height:1.3;margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .cv-actions{margin-left:2px;gap:0}
+  .cv-actions .cv-call-video{display:none}
+  .cv-actions .cv-call-audio{width:42px;height:42px;flex:0 0 42px;padding:0;border-radius:50%;background:var(--green-soft);color:#0B6B4A;display:grid;place-items:center;font-size:0;gap:0}
+  .cv-actions .cv-call-audio .ic{width:19px;height:19px}
+  .cv-msgs{min-height:0;padding:16px 14px 10px}
+  .cv-form{gap:10px;padding:12px 14px 14px;align-items:center}
+  .cv-form button.cv-tool{width:40px;height:40px;flex:0 0 40px;background:transparent;color:var(--muted)}
+  .cv-form .cv-in{flex:1 1 100%;min-width:0;height:52px;padding:14px 18px;font-size:14.5px;background:var(--soft);border-color:transparent}
+  .cv-form .cv-in:focus{border-color:var(--ink);background:#fff}
+  .cv-form .cv-send{width:48px;height:48px;flex:0 0 48px}
+  .emoji-panel{left:2px;bottom:calc(100% + 10px)}
+  /* Notifications on the phone are a DRAWER: the panel slides in from the
+     right edge over a scrim, and the bottom nav slides down out of the way
+     while it is open (both animate back when it closes). */
+  .notif-tray{top:0;right:0;bottom:0;left:auto;width:min(344px,88vw);border:0;border-radius:0;box-shadow:-18px 0 50px rgba(16,18,16,.25);padding:10px 10px 22px;overflow-y:auto;opacity:1;transform:translateX(106%);visibility:hidden;transition:transform .34s cubic-bezier(.32,.72,.24,1),visibility 0s .34s}
+  .notif-tray.open{transform:translateX(0);visibility:visible;transition:transform .34s cubic-bezier(.32,.72,.24,1)}
+  .nt-scrim{display:block;position:fixed;inset:0;background:rgba(16,18,16,.48);z-index:134;opacity:0;pointer-events:none;transition:opacity .28s ease}
+  .nt-scrim.show{opacity:1;pointer-events:auto}
+  .bottomnav{transition:transform .34s cubic-bezier(.32,.72,.24,1)}
+  .app-root.nt-open .bottomnav{transform:translateY(110%)}
+}
+/* Desktop: the app is locked to the viewport — the page itself never scrolls.
+   The sidebar stays put, ordinary pages scroll inside the centre column, and
+   Chats fills the centre with only its own panes (list / messages) scrolling. */
+@media(min-width:901px){
+  .app-root{height:100dvh;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+  .app-root .desk-app{flex:1;min-height:0;overflow:hidden;grid-template-rows:minmax(0,1fr)}
+  .main-col{display:flex;flex-direction:column;min-height:0;min-width:0}
+  .app-root .sidebar{min-height:0;overflow-y:auto}
+  .main-col .center{flex:1;min-height:0;overflow-y:auto}
+  .main-col .center.center-fixed{overflow:hidden;display:flex;flex-direction:column}
+  .center.center-fixed .chatview{flex:1;min-height:0}
 }
 

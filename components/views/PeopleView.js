@@ -24,8 +24,10 @@ export default function PeopleView({ people, requests, reload, onCall, onChat })
         </div>
         {requests.length > 0 && <div style={{ marginBottom: 14 }}>{requests.map(r => (
           <div className="person" key={r.id}><span className="av-wrap"><Avatar user={{ ...r, color: colorFor(r.id) }} size={46} />{r.is_online ? <i className="presence" title="Online"></i> : null}</span><span style={{ flex: 1 }}><b>{r.name}</b><small>wants to practise with you</small></span>
-            <button type="button" className="fr-btn" onClick={() => respond(r, true)}>Accept</button>
-            <button type="button" className="fr-btn" onClick={() => respond(r, false)}>Decline</button></div>
+            <span className="acts">
+              <button type="button" className="mini-btn mini-accept" title="Accept" aria-label={`Accept ${r.name}`} onClick={() => respond(r, true)}><Ic n="check" /></button>
+              <button type="button" className="mini-btn mini-decline" title="Decline" aria-label={`Decline ${r.name}`} onClick={() => respond(r, false)}><Ic n="close" /></button>
+            </span></div>
         ))}</div>}
         <div className="people-list">
           {list.map(p => (

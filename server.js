@@ -69,6 +69,19 @@ function db() {
 async function setPresence(userId, online) {
   try { await db().execute('UPDATE users SET is_online = ?, last_seen_at = NOW() WHERE id = ?', [online ? 1 : 0, userId]); } catch {}
 }
+// Tell everyone connected to this user (friends + conversation partners) that
+// their green dot just changed — pushed once per change, never polled.
+async function notifyPresence(userId, online) {
+  try {
+    const [rows] = await db().query(
+      `SELECT DISTINCT uid FROM (
+         SELECT CASE WHEN user_a = ? THEN user_b ELSE user_a END AS uid FROM conversations WHERE user_a = ? OR user_b = ?
+         UNION
+         SELECT CASE WHEN requester_id = ? THEN addressee_id ELSE requester_id END AS uid FROM friendships WHERE status = 'accepted' AND (requester_id = ? OR addressee_id = ?)
+       ) p`, [userId, userId, userId, userId, userId, userId]);
+    for (const r of rows) sendToUser(Number(r.uid), { t: 'presence', user_id: userId, online });
+  } catch {}
+}
 
 // ---------------- hub ----------------
 const userSockets = new Map(); // userId -> Set<ws>
@@ -76,6 +89,9 @@ const channels = new Map(); // channel name -> Set<ws>
 
 function sendTo(ws, obj) { try { if (ws.readyState === 1) ws.send(JSON.stringify(obj)); } catch {} }
 function sendToUser(userId, obj) { const set = userSockets.get(userId); if (set) for (const ws of set) sendTo(ws, obj); }
+// The "live now" count is global: whenever the number of distinct online
+// users changes, everyone connected hears the new count at once — no refresh.
+function broadcastLiveCount() { const obj = { t: 'live-count', count: userSockets.size }; for (const set of userSockets.values()) for (const ws of set) sendTo(ws, obj); }
 function broadcastPeers(channel) {
   const set = channels.get(channel); if (!set) return;
   const peers = [...new Set([...set].map(ws => ws.userId))];
@@ -123,7 +139,7 @@ app.prepare().then(() => {
     if (!userSockets.has(user.id)) userSockets.set(user.id, new Set());
     const first = userSockets.get(user.id).size === 0;
     userSockets.get(user.id).add(ws);
-    if (first) setPresence(user.id, true);
+    if (first) { setPresence(user.id, true); notifyPresence(user.id, true); broadcastLiveCount(); }
     ws.on('pong', () => { ws.isAlive = true; });
     ws.on('message', raw => {
       let m; try { m = JSON.parse(raw); } catch { return; }
@@ -141,7 +157,7 @@ app.prepare().then(() => {
       if (gone) return; gone = true;
       for (const ch of [...ws.channels]) leaveChannel(ws, ch);
       const set = userSockets.get(user.id);
-      if (set) { set.delete(ws); if (!set.size) { userSockets.delete(user.id); setPresence(user.id, false); } }
+      if (set) { set.delete(ws); if (!set.size) { userSockets.delete(user.id); setPresence(user.id, false); notifyPresence(user.id, false); broadcastLiveCount(); } }
     };
     ws.on('close', bye);
     ws.on('error', bye);

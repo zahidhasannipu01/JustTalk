@@ -17,7 +17,10 @@ export async function GET(req) {
   const rows = await q(`SELECT u.*, (u.is_online = 1 AND last_seen_at >= NOW() - INTERVAL 90 SECOND) AS online_now, ${RATING_SQL}, ${RATING_CATS_SQL} FROM users u JOIN friendships f ON ((f.requester_id = ? AND f.addressee_id = u.id) OR (f.addressee_id = ? AND f.requester_id = u.id)) AND f.status = 'accepted' WHERE u.id != ?`, [me.id, me.id, me.id]);
   const blockedByMe = new Set((await q('SELECT blocked_id FROM blocks WHERE blocker_id = ?', [me.id])).map(r => r.blocked_id));
   const blockedMe = new Set((await q('SELECT blocker_id FROM blocks WHERE blocked_id = ?', [me.id])).map(r => r.blocker_id));
-  const people = rows.map(u => ({ ...shapeUser(parseCats(u), me.id, true), blocked_by_me: blockedByMe.has(u.id), blocked_me: blockedMe.has(u.id) }));
+  // One entry per person, always: the JOIN can return the same user twice when
+  // two friendship rows exist for the pair (one in each direction).
+  const seenIds = new Set();
+  const people = rows.filter(u => { if (seenIds.has(u.id)) return false; seenIds.add(u.id); return true; }).map(u => ({ ...shapeUser(parseCats(u), me.id, true), blocked_by_me: blockedByMe.has(u.id), blocked_me: blockedMe.has(u.id) }));
   const requests = await q(`SELECT u.id, u.name, u.username, u.note, u.avatar, (u.is_online = 1 AND last_seen_at >= NOW() - INTERVAL 90 SECOND) AS is_online FROM users u JOIN friendships f ON f.requester_id = u.id WHERE f.addressee_id = ? AND f.status = 'pending'`, [me.id]);
   return ok({ people, requests });
 }

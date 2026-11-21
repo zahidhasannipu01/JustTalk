@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Ic, Avatar } from '../icons';
 import { api, toast, colorFor } from '@/lib/toast';
+import { socket } from '@/lib/socket';
 
 const EMOJIS = ['😊','😂','😍','👍','🙏','🔥','🎉','❤️','👋','😅','🤔','👏','💯','✨','📚','💬','🎤','☕','🌍','✈️','🤗','👌','😴','🌟'];
 const BN_WORDS = ['ami', 'tumi', 'kemon', 'acho', 'bhalo', 'dhonnobad', 'khub', 'ajke', 'kalke', 'khabar', 'bhai', 'apu', 'kotha', 'bolchi', 'shuncho', 'bangla', 'desh', 'ekhon', 'hobe', 'na'];
@@ -45,14 +46,38 @@ export default function ChatView({ me, initialPerson, onCall }) {
   const [drawer, setDrawer] = useState(false);
   const [search, setSearch] = useState('');
   const [nudge, setNudge] = useState('');
+  // `opened` = the user tapped a conversation (mobile shows the chat instead of
+  // the list). Kept separate from activeId, which desktop pre-selects.
+  const [opened, setOpened] = useState(false);
   const fileRef = useRef(null);
   const msgsRef = useRef(null);
+  const activeIdRef = useRef(null);
   const active = convs.find(c => c.id === activeId) || null;
 
-  async function loadConvs() { try { const d = await api('/api/chats'); setConvs(d.conversations); if (!activeId && d.conversations[0]) setActiveId(d.conversations[0].id); } catch {} }
+  async function loadConvs() { try { const d = await api('/api/chats'); setConvs(d.conversations); if (!activeIdRef.current && d.conversations[0]) setActiveId(d.conversations[0].id); } catch {} }
   useEffect(() => { loadConvs(); }, []);
-  useEffect(() => { if (initialPerson) { (async () => { try { const d = await api('/api/chats', { method: 'POST', body: { user_id: initialPerson.id } }); await loadConvs(); setActiveId(d.id); } catch (e) { toast(e.message); } })(); } }, [initialPerson]);
-  useEffect(() => { if (activeId) { api(`/api/chats/${activeId}/messages`).then(d => { setMsgs(d.messages); setConvs(cs => cs.map(c => c.id === activeId ? { ...c, unread: 0 } : c)); }).catch(() => {}); } }, [activeId]);
+  useEffect(() => { if (initialPerson) { (async () => { try { const d = await api('/api/chats', { method: 'POST', body: { user_id: initialPerson.id } }); await loadConvs(); setActiveId(d.id); setOpened(true); } catch (e) { toast(e.message); } })(); } }, [initialPerson]);
+  useEffect(() => { activeIdRef.current = activeId; if (activeId) { api(`/api/chats/${activeId}/messages`).then(d => { setMsgs(d.messages); setConvs(cs => cs.map(c => c.id === activeId ? { ...c, unread: 0 } : c)); }).catch(() => {}); } }, [activeId]);
+  // Real-time list: a pushed chat-message refreshes latest message + unread at
+  // once (and appends into the open conversation); a presence push flips the
+  // green dot. Socket reconnect resyncs everything.
+  useEffect(() => {
+    const offMsg = socket.on('chat-message', m => {
+      loadConvs();
+      if (m && Number(m.conversation_id) === Number(activeIdRef.current)) api(`/api/chats/${m.conversation_id}/messages`).then(d => setMsgs(d.messages)).catch(() => {});
+    });
+    const offPres = socket.on('presence', m => {
+      if (!m) return;
+      setConvs(cs => cs.map(c => (c.other && Number(c.other.id) === Number(m.user_id)) ? { ...c, other: { ...c.other, online: !!m.online } } : c));
+    });
+    const offOpen = socket.on('_open', () => loadConvs());
+    return () => { offMsg(); offPres(); offOpen(); };
+  }, []);
+  // While a chat is open on mobile the bottom nav steps aside (full-screen chat).
+  useEffect(() => {
+    document.body.classList.toggle('chat-open', opened);
+    return () => document.body.classList.remove('chat-open');
+  }, [opened]);
   useEffect(() => { const el = msgsRef.current; if (el) el.scrollTop = el.scrollHeight; }, [msgs]);
   useEffect(() => { const hit = BN_WORDS.find(w => new RegExp(`\\b${w}\\b`, 'i').test(input)); setNudge(hit || ''); }, [input]);
 
@@ -72,13 +97,13 @@ export default function ChatView({ me, initialPerson, onCall }) {
   const other = active?.other;
   const media = msgs.filter(m => m.kind === 'photo_ref' || m.kind === 'photo_local');
   return (
-    <div className={`chatview ${active ? 'show-main' : ''}`}>
+    <div className={`chatview ${opened ? 'show-main' : ''}`}>
       <aside className="cv-list">
         <div className="cv-list-top"><b>Chats</b><span>{convs.length} people</span></div>
         <div className="search"><Ic n="search" size={17} /><input type="search" placeholder="Search chats…" aria-label="Search chats" value={search} onChange={e => setSearch(e.target.value)} /></div>
         <div className="cv-convs">
           {shown.map(c => (
-            <button type="button" key={c.id} className={`conv ${c.id === activeId ? 'act' : ''}`} onClick={() => setActiveId(c.id)}>
+            <button type="button" key={c.id} className={`conv ${c.id === activeId ? 'act' : ''}`} onClick={() => { setActiveId(c.id); setOpened(true); }}>
               <span className="av-wrap"><Avatar user={{ ...c.other, color: colorFor(c.other?.id) }} size={44} />{c.other?.online ? <i className="presence" title="Online"></i> : null}</span>
               <span className="cmeta"><b>{c.other?.name}</b><small>{c.last ? (c.last.kind === 'photo_ref' ? 'Photo' : (c.last.text || '')) : ''}</small></span>
               {c.unread ? <span className="unread">{c.unread}</span> : <span className="ctime">{timeLabel(c.last?.created_at)}</span>}
@@ -90,7 +115,7 @@ export default function ChatView({ me, initialPerson, onCall }) {
       <section className="cv-main">
         {active && other ? <>
           <header className="cv-head">
-            <button type="button" className="cv-back" aria-label="Back to chats" onClick={() => setActiveId(null)}>←</button>
+            <button type="button" className="cv-back" aria-label="Back to chats" onClick={() => setOpened(false)}>←</button>
             <button type="button" className="cv-id" title="View profile" aria-label="View profile" onClick={() => setDrawer(true)}>
               <span className="av-wrap"><Avatar user={{ ...other, color: colorFor(other.id) }} size={40} />{other.online ? <i className="presence" title="Online"></i> : null}</span>
               <span><b className="cv-name">{other.name}</b><small className="cv-sub">{other.online ? `Online${other.note ? ` · ${other.note}` : ''}` : 'Last seen recently'}</small></span>
