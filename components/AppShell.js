@@ -1,6 +1,7 @@
 'use client';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Ic, Avatar } from './icons';
+import Overlay from './Overlay';
 import CallWindow from './CallWindow';
 import DashboardView from './views/DashboardView';
 import RoomsView from './views/RoomsView';
@@ -264,32 +265,32 @@ export default function AppShell({ initialUser }) {
 
       {matchOpen && <MatchModal onClose={() => setMatchOpen(false)} onGo={g => { setMatchOpen(false); startMatch(g, 'audio'); }} />}
       {consent && (
-        <div className="overlay open" role="dialog" aria-modal="true" aria-label="AI reports"><div className="modal">
+        <Overlay label="AI reports"><div className="modal">
           <div className="modal-head"><div><h3>AI {curPlan?.ai_report_frequency === 'weekly' ? 'weekly' : 'daily'} reports</h3></div><button className="x" type="button" aria-label="Close" onClick={() => setConsent(false)}>×</button></div>
           <p style={{ fontSize: 14, fontWeight: 600, color: 'var(--muted)', lineHeight: 1.55 }}>Your {curPlan?.name} plan includes {curPlan?.ai_report_frequency === 'weekly' ? 'a weekly' : 'a daily'} report on your own speaking — fluency, grammar, vocabulary and what to improve. Turn it on?</p>
           <div className="modal-actions">
             <button type="button" className="btn-soft" style={{ flex: 1 }} onClick={async () => { await api('/api/me', { method: 'PATCH', body: { ai_reports_optin: false } }); setConsent(false); setMatchOpen(true); loadAll(); }}>No, keep it off</button>
             <button type="button" className="btn-accent2" style={{ flex: 1 }} onClick={async () => { await api('/api/me', { method: 'PATCH', body: { ai_reports_optin: true } }); setConsent(false); setMatchOpen(true); loadAll(); }}>Yes, send my reports</button>
           </div>
-        </div></div>
+        </div></Overlay>
       )}
       {createOpen && <CreateRoomModal onClose={() => setCreateOpen(false)} onCreated={async (id, kind, pw) => { setCreateOpen(false); const r = await api('/api/rooms'); setRooms(r.rooms); const room = r.rooms.find(x => x.id === id); if (room) joinRoom(room, pw, kind); loadAll(); }} />}
       {passRoom && (
-        <div className="overlay open" role="dialog" aria-modal="true" aria-label="Room password"><div className="modal">
+        <Overlay label="Room password"><div className="modal">
           <div className="modal-head"><div><h3>{passRoom.title}</h3><p>This room is private — enter its password to join.</p></div><button className="x" type="button" aria-label="Close" onClick={() => setPassRoom(null)}>×</button></div>
           <form onSubmit={e => { e.preventDefault(); const pw = new FormData(e.target).get('pw'); joinRoom(passRoom, String(pw || '')); }}>
             <div className="field"><label>Room password</label><input name="pw" type="password" placeholder="Enter the room password" autoComplete="off" /></div>
             {passErr ? <p className="pass-err">That password is not right — check it and try again.</p> : null}
             <div className="modal-actions"><button type="button" className="btn-soft" onClick={() => setPassRoom(null)}>Cancel</button><button type="submit" className="btn-accent2">Join room →</button></div>
           </form>
-        </div></div>
+        </div></Overlay>
       )}
       {blockedPerson && (
-        <div className="overlay open" role="dialog" aria-modal="true" aria-label="Blocked"><div className="modal">
+        <Overlay label="Blocked"><div className="modal">
           <div className="modal-head"><div><h3>Blocked</h3></div><button className="x" type="button" aria-label="Close" onClick={() => setBlockedPerson(null)}>×</button></div>
           <div className="block-hero"><Avatar user={blockedPerson} size={54} /><span><b>{blockedPerson.name}</b><small>{blockedPerson.note || 'This person has blocked you, so you can’t call or message them.'}</small></span></div>
           <div className="modal-actions"><button type="button" className="btn-accent2" style={{ flex: 1 }} onClick={() => setBlockedPerson(null)}>Got it</button></div>
-        </div></div>
+        </div></Overlay>
       )}
       {reminderNotif && (() => {
         const m = /(\S+) renewal ৳(\d+) was due yesterday/.exec(reminderNotif.body || '');
@@ -297,7 +298,7 @@ export default function AppShell({ initialUser }) {
         const price = m ? m[2] : (curPlan?.price_taka ?? '');
         const overdue = !!m;
         return (
-          <div className="overlay open" role="dialog" aria-modal="true" aria-label="Payment reminder"><div className="modal pay-modal">
+          <Overlay label="Payment reminder"><div className="modal pay-modal">
             <div className="modal-head"><div><h3>{overdue ? 'Your payment is overdue' : 'A quick payment reminder'}</h3></div><button className="x" type="button" aria-label="Close" onClick={() => setReminderNotif(null)}>×</button></div>
             <div className="block-hero"><span className="avatar" style={{ background: "var(--green)" }}><Taka>৳</Taka></span><span><b>{planName} plan — <Taka>৳</Taka>{price} / month</b><small>{overdue ? 'Renewal was due yesterday · still unpaid' : reminderNotif.body}</small></span><span className={`pay-badge ${overdue ? 'overdue' : 'due'}`}>{overdue ? 'Overdue' : 'Due soon'}</span></div>
             <div className="modal-actions pay-actions">
@@ -305,15 +306,15 @@ export default function AppShell({ initialUser }) {
               <button type="button" className="btn-dark" onClick={async () => { await dismissReminder(); go('subscription'); }}><Ic n="card" size={16} />Pay now</button>
               <button type="button" className="btn-accent2" onClick={switchToFree}><Ic n="check" size={16} />Switch to free tier</button>
             </div>
-          </div></div>
+          </div></Overlay>
         );
       })()}
       {incoming && (
-        <div className="overlay open" role="dialog" aria-modal="true" aria-label="Incoming call"><div className="modal">
+        <Overlay label="Incoming call"><div className="modal">
           <div className="modal-head"><div><h3>Incoming call</h3></div></div>
           <div className="block-hero"><Avatar user={incoming.partner} size={54} /><span><b>{incoming.partner.name}</b><small>wants to talk with you</small></span></div>
           <div className="modal-actions"><button type="button" className="btn-soft" onClick={() => answerIncoming(false)}>Decline</button><button type="button" className="btn-accent2" style={{ flex: 1 }} onClick={() => answerIncoming(true)}>Accept</button></div>
-        </div></div>
+        </div></Overlay>
       )}
       {call && <CallWindow key={call.call_id || 'searching'} session={call} me={me} onClose={closeCall} onAddPeople={() => go('people')} />}
     </div>
@@ -326,7 +327,7 @@ function MatchModal({ onClose, onGo }) {
   useEffect(() => { (async () => { try { const d = await api('/api/calls/match'); setCounts(d.counts); } catch {} })(); }, []);
   const n = counts ? (gender === 'any' ? counts.any : counts[gender]) : null;
   return (
-    <div className="overlay open" role="dialog" aria-modal="true" aria-label="Start calling"><div className="modal">
+    <Overlay label="Start calling"><div className="modal">
       <div className="modal-head"><div><h3>Start calling</h3></div><button className="x" type="button" aria-label="Close" onClick={onClose}>×</button></div>
       <div className="field"><label>Partner gender</label>
         <div className="chips" id="match-gender-chips">
@@ -337,7 +338,7 @@ function MatchModal({ onClose, onGo }) {
       </div>
       <p className="field-note" style={{ margin: '2px 0 14px' }}>{n != null ? `${n} matches online` : ' '}</p>
       <div className="modal-actions"><button type="button" className="btn-soft" onClick={onClose}>Cancel</button><button type="button" className="btn-accent2" onClick={() => onGo(gender)}>Start calling</button></div>
-    </div></div>
+    </div></Overlay>
   );
 }
 
@@ -349,7 +350,7 @@ function CreateRoomModal({ onClose, onCreated }) {
     catch (err) { toast(err.message); }
   }
   return (
-    <div className="overlay open" role="dialog" aria-modal="true" aria-label="Create room"><div className="modal">
+    <Overlay label="Create room"><div className="modal">
       <div className="modal-head"><div><h3>Create a room</h3></div><button className="x" type="button" aria-label="Close" onClick={onClose}>×</button></div>
       <form onSubmit={submit}>
         <div className="field"><label>Room title</label><input placeholder="Room title" required value={title} onChange={e => setTitle(e.target.value)} /></div>
@@ -359,6 +360,6 @@ function CreateRoomModal({ onClose, onCreated }) {
         {vis === 'private' && <div className="field"><label>Room password</label><input type="password" placeholder="Room password" autoComplete="new-password" value={password} onChange={e => setPassword(e.target.value)} required /></div>}
         <div className="modal-actions"><button type="button" className="btn-soft" onClick={onClose}>Cancel</button><button type="submit" className="btn-accent2">Create &amp; join room →</button></div>
       </form>
-    </div></div>
+    </div></Overlay>
   );
 }

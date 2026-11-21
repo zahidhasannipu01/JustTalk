@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Ic, Avatar } from '../icons';
+import Overlay from '../Overlay';
 import { api, toast, colorFor } from '@/lib/toast';
 
 const REASONS = ['Harassment', 'Inappropriate behaviour', 'Spam or scam', 'Hate speech', 'Impersonation', 'Other'];
@@ -63,7 +64,7 @@ export function ReportModal({ person, onClose }) {
     catch (err) { toast(err.message); }
   }
   return (
-    <div className="overlay open" role="dialog" aria-modal="true" aria-label="Report this person"><div className="modal">
+    <Overlay label="Report this person"><div className="modal">
       <div className="modal-head"><div><h3>Report this person?</h3></div><button className="x" type="button" aria-label="Close" onClick={onClose}>×</button></div>
       <div className="block-hero"><Avatar user={{ ...person, color: colorFor(person.id) }} size={46} /><span><b>{person.name}</b><small>{person.note || 'Practice partner'}</small></span></div>
       <form onSubmit={submit}>
@@ -71,7 +72,7 @@ export function ReportModal({ person, onClose }) {
         <div className="field"><label>What happened? <span style={{ color: 'var(--muted)', fontWeight: 600 }}>(optional)</span></label><textarea placeholder="Details" value={details} onChange={e => setDetails(e.target.value)} /></div>
         <div className="modal-actions"><button type="button" className="btn-soft" onClick={onClose}>Cancel</button><button type="submit" className="btn-accent2">Send report</button></div>
       </form>
-    </div></div>
+    </div></Overlay>
   );
 }
 
@@ -82,11 +83,11 @@ export function BlockModal({ person, onClose, reload, onBlocked }) {
     catch (e) { toast(e.message); }
   }
   return (
-    <div className="overlay open" role="dialog" aria-modal="true" aria-label={un ? 'Unblock this person' : 'Block this person'}><div className="modal">
+    <Overlay label={un ? 'Unblock this person' : 'Block this person'}><div className="modal">
       <div className="modal-head"><div><h3>{un ? 'Unblock this person?' : 'Block this person?'}</h3></div><button className="x" type="button" aria-label="Close" onClick={onClose}>×</button></div>
       <div className="block-hero"><Avatar user={{ ...person, color: colorFor(person.id) }} size={46} /><span><b>{person.name}</b><small>{person.note || 'Practice partner'}</small></span></div>
       <div className="modal-actions"><button type="button" className="btn-soft" onClick={onClose}>Cancel</button><button type="button" className="btn-block-confirm" onClick={confirm}>{un ? 'Unblock' : 'Block'}</button></div>
-    </div></div>
+    </div></Overlay>
   );
 }
 
@@ -101,7 +102,7 @@ function AddPersonModal({ onClose, reload }) {
   }, [term]);
   async function add(u) { try { const d = await api('/api/people/add', { method: 'POST', body: { user_id: u.id } }); setSent(s => ({ ...s, [u.id]: d.status })); toast(d.status === 'accepted' ? 'Added to your people' : 'Friend request sent'); reload(); } catch (err) { toast(err.message); } }
   return (
-    <div className="overlay open" role="dialog" aria-modal="true" aria-label="Add person"><div className="modal">
+    <Overlay label="Add person"><div className="modal">
       <div className="modal-head"><div><h3>Add person</h3></div><button className="x" type="button" aria-label="Close" onClick={onClose}>×</button></div>
       <form onSubmit={e => e.preventDefault()}>
         <div className="field"><label>Search by name or email</label><input type="text" placeholder="Type a name or email address" autoComplete="off" value={term} onChange={e => setTerm(e.target.value)} /></div>
@@ -115,6 +116,6 @@ function AddPersonModal({ onClose, reload }) {
         {results && results.length === 0 && <p className="ap-state">No one found with that name or email.</p>}
         <div className="modal-actions"><button type="button" className="btn-soft" style={{ flex: 1 }} onClick={onClose}>Cancel</button></div>
       </form>
-    </div></div>
+    </div></Overlay>
   );
 }

@@ -203,7 +203,7 @@
 .m-row .sub-nav-badge{margin-left:0}
 @media(prefers-reduced-motion:reduce){.m-drawer,.m-scrim{transition:none}}
 /* ---------- Modals ---------- */
-.overlay{position:fixed;inset:0;background:rgba(16,18,16,.52);backdrop-filter:blur(3px);z-index:80;display:none;align-items:flex-end;justify-content:center;padding:18px}.overlay.open{display:flex}
+.overlay{position:fixed;top:0;left:0;right:0;bottom:0;width:100vw;height:100dvh;background:rgba(16,18,16,.52);z-index:999;display:none;align-items:flex-end;justify-content:center;padding:18px}.overlay.open{display:flex}
 @media(min-width:700px){.overlay{align-items:center}}
 .modal{background:#fff;border-radius:26px;width:min(520px,100%);max-height:88vh;overflow-y:auto;padding:28px;box-shadow:0 30px 80px rgba(0,0,0,.3)}
 .pay-modal{width:min(660px,100%)}
@@ -841,7 +841,7 @@
 @media(prefers-reduced-motion:reduce){.cc-btn,.cc-end{transition:none}}
 .callmin{position:fixed;z-index:90;right:16px;bottom:16px;background:#101815;color:#fff;border-radius:999px;padding:8px 8px 8px 10px;display:none;align-items:center;gap:10px;box-shadow:0 20px 50px rgba(0,0,0,.4);cursor:grab;touch-action:none;user-select:none}.callmin.show{display:flex}.callmin .avatar{width:38px;height:38px;font-size:12px}.callmin b{font-size:13px;display:block;line-height:1.15}.callmin small{font-size:11.5px;opacity:.65;font-weight:700}.callmin button{width:36px;height:36px;border-radius:50%;border:0;display:grid;place-items:center;background:rgba(255,255,255,.12);color:#fff}.callmin button.endb{background:var(--red)}
 .incoming-actions{display:flex;gap:10px;padding:0 12px 16px}.incoming-actions button{flex:1;border:0;border-radius:999px;min-height:48px;font-weight:800}.incoming-actions .decline{background:var(--red);color:#fff}.incoming-actions .accept{background:var(--green);color:#fff}
-.toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,80px);background:var(--ink);color:#fff;border-radius:999px;padding:13px 20px;font-size:13.5px;font-weight:800;z-index:120;transition:transform .3s;box-shadow:0 16px 40px rgba(0,0,0,.3);max-width:92vw;text-align:center}.toast.show{transform:translate(-50%,0)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,80px);background:var(--ink);color:#fff;border-radius:999px;padding:13px 20px;font-size:13.5px;font-weight:800;z-index:1200;transition:transform .3s;box-shadow:0 16px 40px rgba(0,0,0,.3);max-width:92vw;text-align:center}.toast.show{transform:translate(-50%,0)}
 /* ---------- Page-change colour transition : layered curtain in the app's own colours sweeps over, the page swaps beneath it, then it lifts away ---------- */
 #page-wipe{position:fixed;inset:0;z-index:300;pointer-events:none;visibility:hidden}
 #page-wipe .pw-panel{position:absolute;inset:0;transform:translateY(103%);will-change:transform}

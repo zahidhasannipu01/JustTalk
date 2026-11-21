@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Overlay from '../Overlay';
 import { api, toast, Taka } from '@/lib/toast';
 
 const METHODS = [
@@ -72,7 +73,7 @@ function PayModal({ pkg, payNumbers, onClose, onDone }) {
     try { await api('/api/payments', { method: 'POST', body: { package_id: pkg.id, method, sender_number: sender, trxid } }); toast('Waiting for confirmation'); onDone(); } catch (err) { toast(err.message); }
   }
   return (
-    <div className="overlay open" role="dialog" aria-modal="true" aria-label="Pay with bKash or Nagad"><div className="modal">
+    <Overlay label="Pay with bKash or Nagad"><div className="modal">
       <div className="modal-head"><div><h3>Pay for {pkg.name} — manual payment</h3></div><button className="x" type="button" aria-label="Close" onClick={onClose}>×</button></div>
       <div className="mp-amount"><span><small>{pkg.name} plan · per month</small><b><Taka>৳</Taka>{pkg.price_taka}</b></span><span className="mp-send">SEND MONEY</span></div>
       <div className="mp-sec-t"><span className="n">1</span> Send the money</div>
@@ -98,6 +99,6 @@ function PayModal({ pkg, payNumbers, onClose, onDone }) {
         <div className="field"><label>Transaction ID (TrxID)</label><input placeholder="Transaction ID (TrxID)" autoComplete="off" style={{ textTransform: 'uppercase' }} value={trxid} onChange={e => setTrxid(e.target.value)} required /></div>
         <div className="modal-actions"><button type="button" className="btn-soft" style={{ flex: '0 0 auto', padding: '0 18px' }} onClick={onClose}>Not now</button><button type="submit" className="btn-accent2" style={{ flex: 1 }}>Submit — I have paid →</button></div>
       </form>
-    </div></div>
+    </div></Overlay>
   );
 }

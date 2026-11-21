@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import { Ic, Avatar } from './icons';
+import Overlay from './Overlay';
 import { api, toast, initials } from '@/lib/toast';
 import { socket } from '@/lib/socket';
 import { ReportModal, BlockModal } from './views/PeopleView';
@@ -309,7 +310,7 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
   const mm = String(Math.floor(secs / 60)).padStart(2, '0'), ss = String(secs % 60).padStart(2, '0');
 
   if (rate) return (
-    <div className="overlay open" role="dialog" aria-modal="true" aria-label="Rate your partner"><div className="modal">
+    <Overlay label="Rate your partner"><div className="modal">
       <div className="modal-head"><div><h3>Rate your partner</h3></div><button className="x" type="button" aria-label="Close" onClick={onClose}>×</button></div>
       <div className="rate-partner"><Avatar user={partner} size={46} /><span><b>{partner.name}</b><small>{partner.note || ''}</small></span><span className="rate-dur">{mm}:{ss}</span></div>
       {session.matched && partner.id ? <div className="friend-row"><span className="fr-txt">{friendSent ? 'Friend request sent' : 'Want to practise with this partner again?'}</span><button type="button" className="fr-btn" disabled={friendSent} onClick={async () => { try { await api('/api/people/add', { method: 'POST', body: { user_id: partner.id } }); setFriendSent(true); toast('Friend request sent'); } catch (e) { toast(e.message); } }}>{friendSent ? 'Request sent' : 'Send friend request'}</button></div> : null}
@@ -327,7 +328,7 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
       </div>}
       {showReport && <ReportModal person={partner} onClose={() => setShowReport(false)} />}
       {showBlock && <BlockModal person={partner} onClose={() => setShowBlock(false)} onBlocked={() => { setShowBlock(false); onClose(); }} />}
-    </div></div>
+    </div></Overlay>
   );
 
   if (phase === 'searching') return (
