@@ -45,6 +45,8 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
   const localRef = useRef(null); // my own mic/camera stream
   const connectedRef = useRef(false);
   const gotSignalRef = useRef(false); // any signal at all from the partner on this channel
+  const mediaReadyRef = useRef(null); // getUserMedia promise — signal handlers wait for it
+  const sigChainRef = useRef(Promise.resolve()); // serializes signal handling (offer fully lands before its ICE)
   const endedRef = useRef(false);
   const frozenRef = useRef(null);
   const spkRef = useRef(true);
@@ -76,7 +78,7 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
     const existing = peersRef.current.get(peerId); if (existing) return existing;
     const pc = new RTCPeerConnection(RTC_CONFIG);
     // Perfect negotiation: the higher user id is the polite peer (rolls back on a clash).
-    const entry = { pc, polite: me.id > peerId, makingOffer: false, ignoreOffer: false, audioEl: null };
+    const entry = { pc, polite: me.id > peerId, makingOffer: false, ignoreOffer: false, audioEl: null, pendingIce: [] };
     peersRef.current.set(peerId, entry);
     const stream = localRef.current;
     if (stream) stream.getTracks().forEach(t => { try { pc.addTrack(t, stream); } catch {} });
@@ -115,7 +117,31 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
     return entry;
   }
 
-  async function handleSignal(sig) {
+  // Create the peer only once my media is ready, so its tracks are attached
+  // from the start. A slow microphone must never cost us the call.
+  async function ensurePeer(peerId) {
+    if (mediaReadyRef.current) { try { await mediaReadyRef.current; } catch {} }
+    return createPeer(peerId);
+  }
+
+  // ICE candidates that arrived before the remote description existed are
+  // buffered per peer and applied the moment it lands — dropping them (the
+  // old behaviour) killed exactly the host candidates two browsers on the
+  // same network depend on.
+  async function flushIce(entry) {
+    const pc = entry.pc; if (!pc.remoteDescription) return;
+    const pend = entry.pendingIce.splice(0);
+    for (const c of pend) { try { await pc.addIceCandidate(c); } catch {} }
+  }
+
+  // Signals are handled one at a time, in arrival order: an offer's remote
+  // description is fully set before the ICE candidates behind it are read.
+  function handleSignal(sig) {
+    sigChainRef.current = sigChainRef.current.then(() => handleSignalInner(sig)).catch(() => {});
+    return sigChainRef.current;
+  }
+
+  async function handleSignalInner(sig) {
     if (sig.room !== session.room_name) return;
     const from = sig.from; if (!from || from === me.id) return;
     gotSignalRef.current = true;
@@ -133,19 +159,22 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
     // the call-accepted push may have raced my listener registration, so the
     // offer itself is proof enough to go live.
     if (sig.kind === 'offer' && phaseRef.current === 'ringing' && partner.id && from === Number(partner.id)) goPhase('live');
-    const entry = createPeer(from); const pc = entry.pc;
+    const entry = await ensurePeer(from); const pc = entry.pc;
     try {
       if (sig.kind === 'offer') {
         const collision = entry.makingOffer || pc.signalingState !== 'stable';
         entry.ignoreOffer = !entry.polite && collision;
         if (entry.ignoreOffer) return;
         await pc.setRemoteDescription(sig.payload);
+        await flushIce(entry);
         await pc.setLocalDescription();
         sendSignal(from, 'answer', { type: pc.localDescription.type, sdp: pc.localDescription.sdp });
       } else if (sig.kind === 'answer') {
         await pc.setRemoteDescription(sig.payload);
+        await flushIce(entry);
       } else if (sig.kind === 'ice') {
-        try { await pc.addIceCandidate(sig.payload); } catch (e) { if (!entry.ignoreOffer) throw e; }
+        if (!pc.remoteDescription) entry.pendingIce.push(sig.payload);
+        else { try { await pc.addIceCandidate(sig.payload); } catch (e) { if (!entry.ignoreOffer) throw e; } }
       }
     } catch {}
   }
@@ -162,67 +191,78 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
     if (phaseRef.current === 'searching') return; // nothing to connect yet
     let ringTimer = null;
     let watchdog = null;
-    (async () => {
-      try {
-        // Microphone first — the camera is never asked for here. Rooms joined
-        // as video are the one exception (the member chose video to enter).
-        const stream = await navigator.mediaDevices.getUserMedia({
-          audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true },
-          video: roomId && session.kind === 'video' ? VIDEO_CONSTRAINTS : false,
-        });
-        localRef.current = stream;
-        if (selfVideoRef.current) selfVideoRef.current.srcObject = stream;
-        setStatus(roomId ? 'In room' : 'Ringing…');
-        socket.join(session.room_name);
-        offsRef.current.push(socket.on('signal', handleSignal));
-        if (roomId) {
-          // Mesh: the lower user id opens the connection to each other person;
-          // anyone who left gets closed.
-          offsRef.current.push(socket.on('peers', m => {
-            if (m.room !== session.room_name) return;
-            const ids = (m.peers || []).filter(id => id !== me.id);
-            for (const id of ids) { if (me.id < id) createPeer(id); }
-            for (const pid of [...peersRef.current.keys()]) { if (!ids.includes(pid)) closePeer(pid); }
-          }));
-        } else if (partner.id) {
-          offsRef.current.push(socket.on('call-accepted', m => {
-            if (m.call_id !== session.call_id || phaseRef.current !== 'ringing') return;
-            if (ringTimer) { clearTimeout(ringTimer); ringTimer = null; }
-            goPhase('live');
-            createPeer(Number(partner.id));
-          }));
-          offsRef.current.push(socket.on('call-declined', m => {
-            if (m.call_id !== session.call_id) return;
-            toast('Partner declined the call');
-            onCloseRef.current();
-          }));
-          if (phaseRef.current === 'live') {
-            // I am the one who accepted: open the connection from my side too,
-            // so the call still connects if the caller missed the accept push.
-            // Perfect negotiation (above) resolves any double-offer.
-            createPeer(Number(partner.id));
-            // Ghost-call watchdog: if the partner never sends a single
-            // signal on this channel and nothing connects, this window sits
-            // on "Ringing…" forever and the call row stays 'active' (which
-            // then poisons the next match). Settle it and close instead.
-            watchdog = setTimeout(() => {
-              if (connectedRef.current || gotSignalRef.current) return;
-              api('/api/calls/end', { method: 'POST', body: { call_id: session.call_id } }).catch(() => {});
-              toast('Call could not connect');
-              onCloseRef.current();
-            }, 25000);
-          }
-          if (phaseRef.current === 'ringing') {
-            ringTimer = setTimeout(async () => {
-              if (phaseRef.current !== 'ringing') return;
-              try { await api('/api/calls/answer', { method: 'POST', body: { call_id: session.call_id, action: 'cancel' } }); } catch {}
-              toast('No answer');
-              onCloseRef.current();
-            }, 45000);
-          }
-        }
-      } catch (e) { setStatus('Could not connect'); toast('Call could not connect — check microphone/camera permission'); }
+    // Listen FIRST, microphone second. The server pushes 'call-accepted' to
+    // the caller before the accepter's answer request has even returned, so
+    // the caller starts negotiating while the accepter's window is still
+    // starting up. When the signal listener was registered only after
+    // getUserMedia (the old order), that first offer landed while nobody
+    // was listening and was silently dropped — the surviving offer then
+    // deadlocked in perfect negotiation, and both windows sat on "Ringing…"
+    // until a page reload. (Reproduced: a 1.5s microphone delay on the
+    // accepter was enough to kill every negotiation.)
+    socket.join(session.room_name);
+    offsRef.current.push(socket.on('signal', handleSignal));
+    if (roomId) {
+      // Mesh: the lower user id opens the connection to each other person;
+      // anyone who left gets closed.
+      offsRef.current.push(socket.on('peers', m => {
+        if (m.room !== session.room_name) return;
+        const ids = (m.peers || []).filter(id => id !== me.id);
+        for (const id of ids) { if (me.id < id) createPeer(id); }
+        for (const pid of [...peersRef.current.keys()]) { if (!ids.includes(pid)) closePeer(pid); }
+      }));
+    } else if (partner.id) {
+      offsRef.current.push(socket.on('call-accepted', m => {
+        if (m.call_id !== session.call_id || phaseRef.current !== 'ringing') return;
+        if (ringTimer) { clearTimeout(ringTimer); ringTimer = null; }
+        goPhase('live');
+        ensurePeer(Number(partner.id));
+      }));
+      offsRef.current.push(socket.on('call-declined', m => {
+        if (m.call_id !== session.call_id) return;
+        toast('Partner declined the call');
+        onCloseRef.current();
+      }));
+      if (phaseRef.current === 'ringing') {
+        ringTimer = setTimeout(async () => {
+          if (phaseRef.current !== 'ringing') return;
+          try { await api('/api/calls/answer', { method: 'POST', body: { call_id: session.call_id, action: 'cancel' } }); } catch {}
+          toast('No answer');
+          onCloseRef.current();
+        }, 45000);
+      }
+      // A 1-to-1 window that reached the live phase but never connected
+      // settles the call and closes — on EITHER side. The old caller-side
+      // window had no such guard once the phase flipped live, so a dead
+      // negotiation rang forever. A healthy call connects in seconds.
+      watchdog = setTimeout(() => {
+        if (phaseRef.current !== 'live' || connectedRef.current) return;
+        api('/api/calls/end', { method: 'POST', body: { call_id: session.call_id } }).catch(() => {});
+        toast('Call could not connect');
+        onCloseRef.current();
+      }, 30000);
+    }
+    // The microphone — the camera is never asked for here. Rooms joined as
+    // video are the one exception (the member chose video to enter). The
+    // promise is shared: signal handlers wait on it before touching a peer
+    // connection, so a slow microphone can no longer lose the call.
+    mediaReadyRef.current = (async () => {
+      const stream = await navigator.mediaDevices.getUserMedia({
+        audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true },
+        video: roomId && session.kind === 'video' ? VIDEO_CONSTRAINTS : false,
+      });
+      localRef.current = stream;
+      if (selfVideoRef.current) selfVideoRef.current.srcObject = stream;
+      setStatus(roomId ? 'In room' : 'Ringing…');
+      // Peers created before the media arrived (rooms) get my tracks now.
+      for (const entry of peersRef.current.values()) stream.getTracks().forEach(tk => { try { entry.pc.addTrack(tk, stream); } catch {} });
+      // I am the one who accepted: open the connection from my side too, so
+      // the call still connects if the caller missed the accept push.
+      // Perfect negotiation resolves any double-offer.
+      if (!roomId && partner.id && phaseRef.current === 'live') ensurePeer(Number(partner.id));
+      return stream;
     })();
+    mediaReadyRef.current.catch(() => { setStatus('Could not connect'); toast('Call could not connect — check microphone/camera permission'); });
     return () => {
       // NOTE: no 'bye' is sent from here. React StrictMode (dev) unmounts and
       // remounts every component once, so a 'bye' sent from a cleanup kills a
