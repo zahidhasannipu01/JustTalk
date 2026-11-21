@@ -11,7 +11,7 @@ export async function GET() {
   const out = [];
   for (const r of rows) {
     const u = await q1(`SELECT u.*, (u.is_online = 1 AND last_seen_at >= NOW() - INTERVAL 90 SECOND) AS online_now, ${RATING_SQL}, ${RATING_CATS_SQL} FROM users u WHERE u.id = ?`, [r.other_id]);
-    const last = await q1('SELECT kind, ciphertext AS text, created_at FROM messages WHERE conversation_id = ? ORDER BY id DESC LIMIT 1', [r.id]);
+    const last = await q1('SELECT kind, ciphertext AS text, created_at, sender_id FROM messages WHERE conversation_id = ? ORDER BY id DESC LIMIT 1', [r.id]);
     const [un] = await q('SELECT COUNT(*) AS n FROM messages WHERE conversation_id = ? AND sender_id != ? AND read_at IS NULL', [r.id, me.id]);
     const blocked = await q1('SELECT 1 AS x FROM blocks WHERE (blocker_id = ? AND blocked_id = ?) OR (blocker_id = ? AND blocked_id = ?) LIMIT 1', [me.id, r.other_id, r.other_id, me.id]);
     out.push({ id: r.id, other: u ? shapeUser(parseCats(u), me.id, true) : null, last, unread: un.n, chat_disabled: !!blocked });

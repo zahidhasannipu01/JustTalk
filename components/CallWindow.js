@@ -45,6 +45,7 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
   const localRef = useRef(null); // my own mic/camera stream
   const connectedRef = useRef(false);
   const endedRef = useRef(false);
+  const frozenRef = useRef(null);
   const spkRef = useRef(true);
   const phaseRef = useRef(phase);
   const offsRef = useRef([]); // socket unsubscribers
@@ -223,7 +224,7 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
 
   useEffect(() => {
     if (phase === 'searching') return;
-    const t = setInterval(() => setSecs(Math.floor((Date.now() - startedRef.current) / 1000)), 1000);
+    const t = setInterval(() => { if (frozenRef.current != null) return; setSecs(Math.floor((Date.now() - startedRef.current) / 1000)); }, 1000);
     return () => clearInterval(t);
   }, [phase]);
 
@@ -319,6 +320,10 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
     }
     if (!endedRef.current) {
       endedRef.current = true;
+      // Freeze the clock at hang-up: the rate sheet shows this final
+      // duration — the timer must not keep counting after the call is over.
+      frozenRef.current = Math.floor((Date.now() - startedRef.current) / 1000);
+      setSecs(frozenRef.current);
       if (partner.id) sendSignal(Number(partner.id), 'bye', {});
       else sendSignal(null, 'bye', {});
       cleanupMedia();

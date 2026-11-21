@@ -178,7 +178,7 @@ CREATE TABLE IF NOT EXISTS messages (
   id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   conversation_id INT UNSIGNED NOT NULL,
   sender_id INT UNSIGNED NOT NULL,
-  kind ENUM('text','photo_ref') NOT NULL DEFAULT 'text',
+  kind ENUM('text','photo_ref','call_log') NOT NULL DEFAULT 'text',
   ciphertext TEXT NULL,
   read_at DATETIME NULL,
   created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,

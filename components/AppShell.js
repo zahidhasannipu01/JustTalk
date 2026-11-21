@@ -47,6 +47,7 @@ export default function AppShell({ initialUser }) {
   const [me, setMe] = useState(initialUser);
   const [dash, setDash] = useState(null);
   const [people, setPeople] = useState([]);
+  const [everyone, setEveryone] = useState([]);
   const [requests, setRequests] = useState([]);
   const [rooms, setRooms] = useState([]);
   const [subData, setSubData] = useState(null);
@@ -70,7 +71,7 @@ export default function AppShell({ initialUser }) {
   const loadAll = useCallback(async () => {
     try {
       const [m, d, p, r, s, n, t] = await Promise.all([api('/api/me'), api('/api/dashboard'), api('/api/people'), api('/api/rooms'), api('/api/packages'), api('/api/notifications'), api('/api/tickets')]);
-      setMe(m.user); setDash(d); setPeople(p.people); setRequests(p.requests); setRooms(r.rooms); setSubData(s); setNotifs(n.notifications);
+      setMe(m.user); setDash(d); setPeople(p.people); setEveryone(p.everyone || p.people); setRequests(p.requests); setRooms(r.rooms); setSubData(s); setNotifs(n.notifications);
       setOpenTickets((t.tickets || []).filter(x => x.status !== 'resolved').length);
       const rem = n.notifications.find(x => x.kind === 'subscription_reminder' && !x.is_read);
       if (rem) {
@@ -239,7 +240,7 @@ export default function AppShell({ initialUser }) {
             <div className="center-top"><div><div className="hi js-greeting">{greeting}, {displayName(me?.name)}</div><h3>Ready to practise?</h3></div><span className="live-pill"><i></i><span>{dash?.live_now || 0} live now</span></span></div>
             {view === 'dashboard' && <DashboardView me={me} dash={dash} onStartCalling={openStartCalling} />}
             {view === 'rooms' && <RoomsView rooms={rooms} onJoin={joinRoom} onOpenPeople={() => go('people')} onOpenCreate={() => setCreateOpen(true)} />}
-            {view === 'people' && <PeopleView people={people} requests={requests} reload={loadAll} onCall={startDirectCall} onChat={p => { setChatPerson(p); go('chats'); }} />}
+            {view === 'people' && <PeopleView people={people} everyone={everyone} requests={requests} reload={loadAll} onCall={startDirectCall} onChat={p => { setChatPerson(p); go('chats'); }} />}
             {view === 'chats' && <ChatView me={me} initialPerson={chatPerson} onCall={startDirectCall} />}
             {view === 'profile' && <ProfileView me={me} dash={dash} people={people} onCall={startDirectCall} onLogout={logout} />}
             {view === 'settings' && <SettingsView me={me} subData={subData} reload={loadAll} />}

@@ -7,6 +7,14 @@ import { socket } from '@/lib/socket';
 const EMOJIS = ['😊','😂','😍','👍','🙏','🔥','🎉','❤️','👋','😅','🤔','👏','💯','✨','📚','💬','🎤','☕','🌍','✈️','🤗','👌','😴','🌟'];
 const BN_WORDS = ['ami', 'tumi', 'kemon', 'acho', 'bhalo', 'dhonnobad', 'khub', 'ajke', 'kalke', 'khabar', 'bhai', 'apu', 'kotha', 'bolchi', 'shuncho', 'bangla', 'desh', 'ekhon', 'hobe', 'na'];
 const WD = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+// Call-log entries (Messenger-style rows inside the chat) carry a small
+// JSON payload: { k: 'audio'|'video', s: 'done'|'missed', d: seconds }.
+function parseCallLog(text) { try { const j = JSON.parse(text || ''); if (j && (j.k === 'audio' || j.k === 'video')) return j; } catch {} return null; }
+function callLogLabel(j, mine) {
+  if (j.s === 'missed') return mine ? `${j.k === 'video' ? 'Video' : 'Audio'} call · No answer` : `Missed ${j.k === 'video' ? 'video' : 'audio'} call`;
+  const d = Math.max(0, Math.floor(j.d || 0));
+  return `${j.k === 'video' ? 'Video' : 'Audio'} call · ${String(Math.floor(d / 60)).padStart(2, '0')}:${String(d % 60).padStart(2, '0')}`;
+}
 function timeLabel(d) {
   if (!d) return '';
   const dt = new Date(d); const now = new Date();
@@ -114,7 +122,7 @@ export default function ChatView({ me, initialPerson, onCall }) {
           {shown.map(c => (
             <button type="button" key={c.id} className={`conv ${c.id === activeId ? 'act' : ''}`} onClick={() => { setActiveId(c.id); setOpened(true); }}>
               <span className="av-wrap"><Avatar user={{ ...c.other, color: colorFor(c.other?.id) }} size={44} />{c.other?.online ? <i className="presence" title="Online"></i> : null}</span>
-              <span className="cmeta"><b>{c.other?.name}</b><small>{c.last ? (c.last.kind === 'photo_ref' ? 'Photo' : (c.last.text || '')) : ''}</small></span>
+              <span className="cmeta"><b>{c.other?.name}</b><small>{c.last ? (c.last.kind === 'photo_ref' ? 'Photo' : c.last.kind === 'call_log' ? callLogLabel(parseCallLog(c.last.text) || { k: 'audio', s: 'done', d: 0 }, c.last.sender_id === me.id) : (c.last.text || '')) : ''}</small></span>
               {c.unread ? <span className="unread">{c.unread}</span> : <span className="ctime">{timeLabel(c.last?.created_at)}</span>}
             </button>
           ))}
@@ -143,6 +151,7 @@ export default function ChatView({ me, initialPerson, onCall }) {
                 const mine = m.sender_id === me.id;
                 if (m.kind === 'photo_local') nodes.push(<div key={m.id} className="bubble me has-img"><img className="chat-img" src={m.text} alt="Photo you sent" /></div>);
                 else if (m.kind === 'photo_ref') { const ph = parsePhoto(m.text); nodes.push(<div key={m.id} className={`bubble ${mine ? 'me' : 'them'} has-img`}>{ph.src ? <img className="chat-img" src={ph.src} alt={ph.cap ? `Photo — ${ph.cap}` : 'Shared photo'} /> : <span className="img-cap">Photo</span>}{ph.cap ? <span className="img-cap">{ph.cap}</span> : null}</div>); }
+                else if (m.kind === 'call_log') { const j = parseCallLog(m.text); nodes.push(<div key={m.id} className={`cv-calllog ${j && j.s === 'missed' && !mine ? 'missed' : ''}`}><span className="cv-calllog-ic"><Ic n={j && j.k === 'video' ? 'video' : 'phone'} size={13} /></span>{j ? callLogLabel(j, mine) : 'Call'}</div>); }
                 else nodes.push(<div key={m.id} className={`bubble ${mine ? 'me' : 'them'}`}>{m.text}</div>);
               }
               if (msgs.length === 0) { nodes.push(<div className="cv-day" key="d0">Today</div>); nodes.push(<div className="cv-enc" key="e0"><Ic n="lock" size={14} /><span><b>End-to-end encrypted</b></span></div>); }

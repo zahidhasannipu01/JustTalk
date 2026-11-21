@@ -38,6 +38,7 @@ const P = {
   logout: <><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" /><path d="m16 17 5-5-5-5M21 12H9" /></>,
   minus: <path d="M5 12h14" />,
   adduser: <><circle cx="10" cy="8" r="3.5" /><path d="M4 19.5c.5-3 2.6-4.7 6-4.7 1 0 1.9.2 2.7.5M18 8v6M15 11h6" /></>,
+  removeuser: <><circle cx="10" cy="8" r="3.5" /><path d="M4 19.5c.5-3 2.6-4.7 6-4.7 1 0 1.9.2 2.7.5M15 11h6" /></>,
 };
 export function Ic({ n, size }) {
   return <span className="ic" style={size ? { width: size, height: size } : undefined}><svg viewBox="0 0 24 24">{P[n] || null}</svg></span>;

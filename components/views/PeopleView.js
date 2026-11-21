@@ -6,17 +6,20 @@ import { api, toast, colorFor } from '@/lib/toast';
 
 const REASONS = ['Harassment', 'Inappropriate behaviour', 'Spam or scam', 'Hate speech', 'Impersonation', 'Other'];
 
-export default function PeopleView({ people, requests, reload, onCall, onChat }) {
+export default function PeopleView({ people, everyone, requests, reload, onCall, onChat }) {
   const [search, setSearch] = useState('');
   const [addOpen, setAddOpen] = useState(false);
   const [reportP, setReportP] = useState(null);
   const [blockP, setBlockP] = useState(null);
-  const list = useMemo(() => people.filter(p => p.name.toLowerCase().includes(search.toLowerCase())), [people, search]);
+  const [unfriendP, setUnfriendP] = useState(null);
+  const all = everyone || people;
+  const list = useMemo(() => all.filter(p => p.name.toLowerCase().includes(search.toLowerCase())), [all, search]);
   async function respond(r, accept) { try { await api('/api/people/respond', { method: 'POST', body: { user_id: r.id, accept } }); reload(); } catch (e) { toast(e.message); } }
+  async function addFriend(p) { try { const d = await api('/api/people/add', { method: 'POST', body: { user_id: p.id } }); toast(d.status === 'accepted' ? 'Added to your people' : 'Friend request sent'); reload(); } catch (e) { toast(e.message); } }
   async function unblock(p) { try { await api('/api/people/block', { method: 'POST', body: { user_id: p.id, block: false } }); toast('Unblocked'); reload(); } catch (e) { toast(e.message); } }
   return (
     <div className="peoplepage" aria-label="People">
-      <div className="pp-head"><h3>People</h3><p>{people.length} people · tap + to add someone new.</p></div>
+      <div className="pp-head"><h3>People</h3><p>{all.length} people · tap + to add someone new.</p></div>
       <div className="pp-body">
         <div className="pp-search-row">
           <div className="search"><Ic n="search" size={17} /><input type="search" placeholder="Search people…" aria-label="Search people" value={search} onChange={e => setSearch(e.target.value)} /></div>
@@ -41,18 +44,23 @@ export default function PeopleView({ people, requests, reload, onCall, onChat })
               </span>
               <span className="acts">
                 <button type="button" className="mini-btn mini-call" title="Call" aria-label={`Call ${p.name}`} onClick={() => onCall(p, 'video')}><Ic n="phone" /></button>
-                <button type="button" className="mini-btn mini-add" title="Add to call" aria-label={`Add ${p.name} to the call`} onClick={() => onCall(p, 'audio')}><Ic n="adduser" /></button>
+                {p.is_friend
+                  ? <button type="button" className="mini-btn mini-unfriend" title="Unfriend" aria-label={`Unfriend ${p.name}`} onClick={() => setUnfriendP(p)}><Ic n="removeuser" /></button>
+                  : p.request_sent
+                    ? <button type="button" className="mini-btn mini-add added" title="Request sent" aria-label={`Friend request sent to ${p.name}`} disabled><Ic n="check" /></button>
+                    : <button type="button" className="mini-btn mini-add" title="Add friend" aria-label={`Add ${p.name} as a friend`} onClick={() => addFriend(p)}><Ic n="adduser" /></button>}
                 <button type="button" className="mini-btn mini-report" title="Report" aria-label={`Report ${p.name}`} onClick={() => setReportP(p)}><Ic n="flag" /></button>
                 <button type="button" className={`mini-btn mini-block ${p.blocked_by_me ? 'is-unblock' : ''}`} title={p.blocked_by_me ? 'Unblock' : 'Block'} aria-label={p.blocked_by_me ? `Unblock ${p.name}` : `Block ${p.name}`} onClick={() => p.blocked_by_me ? unblock(p) : setBlockP(p)}><Ic n={p.blocked_by_me ? 'unblock' : 'ban'} /></button>
               </span>
             </div>
           ))}
         </div>
-        {list.length === 0 && <p className="empty-note people-page-empty">{people.length ? 'No friend matches that search.' : 'No people yet — after a random call, send a friend request to add someone here.'}</p>}
+        {list.length === 0 && <p className="empty-note people-page-empty">{all.length ? 'No friend matches that search.' : 'No people yet — after a random call, send a friend request to add someone here.'}</p>}
       </div>
       {addOpen && <AddPersonModal onClose={() => setAddOpen(false)} reload={reload} />}
       {reportP && <ReportModal person={reportP} onClose={() => setReportP(null)} />}
       {blockP && <BlockModal person={blockP} onClose={() => setBlockP(null)} reload={reload} />}
+      {unfriendP && <UnfriendModal person={unfriendP} onClose={() => setUnfriendP(null)} reload={reload} />}
     </div>
   );
 }
@@ -89,6 +97,20 @@ export function BlockModal({ person, onClose, reload, onBlocked }) {
       <div className="modal-head"><div><h3>{un ? 'Unblock this person?' : 'Block this person?'}</h3></div><button className="x" type="button" aria-label="Close" onClick={onClose}>×</button></div>
       <div className="block-hero"><Avatar user={{ ...person, color: colorFor(person.id) }} size={46} /><span><b>{person.name}</b><small>{person.note || 'Practice partner'}</small></span></div>
       <div className="modal-actions"><button type="button" className="btn-soft" onClick={onClose}>Cancel</button><button type="button" className="btn-block-confirm" onClick={confirm}>{un ? 'Unblock' : 'Block'}</button></div>
+    </div></Overlay>
+  );
+}
+
+export function UnfriendModal({ person, onClose, reload }) {
+  async function confirm() {
+    try { await api('/api/people/unfriend', { method: 'POST', body: { user_id: person.id } }); toast('Unfriended'); onClose(); reload && reload(); }
+    catch (e) { toast(e.message); }
+  }
+  return (
+    <Overlay label="Unfriend this person"><div className="modal">
+      <div className="modal-head"><div><h3>Unfriend this person?</h3></div><button className="x" type="button" aria-label="Close" onClick={onClose}>×</button></div>
+      <div className="block-hero"><Avatar user={{ ...person, color: colorFor(person.id) }} size={46} /><span><b>{person.name}</b><small>{person.note || 'Practice partner'}</small></span></div>
+      <div className="modal-actions"><button type="button" className="btn-soft" onClick={onClose}>Cancel</button><button type="button" className="btn-block-confirm" onClick={confirm}>Unfriend</button></div>
     </div></Overlay>
   );
 }
