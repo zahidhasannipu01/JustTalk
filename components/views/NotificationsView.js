@@ -21,7 +21,7 @@ function Row({ icon, title, body, time, unread, missed, onClick }) {
   );
 }
 
-export default function NotificationsView({ notifs, onMarkAllRead, onOpenPeople }) {
+export default function NotificationsView({ notifs, onMarkAllRead, onOpenPeople, onOpenChat }) {
   const pay = notifs.filter(n => n.kind === 'subscription_reminder');
   const missed = notifs.filter(n => n.kind === 'missed_call');
   const reqs = notifs.filter(n => n.kind === 'friend_request' || n.kind === 'friend_accepted');
@@ -44,7 +44,7 @@ export default function NotificationsView({ notifs, onMarkAllRead, onOpenPeople 
         <Row key={n.id} icon={actorIcon(n)} title={n.actor_name || n.title} body={n.body} time={ntTime(n.created_at)} unread={!n.is_read} onClick={n.kind === 'friend_request' ? onOpenPeople : undefined} />
       ))}</>}
       {msgs.length > 0 && <><div className="nt-sec">Messages</div>{msgs.map(n => (
-        <Row key={n.id} icon={actorIcon(n)} title={n.actor_name || n.title} body={n.body} time={ntTime(n.created_at)} unread={!n.is_read} />
+        <Row key={n.id} icon={actorIcon(n)} title={n.actor_name || n.title} body={n.body} time={ntTime(n.created_at)} unread={!n.is_read} onClick={onOpenChat ? () => onOpenChat(n) : undefined} />
       ))}</>}
       {other.map(n => (
         <Row key={n.id} icon={actorIcon(n)} title={n.title} body={n.body} time={ntTime(n.created_at)} unread={!n.is_read} />

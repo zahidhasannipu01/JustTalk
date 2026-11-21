@@ -1,7 +1,7 @@
 import { q, q1 } from '@/lib/db';
 import { currentUser } from '@/lib/auth';
 import { ok, fail } from '@/lib/respond';
-import { hubPush } from '@/lib/hub';
+import { hubPush, hubIsViewing } from '@/lib/hub';
 async function guard(me, id) {
   const c = await q1('SELECT * FROM conversations WHERE id = ?', [id]);
   if (!c || (c.user_a !== me.id && c.user_b !== me.id)) return null;
@@ -25,13 +25,17 @@ export async function POST(req, { params }) {
   const kind = b?.kind === 'photo_ref' ? 'photo_ref' : 'text';
   if (kind === 'text' && !b?.ciphertext) return fail('Empty message');
   const r = await q('INSERT INTO messages (conversation_id, sender_id, kind, ciphertext) VALUES (?,?,?,?)', [c.id, me.id, kind, kind === 'text' ? String(b.ciphertext).slice(0, 4000) : null]);
-  await q("INSERT INTO notifications (user_id, kind, actor_id, title, body) VALUES (?, 'message', ?, ?, ?)", [other, me.id, me.name, kind === 'text' ? String(b.ciphertext).slice(0, 120) : 'Sent a photo']);
   // Live: the other side's chat list (latest message + unread) and any open
   // conversation update instantly over the socket — no polling.
   hubPush(other, { t: 'chat-message', conversation_id: c.id, from: me.id, kind });
-  // The bell/tray listen for 'notification', not 'chat-message' — push both,
-  // so the message also lands as a live notification when the recipient is
-  // anywhere else in the app (chat window not open).
-  hubPush(other, { t: 'notification', kind: 'message', from: me.id });
+  // Message notifications, Facebook-style: NONE while the recipient is
+  // looking at this very conversation, and only ever ONE live row per
+  // sender — a new message replaces the previous unread one, so the row
+  // always carries the latest text and time.
+  if (!hubIsViewing(other, c.id)) {
+    await q("DELETE FROM notifications WHERE user_id = ? AND actor_id = ? AND kind = 'message' AND is_read = 0", [other, me.id]);
+    await q("INSERT INTO notifications (user_id, kind, actor_id, title, body) VALUES (?, 'message', ?, ?, ?)", [other, me.id, me.name, kind === 'text' ? String(b.ciphertext).slice(0, 120) : 'Sent a photo']);
+    hubPush(other, { t: 'notification', kind: 'message', from: me.id });
+  }
   return ok({ id: Number(r.insertId) });
 }

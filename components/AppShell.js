@@ -32,9 +32,9 @@ function ntTime(d) {
   if (t.toDateString() === y.toDateString()) return 'Yesterday';
   return t.toLocaleDateString('en-GB', { weekday: 'short' });
 }
-function NtItem({ icon, title, body, time, unread, missed }) {
+function NtItem({ icon, title, body, time, unread, missed, onClick }) {
   return (
-    <div className="nt-item">
+    <div className="nt-item" onClick={onClick} role={onClick ? 'button' : undefined} style={onClick ? { cursor: 'pointer' } : undefined}>
       {icon}
       <span className="nt-meta"><span className="nt-top"><b>{title}</b><span className="nt-time">{time}</span></span><small className={missed ? 'nt-missed' : ''}>{body}</small></span>
       {unread ? <i className="nt-dot"></i> : null}
@@ -149,6 +149,16 @@ export default function AppShell({ initialUser }) {
     loadAll();
   }
 
+  // A clicked message notification opens that very conversation, and marks
+  // that sender's message notifications read.
+  async function openChatFromNotif(n) {
+    if (!n?.actor_id) return;
+    setTrayOpen(false);
+    try { await api('/api/notifications', { method: 'POST', body: { actor_id: n.actor_id } }); } catch {}
+    setChatPerson({ id: n.actor_id, name: n.actor_name || n.title, avatar: n.actor_avatar, color: colorFor(n.actor_id || 0) });
+    go('chats'); loadAll();
+  }
+
   async function startDirectCall(person, kind) {
     try {
       const d = await api('/api/calls/token', { method: 'POST', body: { user_id: person.id, kind } });
@@ -235,7 +245,7 @@ export default function AppShell({ initialUser }) {
             {view === 'settings' && <SettingsView me={me} subData={subData} reload={loadAll} />}
             {view === 'subscription' && <SubscriptionView data={subData} reload={loadAll} />}
             {view === 'support' && <SupportView />}
-            {view === 'notifications' && <NotificationsView notifs={notifs} onMarkAllRead={async () => { await api('/api/notifications', { method: 'POST' }); setReminderNotif(null); loadAll(); }} onOpenPeople={() => go('people')} />}
+            {view === 'notifications' && <NotificationsView notifs={notifs} onMarkAllRead={async () => { await api('/api/notifications', { method: 'POST' }); setReminderNotif(null); loadAll(); }} onOpenPeople={() => go('people')} onOpenChat={openChatFromNotif} />}
           </div>
         </div>
       </div>
@@ -282,7 +292,7 @@ export default function AppShell({ initialUser }) {
               <NtItem key={n.id} icon={<Avatar user={{ name: n.actor_name || n.title, avatar: n.actor_avatar, color: colorFor(n.actor_id || 0) }} size={40} />} title={n.actor_name || n.title} body={n.body} time={ntTime(n.created_at)} unread={!n.is_read} />
             ))}</>}
             {msgShown.length > 0 && <><div className="nt-sec">Messages</div>{msgShown.map(n => (
-              <NtItem key={n.id} icon={<Avatar user={{ name: n.actor_name || n.title, avatar: n.actor_avatar, color: colorFor(n.actor_id || 0) }} size={40} />} title={n.actor_name || n.title} body={n.body} time={ntTime(n.created_at)} unread={!n.is_read} />
+              <NtItem key={n.id} icon={<Avatar user={{ name: n.actor_name || n.title, avatar: n.actor_avatar, color: colorFor(n.actor_id || 0) }} size={40} />} title={n.actor_name || n.title} body={n.body} time={ntTime(n.created_at)} unread={!n.is_read} onClick={() => openChatFromNotif(n)} />
             ))}</>}
             {otherShown.map(n => (
               <NtItem key={n.id} icon={<Avatar user={{ name: n.actor_name || n.title, avatar: n.actor_avatar, color: colorFor(n.actor_id || 0) }} size={40} />} title={n.title} body={n.body} time={ntTime(n.created_at)} unread={!n.is_read} />

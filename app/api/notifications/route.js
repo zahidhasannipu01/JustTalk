@@ -5,9 +5,12 @@ export async function GET() { const me = await currentUser(); if (!me) return fa
 export async function POST(req) {
   const me = await currentUser(); if (!me) return fail('Not signed in', 401);
   const b = await req.json().catch(() => null);
-  // Targeted mark-read for one kind (e.g. { kind: 'subscription_reminder' });
-  // no body keeps the original mark-everything-read behaviour.
-  if (b && typeof b.kind === 'string' && b.kind) {
+  // Targeted mark-read for one kind (e.g. { kind: 'subscription_reminder' }),
+  // or for one sender's message notifications ({ actor_id }) when a message
+  // notification is clicked open; no body marks everything read.
+  if (b && b.actor_id) {
+    await q("UPDATE notifications SET is_read = 1 WHERE user_id = ? AND actor_id = ? AND kind = 'message' AND is_read = 0", [me.id, Number(b.actor_id)]);
+  } else if (b && typeof b.kind === 'string' && b.kind) {
     await q('UPDATE notifications SET is_read = 1 WHERE user_id = ? AND kind = ? AND is_read = 0', [me.id, b.kind]);
   } else {
     await q('UPDATE notifications SET is_read = 1 WHERE user_id = ?', [me.id]);

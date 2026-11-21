@@ -110,7 +110,11 @@ function leaveChannel(ws, channel) {
   if (set && set.size) broadcastPeers(channel);
 }
 
-globalThis.__wsHub = { sendToUser };
+// Which conversation (if any) a user is looking at right now — reported by
+// ChatView over the socket, kept per-socket. The message route asks this so
+// a chat the recipient is already reading never spawns a notification.
+function isViewing(userId, conversationId) { const set = userSockets.get(Number(userId)); if (!set) return false; for (const ws of set) if (ws.viewingConv != null && Number(ws.viewingConv) === Number(conversationId)) return true; return false; }
+globalThis.__wsHub = { sendToUser, isViewing };
 
 // ---------------- app ----------------
 const app = next({ dev });
@@ -146,6 +150,7 @@ app.prepare().then(() => {
       if (!m || typeof m !== 'object') return;
       if (m.t === 'join') joinChannel(ws, m.room);
       else if (m.t === 'leave') leaveChannel(ws, m.room);
+      else if (m.t === 'viewing') { ws.viewingConv = m.conversation_id != null ? Number(m.conversation_id) : null; }
       else if (m.t === 'signal') {
         const out = { t: 'signal', room: m.room, from: ws.userId, kind: m.kind, payload: m.payload };
         if (m.to) sendToUser(Number(m.to), out);

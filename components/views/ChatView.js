@@ -78,6 +78,15 @@ export default function ChatView({ me, initialPerson, onCall }) {
     document.body.classList.toggle('chat-open', opened);
     return () => document.body.classList.remove('chat-open');
   }, [opened]);
+  // Tell the server which conversation is on screen: messages arriving in
+  // the chat I am already reading must not become notifications. On desktop
+  // the pane is visible whenever a conversation is active; on mobile only
+  // once it is opened full-screen.
+  useEffect(() => {
+    const wide = window.matchMedia('(min-width: 901px)').matches;
+    socket.send({ t: 'viewing', conversation_id: activeId && (opened || wide) ? activeId : null });
+  }, [activeId, opened]);
+  useEffect(() => () => { socket.send({ t: 'viewing', conversation_id: null }); }, []);
   useEffect(() => { const el = msgsRef.current; if (el) el.scrollTop = el.scrollHeight; }, [msgs]);
   useEffect(() => { const hit = BN_WORDS.find(w => new RegExp(`\\b${w}\\b`, 'i').test(input)); setNudge(hit || ''); }, [input]);
 
