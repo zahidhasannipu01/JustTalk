@@ -44,6 +44,7 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
   const peersRef = useRef(new Map()); // userId -> { pc, polite, makingOffer, ignoreOffer, audioEl }
   const localRef = useRef(null); // my own mic/camera stream
   const connectedRef = useRef(false);
+  const gotSignalRef = useRef(false); // any signal at all from the partner on this channel
   const endedRef = useRef(false);
   const frozenRef = useRef(null);
   const spkRef = useRef(true);
@@ -117,6 +118,7 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
   async function handleSignal(sig) {
     if (sig.room !== session.room_name) return;
     const from = sig.from; if (!from || from === me.id) return;
+    gotSignalRef.current = true;
     if (sig.kind === 'bye') {
       if (partner.id && Number(partner.id) === from) { endRef.current && endRef.current(); }
       else closePeer(from);
@@ -159,6 +161,7 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
   useEffect(() => {
     if (phaseRef.current === 'searching') return; // nothing to connect yet
     let ringTimer = null;
+    let watchdog = null;
     (async () => {
       try {
         // Microphone first — the camera is never asked for here. Rooms joined
@@ -198,6 +201,16 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
             // so the call still connects if the caller missed the accept push.
             // Perfect negotiation (above) resolves any double-offer.
             createPeer(Number(partner.id));
+            // Ghost-call watchdog: if the partner never sends a single
+            // signal on this channel and nothing connects, this window sits
+            // on "Ringing…" forever and the call row stays 'active' (which
+            // then poisons the next match). Settle it and close instead.
+            watchdog = setTimeout(() => {
+              if (connectedRef.current || gotSignalRef.current) return;
+              api('/api/calls/end', { method: 'POST', body: { call_id: session.call_id } }).catch(() => {});
+              toast('Call could not connect');
+              onCloseRef.current();
+            }, 25000);
           }
           if (phaseRef.current === 'ringing') {
             ringTimer = setTimeout(async () => {
@@ -217,6 +230,7 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
       // endCall() instead; this cleanup only releases local resources, which
       // the remount re-acquires.
       if (ringTimer) clearTimeout(ringTimer);
+      if (watchdog) clearTimeout(watchdog);
       cleanupMedia();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps

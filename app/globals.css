@@ -1054,6 +1054,38 @@
 .ntview-head p{font-size:13.5px;color:var(--muted);font-weight:600;margin-top:4px}
 .ntview .nt-item{border:1px solid var(--line2);margin-bottom:8px;background:#fff}
 .ntview .nt-sec{padding:16px 2px 6px}
+/* Notifications page — detailed cards (redesign): type chip + detail line +
+   an action where one belongs; a click goes to the notification's place. */
+.ntview{max-width:820px}
+.nt-toolbar{display:flex;align-items:center;gap:10px;margin:6px 0 2px}
+.nt-count{font-size:14px;font-weight:700;color:var(--muted)}
+.nt-unread-pill{background:var(--accent-soft);color:var(--accent);font-size:12.5px;font-weight:800;padding:5px 11px;border-radius:999px}
+.nt-markall{margin-left:auto;border:0;background:none;font-family:inherit;font-size:13.5px;font-weight:800;color:var(--accent);cursor:pointer;padding:8px 6px}
+.nt-sec-n{color:var(--faint);font-weight:700;margin-left:6px}
+.ntcard{display:flex;gap:13px;background:#fff;border:1px solid var(--line2);border-radius:18px;padding:15px 16px;margin-bottom:10px;align-items:flex-start;cursor:pointer;transition:box-shadow .15s ease,transform .15s ease}
+.ntcard:hover{box-shadow:0 10px 26px -14px rgba(16,18,16,.25);transform:translateY(-1px)}
+.ntcard.unread{background:#FFFBF8;border-color:#F6DED2}
+.ntcard .avatar{width:46px;height:46px}
+.nt-pay-ic{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;flex:0 0 auto;background:var(--green-soft);color:var(--green);font-size:19px;font-weight:800}
+.ntcard-body{flex:1;min-width:0}
+.ntcard-l1{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.ntcard-l1 b{font-size:15px}
+.nt-chip{font-size:10.5px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:999px;background:var(--soft);color:var(--muted)}
+.nt-chip.msg{background:#EAF1FE;color:#2B5FC7}
+.nt-chip.missed{background:#FDECEA;color:#B3261E}
+.nt-chip.req{background:#FFF4D6;color:#7A5A00}
+.nt-chip.pay{background:var(--green-soft);color:#0B6B4A}
+.ntcard-l2{font-size:14px;color:#3C403C;font-weight:600;margin-top:2px;line-height:1.45}
+.ntcard-l3{display:flex;align-items:center;gap:7px;margin-top:6px;font-size:12.5px;color:var(--faint);font-weight:700}
+.nt-udot{width:8px;height:8px;border-radius:50%;background:var(--accent);flex:0 0 auto}
+.ntcard-acts{align-self:center;display:flex;gap:8px;flex:0 0 auto}
+.nt-btn{border:0;font-family:inherit;font-size:13px;font-weight:800;padding:9px 15px;border-radius:999px;cursor:pointer}
+.nt-btn-dark{background:var(--ink);color:#fff}
+.nt-btn-soft{background:var(--soft);color:var(--ink)}
+.nt-btn-pay{background:var(--accent);color:#fff}
+.nt-btn-call{background:#FDECEA;color:#B3261E}
+.nt-chev{align-self:center;color:var(--faint);font-size:20px;font-weight:700;padding-left:2px}
+@media(max-width:900px){.ntcard{padding:13px}.ntcard-acts{flex-direction:column}}
 /* Chart card can never force the frame wider than the screen (phone width) */
 .dash-card{min-width:0}
 .chart-wrap{min-width:0;overflow:hidden}

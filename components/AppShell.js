@@ -97,7 +97,11 @@ export default function AppShell({ initialUser }) {
     const offIn = socket.on('incoming-call', m => {
       const cur = callRef.current;
       if (cur && cur.phase !== 'searching') return; // already in a call — busy
-      setIncoming(prev => prev || { call_id: m.call_id, room_name: m.room_name, kind: m.kind, from_match: !!m.from_match, partner: { ...m.partner, color: m.partner?.color || colorFor(m.partner?.id) } });
+      // The newest ring always wins. Keeping the FIRST popup (prev || …) let
+      // a stale popup survive when its call-cancelled push was missed (e.g.
+      // during a socket reconnect): the user then "accepted" a dead call and
+      // both sides sat on Ringing until a page reload cleared the state.
+      setIncoming({ call_id: m.call_id, room_name: m.room_name, kind: m.kind, from_match: !!m.from_match, partner: { ...m.partner, color: m.partner?.color || colorFor(m.partner?.id) } });
     });
     const offCancel = socket.on('call-cancelled', m => setIncoming(prev => (prev && prev.call_id === m.call_id ? null : prev)));
     // Friends' green dots are live: a presence push flips the person's online
@@ -115,18 +119,44 @@ export default function AppShell({ initialUser }) {
     return () => { offIn(); offCancel(); offPres(); offNotif(); offLive(); };
   }, []);
 
+  // Incoming-call ringtone: loops while the Accept/Decline popup is up and
+  // stops the moment it closes (answered, declined, cancelled or replaced).
+  // If the browser blocks autoplay (no interaction with the page yet), the
+  // first tap anywhere starts it.
+  useEffect(() => {
+    if (!incoming) return;
+    const a = new Audio('/assets/ringtone.mp3');
+    a.loop = true;
+    let unlock = null;
+    a.play().catch(() => {
+      unlock = () => { a.play().catch(() => {}); };
+      window.addEventListener('pointerdown', unlock, { once: true });
+    });
+    return () => {
+      if (unlock) window.removeEventListener('pointerdown', unlock);
+      a.pause(); a.currentTime = 0;
+    };
+  }, [incoming]);
+
   async function answerIncoming(accept) {
     const inc = incoming; if (!inc) return;
     setIncoming(null);
     try {
-      await api('/api/calls/answer', { method: 'POST', body: { call_id: inc.call_id, action: accept ? 'accept' : 'decline' } });
-      if (accept) setCall({ phase: 'live', call_id: inc.call_id, room_name: inc.room_name, kind: inc.kind, matched: inc.from_match, partner: inc.partner });
+      const r = await api('/api/calls/answer', { method: 'POST', body: { call_id: inc.call_id, action: accept ? 'accept' : 'decline' } });
+      if (accept) {
+        // Only mount the call window when the server confirms the call is
+        // really active. If it had already settled (cancelled / timed out),
+        // mounting anyway opened a ghost window on a dead channel — the
+        // "stuck on Ringing until reload" freeze.
+        if (r && r.status && r.status !== 'active') { toast('This call has already ended'); loadAll(); return; }
+        setCall({ phase: 'live', call_id: inc.call_id, room_name: inc.room_name, kind: inc.kind, matched: inc.from_match, partner: inc.partner });
+      }
     } catch (e) { toast(e.message); }
   }
 
   function closeCall() {
     if (call?.phase === 'searching') api('/api/calls/match', { method: 'DELETE' }).catch(() => {});
-    setCall(null); loadAll();
+    setCall(null); setIncoming(null); loadAll();
   }
 
   function go(v) {
@@ -155,12 +185,16 @@ export default function AppShell({ initialUser }) {
   async function openChatFromNotif(n) {
     if (!n?.actor_id) return;
     setTrayOpen(false);
-    try { await api('/api/notifications', { method: 'POST', body: { actor_id: n.actor_id } }); } catch {}
+    try {
+      if (n.kind === 'missed_call') await api('/api/notifications', { method: 'POST', body: { id: n.id } });
+      else await api('/api/notifications', { method: 'POST', body: { actor_id: n.actor_id } });
+    } catch {}
     setChatPerson({ id: n.actor_id, name: n.actor_name || n.title, avatar: n.actor_avatar, color: colorFor(n.actor_id || 0) });
     go('chats'); loadAll();
   }
 
   async function startDirectCall(person, kind) {
+    setIncoming(null); // an outgoing call supersedes any ringing popup
     try {
       const d = await api('/api/calls/token', { method: 'POST', body: { user_id: person.id, kind } });
       if (d.blocked) { setBlockedPerson(person); return; }
@@ -168,6 +202,7 @@ export default function AppShell({ initialUser }) {
     } catch (e) { toast(e.message); }
   }
   async function startMatch(gender, kind) {
+    setIncoming(null); // an outgoing call supersedes any ringing popup
     try {
       const d = await api('/api/calls/match', { method: 'POST', body: { gender, kind } });
       if (d.waiting) { setCall({ phase: 'searching', gender, kind, partner: null }); return; }
@@ -246,7 +281,7 @@ export default function AppShell({ initialUser }) {
             {view === 'settings' && <SettingsView me={me} subData={subData} reload={loadAll} />}
             {view === 'subscription' && <SubscriptionView data={subData} reload={loadAll} />}
             {view === 'support' && <SupportView />}
-            {view === 'notifications' && <NotificationsView notifs={notifs} onMarkAllRead={async () => { await api('/api/notifications', { method: 'POST' }); setReminderNotif(null); loadAll(); }} onOpenPeople={() => go('people')} onOpenChat={openChatFromNotif} />}
+            {view === 'notifications' && <NotificationsView notifs={notifs} onMarkAllRead={async () => { await api('/api/notifications', { method: 'POST' }); setReminderNotif(null); loadAll(); }} onOpenPeople={() => go('people')} onOpenChat={openChatFromNotif} onOpenSubscription={() => go('subscription')} requests={requests} onCallBack={p => startDirectCall(p, 'audio')} onRespond={async (uid, accept) => { try { await api('/api/people/respond', { method: 'POST', body: { user_id: uid, accept } }); toast(accept ? 'Friend request accepted' : 'Friend request declined'); } catch (e) { toast(e.message); } loadAll(); }} />}
           </div>
         </div>
       </div>

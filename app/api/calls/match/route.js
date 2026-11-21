@@ -4,10 +4,14 @@ import { ok, fail } from '@/lib/respond';
 import { currentSubscription } from '@/lib/subscription';
 import { hubPush } from '@/lib/hub';
 
-// Start Calling: random match on the chosen gender; if nobody matches, join ANYONE looking — no waiting.
+// Start Calling: random match on the chosen gender — mutual fit only. If
+// nobody in the pool fits both ways, the searcher waits in the queue.
 export async function GET() {
   const me = await currentUser(); if (!me) return fail('Not signed in', 401);
-  const [row] = await q("SELECT COUNT(*) AS anyone, SUM(gender = 'female') AS female, SUM(gender = 'male') AS male FROM users WHERE id != ? AND suspended = 0 AND is_online = 1 AND last_seen_at >= NOW() - INTERVAL 90 SECOND", [me.id]);
+  // "Matches online" counts only people who could actually match me: their
+  // gender fits the chip AND their own talk preference includes my gender.
+  const myGender = (await q1('SELECT gender FROM users WHERE id = ?', [me.id]))?.gender || '';
+  const [row] = await q("SELECT SUM(talk_preference = 'both' OR talk_preference = ?) AS anyone, SUM(gender = 'female' AND (talk_preference = 'both' OR talk_preference = ?)) AS female, SUM(gender = 'male' AND (talk_preference = 'both' OR talk_preference = ?)) AS male FROM users WHERE id != ? AND suspended = 0 AND is_online = 1 AND last_seen_at >= NOW() - INTERVAL 90 SECOND", [myGender, myGender, myGender, me.id]);
   return ok({ counts: { any: Number(row.anyone) || 0, female: Number(row.female) || 0, male: Number(row.male) || 0 } });
 }
 export async function POST(req) {
@@ -36,10 +40,11 @@ export async function POST(req) {
     return ok({ waiting: false, phase: 'live', call_id: incoming.id, room_name: incoming.channel, partner: partnerU });
   }
   await q('DELETE FROM call_queue WHERE user_id = ?', [me.id]);
-  let partner = await q1(`SELECT qu.user_id, u.name, u.gender, u.avatar FROM call_queue qu JOIN users u ON u.id = qu.user_id WHERE qu.user_id != ? AND u.suspended = 0 AND NOT EXISTS (SELECT 1 FROM blocks bl WHERE (bl.blocker_id = ? AND bl.blocked_id = qu.user_id) OR (bl.blocker_id = qu.user_id AND bl.blocked_id = ?)) ${want !== 'any' ? 'AND u.gender = ?' : ''} ORDER BY RAND() LIMIT 1`, want !== 'any' ? [me.id, me.id, me.id, want] : [me.id, me.id, me.id]);
-  if (!partner) { // fallback: anyone looking, regardless of the gender choice
-    partner = await q1(`SELECT qu.user_id, u.name, u.gender, u.avatar FROM call_queue qu JOIN users u ON u.id = qu.user_id WHERE qu.user_id != ? AND u.suspended = 0 AND NOT EXISTS (SELECT 1 FROM blocks bl WHERE (bl.blocker_id = ? AND bl.blocked_id = qu.user_id) OR (bl.blocker_id = qu.user_id AND bl.blocked_id = ?)) ORDER BY RAND() LIMIT 1`, [me.id, me.id, me.id]);
-  }
+  // A match must fit BOTH ways: the gender I picked fits them, AND the
+  // gender they picked fits me. If nobody in the pool fits both ways I
+  // wait in the queue — an incompatible pair is never forced together.
+  const myGender = (await q1('SELECT gender FROM users WHERE id = ?', [me.id]))?.gender || null;
+  const partner = await q1(`SELECT qu.user_id, u.name, u.gender, u.avatar FROM call_queue qu JOIN users u ON u.id = qu.user_id WHERE qu.user_id != ? AND u.suspended = 0 AND NOT EXISTS (SELECT 1 FROM blocks bl WHERE (bl.blocker_id = ? AND bl.blocked_id = qu.user_id) OR (bl.blocker_id = qu.user_id AND bl.blocked_id = ?)) AND (? = 'any' OR u.gender = ?) AND (qu.want_gender = 'any' OR ? IS NULL OR qu.want_gender = ?) ORDER BY RAND() LIMIT 1`, [me.id, me.id, me.id, want, want, myGender, myGender]);
   if (!partner) {
     await q('INSERT INTO call_queue (user_id, want_gender, kind) VALUES (?, ?, ?)', [me.id, want, kind]);
     return ok({ waiting: true });
