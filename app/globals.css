@@ -138,6 +138,9 @@
 #room-pass-field[hidden]{display:none}
 /* Calls are end-to-end encrypted — said right on the call screen */
 .cw-enc{display:flex;align-items:center;justify-content:center;gap:7px;font-size:11.5px;font-weight:700;color:rgba(255,255,255,.78);padding:11px 14px 1px;text-align:center}.cw-enc .ic{width:14px;height:14px;color:#3CE68B}
+.cw-video-ask{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 16px;background:#1B2420;font-size:12.5px;font-weight:700;color:#fff;border-top:1px solid rgba(255,255,255,.08)}
+.cw-video-ask .cw-va-btns{display:flex;gap:7px;flex:0 0 auto}
+.cw-video-ask .cw-va-accept{background:var(--accent);color:#fff}
 .pill-enc{position:absolute;top:16px;right:16px;background:rgba(0,0,0,.45);color:#fff;font-size:11px;font-weight:800;padding:6px 10px;border-radius:999px;display:inline-flex;gap:6px;align-items:center}.pill-enc .ic{width:12px;height:12px;color:#3CE68B}
 .call-controls button:disabled,.controls button:disabled{opacity:.5;cursor:not-allowed}
 .join{margin-top:20px;width:100%;min-height:50px;border:0;border-radius:999px;background:var(--ink);color:#fff;font-weight:800;font-size:14.5px;display:flex;align-items:center;justify-content:center;gap:8px}.join .ic{width:16px;height:16px}.join.joined{background:var(--green)}
@@ -203,6 +206,9 @@
 .overlay{position:fixed;inset:0;background:rgba(16,18,16,.52);backdrop-filter:blur(3px);z-index:80;display:none;align-items:flex-end;justify-content:center;padding:18px}.overlay.open{display:flex}
 @media(min-width:700px){.overlay{align-items:center}}
 .modal{background:#fff;border-radius:26px;width:min(520px,100%);max-height:88vh;overflow-y:auto;padding:28px;box-shadow:0 30px 80px rgba(0,0,0,.3)}
+.pay-modal{width:min(660px,100%)}
+.pay-actions{justify-content:flex-end;flex-wrap:wrap}
+.modal-actions.pay-actions button{flex:0 1 auto;min-height:0;padding:11px 20px;display:inline-flex;align-items:center;justify-content:center;gap:8px}
 .modal.wide{width:min(560px,100%)}
 .modal-head{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;margin-bottom:6px}.modal-head h3{font-size:22px;letter-spacing:-.02em}.modal-head p{font-size:13.5px;color:var(--muted);margin-top:4px}
 .x{border:0;background:var(--soft);width:36px;height:36px;border-radius:50%;font-size:18px;line-height:1;flex:0 0 auto}
@@ -542,8 +548,8 @@
 .adm-track.loc i{background:var(--accent)}
 @media(max-width:900px){.adm-cards{grid-template-columns:1fr 1fr}.adm-grid{grid-template-columns:1fr}.adm-head h3{font-size:24px}}
 /* ---------- Super admin panel : its own sidebar layout ---------- */
-.adm-shell{display:grid;grid-template-columns:248px minmax(0,1fr);gap:18px;align-items:start}
-.adm-side{position:sticky;top:86px;background:#101815;color:#fff;border-radius:22px;padding:20px 14px 16px}
+.adm-shell{display:grid;grid-template-columns:248px minmax(0,1fr);gap:18px;align-items:start;padding:28px 30px 48px}
+.adm-side{position:sticky;top:28px;background:#101815;color:#fff;border-radius:22px;padding:20px 14px 16px}
 .adm-side .adm-owner{display:flex;align-items:center;gap:11px;padding:2px 8px 16px;border-bottom:1px solid rgba(255,255,255,.12);margin-bottom:12px}
 .adm-side .adm-owner .avatar{width:42px;height:42px;font-size:13px;background:var(--accent)}
 .adm-side .adm-owner b{font-size:14.5px;display:block;line-height:1.2}
@@ -1367,3 +1373,8 @@
 .cc-btn .ic,.cc-end .ic,.cv-form .cv-send .ic,.cv-form button.cv-tool .ic,.bell-btn .ic,.x .ic,.pd-x .ic,.hw button .ic,.callmin button .ic,.rail button .ic,.pv-photo-btn .ic,.online-mini .call-ic .ic,#page-mobile .cv-actions .cv-call-audio .ic,.mini-btn .ic,.pd-actions button .ic,.pd-block-btn .ic,.pd-report-btn .ic{display:flex;align-items:center;justify-content:center;margin:0;padding:0;line-height:0;transform:none}
 .cc-btn .ic svg,.cc-end .ic svg,.cv-form .cv-send .ic svg,.cv-form button.cv-tool .ic svg,.bell-btn .ic svg,.hw button .ic svg,.callmin button .ic svg,.rail button .ic svg,.pv-photo-btn .ic svg,.online-mini .call-ic .ic svg,#page-mobile .cv-actions .cv-call-audio .ic svg,.mini-btn .ic svg,.pd-actions button .ic svg,.pd-block-btn .ic svg,.pd-report-btn .ic svg{display:block;margin:0}
 
+
+/* Super Admin outlet loader — shown in the content area while a section loads */
+.adm-loader{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;min-height:340px;color:var(--muted);font-weight:700;font-size:13.5px}
+.adm-loader .adm-spin{width:38px;height:38px;border-radius:50%;border:3.5px solid var(--line);border-top-color:var(--accent);animation:admSpin .7s linear infinite}
+@keyframes admSpin{to{transform:rotate(360deg)}}

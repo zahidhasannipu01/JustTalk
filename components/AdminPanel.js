@@ -58,6 +58,11 @@ function MethodLogo({ method }) {
   return method === 'bkash' ? <BkLogo /> : <img className="paydd-logo" src="/assets/nagad-logo.png" alt="Nagad" />;
 }
 
+
+function AdmLoader() {
+  return <div className="adm-loader" role="status" aria-label="Loading"><span className="adm-spin"></span>Loading…</div>;
+}
+
 export default function AdminPanel({ admin }) {
   const [view, setView] = useState('overview');
   const [counts, setCounts] = useState(null);
@@ -97,7 +102,7 @@ export default function AdminPanel({ admin }) {
 function Overview({ go }) {
   const [d, setD] = useState(null);
   useEffect(() => { api('/api/admin/overview').then(setD).catch(e => toast(e.message)); }, []);
-  if (!d) return <p className="empty-note">Loading…</p>;
+  if (!d) return <AdmLoader />;
   const devTotal = d.devices.reduce((a, x) => a + x.n, 0) || 1;
   const locMax = Math.max(1, ...d.locations.map(x => x.n));
   const byPlan = {};
@@ -167,6 +172,7 @@ function Users() {
   useEffect(() => { api('/api/admin/packages').then(d => setPackages(d.packages)).catch(() => {}); api('/api/admin/activity').then(d => setFeed(d.feed || [])).catch(() => {}); }, []);
   async function patch(body) { try { await api('/api/admin/users', { method: 'PATCH', body }); toast('Saved'); setPlanPick(false); load(); } catch (e) { toast(e.message); } }
   const sel = data?.users.find(u => u.id === selId) || data?.users[0];
+  if (!data) return <AdmLoader />;
   const FEED_PAGE = 4; const feedPages = Math.max(1, Math.ceil(feed.length / FEED_PAGE));
   return (
     <div className="adm-sec">
@@ -243,7 +249,7 @@ function logType(action) {
 function Activity() {
   const [d, setD] = useState(null); const [filter, setFilter] = useState('all'); const [search, setSearch] = useState('');
   useEffect(() => { api('/api/admin/activity').then(setD).catch(e => toast(e.message)); }, []);
-  if (!d) return <p className="empty-note">Loading…</p>;
+  if (!d) return <AdmLoader />;
   const rows = (d.log || []).map(l => ({ ...l, type: logType(l.action) })).filter(l => (filter === 'all' || l.type === filter) && (!search || `${l.action} ${l.detail || ''}`.toLowerCase().includes(search.toLowerCase())));
   return (
     <div className="adm-sec">
@@ -297,6 +303,7 @@ function Reports() {
   const load = useCallback(() => { api(`/api/admin/reports?page=${page}`).then(setD).catch(e => toast(e.message)); }, [page]);
   useEffect(() => { load(); }, [load]);
   async function patch(body) { try { await api('/api/admin/reports', { method: 'PATCH', body }); toast('Saved'); load(); } catch (e) { toast(e.message); } }
+  if (!d) return <AdmLoader />;
   const rows = (d?.reports || []).filter(r => filter === 'all' ? true : filter === 'new' ? r.status === 'open' : filter === 'reviewed' ? r.status === 'reviewed' : filter === 'noted' ? !!r.admin_note : !!r.reported_suspended);
   return (
     <div className="adm-sec">
@@ -347,6 +354,7 @@ function Tickets() {
   const load = useCallback(() => { api(`/api/admin/tickets?page=${page}`).then(setD).catch(e => toast(e.message)); }, [page]);
   useEffect(() => { load(); }, [load]);
   async function patch(body) { try { await api('/api/admin/tickets', { method: 'PATCH', body }); toast('Saved'); load(); } catch (e) { toast(e.message); } }
+  if (!d) return <AdmLoader />;
   return (
     <div className="adm-sec">
       <div className="adm-sec-head"><h3>Support tickets — from users</h3></div>
@@ -475,7 +483,7 @@ function Payments() {
   const load = useCallback(() => { api('/api/admin/payments').then(setD).catch(e => toast(e.message)); }, []);
   useEffect(() => { load(); }, [load]);
   async function act(body) { try { await api('/api/admin/payments', { method: 'POST', body }); toast('Done'); load(); } catch (e) { toast(e.message); } }
-  if (!d) return <p className="empty-note">Loading…</p>;
+  if (!d) return <AdmLoader />;
   const s = d.stats;
   const byPlanTxt = s.by_plan.filter(p => p.price_taka > 0).map(p => `${p.subs} ${p.name}`).join(' + ');
   const collectedPct = s.expected_taka > 0 ? Math.round((s.month_taka / s.expected_taka) * 100) : 0;
@@ -576,7 +584,7 @@ function AiSettings() {
     api('/api/admin/activity').then(setAct).catch(() => {});
     api('/api/admin/settings').then(d => setRules(d.settings || {})).catch(() => {});
   }, []);
-  if (!s) return <p className="empty-note">Loading…</p>;
+  if (!s) return <AdmLoader />;
   const set = (k, v) => setS(x => ({ ...x, [k]: v }));
   const usedUsd = Number(rules.ai_used_usd || 0);
   const balance = Number(s.credit_balance_usd) || 0;
@@ -666,7 +674,7 @@ const CTL_DEFAULT_OFF = new Set(['ctl_maintenance']);
 function Platform() {
   const [s, setS] = useState(null);
   useEffect(() => { api('/api/admin/settings').then(d => setS(d.settings || {})).catch(() => setS({})); }, []);
-  if (!s) return <p className="empty-note">Loading…</p>;
+  if (!s) return <AdmLoader />;
   const on = k => (s[k] !== undefined ? s[k] !== '0' : !CTL_DEFAULT_OFF.has(k));
   async function toggle(k) { const next = { ...s, [k]: on(k) ? '0' : '1' }; setS(next); try { await api('/api/admin/settings', { method: 'POST', body: { [k]: next[k] } }); } catch (e) { toast(e.message); } }
   async function save(e) { e.preventDefault(); try { await api('/api/admin/settings', { method: 'POST', body: s }); toast('Saved'); } catch (err) { toast(err.message); } }

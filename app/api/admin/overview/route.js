@@ -5,7 +5,7 @@ import { ok, fail } from '@/lib/respond';
 export async function GET() {
   const a = await currentAdmin(); if (!a) return fail('Admin only', 401);
   const [users] = await q('SELECT COUNT(*) AS n FROM users');
-  const [online] = await q('SELECT COUNT(*) AS n FROM users WHERE is_online = 1');
+  const [online] = await q('SELECT COUNT(*) AS n FROM users WHERE is_online = 1 AND last_seen_at >= NOW() - INTERVAL 90 SECOND');
   const [mins] = await q('SELECT COALESCE(SUM(minutes),0) AS m, COALESCE(SUM(calls),0) AS c FROM user_daily_stats');
   const [today] = await q('SELECT COALESCE(SUM(minutes),0) AS m, COALESCE(SUM(calls),0) AS c FROM user_daily_stats WHERE day = CURDATE()');
   const [yday] = await q('SELECT COALESCE(SUM(minutes),0) AS m FROM user_daily_stats WHERE day = CURDATE() - INTERVAL 1 DAY');
@@ -23,7 +23,7 @@ export async function GET() {
   const week = []; let weekTotal = 0;
   for (let i = 6; i >= 0; i--) { const d = new Date(); d.setHours(0, 0, 0, 0); d.setDate(d.getDate() - i); const v = wmap.get(d.toISOString().slice(0, 10)) || 0; weekTotal += v; week.push({ label: i === 0 ? 'Today' : WD[d.getDay()], minutes: v }); }
   // Top talkers today.
-  const talkers = await q(`SELECT u.id, u.name, u.avatar, u.note, u.city, u.device, u.is_online, s.minutes, s.calls FROM user_daily_stats s JOIN users u ON u.id = s.user_id WHERE s.day = CURDATE() ORDER BY s.minutes DESC LIMIT 5`);
+  const talkers = await q(`SELECT u.id, u.name, u.avatar, u.note, u.city, u.device, (u.is_online = 1 AND last_seen_at >= NOW() - INTERVAL 90 SECOND) AS is_online, s.minutes, s.calls FROM user_daily_stats s JOIN users u ON u.id = s.user_id WHERE s.day = CURDATE() ORDER BY s.minutes DESC LIMIT 5`);
   // Devices + locations (real aggregates over registered users).
   const devRows = await q("SELECT COALESCE(NULLIF(device,''), 'Unknown') AS device, COUNT(*) AS n FROM users GROUP BY device ORDER BY n DESC LIMIT 5");
   const locRows = await q("SELECT COALESCE(NULLIF(city,''), 'Unknown') AS city, COUNT(*) AS n FROM users GROUP BY city ORDER BY n DESC LIMIT 7");

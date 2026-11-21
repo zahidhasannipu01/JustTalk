@@ -10,6 +10,7 @@ import { ProfileView, SettingsView } from './views/ProfileSettings';
 import SubscriptionView from './views/SubscriptionView';
 import SupportView from './views/SupportView';
 import { api, toast, colorFor, Taka } from '@/lib/toast';
+import { socket } from '@/lib/socket';
 
 const NAV = [
   ['dashboard', 'home', 'Dashboard'], ['rooms', 'room', 'Room'], ['people', 'people', 'People'],
@@ -61,7 +62,8 @@ export default function AppShell({ initialUser }) {
   const [consent, setConsent] = useState(false);
   const [passRoom, setPassRoom] = useState(null);
   const [passErr, setPassErr] = useState(false);
-  const pollRef = useRef(null);
+  const [incoming, setIncoming] = useState(null);
+  const callRef = useRef(null);
 
   const loadAll = useCallback(async () => {
     try {
@@ -69,10 +71,48 @@ export default function AppShell({ initialUser }) {
       setMe(m.user); setDash(d); setPeople(p.people); setRequests(p.requests); setRooms(r.rooms); setSubData(s); setNotifs(n.notifications);
       setOpenTickets((t.tickets || []).filter(x => x.status !== 'resolved').length);
       const rem = n.notifications.find(x => x.kind === 'subscription_reminder' && !x.is_read);
-      if (rem) setReminderNotif(rem);
+      if (rem) {
+        // Real state only: if the user currently holds an active paid plan,
+        // or has already paid manually and is waiting for approval, the
+        // reminder is stale — never show it, and clear it server-side.
+        const sub = s.subscription;
+        const activePaid = sub && Number(sub.price_taka) > 0 && (!sub.expires_at || new Date(sub.expires_at).getTime() > Date.now());
+        if (activePaid || s.pending_payment) {
+          api('/api/notifications', { method: 'POST', body: { kind: 'subscription_reminder' } }).catch(() => {});
+          setNotifs(n.notifications.map(x => x.kind === 'subscription_reminder' ? { ...x, is_read: 1 } : x));
+        } else setReminderNotif(rem);
+      }
     } catch {}
   }, []);
   useEffect(() => { loadAll(); }, [loadAll]);
+  useEffect(() => { callRef.current = call; }, [call]);
+
+  // One socket for everything live: my presence IS the connection, and
+  // incoming calls arrive as pushes — no polling anywhere in the app.
+  useEffect(() => {
+    socket.connect();
+    const offIn = socket.on('incoming-call', m => {
+      const cur = callRef.current;
+      if (cur && cur.phase !== 'searching') return; // already in a call — busy
+      setIncoming(prev => prev || { call_id: m.call_id, room_name: m.room_name, kind: m.kind, from_match: !!m.from_match, partner: { ...m.partner, color: m.partner?.color || colorFor(m.partner?.id) } });
+    });
+    const offCancel = socket.on('call-cancelled', m => setIncoming(prev => (prev && prev.call_id === m.call_id ? null : prev)));
+    return () => { offIn(); offCancel(); };
+  }, []);
+
+  async function answerIncoming(accept) {
+    const inc = incoming; if (!inc) return;
+    setIncoming(null);
+    try {
+      await api('/api/calls/answer', { method: 'POST', body: { call_id: inc.call_id, action: accept ? 'accept' : 'decline' } });
+      if (accept) setCall({ phase: 'live', call_id: inc.call_id, room_name: inc.room_name, kind: inc.kind, matched: inc.from_match, partner: inc.partner });
+    } catch (e) { toast(e.message); }
+  }
+
+  function closeCall() {
+    if (call?.phase === 'searching') api('/api/calls/match', { method: 'DELETE' }).catch(() => {});
+    setCall(null); loadAll();
+  }
 
   function go(v) {
     if (v === 'create') { setCreateOpen(true); return; }
@@ -82,26 +122,33 @@ export default function AppShell({ initialUser }) {
   }
   async function logout() { try { await api('/api/auth/logout', { method: 'POST' }); } catch {} window.location.href = '/login'; }
 
+  // Every reminder-popup action marks the reminder read so it does not
+  // reappear on the next load.
+  async function dismissReminder() {
+    setReminderNotif(null);
+    setNotifs(ns => ns.map(x => x.kind === 'subscription_reminder' ? { ...x, is_read: 1 } : x));
+    try { await api('/api/notifications', { method: 'POST', body: { kind: 'subscription_reminder' } }); } catch {}
+  }
+  async function switchToFree() {
+    try { await api('/api/subscription/switch-free', { method: 'POST' }); } catch {}
+    await dismissReminder();
+    loadAll();
+  }
+
   async function startDirectCall(person, kind) {
     try {
       const d = await api('/api/calls/token', { method: 'POST', body: { user_id: person.id, kind } });
       if (d.blocked) { setBlockedPerson(person); return; }
-      setCall({ ...d, kind, partner: { ...person, color: person.color || colorFor(person.id) } });
+      setCall({ phase: 'ringing', ...d, kind, partner: { ...person, color: person.color || colorFor(person.id) } });
     } catch (e) { toast(e.message); }
   }
   async function startMatch(gender, kind) {
     try {
       const d = await api('/api/calls/match', { method: 'POST', body: { gender, kind } });
-      if (d.waiting) {
-        toast('Looking for a partner…');
-        clearInterval(pollRef.current);
-        pollRef.current = setInterval(async () => {
-          try { const r = await api('/api/calls/match', { method: 'POST', body: { gender, kind } }); if (!r.waiting) { clearInterval(pollRef.current); setCall({ ...r, kind, matched: true, partner: { ...r.partner, color: r.partner.color || colorFor(r.partner.id) } }); } } catch {}
-        }, 4000);
-        setTimeout(() => clearInterval(pollRef.current), 120000);
-        return;
-      }
-      setCall({ ...d, kind, matched: true, partner: { ...d.partner, color: d.partner.color || colorFor(d.partner.id) } });
+      if (d.waiting) { setCall({ phase: 'searching', gender, kind, partner: null }); return; }
+      const partner = { ...d.partner, color: d.partner.color || colorFor(d.partner.id) };
+      if (d.phase === 'live') { setCall({ phase: 'live', ...d, kind, matched: true, partner }); return; }
+      setCall({ phase: 'ringing', ...d, kind, matched: true, partner });
     } catch (e) { toast(e.message); }
   }
   function openStartCalling() {
@@ -250,18 +297,25 @@ export default function AppShell({ initialUser }) {
         const price = m ? m[2] : (curPlan?.price_taka ?? '');
         const overdue = !!m;
         return (
-          <div className="overlay open" role="dialog" aria-modal="true" aria-label="Payment reminder"><div className="modal">
+          <div className="overlay open" role="dialog" aria-modal="true" aria-label="Payment reminder"><div className="modal pay-modal">
             <div className="modal-head"><div><h3>{overdue ? 'Your payment is overdue' : 'A quick payment reminder'}</h3></div><button className="x" type="button" aria-label="Close" onClick={() => setReminderNotif(null)}>×</button></div>
             <div className="block-hero"><span className="avatar" style={{ background: "var(--green)" }}><Taka>৳</Taka></span><span><b>{planName} plan — <Taka>৳</Taka>{price} / month</b><small>{overdue ? 'Renewal was due yesterday · still unpaid' : reminderNotif.body}</small></span><span className={`pay-badge ${overdue ? 'overdue' : 'due'}`}>{overdue ? 'Overdue' : 'Due soon'}</span></div>
-            <div className="modal-actions">
-              <button type="button" className="btn-soft" onClick={() => setReminderNotif(null)}>Not now</button>
-              <button type="button" className="btn-dark" onClick={() => setReminderNotif(null)}>I’ve already paid</button>
-              <button type="button" className="btn-accent2" onClick={() => { setReminderNotif(null); go('subscription'); }}>Go to Subscription →</button>
+            <div className="modal-actions pay-actions">
+              <button type="button" className="btn-soft" onClick={dismissReminder}><Ic n="bell" size={16} />Not now</button>
+              <button type="button" className="btn-dark" onClick={async () => { await dismissReminder(); go('subscription'); }}><Ic n="card" size={16} />Pay now</button>
+              <button type="button" className="btn-accent2" onClick={switchToFree}><Ic n="check" size={16} />Switch to free tier</button>
             </div>
           </div></div>
         );
       })()}
-      {call && <CallWindow session={call} me={me} onClose={() => { setCall(null); loadAll(); }} onAddPeople={() => go('people')} />}
+      {incoming && (
+        <div className="overlay open" role="dialog" aria-modal="true" aria-label="Incoming call"><div className="modal">
+          <div className="modal-head"><div><h3>Incoming call</h3></div></div>
+          <div className="block-hero"><Avatar user={incoming.partner} size={54} /><span><b>{incoming.partner.name}</b><small>wants to talk with you</small></span></div>
+          <div className="modal-actions"><button type="button" className="btn-soft" onClick={() => answerIncoming(false)}>Decline</button><button type="button" className="btn-accent2" style={{ flex: 1 }} onClick={() => answerIncoming(true)}>Accept</button></div>
+        </div></div>
+      )}
+      {call && <CallWindow key={call.call_id || 'searching'} session={call} me={me} onClose={closeCall} onAddPeople={() => go('people')} />}
     </div>
   );
 }

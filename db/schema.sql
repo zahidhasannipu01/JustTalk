@@ -128,9 +128,10 @@ CREATE TABLE IF NOT EXISTS calls (
   caller_id INT UNSIGNED NOT NULL,
   callee_id INT UNSIGNED NULL,
   room_id INT UNSIGNED NULL,
-  livekit_room VARCHAR(120) NOT NULL,
+  channel VARCHAR(120) NOT NULL,
   kind ENUM('audio','video','room') NOT NULL DEFAULT 'audio',
-  status ENUM('ringing','active','ended','missed') NOT NULL DEFAULT 'ringing',
+  source VARCHAR(10) NOT NULL DEFAULT 'direct',
+  status ENUM('ringing','active','ended','missed','declined','cancelled') NOT NULL DEFAULT 'ringing',
   started_at DATETIME NULL,
   ended_at DATETIME NULL,
   duration_seconds INT NOT NULL DEFAULT 0,
@@ -255,4 +256,24 @@ CREATE TABLE IF NOT EXISTS ai_reports (
 CREATE TABLE IF NOT EXISTS app_settings (
   k VARCHAR(80) PRIMARY KEY,
   v VARCHAR(255) NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Direct WebRTC (browser-to-browser): signaling messages + room presence.
+CREATE TABLE IF NOT EXISTS webrtc_signals (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  room_name VARCHAR(120) NOT NULL,
+  from_id INT UNSIGNED NOT NULL,
+  to_id INT UNSIGNED NULL,
+  kind VARCHAR(10) NOT NULL,
+  payload MEDIUMTEXT NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_ws_room (room_name, to_id, id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS room_presence (
+  room_id INT UNSIGNED NOT NULL,
+  user_id INT UNSIGNED NOT NULL,
+  last_seen DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (room_id, user_id),
+  INDEX idx_rp_seen (last_seen)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

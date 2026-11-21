@@ -1,17 +1,32 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
-import { Room, RoomEvent, Track } from 'livekit-client';
 import { Ic, Avatar } from './icons';
 import { api, toast, initials } from '@/lib/toast';
+import { socket } from '@/lib/socket';
 import { ReportModal, BlockModal } from './views/PeopleView';
 
 // Call popup — same markup/classes as the approved preview (.callwin).
-// LiveKit connection with crystal-clear defaults: Opus DTX + RED, adaptive stream, dynacast.
+// Direct WebRTC, browser-to-browser: Opus audio with echo cancellation, noise
+// suppression and auto gain for crystal-clear voice. Signaling (SDP offers /
+// answers + ICE candidates) and the video-consent handshake ride the app's
+// WebSocket — no polling, and the media itself never touches any server.
+//
+// Flow (1-to-1): Start Calling opens this window "searching"; when a partner
+// is found they must ACCEPT first (their profile shows here while it rings).
+// The microphone is asked for as the window opens; the camera is only asked
+// for when someone taps the video button — and then the partner gets a
+// video request and must accept (with their own camera permission) before
+// any video starts.
+const RTC_CONFIG = { iceServers: [{ urls: 'stun:stun.l.google.com:19302' }, { urls: 'stun:stun1.l.google.com:19302' }] };
+const VIDEO_CONSTRAINTS = { width: { ideal: 1280 }, height: { ideal: 720 }, frameRate: { ideal: 30 } };
+
 export default function CallWindow({ session, me, onClose, onAddPeople }) {
+  const roomId = session.room_id || (String(session.room_name || '').startsWith('room-') ? Number(String(session.room_name).slice(5)) : null);
   const [min, setMin] = useState(false);
   const [micOn, setMicOn] = useState(true);
   const [spkOn, setSpkOn] = useState(true);
-  const [camOn, setCamOn] = useState(session.kind === 'video');
+  const [camOn, setCamOn] = useState(!!roomId && session.kind === 'video');
+  const [phase, setPhase] = useState(session.phase || 'live'); // searching | ringing | live
   const [status, setStatus] = useState('Calling…');
   const [secs, setSecs] = useState(0);
   const [rate, setRate] = useState(null); // {call_id, partner} after end when >= 5 min
@@ -19,59 +34,258 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
   const [showReport, setShowReport] = useState(false);
   const [showBlock, setShowBlock] = useState(false);
   const [friendSent, setFriendSent] = useState(false);
-  const roomRef = useRef(null);
+  const [videoState, setVideoState] = useState('off'); // off | requested | on  (1-to-1 consent flow)
+  const [videoAsk, setVideoAsk] = useState(false); // partner asked me for video
+  const [remoteVideo, setRemoteVideo] = useState(false); // partner's video is showing
+  const peersRef = useRef(new Map()); // userId -> { pc, polite, makingOffer, ignoreOffer, audioEl }
+  const localRef = useRef(null); // my own mic/camera stream
+  const connectedRef = useRef(false);
+  const endedRef = useRef(false);
+  const spkRef = useRef(true);
+  const phaseRef = useRef(phase);
+  const offsRef = useRef([]); // socket unsubscribers
   const winRef = useRef(null);
   const selfVideoRef = useRef(null);
   const remoteRef = useRef(null);
   const startedRef = useRef(Date.now());
+  const onCloseRef = useRef(onClose);
+  onCloseRef.current = onClose;
   const partner = session.partner || { name: session.title || 'Room', avatar: null };
+  const videoOn = videoState === 'on' || remoteVideo;
+
+  function goPhase(p) { phaseRef.current = p; setPhase(p); }
+
+  function sendSignal(toId, kind, payload) {
+    socket.send({ t: 'signal', room: session.room_name, to: toId, kind, payload });
+  }
+
+  function closePeer(peerId) {
+    const entry = peersRef.current.get(peerId); if (!entry) return;
+    try { entry.pc.close(); } catch {}
+    if (entry.audioEl) entry.audioEl.remove();
+    peersRef.current.delete(peerId);
+  }
+
+  function createPeer(peerId) {
+    const existing = peersRef.current.get(peerId); if (existing) return existing;
+    const pc = new RTCPeerConnection(RTC_CONFIG);
+    // Perfect negotiation: the higher user id is the polite peer (rolls back on a clash).
+    const entry = { pc, polite: me.id > peerId, makingOffer: false, ignoreOffer: false, audioEl: null };
+    peersRef.current.set(peerId, entry);
+    const stream = localRef.current;
+    if (stream) stream.getTracks().forEach(t => { try { pc.addTrack(t, stream); } catch {} });
+    pc.onnegotiationneeded = async () => {
+      try {
+        entry.makingOffer = true;
+        await pc.setLocalDescription();
+        sendSignal(peerId, 'offer', { type: pc.localDescription.type, sdp: pc.localDescription.sdp });
+      } catch {} finally { entry.makingOffer = false; }
+    };
+    pc.onicecandidate = ({ candidate }) => { if (candidate) sendSignal(peerId, 'ice', candidate.toJSON()); };
+    pc.ontrack = ({ track }) => {
+      if (track.kind === 'audio') {
+        const el = document.createElement('audio');
+        el.dataset.webrtc = '1'; el.autoplay = true; el.muted = !spkRef.current;
+        el.srcObject = new MediaStream([track]);
+        document.body.appendChild(el); entry.audioEl = el;
+      } else if (track.kind === 'video') {
+        if (remoteRef.current) remoteRef.current.srcObject = new MediaStream([track]);
+        setRemoteVideo(true);
+        track.onended = () => setRemoteVideo(false);
+        setStatus('Connected');
+      }
+    };
+    pc.onconnectionstatechange = () => {
+      if (pc.connectionState === 'connected') {
+        if (!connectedRef.current) { connectedRef.current = true; startedRef.current = Date.now(); setSecs(0); }
+        setStatus('Connected');
+      }
+      if (pc.connectionState === 'failed') {
+        if (partner.id && Number(partner.id) === peerId) { endRef.current && endRef.current(); }
+        else closePeer(peerId);
+      }
+      if (pc.connectionState === 'closed') closePeer(peerId);
+    };
+    return entry;
+  }
+
+  async function handleSignal(sig) {
+    if (sig.room !== session.room_name) return;
+    const from = sig.from; if (!from || from === me.id) return;
+    if (sig.kind === 'bye') {
+      if (partner.id && Number(partner.id) === from) { endRef.current && endRef.current(); }
+      else closePeer(from);
+      return;
+    }
+    // Video consent handshake (1-to-1 only).
+    if (sig.kind === 'video-request') { setVideoAsk(true); return; }
+    if (sig.kind === 'video-accepted') { setVideoState('on'); setCamOn(true); return; }
+    if (sig.kind === 'video-declined') { setVideoState('off'); toast('Partner declined video'); return; }
+    if (sig.kind === 'video-off') { setRemoteVideo(false); return; }
+    const entry = createPeer(from); const pc = entry.pc;
+    try {
+      if (sig.kind === 'offer') {
+        const collision = entry.makingOffer || pc.signalingState !== 'stable';
+        entry.ignoreOffer = !entry.polite && collision;
+        if (entry.ignoreOffer) return;
+        await pc.setRemoteDescription(sig.payload);
+        await pc.setLocalDescription();
+        sendSignal(from, 'answer', { type: pc.localDescription.type, sdp: pc.localDescription.sdp });
+      } else if (sig.kind === 'answer') {
+        await pc.setRemoteDescription(sig.payload);
+      } else if (sig.kind === 'ice') {
+        try { await pc.addIceCandidate(sig.payload); } catch (e) { if (!entry.ignoreOffer) throw e; }
+      }
+    } catch {}
+  }
+
+  function cleanupMedia() {
+    for (const off of offsRef.current) { try { off(); } catch {} }
+    offsRef.current = [];
+    if (session.room_name) socket.leave(session.room_name);
+    for (const pid of [...peersRef.current.keys()]) closePeer(pid);
+    if (localRef.current) { localRef.current.getTracks().forEach(t => { try { t.stop(); } catch {} }); localRef.current = null; }
+  }
 
   useEffect(() => {
-    let room;
+    if (phaseRef.current === 'searching') return; // nothing to connect yet
+    let ringTimer = null;
     (async () => {
       try {
-        room = new Room({ adaptiveStream: true, dynacast: true, audioCaptureDefaults: { echoCancellation: true, noiseSuppression: true, autoGainControl: true }, publishDefaults: { audioPreset: { maxBitrate: 51000 }, dtx: true, red: true, videoEncoding: { maxBitrate: 1700000, maxFramerate: 30 } } });
-        roomRef.current = room;
-        room.on(RoomEvent.TrackSubscribed, (track, pub, participant) => { hadRemote = true;
-          if (track.kind === Track.Kind.Audio) { const el = track.attach(); el.style.display = 'none'; document.body.appendChild(el); }
-          if (track.kind === Track.Kind.Video && remoteRef.current) { track.attach(remoteRef.current); setStatus('Connected'); }
+        // Microphone first — the camera is never asked for here. Rooms joined
+        // as video are the one exception (the member chose video to enter).
+        const stream = await navigator.mediaDevices.getUserMedia({
+          audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true },
+          video: roomId && session.kind === 'video' ? VIDEO_CONSTRAINTS : false,
         });
-        let hadRemote = false;
-        room.on(RoomEvent.ParticipantConnected, () => { hadRemote = true; setStatus('Connected'); });
-        room.on(RoomEvent.ParticipantDisconnected, (p2) => {
-          // 1:1 call: the partner leaving (signalled over the WebSocket) ends the call here too.
-          if (partner.id && p2 && String(p2.identity) === String(partner.id)) { endRef.current && endRef.current(); }
-        });
-        room.on(RoomEvent.Disconnected, () => setStatus('Call ended'));
-        await room.connect(session.url, session.token);
-        if (room.remoteParticipants.size > 0) hadRemote = true;
-        startedRef.current = Date.now(); setSecs(0);
-        await room.localParticipant.setMicrophoneEnabled(true);
-        if (session.kind === 'video') await room.localParticipant.setCameraEnabled(true);
-        setStatus(session.kind === 'room' ? 'In room' : 'Ringing…');
-      } catch (e) { setStatus('Could not connect'); toast('Call could not connect — is the LiveKit server running?'); }
+        localRef.current = stream;
+        if (selfVideoRef.current) selfVideoRef.current.srcObject = stream;
+        setStatus(roomId ? 'In room' : 'Ringing…');
+        socket.join(session.room_name);
+        offsRef.current.push(socket.on('signal', handleSignal));
+        if (roomId) {
+          // Mesh: the lower user id opens the connection to each other person;
+          // anyone who left gets closed.
+          offsRef.current.push(socket.on('peers', m => {
+            if (m.room !== session.room_name) return;
+            const ids = (m.peers || []).filter(id => id !== me.id);
+            for (const id of ids) { if (me.id < id) createPeer(id); }
+            for (const pid of [...peersRef.current.keys()]) { if (!ids.includes(pid)) closePeer(pid); }
+          }));
+        } else if (partner.id) {
+          offsRef.current.push(socket.on('call-accepted', m => {
+            if (m.call_id !== session.call_id || phaseRef.current !== 'ringing') return;
+            if (ringTimer) { clearTimeout(ringTimer); ringTimer = null; }
+            goPhase('live');
+            createPeer(Number(partner.id));
+          }));
+          offsRef.current.push(socket.on('call-declined', m => {
+            if (m.call_id !== session.call_id) return;
+            toast('Partner declined the call');
+            onCloseRef.current();
+          }));
+          if (phaseRef.current === 'ringing') {
+            ringTimer = setTimeout(async () => {
+              if (phaseRef.current !== 'ringing') return;
+              try { await api('/api/calls/answer', { method: 'POST', body: { call_id: session.call_id, action: 'cancel' } }); } catch {}
+              toast('No answer');
+              onCloseRef.current();
+            }, 45000);
+          }
+        }
+      } catch (e) { setStatus('Could not connect'); toast('Call could not connect — check microphone/camera permission'); }
     })();
-    const t = setInterval(() => setSecs(Math.floor((Date.now() - startedRef.current) / 1000)), 1000);
-    return () => { clearInterval(t); try { room?.disconnect(); } catch {} };
+    return () => {
+      if (ringTimer) clearTimeout(ringTimer);
+      if (phaseRef.current === 'live') {
+        if (partner.id) sendSignal(Number(partner.id), 'bye', {});
+        else sendSignal(null, 'bye', {});
+      }
+      cleanupMedia();
+    };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
+    if (phase === 'searching') return;
+    const t = setInterval(() => setSecs(Math.floor((Date.now() - startedRef.current) / 1000)), 1000);
+    return () => clearInterval(t);
+  }, [phase]);
+
+  useEffect(() => {
     (async () => {
-      const room = roomRef.current; if (!room) return;
+      const stream = localRef.current; if (!stream) return;
       try {
-        if (camOn) { await room.localParticipant.setCameraEnabled(true); const pub = room.localParticipant.getTrackPublication(Track.Source.Camera); if (pub?.track && selfVideoRef.current) pub.track.attach(selfVideoRef.current); }
-        else await room.localParticipant.setCameraEnabled(false);
-      } catch {}
+        const vtrack = stream.getVideoTracks()[0];
+        if (camOn) {
+          if (!vtrack) {
+            const vs = await navigator.mediaDevices.getUserMedia({ video: VIDEO_CONSTRAINTS });
+            const nt = vs.getVideoTracks()[0];
+            stream.addTrack(nt);
+            for (const entry of peersRef.current.values()) { try { entry.pc.addTrack(nt, stream); } catch {} }
+          } else vtrack.enabled = true;
+          if (selfVideoRef.current) selfVideoRef.current.srcObject = stream;
+        } else if (vtrack) vtrack.enabled = false;
+      } catch { setCamOn(false); setVideoState('off'); }
     })();
   }, [camOn]);
 
-  async function toggleMic() { const room = roomRef.current; if (!room) return; const next = !micOn; setMicOn(next); try { await room.localParticipant.setMicrophoneEnabled(next); } catch {} }
-  function toggleSpk() { const next = !spkOn; setSpkOn(next); document.querySelectorAll('audio[data-livekit]').forEach(a => { a.muted = !next; }); document.querySelectorAll('body > audio').forEach(a => { a.muted = !next; }); }
+  function toggleMic() { const next = !micOn; setMicOn(next); if (localRef.current) localRef.current.getAudioTracks().forEach(t => { t.enabled = next; }); }
+  function toggleSpk() { const next = !spkOn; setSpkOn(next); spkRef.current = next; document.querySelectorAll('audio[data-webrtc]').forEach(a => { a.muted = !next; }); }
+
+  // Video button. Rooms: just my own camera. 1-to-1: turning video ON needs
+  // the partner's accept (and their camera permission) — turning it OFF is free.
+  function toggleVideo() {
+    if (!partner.id) { setCamOn(c => !c); return; }
+    if (videoState === 'on') {
+      setVideoState('off'); setCamOn(false);
+      sendSignal(Number(partner.id), 'video-off', {});
+      return;
+    }
+    if (videoState === 'requested') return; // already waiting for the answer
+    setVideoState('requested');
+    sendSignal(Number(partner.id), 'video-request', {});
+  }
+  async function acceptVideo() {
+    setVideoAsk(false);
+    try {
+      // My camera permission comes first — only then does the requester hear yes.
+      const stream = localRef.current; if (!stream) throw new Error('no media');
+      if (!stream.getVideoTracks()[0]) {
+        const vs = await navigator.mediaDevices.getUserMedia({ video: VIDEO_CONSTRAINTS });
+        const nt = vs.getVideoTracks()[0];
+        stream.addTrack(nt);
+        for (const entry of peersRef.current.values()) { try { entry.pc.addTrack(nt, stream); } catch {} }
+      } else stream.getVideoTracks()[0].enabled = true;
+      if (selfVideoRef.current) selfVideoRef.current.srcObject = stream;
+      setVideoState('on'); setCamOn(true);
+      sendSignal(Number(partner.id), 'video-accepted', {});
+    } catch {
+      sendSignal(Number(partner.id), 'video-declined', {});
+      toast('Camera permission denied');
+    }
+  }
+  function declineVideo() {
+    setVideoAsk(false);
+    sendSignal(Number(partner.id), 'video-declined', {});
+  }
 
   const endRef = useRef(null);
   async function endCall() {
-    try { await roomRef.current?.disconnect(); } catch {}
+    if (phaseRef.current === 'searching') { onClose(); return; }
+    if (phaseRef.current === 'ringing') {
+      // I called, they have not accepted yet — this is a cancel, not an end.
+      try { await api('/api/calls/answer', { method: 'POST', body: { call_id: session.call_id, action: 'cancel' } }); } catch {}
+      cleanupMedia();
+      onClose();
+      return;
+    }
+    if (!endedRef.current) {
+      endedRef.current = true;
+      if (partner.id) sendSignal(Number(partner.id), 'bye', {});
+      else sendSignal(null, 'bye', {});
+      cleanupMedia();
+    }
     if (!partner.id) { onClose(); return; }
     try {
       const r = await api('/api/calls/end', { method: 'POST', body: { call_id: session.call_id } });
@@ -115,6 +329,28 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
     </div></div>
   );
 
+  if (phase === 'searching') return (
+    <div className="callwin open" ref={winRef} role="dialog" aria-label="Call window" style={{ right: 18, bottom: 18 }}>
+      <div className="callwin-head" onPointerDown={onDragStart}><span className="drag-dots">⠿</span>
+        <div><b>Start calling</b><small>Audio call · 00:00</small></div>
+        <div className="hw">
+          <button type="button" className="endb" title="End call" aria-label="End call" onClick={endCall}><Ic n="phone" /></button>
+        </div>
+      </div>
+      <div className="call-stage ringing">
+        <div style={{ display: 'grid', justifyItems: 'center' }}>
+          <span className="avatar big-av" style={{ background: '#46536A' }}><Ic n="phone" size={34} /></span>
+          <div className="status-txt">Searching your partner…</div>
+          <div className="sub-txt">Audio call</div>
+        </div>
+      </div>
+      <div className="cw-enc"><Ic n="lock" size={14} /><span>Encrypted. Only people in the call can hear you.</span></div>
+      <div className="call-controls">
+        <button type="button" className="cc-end" title="End call" aria-label="End call" onClick={endCall}><Ic n="phone" /></button>
+      </div>
+    </div>
+  );
+
   if (min) return (
     <div className="callmin open" style={{ display: 'flex' }}>
       <Avatar user={partner} size={36} /><span><b>{partner.name}</b><small>{mm}:{ss}</small></span>
@@ -124,29 +360,32 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
     </div>
   );
 
+  const statusText = phase === 'ringing' ? 'Waiting for them to accept…' : status;
   return (
     <div className="callwin open" ref={winRef} role="dialog" aria-label="Call window" style={{ right: 18, bottom: 18 }}>
       <div className="callwin-head" onPointerDown={onDragStart}><span className="drag-dots">⠿</span>
-        <div><b>{partner.name}</b><small>{partner.roomPeople != null ? `Room · ${partner.roomPeople} people` : session.kind === 'video' ? 'Video call' : 'Audio call'} · {mm}:{ss}</small></div>
+        <div><b>{partner.name}</b><small>{partner.roomPeople != null ? `Room · ${partner.roomPeople} people` : videoOn ? 'Video call' : 'Audio call'} · {mm}:{ss}</small></div>
         <div className="hw">
           <button type="button" title="Minimize" aria-label="Minimize call" onClick={() => setMin(true)}><Ic n="minus" /></button>
           <button type="button" className="endb" title="End call" aria-label="End call" onClick={endCall}><Ic n="phone" /></button>
         </div>
       </div>
-      <div className={`call-stage ${status !== 'Connected' ? 'ringing' : ''}`}>
+      <div className={`call-stage ${statusText !== 'Connected' ? 'ringing' : ''}`}>
         <div style={{ display: 'grid', justifyItems: 'center' }}>
           <span className="avatar big-av" style={{ background: partner.color || '#0E9594', overflow: 'hidden' }}>{partner.avatar ? <img src={partner.avatar} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} /> : initials(partner.name)}</span>
-          <div className="status-txt">{status}</div>
-          <div className="sub-txt">{session.kind === 'video' ? 'Video call' : 'Audio call'}</div>
-          <video ref={remoteRef} autoPlay playsInline style={{ width: '100%', borderRadius: 14, marginTop: 10, display: session.kind === 'video' ? 'block' : 'none' }} />
+          <div className="status-txt">{statusText}</div>
+          <div className="sub-txt">{videoOn ? 'Video call' : 'Audio call'}</div>
+          <video ref={remoteRef} autoPlay playsInline style={{ width: '100%', borderRadius: 14, marginTop: 10, display: remoteVideo ? 'block' : 'none' }} />
         </div>
         <div className="cw-selfview" hidden={!camOn}><video ref={selfVideoRef} autoPlay muted playsInline style={{ width: '100%', height: '100%', objectFit: 'cover' }} /><span>You · camera on</span></div>
       </div>
+      {videoAsk && partner.id ? <div className="cw-video-ask"><span>{partner.name} wants to turn on video</span><span className="cw-va-btns"><button type="button" className="fr-btn" onClick={declineVideo}>Decline</button><button type="button" className="fr-btn cw-va-accept" onClick={acceptVideo}>Accept</button></span></div> : null}
+      {videoState === 'requested' && partner.id ? <div className="cw-video-ask"><span>Waiting for {partner.name} to accept video…</span></div> : null}
       <div className="cw-enc"><Ic n="lock" size={14} /><span>Encrypted. Only people in the call can hear you.</span></div>
       <div className="call-controls">
         <button type="button" className={`cc-btn ${!micOn ? 'off' : ''}`} title="Mute microphone" aria-label="Mute microphone" onClick={toggleMic}><Ic n="mic" /></button>
         <button type="button" className={`cc-btn ${!spkOn ? 'off' : ''}`} title="Speaker" aria-label="Toggle speaker" onClick={toggleSpk}><Ic n="speaker" /></button>
-        <button type="button" className={`cc-btn cc-video ${camOn ? 'off' : ''}`} title="Turn camera on" aria-label="Turn camera on" onClick={() => setCamOn(c => !c)}><Ic n="video" /></button>
+        <button type="button" className={`cc-btn cc-video ${camOn ? 'off' : ''}`} title="Turn camera on" aria-label="Turn camera on" onClick={toggleVideo} disabled={phase === 'ringing'}><Ic n="video" /></button>
         <button type="button" className="cc-btn" title="Add people" aria-label="Add people" onClick={() => onAddPeople && onAddPeople()}><Ic n="adduser" /></button>
         <button type="button" className="cc-btn" title="Minimize" aria-label="Minimize call" onClick={() => setMin(true)}><Ic n="minus" /></button>
         <button type="button" className="cc-end" title="End call" aria-label="End call" onClick={endCall}><Ic n="phone" /></button>

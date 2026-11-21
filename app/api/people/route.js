@@ -9,16 +9,16 @@ export async function GET(req) {
   const search = new URL(req.url).searchParams.get('search');
   if (search) {
     const like = `%${search}%`;
-    const rows = await q(`SELECT u.*, ${RATING_SQL}, ${RATING_CATS_SQL} FROM users u WHERE u.id != ? AND u.suspended = 0 AND (u.email = ? OR u.name LIKE ?) LIMIT 10`, [me.id, search, like]);
+    const rows = await q(`SELECT u.*, (u.is_online = 1 AND last_seen_at >= NOW() - INTERVAL 90 SECOND) AS online_now, ${RATING_SQL}, ${RATING_CATS_SQL} FROM users u WHERE u.id != ? AND u.suspended = 0 AND (u.email = ? OR u.name LIKE ?) LIMIT 10`, [me.id, search, like]);
     const out = [];
     for (const u of rows) { const fr = await isFriend(me.id, u.id); out.push({ ...shapeUser(parseCats(u), me.id, fr), is_friend: fr }); }
     return ok({ results: out });
   }
-  const rows = await q(`SELECT u.*, ${RATING_SQL}, ${RATING_CATS_SQL} FROM users u JOIN friendships f ON ((f.requester_id = ? AND f.addressee_id = u.id) OR (f.addressee_id = ? AND f.requester_id = u.id)) AND f.status = 'accepted' WHERE u.id != ?`, [me.id, me.id, me.id]);
+  const rows = await q(`SELECT u.*, (u.is_online = 1 AND last_seen_at >= NOW() - INTERVAL 90 SECOND) AS online_now, ${RATING_SQL}, ${RATING_CATS_SQL} FROM users u JOIN friendships f ON ((f.requester_id = ? AND f.addressee_id = u.id) OR (f.addressee_id = ? AND f.requester_id = u.id)) AND f.status = 'accepted' WHERE u.id != ?`, [me.id, me.id, me.id]);
   const blockedByMe = new Set((await q('SELECT blocked_id FROM blocks WHERE blocker_id = ?', [me.id])).map(r => r.blocked_id));
   const blockedMe = new Set((await q('SELECT blocker_id FROM blocks WHERE blocked_id = ?', [me.id])).map(r => r.blocker_id));
   const people = rows.map(u => ({ ...shapeUser(parseCats(u), me.id, true), blocked_by_me: blockedByMe.has(u.id), blocked_me: blockedMe.has(u.id) }));
-  const requests = await q(`SELECT u.id, u.name, u.username, u.note, u.avatar, u.is_online FROM users u JOIN friendships f ON f.requester_id = u.id WHERE f.addressee_id = ? AND f.status = 'pending'`, [me.id]);
+  const requests = await q(`SELECT u.id, u.name, u.username, u.note, u.avatar, (u.is_online = 1 AND last_seen_at >= NOW() - INTERVAL 90 SECOND) AS is_online FROM users u JOIN friendships f ON f.requester_id = u.id WHERE f.addressee_id = ? AND f.status = 'pending'`, [me.id]);
   return ok({ people, requests });
 }
 export async function isFriend(a, b) {

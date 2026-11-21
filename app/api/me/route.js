@@ -7,7 +7,7 @@ import { currentSubscription } from '@/lib/subscription';
 
 export async function GET() {
   const me = await currentUser(); if (!me) return fail('Not signed in', 401);
-  const u = await q1(`SELECT u.*, ${RATING_SQL} FROM users u WHERE u.id = ?`, [me.id]);
+  const u = await q1(`SELECT u.*, (u.is_online = 1 AND last_seen_at >= NOW() - INTERVAL 90 SECOND) AS online_now, ${RATING_SQL} FROM users u WHERE u.id = ?`, [me.id]);
   const sub = await currentSubscription(me.id);
   const [tot] = await q('SELECT COALESCE(SUM(minutes),0) AS minutes, COALESCE(SUM(calls),0) AS calls FROM user_daily_stats WHERE user_id = ?', [me.id]);
   return ok({ user: { ...u, password_hash: undefined }, subscription: sub, totals: tot });

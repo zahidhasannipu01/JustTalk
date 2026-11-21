@@ -48,7 +48,7 @@ export async function GET() {
       : { title: `Call with ${c.partner_name || 'a partner'}`, sub: `${mins} minutes · ${c.kind === 'video' ? 'Video' : 'Audio'} call`, when: dayLabel };
   });
 
-  const [live] = await q('SELECT COUNT(*) AS n FROM users WHERE is_online = 1');
+  const [live] = await q('SELECT COUNT(*) AS n FROM users WHERE is_online = 1 AND last_seen_at >= NOW() - INTERVAL 90 SECOND');
   const sub = await currentSubscription(me.id);
   const [roomsJoined] = await q('SELECT COUNT(DISTINCT room_id) AS n FROM calls WHERE caller_id = ? AND room_id IS NOT NULL', [me.id]);
   return ok({ today: today || { minutes: 0, calls: 0 }, week_minutes: Number(week.m), all_minutes: Number(all.m), all_calls: Number(all.c), streak, rating: rating.rating, ratings_count: rating.n, rating_cats: rating.n ? { fluency: Number(rating.f), speaking: Number(rating.s), behaviour: Number(rating.b) } : null, series, activity, rooms_joined: roomsJoined.n, live_now: live.n, plan: sub });

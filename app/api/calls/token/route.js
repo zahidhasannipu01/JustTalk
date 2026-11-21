@@ -1,7 +1,7 @@
 import { q, q1 } from '@/lib/db';
 import { currentUser } from '@/lib/auth';
 import { ok, fail } from '@/lib/respond';
-import { livekitToken, livekitUrl } from '@/lib/livekit';
+import { hubPush } from '@/lib/hub';
 
 // Direct call to a person (People / Profile / Chat call buttons). Blocked-by-them => the preview's modal case.
 export async function POST(req) {
@@ -14,8 +14,9 @@ export async function POST(req) {
   const blockedByMe = await q1('SELECT 1 AS x FROM blocks WHERE blocker_id = ? AND blocked_id = ?', [me.id, target]);
   if (blockedByMe) return fail('You have blocked this person', 403);
   const kind = b?.kind === 'video' ? 'video' : 'audio';
-  const lkRoom = `call-${me.id}-${target}-${Date.now()}`;
-  const r = await q("INSERT INTO calls (caller_id, callee_id, livekit_room, kind, status, started_at) VALUES (?, ?, ?, ?, 'active', NOW())", [me.id, target, lkRoom, kind]);
-  const token = await livekitToken(me.id, me.name, lkRoom);
-  return ok({ token, url: livekitUrl(), call_id: r.insertId, room_name: lkRoom, partner: { id: u.id, name: u.name, avatar: u.avatar } });
+  const channel = `call-${me.id}-${target}-${Date.now()}`;
+  const r = await q("INSERT INTO calls (caller_id, callee_id, channel, kind, status, source) VALUES (?, ?, ?, ?, 'ringing', 'direct')", [me.id, target, channel, kind]);
+  const meU = await q1('SELECT avatar FROM users WHERE id = ?', [me.id]);
+  hubPush(target, { t: 'incoming-call', call_id: r.insertId, room_name: channel, kind, from_match: false, partner: { id: me.id, name: me.name, avatar: meU?.avatar || null } });
+  return ok({ call_id: r.insertId, room_name: channel, ringing: true, partner: { id: u.id, name: u.name, avatar: u.avatar } });
 }

@@ -30,7 +30,7 @@ function env() { const e = { ...process.env }; for (const f of ['.env.local', '.
   ];
   const ids = {};
   for (const [name, email, avatar, phone, vis, gender, pref, city, country, online, username, note, goal, device, ip, joined] of people) {
-    const [r] = await conn.query('INSERT INTO users (name,username,note,goal,device,last_ip,email,password_hash,avatar,phone,phone_visibility,gender,talk_preference,city,country,is_online,last_seen_at,created_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,NOW(),?) ON DUPLICATE KEY UPDATE id=LAST_INSERT_ID(id)', [name, username, note, goal, device, ip, email, hash('password123'), '/assets/faces/' + avatar, phone, vis, gender, pref, city, country, online, joined]);
+    const [r] = await conn.query('INSERT INTO users (name,username,note,goal,device,last_ip,email,password_hash,avatar,phone,phone_visibility,gender,talk_preference,city,country,is_online,last_seen_at,created_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) ON DUPLICATE KEY UPDATE id=LAST_INSERT_ID(id)', [name, username, note, goal, device, ip, email, hash('password123'), '/assets/faces/' + avatar, phone, vis, gender, pref, city, country, online, joined, joined]);
     ids[email] = r.insertId;
     // Keep the demo profile fields aligned on re-seed.
     await conn.query('UPDATE users SET username=?, note=?, goal=?, device=?, last_ip=?, phone=?, phone_visibility=?, city=?, country=?, is_online=?, created_at=? WHERE id=?', [username, note, goal, device, ip, phone, vis, city, country, online, joined, r.insertId]);
@@ -86,7 +86,7 @@ function env() { const e = { ...process.env }; for (const f of ['.env.local', '.
       const rater = ids[raters[i % raters.length]];
       const agoH = 3 + i * 11; // hours ago
       const dur = 330 + ((i * 137) % 900);
-      const [c] = await conn.query("INSERT INTO calls (caller_id, callee_id, livekit_room, kind, status, started_at, ended_at, duration_seconds) VALUES (?, ?, ?, ?, 'ended', NOW() - INTERVAL ? HOUR, NOW() - INTERVAL ? HOUR + INTERVAL ? SECOND, ?)", [rater, ratee, `seed-${ratee}-${i}`, i % 3 === 0 ? 'video' : 'audio', agoH, agoH, dur, dur]);
+      const [c] = await conn.query("INSERT INTO calls (caller_id, callee_id, channel, kind, status, started_at, ended_at, duration_seconds) VALUES (?, ?, ?, ?, 'ended', NOW() - INTERVAL ? HOUR, NOW() - INTERVAL ? HOUR + INTERVAL ? SECOND, ?)", [rater, ratee, `seed-${ratee}-${i}`, i % 3 === 0 ? 'video' : 'audio', agoH, agoH, dur, dur]);
       await conn.query('INSERT INTO ratings (call_id, rater_id, ratee_id, fluency, speaking, behaviour) VALUES (?,?,?,?,?,?)', [c.insertId, rater, ratee, F[i], S[i], B[i]]);
     }
   }
@@ -106,9 +106,9 @@ function env() { const e = { ...process.env }; for (const f of ['.env.local', '.
       ['Debate Prep — Evening', 'imran@example.com', 1200, 70],
       ['Job Interview Practice', 'nusrat@example.com', 780, 90], ['Job Interview Practice', 'tania@example.com', 960, 95],
     ];
-    for (const [title, em, dur, agoH] of roomPractice) await conn.query("INSERT INTO calls (caller_id, callee_id, room_id, livekit_room, kind, status, started_at, ended_at, duration_seconds) VALUES (?, NULL, ?, ?, 'room', 'ended', NOW() - INTERVAL ? HOUR, NOW() - INTERVAL ? HOUR + INTERVAL ? SECOND, ?)", [ids[em], roomIds[title], `room-${roomIds[title]}`, agoH, agoH, dur, dur]);
+    for (const [title, em, dur, agoH] of roomPractice) await conn.query("INSERT INTO calls (caller_id, callee_id, room_id, channel, kind, status, started_at, ended_at, duration_seconds) VALUES (?, NULL, ?, ?, 'room', 'ended', NOW() - INTERVAL ? HOUR, NOW() - INTERVAL ? HOUR + INTERVAL ? SECOND, ?)", [ids[em], roomIds[title], `room-${roomIds[title]}`, agoH, agoH, dur, dur]);
     // The owner practised in two rooms himself.
-    for (const [title, dur, agoH] of [['Daily English — Talk About Your Day', 1500, 26], ['Debate Prep — Evening', 1080, 74]]) await conn.query("INSERT INTO calls (caller_id, callee_id, room_id, livekit_room, kind, status, started_at, ended_at, duration_seconds) VALUES (?, NULL, ?, ?, 'room', 'ended', NOW() - INTERVAL ? HOUR, NOW() - INTERVAL ? HOUR + INTERVAL ? SECOND, ?)", [zahid, roomIds[title], `room-${roomIds[title]}`, agoH, agoH, dur, dur]);
+    for (const [title, dur, agoH] of [['Daily English — Talk About Your Day', 1500, 26], ['Debate Prep — Evening', 1080, 74]]) await conn.query("INSERT INTO calls (caller_id, callee_id, room_id, channel, kind, status, started_at, ended_at, duration_seconds) VALUES (?, NULL, ?, ?, 'room', 'ended', NOW() - INTERVAL ? HOUR, NOW() - INTERVAL ? HOUR + INTERVAL ? SECOND, ?)", [zahid, roomIds[title], `room-${roomIds[title]}`, agoH, agoH, dur, dur]);
   }
   // ---- Chats -------------------------------------------------------------
   {
@@ -138,11 +138,10 @@ function env() { const e = { ...process.env }; for (const f of ['.env.local', '.
     await convo('nusrat@example.com', [[false, 'text', 'Job interview questions list is ready when you are 📚', 5800, true]]);
     await convo('emma@example.com', [[false, 'text', 'Hi! Want to practise English together?', 7300, true]]);
   }
-  // ---- Notifications for the owner (badge = 6 unread, as in the preview) --
+  // ---- Notifications for the owner (badge = 5 unread, as in the preview) --
   const [notifCount] = await conn.query('SELECT COUNT(*) AS n FROM notifications WHERE user_id = ?', [zahid]);
   if (notifCount[0].n === 0) {
     const notifs = [
-      ['subscription_reminder', null, 'Payment reminder', 'Plus renewal ৳100 was due yesterday', 0, 120],
       ['missed_call', 'farhana@example.com', 'Farhana Haque', 'Missed call', 0, 133],
       ['message', 'rahim@example.com', 'Rahim Ahmed', 'I have two new arguments ready.', 0, 168],
       ['missed_call', 'imran@example.com', 'Imran Hossain', 'Missed call', 0, 1500],

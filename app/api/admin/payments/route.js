@@ -27,6 +27,10 @@ export async function POST(req) {
   const b = await req.json().catch(() => null);
   if (b?.action === 'remind') {
     const uid = Number(b.user_id); if (!uid) return fail('Invalid user');
+    // A reminder only makes sense for someone who has actually held a paid
+    // plan (active or expired). Never-subscribed users get a clear error.
+    const rec = await q1(`SELECT s.id FROM subscriptions s JOIN packages p ON p.id = s.package_id WHERE s.user_id = ? AND p.price_taka > 0 AND s.status IN ('active', 'expired') LIMIT 1`, [uid]);
+    if (!rec) return fail('This user has never had a paid plan — nothing to remind about');
     const s = await q1(`SELECT p.name AS plan_name, p.price_taka, s.expires_at FROM subscriptions s JOIN packages p ON p.id = s.package_id WHERE s.user_id = ? AND s.status = 'active' ORDER BY s.id DESC LIMIT 1`, [uid]);
     let body = 'Your plan needs renewing — see Subscription';
     if (s) {
@@ -44,6 +48,7 @@ export async function POST(req) {
     await q("UPDATE payment_requests SET status = 'approved', decided_at = NOW() WHERE id = ?", [pr.id]);
     await q("UPDATE subscriptions SET status = 'expired' WHERE user_id = ? AND status = 'active'", [pr.user_id]);
     await q("INSERT INTO subscriptions (user_id, package_id, status, started_at, expires_at) VALUES (?, ?, 'active', NOW(), NOW() + INTERVAL 30 DAY)", [pr.user_id, pr.package_id]);
+    await q("UPDATE notifications SET is_read = 1 WHERE user_id = ? AND kind = 'subscription_reminder' AND is_read = 0", [pr.user_id]);
     await q("INSERT INTO notifications (user_id, kind, title, body) VALUES (?, 'payment', 'Payment confirmed', 'Your plan is active')", [pr.user_id]);
     await logAdmin(a.id, 'payment_approved', `#${pr.id} ${pr.amount_taka} taka`);
   } else if (b?.action === 'reject') {
