@@ -12,7 +12,6 @@ export default function RootLayout({ children }) {
         <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Bengali:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
       </head>
       <body>
-        <div id="page-wipe" aria-hidden="true"><div className="pw-panel pw-1"></div><div className="pw-panel pw-2"></div><div className="pw-panel pw-3"><span className="pw-logo">talk<i>.</i></span></div></div>
         {children}
         <div id="toast-root"></div>
       </body>

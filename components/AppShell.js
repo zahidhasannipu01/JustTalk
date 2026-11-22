@@ -161,8 +161,6 @@ export default function AppShell({ initialUser }) {
 
   function go(v) {
     if (v === 'create') { setCreateOpen(true); return; }
-    const wipe = document.getElementById('page-wipe');
-    if (wipe) { wipe.classList.remove('run'); void wipe.offsetWidth; wipe.classList.add('run'); setTimeout(() => wipe.classList.remove('run'), 1150); }
     setView(v); setMenuOpen(false); setTrayOpen(false); setMoreOpen(false);
   }
   async function logout() { try { await api('/api/auth/logout', { method: 'POST' }); } catch {} window.location.href = '/login'; }
