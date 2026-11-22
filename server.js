@@ -149,7 +149,11 @@ async function broadcastRoomsLive() {
 // ChatView over the socket, kept per-socket. The message route asks this so
 // a chat the recipient is already reading never spawns a notification.
 function isViewing(userId, conversationId) { const set = userSockets.get(Number(userId)); if (!set) return false; for (const ws of set) if (ws.viewingConv != null && Number(ws.viewingConv) === Number(conversationId)) return true; return false; }
-globalThis.__wsHub = { sendToUser, isViewing, roomsLive };
+// Busy = talking right now: the user's socket sits in a room channel
+// (room-*) or a 1-to-1 call channel (call-*). Channel membership is the
+// live truth — a closed tab leaves the channel, so it can never go stale.
+function userInCall(userId) { const set = userSockets.get(Number(userId)); if (!set) return false; for (const ws of set) for (const ch of ws.channels) if (ch.startsWith('room-') || ch.startsWith('call-')) return true; return false; }
+globalThis.__wsHub = { sendToUser, isViewing, roomsLive, userInCall };
 
 // ---------------- app ----------------
 const app = next({ dev });

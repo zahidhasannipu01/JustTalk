@@ -242,6 +242,7 @@ export default function AppShell({ initialUser }) {
     try {
       const d = await api('/api/calls/token', { method: 'POST', body: { user_id: person.id, kind } });
       if (d.blocked) { setBlockedPerson(person); return; }
+      if (d.busy) { toast(`${person.name} is busy on another call`); return; }
       setCall({ phase: 'ringing', ...d, kind, partner: { ...person, color: person.color || colorFor(person.id) } });
     } catch (e) { toast(e.message); }
   }

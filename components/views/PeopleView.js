@@ -44,7 +44,7 @@ export default function PeopleView({ people, everyone, requests, reload, onCall,
           {list.map(p => (
             <div className="pcard" key={p.id}>
               <div className="pc-top">
-                <span className="av-wrap"><Avatar user={{ ...p, color: colorFor(p.id) }} size={50} initialsOnly />{p.online && <i className="presence" title="Online"></i>}</span>
+                <span className="av-wrap"><Avatar user={{ ...p, color: colorFor(p.id) }} size={50} />{p.online && <i className="presence" title="Online"></i>}</span>
                 <span className="pc-id">
                   <span className="pc-name">{p.name}{p.blocked_by_me && <span className="blocked-tag">Blocked</span>}</span>
                   <span className="pc-status"><span className={p.online ? 'dot-on' : 'dot-off'}></span>{p.online ? 'Online' : 'Last seen recently'}{p.note ? <><span className="sep">·</span><span className="note">{p.note}</span></> : null}</span>

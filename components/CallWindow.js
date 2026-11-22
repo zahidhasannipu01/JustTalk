@@ -37,7 +37,8 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
   const [showReport, setShowReport] = useState(false);
   const [showBlock, setShowBlock] = useState(false);
   const [friendSent, setFriendSent] = useState(false);
-  const [videoState, setVideoState] = useState('off'); // off | requested | on  (1-to-1 consent flow)
+  const [videoState, setVideoState] = useState('off'); // off | requested  (1-to-1 consent flow)
+  const [videoAgreed, setVideoAgreed] = useState(false); // video consented once this call — after that each side toggles its own camera freely
   const [videoAsk, setVideoAsk] = useState(false); // partner asked me for video
   const [remoteVideo, setRemoteVideo] = useState(false); // partner's video is showing
   const [chrome, setChrome] = useState(true); // video mode: header + controls overlay visible (tap the video to toggle)
@@ -57,11 +58,12 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
   const winRef = useRef(null);
   const selfVideoRef = useRef(null);
   const remoteRef = useRef(null);
+  const remoteStreamRef = useRef(null); // last remote video stream — re-attached after a minimize/restore remount
   const startedRef = useRef(Date.now());
   const onCloseRef = useRef(onClose);
   onCloseRef.current = onClose;
   const partner = session.partner || { name: session.title || 'Room', avatar: null };
-  const videoOn = videoState === 'on' || remoteVideo;
+  const videoOn = camOn || remoteVideo; // video mode while at least one camera is on; both off = audio call
 
   function goPhase(p) { phaseRef.current = p; setPhase(p); }
 
@@ -99,7 +101,9 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
         el.srcObject = new MediaStream([track]);
         document.body.appendChild(el); entry.audioEl = el;
       } else if (track.kind === 'video') {
-        if (remoteRef.current) remoteRef.current.srcObject = new MediaStream([track]);
+        const ms = new MediaStream([track]);
+        remoteStreamRef.current = ms;
+        if (remoteRef.current) remoteRef.current.srcObject = ms;
         setRemoteVideo(true);
         track.onended = () => setRemoteVideo(false);
         setStatus('Connected');
@@ -154,8 +158,9 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
     }
     // Video consent handshake (1-to-1 only).
     if (sig.kind === 'video-request') { setVideoAsk(true); return; }
-    if (sig.kind === 'video-accepted') { setVideoState('on'); setCamOn(true); return; }
+    if (sig.kind === 'video-accepted') { setVideoAgreed(true); setVideoState('off'); setCamOn(true); return; }
     if (sig.kind === 'video-declined') { setVideoState('off'); toast('Partner declined video'); return; }
+    if (sig.kind === 'video-state') { setRemoteVideo(!!(sig.payload && sig.payload.on)); return; }
     if (sig.kind === 'video-off') { setRemoteVideo(false); return; }
     // If I am still "ringing" and my partner sends an offer, they accepted —
     // the call-accepted push may have raced my listener registration, so the
@@ -328,16 +333,33 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
     })();
   }, [camOn]);
 
+  // Minimizing unmounts the video elements (the pill replaces the window);
+  // when the window comes back they are brand-new elements and ontrack does
+  // not fire again — re-attach the known streams so video survives restore.
+  useEffect(() => {
+    if (min) return;
+    if (remoteRef.current && remoteStreamRef.current) remoteRef.current.srcObject = remoteStreamRef.current;
+    if (selfVideoRef.current && localRef.current && camOn) selfVideoRef.current.srcObject = localRef.current;
+  }, [min]);
+
   function toggleMic() { const next = !micOn; setMicOn(next); if (localRef.current) localRef.current.getAudioTracks().forEach(t => { t.enabled = next; }); }
   function toggleSpk() { const next = !spkOn; setSpkOn(next); spkRef.current = next; document.querySelectorAll('audio[data-webrtc]').forEach(a => { a.muted = !next; }); }
 
-  // Video button. Rooms: just my own camera. 1-to-1: turning video ON needs
-  // the partner's accept (and their camera permission) — turning it OFF is free.
+  // Video button. Rooms: just my own camera. 1-to-1: the FIRST time either
+  // side wants video it needs the partner's accept (consent is per call).
+  // After that, the button only toggles my own camera — no new request, no
+  // popup on the other side — and a 'video-state' note keeps their UI in
+  // sync. Video mode ends when both cameras are off.
   function toggleVideo() {
     if (!partner.id) { setCamOn(c => !c); return; }
-    if (videoState === 'on') {
-      setVideoState('off'); setCamOn(false);
-      sendSignal(Number(partner.id), 'video-off', {});
+    if (camOn) {
+      setCamOn(false);
+      sendSignal(Number(partner.id), 'video-state', { on: false });
+      return;
+    }
+    if (videoAgreed) {
+      setCamOn(true);
+      sendSignal(Number(partner.id), 'video-state', { on: true });
       return;
     }
     if (videoState === 'requested') return; // already waiting for the answer
@@ -356,7 +378,7 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
         for (const entry of peersRef.current.values()) { try { entry.pc.addTrack(nt, stream); } catch {} }
       } else stream.getVideoTracks()[0].enabled = true;
       if (selfVideoRef.current) selfVideoRef.current.srcObject = stream;
-      setVideoState('on'); setCamOn(true);
+      setVideoAgreed(true); setVideoState('off'); setCamOn(true);
       sendSignal(Number(partner.id), 'video-accepted', {});
     } catch {
       sendSignal(Number(partner.id), 'video-declined', {});
@@ -464,11 +486,11 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
     // they survived, the pill would keep them alongside its CSS right/bottom
     // and stretch across the whole screen (the giant-oval bug on phones,
     // where the window gets touch-dragged before minimizing).
-    <div className="callmin open" style={{ display: 'flex', left: 'auto', top: 'auto' }}>
+    <div className="callmin open" style={{ display: 'flex', left: 'auto', top: 'auto', cursor: 'pointer' }} onClick={() => setMin(false)} title="Restore call">
       <Avatar user={partner} size={36} /><span><b>{partner.name}</b><small>{mm}:{ss}</small></span>
-      <button type="button" className={!micOn ? 'off' : ''} onClick={toggleMic} title="Mute / unmute" aria-label="Mute / unmute"><Ic n={micOn ? 'mic' : 'micoff'} /></button>
+      <button type="button" className={!micOn ? 'off' : ''} onClick={e => { e.stopPropagation(); toggleMic(); }} title="Mute / unmute" aria-label="Mute / unmute"><Ic n={micOn ? 'mic' : 'micoff'} /></button>
       <button type="button" onClick={() => setMin(false)} title="Restore call" aria-label="Restore call"><Ic n="plus" /></button>
-      <button type="button" className="endb" onClick={endCall} title="End call" aria-label="End call"><Ic n="phone" /></button>
+      <button type="button" className="endb" onClick={e => { e.stopPropagation(); endCall(); }} title="End call" aria-label="End call"><Ic n="phone" /></button>
     </div>
   );
 

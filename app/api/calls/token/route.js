@@ -1,7 +1,7 @@
 import { q, q1 } from '@/lib/db';
 import { currentUser } from '@/lib/auth';
 import { ok, fail } from '@/lib/respond';
-import { hubPush } from '@/lib/hub';
+import { hubPush, hubUserInCall } from '@/lib/hub';
 
 // Direct call to a person (People / Profile / Chat call buttons). Blocked-by-them => the preview's modal case.
 export async function POST(req) {
@@ -13,6 +13,12 @@ export async function POST(req) {
   if (blockedMe) return ok({ blocked: true });
   const blockedByMe = await q1('SELECT 1 AS x FROM blocks WHERE blocker_id = ? AND blocked_id = ?', [me.id, target]);
   if (blockedByMe) return fail('You have blocked this person', 403);
+  // Busy: they are already talking — inside a room meeting or a live 1-to-1
+  // call (direct or random), or another call is ringing them right now. The
+  // socket channel is the live truth for talking; a fresh ringing row covers
+  // the gap before the callee's window joins its channel.
+  const ringing = await q1("SELECT 1 AS x FROM calls WHERE (caller_id = ? OR callee_id = ?) AND source != 'room' AND status = 'ringing' AND created_at > NOW() - INTERVAL 60 SECOND LIMIT 1", [target, target]);
+  if (ringing || hubUserInCall(target)) return ok({ busy: true });
   const kind = b?.kind === 'video' ? 'video' : 'audio';
   const channel = `call-${me.id}-${target}-${Date.now()}`;
   const r = await q("INSERT INTO calls (caller_id, callee_id, channel, kind, status, source) VALUES (?, ?, ?, ?, 'ringing', 'direct')", [me.id, target, channel, kind]);

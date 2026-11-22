@@ -18,10 +18,10 @@ const RTC_CONFIG = { iceServers: [{ urls: 'stun:stun.l.google.com:19302' }, { ur
 const VIDEO_CONSTRAINTS = { width: { ideal: 1280 }, height: { ideal: 720 }, frameRate: { ideal: 30 } };
 const EMOJIS = ['❤️', '👏', '👍', '🎉', '😮', '😂', '🔥', '💯'];
 
-function TileVideo({ stream, ver, muted, mirror }) {
+function TileVideo({ stream, ver, muted }) {
   const ref = useRef(null);
   useEffect(() => { if (ref.current && stream) { try { ref.current.srcObject = stream; } catch {} } }, [stream, ver]);
-  return <video ref={ref} className={`meet-video ${mirror ? 'mirror' : ''}`} autoPlay playsInline muted={muted} />;
+  return <video ref={ref} className="meet-video" autoPlay playsInline muted={muted} />;
 }
 
 export default function MeetRoom({ session, me, onClose }) {
@@ -543,7 +543,7 @@ export default function MeetRoom({ session, me, onClose }) {
     return (
       <div key={id} className={`meet-tile ${cls} ${speaking[id] ? 'is-speaking' : ''} ${hasVideo ? 'hasvid' : ''} ${isLeaving ? 'leaving' : ''}`} style={{ animationDelay: `${Math.min(idx * 70, 350)}ms` }}>
         {hasVideo
-          ? <TileVideo stream={stream} ver={mediaVer} muted={id === me.id} mirror={id === me.id && !iShare} />
+          ? <TileVideo stream={stream} ver={mediaVer} muted={id === me.id} />
           : <div className="meet-camoff"><span className={`meet-avring ${speaking[id] ? 'on' : ''}`}><Avatar user={{ ...u, color: colorFor(id) }} size={72} /></span></div>}
         {st.hand ? <span className="meet-handbdg"><Ic n="hand" size={13} /></span> : null}
         {!st.mic ? <span className="meet-micbdg"><Ic n="micoff" size={12} /></span> : null}
