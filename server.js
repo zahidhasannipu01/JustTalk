@@ -207,12 +207,57 @@ app.prepare().then(() => {
         else { const set = channels.get(m.room); if (set) for (const peer of set) if (peer !== ws) sendTo(peer, out); }
       }
     });
+    // A page refresh or tab close kills the socket. If that socket was the
+    // user's last presence in a 1-to-1 call channel, the call is abandoned:
+    // settle its row and tell the partner at once — a ringing call counts as
+    // declined (callee vanished) or cancelled (caller vanished), a live call
+    // simply ends. The partner's window reacts through the same pushes a
+    // manual decline / cancel / hang-up already uses.
+    async function settleAbandonedCall(channel, userId) {
+      try {
+        const [rows] = await db().query("SELECT * FROM calls WHERE channel = ? AND room_id IS NULL AND status IN ('ringing','active') LIMIT 1", [channel]);
+        const call = rows && rows[0]; if (!call) return;
+        const partnerId = call.caller_id === userId ? call.callee_id : call.caller_id;
+        if (call.status === 'ringing' && call.callee_id === userId) {
+          await db().query("UPDATE calls SET status = 'declined', ended_at = NOW() WHERE id = ?", [call.id]);
+          sendToUser(partnerId, { t: 'call-declined', call_id: call.id });
+        } else if (call.status === 'ringing') {
+          await db().query("UPDATE calls SET status = 'cancelled', ended_at = NOW() WHERE id = ?", [call.id]);
+          if (call.source === 'match' && call.callee_id) { try { await db().query("INSERT INTO call_queue (user_id, want_gender, kind) VALUES (?, 'any', ?) ON DUPLICATE KEY UPDATE kind = VALUES(kind)", [call.callee_id, call.kind]); } catch {} }
+          sendToUser(partnerId, { t: 'call-cancelled', call_id: call.id });
+        } else {
+          await db().query("UPDATE calls SET status = 'ended', ended_at = NOW() WHERE id = ?", [call.id]);
+          sendToUser(partnerId, { t: 'call-ended', call_id: call.id });
+        }
+      } catch {}
+    }
     let gone = false;
     const bye = () => {
       if (gone) return; gone = true;
+      const myCallChannels = [...ws.channels].filter(ch => ch.startsWith('call-'));
       for (const ch of [...ws.channels]) leaveChannel(ws, ch);
       const set = userSockets.get(user.id);
-      if (set) { set.delete(ws); if (!set.size) { userSockets.delete(user.id); setPresence(user.id, false); notifyPresence(user.id, false); broadcastLiveCount(); } }
+      if (set) { set.delete(ws); if (!set.size) { userSockets.delete(user.id); setPresence(user.id, false); notifyPresence(user.id, false); broadcastLiveCount(); try { db().query('DELETE FROM call_queue WHERE user_id = ?', [user.id]); } catch {} } }
+      for (const ch of myCallChannels) {
+        const members = channels.get(ch);
+        const stillIn = members && [...members].some(s => s.userId === user.id);
+        if (!stillIn) settleAbandonedCall(ch, user.id);
+      }
+      // A ringing CALLEE's socket never joined the call channel (their
+      // window only mounts on Accept), so the loop above cannot see their
+      // departure. Discover their open 1-to-1 calls from the DB instead
+      // and settle any whose channel no longer holds one of their sockets.
+      (async () => {
+        try {
+          const [open] = await db().query("SELECT channel FROM calls WHERE room_id IS NULL AND status IN ('ringing','active') AND (caller_id = ? OR callee_id = ?)", [user.id, user.id]);
+          for (const row of open || []) {
+            if (myCallChannels.includes(row.channel)) continue;
+            const members = channels.get(row.channel);
+            const stillIn = members && [...members].some(s => s.userId === user.id);
+            if (!stillIn) settleAbandonedCall(row.channel, user.id);
+          }
+        } catch {}
+      })();
     };
     ws.on('close', bye);
     ws.on('error', bye);

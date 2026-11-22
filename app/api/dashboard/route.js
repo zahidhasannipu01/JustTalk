@@ -44,7 +44,7 @@ export async function GET() {
     const days = Math.floor((now - new Date(when.getFullYear(), when.getMonth(), when.getDate())) / 86400000);
     const dayLabel = days <= 0 ? 'Today' : days === 1 ? 'Yesterday' : `${days} days ago`;
     return c.room_title
-      ? { title: `Room practice — ${c.room_title}`, sub: `${mins} minutes in the room · ${dayLabel.toLowerCase()}`, when: dayLabel }
+      ? { title: `Room practice — ${c.room_title}`, sub: `${mins} minutes in the room`, when: dayLabel }
       : { title: `Call with ${c.partner_name || 'a partner'}`, sub: `${mins} minutes · ${c.kind === 'video' ? 'Video' : 'Audio'} call`, when: dayLabel };
   });
 

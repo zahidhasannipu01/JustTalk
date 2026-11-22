@@ -99,6 +99,8 @@
 .sub-feats li::before{content:"✓";position:absolute;left:0;top:0;width:17px;height:17px;border-radius:50%;background:var(--green-soft);color:#0B6B4A;font-size:11px;font-weight:800;display:grid;place-items:center;line-height:1}
 .sub-choose{margin-top:20px;width:100%;min-height:48px;border:0;border-radius:999px;background:var(--ink);color:#fff;font-weight:800;font-size:14px;font-family:inherit;cursor:pointer}
 .sub-choose:hover{background:#23261f}
+.sub-choose:disabled{background:#EFEFE9;color:var(--muted);cursor:not-allowed}
+.sub-choose:disabled:hover{background:#EFEFE9}
 .sub-card.selected .sub-choose{background:var(--green-soft);color:#0B6B4A;cursor:default}
 .sub-card.selected .sub-choose:hover{background:var(--green-soft)}
 .sub-note{font-size:12.5px;color:var(--muted);font-weight:600;line-height:1.6;margin-top:16px}
@@ -1621,3 +1623,71 @@
 .rooms2 .faces{display:flex;align-items:center}
 .rooms2 .faces .avatar{margin-left:-10px;border:2px solid #fff}
 .rooms2 .faces .avatar:first-child{margin-left:0}
+
+/* AI speaking report page */
+.air-badge{display:inline-block;vertical-align:middle;margin-left:8px;background:var(--ink);color:#fff;font-size:11px;font-weight:800;padding:4px 10px;border-radius:99px;letter-spacing:.04em}
+.air-badge b{color:#FFB59F}
+.air-empty{padding:22px 24px;max-width:640px}
+.air-empty p{font-size:14.5px;font-weight:600;color:#3C403C;line-height:1.6;margin-bottom:14px}
+.air-hero{display:flex;gap:26px;align-items:center;padding:24px 26px;margin-bottom:16px}
+.air-ring{width:118px;height:118px;flex:none;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.air-ring-in{width:92px;height:92px;border-radius:50%;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.air-ring-in b{font-size:27px;line-height:1}
+.air-ring-in span{font-size:11px;color:var(--muted);font-weight:800;letter-spacing:.05em}
+.air-hero-txt h4{font-size:21px;font-weight:800}
+.air-hero-txt p{color:var(--muted);font-weight:600;font-size:14.5px;line-height:1.6;margin-top:5px;max-width:560px}
+.air-chips{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.air-chips span{background:var(--soft);border-radius:99px;padding:6px 12px;font-size:12.5px;font-weight:800;color:#3C403C}
+.air-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.air-card{padding:22px 24px}
+.air-mtop{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.air-mname{font-weight:800;font-size:16px}
+.air-mname span{color:var(--muted);font-weight:700;font-size:12px}
+.air-mpct{font-weight:800;font-size:19px}
+.air-bar{height:9px;background:var(--soft);border-radius:99px;margin:12px 0;overflow:hidden}
+.air-bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--green),#7FB069)}
+.air-bar i.mid{background:linear-gradient(90deg,var(--amber,#E8A33D),#E8C33D)}
+.air-note{font-size:14px;color:#3C403C;font-weight:600;line-height:1.6}
+.air-fix{margin-top:12px;background:var(--accent-soft);border-radius:12px;padding:11px 14px}
+.air-fix b{display:block;font-size:11px;letter-spacing:.06em;color:var(--accent);margin-bottom:4px}
+.air-fix li{font-size:13.5px;font-weight:600;color:#5A3A30;margin-left:16px;line-height:1.6}
+.air-hist{padding:20px 24px;margin-top:16px}
+.air-hist h4{font-size:16px;font-weight:800;margin-bottom:8px}
+.air-hrow{display:flex;align-items:center;gap:14px;width:100%;padding:10px 0;border:0;border-top:1px solid var(--line);background:none;font:inherit;font-size:14px;font-weight:700;cursor:pointer;text-align:left;color:var(--ink)}
+.air-hd{width:130px;flex:none;color:#3C403C}
+.air-track{flex:1;height:8px;background:var(--soft);border-radius:99px;overflow:hidden}
+.air-track i{display:block;height:100%;background:linear-gradient(90deg,var(--green),#7FB069);border-radius:99px}
+.air-hv{width:44px;flex:none;text-align:right;font-weight:800}
+.air-foot{font-size:12.5px;color:var(--muted);font-weight:600;margin-top:14px;line-height:1.6}
+@media (max-width:900px){.air-grid{grid-template-columns:1fr}.air-hero{flex-direction:column;align-items:flex-start;gap:16px}.air-hd{width:104px}}
+
+/* Profile Details card: header Edit button + inline editing */
+.pv-card-head{display:flex;align-items:center;justify-content:space-between}
+.pv-card-head h4{margin:0}
+.pv-edit-btn{border:0;background:var(--soft);color:var(--ink);font:inherit;font-weight:800;font-size:12.5px;padding:6px 14px;border-radius:99px;cursor:pointer}
+.pv-edit-btn:hover{background:#ECECE4}
+.pv-in{border:1px solid var(--line);border-radius:10px;padding:7px 10px;font:inherit;font-weight:700;font-size:13.5px;text-align:right;width:180px;background:#fff;color:var(--ink)}
+.pv-sel{text-align:left}
+.pv-uname{position:relative;display:inline-block}
+.pv-uname .pv-in{padding-right:30px}
+.pv-uname-ic{position:absolute;right:9px;top:50%;transform:translateY(-50%);display:flex;align-items:center}
+.pv-uname-ic.ok{color:var(--green)}
+.pv-uname-ic.bad{color:#F43F35}
+.pv-uname-ic.wait{color:var(--muted);font-weight:800}
+.pv-editing .chips button{padding:6px 11px;font-size:12.5px}
+.pv-detail-actions{display:flex;gap:8px;margin-top:14px}
+.air-meta{display:flex;align-items:center;gap:10px;color:var(--muted);font-weight:700;font-size:13.5px;margin-bottom:14px}
+.air-meta .air-badge{margin-left:0}
+
+/* Page header breathing room: the shell header owns the gap below it.
+   View roots keep 8px of their own top padding (they used to carry the
+   full 34px when they had their own titles) so every page lands at the
+   same total distance under the header. */
+.center-top.page-top{margin-bottom:26px}
+.peoplepage,.subscriptionview,.supportview,.profileview,.settingsview{padding-top:8px}
+
+/* Header breathing room, both sides: the header block was sitting 8px
+   under the topbar. Give every page header real air above it, and a
+   slightly larger gap below the page-top variant. */
+.center-top{margin-top:24px}
+.center-top.page-top{margin-bottom:30px}

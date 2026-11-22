@@ -19,7 +19,6 @@ export default function PeopleView({ people, everyone, requests, reload, onCall,
   async function unblock(p) { try { await api('/api/people/block', { method: 'POST', body: { user_id: p.id, block: false } }); toast('Unblocked'); reload(); } catch (e) { toast(e.message); } }
   return (
     <div className="peoplepage" aria-label="People">
-      <div className="pp-head"><h3>People</h3><p>{all.length} people · tap + to add someone new.</p></div>
       <div className="pp-body">
         <div className="pp-search-row">
           <div className="search"><Ic n="search" size={17} /><input type="search" placeholder="Search people…" aria-label="Search people" value={search} onChange={e => setSearch(e.target.value)} /></div>

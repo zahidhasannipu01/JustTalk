@@ -67,3 +67,7 @@ html,body{height:100%}
   .center.center-fixed .chatview{flex:1;min-height:0}
 }
 
+
+/* Page-header spacing: People root carries the scoped .desk-app padding —
+   trim its top so the shell header gap matches the other pages. */
+.desk-app .peoplepage{padding-top:8px}

@@ -18,12 +18,77 @@ function actWhen(d) {
   return day.toLocaleDateString('en-GB', { weekday: 'long' });
 }
 
-export function ProfileView({ me, dash, people, onCall, onLogout }) {
+function DetailsCard({ me, dash, streak, reload }) {
+  const [editing, setEditing] = useState(false);
+  const [f, setF] = useState(null);
+  const [uState, setUState] = useState('idle'); // idle | checking | ok | taken | invalid
+  const [saving, setSaving] = useState(false);
+  function begin() {
+    setF({ username: me.username || '', phone: me.phone || '', phone_visibility: me.phone_visibility || 'friends', gender: me.gender || 'female', talk_preference: me.talk_preference || 'both', goal: me.goal || 'Fluency' });
+    setUState('idle'); setEditing(true);
+  }
+  useEffect(() => {
+    if (!editing || !f) return;
+    const un = f.username.trim().replace(/^@/, '').toLowerCase();
+    if (!un || un === (me.username || '')) { setUState('idle'); return; }
+    if (!/^[a-z0-9_.]{3,40}$/.test(un)) { setUState('invalid'); return; }
+    setUState('checking');
+    const t = setTimeout(async () => {
+      try { const d = await api(`/api/me/username?u=${encodeURIComponent(un)}`); setUState(d.available ? 'ok' : 'taken'); }
+      catch { setUState('idle'); }
+    }, 400);
+    return () => clearTimeout(t);
+  }, [editing, f?.username]); // eslint-disable-line react-hooks/exhaustive-deps
+  async function save() {
+    if (saving || uState === 'taken' || uState === 'invalid' || uState === 'checking') return;
+    setSaving(true);
+    try {
+      await api('/api/me', { method: 'PATCH', body: { username: f.username, phone: f.phone, phone_visibility: f.phone_visibility, gender: f.gender, talk_preference: f.talk_preference, goal: f.goal } });
+      toast('Details saved'); setEditing(false);
+      if (reload) reload(); else window.location.reload();
+    } catch (e) { toast(e.message); }
+    setSaving(false);
+  }
+  const chipRow = (label, key, opts) => (
+    <div className="pv-row"><span>{label}</span><span className="chips">{opts.map(([v, l]) => <button type="button" key={v} className={f[key] === v ? 'on' : ''} onClick={() => setF({ ...f, [key]: v })}>{l}</button>)}</span></div>
+  );
+  return (
+    <div className={`pv-card ${editing ? 'pv-editing' : ''}`}>
+      <div className="pv-card-head"><h4>Details</h4>{!editing && <button type="button" className="pv-edit-btn" onClick={begin}>Edit</button>}</div>
+      {!editing ? (
+        <>
+          <div className="pv-row pv-noline"><span>Username</span><b>@{me.username}</b></div>
+          <div className="pv-row"><span>Phone</span><b>{me.phone || '—'}</b></div>
+          <div className="pv-row"><span>Phone visibility</span><b>{VIS[me.phone_visibility] || 'Friends only'}</b></div>
+          <div className="pv-row"><span>Gender</span><b>{cap(me.gender) || '—'}</b></div>
+          <div className="pv-row"><span>Wants to talk to</span><b>{me.talk_preference === 'both' ? 'Both' : cap(me.talk_preference) || '—'}</b></div>
+          <div className="pv-row"><span>Goal</span><b>{me.goal || 'Fluency'}</b></div>
+        </>
+      ) : (
+        <>
+          <div className="pv-row pv-noline"><span>Username</span><span className="pv-uname"><input className="pv-in" value={f.username} onChange={e => setF({ ...f, username: e.target.value })} autoComplete="username" />{uState === 'ok' && <span className="pv-uname-ic ok"><Ic n="check" size={15} /></span>}{(uState === 'taken' || uState === 'invalid') && <span className="pv-uname-ic bad"><Ic n="close" size={15} /></span>}{uState === 'checking' && <span className="pv-uname-ic wait">…</span>}</span></div>
+          <div className="pv-row"><span>Phone</span><input className="pv-in" type="tel" value={f.phone} onChange={e => setF({ ...f, phone: e.target.value })} autoComplete="tel" /></div>
+          {chipRow('Phone visibility', 'phone_visibility', [['onlyme', 'Only me'], ['friends', 'Friends only'], ['public', 'Public']])}
+          {chipRow('Gender', 'gender', [['female', 'Female'], ['male', 'Male']])}
+          {chipRow('Wants to talk to', 'talk_preference', [['female', 'Women'], ['male', 'Men'], ['both', 'Both']])}
+          <div className="pv-row"><span>Goal</span><select className="pv-in pv-sel" value={f.goal} onChange={e => setF({ ...f, goal: e.target.value })}>{[...new Set([f.goal, ...GOALS])].map(g => <option key={g} value={g}>{g}</option>)}</select></div>
+        </>
+      )}
+      <div className="pv-row"><span>Rooms joined</span><b>{dash?.rooms_joined ?? 0}</b></div>
+      <div className="pv-row"><span>Current streak</span><b>{streak || 0} days</b></div>
+      <div className="pv-row"><span>Member since</span><b>{monthYear(me.created_at)}</b></div>
+      <div className="pv-row"><span>Speaks</span><b>Bengali</b></div>
+      <div className="pv-row"><span>Learning</span><b>English</b></div>
+      {editing && <div className="pv-detail-actions"><button type="button" className="btn-soft" style={{ flex: 1 }} onClick={() => setEditing(false)}>Cancel</button><button type="button" className="btn-accent2" style={{ flex: 1 }} onClick={save} disabled={saving || uState === 'taken' || uState === 'invalid' || uState === 'checking'}>{saving ? 'Saving…' : 'Save changes'}</button></div>}
+    </div>
+  );
+}
+
+export function ProfileView({ me, dash, people, onCall, onLogout, reload }) {
   const fileRef = useRef(null);
   if (!me) return <div className="profileview"><p className="empty-note">Loading…</p></div>;
   const stats = { today: dash?.today?.minutes || 0, week: dash?.week_minutes || 0, all: dash?.all_minutes || 0, calls: dash?.all_calls || 0, streak: dash?.streak || 0 };
   const cats = dash?.rating_cats || { fluency: 0, speaking: 0, behaviour: 0 };
-  const partners = (people || []).filter(p => !p.blocked_by_me).slice(0, 4);
   async function pickPhoto(e) {
     const f = e.target.files?.[0]; if (!f) return;
     try {
@@ -57,32 +122,10 @@ export function ProfileView({ me, dash, people, onCall, onLogout }) {
         <div><b>{stats.calls || 0}</b><small>calls completed</small></div>
       </div>
       <div className="pv-grid">
-        <div className="pv-card"><h4>Details</h4>
-          <div className="pv-row pv-noline"><span>Username</span><b>@{me.username}</b></div>
-          <div className="pv-row"><span>Phone</span><b>{me.phone || '—'}</b></div>
-          <div className="pv-row"><span>Phone visibility</span><b>{VIS[me.phone_visibility] || 'Friends only'}</b></div>
-          <div className="pv-row"><span>Gender</span><b>{cap(me.gender) || '—'}</b></div>
-          <div className="pv-row"><span>Wants to talk to</span><b>{me.talk_preference === 'both' ? 'Both' : cap(me.talk_preference) || '—'}</b></div>
-          <div className="pv-row"><span>Goal</span><b>{me.goal || 'Fluency'}</b></div>
-          <div className="pv-row"><span>Rooms joined</span><b>{dash?.rooms_joined ?? 0}</b></div>
-          <div className="pv-row"><span>Current streak</span><b>{stats.streak || 0} days</b></div>
-          <div className="pv-row"><span>Member since</span><b>{monthYear(me.created_at)}</b></div>
-          <div className="pv-row"><span>Speaks</span><b>Bengali</b></div>
-          <div className="pv-row"><span>Learning</span><b>English</b></div>
-        </div>
-        <div className="pv-card"><h4>Practice partners</h4>
-          {partners.map((p, i) => (
-            <div className={`pv-person ${i === 0 ? 'pv-noline' : ''}`} key={p.id}>
-              <Avatar user={p} />
-              <span><b>{p.name}</b><small>{p.note || ''}</small><span className="pv-person-rate" style={{ display: 'block', marginTop: 4 }}><RateBadge avg={p.rating} count={p.ratings_count} /></span></span>
-              <button type="button" onClick={() => onCall(p, 'video')}>Call</button>
-            </div>
-          ))}
-          {partners.length === 0 && <p className="empty-note">No practice partners yet.</p>}
-        </div>
+        <DetailsCard me={me} dash={dash} streak={stats.streak} reload={reload} />
         <div className="pv-card"><h4>Recent activity</h4>
           {(dash?.activity || []).slice(0, 4).map((a, i) => (
-            <div className={`pv-act ${i === 0 ? 'pv-noline' : ''}`} key={i}>{a.kind === 'room' ? `Joined “${a.title}”` : `${cap(a.call_type || 'video')} call with ${a.name}`}<small>{a.kind === 'room' ? 'Room' : `${a.minutes} minutes`} · {actWhen(a.at)}</small></div>
+            <div className={`pv-act ${i === 0 ? 'pv-noline' : ''}`} key={i}>{a.title}<small>{a.sub} · {a.when}</small></div>
           ))}
           {(!dash?.activity || dash.activity.length === 0) && <p className="empty-note">No activity yet.</p>}
         </div>

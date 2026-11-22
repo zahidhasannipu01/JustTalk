@@ -248,9 +248,28 @@ CREATE TABLE IF NOT EXISTS ai_reports (
   lexical TEXT NULL,
   improvements TEXT NULL,
   ai_minutes INT NOT NULL DEFAULT 0,
+  overall INT NULL,
+  summary TEXT NULL,
+  scores TEXT NULL,
+  period VARCHAR(10) NOT NULL DEFAULT 'daily',
+  covered_until BIGINT NOT NULL DEFAULT 0,
   created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
   UNIQUE KEY uq_ai_report_day (user_id, report_date),
   CONSTRAINT fk_ai_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS speech_logs (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  user_id INT UNSIGNED NOT NULL,
+  call_id INT UNSIGNED NULL,
+  day DATE NOT NULL,
+  text MEDIUMTEXT NOT NULL,
+  words INT NOT NULL DEFAULT 0,
+  seconds INT NOT NULL DEFAULT 0,
+  confidence DECIMAL(4,3) NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  INDEX ix_speech_user_day (user_id, day),
+  CONSTRAINT fk_speech_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE IF NOT EXISTS app_settings (

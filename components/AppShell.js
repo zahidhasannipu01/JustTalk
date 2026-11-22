@@ -12,6 +12,7 @@ import { ProfileView, SettingsView } from './views/ProfileSettings';
 import SubscriptionView from './views/SubscriptionView';
 import SupportView from './views/SupportView';
 import NotificationsView from './views/NotificationsView';
+import AiReportView from './views/AiReportView';
 import { api, toast, colorFor, Taka } from '@/lib/toast';
 import { socket } from '@/lib/socket';
 
@@ -20,6 +21,17 @@ const NAV = [
   ['create', 'plus', 'Create room'], ['chats', 'chat', 'Chats'], ['profile', 'profile', 'Profile'],
   ['subscription', 'card', 'Subscription'], ['support', 'support', 'Support'],
 ];
+const PAGE_HEADS = {
+  rooms: ['Join a live room, or start your own', 'Room'],
+  people: ['Your partners, requests and new people', 'People'],
+  chats: ['Your conversations', 'Chats'],
+  profile: ['Your account details', 'Profile'],
+  aireport: ['Your speaking progress', 'AI report'],
+  subscription: ['Your plan and billing', 'Subscription'],
+  support: ['Help and your tickets', 'Support'],
+  notifications: ['Requests, messages and updates', 'Notifications'],
+  settings: ['Your preferences', 'Settings'],
+};
 const HONORIFIC = /^(md|mohammad|mohammed|mst|md\.)$/i;
 function displayName(name) {
   const parts = (name || '').trim().split(/\s+/);
@@ -68,6 +80,7 @@ export default function AppShell({ initialUser }) {
   const [passErr, setPassErr] = useState(false);
   const [incoming, setIncoming] = useState(null);
   const callRef = useRef(null);
+  const matchPrefsRef = useRef(null); // last Start Calling choice — reused when a declined match re-searches
   const subRef = useRef(null);
   const openedOnceRef = useRef(false);
   useEffect(() => { subRef.current = subData; }, [subData]);
@@ -248,6 +261,7 @@ export default function AppShell({ initialUser }) {
   }
   async function startMatch(gender, kind) {
     setIncoming(null); // an outgoing call supersedes any ringing popup
+    matchPrefsRef.current = { gender, kind };
     try {
       const d = await api('/api/calls/match', { method: 'POST', body: { gender, kind } });
       if (d.waiting) { setCall({ phase: 'searching', gender, kind, partner: null }); return; }
@@ -277,6 +291,13 @@ export default function AppShell({ initialUser }) {
   const hour = new Date().getHours();
   const greeting = hour < 12 ? 'Good morning' : hour < 17 ? 'Good afternoon' : 'Good evening';
   const curPlan = subData?.packages?.find(p => p.id === subData?.subscription?.package_id);
+  const aiNav = curPlan?.ai_reports ? [['aireport', 'chart', 'AI report']] : [];
+  const navItems = [...NAV.slice(0, 6), ...aiNav, ...NAV.slice(6)];
+  const aiCapture = !!(curPlan?.ai_reports && me?.ai_reports_optin);
+  const callPartnerId = call?.partner?.id || null;
+  const callFriendState = !callPartnerId ? 'none'
+    : people.some(p => p.id === callPartnerId) ? 'accepted'
+    : (everyone.find(p => p.id === callPartnerId)?.request_sent ? 'pending' : 'none');
   const payNotifs = notifs.filter(n => n.kind === 'subscription_reminder');
   const missedNotifs = notifs.filter(n => n.kind === 'missed_call');
   const reqNotifs = notifs.filter(n => n.kind === 'friend_request' || n.kind === 'friend_accepted');
@@ -299,7 +320,7 @@ export default function AppShell({ initialUser }) {
         <aside className="sidebar">
           <div className="logo">talk<i>.</i></div>
           <nav className="nav">
-            {NAV.map(([v, ic, label]) => (
+            {navItems.map(([v, ic, label]) => (
               <a key={v} className={view === v ? 'act' : ''} onClick={() => go(v)}><Ic n={ic} />{label}{v === 'subscription' && subData?.subscription ? <span className="sub-nav-badge">{subData.subscription.plan_name}</span> : null}{v === 'support' && openTickets ? <span className="nav-badge">{openTickets} open</span> : null}</a>
             ))}
           </nav>
@@ -318,12 +339,14 @@ export default function AppShell({ initialUser }) {
           </div>
           <div className={`center ${view === 'chats' ? 'center-fixed' : ''}`} style={{ paddingTop: 8 }}>
             {view === 'dashboard' && <div className="center-top"><div><div className="hi js-greeting">{greeting}, {displayName(me?.name)}</div><h3>Ready to practise?</h3></div><span className="live-pill"><i></i><span>{dash?.live_now || 0} live now</span></span></div>}
+            {view !== 'dashboard' && PAGE_HEADS[view] && <div className="center-top page-top"><div><div className="hi">{PAGE_HEADS[view][0]}</div><h3>{PAGE_HEADS[view][1]}</h3></div></div>}
             {view === 'dashboard' && <DashboardView me={me} dash={dash} onStartCalling={openStartCalling} />}
             {view === 'rooms' && <RoomsView rooms={rooms} onJoin={joinRoom} onOpenPeople={() => go('people')} onOpenCreate={() => setCreateOpen(true)} />}
             {view === 'people' && <PeopleView people={people} everyone={everyone} requests={requests} reload={loadAll} onCall={startDirectCall} onChat={p => { setChatPerson(p); go('chats'); }} />}
             {view === 'chats' && <ChatView me={me} initialPerson={chatPerson} onCall={startDirectCall} />}
-            {view === 'profile' && <ProfileView me={me} dash={dash} people={people} onCall={startDirectCall} onLogout={logout} />}
+            {view === 'profile' && <ProfileView me={me} dash={dash} people={people} onCall={startDirectCall} onLogout={logout} reload={loadAll} />}
             {view === 'settings' && <SettingsView me={me} subData={subData} reload={loadAll} />}
+            {view === 'aireport' && <AiReportView me={me} onUpgrade={() => go('subscription')} onOpenSettings={() => go('settings')} />}
             {view === 'subscription' && <SubscriptionView data={subData} reload={loadAll} />}
             {view === 'support' && <SupportView />}
             {view === 'notifications' && <NotificationsView notifs={notifs} onMarkAllRead={async () => { await api('/api/notifications', { method: 'POST' }); setReminderNotif(null); loadAll(); }} onOpenPeople={() => go('people')} onOpenChat={openChatFromNotif} onOpenSubscription={() => go('subscription')} requests={requests} onCallBack={p => startDirectCall(p, 'audio')} onRespond={async (uid, accept) => { try { await api('/api/people/respond', { method: 'POST', body: { user_id: uid, accept } }); toast(accept ? 'Friend request accepted' : 'Friend request declined'); } catch (e) { toast(e.message); } loadAll(); }} />}
@@ -342,7 +365,7 @@ export default function AppShell({ initialUser }) {
         <div className="m-grab-zone"><div className="m-grab"></div></div>
         <div className="m-drawer-head"><b>More</b><button type="button" className="m-close" aria-label="Close" onClick={() => setMoreOpen(false)}>×</button></div>
         <div className="m-rows">
-          {[['create', 'plus', 'Create room'], ['profile', 'profile', 'My profile'], ['settings', 'settings', 'Settings'], ['subscription', 'card', 'Subscription'], ['support', 'support', 'Support']].map(([v, ic, label]) => (
+          {[['create', 'plus', 'Create room'], ['profile', 'profile', 'My profile'], ...(curPlan?.ai_reports ? [['aireport', 'chart', 'AI report']] : []), ['settings', 'settings', 'Settings'], ['subscription', 'card', 'Subscription'], ['support', 'support', 'Support']].map(([v, ic, label]) => (
             <button type="button" className="m-row" key={v} onClick={() => go(v)}><span className="m-row-ic"><Ic n={ic} /></span><span className="m-row-txt"><b>{label}</b></span><span className="chev">›</span></button>
           ))}
           <button type="button" className="m-row" onClick={logout}><span className="m-row-ic"><Ic n="logout" /></span><span className="m-row-txt"><b>Log out</b></span><span className="chev">›</span></button>
@@ -438,8 +461,8 @@ export default function AppShell({ initialUser }) {
         </div></Overlay>
       )}
       {call && (String(call.room_name || '').startsWith('room-')
-        ? <MeetRoom key={call.call_id} session={call} me={me} onClose={closeCall} />
-        : <CallWindow key={call.call_id || 'searching'} session={call} me={me} onClose={closeCall} onAddPeople={() => go('people')} />)}
+        ? <MeetRoom key={call.call_id} session={call} me={me} onClose={closeCall} aiCapture={aiCapture} />
+        : <CallWindow key={call.call_id || 'searching'} session={call} me={me} onClose={closeCall} friendState={callFriendState} onFriendSent={loadAll} onRematch={() => { const p = matchPrefsRef.current; if (p) startMatch(p.gender, p.kind); }} aiCapture={aiCapture} />)}
     </div>
   );
 }

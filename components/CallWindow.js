@@ -5,6 +5,7 @@ import Overlay from './Overlay';
 import { api, toast, initials } from '@/lib/toast';
 import { socket } from '@/lib/socket';
 import { enhanceMicStream } from '@/lib/noise';
+import { useSpeechCapture } from '@/lib/useSpeechCapture';
 import { ReportModal, BlockModal } from './views/PeopleView';
 
 // Call popup — same markup/classes as the approved preview (.callwin).
@@ -22,7 +23,7 @@ import { ReportModal, BlockModal } from './views/PeopleView';
 const RTC_CONFIG = { iceServers: [{ urls: 'stun:stun.l.google.com:19302' }, { urls: 'stun:stun1.l.google.com:19302' }] };
 const VIDEO_CONSTRAINTS = { width: { ideal: 1280 }, height: { ideal: 720 }, frameRate: { ideal: 30 } };
 
-export default function CallWindow({ session, me, onClose, onAddPeople }) {
+export default function CallWindow({ session, me, onClose, friendState, onFriendSent, onRematch, aiCapture }) {
   const roomId = session.room_id || (String(session.room_name || '').startsWith('room-') ? Number(String(session.room_name).slice(5)) : null);
   const [min, setMin] = useState(false);
   const [pos, setPos] = useState(null); // dragged window position {left, top} — kept in state so minimize/restore returns to the same spot
@@ -30,6 +31,23 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
   const [spkOn, setSpkOn] = useState(true);
   const [camOn, setCamOn] = useState(!!roomId && session.kind === 'video');
   const [phase, setPhase] = useState(session.phase || 'live'); // searching | ringing | live
+  useSpeechCapture(!!aiCapture && phase === 'live', session.call_id); // AI reports: my own voice only, only when opted in
+  // Friend request from inside the call: sent to the partner right here —
+  // it never leaves the call or opens the People page.
+  const [localFriend, setLocalFriend] = useState(null);
+  const [friendBusy, setFriendBusy] = useState(false);
+  const friendUi = localFriend || friendState || 'none';
+  async function sendFriendRequest() {
+    if (!partner?.id || friendBusy) return;
+    setFriendBusy(true);
+    try {
+      const d = await api('/api/people/add', { method: 'POST', body: { user_id: partner.id } });
+      setLocalFriend(d.status === 'accepted' ? 'accepted' : 'pending');
+      toast(d.status === 'accepted' ? 'You are already friends' : `Friend request sent to ${partner.name}`);
+      if (onFriendSent) onFriendSent();
+    } catch (e) { toast(e.message); }
+    setFriendBusy(false);
+  }
   const [status, setStatus] = useState('Calling…');
   const [secs, setSecs] = useState(0);
   const [rate, setRate] = useState(null); // {call_id, partner} after end when >= 5 min
@@ -226,8 +244,19 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
         goPhase('live');
         ensurePeer(Number(partner.id));
       }));
+      offsRef.current.push(socket.on('call-ended', m => {
+        // The partner's page went away (refresh / tab close) mid-call — the
+        // server settled the call; close exactly like a normal hang-up.
+        if (m.call_id !== session.call_id) return;
+        endRef.current && endRef.current();
+      }));
       offsRef.current.push(socket.on('call-declined', m => {
         if (m.call_id !== session.call_id) return;
+        // A declined RANDOM match does not end the search: the caller goes
+        // straight back to searching and the next waiting partner is rung
+        // (the server never re-pairs the two who just declined). A declined
+        // DIRECT call simply closes, as before.
+        if (session.matched && onRematch) { toast('Partner declined — searching for another match'); onRematch(); return; }
         toast('Partner declined the call');
         onCloseRef.current();
       }));
@@ -521,7 +550,9 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
           <button type="button" className={`cc-btn ${!micOn ? 'off' : ''}`} title={micOn ? 'Mute microphone' : 'Unmute microphone'} aria-label="Mute microphone" onClick={toggleMic}><Ic n={micOn ? 'mic' : 'micoff'} /></button>
           <button type="button" className={`cc-btn ${!spkOn ? 'off' : ''}`} title={headphone ? 'Headphones connected' : 'Speaker'} aria-label="Toggle speaker" onClick={toggleSpk}><Ic n={headphone ? 'headphone' : 'speaker'} /></button>
           <button type="button" className={`cc-btn cc-video ${camOn ? 'off' : ''}`} title="Turn camera on" aria-label="Turn camera on" onClick={toggleVideo} disabled={phase === 'ringing'}><Ic n="video" /></button>
-          <button type="button" className="cc-btn" title="Add people" aria-label="Add people" onClick={() => onAddPeople && onAddPeople()}><Ic n="adduser" /></button>
+          {friendUi === 'accepted' || friendUi === 'pending'
+            ? <button type="button" className="cc-btn" title={friendUi === 'accepted' ? 'You are friends' : 'Friend request sent'} aria-label={friendUi === 'accepted' ? 'You are friends' : 'Friend request sent'} disabled><Ic n="check" /></button>
+            : <button type="button" className="cc-btn" title="Send friend request" aria-label="Send friend request" onClick={sendFriendRequest} disabled={!partner.id || friendBusy}><Ic n="adduser" /></button>}
           <button type="button" className="cc-btn" title="Minimize" aria-label="Minimize call" onClick={() => setMin(true)}><Ic n="minus" /></button>
           <button type="button" className="cc-end" title="End call" aria-label="End call" onClick={endCall}><Ic n="phone" /></button>
         </div>

@@ -32,7 +32,6 @@ export default function SupportView() {
   async function submit(e) { e.preventDefault(); try { await api('/api/tickets', { method: 'POST', body: { kind, subject, body } }); setSubject(''); setBody(''); toast('Ticket opened'); load(); } catch (err) { toast(err.message); } }
   return (
     <div className="supportview">
-      <div className="sup-head"><h3>Support</h3></div>
       <div className="sup-grid">
         <div className="sup-panel">
           <h4>Create a ticket</h4>

@@ -45,7 +45,7 @@ export async function POST(req) {
   // gender they picked fits me. If nobody in the pool fits both ways I
   // wait in the queue — an incompatible pair is never forced together.
   const myGender = (await q1('SELECT gender FROM users WHERE id = ?', [me.id]))?.gender || null;
-  const partner = await q1(`SELECT qu.user_id, u.name, u.gender, u.avatar FROM call_queue qu JOIN users u ON u.id = qu.user_id WHERE qu.user_id != ? AND u.suspended = 0 AND NOT EXISTS (SELECT 1 FROM blocks bl WHERE (bl.blocker_id = ? AND bl.blocked_id = qu.user_id) OR (bl.blocker_id = qu.user_id AND bl.blocked_id = ?)) AND (? = 'any' OR u.gender = ?) AND (qu.want_gender = 'any' OR ? IS NULL OR qu.want_gender = ?) ORDER BY RAND() LIMIT 1`, [me.id, me.id, me.id, want, want, myGender, myGender]);
+  const partner = await q1(`SELECT qu.user_id, u.name, u.gender, u.avatar FROM call_queue qu JOIN users u ON u.id = qu.user_id WHERE qu.user_id != ? AND u.suspended = 0 AND NOT EXISTS (SELECT 1 FROM blocks bl WHERE (bl.blocker_id = ? AND bl.blocked_id = qu.user_id) OR (bl.blocker_id = qu.user_id AND bl.blocked_id = ?)) AND NOT EXISTS (SELECT 1 FROM calls dc WHERE dc.source = 'match' AND dc.status = 'declined' AND dc.created_at > NOW() - INTERVAL 2 MINUTE AND ((dc.caller_id = ? AND dc.callee_id = qu.user_id) OR (dc.caller_id = qu.user_id AND dc.callee_id = ?))) AND (? = 'any' OR u.gender = ?) AND (qu.want_gender = 'any' OR ? IS NULL OR qu.want_gender = ?) ORDER BY RAND() LIMIT 1`, [me.id, me.id, me.id, me.id, me.id, want, want, myGender, myGender]);
   if (!partner) {
     await q('INSERT INTO call_queue (user_id, want_gender, kind) VALUES (?, ?, ?)', [me.id, want, kind]);
     return ok({ waiting: true });

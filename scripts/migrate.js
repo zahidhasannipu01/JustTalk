@@ -16,4 +16,23 @@ function env() { const e = { ...process.env }; for (const f of ['.env.local', '.
   await conn.query("ALTER TABLE calls MODIFY status ENUM('ringing','active','ended','missed','declined','cancelled') NOT NULL DEFAULT 'ringing'");
   await conn.query("ALTER TABLE notifications MODIFY kind ENUM('message','missed_call','subscription_reminder','payment','system','friend_request','friend_accepted') NOT NULL");
   await conn.query("ALTER TABLE messages MODIFY kind ENUM('text','photo_ref','call_log') NOT NULL DEFAULT 'text'");
+  // AI speaking reports: raw own-voice transcript chunks + scored report fields.
+  await conn.query(`CREATE TABLE IF NOT EXISTS speech_logs (
+    id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    user_id INT UNSIGNED NOT NULL,
+    call_id INT UNSIGNED NULL,
+    day DATE NOT NULL,
+    text MEDIUMTEXT NOT NULL,
+    words INT NOT NULL DEFAULT 0,
+    seconds INT NOT NULL DEFAULT 0,
+    confidence DECIMAL(4,3) NULL,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    INDEX ix_speech_user_day (user_id, day),
+    CONSTRAINT fk_speech_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`);
+  await conn.query("ALTER TABLE ai_reports ADD COLUMN IF NOT EXISTS overall INT NULL");
+  await conn.query("ALTER TABLE ai_reports ADD COLUMN IF NOT EXISTS summary TEXT NULL");
+  await conn.query("ALTER TABLE ai_reports ADD COLUMN IF NOT EXISTS scores TEXT NULL");
+  await conn.query("ALTER TABLE ai_reports ADD COLUMN IF NOT EXISTS period VARCHAR(10) NOT NULL DEFAULT 'daily'");
+  await conn.query("ALTER TABLE ai_reports ADD COLUMN IF NOT EXISTS covered_until BIGINT NOT NULL DEFAULT 0");
   const [t] = await conn.query('SHOW TABLES'); console.log('migrate OK, tables:', t.length); await conn.end(); })().catch(err => { console.error('migrate FAILED:', err.message); process.exit(1); });

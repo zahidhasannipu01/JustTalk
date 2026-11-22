@@ -36,7 +36,6 @@ export default function SubscriptionView({ data, reload, preselect }) {
   const curPkg = packages.find(p => p.id === currentId);
   return (
     <div className="subscriptionview">
-      <div className="sub-head"><h3>Subscription</h3></div>
       <div className="sub-current">
         <div className="sub-current-main"><span className="sub-active"><i></i>{pending_payment ? 'Waiting for confirmation' : 'Subscribed'}</span><b className="sub-cur-title">You’re subscribed — {subscription?.plan_name || 'Free'} plan</b></div>
         <div className="sub-cur-price"><b className="sub-cur-price-b"><Taka>৳</Taka>{curPkg?.price_taka ?? 0}</b><small className="sub-cur-price-s">current plan</small></div>
@@ -46,13 +45,16 @@ export default function SubscriptionView({ data, reload, preselect }) {
           const isCurrent = p.id === currentId; const isSel = selected === p.id || (!selected && isCurrent);
           const feats = (p.included || '').split('\n').filter(Boolean); const notFeats = (p.not_included || '').split('\n').filter(Boolean);
           const isPending = pending_payment && pending_payment.package_id === p.id;
+          // A plan below the current paid plan is not choosable while that
+          // plan runs — everything in it is already included above it.
+          const isLower = (curPkg?.price_taka ?? 0) > 0 && p.price_taka < curPkg.price_taka;
           return (
-            <div className={`sub-card ${isSel ? 'selected' : ''}`} key={p.id} onClick={() => setSelected(p.id)}>
+            <div className={`sub-card ${isSel ? 'selected' : ''}`} key={p.id} onClick={() => { if (!isLower) setSelected(p.id); }}>
               <div className="sub-card-top"><span className="sub-plan">{p.name}</span>{isCurrent ? <span className="sub-tag cur">Current plan</span> : p.tag ? <span className={`sub-tag ${p.tag === 'Most popular' ? 'pop' : ''}`}>{p.tag}</span> : null}</div>
               <div className="sub-price"><b><Taka>৳</Taka>{p.price_taka}</b><small>{p.price_taka === 0 ? 'free for now' : p.period === 'year' ? '/ year' : p.period === 'once' ? 'one-time' : '/ month'}</small></div>
               <span className="sub-for">{p.description}</span>
               <ul className="sub-feats">{feats.map(f => <li key={f}>{f}</li>)}{notFeats.map(f => <li key={f} className="no">{f}</li>)}</ul>
-              <button type="button" className="sub-choose" onClick={e => { e.stopPropagation(); if (isCurrent || isPending) return; if (p.price_taka > 0) setPayFor(p); }}>{isCurrent ? 'Current plan — selected' : isPending ? 'Waiting for confirmation' : `Choose ${p.name}`}</button>
+              <button type="button" className="sub-choose" disabled={isLower} onClick={e => { e.stopPropagation(); if (isCurrent || isPending || isLower) return; if (p.price_taka > 0) setPayFor(p); }}>{isCurrent ? 'Current plan — selected' : isPending ? 'Waiting for confirmation' : isLower ? `Included in your ${curPkg.name} plan` : `Choose ${p.name}`}</button>
             </div>
           );
         })}

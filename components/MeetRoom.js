@@ -4,6 +4,7 @@ import { Ic, Avatar } from './icons';
 import { api, toast, colorFor } from '@/lib/toast';
 import { socket } from '@/lib/socket';
 import { enhanceMicStream } from '@/lib/noise';
+import { useSpeechCapture } from '@/lib/useSpeechCapture';
 
 // Full-page meeting room (Google Meet style), direct browser-to-browser
 // WebRTC mesh over the app's single WebSocket. Everything ephemeral — room
@@ -24,7 +25,8 @@ function TileVideo({ stream, ver, muted }) {
   return <video ref={ref} className="meet-video" autoPlay playsInline muted={muted} />;
 }
 
-export default function MeetRoom({ session, me, onClose }) {
+export default function MeetRoom({ session, me, onClose, aiCapture }) {
+  useSpeechCapture(!!aiCapture, session.call_id); // AI reports: my own voice only, only when opted in
   const channel = session.room_name;
   const roomId = session.room_id || Number(String(channel).slice(5));
   const room = session.room || { title: session.partner?.name || 'Room', topic: '', visibility: 'public', creator_id: null };

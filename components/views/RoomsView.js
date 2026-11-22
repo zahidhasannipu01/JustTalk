@@ -8,7 +8,6 @@ export default function RoomsView({ rooms, onJoin, onOpenPeople, onOpenCreate })
   const list = useMemo(() => rooms.filter(r => (r.title + ' ' + (r.topic || '')).toLowerCase().includes(search.toLowerCase())), [rooms, search]);
   return (
     <div className="rooms-view">
-      <div className="pp-head"><h3>Room</h3><p>Join a live room, or start your own.</p></div>
       <div className="m-room-search-row">
         <div className="search"><Ic n="search" size={17} /><input type="search" placeholder="Search rooms, people, topics…" aria-label="Search rooms" value={search} onChange={e => setSearch(e.target.value)} /></div>
         <button type="button" className="m-room-iconbtn create" title="Start a practice room" aria-label="Start a practice room" onClick={onOpenCreate}><Ic n="plus" /></button>
