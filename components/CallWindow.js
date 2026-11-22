@@ -104,6 +104,11 @@ export default function CallWindow({ session, me, onClose, friendState, onFriend
     peersRef.current.set(peerId, entry);
     const stream = localRef.current;
     if (stream) stream.getTracks().forEach(t => { try { pc.addTrack(t, stream); } catch {} });
+    // No microphone (blocked, denied, or not ready yet): still open an audio
+    // lane, or negotiationneeded never fires and a trackless peer can never
+    // send the offer the other side is waiting for. The real track replaces
+    // this lane's direction when the media-ready path adds it later.
+    if (!stream || !stream.getAudioTracks().length) { try { pc.addTransceiver('audio', { direction: 'recvonly' }); } catch {} }
     pc.onnegotiationneeded = async () => {
       try {
         entry.makingOffer = true;
@@ -141,10 +146,16 @@ export default function CallWindow({ session, me, onClose, friendState, onFriend
     return entry;
   }
 
-  // Create the peer only once my media is ready, so its tracks are attached
-  // from the start. A slow microphone must never cost us the call.
+  // Create the peer once my media is ready, so its tracks are attached from
+  // the start — but never wait on the microphone for long: a permission
+  // prompt left unanswered (common on phones) leaves getUserMedia pending
+  // forever, and waiting on it froze every negotiation at "Ringing…". After
+  // a short grace the peer is created without tracks; when the microphone
+  // does arrive, the media-ready path adds the tracks and renegotiates.
   async function ensurePeer(peerId) {
-    if (mediaReadyRef.current) { try { await mediaReadyRef.current; } catch {} }
+    if (mediaReadyRef.current) {
+      try { await Promise.race([mediaReadyRef.current, new Promise(r => setTimeout(r, 1200))]); } catch {}
+    }
     return createPeer(peerId);
   }
 
@@ -302,7 +313,13 @@ export default function CallWindow({ session, me, onClose, friendState, onFriend
       if (!roomId && partner.id && phaseRef.current === 'live') ensurePeer(Number(partner.id));
       return stream;
     })();
-    mediaReadyRef.current.catch(() => { setStatus('Could not connect'); toast('Call could not connect — check microphone/camera permission'); });
+    mediaReadyRef.current.catch(() => {
+      // The call itself can still connect without the microphone (the peer
+      // opens a receive-only lane), so do not claim it failed — say what is
+      // actually wrong. On a non-secure address (http://192.168.… on a
+      // phone) the browser never offers the microphone at all.
+      toast(!window.isSecureContext ? 'Microphone blocked: this address is not secure — calls need https or localhost' : 'Microphone unavailable — check the browser permission for this site');
+    });
     return () => {
       // NOTE: no 'bye' is sent from here. React StrictMode (dev) unmounts and
       // remounts every component once, so a 'bye' sent from a cleanup kills a

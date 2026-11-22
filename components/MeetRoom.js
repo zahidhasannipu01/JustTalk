@@ -137,6 +137,9 @@ export default function MeetRoom({ session, me, onClose, aiCapture }) {
     peersRef.current.set(peerId, entry);
     const stream = localRef.current;
     if (stream) stream.getAudioTracks().forEach(t => { try { pc.addTrack(t, stream); } catch {} });
+    // No microphone yet: open a receive-only audio lane so this peer can
+    // still negotiate; the real track is added when the microphone arrives.
+    if (!stream || !stream.getAudioTracks().length) { try { pc.addTransceiver('audio', { direction: 'recvonly' }); } catch {} }
     const shareTrack = screenRef.current?.getVideoTracks()[0];
     const camTrack = stream?.getVideoTracks()[0];
     if (shareTrack) { try { pc.addTrack(shareTrack, screenRef.current); } catch {} }
@@ -174,7 +177,13 @@ export default function MeetRoom({ session, me, onClose, aiCapture }) {
   }
 
   async function ensurePeer(peerId) {
-    if (mediaReadyRef.current) { try { await mediaReadyRef.current; } catch {} }
+    // Same rule as 1-to-1 calls: never wait on the microphone for long — an
+    // unanswered permission prompt (phones) leaves getUserMedia pending
+    // forever and froze the mesh. The peer is created trackless after a
+    // short grace and the tracks are added when the microphone arrives.
+    if (mediaReadyRef.current) {
+      try { await Promise.race([mediaReadyRef.current, new Promise(r => setTimeout(r, 1200))]); } catch {}
+    }
     return createPeer(peerId);
   }
 

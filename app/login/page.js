@@ -1,11 +1,15 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { api, toast } from '@/lib/toast';
 import { FacebookBtn, GoogleBtn } from '@/components/AuthBits';
 
 export default function LoginPage() {
   const [email, setEmail] = useState(''); const [password, setPassword] = useState(''); const [busy, setBusy] = useState(false);
+  const [checking, setChecking] = useState(true);
+  // Already logged in? The login page is the wrong place — go to the app.
+  useEffect(() => { (async () => { try { const r = await api('/api/me'); if (r?.user) { window.location.replace('/app'); return; } } catch {} setChecking(false); })(); }, []);
+  if (checking) return (<div className="auth-wrap"><div className="auth-card"><div className="auth-logo">talk<i>.</i></div></div></div>);
   async function submit(e) {
     e.preventDefault(); setBusy(true);
     try { await api('/api/auth/login', { method: 'POST', body: { email, password } }); window.location.href = '/app'; }
