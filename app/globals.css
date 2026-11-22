@@ -148,7 +148,6 @@
 .video{border-radius:24px;background:linear-gradient(155deg,#355448,#18241E 72%);position:relative;overflow:hidden;display:grid;place-items:center}.video .avatar{background:rgba(255,255,255,.14);border:2px solid rgba(255,255,255,.35)}
 .pill-live{position:absolute;top:16px;left:16px;background:#fff;color:#101210;font-size:11px;font-weight:800;padding:6px 10px;border-radius:999px;display:inline-flex;gap:6px;align-items:center}.pill-live i{width:6px;height:6px;border-radius:50%;background:var(--red)}
 .pip{position:absolute;right:16px;bottom:16px;border-radius:16px;background:#E8930C;display:grid;place-items:center;font-weight:800;border:2px solid rgba(255,255,255,.9);color:#fff}
-.speaking{position:absolute;left:16px;bottom:16px;font-size:11.5px;background:rgba(0,0,0,.45);color:#fff;padding:7px 11px;border-radius:999px;font-weight:700;display:inline-flex;gap:6px;align-items:center}.speaking i{width:6px;height:6px;border-radius:50%;background:#3CE68B}
 .controls{display:flex;gap:10px}.controls button{flex:1;border:0;border-radius:16px;background:rgba(255,255,255,.09);color:#fff;padding:13px 4px 11px;font-size:11.5px;font-weight:700;display:grid;justify-items:center;gap:6px}.controls button .ic{width:20px;height:20px}.controls button.off{background:#fff;color:#101210}.controls button.end{background:var(--red);color:#fff}
 .timer{font-size:12.5px;font-weight:800;background:rgba(255,255,255,.1);color:#fff;padding:7px 12px;border-radius:999px}
 .frame{background:#fff;border:1px solid var(--line);border-radius:26px;overflow:hidden;box-shadow:0 24px 60px -24px rgba(16,18,16,.22)}
@@ -1455,11 +1454,22 @@
 .meet-grid.many{grid-template-columns:repeat(3,1fr)}
 .meet-spotwrap{flex:1;display:flex;gap:10px;min-height:0;position:relative}
 .meet-spotmain{flex:1;min-width:0;display:flex}
-.meet-film{width:216px;flex:0 0 auto;display:flex;flex-direction:column;gap:10px;min-height:0}
-.meet-film .meet-tile{flex:1}
-.meet-tile{position:relative;border-radius:16px;overflow:hidden;background:#24262A;min-height:0}
+.meet-film{width:216px;flex:0 0 auto;display:flex;flex-direction:column;gap:10px;min-height:0;justify-content:flex-start;overflow-y:auto;scrollbar-width:none}
+.meet-film::-webkit-scrollbar{display:none}
+.meet-film .meet-tile{flex:0 0 auto;aspect-ratio:1/1}
+.meet-tile{position:relative;border-radius:16px;overflow:hidden;background:#24262A;min-height:0;animation:meetTileIn .45s cubic-bezier(.22,.9,.28,1) both}
+@keyframes meetTileIn{from{opacity:0;transform:scale(.93) translateY(10px)}to{opacity:1;transform:none}}
+.meet-tile.leaving{animation:meetTileOut .32s ease both}
+@keyframes meetTileOut{to{opacity:0;transform:scale(.93) translateY(8px)}}
 .meet-tile.main{flex:1}
-.meet-tile.speaking{box-shadow:0 0 0 2.5px var(--green)}
+/* Speaking on a video tile: an INSET ring — it can never bleed over a
+   neighbouring tile. Speaking with the camera off rings the profile
+   circle itself (animated, smooth), never the whole tile. */
+.meet-tile.is-speaking.hasvid{box-shadow:inset 0 0 0 2.5px var(--green)}
+.meet-avring{position:relative;border-radius:50%;display:inline-flex}
+.meet-avring.on::after{content:'';position:absolute;inset:-5px;border-radius:50%;border:2.5px solid rgba(14,159,110,.5)}
+.meet-avring.on::before{content:'';position:absolute;inset:-5px;border-radius:50%;border:2.5px solid var(--green);animation:meetRingPulse 1.15s ease-out infinite;z-index:1}
+@keyframes meetRingPulse{0%{transform:scale(.93);opacity:.95}70%{transform:scale(1.16);opacity:0}100%{transform:scale(1.16);opacity:0}}
 .meet-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .meet-camoff{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#26282E}
 .meet-name{position:absolute;left:10px;bottom:10px;background:rgba(10,10,10,.62);color:#fff;font-size:12px;font-weight:700;padding:5px 10px;border-radius:8px;z-index:3}
@@ -1473,6 +1483,7 @@
 .meet-you-pres{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);background:rgba(14,159,110,.92);color:#fff;font-size:12.5px;font-weight:800;padding:8px 16px;border-radius:999px;z-index:4;white-space:nowrap}
 .meet-strip{display:flex;gap:8px;margin-top:10px}
 .meet-strip .meet-tile{flex:0 0 calc((100% - 16px)/3);aspect-ratio:4/3.1}
+.meet-stagewrap.presenting .meet-strip .meet-tile{aspect-ratio:1/1}
 .meet-self-float{position:absolute;right:12px;bottom:12px;width:88px;height:120px;z-index:4}
 .meet-self-float .meet-tile{width:100%;height:100%;border:2px solid rgba(255,255,255,.85);border-radius:14px;box-shadow:0 6px 18px rgba(0,0,0,.4)}
 .meet-self-float .meet-name{font-size:9.5px;padding:2.5px 7px;left:6px;bottom:6px}

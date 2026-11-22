@@ -30,6 +30,7 @@ export default function MeetRoom({ session, me, onClose }) {
   const [occupants, setOccupants] = useState([{ id: me.id, name: me.name, avatar: me.avatar, is_me: true, is_host: Number(room.creator_id) === me.id, is_friend: false, request_sent: false, request_received: false }]);
   const [hostId, setHostId] = useState(room.creator_id ? Number(room.creator_id) : null);
   const [peerIds, setPeerIds] = useState([]);
+  const [leaving, setLeaving] = useState([]); // [{id}] tiles animating out after a leave
   const [localStream, setLocalStream] = useState(null);
   const [screenStream, setScreenStream] = useState(null);
   const [mediaVer, setMediaVer] = useState(0);
@@ -72,6 +73,7 @@ export default function MeetRoom({ session, me, onClose }) {
   const isHostRef = useRef(false);
   const panelRef = useRef(null);
   const occupantsRef = useRef(occupants);
+  const peerIdsRef = useRef([]);
   const analysersRef = useRef(new Map()); // userId -> {node, data, offCount}
   const audioCtxRef = useRef(null);
   const mySpeakingRef = useRef(false);
@@ -436,6 +438,14 @@ export default function MeetRoom({ session, me, onClose }) {
     offsRef.current.push(socket.on('peers', m => {
       if (m.room !== channel) return;
       const ids = (m.peers || []).filter(id => id !== me.id);
+      // Departed tiles animate out instead of vanishing mid-frame.
+      for (const pid of peerIdsRef.current) {
+        if (!ids.includes(pid)) {
+          setLeaving(lv => (lv.some(x => x.id === pid) ? lv : [...lv, { id: pid }]));
+          setTimeout(() => setLeaving(lv => lv.filter(x => x.id !== pid)), 340);
+        }
+      }
+      peerIdsRef.current = ids;
       setPeerIds(ids);
       // A pin or presentation must not outlive the person: if they left,
       // the spotlight falls back to the normal layout.
@@ -496,18 +506,19 @@ export default function MeetRoom({ session, me, onClose }) {
     if (id === me.id) return iShare ? screenStream : localStream;
     return peersRef.current.get(id)?.stream || null;
   }
-  function renderTile(id, cls = '') {
+  function renderTile(id, cls = '', idx = 0) {
     const u = userOf(id);
     const st = tileState(id);
     const stream = streamFor(id);
     const vtracks = stream ? stream.getVideoTracks() : [];
     const hasVideo = vtracks.length > 0 && st.cam && (id === me.id || vtracks.some(t => !t.muted));
     const myFloats = floats.filter(f => f.userId === id);
+    const isLeaving = leaving.some(x => x.id === id);
     return (
-      <div key={id} className={`meet-tile ${cls} ${speaking[id] ? 'speaking' : ''}`}>
+      <div key={id} className={`meet-tile ${cls} ${speaking[id] ? 'is-speaking' : ''} ${hasVideo ? 'hasvid' : ''} ${isLeaving ? 'leaving' : ''}`} style={{ animationDelay: `${Math.min(idx * 70, 350)}ms` }}>
         {hasVideo
           ? <TileVideo stream={stream} ver={mediaVer} muted={id === me.id} />
-          : <div className="meet-camoff"><Avatar user={{ ...u, color: colorFor(id) }} size={72} /></div>}
+          : <div className="meet-camoff"><span className={`meet-avring ${speaking[id] ? 'on' : ''}`}><Avatar user={{ ...u, color: colorFor(id) }} size={72} /></span></div>}
         {st.hand ? <span className="meet-handbdg"><Ic n="hand" size={13} /></span> : null}
         {!st.mic ? <span className="meet-micbdg"><Ic n="micoff" size={12} /></span> : null}
         {sharingId === id ? <span className="meet-preschip"><Ic n="share" size={12} />{id === me.id ? "You're presenting" : `${u.name.split(' ')[0]} is presenting`}</span> : null}
@@ -519,16 +530,17 @@ export default function MeetRoom({ session, me, onClose }) {
   }
 
   const others = allIds.filter(id => id !== spotlightId);
+  const leavingIds = leaving.map(l => l.id).filter(id => !allIds.includes(id));
   const stage = spotlightId != null ? (
     <div className="meet-spotwrap">
       <div className="meet-spotmain">{renderTile(spotlightId, 'main')}</div>
-      {!isMobile && <div className="meet-film">{others.map(id => renderTile(id))}</div>}
+      {!isMobile && <div className="meet-film">{[...others, ...leavingIds].map((id, i) => renderTile(id, '', i))}</div>}
       {isMobile && spotlightId !== me.id && (
         <div className="meet-self-float">{renderTile(me.id, 'float')}</div>
       )}
     </div>
   ) : (
-    <div className={`meet-grid ${allIds.length <= 4 ? `n${allIds.length}` : 'many'}`}>{allIds.map(id => renderTile(id))}</div>
+    <div className={`meet-grid ${allIds.length <= 4 ? `n${allIds.length}` : 'many'}`}>{[...allIds, ...leavingIds].map((id, i) => renderTile(id, '', i))}</div>
   );
   const mobileStrip = isMobile && spotlightId != null ? allIds.filter(id => id !== spotlightId && id !== me.id) : [];
 
@@ -604,7 +616,7 @@ export default function MeetRoom({ session, me, onClose }) {
       </div>
 
       <div className="meet-body">
-        <div className="meet-stagewrap">
+        <div className={`meet-stagewrap ${sharingId ? 'presenting' : ''}`}>
           {stage}
           {isMobile && mobileStrip.length > 0 && <div className="meet-strip">{mobileStrip.map(id => renderTile(id))}</div>}
           {iShare && <div className="meet-you-pres">You're presenting — everyone sees your screen</div>}
