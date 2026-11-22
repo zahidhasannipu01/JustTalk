@@ -1697,3 +1697,23 @@
    with a browser border outside .modal-actions. */
 .pv-detail-actions button{flex:1;min-height:50px;border-radius:999px;border:0;font-weight:800;font-size:14.5px}
 .pv-detail-actions button:disabled{opacity:.55;cursor:not-allowed}
+
+/* .btn-accent2 / .btn-soft / .btn-dark were colour-only classes: inside
+   .modal-actions they inherited the pill shape from the parent rule, but
+   anywhere else (AI report empty states, blocked list) they rendered as
+   small bare rectangles. The classes now carry the pill shape themselves. */
+.btn-accent2,.btn-soft,.btn-dark{border:0;border-radius:999px;min-height:50px;padding:0 24px;font-weight:800;font-size:14.5px;display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer}
+.btn-accent2:disabled{opacity:.55;cursor:not-allowed}
+.btn-soft.sm{min-height:36px;padding:0 14px;font-size:12.5px}
+/* AI report empty states referenced a .card class that was never defined,
+   so their text floated on the page with no container at all. */
+.air-empty{border:1px solid var(--line2);border-radius:18px;background:#fff}
+
+/* AI report empty states: an icon chip, a real heading and quieter body
+   text — the single heavy paragraph read as one dense block. */
+.air-empty-ic{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:14px;background:var(--accent-soft);color:var(--accent);margin-bottom:12px}
+.air-empty h4{font-size:17px;font-weight:800;letter-spacing:-.01em;color:var(--ink);margin-bottom:6px}
+.air-empty p{font-size:14px;font-weight:500;color:var(--muted);line-height:1.65;margin-bottom:16px}
+
+/* AI report empty states span the full content width. */
+.air-empty{max-width:none}

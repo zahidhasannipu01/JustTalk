@@ -37,6 +37,8 @@ export default function AiReportView({ me, onUpgrade, onOpenSettings }) {
   if (!data.eligible) return (
     <div>
       <div className="air-empty card">
+        <span className="air-empty-ic"><Ic n="chart" size={22} /></span>
+        <h4>AI reports come with Plus and Pro</h4>
         <p>After your calls, AI reviews your own speaking — fluency, vocabulary, grammar and pronunciation — and tells you exactly what to improve.</p>
         <button type="button" className="btn-accent2" onClick={onUpgrade}>See plans</button>
       </div>
@@ -45,7 +47,9 @@ export default function AiReportView({ me, onUpgrade, onOpenSettings }) {
   if (!data.optin) return (
     <div>
       <div className="air-empty card">
-        <p>Your {data.plan_name} plan includes AI {data.frequency} reports — they are switched off right now. Turn AI reports on from the Details card on your Profile page. Only your own voice is analysed, and only while it is on.</p>
+        <span className="air-empty-ic"><Ic n="chart" size={22} /></span>
+        <h4>AI reports are switched off</h4>
+        <p>Your {data.plan_name} plan includes AI {data.frequency} reports. Turn them on from the Details card on your Profile page — only your own voice is analysed, and only while it is on.</p>
         <button type="button" className="btn-accent2" onClick={onOpenSettings}>Open profile</button>
       </div>
     </div>
@@ -60,7 +64,9 @@ export default function AiReportView({ me, onUpgrade, onOpenSettings }) {
 
       {!r && (
         <div className="air-empty card">
-          <p><b>No report yet.</b> Your {data.frequency === 'weekly' ? 'weekly' : 'daily'} report appears here once about 2 minutes of your speaking has been captured from your calls{data.speech_seconds ? ` — so far ${Math.max(1, Math.round(data.speech_seconds / 60))} minute captured this ${data.frequency === 'weekly' ? 'week' : 'day'}` : ''}. Keep practising.</p>
+          <span className="air-empty-ic"><Ic n="chart" size={22} /></span>
+          <h4>No report yet</h4>
+          <p>Your {data.frequency === 'weekly' ? 'weekly' : 'daily'} report appears here once about 2 minutes of your speaking has been captured from your calls{data.speech_seconds ? ` — so far ${Math.max(1, Math.round(data.speech_seconds / 60))} minute captured this ${data.frequency === 'weekly' ? 'week' : 'day'}` : ''}. Keep practising.</p>
         </div>
       )}
 
