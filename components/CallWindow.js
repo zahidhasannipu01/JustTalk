@@ -118,6 +118,12 @@ export default function CallWindow({ session, me, onClose, friendState, onFriend
     };
     pc.onicecandidate = ({ candidate }) => { if (candidate) sendSignal(peerId, 'ice', candidate.toJSON()); };
     pc.ontrack = ({ track }) => {
+      // Any remote track arriving IS the call being connected — media
+      // cannot flow before the connection is up. The audio branch used to
+      // leave the status on 'Ringing…' until connectionState caught up,
+      // which on some phones left a fully talking call showing Ringing.
+      if (!connectedRef.current) { connectedRef.current = true; startedRef.current = Date.now(); setSecs(0); }
+      setStatus('Connected');
       if (track.kind === 'audio') {
         const el = document.createElement('audio');
         el.dataset.webrtc = '1'; el.autoplay = true; el.muted = !spkRef.current;
