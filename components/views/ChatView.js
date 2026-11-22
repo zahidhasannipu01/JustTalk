@@ -60,25 +60,55 @@ export default function ChatView({ me, initialPerson, onCall }) {
   const fileRef = useRef(null);
   const msgsRef = useRef(null);
   const activeIdRef = useRef(null);
+  const convsRef = useRef([]);
+  const viewingRef = useRef(null);
   const active = convs.find(c => c.id === activeId) || null;
+  useEffect(() => { convsRef.current = convs; }, [convs]);
+
+  // Patch ONE conversation row in place from a message that arrived over
+  // the socket (or was just sent): latest-message preview, list order and
+  // unread count — the standard event-carries-data update, no refetch. A
+  // conversation this client has never loaded (brand-new friend) is the
+  // one case that still earns a single list fetch.
+  function patchConv(convId, msg, countUnread) {
+    if (!convsRef.current.some(c => c.id === Number(convId))) { loadConvs(); return; }
+    setConvs(cs => {
+      const i = cs.findIndex(c => c.id === Number(convId));
+      if (i < 0) return cs;
+      const c = cs[i];
+      const updated = { ...c, last: { kind: msg.kind, text: msg.text, created_at: msg.created_at, sender_id: msg.sender_id }, unread: countUnread ? (c.unread || 0) + 1 : c.unread };
+      return [updated, ...cs.filter((_, j) => j !== i)];
+    });
+  }
 
   async function loadConvs() { try { const d = await api('/api/chats'); setConvs(d.conversations); if (!activeIdRef.current && d.conversations[0]) setActiveId(d.conversations[0].id); } catch {} }
   useEffect(() => { loadConvs(); }, []);
   useEffect(() => { if (initialPerson) { (async () => { try { const d = await api('/api/chats', { method: 'POST', body: { user_id: initialPerson.id } }); await loadConvs(); setActiveId(d.id); setOpened(true); } catch (e) { toast(e.message); } })(); } }, [initialPerson]);
   useEffect(() => { activeIdRef.current = activeId; if (activeId) { api(`/api/chats/${activeId}/messages`).then(d => { setMsgs(d.messages); setConvs(cs => cs.map(c => c.id === activeId ? { ...c, unread: 0 } : c)); }).catch(() => {}); } }, [activeId]);
-  // Real-time list: a pushed chat-message refreshes latest message + unread at
-  // once (and appends into the open conversation); a presence push flips the
-  // green dot. Socket reconnect resyncs everything.
+  // Real-time: a pushed chat-message CARRIES the saved message — append it
+  // to the open conversation and patch the list row, both in place; a
+  // presence push flips the green dot. Only a socket reconnect resyncs from
+  // the API, to catch up on anything missed while disconnected.
   useEffect(() => {
     const offMsg = socket.on('chat-message', m => {
-      loadConvs();
-      if (m && Number(m.conversation_id) === Number(activeIdRef.current)) api(`/api/chats/${m.conversation_id}/messages`).then(d => setMsgs(d.messages)).catch(() => {});
+      const msg = m && m.message;
+      if (!msg) { // payload-less push (should not happen) — fall back to a resync
+        loadConvs();
+        if (m && Number(m.conversation_id) === Number(activeIdRef.current)) api(`/api/chats/${m.conversation_id}/messages`).then(d => setMsgs(d.messages)).catch(() => {});
+        return;
+      }
+      const viewing = Number(viewingRef.current) === Number(m.conversation_id);
+      patchConv(m.conversation_id, msg, !viewing && Number(msg.sender_id) !== Number(me.id));
+      if (Number(m.conversation_id) === Number(activeIdRef.current)) setMsgs(ms => (ms.some(x => x.id === msg.id) ? ms : [...ms, msg]));
     });
     const offPres = socket.on('presence', m => {
       if (!m) return;
       setConvs(cs => cs.map(c => (c.other && Number(c.other.id) === Number(m.user_id)) ? { ...c, other: { ...c.other, online: !!m.online } } : c));
     });
-    const offOpen = socket.on('_open', () => loadConvs());
+    const offOpen = socket.on('_open', () => {
+      loadConvs();
+      if (activeIdRef.current) api(`/api/chats/${activeIdRef.current}/messages`).then(d => setMsgs(d.messages)).catch(() => {});
+    });
     return () => { offMsg(); offPres(); offOpen(); };
   }, []);
   // While a chat is open on mobile the bottom nav steps aside (full-screen chat).
@@ -92,7 +122,9 @@ export default function ChatView({ me, initialPerson, onCall }) {
   // once it is opened full-screen.
   useEffect(() => {
     const wide = window.matchMedia('(min-width: 901px)').matches;
-    socket.send({ t: 'viewing', conversation_id: activeId && (opened || wide) ? activeId : null });
+    const v = activeId && (opened || wide) ? activeId : null;
+    viewingRef.current = v;
+    socket.send({ t: 'viewing', conversation_id: v });
   }, [activeId, opened]);
   useEffect(() => () => { socket.send({ t: 'viewing', conversation_id: null }); }, []);
   useEffect(() => { const el = msgsRef.current; if (el) el.scrollTop = el.scrollHeight; }, [msgs]);
@@ -100,7 +132,16 @@ export default function ChatView({ me, initialPerson, onCall }) {
 
   async function send(e) {
     e.preventDefault(); if (!input.trim() || !activeId) return;
-    try { await api(`/api/chats/${activeId}/messages`, { method: 'POST', body: { ciphertext: input.trim() } }); setInput(''); const d = await api(`/api/chats/${activeId}/messages`); setMsgs(d.messages); loadConvs(); }
+    const text = input.trim();
+    try {
+      const r = await api(`/api/chats/${activeId}/messages`, { method: 'POST', body: { ciphertext: text } });
+      setInput('');
+      // My own message is already known — append it and patch the list row
+      // locally instead of refetching the conversation and the list.
+      const msg = { id: r.id, sender_id: me.id, kind: 'text', text, created_at: new Date().toISOString() };
+      setMsgs(ms => (ms.some(x => x.id === msg.id) ? ms : [...ms, msg]));
+      patchConv(activeId, msg, false);
+    }
     catch (err) { toast(err.message); }
   }
   async function sendPhoto(file) {
@@ -108,7 +149,7 @@ export default function ChatView({ me, initialPerson, onCall }) {
     // Photos move phone-to-phone only and are never stored on the server: show locally, register only a reference.
     const url = URL.createObjectURL(file);
     setMsgs(m => [...m, { id: `local-${Date.now()}`, sender_id: me.id, kind: 'photo_local', text: url }]);
-    try { await api(`/api/chats/${activeId}/messages`, { method: 'POST', body: { kind: 'photo_ref' } }); loadConvs(); } catch (err) { toast(err.message); }
+    try { await api(`/api/chats/${activeId}/messages`, { method: 'POST', body: { kind: 'photo_ref' } }); patchConv(activeId, { kind: 'photo_ref', text: null, created_at: new Date().toISOString(), sender_id: me.id }, false); } catch (err) { toast(err.message); }
   }
   const shown = convs.filter(c => (c.other?.name || '').toLowerCase().includes(search.toLowerCase()));
   const other = active?.other;

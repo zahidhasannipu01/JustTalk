@@ -1,7 +1,7 @@
 import { q, q1 } from '@/lib/db';
 import { currentUser } from '@/lib/auth';
 import { ok, fail } from '@/lib/respond';
-import { hubPush } from '@/lib/hub';
+import { notify } from '@/lib/notify';
 export async function POST(req) {
   const me = await currentUser(); if (!me) return fail('Not signed in', 401);
   const b = await req.json().catch(() => null); const target = Number(b?.user_id);
@@ -10,7 +10,6 @@ export async function POST(req) {
   const existing = await q1('SELECT * FROM friendships WHERE (requester_id = ? AND addressee_id = ?) OR (requester_id = ? AND addressee_id = ?)', [me.id, target, target, me.id]);
   if (existing) return ok({ status: existing.status });
   await q("INSERT INTO friendships (requester_id, addressee_id, status) VALUES (?, ?, 'pending')", [me.id, target]);
-  await q("INSERT INTO notifications (user_id, kind, actor_id, title, body) VALUES (?, 'friend_request', ?, ?, ?)", [target, me.id, me.name, 'Sent you a friend request']);
-  hubPush(target, { t: 'notification', kind: 'friend_request', from: me.id });
+  await notify(target, { kind: 'friend_request', actor_id: me.id, title: me.name, body: 'Sent you a friend request' });
   return ok({ status: 'pending' });
 }

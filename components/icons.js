@@ -39,6 +39,10 @@ const P = {
   minus: <path d="M5 12h14" />,
   adduser: <><circle cx="10" cy="8" r="3.5" /><path d="M4 19.5c.5-3 2.6-4.7 6-4.7 1 0 1.9.2 2.7.5M18 8v6M15 11h6" /></>,
   removeuser: <><circle cx="10" cy="8" r="3.5" /><path d="M4 19.5c.5-3 2.6-4.7 6-4.7 1 0 1.9.2 2.7.5M15 11h6" /></>,
+  hand: <path d="M8 12V5.8a1.4 1.4 0 0 1 2.8 0V11m0-6.5a1.4 1.4 0 0 1 2.8 0V11m0-5.8a1.4 1.4 0 0 1 2.8 0V13m0-3.5a1.4 1.4 0 0 1 2.8 0V15a6.5 6.5 0 0 1-6.5 6.5h-.6c-2.2 0-3.9-.9-5.3-2.7L4.6 16a1.7 1.7 0 0 1 2.7-2L8 15" />,
+  pin: <><path d="M9 4h6l-1 7 3 3v2H7v-2l3-3-1-7z" /><path d="M12 16v5" /></>,
+  share: <><rect x="3" y="4.5" width="18" height="13" rx="2.5" /><path d="M12 14.5v-6M9.5 10.5 12 8l2.5 2.5M9 21h6" /></>,
+  videooff: <><rect x="2.5" y="6" width="13" height="12" rx="2.5" /><path d="M15.5 10.8 21.5 7.2v9.6l-6-3.6M3 3l18 18" /></>,
 };
 export function Ic({ n, size }) {
   return <span className="ic" style={size ? { width: size, height: size } : undefined}><svg viewBox="0 0 24 24">{P[n] || null}</svg></span>;

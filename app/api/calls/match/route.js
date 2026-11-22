@@ -3,6 +3,7 @@ import { currentUser } from '@/lib/auth';
 import { ok, fail } from '@/lib/respond';
 import { currentSubscription } from '@/lib/subscription';
 import { hubPush } from '@/lib/hub';
+import { notify } from '@/lib/notify';
 
 // Start Calling: random match on the chosen gender — mutual fit only. If
 // nobody in the pool fits both ways, the searcher waits in the queue.
@@ -52,7 +53,7 @@ export async function POST(req) {
   await q('DELETE FROM call_queue WHERE user_id = ?', [partner.user_id]);
   const channel = `call-${me.id}-${partner.user_id}-${Date.now()}`;
   const r = await q("INSERT INTO calls (caller_id, callee_id, channel, kind, status, source) VALUES (?, ?, ?, ?, 'ringing', 'match')", [me.id, partner.user_id, channel, kind]);
-  await q("INSERT INTO notifications (user_id, kind, actor_id, title, body) VALUES (?, 'system', ?, 'Incoming call', ?)", [partner.user_id, me.id, `${me.name} is calling you`]);
+  await notify(partner.user_id, { kind: 'system', actor_id: me.id, title: 'Incoming call', body: `${me.name} is calling you` });
   const meU = await q1('SELECT avatar FROM users WHERE id = ?', [me.id]);
   hubPush(partner.user_id, { t: 'incoming-call', call_id: r.insertId, room_name: channel, kind, from_match: true, partner: { id: me.id, name: me.name, avatar: meU?.avatar || null } });
   return ok({ waiting: false, ringing: true, call_id: r.insertId, room_name: channel, partner: { id: partner.user_id, name: partner.name, avatar: partner.avatar } });

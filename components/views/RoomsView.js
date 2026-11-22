@@ -17,7 +17,11 @@ export default function RoomsView({ rooms, onJoin, onOpenPeople, onOpenCreate })
       <div className="rooms2">
         {list.map(r => (
           <article className="room" key={r.id}>
-            <div className="faces">{(r.faces || []).map(f => <Avatar key={f.id} user={{ ...f, color: colorFor(f.id) }} size={40} fontSize={12} />)}</div>
+            <div className="faces">
+              {(r.faces || []).slice(0, 3).map(f => <Avatar key={f.id} user={{ ...f, color: colorFor(f.id) }} size={40} fontSize={12} />)}
+              {(r.occupants || 0) > 3 && <span className="faces-more">+{r.occupants - 3}</span>}
+              {(r.faces || []).length === 0 && <span className="faces-ghost" title="Nobody inside right now"></span>}
+            </div>
             <h3>{r.title}</h3><p>{r.topic}</p>
             <div className="meta">
               {r.visibility === 'private'

@@ -3,6 +3,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { Ic, Avatar } from './icons';
 import Overlay from './Overlay';
 import CallWindow from './CallWindow';
+import MeetRoom from './MeetRoom';
 import DashboardView from './views/DashboardView';
 import RoomsView from './views/RoomsView';
 import PeopleView from './views/PeopleView';
@@ -67,6 +68,9 @@ export default function AppShell({ initialUser }) {
   const [passErr, setPassErr] = useState(false);
   const [incoming, setIncoming] = useState(null);
   const callRef = useRef(null);
+  const subRef = useRef(null);
+  const openedOnceRef = useRef(false);
+  useEffect(() => { subRef.current = subData; }, [subData]);
 
   const loadAll = useCallback(async () => {
     try {
@@ -110,13 +114,55 @@ export default function AppShell({ initialUser }) {
       if (!m) return;
       setPeople(ps => ps.map(p => Number(p.id) === Number(m.user_id) ? { ...p, online: !!m.online } : p));
     });
-    // A pushed notification (friend request, acceptance, message…) refreshes
-    // the bell, the tray and the People requests at once.
-    const offNotif = socket.on('notification', () => loadAll());
+    // A pushed notification CARRIES the full row: patch the bell, the tray
+    // and the People requests in place — no refetch. (A payload-less push,
+    // which should not happen anymore, falls back to one full resync.)
+    const offNotif = socket.on('notification', m => {
+      const n = m && m.notification;
+      if (!n) { loadAll(); return; }
+      setNotifs(ns => {
+        // One live row per sender for messages: the server deleted the old
+        // unread row, so drop it here too and let the new one take its place.
+        const base = (n.kind === 'message' && n.actor_id) ? ns.filter(x => !(x.kind === 'message' && Number(x.actor_id) === Number(n.actor_id) && !x.is_read)) : ns;
+        return [n, ...base].slice(0, 100);
+      });
+      if (n.kind === 'friend_request' && n.actor_id) {
+        setRequests(rs => (rs.some(r => Number(r.id) === Number(n.actor_id)) ? rs : [{ id: n.actor_id, name: n.actor_name || n.title, avatar: n.actor_avatar }, ...rs]));
+      }
+      if (n.kind === 'friend_accepted' && n.actor_id) {
+        const person = { id: n.actor_id, name: n.actor_name || n.title, avatar: n.actor_avatar };
+        setPeople(ps => (ps.some(p => Number(p.id) === Number(n.actor_id)) ? ps : [...ps, person]));
+        setEveryone(ps => (ps.some(p => Number(p.id) === Number(n.actor_id)) ? ps : [...ps, { ...person, is_friend: true }]));
+      }
+      // A live payment reminder runs the same popup rule as loadAll: an
+      // active paid plan (or a payment already waiting) suppresses it.
+      if (n.kind === 'subscription_reminder' && !n.is_read) {
+        const s = subRef.current; const sub = s && s.subscription;
+        const activePaid = sub && Number(sub.price_taka) > 0 && (!sub.expires_at || new Date(sub.expires_at).getTime() > Date.now());
+        if (activePaid || (s && s.pending_payment)) {
+          api('/api/notifications', { method: 'POST', body: { kind: 'subscription_reminder' } }).catch(() => {});
+          setNotifs(ns => ns.map(x => (x.kind === 'subscription_reminder' ? { ...x, is_read: 1 } : x)));
+        } else setReminderNotif(n);
+      }
+    });
+    // Reconnect catch-up: the first connect is covered by the mount load;
+    // any later reconnect resyncs once, for anything missed while offline.
+    const offOpen = socket.on('_open', () => { if (openedOnceRef.current) loadAll(); else openedOnceRef.current = true; });
     // The "live now" count is pushed by the server the moment it changes —
     // both the top pill and the Start-calling card read dash.live_now.
     const offLive = socket.on('live-count', m => { if (m && typeof m.count === 'number') setDash(d => (d ? { ...d, live_now: m.count } : d)); });
-    return () => { offIn(); offCancel(); offPres(); offNotif(); offLive(); };
+    // Room cards are live: the server broadcasts the real occupants of every
+    // room (socket membership) the moment anyone joins, leaves or starts
+    // speaking — the face stacks patch in place, no refetch.
+    const offRooms = socket.on('rooms-live', m => {
+      if (!m || !Array.isArray(m.rooms)) return;
+      const byId = new Map(m.rooms.map(x => [Number(x.id), x]));
+      setRooms(rs => rs.map(r => {
+        const l = byId.get(Number(r.id));
+        return l ? { ...r, faces: l.occupants, occupants: l.occupants.length, speaking: l.speaking } : { ...r, faces: [], occupants: 0, speaking: 0 };
+      }));
+    });
+    return () => { offIn(); offCancel(); offPres(); offNotif(); offLive(); offOpen(); offRooms(); };
   }, []);
 
   // Incoming-call ringtone: loops while the Accept/Decline popup is up and
@@ -219,7 +265,7 @@ export default function AppShell({ initialUser }) {
     try {
       const d = await api('/api/rooms/join', { method: 'POST', body: { room_id: room.id, password } });
       setPassRoom(null);
-      setCall({ ...d, kind: kind === 'audio' ? 'audio' : 'video', partner: { name: room.title, avatar: null, roomPeople: room.speaking } });
+      setCall({ ...d, kind: kind === 'audio' ? 'audio' : 'video', room: { id: room.id, title: room.title, topic: room.topic, visibility: room.visibility, creator_id: room.creator_id }, partner: { name: room.title, avatar: null, roomPeople: room.occupants } });
     } catch (e) {
       if (room.visibility === 'private' && password !== undefined) { setPassErr(true); setPassRoom(room); }
       else toast(e.message);
@@ -390,7 +436,9 @@ export default function AppShell({ initialUser }) {
           <div className="modal-actions"><button type="button" className="btn-soft" onClick={() => answerIncoming(false)}>Decline</button><button type="button" className="btn-accent2" style={{ flex: 1 }} onClick={() => answerIncoming(true)}>Accept</button></div>
         </div></Overlay>
       )}
-      {call && <CallWindow key={call.call_id || 'searching'} session={call} me={me} onClose={closeCall} onAddPeople={() => go('people')} />}
+      {call && (String(call.room_name || '').startsWith('room-')
+        ? <MeetRoom key={call.call_id} session={call} me={me} onClose={closeCall} />
+        : <CallWindow key={call.call_id || 'searching'} session={call} me={me} onClose={closeCall} onAddPeople={() => go('people')} />)}
     </div>
   );
 }

@@ -102,19 +102,54 @@ function joinChannel(ws, channel) {
   if (!channels.has(channel)) channels.set(channel, new Set());
   channels.get(channel).add(ws); ws.channels.add(channel);
   broadcastPeers(channel);
+  if (channel.startsWith('room-')) broadcastRoomsLive();
 }
 function leaveChannel(ws, channel) {
   const set = channels.get(channel);
   if (set) { set.delete(ws); if (!set.size) channels.delete(channel); }
   ws.channels.delete(channel);
   if (set && set.size) broadcastPeers(channel);
+  if (channel.startsWith('room-')) broadcastRoomsLive();
+}
+
+// ---------------- live rooms ----------------
+// Who is inside each room RIGHT NOW is the socket channel membership —
+// nothing else. The room cards (avatar stack + speaking count) read this
+// snapshot: the API route for the first paint, and a 'rooms-live' broadcast
+// to every connected client the moment membership or speaking changes.
+const userInfoCache = new Map(); // userId -> {id, name, avatar}
+async function roomsLive() {
+  const out = [];
+  const missing = new Set();
+  for (const [name, set] of channels) {
+    if (!name.startsWith('room-') || !set.size) continue;
+    const ids = [...new Set([...set].map(ws => ws.userId))];
+    const speakingIds = new Set();
+    for (const ws of set) if (ws.speakRooms && ws.speakRooms.has(name)) speakingIds.add(ws.userId);
+    for (const id of ids) if (!userInfoCache.has(id)) missing.add(id);
+    out.push({ id: Number(name.slice(5)), occupantIds: ids, speaking: speakingIds.size });
+  }
+  if (missing.size) {
+    try {
+      const [rows] = await db().query('SELECT id, name, avatar FROM users WHERE id IN (?)', [[...missing]]);
+      for (const r of rows) userInfoCache.set(Number(r.id), { id: Number(r.id), name: r.name, avatar: r.avatar });
+    } catch {}
+  }
+  return out.map(r => ({ id: r.id, occupants: r.occupantIds.map(id => userInfoCache.get(id) || { id, name: 'Someone', avatar: null }), speaking: r.speaking }));
+}
+async function broadcastRoomsLive() {
+  try {
+    const snap = await roomsLive();
+    const obj = { t: 'rooms-live', rooms: snap };
+    for (const set of userSockets.values()) for (const ws of set) sendTo(ws, obj);
+  } catch {}
 }
 
 // Which conversation (if any) a user is looking at right now — reported by
 // ChatView over the socket, kept per-socket. The message route asks this so
 // a chat the recipient is already reading never spawns a notification.
 function isViewing(userId, conversationId) { const set = userSockets.get(Number(userId)); if (!set) return false; for (const ws of set) if (ws.viewingConv != null && Number(ws.viewingConv) === Number(conversationId)) return true; return false; }
-globalThis.__wsHub = { sendToUser, isViewing };
+globalThis.__wsHub = { sendToUser, isViewing, roomsLive };
 
 // ---------------- app ----------------
 const app = next({ dev });
@@ -139,7 +174,10 @@ app.prepare().then(() => {
   });
 
   wss.on('connection', (ws, user) => {
-    ws.userId = user.id; ws.channels = new Set(); ws.isAlive = true;
+    ws.userId = user.id; ws.channels = new Set(); ws.isAlive = true; ws.speakRooms = new Set();
+    // First paint for the room cards: the live snapshot, so the avatar
+    // stacks are right before any membership change happens.
+    roomsLive().then(snap => sendTo(ws, { t: 'rooms-live', rooms: snap })).catch(() => {});
     if (!userSockets.has(user.id)) userSockets.set(user.id, new Set());
     const first = userSockets.get(user.id).size === 0;
     userSockets.get(user.id).add(ws);
@@ -151,6 +189,14 @@ app.prepare().then(() => {
       if (m.t === 'join') joinChannel(ws, m.room);
       else if (m.t === 'leave') leaveChannel(ws, m.room);
       else if (m.t === 'viewing') { ws.viewingConv = m.conversation_id != null ? Number(m.conversation_id) : null; }
+      else if (m.t === 'room-speak') {
+        // Edge-triggered speaking state for the room cards' "N speaking".
+        if (typeof m.room === 'string' && m.room.startsWith('room-')) {
+          const had = ws.speakRooms.has(m.room);
+          if (m.on && !had) { ws.speakRooms.add(m.room); broadcastRoomsLive(); }
+          else if (!m.on && had) { ws.speakRooms.delete(m.room); broadcastRoomsLive(); }
+        }
+      }
       else if (m.t === 'signal') {
         const out = { t: 'signal', room: m.room, from: ws.userId, kind: m.kind, payload: m.payload };
         if (m.to) sendToUser(Number(m.to), out);

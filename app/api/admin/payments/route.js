@@ -2,6 +2,7 @@ import { q, q1 } from '@/lib/db';
 import { currentAdmin } from '@/lib/auth';
 import { ok, fail } from '@/lib/respond';
 import { logAdmin } from '@/lib/admin';
+import { notify } from '@/lib/notify';
 export async function GET() {
   const a = await currentAdmin(); if (!a) return fail('Admin only', 401);
   const rows = await q(`SELECT pr.*, u.name AS user_name, u.avatar, u.city AS user_city, p.name AS package_name FROM payment_requests pr JOIN users u ON u.id = pr.user_id JOIN packages p ON p.id = pr.package_id ORDER BY pr.id DESC LIMIT 100`);
@@ -39,7 +40,7 @@ export async function POST(req) {
       const when = days === null ? 'soon' : days < -1 ? `${-days} days ago` : days === -1 ? 'yesterday' : days === 0 ? 'today' : days === 1 ? 'tomorrow' : `in ${days} days`;
       body = `${s.plan_name} renewal ৳${s.price_taka} ${days !== null && days < 0 ? 'was due' : 'is due'} ${when}`;
     }
-    await q("INSERT INTO notifications (user_id, kind, title, body) VALUES (?, 'subscription_reminder', 'Payment reminder', ?)", [uid, body]);
+    await notify(uid, { kind: 'subscription_reminder', title: 'Payment reminder', body });
     await logAdmin(a.id, 'reminder_sent', `user ${uid}`); return ok();
   }
   const pr = await q1('SELECT * FROM payment_requests WHERE id = ?', [Number(b?.payment_id)]);
@@ -48,8 +49,11 @@ export async function POST(req) {
     await q("UPDATE payment_requests SET status = 'approved', decided_at = NOW() WHERE id = ?", [pr.id]);
     await q("UPDATE subscriptions SET status = 'expired' WHERE user_id = ? AND status = 'active'", [pr.user_id]);
     await q("INSERT INTO subscriptions (user_id, package_id, status, started_at, expires_at) VALUES (?, ?, 'active', NOW(), NOW() + INTERVAL 30 DAY)", [pr.user_id, pr.package_id]);
-    await q("UPDATE notifications SET is_read = 1 WHERE user_id = ? AND kind = 'subscription_reminder' AND is_read = 0", [pr.user_id]);
-    await q("INSERT INTO notifications (user_id, kind, title, body) VALUES (?, 'payment', 'Payment confirmed', 'Your plan is active')", [pr.user_id]);
+    // The payment is approved, so every earlier reminder is stale history —
+    // delete them outright (not just mark read) or the bell tray keeps
+    // showing a "was due" row to a user who has already paid.
+    await q("DELETE FROM notifications WHERE user_id = ? AND kind = 'subscription_reminder'", [pr.user_id]);
+    await notify(pr.user_id, { kind: 'payment', title: 'Payment confirmed', body: 'Your plan is active' });
     await logAdmin(a.id, 'payment_approved', `#${pr.id} ${pr.amount_taka} taka`);
   } else if (b?.action === 'reject') {
     await q("UPDATE payment_requests SET status = 'rejected', decided_at = NOW() WHERE id = ?", [pr.id]);
