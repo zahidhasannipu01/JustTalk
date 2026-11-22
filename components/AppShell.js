@@ -249,7 +249,23 @@ export default function AppShell({ initialUser }) {
     go('chats'); loadAll();
   }
 
+  // Microphone permission is taken BEFORE any call flow starts (Start
+  // Calling, direct call, room join): the prompt appears while the user is
+  // looking at the tap they just made, and nobody is rung or queued before
+  // the mic is sorted. The grant persists for the origin, so the call
+  // window's own getUserMedia afterwards resolves with no second prompt.
+  // The camera is different: it is only requested when video is asked for
+  // and accepted inside the call.
+  async function ensureMic() {
+    if (!navigator.mediaDevices?.getUserMedia) { toast('Microphone blocked: this address is not secure — calls need https or localhost'); return false; }
+    try {
+      const s = await navigator.mediaDevices.getUserMedia({ audio: true });
+      s.getTracks().forEach(t => t.stop());
+      return true;
+    } catch { toast('Microphone permission is needed for calls — allow it and try again'); return false; }
+  }
   async function startDirectCall(person, kind) {
+    if (!(await ensureMic())) return;
     setIncoming(null); // an outgoing call supersedes any ringing popup
     try {
       const d = await api('/api/calls/token', { method: 'POST', body: { user_id: person.id, kind } });
@@ -259,6 +275,7 @@ export default function AppShell({ initialUser }) {
     } catch (e) { toast(e.message); }
   }
   async function startMatch(gender, kind) {
+    if (!(await ensureMic())) return;
     setIncoming(null); // an outgoing call supersedes any ringing popup
     matchPrefsRef.current = { gender, kind };
     try {
@@ -276,6 +293,7 @@ export default function AppShell({ initialUser }) {
   }
   async function joinRoom(room, password, kind) {
     if (room.visibility === 'private' && password === undefined) { setPassRoom(room); setPassErr(false); return; }
+    if (!(await ensureMic())) return;
     try {
       const d = await api('/api/rooms/join', { method: 'POST', body: { room_id: room.id, password } });
       setPassRoom(null);
