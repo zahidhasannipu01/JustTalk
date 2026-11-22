@@ -45,8 +45,8 @@ export default function AiReportView({ me, onUpgrade, onOpenSettings }) {
   if (!data.optin) return (
     <div>
       <div className="air-empty card">
-        <p>Your {data.plan_name} plan includes AI {data.frequency} reports — they are switched off right now. Turn AI reports on in Profile settings → Preferences. Only your own voice is analysed, and only while it is on.</p>
-        <button type="button" className="btn-accent2" onClick={onOpenSettings}>Open settings</button>
+        <p>Your {data.plan_name} plan includes AI {data.frequency} reports — they are switched off right now. Turn AI reports on from the Details card on your Profile page. Only your own voice is analysed, and only while it is on.</p>
+        <button type="button" className="btn-accent2" onClick={onOpenSettings}>Open profile</button>
       </div>
     </div>
   );
@@ -108,7 +108,7 @@ export default function AiReportView({ me, onUpgrade, onOpenSettings }) {
           ))}
         </div>
       )}
-      <p className="air-foot">Only your own voice is analysed, and only with your permission (Profile settings → AI reports). Pronunciation is estimated from speech-recognition clarity — the other three scores come from what you said.</p>
+      <p className="air-foot">Only your own voice is analysed, and only with your permission (Profile → Details → AI reports). Pronunciation is estimated from speech-recognition clarity — the other three scores come from what you said.</p>
     </div>
   );
 }

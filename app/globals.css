@@ -1691,3 +1691,9 @@
    slightly larger gap below the page-top variant. */
 .center-top{margin-top:24px}
 .center-top.page-top{margin-bottom:30px}
+
+/* Details edit actions: same pill buttons as the app's modal actions —
+   the colour-only .btn-soft/.btn-accent2 classes left them rectangular
+   with a browser border outside .modal-actions. */
+.pv-detail-actions button{flex:1;min-height:50px;border-radius:999px;border:0;font-weight:800;font-size:14.5px}
+.pv-detail-actions button:disabled{opacity:.55;cursor:not-allowed}
