@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Ic, Avatar } from './icons';
 import { api, toast, colorFor } from '@/lib/toast';
 import { socket } from '@/lib/socket';
+import { enhanceMicStream } from '@/lib/noise';
 
 // Full-page meeting room (Google Meet style), direct browser-to-browser
 // WebRTC mesh over the app's single WebSocket. Everything ephemeral — room
@@ -17,10 +18,10 @@ const RTC_CONFIG = { iceServers: [{ urls: 'stun:stun.l.google.com:19302' }, { ur
 const VIDEO_CONSTRAINTS = { width: { ideal: 1280 }, height: { ideal: 720 }, frameRate: { ideal: 30 } };
 const EMOJIS = ['❤️', '👏', '👍', '🎉', '😮', '😂', '🔥', '💯'];
 
-function TileVideo({ stream, ver, muted }) {
+function TileVideo({ stream, ver, muted, mirror }) {
   const ref = useRef(null);
   useEffect(() => { if (ref.current && stream) { try { ref.current.srcObject = stream; } catch {} } }, [stream, ver]);
-  return <video ref={ref} className="meet-video" autoPlay playsInline muted={muted} />;
+  return <video ref={ref} className={`meet-video ${mirror ? 'mirror' : ''}`} autoPlay playsInline muted={muted} />;
 }
 
 export default function MeetRoom({ session, me, onClose }) {
@@ -35,7 +36,7 @@ export default function MeetRoom({ session, me, onClose }) {
   const [screenStream, setScreenStream] = useState(null);
   const [mediaVer, setMediaVer] = useState(0);
   const [micOn, setMicOn] = useState(true);
-  const [camOn, setCamOn] = useState(session.kind === 'video');
+  const [camOn, setCamOn] = useState(false); // camera stays OFF on join — the user opens it when they want
   const [spkOn, setSpkOn] = useState(true);
   const [headphone, setHeadphone] = useState(false);
   const [remoteState, setRemoteState] = useState({}); // userId -> {cam, mic}
@@ -62,11 +63,12 @@ export default function MeetRoom({ session, me, onClose }) {
   const localRef = useRef(null);
   const screenRef = useRef(null);
   const mediaReadyRef = useRef(null);
+  const noiseRef = useRef(null); // mic enhancement (RNNoise + gate) handle
   const sigChainRef = useRef(Promise.resolve());
   const offsRef = useRef([]);
   const spkRef = useRef(true);
   const micRef = useRef(true);
-  const camRef = useRef(session.kind === 'video');
+  const camRef = useRef(false);
   const myHandRef = useRef(false);
   const pinnedRef = useRef(null);
   const sharingRef = useRef(null);
@@ -117,14 +119,26 @@ export default function MeetRoom({ session, me, onClose }) {
     setSpeaking(sp => { const n = { ...sp }; delete n[peerId]; return n; });
   }
 
+  // The one video sender of a connection. A connection carries exactly ONE
+  // video track — the current source (screen while sharing, else camera) —
+  // swapped with replaceTrack. Two video tracks made late joiners render
+  // the camera instead of the shared screen.
+  function videoSender(pc) {
+    const tr = pc.getTransceivers().find(t => (t.sender.track && t.sender.track.kind === 'video') || (t.receiver.track && t.receiver.track.kind === 'video'));
+    return tr ? tr.sender : null;
+  }
+
   function createPeer(peerId) {
     const existing = peersRef.current.get(peerId); if (existing) return existing;
     const pc = new RTCPeerConnection(RTC_CONFIG);
     const entry = { pc, polite: me.id > peerId, makingOffer: false, ignoreOffer: false, audioEl: null, pendingIce: [], stream: new MediaStream() };
     peersRef.current.set(peerId, entry);
     const stream = localRef.current;
-    if (stream) stream.getTracks().forEach(t => { try { pc.addTrack(t, stream); } catch {} });
-    if (screenRef.current) { const st = screenRef.current.getVideoTracks()[0]; if (st) { try { pc.addTrack(st, screenRef.current); } catch {} } }
+    if (stream) stream.getAudioTracks().forEach(t => { try { pc.addTrack(t, stream); } catch {} });
+    const shareTrack = screenRef.current?.getVideoTracks()[0];
+    const camTrack = stream?.getVideoTracks()[0];
+    if (shareTrack) { try { pc.addTrack(shareTrack, screenRef.current); } catch {} }
+    else if (camTrack) { try { pc.addTrack(camTrack, stream); } catch {} }
     pc.onnegotiationneeded = async () => {
       try {
         entry.makingOffer = true;
@@ -324,7 +338,15 @@ export default function MeetRoom({ session, me, onClose }) {
             const vs = await navigator.mediaDevices.getUserMedia({ video: VIDEO_CONSTRAINTS });
             const nt = vs.getVideoTracks()[0];
             stream.addTrack(nt);
-            for (const entry of peersRef.current.values()) { try { entry.pc.addTrack(nt, stream); } catch {} }
+            // While I'm sharing, the connections keep carrying the screen;
+            // stopShare swaps this camera track in when the share ends.
+            if (!screenRef.current) {
+              for (const entry of peersRef.current.values()) {
+                const sender = videoSender(entry.pc);
+                if (sender) sender.replaceTrack(nt).catch(() => {});
+                else { try { entry.pc.addTrack(nt, stream); } catch {} }
+              }
+            }
           } else vtrack.enabled = true;
           setLocalStream(stream);
         } else if (vtrack) vtrack.enabled = false;
@@ -344,7 +366,7 @@ export default function MeetRoom({ session, me, onClose }) {
       const track = ds.getVideoTracks()[0];
       track.onended = () => stopShare();
       for (const entry of peersRef.current.values()) {
-        const sender = entry.pc.getSenders().find(s => s.track && s.track.kind === 'video');
+        const sender = videoSender(entry.pc);
         try { if (sender) await sender.replaceTrack(track); else entry.pc.addTrack(track, ds); } catch {}
       }
       setIShare(true); sharingRef.current = me.id; setSharingId(me.id);
@@ -355,7 +377,7 @@ export default function MeetRoom({ session, me, onClose }) {
     if (!screenRef.current) return;
     const camTrack = camRef.current ? (localRef.current?.getVideoTracks()[0] || null) : null;
     for (const entry of peersRef.current.values()) {
-      const sender = entry.pc.getSenders().find(s => s.track && s.track.kind === 'video');
+      const sender = videoSender(entry.pc);
       if (sender) sender.replaceTrack(camTrack).catch(() => {});
     }
     screenRef.current.getTracks().forEach(t => { try { t.stop(); } catch {} });
@@ -421,6 +443,7 @@ export default function MeetRoom({ session, me, onClose }) {
     for (const pid of [...peersRef.current.keys()]) closePeer(pid);
     if (screenRef.current) { screenRef.current.getTracks().forEach(t => { try { t.stop(); } catch {} }); screenRef.current = null; }
     if (localRef.current) { localRef.current.getTracks().forEach(t => { try { t.stop(); } catch {} }); localRef.current = null; }
+    if (noiseRef.current) { noiseRef.current.close(); noiseRef.current = null; }
     if (audioCtxRef.current) { try { audioCtxRef.current.close(); } catch {} audioCtxRef.current = null; }
   }
   function leave() {
@@ -462,15 +485,18 @@ export default function MeetRoom({ session, me, onClose }) {
     }));
     loadParticipants();
     mediaReadyRef.current = (async () => {
-      const stream = await navigator.mediaDevices.getUserMedia({
+      const raw = await navigator.mediaDevices.getUserMedia({
         audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true },
-        video: session.kind === 'video' ? VIDEO_CONSTRAINTS : false,
+        video: false, // not requested at join; the camera effect fetches it on first toggle-on
       });
+      const nz = await enhanceMicStream(raw);
+      noiseRef.current = nz;
+      const stream = nz.stream;
       localRef.current = stream;
       setLocalStream(stream);
       stream.getAudioTracks().forEach(t => { t.enabled = micRef.current; });
       setupAnalyser(me.id, stream);
-      for (const entry of peersRef.current.values()) stream.getTracks().forEach(tk => { try { entry.pc.addTrack(tk, stream); } catch {} });
+      for (const entry of peersRef.current.values()) stream.getAudioTracks().forEach(tk => { try { entry.pc.addTrack(tk, stream); } catch {} });
       broadcastMediaState();
       return stream;
     })();
@@ -517,7 +543,7 @@ export default function MeetRoom({ session, me, onClose }) {
     return (
       <div key={id} className={`meet-tile ${cls} ${speaking[id] ? 'is-speaking' : ''} ${hasVideo ? 'hasvid' : ''} ${isLeaving ? 'leaving' : ''}`} style={{ animationDelay: `${Math.min(idx * 70, 350)}ms` }}>
         {hasVideo
-          ? <TileVideo stream={stream} ver={mediaVer} muted={id === me.id} />
+          ? <TileVideo stream={stream} ver={mediaVer} muted={id === me.id} mirror={id === me.id && !iShare} />
           : <div className="meet-camoff"><span className={`meet-avring ${speaking[id] ? 'on' : ''}`}><Avatar user={{ ...u, color: colorFor(id) }} size={72} /></span></div>}
         {st.hand ? <span className="meet-handbdg"><Ic n="hand" size={13} /></span> : null}
         {!st.mic ? <span className="meet-micbdg"><Ic n="micoff" size={12} /></span> : null}

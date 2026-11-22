@@ -213,6 +213,20 @@
 .x{border:0;background:var(--soft);width:36px;height:36px;border-radius:50%;font-size:18px;line-height:1;flex:0 0 auto}
 .field{margin-top:16px}.field label{display:block;font-size:12.5px;font-weight:800;margin-bottom:7px}.field input,.field select,.field textarea{width:100%;border:1px solid var(--line);border-radius:14px;padding:13px 14px;font:inherit;font-size:14.5px;font-weight:600;background:#fff;outline:none}.field textarea{resize:vertical;min-height:74px}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--ink)}
 .chips{display:flex;gap:8px;flex-wrap:wrap}.chips button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:9px 14px;font-weight:800;font-size:13px}.chips button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+/* Custom dropdown (Create room → Room type): input-styled trigger, floating
+   panel with icon tiles; the selected option gets the accent tint + check. */
+.dd{position:relative}
+.dd-btn{width:100%;display:flex;align-items:center;gap:11px;border:1px solid var(--line);border-radius:14px;padding:12px 14px;font:inherit;font-size:14.5px;font-weight:700;background:#fff;cursor:pointer;text-align:left;color:var(--ink)}
+.dd-chev{margin-left:auto;color:var(--muted);display:inline-flex;transition:transform .18s}
+.dd.open .dd-btn{border-color:var(--ink)}
+.dd.open .dd-chev{transform:rotate(180deg)}
+.dd-panel{position:absolute;left:0;right:0;top:calc(100% + 8px);background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 24px 60px rgba(16,18,16,.18);padding:6px;z-index:5}
+.dd-opt{display:flex;align-items:center;gap:12px;width:100%;border:0;background:none;padding:9px 10px;border-radius:12px;font:inherit;font-size:14.5px;font-weight:700;color:var(--ink);cursor:pointer;text-align:left}
+.dd-opt:hover{background:var(--soft)}
+.dd-tile{width:36px;height:36px;border-radius:11px;background:var(--soft);display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.dd-opt.sel{background:var(--accent-soft)}
+.dd-opt.sel .dd-tile{background:#fff}
+.dd-tick{margin-left:auto;color:var(--accent);display:inline-flex}
 /* Start Calling gender icons — female symbol in pink, male symbol in a strong masculine blue; colours hold in both the plain and selected chip states */
 #match-gender-chips button{display:inline-flex;align-items:center;gap:7px}
 #match-gender-chips .g-ic{width:16px;height:16px;flex:0 0 auto}
@@ -267,6 +281,50 @@
 .pp-body{flex:1;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:14px 16px 22px}
 .pp-body .search{margin:0}
 .pp-body .people-list{margin-top:8px}
+/* People cards (redesign): one calm bordered card per person — identity row,
+   a plain rating/phone line, then labelled action pills. Colours live in the
+   icons only; the selected/primary pills (Requested, Accept) stay filled. */
+.peoplepage .people-list{gap:14px}
+.desk-app .peoplepage .people-list{gap:14px 16px}
+.req-label{font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:2px 0 8px}
+.pcard{border:1px solid var(--line);border-radius:20px;padding:18px;background:#fff;min-width:0}
+.pc-top{display:flex;align-items:center;gap:12px;min-width:0}
+.pc-id{flex:1;min-width:0}
+.pc-name{display:flex;align-items:center;gap:6px;font-size:15px;font-weight:800;line-height:1.25;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pcard .blocked-tag{margin-left:0;vertical-align:0}
+.pc-status{display:flex;align-items:center;gap:5px;font-size:12.5px;color:var(--muted);font-weight:600;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;max-width:100%}
+.pc-status .dot-on{width:8px;height:8px;border-radius:50%;background:var(--green);flex:0 0 auto}
+.pc-status .dot-off{width:8px;height:8px;border-radius:50%;background:#C6CBC6;flex:0 0 auto}
+.pc-status .note{overflow:hidden;text-overflow:ellipsis}
+.pc-call{flex:0 0 auto;width:42px;height:42px;border:0;border-radius:50%;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.pc-call .ic{width:19px;height:19px}
+.pc-meta{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin:12px 0 0 62px;font-size:12.5px;color:var(--muted);font-weight:600}
+.pc-rate{display:inline-flex;align-items:center;gap:4px;font-weight:800;color:var(--ink);white-space:nowrap}
+.pc-rate .star{color:#E8930C}
+.pc-meta .dotsep{opacity:.5}
+.pc-phone{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.pc-actions{display:flex;gap:8px;margin-top:16px}
+.pc-pill{flex:1;border:0;border-radius:999px;height:40px;font:inherit;font-size:12.5px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;gap:6px;cursor:pointer;white-space:nowrap;background:var(--soft);color:var(--ink)}
+.pc-pill .ic{width:15px;height:15px}
+.pc-pill.add .ic{color:var(--green)}
+.pc-pill.unfriend .ic{color:#D92D20}
+.pc-pill.report .ic{color:#E8930C}
+.pc-pill.block .ic{color:#D92D20}
+.pc-pill.unblock .ic{color:var(--green)}
+.pc-pill.added{background:var(--green);color:#fff;cursor:default}
+.pc-pill.accept{background:var(--green);color:#fff}
+.pc-pill.decline{background:var(--soft);color:var(--muted)}
+@media(max-width:900px){
+  .pcard{padding:14px;border-radius:18px}
+  .pcard .avatar{width:44px!important;height:44px!important;font-size:13px!important}
+  .pc-call{width:36px;height:36px}
+  .pc-call .ic{width:16px;height:16px}
+  .pc-name{font-size:14.5px}
+  .pc-meta{margin:10px 0 0 56px;font-size:12px}
+  .pc-actions{gap:7px;margin-top:13px}
+  .pc-pill{height:34px;font-size:12px;gap:5px}
+  .pc-pill .ic{width:13px;height:13px}
+}
 #page-mobile .pp-body .person{flex-wrap:wrap;row-gap:8px;padding:11px 6px}
 #page-mobile .pp-body .person .acts{flex:1 1 100%;margin-left:0;padding-left:56px;justify-content:flex-start;flex-wrap:wrap}
 /* ---------- Profile DRAWER inside the mobile phone : opened from the top-right profile picture on mobile ONLY — slides in from the RIGHT edge of the mobile screen. Desktop/tablet keep the profile dropdown. While it is open the mobile bottom menu animates DOWN off the screen; closing the drawer animates it back up. ---------- */
@@ -833,7 +891,7 @@
 .cc-btn.cc-video.on{background:#fff;color:#101815;box-shadow:0 5px 14px rgba(0,0,0,.18)}
 .cw-selfview{position:absolute;left:12px;bottom:12px;width:100px;height:126px;border-radius:14px;overflow:hidden;background:linear-gradient(155deg,#2E4A3E,#141F19);border:2px solid rgba(255,255,255,.85);font-size:10.5px;font-weight:800;color:#fff}
 .cw-selfview[hidden]{display:none}
-.cw-selfview video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cw-selfview video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scaleX(-1)}
 .cw-selfview span{position:absolute;left:0;right:0;bottom:0;z-index:1;background:rgba(0,0,0,.45);padding:3px 4px;text-align:center}
 .cw-partnerbox{display:grid;justify-items:center}
 .cw-remote{display:none}
@@ -1471,6 +1529,9 @@
 .meet-avring.on::before{content:'';position:absolute;inset:-5px;border-radius:50%;border:2.5px solid var(--green);animation:meetRingPulse 1.15s ease-out infinite;z-index:1}
 @keyframes meetRingPulse{0%{transform:scale(.93);opacity:.95}70%{transform:scale(1.16);opacity:0}100%{transform:scale(1.16);opacity:0}}
 .meet-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+/* Self-view is a mirror (like Meet/Zoom): your right is the screen's right.
+   Remote video and screen shares are never mirrored. */
+.meet-video.mirror{transform:scaleX(-1)}
 .meet-camoff{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#26282E}
 .meet-name{position:absolute;left:10px;bottom:10px;background:rgba(10,10,10,.62);color:#fff;font-size:12px;font-weight:700;padding:5px 10px;border-radius:8px;z-index:3}
 .meet-handbdg{position:absolute;top:10px;left:10px;width:28px;height:28px;border-radius:50%;background:#F5A623;color:#17181A;display:flex;align-items:center;justify-content:center;z-index:3}

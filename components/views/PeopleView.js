@@ -25,33 +25,50 @@ export default function PeopleView({ people, everyone, requests, reload, onCall,
           <div className="search"><Ic n="search" size={17} /><input type="search" placeholder="Search people…" aria-label="Search people" value={search} onChange={e => setSearch(e.target.value)} /></div>
           <button type="button" className="pp-add-trigger" onClick={() => setAddOpen(true)}><Ic n="adduser" />Add person</button>
         </div>
-        {requests.length > 0 && <div style={{ marginBottom: 14 }}>{requests.map(r => (
-          <div className="person" key={r.id}><span className="av-wrap"><Avatar user={{ ...r, color: colorFor(r.id) }} size={46} />{r.is_online ? <i className="presence" title="Online"></i> : null}</span><span style={{ flex: 1 }}><b>{r.name}</b><small>wants to practise with you</small></span>
-            <span className="acts">
-              <button type="button" className="mini-btn mini-accept" title="Accept" aria-label={`Accept ${r.name}`} onClick={() => respond(r, true)}><Ic n="check" /></button>
-              <button type="button" className="mini-btn mini-decline" title="Decline" aria-label={`Decline ${r.name}`} onClick={() => respond(r, false)}><Ic n="close" /></button>
-            </span></div>
-        ))}</div>}
+        {requests.length > 0 && <div style={{ marginBottom: 16 }}><div className="req-label">Friend request</div><div style={{ display: 'grid', gap: 14 }}>{requests.map(r => (
+          <div className="pcard" key={r.id}>
+            <div className="pc-top">
+              <span className="av-wrap"><Avatar user={{ ...r, color: colorFor(r.id) }} size={50} />{r.is_online ? <i className="presence" title="Online"></i> : null}</span>
+              <span className="pc-id">
+                <span className="pc-name">{r.name}</span>
+                <span className="pc-status">{r.is_online ? <><span className="dot-on"></span>Online<span className="sep">·</span></> : null}<span className="note">wants to practise with you</span></span>
+              </span>
+            </div>
+            <div className="pc-actions">
+              <button type="button" className="pc-pill accept" aria-label={`Accept ${r.name}`} onClick={() => respond(r, true)}><Ic n="check" />Accept</button>
+              <button type="button" className="pc-pill decline" aria-label={`Decline ${r.name}`} onClick={() => respond(r, false)}><Ic n="close" />Decline</button>
+            </div>
+          </div>
+        ))}</div></div>}
         <div className="people-list">
           {list.map(p => (
-            <div className="person" key={p.id}>
-              <span className="av-wrap"><Avatar user={{ ...p, color: colorFor(p.id) }} size={46} initialsOnly />{p.online && <i className="presence" title="Online"></i>}</span>
-              <span style={{ flex: 1, minWidth: 0 }}>
-                <b>{p.name}</b>
-                <small><span className={p.online ? 'dot-on' : 'dot-off'}></span>{p.online ? 'Online' : 'Last seen recently'}{p.note ? ` · ${p.note}` : ''}</small>
-                {(p.rating != null || p.blocked_by_me) && <span style={{ display: 'block', marginTop: 5 }}>{p.rating != null && <span className="rate-badge">★ {Number(p.rating).toFixed(1)} · {p.ratings_count} ratings</span>}{p.blocked_by_me && <span className="blocked-tag">Blocked</span>}</span>}
-                {p.phone && <span className="person-phone">Phone · {p.phone}</span>}
-              </span>
-              <span className="acts">
-                <button type="button" className="mini-btn mini-call" title="Call" aria-label={`Call ${p.name}`} onClick={() => onCall(p, 'video')}><Ic n="phone" /></button>
+            <div className="pcard" key={p.id}>
+              <div className="pc-top">
+                <span className="av-wrap"><Avatar user={{ ...p, color: colorFor(p.id) }} size={50} initialsOnly />{p.online && <i className="presence" title="Online"></i>}</span>
+                <span className="pc-id">
+                  <span className="pc-name">{p.name}{p.blocked_by_me && <span className="blocked-tag">Blocked</span>}</span>
+                  <span className="pc-status"><span className={p.online ? 'dot-on' : 'dot-off'}></span>{p.online ? 'Online' : 'Last seen recently'}{p.note ? <><span className="sep">·</span><span className="note">{p.note}</span></> : null}</span>
+                </span>
+                <button type="button" className="pc-call" title="Call" aria-label={`Call ${p.name}`} onClick={() => onCall(p, 'video')}><Ic n="phone" /></button>
+              </div>
+              {(p.rating != null || p.phone) && (
+                <div className="pc-meta">
+                  {p.rating != null && <span className="pc-rate"><span className="star">★</span>{Number(p.rating).toFixed(1)} ({p.ratings_count} ratings)</span>}
+                  {p.rating != null && p.phone && <span className="dotsep">·</span>}
+                  {p.phone && <span className="pc-phone"><Ic n="phone" size={12} />{p.phone}</span>}
+                </div>
+              )}
+              <div className="pc-actions">
                 {p.is_friend
-                  ? <button type="button" className="mini-btn mini-unfriend" title="Unfriend" aria-label={`Unfriend ${p.name}`} onClick={() => setUnfriendP(p)}><Ic n="removeuser" /></button>
+                  ? <button type="button" className="pc-pill unfriend" aria-label={`Unfriend ${p.name}`} onClick={() => setUnfriendP(p)}><Ic n="removeuser" />Unfriend</button>
                   : p.request_sent
-                    ? <button type="button" className="mini-btn mini-add added" title="Request sent" aria-label={`Friend request sent to ${p.name}`} disabled><Ic n="check" /></button>
-                    : <button type="button" className="mini-btn mini-add" title="Add friend" aria-label={`Add ${p.name} as a friend`} onClick={() => addFriend(p)}><Ic n="adduser" /></button>}
-                <button type="button" className="mini-btn mini-report" title="Report" aria-label={`Report ${p.name}`} onClick={() => setReportP(p)}><Ic n="flag" /></button>
-                <button type="button" className={`mini-btn mini-block ${p.blocked_by_me ? 'is-unblock' : ''}`} title={p.blocked_by_me ? 'Unblock' : 'Block'} aria-label={p.blocked_by_me ? `Unblock ${p.name}` : `Block ${p.name}`} onClick={() => p.blocked_by_me ? unblock(p) : setBlockP(p)}><Ic n={p.blocked_by_me ? 'unblock' : 'ban'} /></button>
-              </span>
+                    ? <button type="button" className="pc-pill added" aria-label={`Friend request sent to ${p.name}`} disabled><Ic n="check" />Requested</button>
+                    : <button type="button" className="pc-pill add" aria-label={`Add ${p.name} as a friend`} onClick={() => addFriend(p)}><Ic n="adduser" />Add friend</button>}
+                <button type="button" className="pc-pill report" aria-label={`Report ${p.name}`} onClick={() => setReportP(p)}><Ic n="flag" />Report</button>
+                {p.blocked_by_me
+                  ? <button type="button" className="pc-pill unblock" aria-label={`Unblock ${p.name}`} onClick={() => unblock(p)}><Ic n="unblock" />Unblock</button>
+                  : <button type="button" className="pc-pill block" aria-label={`Block ${p.name}`} onClick={() => setBlockP(p)}><Ic n="ban" />Block</button>}
+              </div>
             </div>
           ))}
         </div>

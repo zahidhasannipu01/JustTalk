@@ -10,6 +10,7 @@
     "seed": "node scripts/seed.js"
   },
   "dependencies": {
+    "@jitsi/rnnoise-wasm": "^0.2.1",
     "bcryptjs": "^2.4.3",
     "chart.js": "^4.4.1",
     "jose": "^5.9.6",

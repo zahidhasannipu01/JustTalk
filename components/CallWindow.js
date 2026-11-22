@@ -4,6 +4,7 @@ import { Ic, Avatar } from './icons';
 import Overlay from './Overlay';
 import { api, toast, initials } from '@/lib/toast';
 import { socket } from '@/lib/socket';
+import { enhanceMicStream } from '@/lib/noise';
 import { ReportModal, BlockModal } from './views/PeopleView';
 
 // Call popup — same markup/classes as the approved preview (.callwin).
@@ -46,6 +47,7 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
   const connectedRef = useRef(false);
   const gotSignalRef = useRef(false); // any signal at all from the partner on this channel
   const mediaReadyRef = useRef(null); // getUserMedia promise — signal handlers wait for it
+  const noiseRef = useRef(null); // mic enhancement (RNNoise + gate) handle
   const sigChainRef = useRef(Promise.resolve()); // serializes signal handling (offer fully lands before its ICE)
   const endedRef = useRef(false);
   const frozenRef = useRef(null);
@@ -185,6 +187,7 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
     if (session.room_name) socket.leave(session.room_name);
     for (const pid of [...peersRef.current.keys()]) closePeer(pid);
     if (localRef.current) { localRef.current.getTracks().forEach(t => { try { t.stop(); } catch {} }); localRef.current = null; }
+    if (noiseRef.current) { noiseRef.current.close(); noiseRef.current = null; }
   }
 
   useEffect(() => {
@@ -247,10 +250,13 @@ export default function CallWindow({ session, me, onClose, onAddPeople }) {
     // promise is shared: signal handlers wait on it before touching a peer
     // connection, so a slow microphone can no longer lose the call.
     mediaReadyRef.current = (async () => {
-      const stream = await navigator.mediaDevices.getUserMedia({
+      const raw = await navigator.mediaDevices.getUserMedia({
         audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true },
         video: roomId && session.kind === 'video' ? VIDEO_CONSTRAINTS : false,
       });
+      const nz = await enhanceMicStream(raw);
+      noiseRef.current = nz;
+      const stream = nz.stream;
       localRef.current = stream;
       if (selfVideoRef.current) selfVideoRef.current.srcObject = stream;
       setStatus(roomId ? 'In room' : 'Ringing…');

@@ -316,7 +316,7 @@ export default function AppShell({ initialUser }) {
             <button className="me" type="button" title="Profile menu" aria-haspopup="menu" aria-expanded={menuOpen} onClick={() => { setMenuOpen(o => !o); setTrayOpen(false); }}>{me?.avatar ? <img src={me.avatar} alt="" /> : (me?.name || '?').split(' ').map(w => w[0]).slice(0, 2).join('')}</button>
           </div>
           <div className={`center ${view === 'chats' ? 'center-fixed' : ''}`} style={{ paddingTop: 8 }}>
-            <div className="center-top"><div><div className="hi js-greeting">{greeting}, {displayName(me?.name)}</div><h3>Ready to practise?</h3></div><span className="live-pill"><i></i><span>{dash?.live_now || 0} live now</span></span></div>
+            {view === 'dashboard' && <div className="center-top"><div><div className="hi js-greeting">{greeting}, {displayName(me?.name)}</div><h3>Ready to practise?</h3></div><span className="live-pill"><i></i><span>{dash?.live_now || 0} live now</span></span></div>}
             {view === 'dashboard' && <DashboardView me={me} dash={dash} onStartCalling={openStartCalling} />}
             {view === 'rooms' && <RoomsView rooms={rooms} onJoin={joinRoom} onOpenPeople={() => go('people')} onOpenCreate={() => setCreateOpen(true)} />}
             {view === 'people' && <PeopleView people={people} everyone={everyone} requests={requests} reload={loadAll} onCall={startDirectCall} onChat={p => { setChatPerson(p); go('chats'); }} />}
@@ -464,8 +464,20 @@ function MatchModal({ onClose, onGo }) {
   );
 }
 
+const KIND_OPTS = [['Audio + Video', 'video'], ['Audio only', 'mic'], ['Video only', 'camera']];
+
 function CreateRoomModal({ onClose, onCreated }) {
   const [title, setTitle] = useState(''); const [topic, setTopic] = useState(''); const [vis, setVis] = useState('public'); const [password, setPassword] = useState(''); const [kind, setKind] = useState('Audio + Video');
+  const [kindOpen, setKindOpen] = useState(false);
+  const kindRef = useRef(null);
+  useEffect(() => {
+    if (!kindOpen) return;
+    const onDoc = e => { if (kindRef.current && !kindRef.current.contains(e.target)) setKindOpen(false); };
+    const onKey = e => { if (e.key === 'Escape') setKindOpen(false); };
+    document.addEventListener('mousedown', onDoc);
+    document.addEventListener('keydown', onKey);
+    return () => { document.removeEventListener('mousedown', onDoc); document.removeEventListener('keydown', onKey); };
+  }, [kindOpen]);
   async function submit(e) {
     e.preventDefault();
     try { const d = await api('/api/rooms', { method: 'POST', body: { title, topic, visibility: vis, password } }); toast('Room created'); onCreated(d.id, kind === 'Audio only' ? 'audio' : 'video', vis === 'private' ? password : undefined); }
@@ -477,7 +489,14 @@ function CreateRoomModal({ onClose, onCreated }) {
       <form onSubmit={submit}>
         <div className="field"><label>Room title</label><input placeholder="Room title" required value={title} onChange={e => setTitle(e.target.value)} /></div>
         <div className="field"><label>What will you talk about?</label><textarea placeholder="Description" value={topic} onChange={e => setTopic(e.target.value)} /></div>
-        <div className="field"><label>Room type</label><select value={kind} onChange={e => setKind(e.target.value)}><option>Audio + Video</option><option>Audio only</option><option>Video only</option></select></div>
+        <div className="field"><label>Room type</label>
+          <div className={`dd ${kindOpen ? 'open' : ''}`} ref={kindRef}>
+            <button type="button" className="dd-btn" aria-haspopup="listbox" aria-expanded={kindOpen} onClick={() => setKindOpen(o => !o)}><Ic n={KIND_OPTS.find(([k]) => k === kind)[1]} size={20} />{kind}<span className="dd-chev"><Ic n="chevD" size={18} /></span></button>
+            {kindOpen && <div className="dd-panel" role="listbox">{KIND_OPTS.map(([k, ic]) => (
+              <button type="button" key={k} role="option" aria-selected={kind === k} className={`dd-opt ${kind === k ? 'sel' : ''}`} onClick={() => { setKind(k); setKindOpen(false); }}><span className="dd-tile"><Ic n={ic} size={20} /></span>{k}{kind === k && <span className="dd-tick"><Ic n="check" size={18} /></span>}</button>
+            ))}</div>}
+          </div>
+        </div>
         <div className="field"><label>Who can join?</label><div className="chips"><button type="button" className={vis === 'public' ? 'on' : ''} onClick={() => setVis('public')}>Public</button><button type="button" className={vis === 'private' ? 'on' : ''} onClick={() => setVis('private')}>Private</button></div></div>
         {vis === 'private' && <div className="field"><label>Room password</label><input type="password" placeholder="Room password" autoComplete="new-password" value={password} onChange={e => setPassword(e.target.value)} required /></div>}
         <div className="modal-actions"><button type="button" className="btn-soft" onClick={onClose}>Cancel</button><button type="submit" className="btn-accent2">Create &amp; join room →</button></div>
