@@ -13,6 +13,7 @@ import SubscriptionView from './views/SubscriptionView';
 import SupportView from './views/SupportView';
 import NotificationsView from './views/NotificationsView';
 import AiReportView from './views/AiReportView';
+import LearningView from './views/LearningView';
 import { api, toast, colorFor, Taka } from '@/lib/toast';
 import { socket } from '@/lib/socket';
 
@@ -27,6 +28,7 @@ const PAGE_HEADS = {
   chats: ['Your conversations', 'Chats'],
   profile: ['Your account details', 'Profile'],
   aireport: ['Your speaking progress', 'AI report'],
+  learning: ['Short, structured English — a few minutes at a time', 'Learning'],
   subscription: ['Your plan and billing', 'Subscription'],
   support: ['Help and your tickets', 'Support'],
   notifications: ['Requests, messages and updates', 'Notifications'],
@@ -309,7 +311,7 @@ export default function AppShell({ initialUser }) {
   const greeting = hour < 12 ? 'Good morning' : hour < 17 ? 'Good afternoon' : 'Good evening';
   const curPlan = subData?.packages?.find(p => p.id === subData?.subscription?.package_id);
   const aiNav = curPlan?.ai_reports ? [['aireport', 'chart', 'AI report']] : [];
-  const navItems = [...NAV.slice(0, 6), ...aiNav, ...NAV.slice(6)];
+  const navItems = [...NAV.slice(0, 6), ...aiNav, ['learning', 'book', 'Learning'], ...NAV.slice(6)];
   const aiCapture = !!(curPlan?.ai_reports && me?.ai_reports_optin);
   const callPartnerId = call?.partner?.id || null;
   const callFriendState = !callPartnerId ? 'none'
@@ -363,6 +365,7 @@ export default function AppShell({ initialUser }) {
             {view === 'chats' && <ChatView me={me} initialPerson={chatPerson} onCall={startDirectCall} />}
             {view === 'profile' && <ProfileView me={me} dash={dash} people={people} onCall={startDirectCall} onLogout={logout} reload={loadAll} subData={subData} />}
             {view === 'aireport' && <AiReportView me={me} onUpgrade={() => go('subscription')} onOpenSettings={() => go('profile')} />}
+            {view === 'learning' && <LearningView />}
             {view === 'subscription' && <SubscriptionView data={subData} reload={loadAll} />}
             {view === 'support' && <SupportView />}
             {view === 'notifications' && <NotificationsView notifs={notifs} onMarkAllRead={async () => { await api('/api/notifications', { method: 'POST' }); setReminderNotif(null); loadAll(); }} onOpenPeople={() => go('people')} onOpenChat={openChatFromNotif} onOpenSubscription={() => go('subscription')} requests={requests} onCallBack={p => startDirectCall(p, 'audio')} onRespond={async (uid, accept) => { try { await api('/api/people/respond', { method: 'POST', body: { user_id: uid, accept } }); toast(accept ? 'Friend request accepted' : 'Friend request declined'); } catch (e) { toast(e.message); } loadAll(); }} />}
@@ -381,7 +384,7 @@ export default function AppShell({ initialUser }) {
         <div className="m-grab-zone"><div className="m-grab"></div></div>
         <div className="m-drawer-head"><b>More</b><button type="button" className="m-close" aria-label="Close" onClick={() => setMoreOpen(false)}>×</button></div>
         <div className="m-rows">
-          {[['create', 'plus', 'Create room'], ['profile', 'profile', 'My profile'], ...(curPlan?.ai_reports ? [['aireport', 'chart', 'AI report']] : []), ['subscription', 'card', 'Subscription'], ['support', 'support', 'Support']].map(([v, ic, label]) => (
+          {[['create', 'plus', 'Create room'], ['profile', 'profile', 'My profile'], ...(curPlan?.ai_reports ? [['aireport', 'chart', 'AI report']] : []), ['learning', 'book', 'Learning'], ['subscription', 'card', 'Subscription'], ['support', 'support', 'Support']].map(([v, ic, label]) => (
             <button type="button" className="m-row" key={v} onClick={() => go(v)}><span className="m-row-ic"><Ic n={ic} /></span><span className="m-row-txt"><b>{label}</b></span><span className="chev">›</span></button>
           ))}
           <button type="button" className="m-row" onClick={logout}><span className="m-row-ic"><Ic n="logout" /></span><span className="m-row-txt"><b>Log out</b></span><span className="chev">›</span></button>

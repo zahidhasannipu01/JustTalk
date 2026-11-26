@@ -35,4 +35,33 @@ function env() { const e = { ...process.env }; for (const f of ['.env.local', '.
   await conn.query("ALTER TABLE ai_reports ADD COLUMN IF NOT EXISTS scores TEXT NULL");
   await conn.query("ALTER TABLE ai_reports ADD COLUMN IF NOT EXISTS period VARCHAR(10) NOT NULL DEFAULT 'daily'");
   await conn.query("ALTER TABLE ai_reports ADD COLUMN IF NOT EXISTS covered_until BIGINT NOT NULL DEFAULT 0");
+  // Structured English learning: per-chapter progress, daily answer counts
+  // and the wrong-question review list. Book content itself lives in
+  // data/learning/*.json and is read by lib/learning.js — never in the DB.
+  await conn.query(`CREATE TABLE IF NOT EXISTS learning_progress (
+    user_id INT UNSIGNED NOT NULL,
+    chapter TINYINT UNSIGNED NOT NULL,
+    rules_done TINYINT NOT NULL DEFAULT 0,
+    best_score INT NULL,
+    last_score INT NULL,
+    answered INT NOT NULL DEFAULT 0,
+    updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (user_id, chapter),
+    CONSTRAINT fk_learn_prog_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`);
+  await conn.query(`CREATE TABLE IF NOT EXISTS learning_activity (
+    user_id INT UNSIGNED NOT NULL,
+    day DATE NOT NULL,
+    answers INT NOT NULL DEFAULT 0,
+    PRIMARY KEY (user_id, day),
+    CONSTRAINT fk_learn_act_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`);
+  await conn.query(`CREATE TABLE IF NOT EXISTS learning_mistakes (
+    user_id INT UNSIGNED NOT NULL,
+    chapter TINYINT UNSIGNED NOT NULL,
+    qidx INT UNSIGNED NOT NULL,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (user_id, chapter, qidx),
+    CONSTRAINT fk_learn_mist_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`);
   const [t] = await conn.query('SHOW TABLES'); console.log('migrate OK, tables:', t.length); await conn.end(); })().catch(err => { console.error('migrate FAILED:', err.message); process.exit(1); });
