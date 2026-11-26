@@ -19,6 +19,7 @@ export async function GET(req) {
   return ok({
     n, title: meta.title, rules: chapterRules(n), practiceTotal: meta.questions,
     rulesDone: !!(p && p.rules_done),
+    answered: Number(p?.answered || 0),
     best: p && p.best_score != null ? Number(p.best_score) : null,
     last: p && p.last_score != null ? Number(p.last_score) : null,
     nextBatch, batches, mistakeQidx: mrows.map(r => Number(r.qidx)),

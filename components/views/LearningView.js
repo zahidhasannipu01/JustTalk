@@ -5,7 +5,7 @@ import { Ic } from '../icons';
 
 // Structured English learning, from the book "English for Competitive
 // Exams" (data/learning/*.json via /api/learning). Rules first, then
-// practice in batches of 10; wrong answers collect into a review list.
+// practice in rounds; wrong answers collect into a review list.
 // Every book text is {mix, en, bn} and renders in the chosen language.
 const LANGS = [['mix', 'Mix'], ['en', 'English'], ['bn', 'বাংলা']];
 const lt = (f, lang) => (f ? (f[lang] || f.mix || f.en || f.bn || '') : '');
@@ -19,71 +19,204 @@ function LangToggle({ lang, setLang }) {
   );
 }
 
-/* ---------- "Watch it explained": an animated demo built from the rule's
-   own text. (a) sentence demo when the body holds an example sentence —
-   words appear one by one, a key word highlights, a label pill drops in,
-   then a one-line why; (b) chips demo when the body holds a list; (c)
-   spotlight demo over the body's sentences as the fallback. All stage
-   text is pure white — see .ln-stage rules in globals.css. ---------- */
+/* ---------- "Watch it explained": an animated demo for each rule.
+   Hand-built demos for the core rules come first (HAND below, keyed by
+   chapter:ruleIndex — the book's own classic examples, same as the
+   preview). Everything else is generated from the rule's own text:
+   a word-building (morph) demo when the body holds singular–plural
+   pairs, a sentence demo when the body holds an example sentence
+   (words appear one by one, the key word highlights, a label pill
+   drops in, then a one-line why), a chips demo when the body holds
+   a list, and a spotlight demo over the body's sentences only when
+   no example exists at all. All stage text is pure white — see the
+   .ln-stage rules in globals.css. ---------- */
 const STOP = new Set(['the', 'of', 'a', 'an', 'and', 'or', 'to', 'in', 'is', 'are', 'was', 'were', 'be', 'as', 'at', 'by', 'for', 'with', 'on', 'it', 'its', 'this', 'that', 'from', 'not', 'no']);
 function splitSentences(text) {
   return String(text || '').split(/(?<=[।.!?])\s+|\n+/).map(s => s.trim()).filter(Boolean);
 }
-// Headings like "Introduction" carry no teachable term — a sentence demo
-// labelled with one would be nonsense, so those rules fall through to the
-// chips/spotlight demos instead.
+// Headings like "Introduction" carry no teachable term on their own.
 const GENERIC_TERM = new Set(['introduction', 'definition', 'definitions', 'note', 'notes', 'overview', 'exercise', 'exercises', 'rule', 'rules', 'types', 'classification', 'miscellaneous', 'examples', 'example']);
 function keyTermOf(heading) {
   const words = String(heading || '').match(/[A-Za-z][A-Za-z'-]*/g) || [];
   const w = words.find(x => !STOP.has(x.toLowerCase())) || words[0] || '';
   return GENERIC_TERM.has(w.toLowerCase()) ? '' : w;
 }
-function findExample(body) {
-  const text = String(body || '');
-  const cands = [];
-  for (const m of text.matchAll(/[‘'"]([^‘'"”]{6,90})[’'"”]/g)) cands.push({ s: m[1].trim(), i: m.index, q: true });
-  for (const m of text.matchAll(/[A-Za-z][A-Za-z0-9 ,.'’\-]{8,110}/g)) cands.push({ s: m[0].trim(), i: m.index, q: false });
-  const valid = cands
-    .map(c => ({ ...c, s: c.s.replace(/[\s.]+$/, ''), n: c.s.split(/\s+/).filter(Boolean).length }))
-    .filter(c => c.n >= 4 && c.n <= 11 && !/https?:/.test(c.s));
-  if (!valid.length) return '';
-  const quoted = valid.filter(c => c.q);
-  if (quoted.length) return quoted[0].s;
-  // Prefer the example the book itself flags ("For example — …", "যেমন— …").
-  const marker = Math.max(text.toLowerCase().lastIndexOf('example'), text.indexOf('যেমন'));
-  const after = valid.filter(c => c.i > marker).sort((a, b) => a.i - b.i);
-  if (marker >= 0 && after.length) return after[0].s;
-  return valid.sort((a, b) => a.n - b.n)[0].s;
+function termOf(heading, bodyEn) {
+  let t = keyTermOf(heading);
+  if (t) return t;
+  const m = String(bodyEn || '').match(/(?:called|known as)\s+(?:a\s+|an\s+|the\s+)?([A-Z][a-z]+)/);
+  if (m && !GENERIC_TERM.has(m[1].toLowerCase())) return m[1];
+  const words = String(heading || '').match(/[A-Za-z][A-Za-z'-]*/g) || [];
+  const last = words[words.length - 1] || '';
+  return last && !STOP.has(last.toLowerCase()) && !GENERIC_TERM.has(last.toLowerCase()) ? last : '';
+}
+const CAP_EX = { mix: 'উদাহরণটা দেখো', en: 'Watch the example', bn: 'উদাহরণটা দেখো' };
+const CAP_RULE = { mix: 'নিয়মটা দেখো', en: 'Watch the rule', bn: 'নিয়মটা দেখো' };
+
+/* Hand-built demos for the core rules, from the book's own classic
+   examples — the same demos as the preview. Example sentences stay in
+   English (they are the book's); captions and whys follow the UI
+   language (mix / en / bn). */
+const HAND = {
+  '1:0': { kind: 'pair', caption: { mix: 'এবার এই WORD-টার দিকে তাকাও', en: 'Now look at this WORD', bn: 'এবার এই WORD-টার দিকে তাকাও' },
+    parts: [
+      { sent: 'Water is life.', keys: [0], pill: 'water = Noun' },
+      { sent: 'I water the plants.', keys: [1], pill: 'water = Verb' },
+    ] },
+  '1:1': { kind: 'sentence', sent: 'Karim reads a book.', keys: [0, 3], pill: 'Karim · book = Noun', caption: CAP_EX,
+    why: { mix: 'Karim একজন মানুষের নাম, book একটি বস্তুর নাম — নাম বোঝালেই Noun।', en: "Karim is a person's name, book is a thing's name — a name means a Noun.", bn: 'Karim একজন মানুষের নাম, book একটি বস্তুর নাম — নাম বোঝালেই Noun।' } },
+  '2:1': { kind: 'chips', chips: ['Karim', 'Dhaka', 'man', 'flower', 'planet', 'team', 'iron', 'water'], caption: { mix: 'Noun-এর উদাহরণ', en: 'Examples of nouns', bn: 'Noun-এর উদাহরণ' },
+    why: { mix: 'ব্যক্তি, বস্তু, স্থান বা কাজের নামই Noun।', en: 'The name of a person, thing, place or action is a noun.', bn: 'ব্যক্তি, বস্তু, স্থান বা কাজের নামই Noun।' } },
+  '3:1': { kind: 'chips', chips: ['He', 'this', 'who', 'what', 'some', 'all', 'each', 'himself'], caption: { mix: 'Pronoun-এর উদাহরণ', en: 'Examples of pronouns', bn: 'Pronoun-এর উদাহরণ' },
+    why: { mix: 'Noun-এর পরিবর্তে ব্যবহৃত শব্দই Pronoun।', en: 'A word used in place of a noun is a pronoun.', bn: 'Noun-এর পরিবর্তে ব্যবহৃত শব্দই Pronoun।' } },
+  '4:3': { kind: 'chips', chips: ['good', 'beautiful', 'strong', 'weak', 'ugly', 'bad'], caption: { mix: 'Adjective of Quality', en: 'Adjective of Quality', bn: 'Adjective of Quality' },
+    why: { mix: 'এই শব্দগুলো Noun বা Pronoun-এর গুণ বা অবস্থা বোঝায়।', en: 'These words express the quality or state of a noun or pronoun.', bn: 'এই শব্দগুলো Noun বা Pronoun-এর গুণ বা অবস্থা বোঝায়।' } },
+  '5:1': { kind: 'chips', chips: ['eat', 'see', 'catch', 'walk'], caption: { mix: 'Verb-এর উদাহরণ', en: 'Examples of verbs', bn: 'Verb-এর উদাহরণ' },
+    why: { mix: 'কোনো কাজ করা বোঝায় এমন শব্দই Verb।', en: 'A word that expresses doing some work is a verb.', bn: 'কোনো কাজ করা বোঝায় এমন শব্দই Verb।' } },
+  '6:1': { kind: 'morph', caption: { mix: 'শেষে s যোগ করে Plural', en: 'Add s to make it plural', bn: 'শেষে s যোগ করে Plural' },
+    items: [
+      { base: 'Book', add: 's', result: 'Books' },
+      { base: 'Pen', add: 's', result: 'Pens' },
+      { base: 'Boy', add: 's', result: 'Boys' },
+      { base: 'Cat', add: 's', result: 'Cats' },
+    ],
+    why: { mix: 'সাধারণত শব্দের শেষে s যোগ করলেই Plural হয়।', en: 'Generally, adding s at the end makes a noun plural.', bn: 'সাধারণত শব্দের শেষে s যোগ করলেই Plural হয়।' } },
+  '7:1': { kind: 'chips', chips: ['tea', 'sugar', 'water', 'air', 'rice', 'milk', 'sand', 'salt'], caption: { mix: 'Uncountable Nouns', en: 'Uncountable nouns', bn: 'Uncountable Nouns' },
+    why: { mix: 'এই Noun গুলো গোনা যায় না।', en: 'These nouns cannot be counted.', bn: 'এই Noun গুলো গোনা যায় না।' } },
+  '8:1': { kind: 'chips', chips: ['Masculine', 'Feminine', 'Common', 'Neuter'], caption: { mix: 'Gender-এর প্রকার', en: 'Kinds of gender', bn: 'Gender-এর প্রকার' },
+    why: { mix: 'Gender প্রধানত চার প্রকার।', en: 'Gender is mainly of four kinds.', bn: 'Gender প্রধানত চার প্রকার।' } },
+  '9:0': { kind: 'chips', chips: ['a', 'an', 'many', 'much', 'few', 'little'], caption: { mix: 'Determiners', en: 'Determiners', bn: 'Determiners' },
+    why: { mix: 'এই শব্দগুলো Noun-এর নির্দিষ্টতা, সংখ্যা বা পরিমাণ বোঝায়।', en: 'These words show the definiteness, number or quantity of a noun.', bn: 'এই শব্দগুলো Noun-এর নির্দিষ্টতা, সংখ্যা বা পরিমাণ বোঝায়।' } },
+  '19:0': { kind: 'sentence', sent: 'If you heat water to 100 degrees Celsius, it boils.', keys: [0], pill: 'If → Conditional', caption: CAP_EX,
+    why: { mix: 'If-যুক্ত অংশটা If Clause (শর্ত), বাকি অংশ Main Clause (ফল)।', en: 'The part with If is the If Clause (the condition); the rest is the Main Clause (the result).', bn: 'If-যুক্ত অংশটা If Clause (শর্ত), বাকি অংশ Main Clause (ফল)।' } },
+  '20:1': { kind: 'pair', caption: { mix: 'Active থেকে Passive', en: 'Active → Passive', bn: 'Active থেকে Passive' },
+    parts: [
+      { sent: 'I eat rice.', keys: [1], pill: 'Active Voice' },
+      { sent: 'Rice is eaten by me.', keys: [2], pill: 'Passive Voice' },
+    ],
+    why: { mix: 'Passive-এ Object (rice) Subject হয়ে যায়, verb হয় be + V3 (eaten)।', en: 'In the passive, the object (rice) becomes the subject and the verb becomes be + past participle (eaten).', bn: 'Passive-এ Object (rice) Subject হয়ে যায়, verb হয় be + V3 (eaten)।' } },
+  '22:0': { kind: 'sentence', sent: "You like mangoes, don't you?", keys: [3, 4], pill: "don't you? = Tag Question", caption: CAP_EX,
+    why: { mix: 'Positive statement-এর tag হয় negative।', en: 'A positive statement takes a negative tag.', bn: 'Positive statement-এর tag হয় negative।' } },
+};
+function resolveHand(h, lang) {
+  const d = { kind: h.kind, caption: lt(h.caption, lang) };
+  if (h.why) d.why = lt(h.why, lang);
+  if (h.kind === 'sentence') { d.words = h.sent.split(/\s+/); d.keys = h.keys || [0]; d.pill = h.pill; }
+  if (h.kind === 'pair') d.parts = h.parts.map(p => ({ words: p.sent.split(/\s+/), keys: p.keys || [], pill: p.pill }));
+  if (h.kind === 'chips') d.chips = h.chips;
+  if (h.kind === 'morph') d.items = h.items;
+  return d;
+}
+function isExampleSent(s, minWords = 4) {
+  const w = String(s || '').split(/\s+/).filter(Boolean);
+  if (w.length < minWords || w.length > 12) return false;
+  const low = s.toLowerCase();
+  if (/called|example|http|structure|refers to|known as|examination|chapter|discussion|questions/.test(low)) return false;
+  if ((s.match(/,/g) || []).length >= 3 || /etc\.?$/.test(low) || /:/.test(s)) return false;
+  if (/^(read|note|remember|see|compare|there is|there are)\b/i.test(s)) return false;
+  return true;
+}
+function extractExample(bodyEn, bodyCur) {
+  const text = String(bodyEn || '');
+  const finish = s => { const c = s.replace(/\s+/g, ' ').replace(/^[—–\-:;,\s]+/, '').replace(/[।]$/, '').trim(); return /[.!?]$/.test(c) ? c : c + '.'; };
+  // 1) The sentence the book itself flags after "For example".
+  const mi = text.toLowerCase().lastIndexOf('for example');
+  if (mi >= 0) {
+    const after = text.slice(mi + 'for example'.length).replace(/^[—–\-:;,\s]+/, '');
+    const first = (after.split(/(?<=[.!?])\s+/)[0] || '').trim();
+    if (isExampleSent(first, 3)) return finish(first);
+  }
+  // 2) A quoted example sentence.
+  for (const m of text.matchAll(/[‘'"]([^‘'"”]{10,110})[’'"”]/g)) {
+    if (isExampleSent(m[1].trim())) return finish(m[1].trim());
+  }
+  // 3) A plain example sentence later in the body (the first sentence is
+  //    usually the definition). Require it to look like a real example:
+  //    a name mid-sentence, a pronoun, or Name + be-verb at the start.
+  for (const s of splitSentences(text).slice(1)) {
+    const c = s.replace(/[।]$/, '.');
+    if (!isExampleSent(c)) continue;
+    const words = c.split(/\s+/);
+    const midCap = words.slice(1).some(w => /^[A-Z]/.test(w));
+    if (midCap || /\b(I|you|he|she|we|they|my|his|her|their|our)\b/i.test(c) || /^[A-Z][a-z]+\s+(is|are|was|were|has|have|had)\b/.test(c)) return finish(c);
+  }
+  // 4) A Latin-script example embedded in the current-language body
+  //    (the mix/bn text often carries the book's English example).
+  for (const s of (String(bodyCur || '').match(/[A-Za-z][A-Za-z0-9 ,.'’\-?!]{12,130}/g) || [])) {
+    if (isExampleSent(s.trim())) return finish(s.trim());
+  }
+  return '';
+}
+function pickKey(words, term, bodyEn) {
+  const clean = w => w.replace(/[^A-Za-z'-]/g, '');
+  if (term) {
+    let i = words.findIndex(w => clean(w).toLowerCase() === term.toLowerCase());
+    if (i < 0) i = words.findIndex(w => clean(w).toLowerCase().startsWith(term.toLowerCase()));
+    if (i >= 0) return i;
+  }
+  const qm = String(bodyEn || '').match(/(?:word|শব্দ)\s*[‘'"]([A-Za-z]+)[’'"]/) || String(bodyEn || '').match(/[‘'"]([A-Za-z]{2,})[’'"]/);
+  if (qm) { const i = words.findIndex(w => clean(w).toLowerCase() === qm[1].toLowerCase()); if (i >= 0) return i; }
+  const be = words.findIndex(w => /^(is|are|was|were)$/i.test(clean(w)));
+  if (be >= 0) { for (let i = be + 1; i < words.length; i++) { const c = clean(words[i]); if (c && !STOP.has(c.toLowerCase()) && !/^(as|so)$/i.test(c)) return i; } }
+  let ki = 0, best = 0;
+  words.forEach((w, i) => { const c = clean(w); if (!STOP.has(c.toLowerCase()) && c.length > best) { best = c.length; ki = i; } });
+  return ki;
+}
+function findMorph(text) {
+  const pairs = [];
+  const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+  for (const m of String(text || '').matchAll(/([A-Za-z]{2,})\s*[–—]\s*([A-Za-z]{2,})/g)) {
+    const a = m[1], b = m[2];
+    if (b.toLowerCase() === a.toLowerCase() + 's' || b.toLowerCase() === a.toLowerCase() + 'es') pairs.push({ base: cap(a), add: b.slice(a.length), result: cap(b) });
+  }
+  return pairs.length ? pairs.slice(0, 4) : null;
 }
 function findChips(body) {
-  const segs = String(body || '').split(/[:—–]\s*/);
+  const text = String(body || '');
+  const mi = text.toLowerCase().lastIndexOf('for example');
+  const zones = mi >= 0 ? [text.slice(mi), text] : [text];
+  for (const z of zones) {
+    const chunk = z.split(/[।.!?\n]/)[0] || '';
+    const items = chunk.replace(/^[^—:–-]*[—:–-]/, '').split(/[,;]/).map(s => s.trim().replace(/\s*etc\.?$/i, '').replace(/[।.]$/, '')).filter(s => s && !/:/.test(s) && !/example/i.test(s) && s.split(/\s+/).length <= 4 && s.length <= 26);
+    if (items.length >= 3) return items.slice(0, 8);
+  }
+  const segs = text.split(/[:—–]\s*/);
   for (const seg of segs.slice(1)) {
     const items = seg.split(/[,;]/).map(s => s.trim().replace(/[।.]$/, '')).filter(s => s && s.split(/\s+/).length <= 5);
     if (items.length >= 3) return items.slice(0, 8);
   }
   return null;
 }
-function buildDemo(heading, body) {
+function buildDemo(rule, lang, chn, ri) {
   try {
-    const ex = findExample(body);
-    const term = keyTermOf(heading);
-    if (ex && term) {
+    const hand = HAND[`${chn}:${ri}`];
+    if (hand) return resolveHand(hand, lang);
+    const headingEn = lt(rule.heading, 'en');
+    const bodyEn = lt(rule.body, 'en') || lt(rule.body, 'mix');
+    const bodyCur = lt(rule.body, lang);
+    const term = termOf(headingEn, bodyEn);
+    const why = splitSentences(bodyCur)[0] || '';
+    const morph = findMorph(bodyEn) || findMorph(bodyCur);
+    if (morph) return { kind: 'morph', items: morph, caption: lt(CAP_EX, lang), why };
+    const ex = extractExample(bodyEn, bodyCur);
+    if (ex) {
       const words = ex.split(/\s+/);
-      let ki = term ? words.findIndex(w => w.replace(/[^A-Za-z'-]/g, '').toLowerCase() === term.toLowerCase()) : -1;
-      if (ki < 0) { ki = 0; let best = 0; words.forEach((w, i) => { const L = w.replace(/[^A-Za-z]/g, '').length; if (L > best) { best = L; ki = i; } }); }
+      const ki = pickKey(words, term, bodyEn);
       const keyWord = words[ki].replace(/[^A-Za-z'-]/g, '') || words[ki];
-      return { kind: 'sentence', words, keyIdx: ki, pill: term ? `${keyWord} = ${term}` : keyWord, why: splitSentences(body)[0] || '' };
+      return { kind: 'sentence', words, keys: [ki], pill: term ? `${keyWord} = ${term}` : keyWord, caption: lt(CAP_EX, lang), why };
     }
-    const chips = findChips(body);
-    if (chips) return { kind: 'chips', chips };
-    const sents = splitSentences(body);
-    if (sents.length) return { kind: 'spot', sents: sents.slice(0, 6) };
+    const chips = findChips(bodyEn) || findChips(bodyCur);
+    if (chips) return { kind: 'chips', chips, caption: lt(CAP_EX, lang), why };
+    const sents = splitSentences(bodyCur);
+    if (sents.length) return { kind: 'spot', sents: sents.slice(0, 6), caption: lt(CAP_RULE, lang) };
   } catch {}
-  return { kind: 'spot', sents: [String(body || '')] };
+  return { kind: 'spot', sents: [lt(rule.body, lang)], caption: lt(CAP_RULE, lang) };
 }
 function demoSteps(demo) {
-  if (demo.kind === 'sentence') return demo.words.length + 3;
-  if (demo.kind === 'chips') return demo.chips.length;
+  if (demo.kind === 'sentence') return demo.words.length + (demo.why ? 3 : 2);
+  if (demo.kind === 'pair') return demo.parts.reduce((a, p) => a + p.words.length + 2, 0) + (demo.why ? 1 : 0);
+  if (demo.kind === 'morph') return demo.items.length * 3 + (demo.why ? 1 : 0);
+  if (demo.kind === 'chips') return demo.chips.length + (demo.why ? 1 : 0);
   return demo.sents.length;
 }
 
@@ -104,25 +237,69 @@ function AnimStage({ demo }) {
     return () => clearTimeout(t);
   }, [playing, step, last]);
 
-  const nw = demo.kind === 'sentence' ? demo.words.length : 0;
+  const pct = total > 1 ? ((step + 1) / total) * 100 : 100;
+  let off = 0;
+  const offs = demo.kind === 'pair' ? demo.parts.map(p => { const o = off; off += p.words.length + 2; return o; }) : [];
+  const keysOf = d => d.keys || [d.keyIdx || 0];
   return (
     <div className="ln-stage">
+      {demo.caption ? <div className="ln-stage-cap">{demo.caption}</div> : null}
+      <div className="ln-stage-prog"><i style={{ width: `${pct}%` }}></i></div>
       <div className="ln-stage-body">
         {demo.kind === 'sentence' && (
           <>
-            <div className="ln-pill-slot">{step >= nw + 1 ? <span className="ln-pill">{demo.pill}</span> : null}</div>
+            <div className="ln-pill-slot">{step >= demo.words.length + 1 ? <span className="ln-pill">{demo.pill}</span> : null}</div>
             <p className="ln-sent">
               {demo.words.map((w, i) => (
-                <span key={i} className={`ln-w ${i <= Math.min(step, nw - 1) ? 'on' : ''} ${i === demo.keyIdx && step >= nw ? 'hl' : ''}`}>{w}{i < nw - 1 ? ' ' : ''}</span>
+                <span key={i} className={`ln-w ${i <= Math.min(step, demo.words.length - 1) ? 'on' : ''} ${keysOf(demo).includes(i) && step >= demo.words.length ? 'hl' : ''}`}>{w}{i < demo.words.length - 1 ? ' ' : ''}</span>
               ))}
             </p>
-            {step >= nw + 2 && demo.why ? <p className="ln-why">{demo.why}</p> : null}
+            {step >= demo.words.length + 2 && demo.why ? <p className="ln-why">{demo.why}</p> : null}
           </>
         )}
-        {demo.kind === 'chips' && (
-          <div className="ln-achips">
-            {demo.chips.map((c, i) => <span key={i} className={`ln-achip ${i <= step ? 'on' : ''}`}>{c}</span>)}
+        {demo.kind === 'pair' && (
+          <div className="ln-pair">
+            {demo.parts.map((p, pi) => {
+              const ls = step - offs[pi];
+              if (ls < 0) return null;
+              const w = p.words.length;
+              return (
+                <div key={pi} className="ln-pair-part">
+                  <p className="ln-sent">
+                    {p.words.map((wd, i) => (
+                      <span key={i} className={`ln-w ${i <= Math.min(ls, w - 1) ? 'on' : ''} ${keysOf(p).includes(i) && ls >= w ? 'hl' : ''}`}>{wd}{i < w - 1 ? ' ' : ''}</span>
+                    ))}
+                  </p>
+                  <div className="ln-pill-slot-b">{ls >= w + 1 ? <span className="ln-pill">{p.pill}</span> : null}</div>
+                </div>
+              );
+            })}
+            {demo.why && step >= last ? <p className="ln-why">{demo.why}</p> : null}
           </div>
+        )}
+        {demo.kind === 'morph' && (
+          <div className="ln-morph">
+            {demo.items.map((it, i) => {
+              const ph = step - i * 3;
+              if (ph < 0) return null;
+              return (
+                <p key={i} className="ln-mrow">
+                  <span>{it.base}</span>
+                  {ph >= 1 ? <span className="ln-m-add"> + {it.add}</span> : null}
+                  {ph >= 2 ? <><span className="ln-m-arr"> → </span><span className="ln-m-res">{it.result}</span></> : null}
+                </p>
+              );
+            })}
+            {demo.why && step >= demo.items.length * 3 ? <p className="ln-why">{demo.why}</p> : null}
+          </div>
+        )}
+        {demo.kind === 'chips' && (
+          <>
+            <div className="ln-achips">
+              {demo.chips.map((c, i) => <span key={i} className={`ln-achip ${i <= step ? 'on' : ''}`}>{c}</span>)}
+            </div>
+            {demo.why && step >= demo.chips.length ? <p className="ln-why">{demo.why}</p> : null}
+          </>
         )}
         {demo.kind === 'spot' && (
           <div className="ln-spot">
@@ -141,11 +318,11 @@ function AnimStage({ demo }) {
   );
 }
 
-function RuleCard({ rule, lang }) {
+function RuleCard({ rule, lang, chn, ri }) {
   const heading = lt(rule.heading, lang);
   const body = lt(rule.body, lang);
   const [open, setOpen] = useState(false);
-  const demo = useMemo(() => buildDemo(heading, body), [heading, body]);
+  const demo = useMemo(() => buildDemo(rule, lang, chn, ri), [rule, lang, chn, ri]);
   return (
     <div className="ln-rule">
       {heading ? <h4>{heading}</h4> : null}
@@ -195,7 +372,7 @@ function QuizRunner({ quiz, lang, onDone, onExit }) {
   return (
     <div className="ln-quiz">
       <div className="ln-quiz-top">
-        <span className="ln-quiz-title">{quiz.mode === 'review' ? 'Review mistakes' : `Chapter ${quiz.chapter} · Batch ${quiz.batch + 1}`}</span>
+        <span className="ln-quiz-title">{quiz.mode === 'review' ? 'Review mistakes' : `Chapter ${quiz.chapter} · Practice`}</span>
         <span className="ln-quiz-count">Question {idx + 1} of {qs.length}</span>
         <button type="button" className="ln-quiz-x" aria-label="Close" onClick={onExit}><Ic n="close" size={16} /></button>
       </div>
@@ -230,6 +407,8 @@ export default function LearningView() {
   const [ch, setCh] = useState(null);
   const [quiz, setQuiz] = useState(null);
   const [result, setResult] = useState(null);
+  const [topicPage, setTopicPage] = useState(0); // rules are paged 5 at a time
+  const [roundSize, setRoundSize] = useState(10); // questions per practice round: 10 | 20 | 30 | 50 | 'all'
 
   function setLang(k) {
     setLangState(k);
@@ -243,8 +422,16 @@ export default function LearningView() {
     try { setHome(await api('/api/learning')); } catch (e) { toast(e.message); }
   }
   async function openChapter(n) {
-    try { setCh(await api(`/api/learning/chapter?n=${n}`)); setScreen('chapter'); } catch (e) { toast(e.message); }
+    try { setCh(await api(`/api/learning/chapter?n=${n}`)); setTopicPage(0); setRoundSize(10); setScreen('chapter'); } catch (e) { toast(e.message); }
   }
+  // Reaching the last group of topics finishes the rules: the old
+  // "Mark rules as finished" gate is gone, paging to the end calls the
+  // same rules-done API so saved state and stats keep working.
+  useEffect(() => {
+    if (screen !== 'chapter' || !ch || ch.rulesDone) return;
+    const pages = Math.max(1, Math.ceil(ch.rules.length / 5));
+    if (topicPage >= pages - 1) markRulesDone();
+  }, [screen, ch, topicPage]);
   async function markRulesDone() {
     try {
       await api('/api/learning/rules-done', { method: 'POST', body: { chapter: ch.n } });
@@ -252,11 +439,21 @@ export default function LearningView() {
       loadHome();
     } catch (e) { toast(e.message); }
   }
-  async function startPractice(batch) {
+  // A practice round takes the next `size` questions from where the user
+  // left off (the saved answered count, wrapping to the start after the
+  // end of the list; a round that runs into the end just has fewer).
+  async function startPractice(size) {
+    const useSize = size != null ? size : roundSize;
     try {
-      const d = await api(`/api/learning/practice?n=${ch.n}&batch=${batch}`);
-      if (!d.questions.length) { toast('No questions in this batch'); return; }
-      setQuiz({ mode: 'chapter', chapter: ch.n, batch, questions: d.questions, mistakeQidx: new Set(ch.mistakeQidx || []) });
+      const fresh = await api(`/api/learning/chapter?n=${ch.n}`);
+      setCh(fresh);
+      const total = fresh.practiceTotal || 0;
+      if (!total) { toast('No practice questions in this chapter'); return; }
+      const from = Number(fresh.answered || 0) % total;
+      const count = useSize === 'all' ? total - from : useSize;
+      const d = await api(`/api/learning/practice?n=${ch.n}&from=${from}&count=${count}`);
+      if (!d.questions.length) { toast('No questions in this round'); return; }
+      setQuiz({ mode: 'chapter', chapter: ch.n, size: useSize, questions: d.questions, mistakeQidx: new Set(fresh.mistakeQidx || []) });
       setScreen('quiz');
     } catch (e) { toast(e.message); }
   }
@@ -273,7 +470,7 @@ export default function LearningView() {
   }
   function quizDone(info) {
     const doneQuiz = quiz;
-    setResult({ ...info, mode: doneQuiz.mode, chapter: doneQuiz.chapter, batch: doneQuiz.batch });
+    setResult({ ...info, mode: doneQuiz.mode, chapter: doneQuiz.chapter, size: doneQuiz.size });
     setQuiz(null);
     loadHome();
     if (doneQuiz.mode === 'chapter' && doneQuiz.chapter) refreshChapter(doneQuiz.chapter);
@@ -313,9 +510,9 @@ export default function LearningView() {
             <>
               <span className="ln-result-ic"><Ic n="check" size={24} /></span>
               <h3>{result.correct} / {result.total} · {pct}%</h3>
-              <p>Chapter {result.chapter} · Batch {result.batch + 1} — your score is saved.</p>
+              <p>Chapter {result.chapter} · {result.total} questions — your score is saved.</p>
               <div className="ln-result-actions">
-                {ch && result.batch + 1 < ch.batches ? <button type="button" className="btn-accent2" onClick={() => startPractice(result.batch + 1)}>Next batch</button> : null}
+                <button type="button" className="btn-accent2" onClick={() => startPractice(result.size)}>Next round</button>
                 {remaining > 0 ? <button type="button" className="btn-soft" onClick={startReview}>Review mistakes ({remaining})</button> : null}
                 <button type="button" className="btn-soft" onClick={() => setScreen('chapter')}>Back to chapter</button>
               </div>
@@ -327,6 +524,11 @@ export default function LearningView() {
   }
 
   if (screen === 'chapter' && ch) {
+    const per = 5;
+    const pages = Math.max(1, Math.ceil(ch.rules.length / per));
+    const page = Math.min(topicPage, pages - 1);
+    const lastGroup = page >= pages - 1;
+    const showPractice = ch.rulesDone || lastGroup;
     return (
       <div className="ln-wrap">
         <div className="ln-toprow">
@@ -336,26 +538,24 @@ export default function LearningView() {
         <div className="ln-chhead"><span>Chapter {ch.n}</span><h3>{ch.title}</h3></div>
         <h4 className="ln-sec">Rules</h4>
         <div className="ln-rules">
-          {ch.rules.map((r, i) => <RuleCard key={i} rule={r} lang={lang} />)}
+          {ch.rules.slice(page * per, page * per + per).map((r, k) => <RuleCard key={page * per + k} rule={r} lang={lang} chn={ch.n} ri={page * per + k} />)}
         </div>
-        {!ch.rulesDone ? (
-          <button type="button" className="btn-accent2 ln-markdone" onClick={markRulesDone}>Mark rules as finished</button>
-        ) : (
-          <div className="ln-practice">
-            <div className="ln-practice-head">
-              <h4>Practice</h4>
-              <span>{ch.best != null ? `Best ${ch.best}%` : ''}{ch.last != null ? ` · Last ${ch.last}%` : ''} · {fmt(ch.practiceTotal)} questions</span>
-            </div>
-            <button type="button" className="btn-accent2 ln-continue" onClick={() => startPractice(ch.nextBatch)}>
-              {ch.nextBatch > 0 || ch.best != null ? 'Continue' : 'Start'} · Batch {ch.nextBatch + 1}
-            </button>
-            <div className="ln-batches">
-              {Array.from({ length: ch.batches }, (_, i) => (
-                <button type="button" key={i} className={i === ch.nextBatch ? 'on' : ''} onClick={() => startPractice(i)}>Batch {i + 1}</button>
-              ))}
-            </div>
-          </div>
-        )}
+        {ch.rulesDone ? (
+          <p className="ln-practice-info">{ch.best != null ? `Best ${ch.best}%` : ''}{ch.last != null ? ` · Last ${ch.last}%` : ''}{ch.best != null || ch.last != null ? ' · ' : ''}{fmt(ch.practiceTotal)} questions</p>
+        ) : null}
+        <div className="ln-topicnav">
+          <button type="button" className="btn-soft" disabled={page === 0} onClick={() => setTopicPage(p => Math.max(p - 1, 0))}>Previous topic</button>
+          <button type="button" className="btn-soft" disabled={lastGroup} onClick={() => setTopicPage(p => Math.min(p + 1, pages - 1))}>Next topic</button>
+          {showPractice ? (
+            <>
+              <button type="button" className="btn-accent2" onClick={() => startPractice()}>Practice now</button>
+              <select className="ln-countsel" aria-label="Questions per round" value={String(roundSize)} onChange={e => setRoundSize(e.target.value === 'all' ? 'all' : Number(e.target.value))}>
+                {[10, 20, 30, 50].map(v => <option key={v} value={v}>{v} questions</option>)}
+                <option value="all">All questions</option>
+              </select>
+            </>
+          ) : null}
+        </div>
       </div>
     );
   }
@@ -398,7 +598,7 @@ export default function LearningView() {
       </button>
 
       <div className="ln-steps">
-        {[['1', 'Read the rules', 'Short rule blocks, in the language you like'], ['2', 'Mark them finished', 'Practice unlocks when you are ready'], ['3', 'Practise & score', '10 questions at a time · your score is saved']].map(([n, t, s]) => (
+        {[['1', 'Read the rules', 'Short rule blocks, in the language you like'], ['2', 'Finish the topics', 'Practice opens on the last topic'], ['3', 'Practise & score', 'Pick 10, 20, 30, 50 or all questions · your score is saved']].map(([n, t, s]) => (
           <div className="ln-step" key={n}><span className="ln-step-n">{n}</span><b>{t}</b><small>{s}</small></div>
         ))}
       </div>
@@ -449,7 +649,7 @@ export default function LearningView() {
 
       <div className="ln-gcard ln-scores">
         <h4>Chapter scores</h4>
-        {home.scores.length === 0 ? <p className="ln-gnote">No chapter scores yet — finish a practice batch and your best scores will show here.</p> : (
+        {home.scores.length === 0 ? <p className="ln-gnote">No chapter scores yet — finish a practice round and your best scores will show here.</p> : (
           <div className="ln-srows">
             {home.scores.map(s => (
               <div className="ln-srow" key={s.n}>
