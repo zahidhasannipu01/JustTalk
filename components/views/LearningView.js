@@ -32,23 +32,31 @@ function LangToggle({ lang, setLang }) {
    .ln-stage rules in globals.css. ---------- */
 const STOP = new Set(['the', 'of', 'a', 'an', 'and', 'or', 'to', 'in', 'is', 'are', 'was', 'were', 'be', 'as', 'at', 'by', 'for', 'with', 'on', 'it', 'its', 'this', 'that', 'from', 'not', 'no']);
 function splitSentences(text) {
-  return String(text || '').split(/(?<=[।.!?])\s+|\n+/).map(s => s.trim()).filter(Boolean);
+  const prot = String(text || '').replace(/\b(Mr|Mrs|Ms|Dr|St|Sr|Jr|Prof|Fig|No|etc|vs|e\.g|i\.e)\./g, '$1\u0001');
+  return prot.split(/(?<=[।.!?])\s+|\n+/).map(s => s.replace(/\u0001/g, '.').trim()).filter(Boolean);
 }
-// Headings like "Introduction" carry no teachable term on their own.
-const GENERIC_TERM = new Set(['introduction', 'definition', 'definitions', 'note', 'notes', 'overview', 'exercise', 'exercises', 'rule', 'rules', 'types', 'classification', 'miscellaneous', 'examples', 'example']);
-function keyTermOf(heading) {
-  const words = String(heading || '').match(/[A-Za-z][A-Za-z'-]*/g) || [];
-  const w = words.find(x => !STOP.has(x.toLowerCase())) || words[0] || '';
-  return GENERIC_TERM.has(w.toLowerCase()) ? '' : w;
+// A pill label ("word = Term") may only use a real grammar term taken from
+// the rule's own heading or from the book's "called ..." wording - never a
+// heading number or section letter (the "1.1 C" bug made "college = C").
+const GRAMMAR_TERMS = new Set(['noun', 'verb', 'adjective', 'pronoun', 'adverb', 'preposition', 'conjunction', 'interjection', 'article', 'determiner', 'tense', 'voice', 'clause', 'phrase', 'sentence', 'gender', 'number', 'case', 'degree', 'modal', 'infinitive', 'participle', 'gerund', 'subject', 'object', 'complement', 'predicate', 'suffix', 'prefix', 'syllable', 'vowel', 'consonant', 'person', 'mood', 'idiom', 'synonym', 'antonym', 'proverb', 'metaphor', 'simile', 'personification', 'hyperbole', 'irony', 'punctuation', 'plural', 'singular']);
+const TERM_QUALIFIERS = new Set(['abstract', 'collective', 'proper', 'common', 'material', 'countable', 'uncountable', 'personal', 'relative', 'demonstrative', 'interrogative', 'reflexive', 'emphatic', 'distributive', 'possessive', 'definite', 'indefinite', 'comparative', 'superlative', 'positive', 'past', 'present', 'future', 'continuous', 'perfect', 'simple', 'active', 'passive', 'direct', 'indirect', 'assertive', 'imperative', 'optative', 'exclamatory', 'transitive', 'intransitive', 'regular', 'irregular', 'finite', 'principal', 'subordinate', 'coordinate', 'compound', 'complex', 'nominative', 'objective', 'vocative']);
+function validTerm(words) {
+  for (let i = words.length - 1; i >= 0; i--) {
+    const w = words[i];
+    if (GRAMMAR_TERMS.has(w.toLowerCase())) {
+      const q = i > 0 ? words[i - 1] : '';
+      return q && TERM_QUALIFIERS.has(q.toLowerCase()) ? `${q} ${w}` : w;
+    }
+  }
+  return '';
 }
 function termOf(heading, bodyEn) {
-  let t = keyTermOf(heading);
-  if (t) return t;
-  const m = String(bodyEn || '').match(/(?:called|known as)\s+(?:a\s+|an\s+|the\s+)?([A-Z][a-z]+)/);
-  if (m && !GENERIC_TERM.has(m[1].toLowerCase())) return m[1];
   const words = String(heading || '').match(/[A-Za-z][A-Za-z'-]*/g) || [];
-  const last = words[words.length - 1] || '';
-  return last && !STOP.has(last.toLowerCase()) && !GENERIC_TERM.has(last.toLowerCase()) ? last : '';
+  const t = validTerm(words);
+  if (t) return t;
+  const m = String(bodyEn || '').match(/(?:called|known as)\s+(?:a\s+|an\s+|the\s+)?([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)/);
+  if (m) return validTerm(m[1].split(/\s+/));
+  return '';
 }
 const CAP_EX = { mix: 'উদাহরণটা দেখো', en: 'Watch the example', bn: 'উদাহরণটা দেখো' };
 const CAP_RULE = { mix: 'নিয়মটা দেখো', en: 'Watch the rule', bn: 'নিয়মটা দেখো' };
@@ -147,21 +155,6 @@ function extractExample(bodyEn, bodyCur) {
   }
   return '';
 }
-function pickKey(words, term, bodyEn) {
-  const clean = w => w.replace(/[^A-Za-z'-]/g, '');
-  if (term) {
-    let i = words.findIndex(w => clean(w).toLowerCase() === term.toLowerCase());
-    if (i < 0) i = words.findIndex(w => clean(w).toLowerCase().startsWith(term.toLowerCase()));
-    if (i >= 0) return i;
-  }
-  const qm = String(bodyEn || '').match(/(?:word|শব্দ)\s*[‘'"]([A-Za-z]+)[’'"]/) || String(bodyEn || '').match(/[‘'"]([A-Za-z]{2,})[’'"]/);
-  if (qm) { const i = words.findIndex(w => clean(w).toLowerCase() === qm[1].toLowerCase()); if (i >= 0) return i; }
-  const be = words.findIndex(w => /^(is|are|was|were)$/i.test(clean(w)));
-  if (be >= 0) { for (let i = be + 1; i < words.length; i++) { const c = clean(words[i]); if (c && !STOP.has(c.toLowerCase()) && !/^(as|so)$/i.test(c)) return i; } }
-  let ki = 0, best = 0;
-  words.forEach((w, i) => { const c = clean(w); if (!STOP.has(c.toLowerCase()) && c.length > best) { best = c.length; ki = i; } });
-  return ki;
-}
 function findMorph(text) {
   const pairs = [];
   const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
@@ -177,12 +170,12 @@ function findChips(body) {
   const zones = mi >= 0 ? [text.slice(mi), text] : [text];
   for (const z of zones) {
     const chunk = z.split(/[।.!?\n]/)[0] || '';
-    const items = chunk.replace(/^[^—:–-]*[—:–-]/, '').split(/[,;]/).map(s => s.trim().replace(/\s*etc\.?$/i, '').replace(/[।.]$/, '')).filter(s => s && !/:/.test(s) && !/example/i.test(s) && s.split(/\s+/).length <= 4 && s.length <= 26);
+    const items = chunk.replace(/^[^—:–-]*[—:–-]/, '').split(/[,;]/).map(s => s.trim().replace(/\s*etc\.?$/i, '').replace(/[।.]$/, '')).filter(s => s && !/:/.test(s) && !/example/i.test(s) && !/^\[/.test(s) && !/\[[^\]]*$/.test(s) && s.split(/\s+/).length <= 4 && s.length <= 26);
     if (items.length >= 3) return items.slice(0, 8);
   }
   const segs = text.split(/[:—–]\s*/);
   for (const seg of segs.slice(1)) {
-    const items = seg.split(/[,;]/).map(s => s.trim().replace(/[।.]$/, '')).filter(s => s && s.split(/\s+/).length <= 5);
+    const items = seg.split(/[,;]/).map(s => s.trim().replace(/[।.]$/, '')).filter(s => s && !/^\[/.test(s) && !/\[[^\]]*$/.test(s) && s.split(/\s+/).length <= 5);
     if (items.length >= 3) return items.slice(0, 8);
   }
   return null;
@@ -192,25 +185,31 @@ function buildDemo(rule, lang, chn, ri) {
     const hand = HAND[`${chn}:${ri}`];
     if (hand) return resolveHand(hand, lang);
     const headingEn = lt(rule.heading, 'en');
-    const bodyEn = lt(rule.body, 'en') || lt(rule.body, 'mix');
-    const bodyCur = lt(rule.body, lang);
+    // Bracketed book notes ([বি: দ্র: ...] / [Note: ...]) belong to the card's
+    // Extra box, never inside the animation - strip them before building.
+    const stripNotes = s => String(s || '').replace(/\[(?:বি:\s*দ্র\s*:|Note\s*:)[^\]]*\]/gi, ' ').replace(/\s+/g, ' ').trim();
+    const bodyEn = stripNotes(lt(rule.body, 'en') || lt(rule.body, 'mix'));
+    const bodyCur = stripNotes(lt(rule.body, lang));
     const term = termOf(headingEn, bodyEn);
     const why = splitSentences(bodyCur)[0] || '';
     const morph = findMorph(bodyEn) || findMorph(bodyCur);
     if (morph) return { kind: 'morph', items: morph, caption: lt(CAP_EX, lang), why };
     const ex = extractExample(bodyEn, bodyCur);
-    if (ex) {
+    if (ex && term) {
       const words = ex.split(/\s+/);
-      const ki = pickKey(words, term, bodyEn);
-      const keyWord = words[ki].replace(/[^A-Za-z'-]/g, '') || words[ki];
-      return { kind: 'sentence', words, keys: [ki], pill: term ? `${keyWord} = ${term}` : keyWord, caption: lt(CAP_EX, lang), why };
+      const head = term.split(/\s+/).pop().toLowerCase();
+      const ki = words.findIndex(w => w.replace(/[^A-Za-z'-]/g, '').toLowerCase() === head);
+      if (ki >= 0) {
+        const keyWord = words[ki].replace(/[^A-Za-z'-]/g, '') || words[ki];
+        return { kind: 'sentence', words, keys: [ki], pill: `${keyWord} = ${term}`, caption: lt(CAP_EX, lang), why };
+      }
     }
     const chips = findChips(bodyEn) || findChips(bodyCur);
     if (chips) return { kind: 'chips', chips, caption: lt(CAP_EX, lang), why };
-    const sents = splitSentences(bodyCur);
+    const sents = splitSentences(bodyCur).filter(s => s.length >= 3 && !/\[[^\]]*$/.test(s));
     if (sents.length) return { kind: 'spot', sents: sents.slice(0, 6), caption: lt(CAP_RULE, lang) };
   } catch {}
-  return { kind: 'spot', sents: [lt(rule.body, lang)], caption: lt(CAP_RULE, lang) };
+  return { kind: 'spot', sents: [String(lt(rule.body, lang) || '').replace(/\[(?:বি:\s*দ্র\s*:|Note\s*:)[^\]]*\]/gi, ' ').replace(/\s+/g, ' ').trim()], caption: lt(CAP_RULE, lang) };
 }
 function demoSteps(demo) {
   if (demo.kind === 'sentence') return demo.words.length + (demo.why ? 3 : 2);
@@ -326,6 +325,26 @@ function AnimStage({ demo }) {
 function structureBody(raw) {
   const text = String(raw || '').replace(/\s+/g, ' ').trim();
   if (!text) return [];
+  // The book's side notes (বি: দ্র: / Note:) are shown as an "Extra" box.
+  const brk = text.match(/\[বি:\s*দ্র\s*:\s*([^\]]+)\]|\[Note\s*:\s*([^\]]+)\]/i);
+  if (brk) {
+    const restText = (text.slice(0, brk.index) + ' ' + text.slice(brk.index + brk[0].length)).replace(/\s+/g, ' ').trim();
+    return [...structureBody(restText), { t: 'extra', text: (brk[1] || brk[2]).trim() }];
+  }
+  const nm = text.match(/(বি:\s*দ্র\s*:|বি:দ্র:|Note:)\s*/);
+  if (nm && nm.index > 0) {
+    const before = text.slice(0, nm.index).trim();
+    const after = text.slice(nm.index + nm[0].length).trim();
+    let note = after, tail = '';
+    const yi = after.search(/যেমন\s*[—–:-]/);
+    if (yi > 10) { note = after.slice(0, yi).trim(); tail = after.slice(yi).trim(); }
+    const segs = [...structureBody(before), { t: 'extra', text: note }];
+    if (tail) segs.push(...structureBody(tail));
+    return segs;
+  }
+  return structureMain(text);
+}
+function structureMain(text) {
   // --- pair list run: - suffix : word, word ; ... (>=3)
   const itemRe = /[–—-]\s*([a-z][a-z'’]*(?:\s*,\s*-?[a-z][a-z'’]*)*)\s*:\s*([^;]{1,60}?)(?:;|$)/g;
   const pm = [...text.matchAll(itemRe)];
@@ -411,6 +430,7 @@ function RuleBody({ body }) {
       if (s.t === 'pairs') return <div key={i} className="ln-pgrid">{s.pairs.map((p, j) => <div key={j} className="ln-pchip"><span className="sfx">{p[0]}</span><span className="arr">{'\u2192'}</span><span className="wd">{p[1]}</span></div>)}</div>;
       if (s.t === 'rows') return <div key={i} className="ln-frows">{s.rows.map((r, j) => <div key={j} className="ln-frow"><span className="ln-fnum">{r[0]}</span><span className="ln-flabel">{r[1]}</span><span className="ln-fex"><RowExample text={r[2]} /></span></div>)}</div>;
       if (s.t === 'note') return <p key={i} className="ln-rnote">{s.text}</p>;
+      if (s.t === 'extra') return <div key={i} className="ln-extra"><span className="ln-extra-tag">Extra</span><p>{s.text}</p></div>;
       return null;
     })}
   </>);
@@ -422,6 +442,7 @@ function RuleCard({ rule, lang, chn, ri }) {
   const [open, setOpen] = useState(false);
   const demo = useMemo(() => buildDemo(rule, lang, chn, ri), [rule, lang, chn, ri]);
   const hd = splitHeading(heading);
+  if (/^(বি:\s*দ্র:|বি\.দ্র:|Note:?)$/i.test(hd.name.trim())) hd.name = 'Extra';
   return (
     <div className="ln-rule">
       {heading ? (
@@ -513,6 +534,7 @@ export default function LearningView() {
   const [result, setResult] = useState(null);
   const [topicPage, setTopicPage] = useState(0); // rules are paged 5 at a time
   const [roundSize, setRoundSize] = useState(10); // questions per practice round: 10 | 20 | 30 | 50 | 'all'
+  const [countOpen, setCountOpen] = useState(false); // custom count dropdown
 
   function setLang(k) {
     setLangState(k);
@@ -632,7 +654,7 @@ export default function LearningView() {
     const pages = Math.max(1, Math.ceil(ch.rules.length / per));
     const page = Math.min(topicPage, pages - 1);
     const lastGroup = page >= pages - 1;
-    const showPractice = ch.rulesDone || lastGroup;
+    const showPractice = lastGroup;
     return (
       <div className="ln-wrap">
         <div className="ln-toprow">
@@ -653,10 +675,23 @@ export default function LearningView() {
           {showPractice ? (
             <>
               <button type="button" className="btn-accent2" onClick={() => startPractice()}>Practice now</button>
-              <select className="ln-countsel" aria-label="Questions per round" value={String(roundSize)} onChange={e => setRoundSize(e.target.value === 'all' ? 'all' : Number(e.target.value))}>
-                {[10, 20, 30, 50].map(v => <option key={v} value={v}>{v} questions</option>)}
-                <option value="all">All questions</option>
-              </select>
+              <div className="ln-countwrap">
+                <button type="button" className="ln-countbtn" aria-haspopup="listbox" aria-expanded={countOpen} onClick={() => setCountOpen(o => !o)}>
+                  {roundSize === 'all' ? 'All questions' : `${roundSize} questions`}<Ic n="chevD" size={14} />
+                </button>
+                {countOpen ? (
+                  <>
+                    <div className="ln-countback" onClick={() => setCountOpen(false)} />
+                    <div className="ln-countmenu" role="listbox" aria-label="Questions per round">
+                      {[10, 20, 30, 50, 'all'].map(v => (
+                        <button key={String(v)} type="button" role="option" aria-selected={roundSize === v} className={`ln-countopt ${roundSize === v ? 'on' : ''}`} onClick={() => { setRoundSize(v); setCountOpen(false); }}>
+                          {v === 'all' ? 'All questions' : `${v} questions`}
+                        </button>
+                      ))}
+                    </div>
+                  </>
+                ) : null}
+              </div>
             </>
           ) : null}
         </div>
