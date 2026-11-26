@@ -1,0 +1,963 @@
+{
+ "chapter": "Chapter-27: Dangling & Misplaced Modifiers",
+ "pages": [
+  482,
+  486
+ ],
+ "rules": [
+  {
+   "heading": {
+    "mix": "Introduction",
+    "en": "Introduction",
+    "bn": "ভূমিকা"
+   },
+   "body": {
+    "mix": "Dangle শব্দটির অর্থ উন্মুক্তভাবে ঝুলে থাকা। আর Dangling শব্দটির অর্থ ঝুলন্ত। Modifier শব্দটির অর্থ 'যে বিশেষিত করে'। ইংরেজি গ্রামারের পরিভাষায় কোনো modifier (শব্দ, শব্দগুচ্ছ বা বাক্যাংশ) যদি তার কাঙ্ক্ষিত শব্দটিকে (প্রধানত Noun/Pronoun) বিশেষিত না করে অন্য শব্দকে বিশেষিত করে তখন তাকে Dangling modifier বলে। অন্যদিকে কোনো Modifier যদি যথাস্থানে না বসে অন্যত্র অবস্থান করে তবে তাকে Misplaced modifier বলে। এই উভয় Modifier-কে Illogical modifier বা অযৌক্তিক বিশেষণকারী হিসেবেও অভিহিত করা হয়।",
+    "en": "The word Dangle means to hang loosely. And the word Dangling means hanging. The word Modifier means 'that which modifies'. In the terminology of English grammar, if a modifier (a word, a phrase or a clause) modifies another word instead of modifying its intended word (mainly a Noun/Pronoun), it is called a Dangling modifier. On the other hand, if a Modifier is not placed in its proper place and is positioned elsewhere, it is called a Misplaced modifier. Both of these Modifiers are also called Illogical modifiers.",
+    "bn": "Dangle শব্দটির অর্থ উন্মুক্তভাবে ঝুলে থাকা। আর Dangling শব্দটির অর্থ ঝুলন্ত। Modifier শব্দটির অর্থ 'যে বিশেষিত করে'। ইংরেজি গ্রামারের পরিভাষায় কোনো modifier (শব্দ, শব্দগুচ্ছ বা বাক্যাংশ) যদি তার কাঙ্ক্ষিত শব্দটিকে (প্রধানত Noun/Pronoun) বিশেষিত না করে অন্য শব্দকে বিশেষিত করে তখন তাকে Dangling modifier বলে। অন্যদিকে কোনো Modifier যদি যথাস্থানে না বসে অন্যত্র অবস্থান করে তবে তাকে Misplaced modifier বলে। এই উভয় Modifier-কে Illogical modifier বা অযৌক্তিক বিশেষণকারী হিসেবেও অভিহিত করা হয়।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "27.1 বাক্যে ব্যবহৃত কোনো modifier যদি সঠিক Noun বা Pronoun-কে Modify না করে",
+    "en": "27.1 If a modifier used in a sentence does not Modify the correct Noun or Pronoun",
+    "bn": "27.1 বাক্যে ব্যবহৃত কোনো modifier যদি সঠিক Noun বা Pronoun-কে Modify না করে"
+   },
+   "body": {
+    "mix": "বাক্যে ব্যবহৃত কোনো modifier যদি সঠিক Noun বা Pronoun-কে Modify না করে তাহলে বাক্যের অর্থের পরিবর্তন বা বিকৃতি ঘটে। নিচের example টি লক্ষ্য করুন :",
+    "en": "If a modifier used in a sentence does not Modify the correct Noun or Pronoun, the meaning of the sentence changes or is distorted. Note the example below:",
+    "bn": "বাক্যে ব্যবহৃত কোনো modifier যদি সঠিক Noun বা Pronoun-কে Modify না করে তাহলে বাক্যের অর্থের পরিবর্তন বা বিকৃতি ঘটে। নিচের example টি লক্ষ্য করুন :"
+   }
+  },
+  {
+   "heading": {
+    "mix": "27.2 Dangling Modifier-এর মাধ্যমসমূহ",
+    "en": "27.2 The means of Dangling Modifiers",
+    "bn": "27.2 Dangling Modifier-এর মাধ্যমসমূহ"
+   },
+   "body": {
+    "mix": "Dangling Modifier সাধারণত নির্দিষ্ট কিছু grammatical structure বা Phrase বা Clause-এর মাধ্যমে হয়ে থাকে। সেগুলো হলো :",
+    "en": "A Dangling Modifier usually occurs through certain grammatical structures or Phrases or Clauses. They are:",
+    "bn": "Dangling Modifier সাধারণত নির্দিষ্ট কিছু grammatical structure বা Phrase বা Clause-এর মাধ্যমে হয়ে থাকে। সেগুলো হলো :"
+   }
+  },
+  {
+   "heading": {
+    "mix": "27.2.1 Present Participle বা Participle Phrase",
+    "en": "27.2.1 Present Participle or Participle Phrase",
+    "bn": "27.2.1 Present Participle বা Participle Phrase"
+   },
+   "body": {
+    "mix": "উপরিউক্ত উদাহরণটি Present participle-এর উদাহরণ। নিচের Example-টি লক্ষ্য করুন : Dangling : Entering the room, the light was off. বাক্যটির Subject দেখে মনে হয় ঘরে ঢোকার কাজটি করেছে the light, যা বাস্তবে অসম্ভব। সুতরাং সঠিক বাক্যটি হবে— Entering the room, I found the light off.",
+    "en": "The above example is an example of the Present participle. Note the Example below: Dangling: Entering the room, the light was off. Looking at the Subject of the sentence, it seems the act of entering the room was done by the light, which is impossible in reality. So the correct sentence will be — Entering the room, I found the light off.",
+    "bn": "উপরিউক্ত উদাহরণটি Present participle-এর উদাহরণ। নিচের Example-টি লক্ষ্য করুন : Dangling : Entering the room, the light was off. বাক্যটির Subject দেখে মনে হয় ঘরে ঢোকার কাজটি করেছে the light, যা বাস্তবে অসম্ভব। সুতরাং সঠিক বাক্যটি হবে— Entering the room, I found the light off."
+   }
+  },
+  {
+   "heading": {
+    "mix": "27.2.2 Past Participle বা Past Participle Phrase",
+    "en": "27.2.2 Past Participle or Past Participle Phrase",
+    "bn": "27.2.2 Past Participle বা Past Participle Phrase"
+   },
+   "body": {
+    "mix": "কখনো কখনো Past Participle Phrase দিয়ে Dangling modifier-এর মতো অনাকাঙ্ক্ষিত পরিস্থিতির উদ্ভব হতে পারে।",
+    "en": "Sometimes an unwanted situation like a Dangling modifier can arise with a Past Participle Phrase.",
+    "bn": "কখনো কখনো Past Participle Phrase দিয়ে Dangling modifier-এর মতো অনাকাঙ্ক্ষিত পরিস্থিতির উদ্ভব হতে পারে।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "27.2.3 Perfect Participle তথা Having + v₃",
+    "en": "27.2.3 Perfect Participle, i.e. Having + v₃",
+    "bn": "27.2.3 Perfect Participle তথা Having + v₃"
+   },
+   "body": {
+    "mix": "",
+    "en": "",
+    "bn": ""
+   }
+  },
+  {
+   "heading": {
+    "mix": "27.2.4 Perfect Participle Passive তথা Having been + v₃",
+    "en": "27.2.4 Perfect Participle Passive, i.e. Having been + v₃",
+    "bn": "27.2.4 Perfect Participle Passive তথা Having been + v₃"
+   },
+   "body": {
+    "mix": "",
+    "en": "",
+    "bn": ""
+   }
+  },
+  {
+   "heading": {
+    "mix": "27.2.5 Adjective Phrase",
+    "en": "27.2.5 Adjective Phrase",
+    "bn": "27.2.5 Adjective Phrase"
+   },
+   "body": {
+    "mix": "কোনো কোনো সময় Adjective Phrase দ্বারা Dangling modifier তৈরি হতে পারে।",
+    "en": "Sometimes a Dangling modifier can be formed by an Adjective Phrase.",
+    "bn": "কোনো কোনো সময় Adjective Phrase দ্বারা Dangling modifier তৈরি হতে পারে।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "27.2.6 Reduced Adverbial Clause",
+    "en": "27.2.6 Reduced Adverbial Clause",
+    "bn": "27.2.6 Reduced Adverbial Clause"
+   },
+   "body": {
+    "mix": "Dangling : While walking in the garden, her leg was broken. Correct : While she was walking in the garden, she broke her leg.",
+    "en": "Dangling : While walking in the garden, her leg was broken. Correct : While she was walking in the garden, she broke her leg.",
+    "bn": "Dangling : While walking in the garden, her leg was broken. Correct : While she was walking in the garden, she broke her leg."
+   }
+  },
+  {
+   "heading": {
+    "mix": "27.2.7 Preposition + V-ing Combination",
+    "en": "27.2.7 Preposition + V-ing Combination",
+    "bn": "27.2.7 Preposition + V-ing Combination"
+   },
+   "body": {
+    "mix": "যেমন—",
+    "en": "For example —",
+    "bn": "যেমন—"
+   }
+  },
+  {
+   "heading": {
+    "mix": "27.2.8 Expressions with Like, or Unlike",
+    "en": "27.2.8 Expressions with Like, or Unlike",
+    "bn": "27.2.8 Expressions with Like, or Unlike"
+   },
+   "body": {
+    "mix": "",
+    "en": "",
+    "bn": ""
+   }
+  },
+  {
+   "heading": {
+    "mix": "27.3 Dangling Modifier-এর যথোপযুক্ত Subject (noun/pronoun) যদি না পাওয়া যায়",
+    "en": "27.3 If the proper Subject (noun/pronoun) of a Dangling Modifier is not found",
+    "bn": "27.3 Dangling Modifier-এর যথোপযুক্ত Subject (noun/pronoun) যদি না পাওয়া যায়"
+   },
+   "body": {
+    "mix": "Dangling Modifier-এর যথোপযুক্ত Subject (noun/pronoun) যদি না পাওয়া যায়, তাহলে প্রয়োজনে বাক্যটিকে Passive করে কাঙ্ক্ষিত Subject টি প্রথমে আনতে হবে।",
+    "en": "If the proper Subject (noun/pronoun) of a Dangling Modifier is not found, then, if necessary, the desired Subject has to be brought first by making the sentence Passive.",
+    "bn": "Dangling Modifier-এর যথোপযুক্ত Subject (noun/pronoun) যদি না পাওয়া যায়, তাহলে প্রয়োজনে বাক্যটিকে Passive করে কাঙ্ক্ষিত Subject টি প্রথমে আনতে হবে।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "27.4 কোনো কোনো সময় বাক্যের একটি Clause তার Modifier থেকে দূরে সরে গিয়ে Misplaced modifier হয়ে যেতে পারে",
+    "en": "27.4 Sometimes a Clause of a sentence can move away from its Modifier and become a Misplaced modifier",
+    "bn": "27.4 কোনো কোনো সময় বাক্যের একটি Clause তার Modifier থেকে দূরে সরে গিয়ে Misplaced modifier হয়ে যেতে পারে"
+   },
+   "body": {
+    "mix": "কোনো কোনো সময় বাক্যের একটি Clause তার Modifier থেকে দূরে সরে গিয়ে Misplaced modifier হয়ে যেতে পারে। যেমন— Misplaced : The man was tall who stole my bag. Correct : The man who stole my bag was tall.",
+    "en": "Sometimes a Clause of a sentence can move away from its Modifier and become a Misplaced modifier. For example — Misplaced: The man was tall who stole my bag. Correct: The man who stole my bag was tall.",
+    "bn": "কোনো কোনো সময় বাক্যের একটি Clause তার Modifier থেকে দূরে সরে গিয়ে Misplaced modifier হয়ে যেতে পারে। যেমন— Misplaced : The man was tall who stole my bag. Correct : The man who stole my bag was tall."
+   }
+  },
+  {
+   "heading": {
+    "mix": "27.5 কখনো কখনো Adverb তার যথার্থ স্থানচ্যুত হয়ে Misplaced হয়ে যেতে পারে",
+    "en": "27.5 Sometimes an Adverb can be displaced from its proper place and become Misplaced",
+    "bn": "27.5 কখনো কখনো Adverb তার যথার্থ স্থানচ্যুত হয়ে Misplaced হয়ে যেতে পারে"
+   },
+   "body": {
+    "mix": "কখনো কখনো Adverb তার যথার্থ স্থানচ্যুত হয়ে Misplaced হয়ে যেতে পারে। যেমন— Misplaced : I nearly earned fifty dollars today. Correct : I earned nearly fifty dollars today.",
+    "en": "Sometimes an Adverb can be displaced from its proper place and become Misplaced. For example — Misplaced: I nearly earned fifty dollars today. Correct: I earned nearly fifty dollars today.",
+    "bn": "কখনো কখনো Adverb তার যথার্থ স্থানচ্যুত হয়ে Misplaced হয়ে যেতে পারে। যেমন— Misplaced : I nearly earned fifty dollars today. Correct : I earned nearly fifty dollars today."
+   }
+  }
+ ],
+ "mcqs": [
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 1,
+   "question": {
+    "mix": "Which of the following sentence is correct?",
+    "en": "Which of the following sentence is correct?",
+    "bn": "Which of the following sentence is correct?"
+   },
+   "options": {
+    "a": {
+     "mix": "Hearing the good news, I was happy.",
+     "en": "Hearing the good news, I was happy.",
+     "bn": "Hearing the good news, I was happy."
+    },
+    "b": {
+     "mix": "Hearing the good news, happiness was mine.",
+     "en": "Hearing the good news, happiness was mine.",
+     "bn": "Hearing the good news, happiness was mine."
+    },
+    "c": {
+     "mix": "Hearing the good news, happy I was.",
+     "en": "Hearing the good news, happy I was.",
+     "bn": "Hearing the good news, happy I was."
+    },
+    "d": {
+     "mix": "Hearing the good news, mine was happiness.",
+     "en": "Hearing the good news, mine was happiness.",
+     "bn": "Hearing the good news, mine was happiness."
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "এখানে Hearing the good news শব্দগুচ্ছটি একটি Participle phrase, যার অর্থ 'সুসংবাদটি শুনে'। এই modifier-টি যে কাঙ্ক্ষিত শব্দকে Modify করার কথা তা হলো I। কারণ, hearing কাজটি ব্যক্তি (I) দ্বারা সম্পন্ন হয়েছে।",
+    "en": "Here the phrase Hearing the good news is a Participle phrase, which means 'on hearing the good news'. The intended word that this modifier is supposed to Modify is I. Because the act of hearing was done by the person (I).",
+    "bn": "এখানে Hearing the good news শব্দগুচ্ছটি একটি Participle phrase, যার অর্থ 'সুসংবাদটি শুনে'। এই modifier-টি যে কাঙ্ক্ষিত শব্দকে Modify করার কথা তা হলো I। কারণ, hearing কাজটি ব্যক্তি (I) দ্বারা সম্পন্ন হয়েছে।"
+   },
+   "source": "ঢাকা বিশ্ববিদ্যালয় ক ইউনিট ১৯৯৬-৯৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 2,
+   "question": {
+    "mix": "Worn out by a long walk, she fainted. Here 'worn out' is a—",
+    "en": "Worn out by a long walk, she fainted. Here 'worn out' is a—",
+    "bn": "Worn out by a long walk, she fainted. Here 'worn out' is a—"
+   },
+   "options": {
+    "a": {
+     "mix": "dangling participle",
+     "en": "dangling participle",
+     "bn": "dangling participle"
+    },
+    "b": {
+     "mix": "present participle",
+     "en": "present participle",
+     "bn": "present participle"
+    },
+    "c": {
+     "mix": "adjective complement",
+     "en": "adjective complement",
+     "bn": "adjective complement"
+    },
+    "d": {
+     "mix": "adverb",
+     "en": "adverb",
+     "bn": "adverb"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'Worn out' একটি Past Participle phrase যা she-কে modify করছে; বইয়ে একে dangling participle বলা হয়েছে— (ক)। Present participle হলে verb-ing থাকত (খ), এটি adverb-ও নয় (ঘ) এবং adjective complement-ও নয় (গ)।",
+    "en": "'Worn out' is a Past Participle phrase modifying she; in the book it is called a dangling participle — (a). A present participle would have a verb-ing (b); it is not an adverb (d) nor an adjective complement (c).",
+    "bn": "'Worn out' একটি Past Participle phrase যা she-কে modify করছে; বইয়ে একে dangling participle বলা হয়েছে— (ক)। Present participle হলে verb-ing থাকত (খ), এটি adverb-ও নয় (ঘ) এবং adjective complement-ও নয় (গ)।"
+   },
+   "source": "ইসলামী বিশ্ববিদ্যালয় বি ইউনিট ২০১৪-১৫",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 3,
+   "question": {
+    "mix": "Choose the correct sentence.",
+    "en": "Choose the correct sentence.",
+    "bn": "Choose the correct sentence."
+   },
+   "options": {
+    "a": {
+     "mix": "Having arrived late for practice, a written excuse was needed.",
+     "en": "Having arrived late for practice, a written excuse was needed.",
+     "bn": "Having arrived late for practice, a written excuse was needed."
+    },
+    "b": {
+     "mix": "Having arrived late for practice, the team captain needed a written excuse.",
+     "en": "Having arrived late for practice, the team captain needed a written excuse.",
+     "bn": "Having arrived late for practice, the team captain needed a written excuse."
+    },
+    "c": {
+     "mix": "Having arrived late for practice, need the excuse the captain.",
+     "en": "Having arrived late for practice, need the excuse the captain.",
+     "bn": "Having arrived late for practice, need the excuse the captain."
+    },
+    "d": {
+     "mix": "Having arrived later for practice, an application was needed.",
+     "en": "Having arrived later for practice, an application was needed.",
+     "bn": "Having arrived later for practice, an application was needed."
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "অনুশীলনে দেরিতে এসেছে কে? অবশ্যই দলনেতা (team captain) যা option (খ) তে আছে। সুতরাং এটিই সঠিক উত্তর। বাকি উত্তরগুলোর Subject তথা a written excuse ও an application কখনোই এই বাক্যের Subject হওয়ার যোগ্যতা রাখে না।",
+    "en": "Who arrived late for practice? Certainly the team captain, which is in option (b). So this is the correct answer. The Subjects of the other answers, namely a written excuse and an application, can never be fit to be the Subject of this sentence.",
+    "bn": "অনুশীলনে দেরিতে এসেছে কে? অবশ্যই দলনেতা (team captain) যা option (খ) তে আছে। সুতরাং এটিই সঠিক উত্তর। বাকি উত্তরগুলোর Subject তথা a written excuse ও an application কখনোই এই বাক্যের Subject হওয়ার যোগ্যতা রাখে না।"
+   },
+   "source": "জাতীয় বিশ্ববিদ্যালয় মানবিক, ২০১০-১১",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 4,
+   "question": {
+    "mix": "Having been served lunch—. The sentence is incomplete. Choose one which best completes the sentence.",
+    "en": "Having been served lunch—. The sentence is incomplete. Choose one which best completes the sentence.",
+    "bn": "Having been served lunch—. The sentence is incomplete. Choose one which best completes the sentence."
+   },
+   "options": {
+    "a": {
+     "mix": "the problem was discussed by the members of the committee.",
+     "en": "the problem was discussed by the members of the committee.",
+     "bn": "the problem was discussed by the members of the committee."
+    },
+    "b": {
+     "mix": "the committee members discussed the problem.",
+     "en": "the committee members discussed the problem.",
+     "bn": "the committee members discussed the problem."
+    },
+    "c": {
+     "mix": "it was discussed the committee members the problem.",
+     "en": "it was discussed the committee members the problem.",
+     "bn": "it was discussed the committee members the problem."
+    },
+    "d": {
+     "mix": "a discussion of the problem was made by the members of the committee.",
+     "en": "a discussion of the problem was made by the members of the committee.",
+     "bn": "a discussion of the problem was made by the members of the committee."
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "'খাবার পরিবেশন করা হয়েছে কাদেরকে?'— অবশ্যই কমিটি মেম্বারদেরকে। (ক), (গ), (ঘ), উত্তরগুলোতে কমিটি মেম্বারগণ subject হিসেবে অনুপস্থিত। তাই সঠিক উত্তর (খ) হবে।",
+    "en": "'Lunch has been served to whom?' — certainly to the committee members. In answers (a), (c) and (d), the committee members are absent as the subject. So the correct answer will be (b).",
+    "bn": "'খাবার পরিবেশন করা হয়েছে কাদেরকে?'— অবশ্যই কমিটি মেম্বারদেরকে। (ক), (গ), (ঘ), উত্তরগুলোতে কমিটি মেম্বারগণ subject হিসেবে অনুপস্থিত। তাই সঠিক উত্তর (খ) হবে।"
+   },
+   "source": "থানা/উপজেলা প্রকৌশলী ১৯৯৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 5,
+   "question": {
+    "mix": "No confusion of the grammatical subject occurs in.",
+    "en": "No confusion of the grammatical subject occurs in.",
+    "bn": "No confusion of the grammatical subject occurs in."
+   },
+   "options": {
+    "a": {
+     "mix": "Young and inexperienced, the task seemed easy to me.",
+     "en": "Young and inexperienced, the task seemed easy to me.",
+     "bn": "Young and inexperienced, the task seemed easy to me."
+    },
+    "b": {
+     "mix": "Young and inexperienced, it seemed to be an easy task.",
+     "en": "Young and inexperienced, it seemed to be an easy task.",
+     "bn": "Young and inexperienced, it seemed to be an easy task."
+    },
+    "c": {
+     "mix": "Young and inexperienced, I thought the task easy.",
+     "en": "Young and inexperienced, I thought the task easy.",
+     "bn": "Young and inexperienced, I thought the task easy."
+    },
+    "d": {
+     "mix": "Young and inexperienced, it was an easy task for me.",
+     "en": "Young and inexperienced, it was an easy task for me.",
+     "bn": "Young and inexperienced, it was an easy task for me."
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "বাক্যটির অর্থ— 'তরুণ ও অনভিজ্ঞ হওয়ায়, আমি কাজটিকে সহজ মনে করেছিলাম'। এখানে প্রশ্ন হলো— তরুণ ও অনভিজ্ঞ কে? কাজ না মানুষ? অবশ্যই মানুষ বা ব্যক্তি, কাজ নয়।",
+    "en": "The meaning of the sentence is — 'Being young and inexperienced, I thought the task easy'. The question here is — who is young and inexperienced? The task or the person? Certainly the person, not the task.",
+    "bn": "বাক্যটির অর্থ— 'তরুণ ও অনভিজ্ঞ হওয়ায়, আমি কাজটিকে সহজ মনে করেছিলাম'। এখানে প্রশ্ন হলো— তরুণ ও অনভিজ্ঞ কে? কাজ না মানুষ? অবশ্যই মানুষ বা ব্যক্তি, কাজ নয়।"
+   },
+   "source": "ঢাকা বিশ্ববিদ্যালয় বি ইউনিট ২০১১-১২",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 6,
+   "question": {
+    "mix": "Choose the correct sentence.",
+    "en": "Choose the correct sentence.",
+    "bn": "Choose the correct sentence."
+   },
+   "options": {
+    "a": {
+     "mix": "After jumping of a boat, the shark bit the man.",
+     "en": "After jumping of a boat, the shark bit the man.",
+     "bn": "After jumping of a boat, the shark bit the man."
+    },
+    "b": {
+     "mix": "After jumping of a boat, the shark bite the man.",
+     "en": "After jumping of a boat, the shark bite the man.",
+     "bn": "After jumping of a boat, the shark bite the man."
+    },
+    "c": {
+     "mix": "After jumping of a boat, the man was bitten by a shark.",
+     "en": "After jumping of a boat, the man was bitten by a shark.",
+     "bn": "After jumping of a boat, the man was bitten by a shark."
+    },
+    "d": {
+     "mix": "After jumping of a boat, the man bite the shark.",
+     "en": "After jumping of a boat, the man bite the shark.",
+     "bn": "After jumping of a boat, the man bite the shark."
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "নৌকা থেকে লাফ দেয়াটা কার কাজ— মানুষ না হাঙরের? অবশ্যই মানুষের। প্রথম দুটি উত্তরের Subject হলো Shark বা হাঙর, তাই হাঙরকে কামড় দিয়েছে, যা অসম্ভব। সুতরাং সঠিক উত্তর (গ)।",
+    "en": "Whose act is jumping off a boat — the man's or the shark's? Certainly the man's. The Subject of the first two answers is Shark, so the shark is bitten, which is impossible. So the correct answer is (c).",
+    "bn": "নৌকা থেকে লাফ দেয়াটা কার কাজ— মানুষ না হাঙরের? অবশ্যই মানুষের। প্রথম দুটি উত্তরের Subject হলো Shark বা হাঙর, তাই হাঙরকে কামড় দিয়েছে, যা অসম্ভব। সুতরাং সঠিক উত্তর (গ)।"
+   },
+   "source": "রাজশাহী বিশ্ববিদ্যালয় 'ই' ইউনিট ২০১১-১২",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 7,
+   "question": {
+    "mix": "Unlike most birds",
+    "en": "Unlike most birds",
+    "bn": "Unlike most birds"
+   },
+   "options": {
+    "a": {
+     "mix": "the heads and necks of vultures lack feathers.",
+     "en": "the heads and necks of vultures lack feathers.",
+     "bn": "the heads and necks of vultures lack feathers."
+    },
+    "b": {
+     "mix": "feathers are no found on the heads and necks of vultures.",
+     "en": "feathers are no found on the heads and necks of vultures.",
+     "bn": "feathers are no found on the heads and necks of vultures."
+    },
+    "c": {
+     "mix": "vultures do not have feathers on their heads and necks.",
+     "en": "vultures do not have feathers on their heads and necks.",
+     "bn": "vultures do not have feathers on their heads and necks."
+    },
+    "d": {
+     "mix": "there are no feathers on vultures' heads and necks.",
+     "en": "there are no feathers on vultures' heads and necks.",
+     "bn": "there are no feathers on vultures' heads and necks."
+    },
+    "e": {
+     "mix": "there is lack of feathers on vultures' heads and necks.",
+     "en": "there is lack of feathers on vultures' heads and necks.",
+     "bn": "there is lack of feathers on vultures' heads and necks."
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Unlike-এর সাথে যেহেতু পাখির কথা বলা হয়েছে। তাই মূল বাক্যের Subject টিও পাখি জাতীয় হবে। উত্তর (গ) তে শকুন Subject হিসেবে বিদ্যমান, তাই সঠিক উত্তর (গ)।",
+    "en": "Since a bird is spoken of with Unlike, the Subject of the main sentence will also be of the bird kind. In answer (c) the vulture is present as the Subject, so the correct answer is (c).",
+    "bn": "Unlike-এর সাথে যেহেতু পাখির কথা বলা হয়েছে। তাই মূল বাক্যের Subject টিও পাখি জাতীয় হবে। উত্তর (গ) তে শকুন Subject হিসেবে বিদ্যমান, তাই সঠিক উত্তর (গ)।"
+   },
+   "source": "আইবিএ বিবিএ ২০০২-০৩",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 8,
+   "question": {
+    "mix": "While going to class, —.",
+    "en": "While going to class, —.",
+    "bn": "While going to class, —."
+   },
+   "options": {
+    "a": {
+     "mix": "the dog bit me",
+     "en": "the dog bit me",
+     "bn": "the dog bit me"
+    },
+    "b": {
+     "mix": "dog bit me",
+     "en": "dog bit me",
+     "bn": "dog bit me"
+    },
+    "c": {
+     "mix": "a dog bit me",
+     "en": "a dog bit me",
+     "bn": "a dog bit me"
+    },
+    "d": {
+     "mix": "I was bitten by a dog",
+     "en": "I was bitten by a dog",
+     "bn": "I was bitten by a dog"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "ক্লাসে যাওয়ার সময় 'ব্যক্তি' কুকুরের কামড়ে আক্রান্ত হয়েছে। তাই সঠিক উত্তর (ঘ)।",
+    "en": "While going to class, the 'person' was attacked by a dog's bite. So the correct answer is (d).",
+    "bn": "ক্লাসে যাওয়ার সময় 'ব্যক্তি' কুকুরের কামড়ে আক্রান্ত হয়েছে। তাই সঠিক উত্তর (ঘ)।"
+   },
+   "source": "ঢাকা বিশ্ববিদ্যালয় ডি ইউনিট ২০০৩-০৪, সি ২০১৩-১৪, ইবি-জি ২০১০-১১",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 1,
+   "question": {
+    "mix": "Find out the correct sentence.",
+    "en": "Find out the correct sentence.",
+    "bn": "Find out the correct sentence."
+   },
+   "options": {
+    "a": {
+     "mix": "Crossing the street, a car almost struck us.",
+     "en": "Crossing the street, a car almost struck us.",
+     "bn": "Crossing the street, a car almost struck us."
+    },
+    "b": {
+     "mix": "As we crossed the street, a car almost struck us.",
+     "en": "As we crossed the street, a car almost struck us.",
+     "bn": "As we crossed the street, a car almost struck us."
+    },
+    "c": {
+     "mix": "A car almost struck us, crossing the street.",
+     "en": "A car almost struck us, crossing the street.",
+     "bn": "A car almost struck us, crossing the street."
+    },
+    "d": {
+     "mix": "Having crossed the street, a car almost struck us.",
+     "en": "Having crossed the street, a car almost struck us.",
+     "bn": "Having crossed the street, a car almost struck us."
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "রাস্তা পার হওয়ার কাজটি 'we' করেছে, car নয়। (ক) ও (ঘ)-তে Crossing/Having crossed car-কে modify করে dangling হয়; (গ)-তেও crossing car-এর সঙ্গে যুক্ত হয়। (খ)-তে As we crossed পূর্ণ clause হওয়ায় কোনো dangling নেই— সঠিক উত্তর (খ)।",
+    "en": "The act of crossing the street was done by 'we', not by the car. In (a) and (d), Crossing/Having crossed modifies the car and dangles; in (c) too, crossing is attached to the car. In (b), As we crossed is a full clause, so there is no dangling — the correct answer is (b).",
+    "bn": "রাস্তা পার হওয়ার কাজটি 'we' করেছে, car নয়। (ক) ও (ঘ)-তে Crossing/Having crossed car-কে modify করে dangling হয়; (গ)-তেও crossing car-এর সঙ্গে যুক্ত হয়। (খ)-তে As we crossed পূর্ণ clause হওয়ায় কোনো dangling নেই— সঠিক উত্তর (খ)।"
+   },
+   "source": "বাংলাদেশ ব্যাংক সহ-পরিচালক ২০০৬",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 2,
+   "question": {
+    "mix": "Similar to the floppy disk —.",
+    "en": "Similar to the floppy disk —.",
+    "bn": "Similar to the floppy disk —."
+   },
+   "options": {
+    "a": {
+     "mix": "stores data in the hard disk sectors",
+     "en": "stores data in the hard disk sectors",
+     "bn": "stores data in the hard disk sectors"
+    },
+    "b": {
+     "mix": "the hard disk stores data in sectors",
+     "en": "the hard disk stores data in sectors",
+     "bn": "the hard disk stores data in sectors"
+    },
+    "c": {
+     "mix": "data is stored in the hard disk in sectors",
+     "en": "data is stored in the hard disk in sectors",
+     "bn": "data is stored in the hard disk in sectors"
+    },
+    "d": {
+     "mix": "stores data is sectors in the hard disk",
+     "en": "stores data is sectors in the hard disk",
+     "bn": "stores data is sectors in the hard disk"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "এখানে প্রথমাংশে floppy disk এর অনুরূপ বিষয়ের কথা বলা হয়েছে। তাই বাক্যের মূল subject অনুরূপ বস্তু হবে, আর তা হচ্ছে Hard disk।",
+    "en": "Here, in the first part, something similar to the floppy disk is spoken of. So the main subject of the sentence will be the similar thing, and that is the Hard disk.",
+    "bn": "এখানে প্রথমাংশে floppy disk এর অনুরূপ বিষয়ের কথা বলা হয়েছে। তাই বাক্যের মূল subject অনুরূপ বস্তু হবে, আর তা হচ্ছে Hard disk।"
+   },
+   "source": "বাংলাদেশ পল্লী উন্নয়ন বোর্ড ২০০৪",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 1,
+   "question": {
+    "mix": "Choose the sentence with the modifier in the correct place.",
+    "en": "Choose the sentence with the modifier in the correct place.",
+    "bn": "Choose the sentence with the modifier in the correct place."
+   },
+   "options": {
+    "a": {
+     "mix": "The clerk sold the scarf with the red print to the woman.",
+     "en": "The clerk sold the scarf with the red print to the woman.",
+     "bn": "The clerk sold the scarf with the red print to the woman."
+    },
+    "b": {
+     "mix": "The clerk sold the scarf to the woman with the red print.",
+     "en": "The clerk sold the scarf to the woman with the red print.",
+     "bn": "The clerk sold the scarf to the woman with the red print."
+    },
+    "c": {
+     "mix": "The clerk with the red print sold the scarf to the woman.",
+     "en": "The clerk with the red print sold the scarf to the woman.",
+     "bn": "The clerk with the red print sold the scarf to the woman."
+    },
+    "d": {
+     "mix": "None of the above",
+     "en": "None of the above",
+     "bn": "None of the above"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "সঠিকভাবে modifier ব্যবহৃত হয়েছে প্রথম বাক্যে কেননা the scarf কে বিশেষায়িত করে এমন adverbial phraseটি এর পরপরই বসবে।",
+    "en": "The modifier is used correctly in the first sentence because the adverbial phrase that modifies the scarf will sit immediately after it.",
+    "bn": "সঠিকভাবে modifier ব্যবহৃত হয়েছে প্রথম বাক্যে কেননা the scarf কে বিশেষায়িত করে এমন adverbial phraseটি এর পরপরই বসবে।"
+   },
+   "source": "জাবি 'C' ইউনিট (কলা ও মানবিক; সেট : A) ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 2,
+   "question": {
+    "mix": "Pick the appropriate location for this modifier : eating banana pancakes",
+    "en": "Pick the appropriate location for this modifier : eating banana pancakes",
+    "bn": "Pick the appropriate location for this modifier : eating banana pancakes"
+   },
+   "options": {
+    "a": {
+     "mix": "The couple— watched the rain falling from the sky.",
+     "en": "The couple— watched the rain falling from the sky.",
+     "bn": "The couple— watched the rain falling from the sky."
+    },
+    "b": {
+     "mix": "The couple watched the rain— falling from the sky.",
+     "en": "The couple watched the rain— falling from the sky.",
+     "bn": "The couple watched the rain— falling from the sky."
+    },
+    "c": {
+     "mix": "The couple watched the rain falling from the sky —.",
+     "en": "The couple watched the rain falling from the sky —.",
+     "bn": "The couple watched the rain falling from the sky —."
+    },
+    "d": {
+     "mix": "None of these",
+     "en": "None of these",
+     "bn": "None of these"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "খাওয়া (eating) কাজটি the couple দ্বারা সম্পন্ন হয়, the rain বা the sky দ্বারা নয়। তাই couple এর পর modifier হিসেবে eating banana pancakes বসলে বাক্যের অর্থ যথাযথ হয়।",
+    "en": "The act of eating is done by the couple, not by the rain or the sky. So if eating banana pancakes sits as a modifier after couple, the meaning of the sentence becomes proper.",
+    "bn": "খাওয়া (eating) কাজটি the couple দ্বারা সম্পন্ন হয়, the rain বা the sky দ্বারা নয়। তাই couple এর পর modifier হিসেবে eating banana pancakes বসলে বাক্যের অর্থ যথাযথ হয়।"
+   },
+   "source": "জাবি ইউনিট E ২০১৭-১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 3,
+   "question": {
+    "mix": "As the audience watched the game the speed skill and intensity thrilled them.",
+    "en": "As the audience watched the game the speed skill and intensity thrilled them.",
+    "bn": "As the audience watched the game the speed skill and intensity thrilled them."
+   },
+   "options": {
+    "a": {
+     "mix": "game, the speed, skill, and intensity, thrilled.",
+     "en": "game, the speed, skill, and intensity, thrilled.",
+     "bn": "game, the speed, skill, and intensity, thrilled."
+    },
+    "b": {
+     "mix": "game, the speed, skill, and intensity thrilled.",
+     "en": "game, the speed, skill, and intensity thrilled.",
+     "bn": "game, the speed, skill, and intensity thrilled."
+    },
+    "c": {
+     "mix": "game; the speed, skill, and intensity thrilled.",
+     "en": "game; the speed, skill, and intensity thrilled.",
+     "bn": "game; the speed, skill, and intensity thrilled."
+    },
+    "d": {
+     "mix": "game, the speed, skill, and intensity; thrilled.",
+     "en": "game, the speed, skill, and intensity; thrilled.",
+     "bn": "game, the speed, skill, and intensity; thrilled."
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "As যুক্ত দুটি clause-এর মাঝে comma বসে। As যুক্ত clause-এর শেষাংশ the game যারপর একটি comma এবং বাক্যে দুই-এর অধিক noun থাকলে প্রত্যেকটি noun-এর পর comma এবং শেষ noun-এর পূর্বে conjunction হিসেবে and বসে। সুতরাং সঠিক উত্তর (খ)।",
+    "en": "A comma sits between two clauses joined by As. The last part of the As-clause is the game, after which there is one comma, and if there are more than two nouns in a sentence, a comma sits after each noun and and sits as a conjunction before the last noun. So the correct answer is (b).",
+    "bn": "As যুক্ত দুটি clause-এর মাঝে comma বসে। As যুক্ত clause-এর শেষাংশ the game যারপর একটি comma এবং বাক্যে দুই-এর অধিক noun থাকলে প্রত্যেকটি noun-এর পর comma এবং শেষ noun-এর পূর্বে conjunction হিসেবে and বসে। সুতরাং সঠিক উত্তর (খ)।"
+   },
+   "source": "জাবি ইউনিট E ২০১৭-১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 4,
+   "question": {
+    "mix": "After watching the movie 'Centennial', —.",
+    "en": "After watching the movie 'Centennial', —.",
+    "bn": "After watching the movie 'Centennial', —."
+   },
+   "options": {
+    "a": {
+     "mix": "the book was read by many people",
+     "en": "the book was read by many people",
+     "bn": "the book was read by many people"
+    },
+    "b": {
+     "mix": "the book were read by many people",
+     "en": "the book were read by many people",
+     "bn": "the book were read by many people"
+    },
+    "c": {
+     "mix": "many people wanted to read the book",
+     "en": "many people wanted to read the book",
+     "bn": "many people wanted to read the book"
+    },
+    "d": {
+     "mix": "many people wants to read the book",
+     "en": "many people wants to read the book",
+     "bn": "many people wants to read the book"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "After watching the movie 'Centennial', many people wanted to read the book— 'Centennial' ছবিটি দেখার পর অনেকেই বইটি পড়তে চেয়েছিল।",
+    "en": "After watching the movie 'Centennial', many people wanted to read the book — after watching the film 'Centennial', many people wanted to read the book.",
+    "bn": "After watching the movie 'Centennial', many people wanted to read the book— 'Centennial' ছবিটি দেখার পর অনেকেই বইটি পড়তে চেয়েছিল।"
+   },
+   "source": "জাবি ইউনিট E ২০১৭-১৮, ঢাবি ইউনিট C ২০১৭-১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 5,
+   "question": {
+    "mix": "After seeing the movie, —",
+    "en": "After seeing the movie, —",
+    "bn": "After seeing the movie, —"
+   },
+   "options": {
+    "a": {
+     "mix": "the book was read by many people",
+     "en": "the book was read by many people",
+     "bn": "the book was read by many people"
+    },
+    "b": {
+     "mix": "the book made many people want to read it",
+     "en": "the book made many people want to read it",
+     "bn": "the book made many people want to read it"
+    },
+    "c": {
+     "mix": "many people wanted to read the book",
+     "en": "many people wanted to read the book",
+     "bn": "many people wanted to read the book"
+    },
+    "d": {
+     "mix": "the reading of the book interested many people",
+     "en": "the reading of the book interested many people",
+     "bn": "the reading of the book interested many people"
+    },
+    "e": {
+     "mix": "the movie interested many people in the book.",
+     "en": "the movie interested many people in the book.",
+     "bn": "the movie interested many people in the book."
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "After seeing the movie, many people wanted to read the book. ছবিটি দেখার পর অনেক মানুষ বইটি পড়তে চেয়েছিল। বাকি অপশনের বাক্যগুলো after seeing the movie এর পর বসালে বাক্যের অর্থ যথাযথ প্রকাশ পায় না। তাই সঠিক উত্তর (c)।",
+    "en": "After seeing the movie, many people wanted to read the book. After seeing the film, many people wanted to read the book. If the sentences of the other options are placed after 'after seeing the movie', the meaning of the sentence is not properly expressed. So the correct answer is (c).",
+    "bn": "After seeing the movie, many people wanted to read the book. ছবিটি দেখার পর অনেক মানুষ বইটি পড়তে চেয়েছিল। বাকি অপশনের বাক্যগুলো after seeing the movie এর পর বসালে বাক্যের অর্থ যথাযথ প্রকাশ পায় না। তাই সঠিক উত্তর (c)।"
+   },
+   "source": "ঢাবি ইউনিট C ২০১৭-১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 6,
+   "question": {
+    "mix": "—, the passer-by took a nap.",
+    "en": "—, the passer-by took a nap.",
+    "bn": "—, the passer-by took a nap."
+   },
+   "options": {
+    "a": {
+     "mix": "Be tired and exhausted",
+     "en": "Be tired and exhausted",
+     "bn": "Be tired and exhausted"
+    },
+    "b": {
+     "mix": "Having tired and exhausted",
+     "en": "Having tired and exhausted",
+     "bn": "Having tired and exhausted"
+    },
+    "c": {
+     "mix": "After having tired and exhausted",
+     "en": "After having tired and exhausted",
+     "bn": "After having tired and exhausted"
+    },
+    "d": {
+     "mix": "Tired and exhausted",
+     "en": "Tired and exhausted",
+     "bn": "Tired and exhausted"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "বইয়ের উত্তর (খ) 'Having tired and exhausted'। প্রধান clause-এর subject the passer-by-এর সঙ্গে যুক্ত হয়ে phrase-টি তাকেই modify করে; (ক) Be দিয়ে শুরু হওয়া imperative রূপ এখানে বসে না, (গ) After having tired অপ্রচলিত গঠন, আর বইয়ের key অনুযায়ী সঠিক উত্তর (খ)।",
+    "en": "The book's answer is (b) 'Having tired and exhausted'. Joined with the subject of the main clause, the passer-by, the phrase modifies him; the imperative form beginning with Be in (a) does not fit here, (c) After having tired is an unusual structure, and according to the book's key the correct answer is (b).",
+    "bn": "বইয়ের উত্তর (খ) 'Having tired and exhausted'। প্রধান clause-এর subject the passer-by-এর সঙ্গে যুক্ত হয়ে phrase-টি তাকেই modify করে; (ক) Be দিয়ে শুরু হওয়া imperative রূপ এখানে বসে না, (গ) After having tired অপ্রচলিত গঠন, আর বইয়ের key অনুযায়ী সঠিক উত্তর (খ)।"
+   },
+   "source": "ঢাবি বি ইউনিট ২০১৪-১৫",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 7,
+   "question": {
+    "mix": "While biking home before the storm, —.",
+    "en": "While biking home before the storm, —.",
+    "bn": "While biking home before the storm, —."
+   },
+   "options": {
+    "a": {
+     "mix": "the bicycle of Jahan broke down",
+     "en": "the bicycle of Jahan broke down",
+     "bn": "the bicycle of Jahan broke down"
+    },
+    "b": {
+     "mix": "Jahan had an accident",
+     "en": "Jahan had an accident",
+     "bn": "Jahan had an accident"
+    },
+    "c": {
+     "mix": "it happened that Jahan's bike broke down",
+     "en": "it happened that Jahan's bike broke down",
+     "bn": "it happened that Jahan's bike broke down"
+    },
+    "d": {
+     "mix": "the storm caught Jahan",
+     "en": "the storm caught Jahan",
+     "bn": "the storm caught Jahan"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "বাইক চালিয়ে বাড়ি যাওয়ার কাজটি Jahan-এর, bicycle বা storm-এর নয়। (ক)-তে bicycle, (গ)-তে it এবং (ঘ)-তে storm subject হওয়ায় modifier dangling হয়। (খ)-তে Jahan subject হওয়ায় modifier সঠিক শব্দকে modify করে— সঠিক উত্তর (খ)।",
+    "en": "The act of biking home is Jahan's, not the bicycle's or the storm's. In (a) the bicycle, in (c) it and in (d) the storm is the subject, so the modifier dangles. In (b) Jahan is the subject, so the modifier modifies the correct word — the correct answer is (b).",
+    "bn": "বাইক চালিয়ে বাড়ি যাওয়ার কাজটি Jahan-এর, bicycle বা storm-এর নয়। (ক)-তে bicycle, (গ)-তে it এবং (ঘ)-তে storm subject হওয়ায় modifier dangling হয়। (খ)-তে Jahan subject হওয়ায় modifier সঠিক শব্দকে modify করে— সঠিক উত্তর (খ)।"
+   },
+   "source": "ঢাবি খ ইউনিট ২০১৩-১৪",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 8,
+   "question": {
+    "mix": "Choose the correct sentence.",
+    "en": "Choose the correct sentence.",
+    "bn": "Choose the correct sentence."
+   },
+   "options": {
+    "a": {
+     "mix": "Running along the street, I felt as if my nose were frozen.",
+     "en": "Running along the street, I felt as if my nose were frozen.",
+     "bn": "Running along the street, I felt as if my nose were frozen."
+    },
+    "b": {
+     "mix": "As I ran along the street, felt as if my nose was frozen.",
+     "en": "As I ran along the street, felt as if my nose was frozen.",
+     "bn": "As I ran along the street, felt as if my nose was frozen."
+    },
+    "c": {
+     "mix": "Running in the street, I felt my nose frozen.",
+     "en": "Running in the street, I felt my nose frozen.",
+     "bn": "Running in the street, I felt my nose frozen."
+    },
+    "d": {
+     "mix": "My nose had felt frozen when I was runing in the street.",
+     "en": "My nose had felt frozen when I was runing in the street.",
+     "bn": "My nose had felt frozen when I was runing in the street."
+    },
+    "e": {
+     "mix": "Running along the street, I felt as if my nose was frozen.",
+     "en": "Running along the street, I felt as if my nose was frozen.",
+     "bn": "Running along the street, I felt as if my nose was frozen."
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "বইয়ের উত্তর (গ)। (ক) ও (ঙ)-তে as if-এর পর were/was নিয়ে subjunctive-এর অমিল, (খ)-তে প্রধান clause-এর subject নেই, (ঘ)-তে 'runing' বানান ও গঠন ভুল। (গ)-তে Running phrase I-কে সঠিকভাবে modify করে এবং বাক্যটি সম্পূর্ণ— সঠিক উত্তর (গ)।",
+    "en": "The book's answer is (c). In (a) and (e) there is a subjunctive mismatch with were/was after as if, (b) has no subject in the main clause, and (d) has the spelling 'runing' and a wrong structure. In (c) the Running phrase correctly modifies I and the sentence is complete — the correct answer is (c).",
+    "bn": "বইয়ের উত্তর (গ)। (ক) ও (ঙ)-তে as if-এর পর were/was নিয়ে subjunctive-এর অমিল, (খ)-তে প্রধান clause-এর subject নেই, (ঘ)-তে 'runing' বানান ও গঠন ভুল। (গ)-তে Running phrase I-কে সঠিকভাবে modify করে এবং বাক্যটি সম্পূর্ণ— সঠিক উত্তর (গ)।"
+   },
+   "source": "ঢাবি আইবিএ, বিবিএ ২০০৮-০৯",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 9,
+   "question": {
+    "mix": "Plunging into water —",
+    "en": "Plunging into water —",
+    "bn": "Plunging into water —"
+   },
+   "options": {
+    "a": {
+     "mix": "The drowning child was rescued",
+     "en": "The drowning child was rescued",
+     "bn": "The drowning child was rescued"
+    },
+    "b": {
+     "mix": "The drowing child will be rescued",
+     "en": "The drowing child will be rescued",
+     "bn": "The drowing child will be rescued"
+    },
+    "c": {
+     "mix": "The child had been rescued",
+     "en": "The child had been rescued",
+     "bn": "The child had been rescued"
+    },
+    "d": {
+     "mix": "he rescued the drowning child",
+     "en": "he rescued the drowning child",
+     "bn": "he rescued the drowning child"
+    },
+    "e": {
+     "mix": "drowning child rescued he",
+     "en": "drowning child rescued he",
+     "bn": "drowning child rescued he"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "পানিতে ডুব দিয়ে শিশুটিকে উদ্ধার করেছিল 'সে'।",
+    "en": "By plunging into the water, 'he' rescued the child.",
+    "bn": "পানিতে ডুব দিয়ে শিশুটিকে উদ্ধার করেছিল 'সে'।"
+   },
+   "source": "ঢাবি ২০০৮-০৯",
+   "explanation_source": "book"
+  }
+ ],
+ "unclear": [
+  {
+   "page": 482,
+   "note": "Chapter title banner ('CHAPTER 27 — Dangling & Misplaced Modifiers') and book page 464 verified from the page image. Inline MCQ 1 tick against (ক); its Hints names I as the intended word. Inline MCQ 2 tick against (ক) 'dangling participle'; no Hints printed for it, so its explanation is generated."
+  },
+  {
+   "page": 483,
+   "note": "Inline ticks verified from image: MCQ 3 (খ), MCQ 4 (খ), MCQ 5 (গ), MCQ 6 (গ). Rule 27.2.6 gives Dangling/Correct examples only, no MCQ. Margin sources read from image: জাতীয় বিশ্ববিদ্যালয় মানবিক ২০১০-১১; থানা/উপজেলা প্রকৌশলী ১৯৯৯; ঢাকা বিশ্ববিদ্যালয় বি ইউনিট ২০১১-১২; রাজশাহী বিশ্ববিদ্যালয় 'ই' ইউনিট ২০১১-১২."
+  },
+  {
+   "page": 484,
+   "note": "Inline MCQ 7 has five options (ক–ঙ) as printed; answer (গ) ticked. Inline MCQ 8 options printed in two columns; answer (ঘ) ticked. Rule 27.4 and 27.5 Hints are printed inside the rules text and are recorded within the rule bodies' examples, not as separate MCQs."
+  },
+  {
+   "page": 485,
+   "note": "PSC Q1 margin answer 'উত্তর : খ' and Q2 'উত্তর : খ' read from image; PSC Q1 has no printed Hints (explanation generated), Q2 has printed Hints (book). University Q1 margin 'উত্তর : ক', Q2 'উত্তর : ক', Q3 'উত্তর : খ'. University Q1 source reads 'জাবি C ইউনিট (কলা ও মানবিক; সেট : A) ২০১৯-২০' — best-effort reading of the margin."
+  },
+  {
+   "page": 486,
+   "note": "Right margin is under a halftone screen; sources/answers verified from an enlarged margin crop: Q4 জাবি ইউনিট E ২০১৭-১৮ + ঢাবি ইউনিট C ২০১৭-১৮, উত্তর গ; Q5 ঢাবি ইউনিট C ২০১৭-১৮, উত্তর গ; Q6 ঢাবি বি ইউনিট ২০১৪-১৫, উত্তর খ; Q7 ঢাবি খ ইউনিট ২০১৩-১৪, উত্তর খ; Q8 ঢাবি আইবিএ, বিবিএ ২০০৮-০৯, উত্তর গ; Q9 ঢাবি ২০০৮-০৯, উত্তর ঘ. Q4's options are mislabelled in print (খ appears twice); recorded by position as a–d. Q8 option (ঘ) prints 'runing' and Q9 option (খ) prints 'drowing' — spelling kept as printed. Q6–Q8 have no printed Hints (explanations generated)."
+  }
+ ],
+ "translation_source": "generated"
+}

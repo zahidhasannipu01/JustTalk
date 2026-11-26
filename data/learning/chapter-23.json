@@ -1,0 +1,1792 @@
+{
+  "chapter": "Chapter-23: Identification of Phrases",
+  "pages": [
+    435,
+    441
+  ],
+  "rules": [
+    {
+      "heading": {
+        "mix": "Introduction",
+        "en": "Introduction",
+        "bn": "ভূমিকা"
+      },
+      "body": {
+        "mix": "Phrase বাক্যের একটি গুরুত্বপূর্ণ অংশ। Formation, position এবং meaning অনুসারে Parts of Speech-এর বিভিন্ন Category-তে এরা বিভক্ত হতে পারে। আসুন নিচের আলোচনা থেকে জেনে নিই Phrases কীভাবে identify করা যায়।",
+        "en": "A phrase is an important part of a sentence. According to formation, position and meaning, they can be divided into different categories of parts of speech. Let us learn from the discussion below how phrases can be identified.",
+        "bn": "Phrase বাক্যের একটি গুরুত্বপূর্ণ অংশ। Formation, position এবং meaning অনুসারে Parts of Speech-এর বিভিন্ন Category-তে এরা বিভক্ত হতে পারে। আসুন নিচের আলোচনা থেকে জেনে নিই Phrases কীভাবে identify করা যায়।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "23.1 Definition of Phrase",
+        "en": "23.1 Definition of Phrase",
+        "bn": "23.1 Definition of Phrase"
+      },
+      "body": {
+        "mix": "দুই বা ততোধিক শব্দ মিলে যদি একটি Parts of Speech-এর মতো কাজ করে তবে তাকে Phrase বা শব্দগুচ্ছ বলে। Phrase-এ সাধারণত কোনো Finite verb থাকে না।",
+        "en": "If two or more words together do the work of a single part of speech, it is called a phrase. A phrase generally has no finite verb.",
+        "bn": "দুই বা ততোধিক শব্দ মিলে যদি একটি Parts of Speech-এর মতো কাজ করে তবে তাকে Phrase বা শব্দগুচ্ছ বলে। Phrase-এ সাধারণত কোনো Finite verb থাকে না।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "23.2 Kinds of Phrases",
+        "en": "23.2 Kinds of Phrases",
+        "bn": "23.2 Kinds of Phrases"
+      },
+      "body": {
+        "mix": "অর্থ, কাজ ও অবস্থানভেদে Phrase কয়েক প্রকারের হয়ে থাকে। উদাহরণসহ এদের সংজ্ঞা নিচে আলোচনা করা হলো :",
+        "en": "According to meaning, function and position, phrases are of several kinds. Their definitions are discussed below with examples:",
+        "bn": "অর্থ, কাজ ও অবস্থানভেদে Phrase কয়েক প্রকারের হয়ে থাকে। উদাহরণসহ এদের সংজ্ঞা নিচে আলোচনা করা হলো :"
+      }
+    },
+    {
+      "heading": {
+        "mix": "23.2.1 Noun Phrase",
+        "en": "23.2.1 Noun Phrase",
+        "bn": "23.2.1 Noun Phrase"
+      },
+      "body": {
+        "mix": "একাধিক শব্দ নিয়ে গঠিত শব্দগুচ্ছ যদি Noun-এর কাজ করে তবে তাকে Noun Phrase বলে। এখানে খুবই গুরুত্বপূর্ণ একটি কথা মনে রাখতে হবে যে ৬টি বিষয় Noun-এর কাজ করে থাকে :",
+        "en": "If a group of words formed of more than one word does the work of a noun, it is called a noun phrase. Here a very important point has to be kept in mind: six things do the work of a noun:",
+        "bn": "একাধিক শব্দ নিয়ে গঠিত শব্দগুচ্ছ যদি Noun-এর কাজ করে তবে তাকে Noun Phrase বলে। এখানে খুবই গুরুত্বপূর্ণ একটি কথা মনে রাখতে হবে যে ৬টি বিষয় Noun-এর কাজ করে থাকে :"
+      }
+    },
+    {
+      "heading": {
+        "mix": "A. Subject",
+        "en": "A. Subject",
+        "bn": "A. Subject"
+      },
+      "body": {
+        "mix": "দুই বা ততোধিক শব্দ যদি Subject-এর অবস্থানে বসে তাহলে সেই শব্দগুচ্ছ Noun-এর কাজ করবে, আর সেটি হবে Noun Phrase।",
+        "en": "If two or more words sit in the position of the subject, that group of words will do the work of a noun, and it will be a noun phrase.",
+        "bn": "দুই বা ততোধিক শব্দ যদি Subject-এর অবস্থানে বসে তাহলে সেই শব্দগুচ্ছ Noun-এর কাজ করবে, আর সেটি হবে Noun Phrase।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "B. Object",
+        "en": "B. Object",
+        "bn": "B. Object"
+      },
+      "body": {
+        "mix": "Object সবসময় Noun-এর কাজ করে। তাই Object-এর স্থলে যে শব্দগুচ্ছ আসবে সেটি হবে Noun Phrase। যেমন— I know the names of those girls. (Noun phrase as object)",
+        "en": "An object always does the work of a noun. So the group of words that comes in the place of the object will be a noun phrase. For example — I know the names of those girls. (Noun phrase as object)",
+        "bn": "Object সবসময় Noun-এর কাজ করে। তাই Object-এর স্থলে যে শব্দগুচ্ছ আসবে সেটি হবে Noun Phrase। যেমন— I know the names of those girls. (Noun phrase as object)"
+      }
+    },
+    {
+      "heading": {
+        "mix": "C. Preposition-এর Object",
+        "en": "C. Object of a Preposition",
+        "bn": "C. Preposition-এর Object"
+      },
+      "body": {
+        "mix": "Preposition-এর পরে যে শব্দগুচ্ছ আসে তা Noun Phrase। তেমনি Determiners-এর পরেও Noun হয়। যেমন— He came to our house.",
+        "en": "The group of words that comes after a preposition is a noun phrase. Similarly, a noun also comes after determiners. For example — He came to our house.",
+        "bn": "Preposition-এর পরে যে শব্দগুচ্ছ আসে তা Noun Phrase। তেমনি Determiners-এর পরেও Noun হয়। যেমন— He came to our house."
+      }
+    },
+    {
+      "heading": {
+        "mix": "D. Subject Complement",
+        "en": "D. Subject Complement",
+        "bn": "D. Subject Complement"
+      },
+      "body": {
+        "mix": "Verb-এর পরের অংশ যদি Subject-এর সমান হয় বা Subject কেই নির্দেশ করে তাহলে Verb-এর পরের অংশকে উক্ত Subject-এর Complement বলে।",
+        "en": "If the part after the verb is equal to the subject or points to the subject itself, the part after the verb is called the complement of that subject.",
+        "bn": "Verb-এর পরের অংশ যদি Subject-এর সমান হয় বা Subject কেই নির্দেশ করে তাহলে Verb-এর পরের অংশকে উক্ত Subject-এর Complement বলে।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "E. Object Complement",
+        "en": "E. Object Complement",
+        "bn": "E. Object Complement"
+      },
+      "body": {
+        "mix": "পাশাপাশি অবস্থিত দুটি Object-এর মধ্যে ২য় Object টি দ্বারা যদি ১ম টিকেই বুঝায় তাহলে ২য় টিকে ১ম টির Object Complement বলে। Object Complement সাধারণত Noun-এর কাজ করে। যেমন— We elected Rana captain of our class. (obj. complement.)",
+        "en": "Of two objects placed side by side, if the second object denotes the first one itself, the second is called the object complement of the first. An object complement generally does the work of a noun. For example — We elected Rana captain of our class. (obj. complement.)",
+        "bn": "পাশাপাশি অবস্থিত দুটি Object-এর মধ্যে ২য় Object টি দ্বারা যদি ১ম টিকেই বুঝায় তাহলে ২য় টিকে ১ম টির Object Complement বলে। Object Complement সাধারণত Noun-এর কাজ করে। যেমন— We elected Rana captain of our class. (obj. complement.)"
+      }
+    },
+    {
+      "heading": {
+        "mix": "F. Appositive",
+        "en": "F. Appositive",
+        "bn": "F. Appositive"
+      },
+      "body": {
+        "mix": "কোনো Noun-এর পরিচিতিমূলক বর্ণনা দেয় এমন শব্দগুচ্ছকে Appositive বা Case in Apposition বলে। Appositive noun-এর কাজ করে বিধায় এটি Noun Phrase হয়। যেমন— Masud Rana, the captain of our class, is a gentle boy.",
+        "en": "A group of words that gives a descriptive identification of a noun is called an appositive, or case in apposition. Since an appositive does the work of a noun, it is a noun phrase. For example — Masud Rana, the captain of our class, is a gentle boy.",
+        "bn": "কোনো Noun-এর পরিচিতিমূলক বর্ণনা দেয় এমন শব্দগুচ্ছকে Appositive বা Case in Apposition বলে। Appositive noun-এর কাজ করে বিধায় এটি Noun Phrase হয়। যেমন— Masud Rana, the captain of our class, is a gentle boy."
+      }
+    },
+    {
+      "heading": {
+        "mix": "23.2.2 Adjective Phrase",
+        "en": "23.2.2 Adjective Phrase",
+        "bn": "23.2.2 Adjective Phrase"
+      },
+      "body": {
+        "mix": "যে শব্দগুচ্ছ Noun-এর পূর্বে বা পরে বসে উক্ত Noun-কে বিশেষিত (modify) করে তাকে Adjective Phrase বলে। যেমন— He bought a golden ring. (adj) He bought a ring made of gold. (adj. phrase) The cat on the mat is fat. Hints : এখানে on the mat একটি Prepositional Phrase যা Cat noun-কে modify করায় Adjective Phrase হয়েছে। On the mat নামে Prepositional Phrase হলেও এটির function বা কাজ হচ্ছে—Adjective Phrase। উল্লেখ্য যে, The cat on the mat এখানে Subject হিসেবে Noun Phrase। অন্যদিকে The fat cat sat on the mat বাক্যে on the mat শব্দগুচ্ছটি sat verb-কে modify করায় Adverbial Phrase হবে।",
+        "en": "A group of words that sits before or after a noun and qualifies (modifies) that noun is called an adjective phrase. For example — He bought a golden ring. (adj) He bought a ring made of gold. (adj. phrase) The cat on the mat is fat. Hints : Here 'on the mat' is a prepositional phrase which, because it modifies the noun 'cat', has become an adjective phrase. Although 'on the mat' is a prepositional phrase by name, its function or work is that of an adjective phrase. It is to be noted that 'The cat on the mat' here is a noun phrase as the subject. On the other hand, in the sentence 'The fat cat sat on the mat', the group of words 'on the mat' modifies the verb 'sat', so it will be an adverbial phrase.",
+        "bn": "যে শব্দগুচ্ছ Noun-এর পূর্বে বা পরে বসে উক্ত Noun-কে বিশেষিত (modify) করে তাকে Adjective Phrase বলে। যেমন— He bought a golden ring. (adj) He bought a ring made of gold. (adj. phrase) The cat on the mat is fat. Hints : এখানে on the mat একটি Prepositional Phrase যা Cat noun-কে modify করায় Adjective Phrase হয়েছে। On the mat নামে Prepositional Phrase হলেও এটির function বা কাজ হচ্ছে—Adjective Phrase। উল্লেখ্য যে, The cat on the mat এখানে Subject হিসেবে Noun Phrase। অন্যদিকে The fat cat sat on the mat বাক্যে on the mat শব্দগুচ্ছটি sat verb-কে modify করায় Adverbial Phrase হবে।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "23.2.3 Verbal Phrase",
+        "en": "23.2.3 Verbal Phrase",
+        "bn": "23.2.3 Verbal Phrase"
+      },
+      "body": {
+        "mix": "কোনো শব্দগুচ্ছ যদি verb-এর মতো কাজ করে তবে তাকে Verbal phrase বলে। যেমন— Do not look down upon the poor.",
+        "en": "If a group of words does the work of a verb, it is called a verbal phrase. For example — Do not look down upon the poor.",
+        "bn": "কোনো শব্দগুচ্ছ যদি verb-এর মতো কাজ করে তবে তাকে Verbal phrase বলে। যেমন— Do not look down upon the poor."
+      }
+    },
+    {
+      "heading": {
+        "mix": "23.2.4 Adverbial Phrase",
+        "en": "23.2.4 Adverbial Phrase",
+        "bn": "23.2.4 Adverbial Phrase"
+      },
+      "body": {
+        "mix": "যে শব্দগুচ্ছ Verb-কে modify করে তাকে Adverbial Phrase বলে। Verb-কে, কী বা কাকে দ্বারা প্রশ্ন করলে object (Noun) পাওয়া যায় কিন্তু How, Where, When, Why দ্বারা প্রশ্ন করলে Adverb পাওয়া যায়।",
+        "en": "A group of words that modifies a verb is called an adverbial phrase. If the verb is questioned with what or whom, the object (noun) is found, but if it is questioned with How, Where, When or Why, an adverb is found.",
+        "bn": "যে শব্দগুচ্ছ Verb-কে modify করে তাকে Adverbial Phrase বলে। Verb-কে, কী বা কাকে দ্বারা প্রশ্ন করলে object (Noun) পাওয়া যায় কিন্তু How, Where, When, Why দ্বারা প্রশ্ন করলে Adverb পাওয়া যায়।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "23.2.5 Prepositional Phrase",
+        "en": "23.2.5 Prepositional Phrase",
+        "bn": "23.2.5 Prepositional Phrase"
+      },
+      "body": {
+        "mix": "দুই বা ততোধিক শব্দ যদি একটিমাত্র Preposition-এর মতো ব্যবহৃত হয় তবে তাকে Prepositional Phrase বলে। অনুরূপভাবে, কোনো Simple Preposition তার পরবর্তী Noun/Noun Phrase সহ Prepositional Phrase গঠন করতে পারে। Note : নামে Prepositional Phrase হলেও function বা কাজের দিক দিয়ে এটি হয় Adverbial Phrase নয়তো Adjective Phrase। যেমন— The cat on the mat is fat. (N, adj. phrase) The fat cat sat on the mat. (v, adv. phrase) একই Prepositional Phrase টি ১ম বাক্যে পূর্ববর্তী noun-কে modify করার কারণে Adjective Phrase এবং ২য় বাক্যে পূর্ববর্তী verb-কে modify করায় Adverbial phrase হয়েছে।",
+        "en": "If two or more words are used like a single preposition, it is called a prepositional phrase. Similarly, a simple preposition together with the noun/noun phrase after it can form a prepositional phrase. Note : Although it is a prepositional phrase by name, by function or work it is either an adverbial phrase or an adjective phrase. For example — The cat on the mat is fat. (N, adj. phrase) The fat cat sat on the mat. (v, adv. phrase) The same prepositional phrase has become an adjective phrase in the first sentence because it modifies the preceding noun, and an adverbial phrase in the second sentence because it modifies the preceding verb.",
+        "bn": "দুই বা ততোধিক শব্দ যদি একটিমাত্র Preposition-এর মতো ব্যবহৃত হয় তবে তাকে Prepositional Phrase বলে। অনুরূপভাবে, কোনো Simple Preposition তার পরবর্তী Noun/Noun Phrase সহ Prepositional Phrase গঠন করতে পারে। Note : নামে Prepositional Phrase হলেও function বা কাজের দিক দিয়ে এটি হয় Adverbial Phrase নয়তো Adjective Phrase। যেমন— The cat on the mat is fat. (N, adj. phrase) The fat cat sat on the mat. (v, adv. phrase) একই Prepositional Phrase টি ১ম বাক্যে পূর্ববর্তী noun-কে modify করার কারণে Adjective Phrase এবং ২য় বাক্যে পূর্ববর্তী verb-কে modify করায় Adverbial phrase হয়েছে।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "23.2.6 Conjunctional Phrase",
+        "en": "23.2.6 Conjunctional Phrase",
+        "bn": "23.2.6 Conjunctional Phrase"
+      },
+      "body": {
+        "mix": "কোনো শব্দগুচ্ছ যদি একটিমাত্র Conjunction-এর মতো কাজ করে তাহলে তাকে Conjunctional Phrase বলে। যেমন— as well as, as soon as, as far as, along with, as much as ইত্যাদি।",
+        "en": "If a group of words does the work of a single conjunction, it is called a conjunctional phrase. For example — as well as, as soon as, as far as, along with, as much as etc.",
+        "bn": "কোনো শব্দগুচ্ছ যদি একটিমাত্র Conjunction-এর মতো কাজ করে তাহলে তাকে Conjunctional Phrase বলে। যেমন— as well as, as soon as, as far as, along with, as much as ইত্যাদি।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "23.2.7 Interjectional Phrase",
+        "en": "23.2.7 Interjectional Phrase",
+        "bn": "23.2.7 Interjectional Phrase"
+      },
+      "body": {
+        "mix": "কয়েকটি শব্দ মিলে যদি Interjection-এর কাজ করে তবে তাকে Interjectional Phrase বলে।",
+        "en": "If several words together do the work of an interjection, it is called an interjectional phrase.",
+        "bn": "কয়েকটি শব্দ মিলে যদি Interjection-এর কাজ করে তবে তাকে Interjectional Phrase বলে।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "23.2.8 Participle Phrase",
+        "en": "23.2.8 Participle Phrase",
+        "bn": "23.2.8 Participle Phrase"
+      },
+      "body": {
+        "mix": "যে কোনো Participle তার object বা adverbial সহ Participle Phrase গঠন করে থাকে।",
+        "en": "Any participle, together with its object or adverbial, forms a participle phrase.",
+        "bn": "যে কোনো Participle তার object বা adverbial সহ Participle Phrase গঠন করে থাকে।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "23.2.9 Infinitive Phrase",
+        "en": "23.2.9 Infinitive Phrase",
+        "bn": "23.2.9 Infinitive Phrase"
+      },
+      "body": {
+        "mix": "Infinitive তার object বা adverbial সহ Infinitive Phrase গঠন করে। উল্লেখ্য যে Noun-এর ৬টি function অনুযায়ী Infinitive Phrase যদি subject বা object-এর স্থলে আসে তাহলে সেটি Noun Phrase হবে। যেমন— I want to know his name.",
+        "en": "An infinitive, together with its object or adverbial, forms an infinitive phrase. It is to be noted that, according to the six functions of a noun, if an infinitive phrase comes in the place of the subject or the object, it will be a noun phrase. For example — I want to know his name.",
+        "bn": "Infinitive তার object বা adverbial সহ Infinitive Phrase গঠন করে। উল্লেখ্য যে Noun-এর ৬টি function অনুযায়ী Infinitive Phrase যদি subject বা object-এর স্থলে আসে তাহলে সেটি Noun Phrase হবে। যেমন— I want to know his name."
+      }
+    }
+  ],
+  "mcqs": [
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 1,
+      "question": {
+        "mix": "What is phrase?",
+        "en": "What is phrase?",
+        "bn": "Phrase কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "A group of words to express certain idea.",
+          "en": "A group of words to express certain idea.",
+          "bn": "A group of words to express certain idea."
+        },
+        "b": {
+          "mix": "Nouns and verbs are combined together to express certain idea.",
+          "en": "Nouns and verbs are combined together to express certain idea.",
+          "bn": "Nouns and verbs are combined together to express certain idea."
+        },
+        "c": {
+          "mix": "Nouns and adjectives are combined together to express ideas.",
+          "en": "Nouns and adjectives are combined together to express ideas.",
+          "bn": "Nouns and adjectives are combined together to express ideas."
+        },
+        "d": {
+          "mix": "A group of related words used as single parts of speech.",
+          "en": "A group of related words used as single parts of speech.",
+          "bn": "A group of related words used as single parts of speech."
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "দুই বা ততোধিক শব্দ মিলে যদি একটি Parts of Speech-এর মতো কাজ করে তবে তাকে Phrase বলে (Rule 23.1)। (ঘ) 'A group of related words used as single parts of speech' সংজ্ঞাটির সঙ্গে হুবহু মেলে। (ক) শুধু idea প্রকাশের কথা বলেছে, single part of speech হিসেবে কাজের কথা বলেনি; (খ) ও (গ) noun ও verb বা noun ও adjective-এর সংমিশ্রণের কথা বলেছে, যা Phrase-এর সংজ্ঞা নয়।",
+        "en": "If two or more words together do the work of a single part of speech, it is called a phrase (Rule 23.1). (d) 'A group of related words used as single parts of speech' matches the definition exactly. (a) speaks only of expressing an idea, not of working as a single part of speech; (b) and (c) speak of a combination of nouns and verbs or of nouns and adjectives, which is not the definition of a phrase.",
+        "bn": "দুই বা ততোধিক শব্দ মিলে যদি একটি Parts of Speech-এর মতো কাজ করে তবে তাকে Phrase বলে (Rule 23.1)। (ঘ) 'A group of related words used as single parts of speech' সংজ্ঞাটির সঙ্গে হুবহু মেলে। (ক) শুধু idea প্রকাশের কথা বলেছে, single part of speech হিসেবে কাজের কথা বলেনি; (খ) ও (গ) noun ও verb বা noun ও adjective-এর সংমিশ্রণের কথা বলেছে, যা Phrase-এর সংজ্ঞা নয়।"
+      },
+      "source": "যুব উন্নয়ন অধিদপ্তরের সহকারী পরিচালক-৯৪, রাজশাহী ভর্তি BBA ২০০৩-০৪",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 2,
+      "question": {
+        "mix": "Qualifying in the admission test is not easy.",
+        "en": "Qualifying in the admission test is not easy.",
+        "bn": "Qualifying in the admission test is not easy."
+      },
+      "options": {
+        "a": {
+          "mix": "main phrase",
+          "en": "main phrase",
+          "bn": "main phrase"
+        },
+        "b": {
+          "mix": "noun phrase",
+          "en": "noun phrase",
+          "bn": "noun phrase"
+        },
+        "c": {
+          "mix": "adjective phrase",
+          "en": "adjective phrase",
+          "bn": "adjective phrase"
+        },
+        "d": {
+          "mix": "adverbial phrase",
+          "en": "adverbial phrase",
+          "bn": "adverbial phrase"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "দুই বা ততোধিক শব্দ যদি Subject-এর অবস্থানে বসে তাহলে সেই শব্দগুচ্ছ Noun Phrase হয় (Rule 23.2.1 A)। 'Qualifying in the admission test' বাক্যের subject, তাই noun phrase। main phrase নামে কোনো phrase নেই; adjective phrase noun-কে ও adverbial phrase verb-কে modify করে।",
+        "en": "If two or more words sit in the position of the subject, that group of words is a noun phrase (Rule 23.2.1 A). 'Qualifying in the admission test' is the subject of the sentence, so it is a noun phrase. There is no phrase called a main phrase; an adjective phrase modifies a noun and an adverbial phrase modifies a verb.",
+        "bn": "দুই বা ততোধিক শব্দ যদি Subject-এর অবস্থানে বসে তাহলে সেই শব্দগুচ্ছ Noun Phrase হয় (Rule 23.2.1 A)। 'Qualifying in the admission test' বাক্যের subject, তাই noun phrase। main phrase নামে কোনো phrase নেই; adjective phrase noun-কে ও adverbial phrase verb-কে modify করে।"
+      },
+      "source": "রাজশাহী বিশ্ববিদ্যালয় 'খ' ইউনিট ২০১২-১৩",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 3,
+      "question": {
+        "mix": "I have no kith and kin in this town.",
+        "en": "I have no kith and kin in this town.",
+        "bn": "I have no kith and kin in this town."
+      },
+      "options": {
+        "a": {
+          "mix": "Noun phrase",
+          "en": "Noun phrase",
+          "bn": "Noun phrase"
+        },
+        "b": {
+          "mix": "Prepositional phrase",
+          "en": "Prepositional phrase",
+          "bn": "Prepositional phrase"
+        },
+        "c": {
+          "mix": "Adjective phrase",
+          "en": "Adjective phrase",
+          "bn": "Adjective phrase"
+        },
+        "d": {
+          "mix": "Conjunctional phrase",
+          "en": "Conjunctional phrase",
+          "bn": "Conjunctional phrase"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Hints : এখানে no শব্দটি Determiner হওয়ায় এর পরের শব্দগুচ্ছটি Noun Phrase হবে।",
+        "en": "Hints : Here the word 'no' is a determiner, so the group of words after it will be a noun phrase.",
+        "bn": "Hints : এখানে no শব্দটি Determiner হওয়ায় এর পরের শব্দগুচ্ছটি Noun Phrase হবে।"
+      },
+      "source": "কারা তত্ত্বাবধায়ক ২০০৬",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 4,
+      "question": {
+        "mix": "Bipul is a man of letters.",
+        "en": "Bipul is a man of letters.",
+        "bn": "Bipul is a man of letters."
+      },
+      "options": {
+        "a": {
+          "mix": "Noun phrase",
+          "en": "Noun phrase",
+          "bn": "Noun phrase"
+        },
+        "b": {
+          "mix": "Verbal phrase",
+          "en": "Verbal phrase",
+          "bn": "Verbal phrase"
+        },
+        "c": {
+          "mix": "Adjective phrase",
+          "en": "Adjective phrase",
+          "bn": "Adjective phrase"
+        },
+        "d": {
+          "mix": "Infinitive phrase",
+          "en": "Infinitive phrase",
+          "bn": "Infinitive phrase"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Hints : এখানে Bipul = man of letters। তাই verb-এর পরের অংশটি Subject Complement হিসেবে Noun phrase।",
+        "en": "Hints : Here Bipul = man of letters. So the part after the verb is a noun phrase as the subject complement.",
+        "bn": "Hints : এখানে Bipul = man of letters। তাই verb-এর পরের অংশটি Subject Complement হিসেবে Noun phrase।"
+      },
+      "source": "রাজশাহী বিশ্ববিদ্যালয় 'আইন' ইউনিট ২০০৩-০৪",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 5,
+      "question": {
+        "mix": "What type of phrase/clause are the following underlined words : A woman with a veil over her body approached the doctor.",
+        "en": "What type of phrase/clause are the following underlined words : A woman with a veil over her body approached the doctor.",
+        "bn": "নিচের underline করা শব্দগুলো কোন ধরনের phrase/clause : A woman with a veil over her body approached the doctor."
+      },
+      "options": {
+        "a": {
+          "mix": "Verbal phrase",
+          "en": "Verbal phrase",
+          "bn": "Verbal phrase"
+        },
+        "b": {
+          "mix": "Adverbial phrase",
+          "en": "Adverbial phrase",
+          "bn": "Adverbial phrase"
+        },
+        "c": {
+          "mix": "Adjective phrase",
+          "en": "Adjective phrase",
+          "bn": "Adjective phrase"
+        },
+        "d": {
+          "mix": "Prepositional phrase",
+          "en": "Prepositional phrase",
+          "bn": "Prepositional phrase"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "'with a veil over her body' শব্দগুচ্ছটি woman noun-কে modify করছে, তাই Adjective Phrase (Rule 23.2.2)। Verbal phrase verb-এর মতো কাজ করে; adverbial phrase verb-কে modify করে; নামে prepositional phrase হলেও function বা কাজের দিক দিয়ে এটি adjective phrase।",
+        "en": "The group of words 'with a veil over her body' modifies the noun 'woman', so it is an adjective phrase (Rule 23.2.2). A verbal phrase does the work of a verb; an adverbial phrase modifies a verb; although it is a prepositional phrase by name, by function or work it is an adjective phrase.",
+        "bn": "'with a veil over her body' শব্দগুচ্ছটি woman noun-কে modify করছে, তাই Adjective Phrase (Rule 23.2.2)। Verbal phrase verb-এর মতো কাজ করে; adverbial phrase verb-কে modify করে; নামে prepositional phrase হলেও function বা কাজের দিক দিয়ে এটি adjective phrase।"
+      },
+      "source": "",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 6,
+      "question": {
+        "mix": "There is no hard and fast rule in film making. The underlined part is —",
+        "en": "There is no hard and fast rule in film making. The underlined part is —",
+        "bn": "There is no hard and fast rule in film making. underline করা অংশটি —"
+      },
+      "options": {
+        "a": {
+          "mix": "prepositional phrase",
+          "en": "prepositional phrase",
+          "bn": "prepositional phrase"
+        },
+        "b": {
+          "mix": "adjective phrase",
+          "en": "adjective phrase",
+          "bn": "adjective phrase"
+        },
+        "c": {
+          "mix": "adverbial phrase",
+          "en": "adverbial phrase",
+          "bn": "adverbial phrase"
+        },
+        "d": {
+          "mix": "noun phrase",
+          "en": "noun phrase",
+          "bn": "noun phrase"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Hints : Hard and fast শব্দগুচ্ছটি rule noun-কে modify করায় adjective phrase হয়েছে।",
+        "en": "Hints : The group of words 'hard and fast' modifies the noun 'rule', so it has become an adjective phrase.",
+        "bn": "Hints : Hard and fast শব্দগুচ্ছটি rule noun-কে modify করায় adjective phrase হয়েছে।"
+      },
+      "source": "ঢাকা বিশ্ববিদ্যালয় 'সি' ইউনিট ২০০০-০১; রাজশাহী বিশ্ববিদ্যালয় ২০১২-১৩",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 7,
+      "question": {
+        "mix": "'We look for the brilliant students' What kind of phrase is 'look for'",
+        "en": "'We look for the brilliant students' What kind of phrase is 'look for'",
+        "bn": "'We look for the brilliant students' — 'look for' কোন ধরনের phrase"
+      },
+      "options": {
+        "a": {
+          "mix": "Adjective phrase",
+          "en": "Adjective phrase",
+          "bn": "Adjective phrase"
+        },
+        "b": {
+          "mix": "Verbal phrase",
+          "en": "Verbal phrase",
+          "bn": "Verbal phrase"
+        },
+        "c": {
+          "mix": "Adverbial phrase",
+          "en": "Adverbial phrase",
+          "bn": "Adverbial phrase"
+        },
+        "d": {
+          "mix": "Noun phrase",
+          "en": "Noun phrase",
+          "bn": "Noun phrase"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "'look for' শব্দগুচ্ছটি verb-এর মতো কাজ করে, তাই Verbal phrase (Rule 23.2.3)। Adjective phrase noun-কে modify করে; adverbial phrase verb-কে modify করে; noun phrase noun-এর কাজ করে— কোনোটিই এখানে খাটে না।",
+        "en": "The group of words 'look for' does the work of a verb, so it is a verbal phrase (Rule 23.2.3). An adjective phrase modifies a noun; an adverbial phrase modifies a verb; a noun phrase does the work of a noun — none of these fits here.",
+        "bn": "'look for' শব্দগুচ্ছটি verb-এর মতো কাজ করে, তাই Verbal phrase (Rule 23.2.3)। Adjective phrase noun-কে modify করে; adverbial phrase verb-কে modify করে; noun phrase noun-এর কাজ করে— কোনোটিই এখানে খাটে না।"
+      },
+      "source": "রাজশাহী বিশ্ববিদ্যালয় এফ ইউনিট ২০০৮-০৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 8,
+      "question": {
+        "mix": "Last week he received the amount.",
+        "en": "Last week he received the amount.",
+        "bn": "Last week he received the amount."
+      },
+      "options": {
+        "a": {
+          "mix": "adjectival phrase",
+          "en": "adjectival phrase",
+          "bn": "adjectival phrase"
+        },
+        "b": {
+          "mix": "relative phrase",
+          "en": "relative phrase",
+          "bn": "relative phrase"
+        },
+        "c": {
+          "mix": "adverbial phrase",
+          "en": "adverbial phrase",
+          "bn": "adverbial phrase"
+        },
+        "d": {
+          "mix": "subordinating phrase",
+          "en": "subordinating phrase",
+          "bn": "subordinating phrase"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Hints : এখানে received verb কে when (কখন) দ্বারা প্রশ্ন করলে উত্তর পাওয়া যায় Last week। তাই এটি adverbial phrase।",
+        "en": "Hints : Here, if the verb 'received' is questioned with when, the answer found is 'Last week'. So it is an adverbial phrase.",
+        "bn": "Hints : এখানে received verb কে when (কখন) দ্বারা প্রশ্ন করলে উত্তর পাওয়া যায় Last week। তাই এটি adverbial phrase।"
+      },
+      "source": "",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 9,
+      "question": {
+        "mix": "He lives in the suburb of Dhaka. The underlined phrase is—",
+        "en": "He lives in the suburb of Dhaka. The underlined phrase is—",
+        "bn": "He lives in the suburb of Dhaka. underline করা phrase-টি—"
+      },
+      "options": {
+        "a": {
+          "mix": "a noun phrase",
+          "en": "a noun phrase",
+          "bn": "a noun phrase"
+        },
+        "b": {
+          "mix": "an adjective phrase",
+          "en": "an adjective phrase",
+          "bn": "an adjective phrase"
+        },
+        "c": {
+          "mix": "an adverbial phrase",
+          "en": "an adverbial phrase",
+          "bn": "an adverbial phrase"
+        },
+        "d": {
+          "mix": "an infinitive phrase",
+          "en": "an infinitive phrase",
+          "bn": "an infinitive phrase"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "'in the suburb of Dhaka' শব্দগুচ্ছটি lives verb-কে modify করছে (কোথায় থাকে— where দ্বারা প্রশ্নের উত্তর), তাই an adverbial phrase (Rule 23.2.4)। noun phrase noun-এর কাজ করে; adjective phrase noun-কে modify করে; infinitive phrase infinitive দিয়ে গঠিত হয়।",
+        "en": "The group of words 'in the suburb of Dhaka' modifies the verb 'lives' (where does he live — the answer to a question with 'where'), so it is an adverbial phrase (Rule 23.2.4). A noun phrase does the work of a noun; an adjective phrase modifies a noun; an infinitive phrase is formed with an infinitive.",
+        "bn": "'in the suburb of Dhaka' শব্দগুচ্ছটি lives verb-কে modify করছে (কোথায় থাকে— where দ্বারা প্রশ্নের উত্তর), তাই an adverbial phrase (Rule 23.2.4)। noun phrase noun-এর কাজ করে; adjective phrase noun-কে modify করে; infinitive phrase infinitive দিয়ে গঠিত হয়।"
+      },
+      "source": "রাজশাহী বিশ্ববিদ্যালয় ২০১০-১১",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 10,
+      "question": {
+        "mix": "Identify the underlined phrase : He was absent on account of illness.",
+        "en": "Identify the underlined phrase : He was absent on account of illness.",
+        "bn": "underline করা phrase-টি চিহ্নিত করো : He was absent on account of illness."
+      },
+      "options": {
+        "a": {
+          "mix": "Conjunctional phrase",
+          "en": "Conjunctional phrase",
+          "bn": "Conjunctional phrase"
+        },
+        "b": {
+          "mix": "Adjective phrase",
+          "en": "Adjective phrase",
+          "bn": "Adjective phrase"
+        },
+        "c": {
+          "mix": "Adverbial phrase",
+          "en": "Adverbial phrase",
+          "bn": "Adverbial phrase"
+        },
+        "d": {
+          "mix": "Prepositional phrase",
+          "en": "Prepositional phrase",
+          "bn": "Prepositional phrase"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "'on account of' একটিমাত্র Preposition (because of)-এর মতো ব্যবহৃত হয়েছে, তাই Prepositional Phrase (Rule 23.2.5)। Conjunctional phrase conjunction-এর কাজ করে; adjective phrase noun-কে ও adverbial phrase verb-কে modify করে।",
+        "en": "'on account of' is used like a single preposition (because of), so it is a prepositional phrase (Rule 23.2.5). A conjunctional phrase does the work of a conjunction; an adjective phrase modifies a noun and an adverbial phrase modifies a verb.",
+        "bn": "'on account of' একটিমাত্র Preposition (because of)-এর মতো ব্যবহৃত হয়েছে, তাই Prepositional Phrase (Rule 23.2.5)। Conjunctional phrase conjunction-এর কাজ করে; adjective phrase noun-কে ও adverbial phrase verb-কে modify করে।"
+      },
+      "source": "ইসলামী বিশ্ববিদ্যালয় ২০১০-১১",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 11,
+      "question": {
+        "mix": "Raihan stood in front of me.",
+        "en": "Raihan stood in front of me.",
+        "bn": "Raihan stood in front of me."
+      },
+      "options": {
+        "a": {
+          "mix": "Noun phrase",
+          "en": "Noun phrase",
+          "bn": "Noun phrase"
+        },
+        "b": {
+          "mix": "Verbal phrase",
+          "en": "Verbal phrase",
+          "bn": "Verbal phrase"
+        },
+        "c": {
+          "mix": "Prepositional phrase",
+          "en": "Prepositional phrase",
+          "bn": "Prepositional phrase"
+        },
+        "d": {
+          "mix": "Adjective phrase",
+          "en": "Adjective phrase",
+          "bn": "Adjective phrase"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Hints : এখানে In front of বিচ্ছিন্নভাবে Preposition-এর মতো কাজ করেছে যাকে before দ্বারা পরিবর্তিত করা যায়। উল্লেখ্য যে, আন্ডার লাইন যদি in front of me পর্যন্ত দেয়া থাকে, তাহলে stood verb-কে modify করার কারণে তা Adverbial Phrase হবে।",
+        "en": "Hints : Here 'in front of' has worked separately like a preposition, which can be replaced by 'before'. It is to be noted that if the underline is given up to 'in front of me', it will be an adverbial phrase, because it modifies the verb 'stood'.",
+        "bn": "Hints : এখানে In front of বিচ্ছিন্নভাবে Preposition-এর মতো কাজ করেছে যাকে before দ্বারা পরিবর্তিত করা যায়। উল্লেখ্য যে, আন্ডার লাইন যদি in front of me পর্যন্ত দেয়া থাকে, তাহলে stood verb-কে modify করার কারণে তা Adverbial Phrase হবে।"
+      },
+      "source": "স্বরাষ্ট্র মন্ত্রণালয়ের সহকারী পরিচালক (মাদক) ও কারা তত্ত্বাবধায়ক-০৬; রাজশাহী বিশ্ববিদ্যালয় ২০০৯-১০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 12,
+      "question": {
+        "mix": "We were waiting for the bus. The underlined part is —",
+        "en": "We were waiting for the bus. The underlined part is —",
+        "bn": "We were waiting for the bus. underline করা অংশটি —"
+      },
+      "options": {
+        "a": {
+          "mix": "a noun phrase",
+          "en": "a noun phrase",
+          "bn": "a noun phrase"
+        },
+        "b": {
+          "mix": "an infinitive phrase",
+          "en": "an infinitive phrase",
+          "bn": "an infinitive phrase"
+        },
+        "c": {
+          "mix": "a prepositional phrase",
+          "en": "a prepositional phrase",
+          "bn": "a prepositional phrase"
+        },
+        "d": {
+          "mix": "a verb phrase",
+          "en": "a verb phrase",
+          "bn": "a verb phrase"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Hints : মূলত for the bus এখানে waiting verb টিকে modify করার কারণে Adverbial Phrase হওয়ার কথা। কিন্তু বিকল্প উত্তরগুলোতে Adverbial Phrase না থাকায় উত্তর হয়েছে Prepositional Phrase, যদি Adverbial Phrase ও Prepositional Phrase দু'টোই উত্তরে দেয়া থাকত তাহলে সঠিক উত্তর হতো Adverbial Phrase।",
+        "en": "Hints : Basically, 'for the bus' here should have been an adverbial phrase, because it modifies the verb 'waiting'. But as there is no adverbial phrase among the alternative answers, the answer has been prepositional phrase; if both adverbial phrase and prepositional phrase had been given in the answers, the correct answer would have been adverbial phrase.",
+        "bn": "Hints : মূলত for the bus এখানে waiting verb টিকে modify করার কারণে Adverbial Phrase হওয়ার কথা। কিন্তু বিকল্প উত্তরগুলোতে Adverbial Phrase না থাকায় উত্তর হয়েছে Prepositional Phrase, যদি Adverbial Phrase ও Prepositional Phrase দু'টোই উত্তরে দেয়া থাকত তাহলে সঠিক উত্তর হতো Adverbial Phrase।"
+      },
+      "source": "২৮তম বিসিএস",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 13,
+      "question": {
+        "mix": "Fahim as well as his friends has decided to leave London. Here, 'as well as' is a—",
+        "en": "Fahim as well as his friends has decided to leave London. Here, 'as well as' is a—",
+        "bn": "Fahim as well as his friends has decided to leave London. এখানে 'as well as' একটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Conjunctional phrase",
+          "en": "Conjunctional phrase",
+          "bn": "Conjunctional phrase"
+        },
+        "b": {
+          "mix": "Verb phrase",
+          "en": "Verb phrase",
+          "bn": "Verb phrase"
+        },
+        "c": {
+          "mix": "Gerund phrase",
+          "en": "Gerund phrase",
+          "bn": "Gerund phrase"
+        },
+        "d": {
+          "mix": "Adverb phrase",
+          "en": "Adverb phrase",
+          "bn": "Adverb phrase"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "'as well as' একটিমাত্র Conjunction-এর মতো কাজ করে দুটি অংশকে যুক্ত করেছে, তাই Conjunctional Phrase (Rule 23.2.6)। Verb phrase verb-এর কাজ করে; gerund phrase gerund দিয়ে গঠিত হয়; adverb phrase adverb-এর কাজ করে।",
+        "en": "'as well as' does the work of a single conjunction and joins two parts, so it is a conjunctional phrase (Rule 23.2.6). A verb phrase does the work of a verb; a gerund phrase is formed with a gerund; an adverb phrase does the work of an adverb.",
+        "bn": "'as well as' একটিমাত্র Conjunction-এর মতো কাজ করে দুটি অংশকে যুক্ত করেছে, তাই Conjunctional Phrase (Rule 23.2.6)। Verb phrase verb-এর কাজ করে; gerund phrase gerund দিয়ে গঠিত হয়; adverb phrase adverb-এর কাজ করে।"
+      },
+      "source": "কারা তত্ত্বাবধায়ক (স্বরাষ্ট্র মন্ত্রণালয়) ২০১০",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 14,
+      "question": {
+        "mix": "Identify the underlined phrase : What a pity! The man is dead.",
+        "en": "Identify the underlined phrase : What a pity! The man is dead.",
+        "bn": "underline করা phrase-টি চিহ্নিত করো : What a pity! The man is dead."
+      },
+      "options": {
+        "a": {
+          "mix": "Interjectional phrase",
+          "en": "Interjectional phrase",
+          "bn": "Interjectional phrase"
+        },
+        "b": {
+          "mix": "Adverbial phrase",
+          "en": "Adverbial phrase",
+          "bn": "Adverbial phrase"
+        },
+        "c": {
+          "mix": "Prepositional phrase",
+          "en": "Prepositional phrase",
+          "bn": "Prepositional phrase"
+        },
+        "d": {
+          "mix": "Conjunctional phrase",
+          "en": "Conjunctional phrase",
+          "bn": "Conjunctional phrase"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "'What a pity!' কয়েকটি শব্দ মিলে Interjection-এর কাজ করেছে, তাই Interjectional Phrase (Rule 23.2.7)। Adverbial phrase verb-কে, prepositional phrase preposition-এর মতো ও conjunctional phrase conjunction-এর কাজ করে।",
+        "en": "'What a pity!' — several words together do the work of an interjection, so it is an interjectional phrase (Rule 23.2.7). An adverbial phrase modifies a verb; a prepositional phrase works like a preposition and a conjunctional phrase does the work of a conjunction.",
+        "bn": "'What a pity!' কয়েকটি শব্দ মিলে Interjection-এর কাজ করেছে, তাই Interjectional Phrase (Rule 23.2.7)। Adverbial phrase verb-কে, prepositional phrase preposition-এর মতো ও conjunctional phrase conjunction-এর কাজ করে।"
+      },
+      "source": "ইসলামী বিশ্ববিদ্যালয় ২০১০-১১",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 15,
+      "question": {
+        "mix": "Loudly knocking at the door, he demanded admission.",
+        "en": "Loudly knocking at the door, he demanded admission.",
+        "bn": "Loudly knocking at the door, he demanded admission."
+      },
+      "options": {
+        "a": {
+          "mix": "Noun phrase",
+          "en": "Noun phrase",
+          "bn": "Noun phrase"
+        },
+        "b": {
+          "mix": "Adjective phrase",
+          "en": "Adjective phrase",
+          "bn": "Adjective phrase"
+        },
+        "c": {
+          "mix": "Adverb phrase",
+          "en": "Adverb phrase",
+          "bn": "Adverb phrase"
+        },
+        "d": {
+          "mix": "Participle phrase",
+          "en": "Participle phrase",
+          "bn": "Participle phrase"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Participle 'knocking' তার adverbial 'loudly' ও পরের অংশসহ Participle Phrase গঠন করেছে (Rule 23.2.8)। Noun phrase noun-এর কাজ করে; adjective phrase noun-কে modify করে; adverb phrase adverb-এর কাজ করে।",
+        "en": "The participle 'knocking', together with its adverbial 'loudly' and what follows it, forms a participle phrase (Rule 23.2.8). A noun phrase does the work of a noun; an adjective phrase modifies a noun; an adverb phrase does the work of an adverb.",
+        "bn": "Participle 'knocking' তার adverbial 'loudly' ও পরের অংশসহ Participle Phrase গঠন করেছে (Rule 23.2.8)। Noun phrase noun-এর কাজ করে; adjective phrase noun-কে modify করে; adverb phrase adverb-এর কাজ করে।"
+      },
+      "source": "থানা শিক্ষা অফিসার ১৯৯৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 16,
+      "question": {
+        "mix": "I am glad to know your success.",
+        "en": "I am glad to know your success.",
+        "bn": "I am glad to know your success."
+      },
+      "options": {
+        "a": {
+          "mix": "infinitive phrase as an adjective",
+          "en": "infinitive phrase as an adjective",
+          "bn": "infinitive phrase as an adjective"
+        },
+        "b": {
+          "mix": "infinitive phrase as a post-modifier of an adjective",
+          "en": "infinitive phrase as a post-modifier of an adjective",
+          "bn": "infinitive phrase as a post-modifier of an adjective"
+        },
+        "c": {
+          "mix": "infinitive phrase as an intransitive verb",
+          "en": "infinitive phrase as an intransitive verb",
+          "bn": "infinitive phrase as an intransitive verb"
+        },
+        "d": {
+          "mix": "infinitive phrase as a transitive verb",
+          "en": "infinitive phrase as a transitive verb",
+          "bn": "infinitive phrase as a transitive verb"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "এখানে infinitive phrase 'to know your success' adjective 'glad'-এর পরে বসে তাকে modify করেছে, অর্থাৎ post-modifier of an adjective হিসেবে কাজ করেছে। এটি সরাসরি কোনো noun-কে modify করেনি এবং intransitive বা transitive verb হিসেবেও কাজ করেনি।",
+        "en": "Here the infinitive phrase 'to know your success' sits after the adjective 'glad' and modifies it, that is, it works as a post-modifier of an adjective. It does not directly modify any noun, and it does not work as an intransitive or a transitive verb either.",
+        "bn": "এখানে infinitive phrase 'to know your success' adjective 'glad'-এর পরে বসে তাকে modify করেছে, অর্থাৎ post-modifier of an adjective হিসেবে কাজ করেছে। এটি সরাসরি কোনো noun-কে modify করেনি এবং intransitive বা transitive verb হিসেবেও কাজ করেনি।"
+      },
+      "source": "রাজশাহী বিশ্ববিদ্যালয় (আইন) ২০১২-১৩",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "BCS Preliminary Questions",
+      "number": 1,
+      "question": {
+        "mix": "'He ran with great speed.' The underlined part of the sentence is a —",
+        "en": "'He ran with great speed.' The underlined part of the sentence is a —",
+        "bn": "'He ran with great speed.' বাক্যটির underline করা অংশটি একটি —"
+      },
+      "options": {
+        "a": {
+          "mix": "noun phrase",
+          "en": "noun phrase",
+          "bn": "noun phrase"
+        },
+        "b": {
+          "mix": "adverb phrase",
+          "en": "adverb phrase",
+          "bn": "adverb phrase"
+        },
+        "c": {
+          "mix": "adjective phrase",
+          "en": "adjective phrase",
+          "bn": "adjective phrase"
+        },
+        "d": {
+          "mix": "participle phrase",
+          "en": "participle phrase",
+          "bn": "participle phrase"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Hints : With great speed (দ্রুতগতিতে) phrase টি বাক্যের verbকে modify করায় phrase টি adverb phrase। Verb কে how, where, when, why দ্বারা প্রশ্ন করলে adverb phrase পাওয়া যায়।",
+        "en": "Hints : The phrase 'with great speed' modifies the verb of the sentence, so the phrase is an adverb phrase. If the verb is questioned with how, where, when or why, an adverb phrase is found.",
+        "bn": "Hints : With great speed (দ্রুতগতিতে) phrase টি বাক্যের verbকে modify করায় phrase টি adverb phrase। Verb কে how, where, when, why দ্বারা প্রশ্ন করলে adverb phrase পাওয়া যায়।"
+      },
+      "source": "৪০তম বিসিএস",
+      "explanation_source": "book"
+    },
+    {
+      "section": "BCS Preliminary Questions",
+      "number": 2,
+      "question": {
+        "mix": "He worked with all sincerity. The underlined phrase is—",
+        "en": "He worked with all sincerity. The underlined phrase is—",
+        "bn": "He worked with all sincerity. underline করা phrase-টি—"
+      },
+      "options": {
+        "a": {
+          "mix": "A noun phrase",
+          "en": "A noun phrase",
+          "bn": "A noun phrase"
+        },
+        "b": {
+          "mix": "An adjective phrase",
+          "en": "An adjective phrase",
+          "bn": "An adjective phrase"
+        },
+        "c": {
+          "mix": "An infinitive phrase",
+          "en": "An infinitive phrase",
+          "bn": "An infinitive phrase"
+        },
+        "d": {
+          "mix": "An adverbial phrase",
+          "en": "An adverbial phrase",
+          "bn": "An adverbial phrase"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Hints : Adverbial phrase বাক্যে adverb-এর মতো verb-কে modify করে। প্রদত্ত বাক্যে underlined phrase টি verb-কে modify করেছে অর্থাৎ verb-এর manner প্রকাশ করায় এটি Adverbial phrase of manner।",
+        "en": "Hints : An adverbial phrase modifies a verb in a sentence like an adverb. In the given sentence, the underlined phrase modifies the verb, that is, it expresses the manner of the verb, so it is an adverbial phrase of manner.",
+        "bn": "Hints : Adverbial phrase বাক্যে adverb-এর মতো verb-কে modify করে। প্রদত্ত বাক্যে underlined phrase টি verb-কে modify করেছে অর্থাৎ verb-এর manner প্রকাশ করায় এটি Adverbial phrase of manner।"
+      },
+      "source": "৩৭তম বিসিএস",
+      "explanation_source": "book"
+    },
+    {
+      "section": "BCS Preliminary Questions",
+      "number": 3,
+      "question": {
+        "mix": "We were waiting for the bus. The underlined part is—",
+        "en": "We were waiting for the bus. The underlined part is—",
+        "bn": "We were waiting for the bus. underline করা অংশটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "a noun phrase",
+          "en": "a noun phrase",
+          "bn": "a noun phrase"
+        },
+        "b": {
+          "mix": "an infinitive phrase",
+          "en": "an infinitive phrase",
+          "bn": "an infinitive phrase"
+        },
+        "c": {
+          "mix": "a prepositional phrase",
+          "en": "a prepositional phrase",
+          "bn": "a prepositional phrase"
+        },
+        "d": {
+          "mix": "a verb phrase",
+          "en": "a verb phrase",
+          "bn": "a verb phrase"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "[Note : এটি মূলত adverbial phrase। কিন্তু option না থাকায় উত্তর (গ)।]",
+        "en": "[Note : It is basically an adverbial phrase. But as the option is not there, the answer is (c).]",
+        "bn": "[Note : এটি মূলত adverbial phrase। কিন্তু option না থাকায় উত্তর (গ)।]"
+      },
+      "source": "২৮তম বিসিএস",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 1,
+      "question": {
+        "mix": "I have a boat made of wood. The underlined phrase is—",
+        "en": "I have a boat made of wood. The underlined phrase is—",
+        "bn": "I have a boat made of wood. underline করা phrase-টি—"
+      },
+      "options": {
+        "a": {
+          "mix": "an adverbial phrase",
+          "en": "an adverbial phrase",
+          "bn": "an adverbial phrase"
+        },
+        "b": {
+          "mix": "perfect participle phrase",
+          "en": "perfect participle phrase",
+          "bn": "perfect participle phrase"
+        },
+        "c": {
+          "mix": "present participle phrase",
+          "en": "present participle phrase",
+          "bn": "present participle phrase"
+        },
+        "d": {
+          "mix": "past participle phrase",
+          "en": "past participle phrase",
+          "bn": "past participle phrase"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Hints : Verb-এর past participle যখন adjective-এর কাজ করে এবং noun বা pronoun কে modify করে তখন সেই past participle যুক্ত phrase বা শব্দসমষ্টিকে past participle phrase বলে। Underlined কৃত phraseটি boat কে modify করছে।",
+        "en": "Hints : When the past participle of a verb does the work of an adjective and modifies a noun or a pronoun, the phrase or group of words with that past participle is called a past participle phrase. The underlined phrase modifies 'boat'.",
+        "bn": "Hints : Verb-এর past participle যখন adjective-এর কাজ করে এবং noun বা pronoun কে modify করে তখন সেই past participle যুক্ত phrase বা শব্দসমষ্টিকে past participle phrase বলে। Underlined কৃত phraseটি boat কে modify করছে।"
+      },
+      "source": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (দ্বিতীয় ধাপ) ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 2,
+      "question": {
+        "mix": "He lives in the suburb of Dhaka. The underline phrase is—",
+        "en": "He lives in the suburb of Dhaka. The underline phrase is—",
+        "bn": "He lives in the suburb of Dhaka. underline phrase-টি—"
+      },
+      "options": {
+        "a": {
+          "mix": "a noun phrase",
+          "en": "a noun phrase",
+          "bn": "a noun phrase"
+        },
+        "b": {
+          "mix": "an adjective phrase",
+          "en": "an adjective phrase",
+          "bn": "an adjective phrase"
+        },
+        "c": {
+          "mix": "an adverbial phrase",
+          "en": "an adverbial phrase",
+          "bn": "an adverbial phrase"
+        },
+        "d": {
+          "mix": "an infinitive phrase",
+          "en": "an infinitive phrase",
+          "bn": "an infinitive phrase"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Hints : যে শব্দগুচ্ছ verb-কে modify করে তাকে adverbial phrase বলে। বাক্যে in the suburb of Dhaka verb live-কে modify করছে। সুতরাং এটা adverbial phrase। How, where, when দ্বারা প্রশ্ন করলে adverbial phrase পাওয়া যায়।",
+        "en": "Hints : A group of words that modifies a verb is called an adverbial phrase. In the sentence, 'in the suburb of Dhaka' modifies the verb 'live'. So it is an adverbial phrase. If questioned with how, where or when, an adverbial phrase is found.",
+        "bn": "Hints : যে শব্দগুচ্ছ verb-কে modify করে তাকে adverbial phrase বলে। বাক্যে in the suburb of Dhaka verb live-কে modify করছে। সুতরাং এটা adverbial phrase। How, where, when দ্বারা প্রশ্ন করলে adverbial phrase পাওয়া যায়।"
+      },
+      "source": "বিভিন্ন মন্ত্রণা./বিভাগ/অধি. ব্যক্তিগত কর্মকর্তা (সাধারণ) ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 3,
+      "question": {
+        "mix": "The girl with long hair is my cousin. The underlined phrase functions as—",
+        "en": "The girl with long hair is my cousin. The underlined phrase functions as—",
+        "bn": "The girl with long hair is my cousin. underline করা phrase-টি কাজ করে — হিসেবে"
+      },
+      "options": {
+        "a": {
+          "mix": "a noun",
+          "en": "a noun",
+          "bn": "a noun"
+        },
+        "b": {
+          "mix": "an adverb",
+          "en": "an adverb",
+          "bn": "an adverb"
+        },
+        "c": {
+          "mix": "an adjective",
+          "en": "an adjective",
+          "bn": "an adjective"
+        },
+        "d": {
+          "mix": "a preposition",
+          "en": "a preposition",
+          "bn": "a preposition"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Hints : With long hair (দীর্ঘ কেশী) phraseটি the girl কে modify করায় তা adjective।",
+        "en": "Hints : The phrase 'with long hair' modifies 'the girl', so it is an adjective.",
+        "bn": "Hints : With long hair (দীর্ঘ কেশী) phraseটি the girl কে modify করায় তা adjective।"
+      },
+      "source": "তথ্য মন্ত্রণালয়ের অধীন বিটিভির সহকারী প্রকৌশলী (সিভিল) ২০১৭",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 4,
+      "question": {
+        "mix": "The central part of a noun phrase is mainly a—",
+        "en": "The central part of a noun phrase is mainly a—",
+        "bn": "Noun phrase-এর central part মূলত একটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Pronoun",
+          "en": "Pronoun",
+          "bn": "Pronoun"
+        },
+        "b": {
+          "mix": "Adjective",
+          "en": "Adjective",
+          "bn": "Adjective"
+        },
+        "c": {
+          "mix": "Noun",
+          "en": "Noun",
+          "bn": "Noun"
+        },
+        "d": {
+          "mix": "Adverb",
+          "en": "Adverb",
+          "bn": "Adverb"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Hints : Noun phrase-এর central part হচ্ছে মূলত noun। সুতরাং এখানে সঠিক উত্তর (গ)।",
+        "en": "Hints : The central part of a noun phrase is basically a noun. So the correct answer here is (c).",
+        "bn": "Hints : Noun phrase-এর central part হচ্ছে মূলত noun। সুতরাং এখানে সঠিক উত্তর (গ)।"
+      },
+      "source": "প্রতিরক্ষা মন্ত্রণালয়ের সিভিলিয়ান স্টাফ অফিসার এবং সহকারী পরিচালক ২০১৬",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 5,
+      "question": {
+        "mix": "We must buy the tickets next week. Here 'next week' is—",
+        "en": "We must buy the tickets next week. Here 'next week' is—",
+        "bn": "We must buy the tickets next week. এখানে 'next week' হলো—"
+      },
+      "options": {
+        "a": {
+          "mix": "object",
+          "en": "object",
+          "bn": "object"
+        },
+        "b": {
+          "mix": "noun",
+          "en": "noun",
+          "bn": "noun"
+        },
+        "c": {
+          "mix": "adverbial",
+          "en": "adverbial",
+          "bn": "adverbial"
+        },
+        "d": {
+          "mix": "complement",
+          "en": "complement",
+          "bn": "complement"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Hints : বাক্যের next week হচ্ছে adverbial। কোনো ঘটনা কখন, কীভাবে ঘটবে তা বুঝাতে যে শব্দ বা শব্দসমূহ ব্যবহৃত হয় তাকে adverbial বলে।",
+        "en": "Hints : 'next week' in the sentence is an adverbial. The word or words used to indicate when or how an event will happen are called an adverbial.",
+        "bn": "Hints : বাক্যের next week হচ্ছে adverbial। কোনো ঘটনা কখন, কীভাবে ঘটবে তা বুঝাতে যে শব্দ বা শব্দসমূহ ব্যবহৃত হয় তাকে adverbial বলে।"
+      },
+      "source": "আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণালয়ের সাব-রেজিস্ট্রার ২০১৬",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 1,
+      "question": {
+        "mix": "The beggar in front of the gate looked very hungry. Functionally, the underlined phrase is a/an :",
+        "en": "The beggar in front of the gate looked very hungry. Functionally, the underlined phrase is a/an :",
+        "bn": "The beggar in front of the gate looked very hungry. কার্যগতভাবে, underline করা phrase-টি একটি :"
+      },
+      "options": {
+        "a": {
+          "mix": "adverbial phrase",
+          "en": "adverbial phrase",
+          "bn": "adverbial phrase"
+        },
+        "b": {
+          "mix": "adjective phrase",
+          "en": "adjective phrase",
+          "bn": "adjective phrase"
+        },
+        "c": {
+          "mix": "noun phrase",
+          "en": "noun phrase",
+          "bn": "noun phrase"
+        },
+        "d": {
+          "mix": "prepositional phrase",
+          "en": "prepositional phrase",
+          "bn": "prepositional phrase"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Hints : যে শব্দগুচ্ছ noun-এর পূর্বে বা পরে বসে উক্ত noun-কে modify করে তাকে adjective phrase বলে। প্রদত্ত বাক্যে in front of the gate শব্দগুচ্ছ noun the beggar-কে modify করায় তা adjective phrase-এর ব্যবহার।",
+        "en": "Hints : A group of words that sits before or after a noun and modifies that noun is called an adjective phrase. In the given sentence, the group of words 'in front of the gate' modifies the noun 'the beggar', so it is a use of an adjective phrase.",
+        "bn": "Hints : যে শব্দগুচ্ছ noun-এর পূর্বে বা পরে বসে উক্ত noun-কে modify করে তাকে adjective phrase বলে। প্রদত্ত বাক্যে in front of the gate শব্দগুচ্ছ noun the beggar-কে modify করায় তা adjective phrase-এর ব্যবহার।"
+      },
+      "source": "রাবি ইউনিট A কলা অনুষদ (সকাল, গ্রুপ-১) ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 2,
+      "question": {
+        "mix": "Total color blindness, —, is the result of a defect in the retina.",
+        "en": "Total color blindness, —, is the result of a defect in the retina.",
+        "bn": "Total color blindness, —, is the result of a defect in the retina."
+      },
+      "options": {
+        "a": {
+          "mix": "a rare condition that",
+          "en": "a rare condition that",
+          "bn": "a rare condition that"
+        },
+        "b": {
+          "mix": "that a rare condition",
+          "en": "that a rare condition",
+          "bn": "that a rare condition"
+        },
+        "c": {
+          "mix": "is a rare condition",
+          "en": "is a rare condition",
+          "bn": "is a rare condition"
+        },
+        "d": {
+          "mix": "a rare condition",
+          "en": "a rare condition",
+          "bn": "a rare condition"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Hints : কমা দুটোর মাঝে phrase বা clause বসবে। সঠিক clause option-এ না থাকায় phrase যেটা প্রদত্ত স্থানে বসবে সেটা হলো a rare condition।",
+        "en": "Hints : A phrase or a clause will sit between the two commas. As the correct clause is not among the options, the phrase that will sit in the given place is 'a rare condition'.",
+        "bn": "Hints : কমা দুটোর মাঝে phrase বা clause বসবে। সঠিক clause option-এ না থাকায় phrase যেটা প্রদত্ত স্থানে বসবে সেটা হলো a rare condition।"
+      },
+      "source": "চবি A ইউনিট ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 3,
+      "question": {
+        "mix": "When I went to abroad, I stayed in the suburb of Austratia. The underlined part is — .",
+        "en": "When I went to abroad, I stayed in the suburb of Austratia. The underlined part is — .",
+        "bn": "When I went to abroad, I stayed in the suburb of Austratia. underline করা অংশটি — ।"
+      },
+      "options": {
+        "a": {
+          "mix": "a noun phrase",
+          "en": "a noun phrase",
+          "bn": "a noun phrase"
+        },
+        "b": {
+          "mix": "an adjective",
+          "en": "an adjective",
+          "bn": "an adjective"
+        },
+        "c": {
+          "mix": "an advarbial phrase",
+          "en": "an advarbial phrase",
+          "bn": "an advarbial phrase"
+        },
+        "d": {
+          "mix": "an infinitive phrase",
+          "en": "an infinitive phrase",
+          "bn": "an infinitive phrase"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "'in the suburb of Austratia' শব্দগুচ্ছটি stayed verb-কে modify করছে (কোথায়— where দ্বারা প্রশ্নের উত্তর), তাই an advarbial phrase (Rule 23.2.4)। noun phrase noun-এর কাজ করে; adjective noun-কে modify করে; infinitive phrase infinitive দিয়ে গঠিত হয়।",
+        "en": "The group of words 'in the suburb of Austratia' modifies the verb 'stayed' (where — the answer to a question with 'where'), so it is an advarbial phrase (Rule 23.2.4). A noun phrase does the work of a noun; an adjective modifies a noun; an infinitive phrase is formed with an infinitive.",
+        "bn": "'in the suburb of Austratia' শব্দগুচ্ছটি stayed verb-কে modify করছে (কোথায়— where দ্বারা প্রশ্নের উত্তর), তাই an advarbial phrase (Rule 23.2.4)। noun phrase noun-এর কাজ করে; adjective noun-কে modify করে; infinitive phrase infinitive দিয়ে গঠিত হয়।"
+      },
+      "source": "বশেমুরবিপ্রবি ইউনিট D ২০১৯-২০",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 4,
+      "question": {
+        "mix": "Sheikh Hasina, the Prime Minister of Bangladesh, is considered one of the most powerful women in the world. The underlined part is —.",
+        "en": "Sheikh Hasina, the Prime Minister of Bangladesh, is considered one of the most powerful women in the world. The underlined part is —.",
+        "bn": "Sheikh Hasina, the Prime Minister of Bangladesh, is considered one of the most powerful women in the world. underline করা অংশটি —।"
+      },
+      "options": {
+        "a": {
+          "mix": "a noun phrase",
+          "en": "a noun phrase",
+          "bn": "a noun phrase"
+        },
+        "b": {
+          "mix": "an adjective phrase",
+          "en": "an adjective phrase",
+          "bn": "an adjective phrase"
+        },
+        "c": {
+          "mix": "an adverbial phrase",
+          "en": "an adverbial phrase",
+          "bn": "an adverbial phrase"
+        },
+        "d": {
+          "mix": "an infinitive phrase",
+          "en": "an infinitive phrase",
+          "bn": "an infinitive phrase"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "'the Prime Minister of Bangladesh' শব্দগুচ্ছটি Sheikh Hasina-এর পরিচিতিমূলক বর্ণনা দিয়েছে, অর্থাৎ Appositive হিসেবে noun-এর কাজ করেছে, তাই a noun phrase (Rule 23.2.1 F)। adjective phrase noun-কে বিশেষিত করে; adverbial phrase verb-কে modify করে; infinitive phrase infinitive দিয়ে গঠিত হয়।",
+        "en": "The group of words 'the Prime Minister of Bangladesh' gives a descriptive identification of Sheikh Hasina, that is, it does the work of a noun as an appositive, so it is a noun phrase (Rule 23.2.1 F). An adjective phrase qualifies a noun; an adverbial phrase modifies a verb; an infinitive phrase is formed with an infinitive.",
+        "bn": "'the Prime Minister of Bangladesh' শব্দগুচ্ছটি Sheikh Hasina-এর পরিচিতিমূলক বর্ণনা দিয়েছে, অর্থাৎ Appositive হিসেবে noun-এর কাজ করেছে, তাই a noun phrase (Rule 23.2.1 F)। adjective phrase noun-কে বিশেষিত করে; adverbial phrase verb-কে modify করে; infinitive phrase infinitive দিয়ে গঠিত হয়।"
+      },
+      "source": "বশেমুরবিপ্রবি ইউনিট G (আইন) ২০১৯-২০",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 5,
+      "question": {
+        "mix": "The book bought from College Street is lost. The underlined part is —.",
+        "en": "The book bought from College Street is lost. The underlined part is —.",
+        "bn": "The book bought from College Street is lost. underline করা অংশটি —।"
+      },
+      "options": {
+        "a": {
+          "mix": "a noun phrase",
+          "en": "a noun phrase",
+          "bn": "a noun phrase"
+        },
+        "b": {
+          "mix": "an adverb phrase",
+          "en": "an adverb phrase",
+          "bn": "an adverb phrase"
+        },
+        "c": {
+          "mix": "an adjective phrase",
+          "en": "an adjective phrase",
+          "bn": "an adjective phrase"
+        },
+        "d": {
+          "mix": "a verb phrase",
+          "en": "a verb phrase",
+          "bn": "a verb phrase"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "'bought from College Street' শব্দগুচ্ছটি book noun-কে modify করছে, তাই an adjective phrase (Rule 23.2.2)। noun phrase নিজে noun-এর কাজ করে; adverb phrase verb-কে modify করে; verb phrase verb-এর কাজ করে।",
+        "en": "The group of words 'bought from College Street' modifies the noun 'book', so it is an adjective phrase (Rule 23.2.2). A noun phrase itself does the work of a noun; an adverb phrase modifies a verb; a verb phrase does the work of a verb.",
+        "bn": "'bought from College Street' শব্দগুচ্ছটি book noun-কে modify করছে, তাই an adjective phrase (Rule 23.2.2)। noun phrase নিজে noun-এর কাজ করে; adverb phrase verb-কে modify করে; verb phrase verb-এর কাজ করে।"
+      },
+      "source": "বশেমুরবিপ্রবি ইউনিট F (ব্যবসায় শিক্ষা) সেট-খ ২০১৯-২০",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 6,
+      "question": {
+        "mix": "Which of the underlined phrases in the following sentences is an adjective phrase?",
+        "en": "Which of the underlined phrases in the following sentences is an adjective phrase?",
+        "bn": "নিচের বাক্যগুলোর underline করা phrase-গুলোর মধ্যে কোনটি adjective phrase?"
+      },
+      "options": {
+        "a": {
+          "mix": "He came last Sunday.",
+          "en": "He came last Sunday.",
+          "bn": "He came last Sunday."
+        },
+        "b": {
+          "mix": "We met beside the camp.",
+          "en": "We met beside the camp.",
+          "bn": "We met beside the camp."
+        },
+        "c": {
+          "mix": "I wish to buy a large and beautiful house.",
+          "en": "I wish to buy a large and beautiful house.",
+          "bn": "I wish to buy a large and beautiful house."
+        },
+        "d": {
+          "mix": "Water passess through the pipe.",
+          "en": "Water passess through the pipe.",
+          "bn": "Water passess through the pipe."
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "(গ) 'large and beautiful' শব্দগুচ্ছটি house noun-এর পূর্বে বসে তাকে modify করেছে, তাই adjective phrase। (ক) last Sunday, (খ) beside the camp ও (ঘ) through the pipe— প্রতিটি verb-কে modify করায় adverbial phrase।",
+        "en": "(c) The group of words 'large and beautiful' sits before the noun 'house' and modifies it, so it is an adjective phrase. (a) last Sunday, (b) beside the camp and (d) through the pipe — each modifies a verb, so each is an adverbial phrase.",
+        "bn": "(গ) 'large and beautiful' শব্দগুচ্ছটি house noun-এর পূর্বে বসে তাকে modify করেছে, তাই adjective phrase। (ক) last Sunday, (খ) beside the camp ও (ঘ) through the pipe— প্রতিটি verb-কে modify করায় adverbial phrase।"
+      },
+      "source": "যবিপ্রবি ইউনিট A ২০১৯-২০",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 7,
+      "question": {
+        "mix": "'A woman with a veil over her body approached the doctor'—The underlined phrase is —",
+        "en": "'A woman with a veil over her body approached the doctor'—The underlined phrase is —",
+        "bn": "'A woman with a veil over her body approached the doctor'—underline করা phrase-টি —"
+      },
+      "options": {
+        "a": {
+          "mix": "A Verbal Phrase",
+          "en": "A Verbal Phrase",
+          "bn": "A Verbal Phrase"
+        },
+        "b": {
+          "mix": "An Adverbial Phrase",
+          "en": "An Adverbial Phrase",
+          "bn": "An Adverbial Phrase"
+        },
+        "c": {
+          "mix": "An Adjective Phrase",
+          "en": "An Adjective Phrase",
+          "bn": "An Adjective Phrase"
+        },
+        "d": {
+          "mix": "Prepositional Phrase",
+          "en": "Prepositional Phrase",
+          "bn": "Prepositional Phrase"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "'with a veil over her body' শব্দগুচ্ছটি woman noun-কে modify করছে, তাই An Adjective Phrase (Rule 23.2.2)। Verbal phrase verb-এর মতো কাজ করে; adverbial phrase verb-কে modify করে; নামে prepositional phrase হলেও function অনুযায়ী এটি adjective phrase।",
+        "en": "The group of words 'with a veil over her body' modifies the noun 'woman', so it is an adjective phrase (Rule 23.2.2). A verbal phrase does the work of a verb; an adverbial phrase modifies a verb; although it is a prepositional phrase by name, by function it is an adjective phrase.",
+        "bn": "'with a veil over her body' শব্দগুচ্ছটি woman noun-কে modify করছে, তাই An Adjective Phrase (Rule 23.2.2)। Verbal phrase verb-এর মতো কাজ করে; adverbial phrase verb-কে modify করে; নামে prepositional phrase হলেও function অনুযায়ী এটি adjective phrase।"
+      },
+      "source": "যবিপ্রবি ইউনিট B ২০১৯-২০",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 8,
+      "question": {
+        "mix": "Near the forest, police found a sick old Rohingya lying on his back and crying piteously for help. The underlined phrase is a/an :",
+        "en": "Near the forest, police found a sick old Rohingya lying on his back and crying piteously for help. The underlined phrase is a/an :",
+        "bn": "Near the forest, police found a sick old Rohingya lying on his back and crying piteously for help. underline করা phrase-টি একটি :"
+      },
+      "options": {
+        "a": {
+          "mix": "noun phrase",
+          "en": "noun phrase",
+          "bn": "noun phrase"
+        },
+        "b": {
+          "mix": "verb phrase",
+          "en": "verb phrase",
+          "bn": "verb phrase"
+        },
+        "c": {
+          "mix": "adjective phrase",
+          "en": "adjective phrase",
+          "bn": "adjective phrase"
+        },
+        "d": {
+          "mix": "adverbial phrase",
+          "en": "adverbial phrase",
+          "bn": "adverbial phrase"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Hints : 'Near the forest' phraseটি verbকে modify করায় phraseটি adverbial phrase। বাক্যের verbকে how, where, when, why দ্বারা প্রশ্ন করলে adverbial phrase পাওয়া যায়।",
+        "en": "Hints : The phrase 'Near the forest' modifies the verb, so the phrase is an adverbial phrase. If the verb of a sentence is questioned with how, where, when or why, an adverbial phrase is found.",
+        "bn": "Hints : 'Near the forest' phraseটি verbকে modify করায় phraseটি adverbial phrase। বাক্যের verbকে how, where, when, why দ্বারা প্রশ্ন করলে adverbial phrase পাওয়া যায়।"
+      },
+      "source": "রাবি ইউনিট A (গ্রুপ-১) ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 9,
+      "question": {
+        "mix": "The girl in green is my cousin. Functionally, the underlined phrase is a/an :",
+        "en": "The girl in green is my cousin. Functionally, the underlined phrase is a/an :",
+        "bn": "The girl in green is my cousin. কার্যগতভাবে, underline করা phrase-টি একটি :"
+      },
+      "options": {
+        "a": {
+          "mix": "a noun clause phrase",
+          "en": "a noun clause phrase",
+          "bn": "a noun clause phrase"
+        },
+        "b": {
+          "mix": "an adjective phrase",
+          "en": "an adjective phrase",
+          "bn": "an adjective phrase"
+        },
+        "c": {
+          "mix": "an adverbial phrase",
+          "en": "an adverbial phrase",
+          "bn": "an adverbial phrase"
+        },
+        "d": {
+          "mix": "a prepositional phrase",
+          "en": "a prepositional phrase",
+          "bn": "a prepositional phrase"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Hints : Phrase 'in green' noun, the girlকে modify করায় in green হলো adjective phrase।",
+        "en": "Hints : The phrase 'in green' modifies the noun 'the girl', so 'in green' is an adjective phrase.",
+        "bn": "Hints : Phrase 'in green' noun, the girlকে modify করায় in green হলো adjective phrase।"
+      },
+      "source": "রাবি ইউনিট A (গ্রুপ-১) ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 10,
+      "question": {
+        "mix": "The greater part of our learning in the schools has been waste. The underlined phrase is—",
+        "en": "The greater part of our learning in the schools has been waste. The underlined phrase is—",
+        "bn": "The greater part of our learning in the schools has been waste. underline করা phrase-টি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Adjective Phrase",
+          "en": "Adjective Phrase",
+          "bn": "Adjective Phrase"
+        },
+        "b": {
+          "mix": "Noun Phrase",
+          "en": "Noun Phrase",
+          "bn": "Noun Phrase"
+        },
+        "c": {
+          "mix": "Adverbial Phrase",
+          "en": "Adverbial Phrase",
+          "bn": "Adverbial Phrase"
+        },
+        "d": {
+          "mix": "Prepositional Phrase",
+          "en": "Prepositional Phrase",
+          "bn": "Prepositional Phrase"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Hints : Underline কৃত phraseটি noun learning-কে modify করায় phraseটি adjective phrase। তাছাড়া phrase-কে বাদ দিয়ে the greater part of our school learning লিখলে বাক্যটির অর্থ পরিবর্তন হয় না। School বাক্যটিতে adjective হিসেবে কাজ করছে।",
+        "en": "Hints : The underlined phrase modifies the noun 'learning', so the phrase is an adjective phrase. Besides, if the phrase is left out and 'the greater part of our school learning' is written, the meaning of the sentence does not change. 'School' works as an adjective in the sentence.",
+        "bn": "Hints : Underline কৃত phraseটি noun learning-কে modify করায় phraseটি adjective phrase। তাছাড়া phrase-কে বাদ দিয়ে the greater part of our school learning লিখলে বাক্যটির অর্থ পরিবর্তন হয় না। School বাক্যটিতে adjective হিসেবে কাজ করছে।"
+      },
+      "source": "রাবি ইউনিট B (অবাণিজ্য) ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 11,
+      "question": {
+        "mix": "They hired a huge beautiful home. The underlined words are.",
+        "en": "They hired a huge beautiful home. The underlined words are.",
+        "bn": "They hired a huge beautiful home. underline করা শব্দগুলো হলো।"
+      },
+      "options": {
+        "a": {
+          "mix": "Adjective phrase",
+          "en": "Adjective phrase",
+          "bn": "Adjective phrase"
+        },
+        "b": {
+          "mix": "Adverb phrase",
+          "en": "Adverb phrase",
+          "bn": "Adverb phrase"
+        },
+        "c": {
+          "mix": "Prepositional phrase",
+          "en": "Prepositional phrase",
+          "bn": "Prepositional phrase"
+        },
+        "d": {
+          "mix": "Noun phrase",
+          "en": "Noun phrase",
+          "bn": "Noun phrase"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "'a huge beautiful home' শব্দগুচ্ছটি বাক্যে object হিসেবে noun-এর কাজ করেছে, তাই Noun phrase (Rule 23.2.1 B)। Adjective phrase শুধু noun-কে modify করে; adverb phrase verb-কে modify করে; prepositional phrase preposition দিয়ে শুরু হয়।",
+        "en": "The group of words 'a huge beautiful home' does the work of a noun as the object in the sentence, so it is a noun phrase (Rule 23.2.1 B). An adjective phrase only modifies a noun; an adverb phrase modifies a verb; a prepositional phrase begins with a preposition.",
+        "bn": "'a huge beautiful home' শব্দগুচ্ছটি বাক্যে object হিসেবে noun-এর কাজ করেছে, তাই Noun phrase (Rule 23.2.1 B)। Adjective phrase শুধু noun-কে modify করে; adverb phrase verb-কে modify করে; prepositional phrase preposition দিয়ে শুরু হয়।"
+      },
+      "source": "ইবি ইউনিট বি (1st shift) ২০১৮-১৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 12,
+      "question": {
+        "mix": "'The book borrowed from the library is lost.' The underlined part is—",
+        "en": "'The book borrowed from the library is lost.' The underlined part is—",
+        "bn": "'The book borrowed from the library is lost.' underline করা অংশটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Noun phrase",
+          "en": "Noun phrase",
+          "bn": "Noun phrase"
+        },
+        "b": {
+          "mix": "Adverb phrase",
+          "en": "Adverb phrase",
+          "bn": "Adverb phrase"
+        },
+        "c": {
+          "mix": "Adjective phrase",
+          "en": "Adjective phrase",
+          "bn": "Adjective phrase"
+        },
+        "d": {
+          "mix": "Verb phrase",
+          "en": "Verb phrase",
+          "bn": "Verb phrase"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "'borrowed from the library' শব্দগুচ্ছটি book noun-কে modify করছে, তাই Adjective phrase (Rule 23.2.2)। Noun phrase নিজে noun-এর কাজ করে; adverb phrase verb-কে modify করে; verb phrase verb-এর কাজ করে।",
+        "en": "The group of words 'borrowed from the library' modifies the noun 'book', so it is an adjective phrase (Rule 23.2.2). A noun phrase itself does the work of a noun; an adverb phrase modifies a verb; a verb phrase does the work of a verb.",
+        "bn": "'borrowed from the library' শব্দগুচ্ছটি book noun-কে modify করছে, তাই Adjective phrase (Rule 23.2.2)। Noun phrase নিজে noun-এর কাজ করে; adverb phrase verb-কে modify করে; verb phrase verb-এর কাজ করে।"
+      },
+      "source": "বশেমুরবিপ্রবি সি ইউনিট ২০১৮-১৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 13,
+      "question": {
+        "mix": "They reached home safe and sound. This is a/an :",
+        "en": "They reached home safe and sound. This is a/an :",
+        "bn": "They reached home safe and sound. এটি একটি :"
+      },
+      "options": {
+        "a": {
+          "mix": "adjective phrase",
+          "en": "adjective phrase",
+          "bn": "adjective phrase"
+        },
+        "b": {
+          "mix": "adverbial phrase",
+          "en": "adverbial phrase",
+          "bn": "adverbial phrase"
+        },
+        "c": {
+          "mix": "proverb",
+          "en": "proverb",
+          "bn": "proverb"
+        },
+        "d": {
+          "mix": "idiom",
+          "en": "idiom",
+          "bn": "idiom"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "'safe and sound' শব্দগুচ্ছটি reached verb-কে modify করেছে (কীভাবে পৌঁছাল— how দ্বারা প্রশ্নের উত্তর), তাই adverbial phrase (Rule 23.2.4)। adjective phrase noun-কে modify করে; proverb ও idiom এখানে verb-কে modify করা phrase-এর বিকল্প নয়।",
+        "en": "The group of words 'safe and sound' modifies the verb 'reached' (how did they reach — the answer to a question with 'how'), so it is an adverbial phrase (Rule 23.2.4). An adjective phrase modifies a noun; 'proverb' and 'idiom' are not alternatives here for a phrase that modifies a verb.",
+        "bn": "'safe and sound' শব্দগুচ্ছটি reached verb-কে modify করেছে (কীভাবে পৌঁছাল— how দ্বারা প্রশ্নের উত্তর), তাই adverbial phrase (Rule 23.2.4)। adjective phrase noun-কে modify করে; proverb ও idiom এখানে verb-কে modify করা phrase-এর বিকল্প নয়।"
+      },
+      "source": "রাবি ইউনিট A ২০১৭-১৮",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 14,
+      "question": {
+        "mix": "The train is moving fast enough. The underlined phrase is—",
+        "en": "The train is moving fast enough. The underlined phrase is—",
+        "bn": "The train is moving fast enough. underline করা phrase-টি—"
+      },
+      "options": {
+        "a": {
+          "mix": "adjective phrase",
+          "en": "adjective phrase",
+          "bn": "adjective phrase"
+        },
+        "b": {
+          "mix": "verb phrase",
+          "en": "verb phrase",
+          "bn": "verb phrase"
+        },
+        "c": {
+          "mix": "adverbial phrase",
+          "en": "adverbial phrase",
+          "bn": "adverbial phrase"
+        },
+        "d": {
+          "mix": "prepositional phrase",
+          "en": "prepositional phrase",
+          "bn": "prepositional phrase"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "'fast enough' শব্দগুচ্ছটি moving verb-কে modify করেছে, তাই adverbial phrase (Rule 23.2.4)। adjective phrase noun-কে modify করে; verb phrase নিজে verb-এর কাজ করে; prepositional phrase preposition দিয়ে গঠিত হয়।",
+        "en": "The group of words 'fast enough' modifies the verb 'moving', so it is an adverbial phrase (Rule 23.2.4). An adjective phrase modifies a noun; a verb phrase itself does the work of a verb; a prepositional phrase is formed with a preposition.",
+        "bn": "'fast enough' শব্দগুচ্ছটি moving verb-কে modify করেছে, তাই adverbial phrase (Rule 23.2.4)। adjective phrase noun-কে modify করে; verb phrase নিজে verb-এর কাজ করে; prepositional phrase preposition দিয়ে গঠিত হয়।"
+      },
+      "source": "রাবি ইউনিট K (IER) ২০১৭-১৮",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 15,
+      "question": {
+        "mix": "As an atom absorbs energy, ——— increases, and the atom is said to be excited.",
+        "en": "As an atom absorbs energy, ——— increases, and the atom is said to be excited.",
+        "bn": "As an atom absorbs energy, ——— increases, and the atom is said to be excited."
+      },
+      "options": {
+        "a": {
+          "mix": "its energy level",
+          "en": "its energy level",
+          "bn": "its energy level"
+        },
+        "b": {
+          "mix": "as its energy level",
+          "en": "as its energy level",
+          "bn": "as its energy level"
+        },
+        "c": {
+          "mix": "it is energy level",
+          "en": "it is energy level",
+          "bn": "it is energy level"
+        },
+        "d": {
+          "mix": "the energy level of its",
+          "en": "the energy level of its",
+          "bn": "the energy level of its"
+        },
+        "e": {
+          "mix": "is energy level",
+          "en": "is energy level",
+          "bn": "is energy level"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Hints : 'Increase' verb টির subject its energy level।",
+        "en": "Hints : The subject of the verb 'increase' is 'its energy level'.",
+        "bn": "Hints : 'Increase' verb টির subject its energy level।"
+      },
+      "source": "চবি ইউনিট সি, ২০১৬-১৭",
+      "explanation_source": "book"
+    }
+  ],
+  "unclear": [
+    {
+      "page": 435,
+      "note": "Chapter title banner ('CHAPTER 23 — Identification of Phrases') verified from the page image; the intro paragraph, rules 23.1-23.2.1 (A-C) and inline MCQs 1-2 were read from the image. Inline MCQ 1's tick is printed against option (ঘ); inline MCQ 2's tick against option (খ)."
+    },
+    {
+      "page": 436,
+      "note": "Inline MCQ 5 ('A woman with a veil over her body') has no source printed in the margin; source recorded as ''. Inline MCQs 3, 4 and 6 carry printed Hints, recorded as their book explanations. The long Hints paragraph under 'The cat on the mat is fat' is rule text and is included in the 23.2.2 Adjective Phrase rule body."
+    },
+    {
+      "page": 437,
+      "note": "Inline MCQ 8 ('Last week he received the amount') has no source printed in the margin; source recorded as ''. Its Hints is printed, so its explanation is book. Inline MCQ 12's Hints is printed at the top of PDF page 438 and is recorded as its book explanation."
+    },
+    {
+      "page": 438,
+      "note": "Page 438 is a short page (rules 23.2.6-23.2.9 and inline MCQs 13-16 only); the rest of the page is blank in the book."
+    },
+    {
+      "page": 439,
+      "note": "BCS and PSC right-margin sources and answer letters were verified from zoomed crops of the halftone margin: BCS answers খ, ঘ, গ; PSC Q1-Q3 answers ঘ, গ, গ. BCS Q3 repeats inline MCQ 12 ('We were waiting for the bus') with its own short printed Note; both entries are kept, as printed."
+    },
+    {
+      "page": 440,
+      "note": "PSC Q4-Q5 and University Q1-Q6 margin answers verified from the zoomed crop: গ, গ, খ, ঘ, গ, ক, গ, গ. University Q3 prints 'Austratia' (sic) in the question and 'an advarbial phrase' (sic) in option (গ) — both recorded as printed. University Q6's margin source abbreviation is read as 'যবিপ্রবি' from the zoomed crop."
+    },
+    {
+      "page": 441,
+      "note": "University Q7-Q15 margin answers verified from the zoomed crop: গ, ঘ, খ, ক, ঘ, গ, খ, গ, ক. University Q7 repeats inline MCQ 5; both entries are kept, as printed. University Q15 has five options (ক-ঙ)."
+    },
+    {
+      "page": 436,
+      "note": "Inline MCQ 11's Hints word read as 'বিচ্ছিন্নভাবে' from the page image; the halftone print makes this single word less than fully certain."
+    },
+    {
+      "page": 439,
+      "note": "PSC Q3's Hints continues to the bottom edge of page 439 and ends '...modify করায় তা adjective।' — recorded as printed; no continuation appears on page 440."
+    }
+  ],
+  "translation_source": "generated"
+}

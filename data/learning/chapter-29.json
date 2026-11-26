@@ -1,0 +1,1244 @@
+{
+ "chapter": "Chapter-29: Parallel Construction",
+ "pages": [
+  491,
+  495
+ ],
+ "rules": [
+  {
+   "heading": {
+    "mix": "Introduction",
+    "en": "Introduction",
+    "bn": "ভূমিকা"
+   },
+   "body": {
+    "mix": "একই Grammatical function যুক্ত একাধিক Word/Phrase যদি বাক্যে পাশাপাশি বসে তাহলে Grammatical form-এর দিক দিয়ে তাদের মধ্যে সমতা বিধান করাকে Parallel structure/ Parallel construction বা Parallelism বলে। Parallelism-এর উদ্দেশ্য হলো বাক্যের সমজাতীয় উপাদানগুলোকে সমান গুরুত্ব দেয়া, অর্থের প্রাঞ্জলতা বৃদ্ধি এবং বাক্যের অর্থ সহজে বুঝতে সহায়তা করা। Parallelism-এর সহজ একটি example হলো I like singing, dancing and playing. অথবা I like to sing, to dance and to play। বাক্যের সমজাতীয় উপাদানগুলো Parallel না হলে তাকে 'Faulty Parallelism' বলে। যেমন— I like to sing, dancing and to play।",
+    "en": "When several Words/Phrases with the same Grammatical function sit side by side in a sentence, keeping equality among them in terms of Grammatical form is called Parallel structure/ Parallel construction or Parallelism. The purpose of Parallelism is to give equal importance to the similar elements of a sentence, to increase the clarity of meaning and to help in understanding the meaning of the sentence easily. A simple example of Parallelism is I like singing, dancing and playing. Or I like to sing, to dance and to play. If the similar elements of a sentence are not Parallel, it is called 'Faulty Parallelism'. For example— I like to sing, dancing and to play.",
+    "bn": "একই Grammatical function যুক্ত একাধিক Word/Phrase যদি বাক্যে পাশাপাশি বসে তাহলে Grammatical form-এর দিক দিয়ে তাদের মধ্যে সমতা বিধান করাকে Parallel structure/ Parallel construction বা Parallelism বলে। Parallelism-এর উদ্দেশ্য হলো বাক্যের সমজাতীয় উপাদানগুলোকে সমান গুরুত্ব দেয়া, অর্থের প্রাঞ্জলতা বৃদ্ধি এবং বাক্যের অর্থ সহজে বুঝতে সহায়তা করা। Parallelism-এর সহজ একটি example হলো I like singing, dancing and playing. অথবা I like to sing, to dance and to play। বাক্যের সমজাতীয় উপাদানগুলো Parallel না হলে তাকে 'Faulty Parallelism' বলে। যেমন— I like to sing, dancing and to play।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "29.1 Parallelism-এর একটি মৌলিক Rule হলো একটি শব্দগুচ্ছ বা বাক্যাংশের তালিকার মধ্যস্থ উপাদানগুলোর Grammatical form একই রকম হবে",
+    "en": "29.1 A basic Rule of Parallelism is that the Grammatical form of the elements in a list of a word-group or phrase will be the same",
+    "bn": "29.1 Parallelism-এর একটি মৌলিক Rule হলো একটি শব্দগুচ্ছ বা বাক্যাংশের তালিকার মধ্যস্থ উপাদানগুলোর Grammatical form একই রকম হবে"
+   },
+   "body": {
+    "mix": "উদাহরণ স্বরূপ বলা যায়, আমরা যদি তিনটি উপাদানের একটি তালিকা তৈরি করি তাহলে সেগুলোর গঠন হবে noun, noun, noun অথবা verb, verb, verb অথবা gerund, gerund, gerund ইত্যাদি। নিচের তালিকাটি দেখুন। { singing, dancing } — Gerunds; { to see, to look } — Infinitives; { at the time, in the house } — Prepositional phrases; { because I care, before he came } — Subordinate clauses.",
+    "en": "For example, if we make a list of three elements, their structure will be noun, noun, noun or verb, verb, verb or gerund, gerund, gerund etc. See the list below. { singing, dancing } — Gerunds; { to see, to look } — Infinitives; { at the time, in the house } — Prepositional phrases; { because I care, before he came } — Subordinate clauses.",
+    "bn": "উদাহরণ স্বরূপ বলা যায়, আমরা যদি তিনটি উপাদানের একটি তালিকা তৈরি করি তাহলে সেগুলোর গঠন হবে noun, noun, noun অথবা verb, verb, verb অথবা gerund, gerund, gerund ইত্যাদি। নিচের তালিকাটি দেখুন। { singing, dancing } — Gerunds; { to see, to look } — Infinitives; { at the time, in the house } — Prepositional phrases; { because I care, before he came } — Subordinate clauses."
+   }
+  },
+  {
+   "heading": {
+    "mix": "29.2 লেখার সময় Parallelism-কে একটি বিশেষ কৌশল হিসেবে ব্যবহার করা হয়",
+    "en": "29.2 While writing, Parallelism is used as a special technique",
+    "bn": "29.2 লেখার সময় Parallelism-কে একটি বিশেষ কৌশল হিসেবে ব্যবহার করা হয়"
+   },
+   "body": {
+    "mix": "এই কৌশল কয়েকভাবে ব্যবহার করা যেতে পারে। যেমন—",
+    "en": "This technique can be used in several ways. For example—",
+    "bn": "এই কৌশল কয়েকভাবে ব্যবহার করা যেতে পারে। যেমন—"
+   }
+  },
+  {
+   "heading": {
+    "mix": "29.2.1 Co-ordinating Conjunction (and, but, or) এর মাধ্যমে বাক্যের উপাদানগুলোকে যুক্ত করে",
+    "en": "29.2.1 Joining the elements of a sentence through Co-ordinating Conjunction (and, but, or)",
+    "bn": "29.2.1 Co-ordinating Conjunction (and, but, or) এর মাধ্যমে বাক্যের উপাদানগুলোকে যুক্ত করে"
+   },
+   "body": {
+    "mix": "Word Level— The boys used to like— and — model aeroplanes. Parallel in Phrase — She likes to look but not to listen. You will find the glass in the closet or under the table. Parallel in clause— We wondered who he was and what he was doing here. Faulty : My uncle likes to eat in expensive restaurants and visiting museums. Correct : My uncle likes to eat in expensive restaurants and to visit museums. Correct : My uncle likes eating in expensive restaurants and visiting museums.",
+    "en": "Word Level— The boys used to like— and — model aeroplanes. Parallel in Phrase — She likes to look but not to listen. You will find the glass in the closet or under the table. Parallel in clause— We wondered who he was and what he was doing here. Faulty : My uncle likes to eat in expensive restaurants and visiting museums. Correct : My uncle likes to eat in expensive restaurants and to visit museums. Correct : My uncle likes eating in expensive restaurants and visiting museums.",
+    "bn": "Word Level— The boys used to like— and — model aeroplanes. Parallel in Phrase — She likes to look but not to listen. You will find the glass in the closet or under the table. Parallel in clause— We wondered who he was and what he was doing here. Faulty : My uncle likes to eat in expensive restaurants and visiting museums. Correct : My uncle likes to eat in expensive restaurants and to visit museums. Correct : My uncle likes eating in expensive restaurants and visiting museums."
+   }
+  },
+  {
+   "heading": {
+    "mix": "29.2.2 List বা Series তথা ধারাবাহিক তালিকার মাধ্যমে Parallel construction ব্যবহার করে",
+    "en": "29.2.2 Parallel construction is used through a List or Series, that is, a serial list",
+    "bn": "29.2.2 List বা Series তথা ধারাবাহিক তালিকার মাধ্যমে Parallel construction ব্যবহার করে"
+   },
+   "body": {
+    "mix": "Series of Nouns— She wanted three things : money, power, and security. Series of Adjectives— Faulty : Rana is young, enthusiastic and he has talent. Correct : Rana is young, enthusiastic and talented. Series of Verbs— Sabuj entered the room, sat, and — his book. Halim will wash the clothes, —' —'. Series of Phrases— She found cleaning supplies in the closet, under the sink, but not in the garage. Series of Clause— The company does not care about who you are, how you got here, or why you have come. Faulty : The tribes emphasised collective survival, mutual aid, and being responsible for one another. Correct : The tribes emphasised collective survival, mutual aid, and responsiblity for one another.",
+    "en": "Series of Nouns— She wanted three things : money, power, and security. Series of Adjectives— Faulty : Rana is young, enthusiastic and he has talent. Correct : Rana is young, enthusiastic and talented. Series of Verbs— Sabuj entered the room, sat, and — his book. Halim will wash the clothes, —' —'. Series of Phrases— She found cleaning supplies in the closet, under the sink, but not in the garage. Series of Clause— The company does not care about who you are, how you got here, or why you have come. Faulty : The tribes emphasised collective survival, mutual aid, and being responsible for one another. Correct : The tribes emphasised collective survival, mutual aid, and responsiblity for one another.",
+    "bn": "Series of Nouns— She wanted three things : money, power, and security. Series of Adjectives— Faulty : Rana is young, enthusiastic and he has talent. Correct : Rana is young, enthusiastic and talented. Series of Verbs— Sabuj entered the room, sat, and — his book. Halim will wash the clothes, —' —'. Series of Phrases— She found cleaning supplies in the closet, under the sink, but not in the garage. Series of Clause— The company does not care about who you are, how you got here, or why you have come. Faulty : The tribes emphasised collective survival, mutual aid, and being responsible for one another. Correct : The tribes emphasised collective survival, mutual aid, and responsiblity for one another."
+   }
+  },
+  {
+   "heading": {
+    "mix": "29.2.3 একটি জিনিস/ব্যক্তিকে আরেকটির সাথে তুলনা করতে Parallelism ব্যবহার করা হয়",
+    "en": "29.2.3 Parallelism is used to compare one thing/person with another",
+    "bn": "29.2.3 একটি জিনিস/ব্যক্তিকে আরেকটির সাথে তুলনা করতে Parallelism ব্যবহার করা হয়"
+   },
+   "body": {
+    "mix": "— on this bench is much more pleasant than — in the office. Faulty : I like swimming better than to dive. Correct : I like swimming better than diving. Correct : I like to swim better than to dive.",
+    "en": "— on this bench is much more pleasant than — in the office. Faulty : I like swimming better than to dive. Correct : I like swimming better than diving. Correct : I like to swim better than to dive.",
+    "bn": "— on this bench is much more pleasant than — in the office. Faulty : I like swimming better than to dive. Correct : I like swimming better than diving. Correct : I like to swim better than to dive."
+   }
+  },
+  {
+   "heading": {
+    "mix": "29.2.4 Linking Verb বা be verb-এর মাধ্যমে বাক্যের উপাদানগুলোকে যুক্ত করতে Parallelism ব্যবহার করা হয়",
+    "en": "29.2.4 Parallelism is used to join the elements of a sentence through a Linking Verb or be verb",
+    "bn": "29.2.4 Linking Verb বা be verb-এর মাধ্যমে বাক্যের উপাদানগুলোকে যুক্ত করতে Parallelism ব্যবহার করা হয়"
+   },
+   "body": {
+    "mix": "What you see is what you get. To know her is to love her. Being Jim's friend means being constantly alert. In many ways, dancing to music is similar to — .",
+    "en": "What you see is what you get. To know her is to love her. Being Jim's friend means being constantly alert. In many ways, dancing to music is similar to — .",
+    "bn": "What you see is what you get. To know her is to love her. Being Jim's friend means being constantly alert. In many ways, dancing to music is similar to — ."
+   }
+  },
+  {
+   "heading": {
+    "mix": "29.2.5 Correlative Conjunctions ব্যবহারের মাধ্যমে Parallel construction তৈরি করা হয়",
+    "en": "29.2.5 Parallel construction is made through the use of Correlative Conjunctions",
+    "bn": "29.2.5 Correlative Conjunctions ব্যবহারের মাধ্যমে Parallel construction তৈরি করা হয়"
+   },
+   "body": {
+    "mix": "Correlative conjunctions হচ্ছে either — or, neither —nor, both — and, not only — but also ইত্যাদি। The players are — tired — nervous. We were told to either reduce the staff or find new customers. Gopa was neither going to classes nor doing her assignments. Faulty : The show is both enjoyable and it is educational. Correct : The show is both enjoyable and educational.",
+    "en": "Correlative conjunctions are either — or, neither — nor, both — and, not only — but also etc. The players are — tired — nervous. We were told to either reduce the staff or find new customers. Gopa was neither going to classes nor doing her assignments. Faulty : The show is both enjoyable and it is educational. Correct : The show is both enjoyable and educational.",
+    "bn": "Correlative conjunctions হচ্ছে either — or, neither —nor, both — and, not only — but also ইত্যাদি। The players are — tired — nervous. We were told to either reduce the staff or find new customers. Gopa was neither going to classes nor doing her assignments. Faulty : The show is both enjoyable and it is educational. Correct : The show is both enjoyable and educational."
+   }
+  },
+  {
+   "heading": {
+    "mix": "29.3 ভিন্ন Preposition গ্রহণ করে এমন দুটি শব্দ যদি and দ্বারা যুক্ত হয় তাহলে উক্ত শব্দদ্বয়ের পর আলাদা Preposition বসাতে হবে",
+    "en": "29.3 If two words that take different Prepositions are joined by and, a separate Preposition must be placed after each of those two words",
+    "bn": "29.3 ভিন্ন Preposition গ্রহণ করে এমন দুটি শব্দ যদি and দ্বারা যুক্ত হয় তাহলে উক্ত শব্দদ্বয়ের পর আলাদা Preposition বসাতে হবে"
+   },
+   "body": {
+    "mix": "যেমন— Identify the correct sentence— She had faith in and hopes for the future.",
+    "en": "For example— Identify the correct sentence— She had faith in and hopes for the future.",
+    "bn": "যেমন— Identify the correct sentence— She had faith in and hopes for the future."
+   }
+  }
+ ],
+ "mcqs": [
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 1,
+   "question": {
+    "mix": "Seeing is—",
+    "en": "Seeing is—",
+    "bn": "Seeing is—"
+   },
+   "options": {
+    "a": {
+     "mix": "to believe",
+     "en": "to believe",
+     "bn": "to believe"
+    },
+    "b": {
+     "mix": "believed",
+     "en": "believed",
+     "bn": "believed"
+    },
+    "c": {
+     "mix": "believing",
+     "en": "believing",
+     "bn": "believing"
+    },
+    "d": {
+     "mix": "how to believe",
+     "en": "how to believe",
+     "bn": "how to believe"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Hints : Seeing (gerund)-এর সাথে parallel হতে হবে বলে এর পরেও gerund বসবে। তাই (গ) believing সঠিক। (ক) to believe infinitive, (খ) believed past form এবং (ঘ) how to believe clause-ধর্মী হওয়ায় gerund-এর সাথে parallel নয়।",
+    "en": "Hints : Since it has to be parallel with Seeing (gerund), a gerund will sit after it too. So (c) believing is correct. (a) to believe is an infinitive, (b) believed is a past form and (d) how to believe is clause-like, so they are not parallel with the gerund.",
+    "bn": "Hints : Seeing (gerund)-এর সাথে parallel হতে হবে বলে এর পরেও gerund বসবে। তাই (গ) believing সঠিক। (ক) to believe infinitive, (খ) believed past form এবং (ঘ) how to believe clause-ধর্মী হওয়ায় gerund-এর সাথে parallel নয়।"
+   },
+   "source": "ঢাকা বিশ্ববিদ্যালয় ক ইউনিট ২০১১-১২",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 2,
+   "question": {
+    "mix": "Heavy smoking and to overeat are activites which a heart patient must forego.",
+    "en": "Heavy smoking and to overeat are activites which a heart patient must forego.",
+    "bn": "Heavy smoking and to overeat are activites which a heart patient must forego."
+   },
+   "options": {
+    "a": {
+     "mix": "Heavy smoking and to overeat.",
+     "en": "Heavy smoking and to overeat.",
+     "bn": "Heavy smoking and to overeat."
+    },
+    "b": {
+     "mix": "Smoking heavily and to overeat.",
+     "en": "Smoking heavily and to overeat.",
+     "bn": "Smoking heavily and to overeat."
+    },
+    "c": {
+     "mix": "To smoke heavily and overeating.",
+     "en": "To smoke heavily and overeating.",
+     "bn": "To smoke heavily and overeating."
+    },
+    "d": {
+     "mix": "Heavy smoking and overeating.",
+     "en": "Heavy smoking and overeating.",
+     "bn": "Heavy smoking and overeating."
+    },
+    "e": {
+     "mix": "Smoking heavy and to overeat .",
+     "en": "Smoking heavy and to overeat .",
+     "bn": "Smoking heavy and to overeat ."
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Hints : এখানে and-এর পূর্বে gerund হওয়ায় এর পরেও gerund হবে।",
+    "en": "Hints : Here, since there is a gerund before and, there will be a gerund after it too.",
+    "bn": "Hints : এখানে and-এর পূর্বে gerund হওয়ায় এর পরেও gerund হবে।"
+   },
+   "source": "ঢাকা বিশ্ববিদ্যালয় গ ইউনিট ২০০৫-০৬",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 3,
+   "question": {
+    "mix": "The boys used to like— and — model aeroplanes.",
+    "en": "The boys used to like— and — model aeroplanes.",
+    "bn": "The boys used to like— and — model aeroplanes."
+   },
+   "options": {
+    "a": {
+     "mix": "making, flying.",
+     "en": "making, flying.",
+     "bn": "making, flying."
+    },
+    "b": {
+     "mix": "to making, to flying.",
+     "en": "to making, to flying.",
+     "bn": "to making, to flying."
+    },
+    "c": {
+     "mix": "make, fly.",
+     "en": "make, fly.",
+     "bn": "make, fly."
+    },
+    "d": {
+     "mix": "to make, to flying.",
+     "en": "to make, to flying.",
+     "bn": "to make, to flying."
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Hints : like-এর পর gerund বসে এবং and-এর দুই পাশে parallel form থাকতে হয়। তাই (ক) making, flying সঠিক। (খ) to making, to flying ও (ঘ) to make, to flying-এ infinitive ও gerund মিশে গেছে; (গ) make, fly like-এর পরের parallel gerund জোড়া নয়।",
+    "en": "Hints : A gerund sits after like and the two sides of and must have parallel forms. So (a) making, flying is correct. In (b) to making, to flying and (d) to make, to flying, infinitive and gerund are mixed; (c) make, fly is not the parallel gerund pair after like.",
+    "bn": "Hints : like-এর পর gerund বসে এবং and-এর দুই পাশে parallel form থাকতে হয়। তাই (ক) making, flying সঠিক। (খ) to making, to flying ও (ঘ) to make, to flying-এ infinitive ও gerund মিশে গেছে; (গ) make, fly like-এর পরের parallel gerund জোড়া নয়।"
+   },
+   "source": "ঢাকা বিশ্ববিদ্যালয় খ ইউনিট (EE) ২০১২-১৩",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 4,
+   "question": {
+    "mix": "Zerin is a scholar, an athelete and —.",
+    "en": "Zerin is a scholar, an athelete and —.",
+    "bn": "Zerin is a scholar, an athelete and —."
+   },
+   "options": {
+    "a": {
+     "mix": "art",
+     "en": "art",
+     "bn": "art"
+    },
+    "b": {
+     "mix": "artistic",
+     "en": "artistic",
+     "bn": "artistic"
+    },
+    "c": {
+     "mix": "an artist",
+     "en": "an artist",
+     "bn": "an artist"
+    },
+    "d": {
+     "mix": "artist",
+     "en": "artist",
+     "bn": "artist"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Hints : Series-এ scholar ও athelete-এর আগে article (a, an) থাকায় parallel গঠনের জন্য শেষ উপাদানটির আগেও articleসহ noun লাগবে। তাই (গ) an artist সঠিক। (ক) art ও (ঘ) artist-এ article নেই; (খ) artistic adjective, noun নয়।",
+    "en": "Hints : In the Series, since there is an article (a, an) before scholar and athelete, the last element also needs a noun with an article for a parallel structure. So (c) an artist is correct. (a) art and (d) artist have no article; (b) artistic is an adjective, not a noun.",
+    "bn": "Hints : Series-এ scholar ও athelete-এর আগে article (a, an) থাকায় parallel গঠনের জন্য শেষ উপাদানটির আগেও articleসহ noun লাগবে। তাই (গ) an artist সঠিক। (ক) art ও (ঘ) artist-এ article নেই; (খ) artistic adjective, noun নয়।"
+   },
+   "source": "চট্টগ্রাম বিশ্ববিদ্যালয় বি ইউনিট ২০১৪-১৫",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 5,
+   "question": {
+    "mix": "Sabuj entered the room, sat, and — his book. —",
+    "en": "Sabuj entered the room, sat, and — his book. —",
+    "bn": "Sabuj entered the room, sat, and — his book. —"
+   },
+   "options": {
+    "a": {
+     "mix": "has opened",
+     "en": "has opened",
+     "bn": "has opened"
+    },
+    "b": {
+     "mix": "had opened",
+     "en": "had opened",
+     "bn": "had opened"
+    },
+    "c": {
+     "mix": "opened",
+     "en": "opened",
+     "bn": "opened"
+    },
+    "d": {
+     "mix": "opens",
+     "en": "opens",
+     "bn": "opens"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Hints : Series of Verbs-এ entered ও sat past form-এ থাকায় parallel হতে তৃতীয় verb-টিও past form হবে। তাই (গ) opened সঠিক। (ক) has opened present perfect, (খ) had opened past perfect এবং (ঘ) opens present form — কোনোটিই sat-এর সাথে parallel নয়।",
+    "en": "Hints : In a Series of Verbs, since entered and sat are in the past form, the third verb will also be in the past form to be parallel. So (c) opened is correct. (a) has opened is present perfect, (b) had opened is past perfect and (d) opens is present form — none of them is parallel with sat.",
+    "bn": "Hints : Series of Verbs-এ entered ও sat past form-এ থাকায় parallel হতে তৃতীয় verb-টিও past form হবে। তাই (গ) opened সঠিক। (ক) has opened present perfect, (খ) had opened past perfect এবং (ঘ) opens present form — কোনোটিই sat-এর সাথে parallel নয়।"
+   },
+   "source": "চট্টগ্রাম বিশ্ববিদ্যালয় বি, ডি ইউনিট ২০১১-১২, ১২-১৩",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 6,
+   "question": {
+    "mix": "Halim will wash the clothes, —' —'",
+    "en": "Halim will wash the clothes, —' —'",
+    "bn": "Halim will wash the clothes, —' —'"
+   },
+   "options": {
+    "a": {
+     "mix": "iron the shirts, prepare the meal, and dust the furniture.",
+     "en": "iron the shirts, prepare the meal, and dust the furniture.",
+     "bn": "iron the shirts, prepare the meal, and dust the furniture."
+    },
+    "b": {
+     "mix": "iron the shirts, prepare the meal, and dusting the furniture.",
+     "en": "iron the shirts, prepare the meal, and dusting the furniture.",
+     "bn": "iron the shirts, prepare the meal, and dusting the furniture."
+    },
+    "c": {
+     "mix": "Ironing the shirts, preparting the meal, and dusting the furniture.",
+     "en": "Ironing the shirts, preparting the meal, and dusting the furniture.",
+     "bn": "Ironing the shirts, preparting the meal, and dusting the furniture."
+    },
+    "d": {
+     "mix": "to iron the shirts, prepare the meal, and dust the furniture.",
+     "en": "to iron the shirts, prepare the meal, and dust the furniture.",
+     "bn": "to iron the shirts, prepare the meal, and dust the furniture."
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Hints : will wash-এর পর series-এর প্রতিটি verb-ই bare infinitive (present form) হবে। তাই (ক) সঠিক। (খ)-এ শেষে dusting gerund, (গ)-এ সবগুলো gerund এবং (ঘ)-এ শুরুতে to iron infinitive — এগুলো wash-এর সাথে parallel নয়।",
+    "en": "Hints : After will wash, every verb in the series will be a bare infinitive (present form). So (a) is correct. In (b) there is the gerund dusting at the end, in (c) all are gerunds and in (d) there is the infinitive to iron at the start — these are not parallel with wash.",
+    "bn": "Hints : will wash-এর পর series-এর প্রতিটি verb-ই bare infinitive (present form) হবে। তাই (ক) সঠিক। (খ)-এ শেষে dusting gerund, (গ)-এ সবগুলো gerund এবং (ঘ)-এ শুরুতে to iron infinitive — এগুলো wash-এর সাথে parallel নয়।"
+   },
+   "source": "চট্টগ্রাম বিশ্ববিদ্যালয় বি ইউনিট ২০১৩-১৪",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 7,
+   "question": {
+    "mix": "— on this bench is much more pleasant than — in the office.",
+    "en": "— on this bench is much more pleasant than — in the office.",
+    "bn": "— on this bench is much more pleasant than — in the office."
+   },
+   "options": {
+    "a": {
+     "mix": "Lying, sitting",
+     "en": "Lying, sitting",
+     "bn": "Lying, sitting"
+    },
+    "b": {
+     "mix": "Lieing, sitting",
+     "en": "Lieing, sitting",
+     "bn": "Lieing, sitting"
+    },
+    "c": {
+     "mix": "To lie, to sit",
+     "en": "To lie, to sit",
+     "bn": "To lie, to sit"
+    },
+    "d": {
+     "mix": "To lie, sitting",
+     "en": "To lie, sitting",
+     "bn": "To lie, sitting"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Hints : তুলনার দুই পাশে (than-এর আগে ও পরে) একই form বসাতে হয়। (ক) Lying, sitting — দুটোই gerund, তাই parallel ও সঠিক। (খ) Lieing ভুল বানান (সঠিক Lying); (ঘ) To lie, sitting-এ infinitive ও gerund মিশে faulty parallelism হয়েছে; (গ) To lie, to sit infinitive জোড়া হলেও subject position-এ gerund জোড়া (ক)-ই উপযুক্ত।",
+    "en": "Hints : The same form must sit on both sides of the comparison (before and after than). (a) Lying, sitting — both are gerunds, so they are parallel and correct. (b) Lieing is a wrong spelling (correct: Lying); in (d) To lie, sitting, infinitive and gerund are mixed, making faulty parallelism; (c) To lie, to sit is an infinitive pair, but in the subject position the gerund pair (a) is the fitting one.",
+    "bn": "Hints : তুলনার দুই পাশে (than-এর আগে ও পরে) একই form বসাতে হয়। (ক) Lying, sitting — দুটোই gerund, তাই parallel ও সঠিক। (খ) Lieing ভুল বানান (সঠিক Lying); (ঘ) To lie, sitting-এ infinitive ও gerund মিশে faulty parallelism হয়েছে; (গ) To lie, to sit infinitive জোড়া হলেও subject position-এ gerund জোড়া (ক)-ই উপযুক্ত।"
+   },
+   "source": "বেগম রোকেয়া বিশ্ববিদ্যালয় ক ইউনিট ২০১২-১৩",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 8,
+   "question": {
+    "mix": "In many ways, dancing to music is similar to — .",
+    "en": "In many ways, dancing to music is similar to — .",
+    "bn": "In many ways, dancing to music is similar to — ."
+   },
+   "options": {
+    "a": {
+     "mix": "work out",
+     "en": "work out",
+     "bn": "work out"
+    },
+    "b": {
+     "mix": "when one works out",
+     "en": "when one works out",
+     "bn": "when one works out"
+    },
+    "c": {
+     "mix": "working out",
+     "en": "working out",
+     "bn": "working out"
+    },
+    "d": {
+     "mix": "the working out",
+     "en": "the working out",
+     "bn": "the working out"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Hints : Similar to-এর verbing (dancing)-কে follow করে similar to-এর পরে verbing যুক্ত option 'working out' বসবে।",
+    "en": "Hints : Following the verbing (dancing) before Similar to, the option with verbing, 'working out', will sit after similar to.",
+    "bn": "Hints : Similar to-এর verbing (dancing)-কে follow করে similar to-এর পরে verbing যুক্ত option 'working out' বসবে।"
+   },
+   "source": "জাককানইবি ইউনিট এ-এল ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 9,
+   "question": {
+    "mix": "The players are — tired — nervous.",
+    "en": "The players are — tired — nervous.",
+    "bn": "The players are — tired — nervous."
+   },
+   "options": {
+    "a": {
+     "mix": "very, but",
+     "en": "very, but",
+     "bn": "very, but"
+    },
+    "b": {
+     "mix": "neither, or",
+     "en": "neither, or",
+     "bn": "neither, or"
+    },
+    "c": {
+     "mix": "either, or",
+     "en": "either, or",
+     "bn": "either, or"
+    },
+    "d": {
+     "mix": "either, nor",
+     "en": "either, nor",
+     "bn": "either, nor"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Hints : Correlative conjunction জোড়া হিসেবে either-এর সাথে or বসে। তাই (গ) either, or সঠিক। (ক) very, but কোনো correlative জোড়া নয়; (খ) neither-এর জোড়া nor হয়, or নয়; (ঘ) either-এর সাথে nor বসে না।",
+    "en": "Hints : As a Correlative conjunction pair, or sits with either. So (c) either, or is correct. (a) very, but is not a correlative pair; the pair of (b) neither is nor, not or; nor does not sit with (d) either.",
+    "bn": "Hints : Correlative conjunction জোড়া হিসেবে either-এর সাথে or বসে। তাই (গ) either, or সঠিক। (ক) very, but কোনো correlative জোড়া নয়; (খ) neither-এর জোড়া nor হয়, or নয়; (ঘ) either-এর সাথে nor বসে না।"
+   },
+   "source": "ঢাকা বিশ্ববিদ্যালয় বি ইউনিট ২০১১-১২",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 10,
+   "question": {
+    "mix": "Identify the correct sentence—",
+    "en": "Identify the correct sentence—",
+    "bn": "Identify the correct sentence—"
+   },
+   "options": {
+    "a": {
+     "mix": "She had faith in and hopes for the future.",
+     "en": "She had faith in and hopes for the future.",
+     "bn": "She had faith in and hopes for the future."
+    },
+    "b": {
+     "mix": "She had faith and hopes for the future.",
+     "en": "She had faith and hopes for the future.",
+     "bn": "She had faith and hopes for the future."
+    },
+    "c": {
+     "mix": "She had faith and hopes in the future.",
+     "en": "She had faith and hopes in the future.",
+     "bn": "She had faith and hopes in the future."
+    },
+    "d": {
+     "mix": "She had faith and hopes of the future.",
+     "en": "She had faith and hopes of the future.",
+     "bn": "She had faith and hopes of the future."
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Hints : Faith ও Hope আলাদা Appropriate preposition গ্রহণ করে। তাই এদেরকে and দ্বারা যুক্ত করলে শুধু একটি Preposition উল্লেখ করলে চলবে না, উভয় preposition আলাদাভাবে বসাতে হবে।",
+    "en": "Hints : Faith and Hope take different Appropriate prepositions. So when they are joined by and, mentioning only one Preposition will not do; both prepositions must be placed separately.",
+    "bn": "Hints : Faith ও Hope আলাদা Appropriate preposition গ্রহণ করে। তাই এদেরকে and দ্বারা যুক্ত করলে শুধু একটি Preposition উল্লেখ করলে চলবে না, উভয় preposition আলাদাভাবে বসাতে হবে।"
+   },
+   "source": "২৩ তম বিসিএস",
+   "explanation_source": "book"
+  },
+  {
+   "section": "BCS Preliminary Questions",
+   "number": 1,
+   "question": {
+    "mix": "In many ways, riding a bicycle is similar to—",
+    "en": "In many ways, riding a bicycle is similar to—",
+    "bn": "In many ways, riding a bicycle is similar to—"
+   },
+   "options": {
+    "a": {
+     "mix": "driving a car",
+     "en": "driving a car",
+     "bn": "driving a car"
+    },
+    "b": {
+     "mix": "the driving of car",
+     "en": "the driving of car",
+     "bn": "the driving of car"
+    },
+    "c": {
+     "mix": "when you drive a car",
+     "en": "when you drive a car",
+     "bn": "when you drive a car"
+    },
+    "d": {
+     "mix": "when driving a car",
+     "en": "when driving a car",
+     "bn": "when driving a car"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Hints : riding (gerund)-এর সাথে parallel হতে similar to-এর পরেও gerund phrase বসবে। তাই (ক) driving a car সঠিক। (খ) the driving of car noun phrase হলেও riding-এর gerund গঠনের সাথে মেলে না; (গ) when you drive a car ও (ঘ) when driving a car clause হওয়ায় gerund-এর সাথে parallel নয়।",
+    "en": "Hints : To be parallel with riding (gerund), a gerund phrase will sit after similar to as well. So (a) driving a car is correct. (b) the driving of car is a noun phrase but does not match the gerund structure of riding; (c) when you drive a car and (d) when driving a car are clauses, so they are not parallel with the gerund.",
+    "bn": "Hints : riding (gerund)-এর সাথে parallel হতে similar to-এর পরেও gerund phrase বসবে। তাই (ক) driving a car সঠিক। (খ) the driving of car noun phrase হলেও riding-এর gerund গঠনের সাথে মেলে না; (গ) when you drive a car ও (ঘ) when driving a car clause হওয়ায় gerund-এর সাথে parallel নয়।"
+   },
+   "source": "৩৩তম বিসিএস",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Govt. & Private Bank Questions",
+   "number": 1,
+   "question": {
+    "mix": "Writing a beautiful sonnet is as much an achievement as to finish a 400-page novel.",
+    "en": "Writing a beautiful sonnet is as much an achievement as to finish a 400-page novel.",
+    "bn": "Writing a beautiful sonnet is as much an achievement as to finish a 400-page novel."
+   },
+   "options": {
+    "a": {
+     "mix": "finishing",
+     "en": "finishing",
+     "bn": "finishing"
+    },
+    "b": {
+     "mix": "it is to finish",
+     "en": "it is to finish",
+     "bn": "it is to finish"
+    },
+    "c": {
+     "mix": "to have finished",
+     "en": "to have finished",
+     "bn": "to have finished"
+    },
+    "d": {
+     "mix": "if to finish",
+     "en": "if to finish",
+     "bn": "if to finish"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Hints : বাক্যে parallelism-এর জন্য subject gerund writing কে follow করে to finish হবে finishing। Finishing যোগে বাক্যটির বাংলা : সুন্দর একটি সনেট লেখা ৪০০ পৃষ্ঠার একটি উপন্যাস লেখার মতো অর্জন।",
+    "en": "Hints : For parallelism in the sentence, following the subject gerund writing, to finish will become finishing. With Finishing added, the Bengali of the sentence is: writing a beautiful sonnet is an achievement like writing a 400-page novel.",
+    "bn": "Hints : বাক্যে parallelism-এর জন্য subject gerund writing কে follow করে to finish হবে finishing। Finishing যোগে বাক্যটির বাংলা : সুন্দর একটি সনেট লেখা ৪০০ পৃষ্ঠার একটি উপন্যাস লেখার মতো অর্জন।"
+   },
+   "source": "BSC Senior Officer (3 Banks) 2016 & Probashi Kallyan Bank Senior Executive Officer 2018",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Govt. & Private Bank Questions",
+   "number": 2,
+   "question": {
+    "mix": "Planning, rehearsing, reading aloud and interpret parts from famous dramas will be included in the City Readers Theater sessions.",
+    "en": "Planning, rehearsing, reading aloud and interpret parts from famous dramas will be included in the City Readers Theater sessions.",
+    "bn": "Planning, rehearsing, reading aloud and interpret parts from famous dramas will be included in the City Readers Theater sessions."
+   },
+   "options": {
+    "a": {
+     "mix": "aloud",
+     "en": "aloud",
+     "bn": "aloud"
+    },
+    "b": {
+     "mix": "interpret",
+     "en": "interpret",
+     "bn": "interpret"
+    },
+    "c": {
+     "mix": "from",
+     "en": "from",
+     "bn": "from"
+    },
+    "d": {
+     "mix": "be included",
+     "en": "be included",
+     "bn": "be included"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Hints : Reading, rehearsingএর সাথে মিল রাখতে; interpret এর স্থানে interpreting হবে।",
+    "en": "Hints : To match Reading, rehearsing; interpreting will be used in place of interpret.",
+    "bn": "Hints : Reading, rehearsingএর সাথে মিল রাখতে; interpret এর স্থানে interpreting হবে।"
+   },
+   "source": "Southeast Bank Ltd Management Trainee Officer 2013",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 1,
+   "question": {
+    "mix": "To decide on a career, students should think closely about their interests, hobbies, and — .",
+    "en": "To decide on a career, students should think closely about their interests, hobbies, and — .",
+    "bn": "To decide on a career, students should think closely about their interests, hobbies, and — ."
+   },
+   "options": {
+    "a": {
+     "mix": "skilling",
+     "en": "skilling",
+     "bn": "skilling"
+    },
+    "b": {
+     "mix": "skill",
+     "en": "skill",
+     "bn": "skill"
+    },
+    "c": {
+     "mix": "what their skills are",
+     "en": "what their skills are",
+     "bn": "what their skills are"
+    },
+    "d": {
+     "mix": "skills",
+     "en": "skills",
+     "bn": "skills"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Hints : interests ও hobbies plural noun হওয়ায় and-এর পরেও plural noun বসবে। তাই (ঘ) skills সঠিক। (ক) skilling gerund, (খ) skill singular noun এবং (গ) what their skills are clause — কোনোটিই noun series-এর সাথে parallel নয়।",
+    "en": "Hints : Since interests and hobbies are plural nouns, a plural noun will sit after and too. So (d) skills is correct. (a) skilling is a gerund, (b) skill is a singular noun and (c) what their skills are is a clause — none of them is parallel with the noun series.",
+    "bn": "Hints : interests ও hobbies plural noun হওয়ায় and-এর পরেও plural noun বসবে। তাই (ঘ) skills সঠিক। (ক) skilling gerund, (খ) skill singular noun এবং (গ) what their skills are clause — কোনোটিই noun series-এর সাথে parallel নয়।"
+   },
+   "source": "বশেমুরবিপ্রবি ইউনিট C (আইন) ২০১৯-২০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 2,
+   "question": {
+    "mix": "Choose the incorrect fragment of the following sentence. The paradoxical point, of course is that European culture was no less complex, rich or interested for having supported most aspects of the imperial experience.",
+    "en": "Choose the incorrect fragment of the following sentence. The paradoxical point, of course is that European culture was no less complex, rich or interested for having supported most aspects of the imperial experience.",
+    "bn": "Choose the incorrect fragment of the following sentence. The paradoxical point, of course is that European culture was no less complex, rich or interested for having supported most aspects of the imperial experience."
+   },
+   "options": {
+    "a": {
+     "mix": "of course",
+     "en": "of course",
+     "bn": "of course"
+    },
+    "b": {
+     "mix": "no less complex",
+     "en": "no less complex",
+     "bn": "no less complex"
+    },
+    "c": {
+     "mix": "interested",
+     "en": "interested",
+     "bn": "interested"
+    },
+    "d": {
+     "mix": "having supported",
+     "en": "having supported",
+     "bn": "having supported"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Hints : complex ও rich adjective-এর সাথে parallel হতে তৃতীয় উপাদানটিও adjective হতে হবে; interested এখানে সেই series ভেঙেছে (সঠিক রূপ হতো interesting)। তাই ভুল fragment (গ) interested। বাকিগুলো — (ক) of course, (খ) no less complex, (ঘ) having supported — গঠনগতভাবে ঠিক আছে।",
+    "en": "Hints : To be parallel with the adjectives complex and rich, the third element must also be an adjective; interested breaks that series here (the correct form would be interesting). So the incorrect fragment is (c) interested. The others — (a) of course, (b) no less complex, (d) having supported — are structurally fine.",
+    "bn": "Hints : complex ও rich adjective-এর সাথে parallel হতে তৃতীয় উপাদানটিও adjective হতে হবে; interested এখানে সেই series ভেঙেছে (সঠিক রূপ হতো interesting)। তাই ভুল fragment (গ) interested। বাকিগুলো — (ক) of course, (খ) no less complex, (ঘ) having supported — গঠনগতভাবে ঠিক আছে।"
+   },
+   "source": "বশেমুরবিপ্রবি ইউনিট F (ব্যবসায় শিক্ষা) সেট-খ ২০১৯-২০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 3,
+   "question": {
+    "mix": "I'm fond of gardening, reading and — .",
+    "en": "I'm fond of gardening, reading and — .",
+    "bn": "I'm fond of gardening, reading and — ."
+   },
+   "options": {
+    "a": {
+     "mix": "to dance",
+     "en": "to dance",
+     "bn": "to dance"
+    },
+    "b": {
+     "mix": "dancing",
+     "en": "dancing",
+     "bn": "dancing"
+    },
+    "c": {
+     "mix": "danced",
+     "en": "danced",
+     "bn": "danced"
+    },
+    "d": {
+     "mix": "dance",
+     "en": "dance",
+     "bn": "dance"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Hints : And conjunction দ্বারা যুক্ত wordগুলোর মধ্যে parallelism-এর জন্য and-এর পর ing যুক্ত word লাগবে। Dancing যোগে প্রদত্ত বাক্যের অর্থ- আমি পছন্দ করি বাগান করা, পড়া এবং নাচ করা।",
+    "en": "Hints : For parallelism among the words joined by the And conjunction, a word with ing is needed after and. With Dancing added, the meaning of the given sentence is — I like gardening, reading and dancing.",
+    "bn": "Hints : And conjunction দ্বারা যুক্ত wordগুলোর মধ্যে parallelism-এর জন্য and-এর পর ing যুক্ত word লাগবে। Dancing যোগে প্রদত্ত বাক্যের অর্থ- আমি পছন্দ করি বাগান করা, পড়া এবং নাচ করা।"
+   },
+   "source": "ঢাবি অধিভুক্ত ৭ কলেজ ইউনিট বাণিজ্য ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 4,
+   "question": {
+    "mix": "Insects provide many beneficial services, such as — breaking down deadwood, and pollinating plants.",
+    "en": "Insects provide many beneficial services, such as — breaking down deadwood, and pollinating plants.",
+    "bn": "Insects provide many beneficial services, such as — breaking down deadwood, and pollinating plants."
+   },
+   "options": {
+    "a": {
+     "mix": "the condition soils",
+     "en": "the condition soils",
+     "bn": "the condition soils"
+    },
+    "b": {
+     "mix": "to condition soil",
+     "en": "to condition soil",
+     "bn": "to condition soil"
+    },
+    "c": {
+     "mix": "conditioning the soil",
+     "en": "conditioning the soil",
+     "bn": "conditioning the soil"
+    },
+    "d": {
+     "mix": "soil conditioned",
+     "en": "soil conditioned",
+     "bn": "soil conditioned"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Hints : Such as-এর পর verb + ing + noun এভাবে parallelism করতে হবে। সুতরাং conditioning the soil বসালে বাক্যটি সঠিক হবে।",
+    "en": "Hints : After Such as, parallelism must be made in the pattern verb + ing + noun. So if conditioning the soil is placed, the sentence will be correct.",
+    "bn": "Hints : Such as-এর পর verb + ing + noun এভাবে parallelism করতে হবে। সুতরাং conditioning the soil বসালে বাক্যটি সঠিক হবে।"
+   },
+   "source": "ঢাবি 'ডি' ইউনিট ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 5,
+   "question": {
+    "mix": "Our biological clock is our body's natural habit — at particular times.",
+    "en": "Our biological clock is our body's natural habit — at particular times.",
+    "bn": "Our biological clock is our body's natural habit — at particular times."
+   },
+   "options": {
+    "a": {
+     "mix": "to sleeping, eating and growing",
+     "en": "to sleeping, eating and growing",
+     "bn": "to sleeping, eating and growing"
+    },
+    "b": {
+     "mix": "to have slept, eaten and grown",
+     "en": "to have slept, eaten and grown",
+     "bn": "to have slept, eaten and grown"
+    },
+    "c": {
+     "mix": "of sleeping, eating and growing",
+     "en": "of sleeping, eating and growing",
+     "bn": "of sleeping, eating and growing"
+    },
+    "d": {
+     "mix": "of sleeping, eating and to grow",
+     "en": "of sleeping, eating and to grow",
+     "bn": "of sleeping, eating and to grow"
+    },
+    "e": {
+     "mix": "with a view to sleep, eat and grow",
+     "en": "with a view to sleep, eat and grow",
+     "bn": "with a view to sleep, eat and grow"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Hints : 'Parallelism' রক্ষার্থে of preposition এরপর পরবর্তী 'verb' গুলোর structure একই হবে।",
+    "en": "Hints : To preserve 'Parallelism', the structure of the 'verbs' after the preposition of will be the same.",
+    "bn": "Hints : 'Parallelism' রক্ষার্থে of preposition এরপর পরবর্তী 'verb' গুলোর structure একই হবে।"
+   },
+   "source": "ঢাবি Unit-F (জীববিজ্ঞান অনুষদ) ২০১৬-১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 6,
+   "question": {
+    "mix": "The lady will wash the clothes, iron the shirts, and — the furniture.",
+    "en": "The lady will wash the clothes, iron the shirts, and — the furniture.",
+    "bn": "The lady will wash the clothes, iron the shirts, and — the furniture."
+   },
+   "options": {
+    "a": {
+     "mix": "dusting",
+     "en": "dusting",
+     "bn": "dusting"
+    },
+    "b": {
+     "mix": "dusted",
+     "en": "dusted",
+     "bn": "dusted"
+    },
+    "c": {
+     "mix": "dust",
+     "en": "dust",
+     "bn": "dust"
+    },
+    "d": {
+     "mix": "have dust",
+     "en": "have dust",
+     "bn": "have dust"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Hints : Sentence-এ ব্যবহৃত word গুলোর parallel structure রক্ষা করতে হয়। পূর্বে যেহেতু wash the clothes, iron the shirts রয়েছে, তাই and এর পরেও verb এর present form বসবে।",
+    "en": "Hints : The parallel structure of the words used in a Sentence must be preserved. Since wash the clothes, iron the shirts are there before, the present form of the verb will sit after and as well.",
+    "bn": "Hints : Sentence-এ ব্যবহৃত word গুলোর parallel structure রক্ষা করতে হয়। পূর্বে যেহেতু wash the clothes, iron the shirts রয়েছে, তাই and এর পরেও verb এর present form বসবে।"
+   },
+   "source": "ঢাবি (B-2,3,4,5,6,7,8) ইউনিট ২০১৫-১৬",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 7,
+   "question": {
+    "mix": "Find the incorrect part of the sentence :",
+    "en": "Find the incorrect part of the sentence :",
+    "bn": "Find the incorrect part of the sentence :"
+   },
+   "options": {
+    "a": {
+     "mix": "A river usually",
+     "en": "A river usually",
+     "bn": "A river usually"
+    },
+    "b": {
+     "mix": "begins",
+     "en": "begins",
+     "bn": "begins"
+    },
+    "c": {
+     "mix": "far up in the mountains or",
+     "en": "far up in the mountains or",
+     "bn": "far up in the mountains or"
+    },
+    "d": {
+     "mix": "hill",
+     "en": "hill",
+     "bn": "hill"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Hints : প্রদত্ত fragmentগুলোর মধ্যে (ঘ) hill-ই ভুল অংশ — or-এর পরের গঠন এখানে সম্পূর্ণ হয় না। বাকি fragmentগুলো — (ক) A river usually, (খ) begins, (গ) far up in the mountains or — ঠিক আছে।",
+    "en": "Hints : Among the given fragments, (d) hill is the incorrect part — the structure after or is not completed here. The other fragments — (a) A river usually, (b) begins, (c) far up in the mountains or — are fine.",
+    "bn": "Hints : প্রদত্ত fragmentগুলোর মধ্যে (ঘ) hill-ই ভুল অংশ — or-এর পরের গঠন এখানে সম্পূর্ণ হয় না। বাকি fragmentগুলো — (ক) A river usually, (খ) begins, (গ) far up in the mountains or — ঠিক আছে।"
+   },
+   "source": "রাবি D ইউনিট ২০১৫-১৬",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 8,
+   "question": {
+    "mix": "The bus — him and killed.",
+    "en": "The bus — him and killed.",
+    "bn": "The bus — him and killed."
+   },
+   "options": {
+    "a": {
+     "mix": "hit over",
+     "en": "hit over",
+     "bn": "hit over"
+    },
+    "b": {
+     "mix": "ran over",
+     "en": "ran over",
+     "bn": "ran over"
+    },
+    "c": {
+     "mix": "ran at",
+     "en": "ran at",
+     "bn": "ran at"
+    },
+    "d": {
+     "mix": "ran across",
+     "en": "ran across",
+     "bn": "ran across"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Hints : killed (past form)-এর সাথে parallel হতে and-এর আগের verb-টিও past form হবে; ran over অর্থ 'চাপা দেয়া'। তাই (খ) ran over সঠিক। (ক) hit over, (গ) ran at ও (ঘ) ran across — কোনোটিই অর্থ ও গঠনে খাপ খায় না।",
+    "en": "Hints : To be parallel with killed (past form), the verb before and will also be in the past form; ran over means 'ran over (crushed)'. So (b) ran over is correct. (a) hit over, (c) ran at and (d) ran across — none of them fits in meaning and structure.",
+    "bn": "Hints : killed (past form)-এর সাথে parallel হতে and-এর আগের verb-টিও past form হবে; ran over অর্থ 'চাপা দেয়া'। তাই (খ) ran over সঠিক। (ক) hit over, (গ) ran at ও (ঘ) ran across — কোনোটিই অর্থ ও গঠনে খাপ খায় না।"
+   },
+   "source": "রাবি D ইউনিট ২০১৫-১৬",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 9,
+   "question": {
+    "mix": "Lying here in bed, listening to the muffled and bustling sound of city, —.",
+    "en": "Lying here in bed, listening to the muffled and bustling sound of city, —.",
+    "bn": "Lying here in bed, listening to the muffled and bustling sound of city, —."
+   },
+   "options": {
+    "a": {
+     "mix": "Looked through the window I nourish the essence of nostalgia.",
+     "en": "Looked through the window I nourish the essence of nostalgia.",
+     "bn": "Looked through the window I nourish the essence of nostalgia."
+    },
+    "b": {
+     "mix": "looking through the window I nourish the essence of nostalgia.",
+     "en": "looking through the window I nourish the essence of nostalgia.",
+     "bn": "looking through the window I nourish the essence of nostalgia."
+    },
+    "c": {
+     "mix": "Looking through the window I nourish the essence of nostalgia.",
+     "en": "Looking through the window I nourish the essence of nostalgia.",
+     "bn": "Looking through the window I nourish the essence of nostalgia."
+    },
+    "d": {
+     "mix": "Looks through the window I nourish the essence of nostalgia.",
+     "en": "Looks through the window I nourish the essence of nostalgia.",
+     "bn": "Looks through the window I nourish the essence of nostalgia."
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Hints : Lying ও listening gerund-এর সাথে parallel হতে পরের অংশটিও gerund দিয়ে শুরু হবে। তাই (খ) looking through the window I nourish the essence of nostalgia সঠিক। (ক) Looked ও (ঘ) Looks finite verb দিয়ে শুরু; (গ) Looking দিয়ে শুরু হলেও বইয়ের key (খ)-কেই সঠিক ধরেছে।",
+    "en": "Hints : To be parallel with the gerunds Lying and listening, the next part will also begin with a gerund. So (b) looking through the window I nourish the essence of nostalgia is correct. (a) Looked and (d) Looks begin with finite verbs; (c) begins with Looking, but the book's key takes (b) as correct.",
+    "bn": "Hints : Lying ও listening gerund-এর সাথে parallel হতে পরের অংশটিও gerund দিয়ে শুরু হবে। তাই (খ) looking through the window I nourish the essence of nostalgia সঠিক। (ক) Looked ও (ঘ) Looks finite verb দিয়ে শুরু; (গ) Looking দিয়ে শুরু হলেও বইয়ের key (খ)-কেই সঠিক ধরেছে।"
+   },
+   "source": "বশেমুরবিপ্রবি E ইউনিট ২০১৫-১৬",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 10,
+   "question": {
+    "mix": "Taking the time to eat a good breakfast is a simple way to make the morning—and the day—-.",
+    "en": "Taking the time to eat a good breakfast is a simple way to make the morning—and the day—-.",
+    "bn": "Taking the time to eat a good breakfast is a simple way to make the morning—and the day—-."
+   },
+   "options": {
+    "a": {
+     "mix": "a best, easiest",
+     "en": "a best, easiest",
+     "bn": "a best, easiest"
+    },
+    "b": {
+     "mix": "well, at ease",
+     "en": "well, at ease",
+     "bn": "well, at ease"
+    },
+    "c": {
+     "mix": "better, easier",
+     "en": "better, easier",
+     "bn": "better, easier"
+    },
+    "d": {
+     "mix": "easy, easier",
+     "en": "easy, easier",
+     "bn": "easy, easier"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Hints : morning ও day দুটির জন্যই একই ধরনের comparative adjective জোড়া বসবে। তাই (গ) better, easier সঠিক। (ক) a best, easiest superlative জোড়া, (খ) well, at ease adverb phrase এবং (ঘ) easy, easier-এ positive ও comparative মিশ্র — কোনোটিই parallel নয়।",
+    "en": "Hints : The same kind of comparative adjective pair will sit for both morning and day. So (c) better, easier is correct. (a) a best, easiest is a superlative pair, (b) well, at ease is an adverb phrase and in (d) easy, easier positive and comparative are mixed — none of them is parallel.",
+    "bn": "Hints : morning ও day দুটির জন্যই একই ধরনের comparative adjective জোড়া বসবে। তাই (গ) better, easier সঠিক। (ক) a best, easiest superlative জোড়া, (খ) well, at ease adverb phrase এবং (ঘ) easy, easier-এ positive ও comparative মিশ্র — কোনোটিই parallel নয়।"
+   },
+   "source": "ঢাবি সি ইউনিট ২০১৩-১৪",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 11,
+   "question": {
+    "mix": "Which of the following sentences is correct.",
+    "en": "Which of the following sentences is correct.",
+    "bn": "Which of the following sentences is correct."
+   },
+   "options": {
+    "a": {
+     "mix": "He chose well and prospered.",
+     "en": "He chose well and prospered.",
+     "bn": "He chose well and prospered."
+    },
+    "b": {
+     "mix": "He choose well and prospered.",
+     "en": "He choose well and prospered.",
+     "bn": "He choose well and prospered."
+    },
+    "c": {
+     "mix": "He choiced well and prospered.",
+     "en": "He choiced well and prospered.",
+     "bn": "He choiced well and prospered."
+    },
+    "d": {
+     "mix": "He choiced well and prospered.",
+     "en": "He choiced well and prospered.",
+     "bn": "He choiced well and prospered."
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Hints : prospered past form-এর সাথে parallel হতে প্রথম verb-টিও past form হবে; choose-এর past form chose। তাই (ক) He chose well and prospered সঠিক। (খ)-এ choose present form; (গ) ও (ঘ)-এ choiced ভুল শব্দ — choose-এর কোনো choiced রূপ নেই।",
+    "en": "Hints : To be parallel with prospered (past form), the first verb will also be in the past form; the past form of choose is chose. So (a) He chose well and prospered is correct. In (b), choose is in the present form; in (c) and (d), choiced is a wrong word — choose has no choiced form.",
+    "bn": "Hints : prospered past form-এর সাথে parallel হতে প্রথম verb-টিও past form হবে; choose-এর past form chose। তাই (ক) He chose well and prospered সঠিক। (খ)-এ choose present form; (গ) ও (ঘ)-এ choiced ভুল শব্দ — choose-এর কোনো choiced রূপ নেই।"
+   },
+   "source": "ঢাবি ডি ইউনিট ২০১৩-১৪",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 12,
+   "question": {
+    "mix": "I use my TV remote control to change channels,—'—'",
+    "en": "I use my TV remote control to change channels,—'—'",
+    "bn": "I use my TV remote control to change channels,—'—'"
+   },
+   "options": {
+    "a": {
+     "mix": "to adjust the volume, and turning the set on and off",
+     "en": "to adjust the volume, and turning the set on and off",
+     "bn": "to adjust the volume, and turning the set on and off"
+    },
+    "b": {
+     "mix": "to adjust the volume, and to turn the set on and off",
+     "en": "to adjust the volume, and to turn the set on and off",
+     "bn": "to adjust the volume, and to turn the set on and off"
+    },
+    "c": {
+     "mix": "adjusting the volume, and to turn the set on and off",
+     "en": "adjusting the volume, and to turn the set on and off",
+     "bn": "adjusting the volume, and to turn the set on and off"
+    },
+    "d": {
+     "mix": "adjusting the volume, and truning the set on and off",
+     "en": "adjusting the volume, and truning the set on and off",
+     "bn": "adjusting the volume, and truning the set on and off"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Hints : to change-এর সাথে parallel হতে বাকি কাজগুলোও infinitive (to + verb) হবে। তাই (খ) to adjust the volume, and to turn the set on and off সঠিক। (ক)-তে turning ও (গ)-তে adjusting gerund মিশেছে; (ঘ)-তেও adjusting gerund এবং truning বানান ভুল।",
+    "en": "Hints : To be parallel with to change, the other actions will also be infinitives (to + verb). So (b) to adjust the volume, and to turn the set on and off is correct. In (a) turning and in (c) adjusting, a gerund is mixed in; in (d) too, adjusting is a gerund and truning is a wrong spelling.",
+    "bn": "Hints : to change-এর সাথে parallel হতে বাকি কাজগুলোও infinitive (to + verb) হবে। তাই (খ) to adjust the volume, and to turn the set on and off সঠিক। (ক)-তে turning ও (গ)-তে adjusting gerund মিশেছে; (ঘ)-তেও adjusting gerund এবং truning বানান ভুল।"
+   },
+   "source": "ঢাবি ডি ইউনিট ২০১৩-১৪",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 13,
+   "question": {
+    "mix": "Choose the correct sentence.",
+    "en": "Choose the correct sentence.",
+    "bn": "Choose the correct sentence."
+   },
+   "options": {
+    "a": {
+     "mix": "I like to swim, playing tennis, and ride.",
+     "en": "I like to swim, playing tennis, and ride.",
+     "bn": "I like to swim, playing tennis, and ride."
+    },
+    "b": {
+     "mix": "I like to swimming, play tennis, and ride.",
+     "en": "I like to swimming, play tennis, and ride.",
+     "bn": "I like to swimming, play tennis, and ride."
+    },
+    "c": {
+     "mix": "I like to swim, play tennis, and riding.",
+     "en": "I like to swim, play tennis, and riding.",
+     "bn": "I like to swim, play tennis, and riding."
+    },
+    "d": {
+     "mix": "I like to swim, play tennis, and ride.",
+     "en": "I like to swim, play tennis, and ride.",
+     "bn": "I like to swim, play tennis, and ride."
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Hints : like-এর পরের series-এর সব verb একই ধারায় থাকবে — to swim, play tennis, and ride। তাই (ঘ) সঠিক। (ক)-তে playing gerund ও (গ)-তে riding gerund series ভেঙেছে; (খ)-তে to swimming ভুল গঠন।",
+    "en": "Hints : All the verbs in the series after like will stay in the same pattern — to swim, play tennis, and ride. So (d) is correct. In (a) the gerund playing and in (c) the gerund riding break the series; in (b), to swimming is a wrong structure.",
+    "bn": "Hints : like-এর পরের series-এর সব verb একই ধারায় থাকবে — to swim, play tennis, and ride। তাই (ঘ) সঠিক। (ক)-তে playing gerund ও (গ)-তে riding gerund series ভেঙেছে; (খ)-তে to swimming ভুল গঠন।"
+   },
+   "source": "ঢাবি বি ইউনিট (EE) ২০১২-১৩",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 14,
+   "question": {
+    "mix": "The man—down silently and — his food.",
+    "en": "The man—down silently and — his food.",
+    "bn": "The man—down silently and — his food."
+   },
+   "options": {
+    "a": {
+     "mix": "sits, took",
+     "en": "sits, took",
+     "bn": "sits, took"
+    },
+    "b": {
+     "mix": "sat, take",
+     "en": "sat, take",
+     "bn": "sat, take"
+    },
+    "c": {
+     "mix": "sat, took",
+     "en": "sat, took",
+     "bn": "sat, took"
+    },
+    "d": {
+     "mix": "sat, had taken",
+     "en": "sat, had taken",
+     "bn": "sat, had taken"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Hints : and-এর দুই পাশের verb দুটির tense একই হবে। (গ) sat, took দুটোই past form বলে parallel ও সঠিক। (ক) sits present ও took past মিশ্র; (খ) sat past ও take present মিশ্র; (ঘ) had taken অযথা past perfect।",
+    "en": "Hints : The two verbs on the two sides of and will have the same tense. (c) sat, took are both past forms, so they are parallel and correct. (a) mixes sits (present) and took (past); (b) mixes sat (past) and take (present); (d) had taken is an unnecessary past perfect.",
+    "bn": "Hints : and-এর দুই পাশের verb দুটির tense একই হবে। (গ) sat, took দুটোই past form বলে parallel ও সঠিক। (ক) sits present ও took past মিশ্র; (খ) sat past ও take present মিশ্র; (ঘ) had taken অযথা past perfect।"
+   },
+   "source": "ঢাবি বি ইউনিট ২০১১-১২",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 15,
+   "question": {
+    "mix": "Which one is correct?",
+    "en": "Which one is correct?",
+    "bn": "Which one is correct?"
+   },
+   "options": {
+    "a": {
+     "mix": "It is more better to be safe than sorry.",
+     "en": "It is more better to be safe than sorry.",
+     "bn": "It is more better to be safe than sorry."
+    },
+    "b": {
+     "mix": "It is better to be safer than sorry.",
+     "en": "It is better to be safer than sorry.",
+     "bn": "It is better to be safer than sorry."
+    },
+    "c": {
+     "mix": "It is better to be safe than more sorry.",
+     "en": "It is better to be safe than more sorry.",
+     "bn": "It is better to be safe than more sorry."
+    },
+    "d": {
+     "mix": "It is better to be safe than sorry.",
+     "en": "It is better to be safe than sorry.",
+     "bn": "It is better to be safe than sorry."
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Hints : better নিজেই comparative, তাই more better হয় না; than-এর দুই পাশে safe ও sorry দুটোই positive form-এ থেকে সমতা থাকে। তাই (ঘ) It is better to be safe than sorry সঠিক। (ক)-তে more better দ্বৈত comparative; (খ)-তে safer comparative-এর বিপরীতে sorry positive এবং (গ)-তে more sorry একই অসমতা তৈরি করে।",
+    "en": "Hints : better is itself comparative, so more better is not possible; on the two sides of than, safe and sorry both stay in the positive form, keeping the balance. So (d) It is better to be safe than sorry is correct. In (a), more better is a double comparative; in (b), against the comparative safer, sorry is positive, and in (c), more sorry creates the same imbalance.",
+    "bn": "Hints : better নিজেই comparative, তাই more better হয় না; than-এর দুই পাশে safe ও sorry দুটোই positive form-এ থেকে সমতা থাকে। তাই (ঘ) It is better to be safe than sorry সঠিক। (ক)-তে more better দ্বৈত comparative; (খ)-তে safer comparative-এর বিপরীতে sorry positive এবং (গ)-তে more sorry একই অসমতা তৈরি করে।"
+   },
+   "source": "ঢাবি ডি ইউনিট ২০১১-১২",
+   "explanation_source": "generated"
+  }
+ ],
+ "unclear": [
+  {
+   "page": 491,
+   "note": "Chapter title banner ('CHAPTER 29 — Parallel Construction') and book page 473 verified from the page image. Inline Q1 tick verified against (গ) 'believing'; no Hints printed for it, so its explanation is generated. Inline Q2 is printed with five options (ক–ঙ) and the tick is against (ঘ) 'Heavy smoking and overeating.'; the book prints 'activites' (for activities) in the stem — recorded as printed."
+  },
+  {
+   "page": 492,
+   "note": "Inline Q3–Q6 ticks verified from the image: Q3 against (ক), Q4 against (গ) 'an artist', Q5 against (গ) 'opened', Q6 against (ক). No Hints are printed for these four, so their explanations are generated. The book prints 'athelete' (for athlete) in the Q4 stem and 'preparting' (for preparing) in Q6 option (গ) — both recorded as printed."
+  },
+  {
+   "page": 493,
+   "note": "Rule 29.2.2's 'Correct' line prints 'responsiblity' (for responsibility) — recorded as printed. Inline Q7 tick against (ক) 'Lying, sitting'; Q8's margin key reads উত্তর : গ with a printed Hints; Q9 tick against (গ) 'either, or'; Q10 (29.3) tick against (ক) with a printed Hints. No Hints are printed for Q7 and Q9, so their explanations are generated."
+  },
+  {
+   "page": 494,
+   "note": "BCS Q1 margin key: ৩৩তম বিসিএস, উত্তর ক; no Hints printed, so its explanation is generated. Bank Q2 is an error-spotting item whose options are marked segments inside the sentence; they are recorded as the four marked segments (ক) aloud, (খ) interpret, (গ) from, (ঘ) be included, with the margin key উত্তর : খ and the printed Hints. University Q1 margin key উত্তর : ঘ and Q2 উত্তর : গ, verified from a zoomed crop of the right margin; neither has a printed Hints, so their explanations are generated."
+  },
+  {
+   "page": 495,
+   "note": "University Q5 is printed with five options (ক–ঙ), key উত্তর : গ. University Q7 prints only the four fragments, not the full sentence. University Q9's options (খ) and (গ) differ only in the capitalization of 'looking/Looking'; the answer (খ) is recorded from the margin key উত্তর : খ. University Q11's options (গ) and (ঘ) are printed identically ('He choiced well and prospered.') — recorded as printed. University Q12's option (ঘ) prints 'truning' (for turning) — recorded as printed. All University-section margin keys on this page were verified from a zoomed crop."
+  }
+ ],
+ "translation_source": "generated"
+}

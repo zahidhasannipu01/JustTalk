@@ -1,0 +1,980 @@
+{
+ "chapter": "Chapter-28: Embedded Questions",
+ "pages": [
+  487,
+  490
+ ],
+ "rules": [
+  {
+   "heading": {
+    "mix": "Introduction",
+    "en": "Introduction",
+    "bn": "ভূমিকা"
+   },
+   "body": {
+    "mix": "English Grammar-এ কয়েকটি নিয়মে প্রশ্ন করা যায়। যেমন— WH question, Yes/No question, Tag question ইত্যাদি। এ ছাড়াও Spoken English-এ Intonation-এর মাধ্যমেও প্রশ্ন করা যায়। এবারে আলোচ্য বিষয়– Embedded question বা জুড়ে দেয়া বা গেঁথে দেয়া প্রশ্ন, যা সাধারণত বাক্যের মাঝে থাকে এবং এর গঠন প্রচলিত প্রশ্ন বা typical question-এর চেয়ে একটু ভিন্ন। যেমন— Who is he? (সে কে?)— এটি WH question। I know who he is. (আমি জানি সে কে)।— এটি Embedded question।",
+    "en": "In English Grammar, questions can be asked in several ways. For example— WH question, Yes/No question, Tag question etc. Besides, in Spoken English, questions can also be asked through Intonation. The topic of discussion this time is the Embedded question, that is, a question joined or embedded into a sentence, which usually stays in the middle of a sentence and whose structure is a little different from the common question or typical question. For example— Who is he? — this is a WH question. I know who he is. — this is an Embedded question.",
+    "bn": "English Grammar-এ কয়েকটি নিয়মে প্রশ্ন করা যায়। যেমন— WH question, Yes/No question, Tag question ইত্যাদি। এ ছাড়াও Spoken English-এ Intonation-এর মাধ্যমেও প্রশ্ন করা যায়। এবারে আলোচ্য বিষয়– Embedded question বা জুড়ে দেয়া বা গেঁথে দেয়া প্রশ্ন, যা সাধারণত বাক্যের মাঝে থাকে এবং এর গঠন প্রচলিত প্রশ্ন বা typical question-এর চেয়ে একটু ভিন্ন। যেমন— Who is he? (সে কে?)— এটি WH question। I know who he is. (আমি জানি সে কে)।— এটি Embedded question।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "28.1 Embedded Question সাধারণত WH word দ্বারা শুরু হয় এবং এটি Subordinate clause হিসেবে ব্যবহৃত হয়",
+    "en": "28.1 An Embedded Question usually begins with a WH word and is used as a Subordinate clause",
+    "bn": "28.1 Embedded Question সাধারণত WH word দ্বারা শুরু হয় এবং এটি Subordinate clause হিসেবে ব্যবহৃত হয়"
+   },
+   "body": {
+    "mix": "আর এ Subordinate clause-টি Assertive form-এ বসে, যার গঠনরূপ হচ্ছে : Principal clause + WH word + subject + verb + extension.",
+    "en": "And this Subordinate clause sits in Assertive form, whose structure is: Principal clause + WH word + subject + verb + extension.",
+    "bn": "আর এ Subordinate clause-টি Assertive form-এ বসে, যার গঠনরূপ হচ্ছে : Principal clause + WH word + subject + verb + extension."
+   }
+  },
+  {
+   "heading": {
+    "mix": "28.2 Embedded question যুক্ত Sentence-টি Assertive হবে না Interrogative হবে তা নির্ভর করে Principal clause-এর উপর",
+    "en": "28.2 Whether a Sentence with an Embedded question will be Assertive or Interrogative depends on the Principal clause",
+    "bn": "28.2 Embedded question যুক্ত Sentence-টি Assertive হবে না Interrogative হবে তা নির্ভর করে Principal clause-এর উপর"
+   },
+   "body": {
+    "mix": "অর্থাৎ Principal clause-টি Assertive হলে Sentence-টি Assertive (.) হবে এবং Principal clause-টি Interrogative হলে Sentence-টি Interrogative (?) হবে।",
+    "en": "That is, if the Principal clause is Assertive, the Sentence will be Assertive (.) and if the Principal clause is Interrogative, the Sentence will be Interrogative (?).",
+    "bn": "অর্থাৎ Principal clause-টি Assertive হলে Sentence-টি Assertive (.) হবে এবং Principal clause-টি Interrogative হলে Sentence-টি Interrogative (?) হবে।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "28.3 Embedded question যুক্ত Sentence-এ WH word যদি Subordinate clause-এর subject হিসেবে ব্যবহৃত হয়",
+    "en": "28.3 In a Sentence with an Embedded question, if the WH word is used as the subject of the Subordinate clause",
+    "bn": "28.3 Embedded question যুক্ত Sentence-এ WH word যদি Subordinate clause-এর subject হিসেবে ব্যবহৃত হয়"
+   },
+   "body": {
+    "mix": "অর্থাৎ WH word-এর পর যদি subject না থাকে, তবে WH word-এর পর সরাসরি verb বসবে। এখানে Embedded question এর নিয়ম প্রযোজ্য হবে না। — I don't know who has done it.",
+    "en": "That is, if there is no subject after the WH word, the verb sits directly after the WH word. Here the rule of the Embedded question will not apply. — I don't know who has done it.",
+    "bn": "অর্থাৎ WH word-এর পর যদি subject না থাকে, তবে WH word-এর পর সরাসরি verb বসবে। এখানে Embedded question এর নিয়ম প্রযোজ্য হবে না। — I don't know who has done it."
+   }
+  }
+ ],
+ "mcqs": [
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 1,
+   "question": {
+    "mix": "Do you know where — ?",
+    "en": "Do you know where — ?",
+    "bn": "Do you know where — ?"
+   },
+   "options": {
+    "a": {
+     "mix": "does he come from",
+     "en": "does he come from",
+     "bn": "does he come from"
+    },
+    "b": {
+     "mix": "he comes from",
+     "en": "he comes from",
+     "bn": "he comes from"
+    },
+    "c": {
+     "mix": "did he come from",
+     "en": "did he come from",
+     "bn": "did he come from"
+    },
+    "d": {
+     "mix": "in he from",
+     "en": "in he from",
+     "bn": "in he from"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Hints : Embedded question-এ WH word-এর পর subject + verb বসে (Assertive form)। তাই (খ) he comes from সঠিক। (ক) does he come from ও (গ) did he come from-এ প্রশ্নবোধক inversion রয়েছে, যা Embedded question-এ হয় না; আর (ঘ) in he from কোনো সঠিক গঠন নয়।",
+    "en": "Hints : In an Embedded question, subject + verb sits after the WH word (Assertive form). So (b) he comes from is correct. (a) does he come from and (c) did he come from have interrogative inversion, which does not happen in an Embedded question; and (d) in he from is not a correct structure.",
+    "bn": "Hints : Embedded question-এ WH word-এর পর subject + verb বসে (Assertive form)। তাই (খ) he comes from সঠিক। (ক) does he come from ও (গ) did he come from-এ প্রশ্নবোধক inversion রয়েছে, যা Embedded question-এ হয় না; আর (ঘ) in he from কোনো সঠিক গঠন নয়।"
+   },
+   "source": "চট্টগ্রাম বিশ্ববিদ্যালয় ডি ইউনিট ২০১১-১২",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 2,
+   "question": {
+    "mix": "I do not know — ?",
+    "en": "I do not know — ?",
+    "bn": "I do not know — ?"
+   },
+   "options": {
+    "a": {
+     "mix": "because he did",
+     "en": "because he did",
+     "bn": "because he did"
+    },
+    "b": {
+     "mix": "why did he",
+     "en": "why did he",
+     "bn": "why did he"
+    },
+    "c": {
+     "mix": "why he did it",
+     "en": "why he did it",
+     "bn": "why he did it"
+    },
+    "d": {
+     "mix": "why did he do",
+     "en": "why did he do",
+     "bn": "why did he do"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Hints : I do not know-এর পর Embedded question বসবে, যার গঠন WH word + subject + verb। তাই (গ) why he did it সঠিক। (খ) why did he ও (ঘ) why did he do প্রশ্নবোধক গঠনের এবং অসম্পূর্ণ; (ক) because he did এখানে অর্থ ও গঠন কোনোটিই মেলে না।",
+    "en": "Hints : After I do not know an Embedded question sits, whose structure is WH word + subject + verb. So (c) why he did it is correct. (b) why did he and (d) why did he do are of interrogative structure and incomplete; (a) because he did matches neither in meaning nor in structure here.",
+    "bn": "Hints : I do not know-এর পর Embedded question বসবে, যার গঠন WH word + subject + verb। তাই (গ) why he did it সঠিক। (খ) why did he ও (ঘ) why did he do প্রশ্নবোধক গঠনের এবং অসম্পূর্ণ; (ক) because he did এখানে অর্থ ও গঠন কোনোটিই মেলে না।"
+   },
+   "source": "ইসলামী বিশ্ববিদ্যালয় সি ইউনিট ২০১১-১২",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 3,
+   "question": {
+    "mix": "Identify the correct sentence.",
+    "en": "Identify the correct sentence.",
+    "bn": "Identify the correct sentence."
+   },
+   "options": {
+    "a": {
+     "mix": "I do not know where he lives.",
+     "en": "I do not know where he lives.",
+     "bn": "I do not know where he lives."
+    },
+    "b": {
+     "mix": "I did not know where he has been lived.",
+     "en": "I did not know where he has been lived.",
+     "bn": "I did not know where he has been lived."
+    },
+    "c": {
+     "mix": "I do not know where dose he live.",
+     "en": "I do not know where dose he live.",
+     "bn": "I do not know where dose he live."
+    },
+    "d": {
+     "mix": "I do not know where he has been lived.",
+     "en": "I do not know where he has been lived.",
+     "bn": "I do not know where he has been lived."
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Hints : Embedded question-যুক্ত বাক্যে subordinate clause-টি Assertive form-এ হয়: where + subject + verb। (ক)-তে where he lives ঠিক আছে। (খ) ও (ঘ)-তে has been lived ভুল গঠন; (গ)-তে dose বানান ভুল এবং does he live প্রশ্নবোধক inversion, যা এখানে হবে না।",
+    "en": "Hints : In a sentence with an Embedded question, the subordinate clause is in Assertive form: where + subject + verb. In (a), where he lives is right. In (b) and (d), has been lived is a wrong structure; in (c), dose is a wrong spelling and does he live is interrogative inversion, which will not happen here.",
+    "bn": "Hints : Embedded question-যুক্ত বাক্যে subordinate clause-টি Assertive form-এ হয়: where + subject + verb। (ক)-তে where he lives ঠিক আছে। (খ) ও (ঘ)-তে has been lived ভুল গঠন; (গ)-তে dose বানান ভুল এবং does he live প্রশ্নবোধক inversion, যা এখানে হবে না।"
+   },
+   "source": "ঢাকা বিশ্ববিদ্যালয় ডি ইউনিট ২০০১-২০০২",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 4,
+   "question": {
+    "mix": "Choose the correct sentence.",
+    "en": "Choose the correct sentence.",
+    "bn": "Choose the correct sentence."
+   },
+   "options": {
+    "a": {
+     "mix": "Can you tell what is his name?",
+     "en": "Can you tell what is his name?",
+     "bn": "Can you tell what is his name?"
+    },
+    "b": {
+     "mix": "Can you tell me what is his name?",
+     "en": "Can you tell me what is his name?",
+     "bn": "Can you tell me what is his name?"
+    },
+    "c": {
+     "mix": "Can you tell me what his name is?",
+     "en": "Can you tell me what his name is?",
+     "bn": "Can you tell me what his name is?"
+    },
+    "d": {
+     "mix": "Can you tell me what name is his?",
+     "en": "Can you tell me what name is his?",
+     "bn": "Can you tell me what name is his?"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Hints : Principal clause-টি Interrogative হলেও Embedded question অংশটি Assertive form-এ বসে: what + subject + verb (what his name is)। তাই (গ) সঠিক। (ক)-তে me নেই এবং what is his name প্রশ্নবোধক গঠন; (খ)-তেও একই ভুল গঠন; (ঘ)-তে what name is his অসঙ্গত।",
+    "en": "Hints : Even if the Principal clause is Interrogative, the Embedded question part sits in Assertive form: what + subject + verb (what his name is). So (c) is correct. In (a), me is missing and what is his name is an interrogative structure; (b) has the same wrong structure; in (d), what name is his is inconsistent.",
+    "bn": "Hints : Principal clause-টি Interrogative হলেও Embedded question অংশটি Assertive form-এ বসে: what + subject + verb (what his name is)। তাই (গ) সঠিক। (ক)-তে me নেই এবং what is his name প্রশ্নবোধক গঠন; (খ)-তেও একই ভুল গঠন; (ঘ)-তে what name is his অসঙ্গত।"
+   },
+   "source": "রাজশাহী বিশ্ববিদ্যালয় (B-Law) ২০১৪-১৫",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "BCS Preliminary Questions",
+   "number": 1,
+   "question": {
+    "mix": "Can you tell me where——? Which of the following is the best clause in the above sentence?",
+    "en": "Can you tell me where——? Which of the following is the best clause in the above sentence?",
+    "bn": "Can you tell me where——? Which of the following is the best clause in the above sentence?"
+   },
+   "options": {
+    "a": {
+     "mix": "does Mr. Ali live",
+     "en": "does Mr. Ali live",
+     "bn": "does Mr. Ali live"
+    },
+    "b": {
+     "mix": "Mr. Ali does live",
+     "en": "Mr. Ali does live",
+     "bn": "Mr. Ali does live"
+    },
+    "c": {
+     "mix": "Mr. Ali lives",
+     "en": "Mr. Ali lives",
+     "bn": "Mr. Ali lives"
+    },
+    "d": {
+     "mix": "lives Mr. Ali",
+     "en": "lives Mr. Ali",
+     "bn": "lives Mr. Ali"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "সাধারণভাবে বাক্যের ২য় অংশ প্রশ্নবোধক হয় না।",
+    "en": "Generally, the 2nd part of a sentence is not interrogative.",
+    "bn": "সাধারণভাবে বাক্যের ২য় অংশ প্রশ্নবোধক হয় না।"
+   },
+   "source": "১৪তম বিসিএস",
+   "explanation_source": "book"
+  },
+  {
+   "section": "BCS Preliminary Questions",
+   "number": 2,
+   "question": {
+    "mix": "Do you know — ?",
+    "en": "Do you know — ?",
+    "bn": "Do you know — ?"
+   },
+   "options": {
+    "a": {
+     "mix": "who I am?",
+     "en": "who I am?",
+     "bn": "who I am?"
+    },
+    "b": {
+     "mix": "who am I?",
+     "en": "who am I?",
+     "bn": "who am I?"
+    },
+    "c": {
+     "mix": "who was I?",
+     "en": "who was I?",
+     "bn": "who was I?"
+    },
+    "d": {
+     "mix": "who I shall?",
+     "en": "who I shall?",
+     "bn": "who I shall?"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Complex sentence-এর subordinate clause-এর structure সর্বদাই assertive হবে। অর্থাৎ 'Subject + verb + ...' structureটি অনুসৃত হবে। সুতরাং সঠিক উত্তর (ক)।",
+    "en": "The structure of the subordinate clause of a Complex sentence will always be assertive. That is, the 'Subject + verb + ...' structure will be followed. So the correct answer is (a).",
+    "bn": "Complex sentence-এর subordinate clause-এর structure সর্বদাই assertive হবে। অর্থাৎ 'Subject + verb + ...' structureটি অনুসৃত হবে। সুতরাং সঠিক উত্তর (ক)।"
+   },
+   "source": "পোস্ট মাস্টার জেনারেল (পূর্বাঞ্চল, চট্টগ্রাম)-এর কার্যালয়ের পোস্টাল অপারেটর ২০১৬",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Govt. & Private Bank Questions",
+   "number": 1,
+   "question": {
+    "mix": "We don't know how did the thief made an escape.",
+    "en": "We don't know how did the thief made an escape.",
+    "bn": "We don't know how did the thief made an escape."
+   },
+   "options": {
+    "a": {
+     "mix": "how the thief did make",
+     "en": "how the thief did make",
+     "bn": "how the thief did make"
+    },
+    "b": {
+     "mix": "how the thief does make",
+     "en": "how the thief does make",
+     "bn": "how the thief does make"
+    },
+    "c": {
+     "mix": "how the thief made",
+     "en": "how the thief made",
+     "bn": "how the thief made"
+    },
+    "d": {
+     "mix": "how was the thief made",
+     "en": "how was the thief made",
+     "bn": "how was the thief made"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Embedded question-এর Structure হলো Wh question word + sub + verb। সুতরাং underline-কৃত অংশের সঠিক রূপ how the thief made যোগে বাক্যটির বাংলা : আমরা জানি না চোরটি কীভাবে পালিয়ে গেল।",
+    "en": "The Structure of an Embedded question is Wh question word + sub + verb. So, with the correct form of the underlined part, how the thief made, the Bangla of the sentence is: We do not know how the thief escaped.",
+    "bn": "Embedded question-এর Structure হলো Wh question word + sub + verb। সুতরাং underline-কৃত অংশের সঠিক রূপ how the thief made যোগে বাক্যটির বাংলা : আমরা জানি না চোরটি কীভাবে পালিয়ে গেল।"
+   },
+   "source": "Standard Bank Ltd. Trainee Assistant Officer (TAO) 2018",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Govt. & Private Bank Questions",
+   "number": 2,
+   "question": {
+    "mix": "Can you tell me why did you not speak the truth?",
+    "en": "Can you tell me why did you not speak the truth?",
+    "bn": "Can you tell me why did you not speak the truth?"
+   },
+   "options": {
+    "a": {
+     "mix": "why did not you speak",
+     "en": "why did not you speak",
+     "bn": "why did not you speak"
+    },
+    "b": {
+     "mix": "that why did you not speak",
+     "en": "that why did you not speak",
+     "bn": "that why did you not speak"
+    },
+    "c": {
+     "mix": "why you did not speak",
+     "en": "why you did not speak",
+     "bn": "why you did not speak"
+    },
+    "d": {
+     "mix": "why did you not spoke",
+     "en": "why did you not spoke",
+     "bn": "why did you not spoke"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Embedded question-এর structure হলো Wh question word + sub + negative particle + verb-এর base form। সুতরাং প্রদত্ত underline-কৃত অংশের জন্য সঠিক অংশ হবে why you didn't speak।",
+    "en": "The structure of an Embedded question is Wh question word + sub + negative particle + base form of the verb. So the correct part for the given underlined part will be why you didn't speak.",
+    "bn": "Embedded question-এর structure হলো Wh question word + sub + negative particle + verb-এর base form। সুতরাং প্রদত্ত underline-কৃত অংশের জন্য সঠিক অংশ হবে why you didn't speak।"
+   },
+   "source": "Standard Bank Ltd. Trainee Assistant Officer (TAO) 2018",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Govt. & Private Bank Questions",
+   "number": 3,
+   "question": {
+    "mix": "I wish you would tell me —",
+    "en": "I wish you would tell me —",
+    "bn": "I wish you would tell me —"
+   },
+   "options": {
+    "a": {
+     "mix": "who is being lived next door",
+     "en": "who is being lived next door",
+     "bn": "who is being lived next door"
+    },
+    "b": {
+     "mix": "who does live in the next door",
+     "en": "who does live in the next door",
+     "bn": "who does live in the next door"
+    },
+    "c": {
+     "mix": "who lives next door",
+     "en": "who lives next door",
+     "bn": "who lives next door"
+    },
+    "d": {
+     "mix": "who was living next door",
+     "en": "who was living next door",
+     "bn": "who was living next door"
+    },
+    "e": {
+     "mix": "None of these",
+     "en": "None of these",
+     "bn": "None of these"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Would tell বাক্যে থাকায় পরের clauseটিও past tense-এ হবে। সুতরাং শূন্যস্থানের জন্য যথাযথ বাক্যাংশ হলো who was living next door।",
+    "en": "As Would tell is in the sentence, the following clause will also be in past tense. So the appropriate phrase for the blank is who was living next door.",
+    "bn": "Would tell বাক্যে থাকায় পরের clauseটিও past tense-এ হবে। সুতরাং শূন্যস্থানের জন্য যথাযথ বাক্যাংশ হলো who was living next door।"
+   },
+   "source": "City Bank Ltd. Trainee Officer 2018",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 1,
+   "question": {
+    "mix": "A question mark in parentheses(?) can be used to—",
+    "en": "A question mark in parentheses(?) can be used to—",
+    "bn": "A question mark in parentheses(?) can be used to—"
+   },
+   "options": {
+    "a": {
+     "mix": "express uncertainty",
+     "en": "express uncertainty",
+     "bn": "express uncertainty"
+    },
+    "b": {
+     "mix": "mark the end of any sentence",
+     "en": "mark the end of any sentence",
+     "bn": "mark the end of any sentence"
+    },
+    "c": {
+     "mix": "express a writer's interest",
+     "en": "express a writer's interest",
+     "bn": "express a writer's interest"
+    },
+    "d": {
+     "mix": "show a writer's expectation",
+     "en": "show a writer's expectation",
+     "bn": "show a writer's expectation"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "একটি বাক্যের মধ্যেই অপর একটি বাক্য কমা, ড্যাশ বা বন্ধনী দ্বারা আলাদা করে বোঝালে তাকে Parentheses বলে। আর এই Parentheses-এর শেষে প্রশ্নবোধক চিহ্ন থাকলে তা দ্বারা বক্তার আশংকা বা অনিশ্চয়তা প্রকাশ পায়। তাই অপশন (ক) হবে সঠিক উত্তর।",
+    "en": "When another sentence within a sentence is shown separately by a comma, dash or brackets, it is called Parentheses. And if there is a question mark at the end of these Parentheses, it expresses the speaker's doubt or uncertainty. So option (a) will be the correct answer.",
+    "bn": "একটি বাক্যের মধ্যেই অপর একটি বাক্য কমা, ড্যাশ বা বন্ধনী দ্বারা আলাদা করে বোঝালে তাকে Parentheses বলে। আর এই Parentheses-এর শেষে প্রশ্নবোধক চিহ্ন থাকলে তা দ্বারা বক্তার আশংকা বা অনিশ্চয়তা প্রকাশ পায়। তাই অপশন (ক) হবে সঠিক উত্তর।"
+   },
+   "source": "খুবি 'B' ইউনিট (সেট-বি) ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 2,
+   "question": {
+    "mix": "I don't know where — so early in the morning.",
+    "en": "I don't know where — so early in the morning.",
+    "bn": "I don't know where — so early in the morning."
+   },
+   "options": {
+    "a": {
+     "mix": "could he go",
+     "en": "could he go",
+     "bn": "could he go"
+    },
+    "b": {
+     "mix": "could he have gone",
+     "en": "could he have gone",
+     "bn": "could he have gone"
+    },
+    "c": {
+     "mix": "he could have gone",
+     "en": "he could have gone",
+     "bn": "he could have gone"
+    },
+    "d": {
+     "mix": "did he go",
+     "en": "did he go",
+     "bn": "did he go"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Embedded question-এর structure wh question word + sub + verb। সুতরাং সঠিক expression হলো he could have gone।",
+    "en": "The structure of an Embedded question is wh question word + sub + verb. So the correct expression is he could have gone.",
+    "bn": "Embedded question-এর structure wh question word + sub + verb। সুতরাং সঠিক expression হলো he could have gone।"
+   },
+   "source": "ঢাবি 'A' ইউনিট ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 3,
+   "question": {
+    "mix": "I don't know — .",
+    "en": "I don't know — .",
+    "bn": "I don't know — ."
+   },
+   "options": {
+    "a": {
+     "mix": "where she dwells",
+     "en": "where she dwells",
+     "bn": "where she dwells"
+    },
+    "b": {
+     "mix": "where does she dwell",
+     "en": "where does she dwell",
+     "bn": "where does she dwell"
+    },
+    "c": {
+     "mix": "where is she from",
+     "en": "where is she from",
+     "bn": "where is she from"
+    },
+    "d": {
+     "mix": "where does she come from",
+     "en": "where does she come from",
+     "bn": "where does she come from"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Embedded question-এর structure হলো : wh question word + sub + tense অনুযায়ী verb। সুতরাং বাক্যটির জন্য expression হলো where she dwells।",
+    "en": "The structure of an Embedded question is: wh question word + sub + verb according to tense. So the expression for the sentence is where she dwells.",
+    "bn": "Embedded question-এর structure হলো : wh question word + sub + tense অনুযায়ী verb। সুতরাং বাক্যটির জন্য expression হলো where she dwells।"
+   },
+   "source": "ঢাবি 'B-1' ইউনিট ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 4,
+   "question": {
+    "mix": "Do you know — ?",
+    "en": "Do you know — ?",
+    "bn": "Do you know — ?"
+   },
+   "options": {
+    "a": {
+     "mix": "who is he",
+     "en": "who is he",
+     "bn": "who is he"
+    },
+    "b": {
+     "mix": "who was he",
+     "en": "who was he",
+     "bn": "who was he"
+    },
+    "c": {
+     "mix": "who has he been",
+     "en": "who has he been",
+     "bn": "who has he been"
+    },
+    "d": {
+     "mix": "who he is",
+     "en": "who he is",
+     "bn": "who he is"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Embedded question-এর structure wh question word + sub + verb। সুতরাং বাক্যটির জন্য যথাযথ expression হলো who he is।",
+    "en": "The structure of an Embedded question is wh question word + sub + verb. So the appropriate expression for the sentence is who he is.",
+    "bn": "Embedded question-এর structure wh question word + sub + verb। সুতরাং বাক্যটির জন্য যথাযথ expression হলো who he is।"
+   },
+   "source": "ঢাবি 'ডি' ইউনিট ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 5,
+   "question": {
+    "mix": "John has not been able to recall where —",
+    "en": "John has not been able to recall where —",
+    "bn": "John has not been able to recall where —"
+   },
+   "options": {
+    "a": {
+     "mix": "does she live",
+     "en": "does she live",
+     "bn": "does she live"
+    },
+    "b": {
+     "mix": "she lives",
+     "en": "she lives",
+     "bn": "she lives"
+    },
+    "c": {
+     "mix": "did she live",
+     "en": "did she live",
+     "bn": "did she live"
+    },
+    "d": {
+     "mix": "she lived",
+     "en": "she lived",
+     "bn": "she lived"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Embedded question-এর structure হলো wh question word + sub + verb (tense অনুযায়ী)। Where-এর পূর্ববর্তী clause টি present tense-এ হওয়ায় where পরবর্তী clauseটিও present tense-এ হবে। সুতরাং সঠিক expression হলো she lives।",
+    "en": "The structure of an Embedded question is wh question word + sub + verb (according to tense). As the clause before Where is in present tense, the clause after where will also be in present tense. So the correct expression is she lives.",
+    "bn": "Embedded question-এর structure হলো wh question word + sub + verb (tense অনুযায়ী)। Where-এর পূর্ববর্তী clause টি present tense-এ হওয়ায় where পরবর্তী clauseটিও present tense-এ হবে। সুতরাং সঠিক expression হলো she lives।"
+   },
+   "source": "ইসলামী বিশ্ববিদ্যালয় Unit-B (Set-B) ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 6,
+   "question": {
+    "mix": "Do you know when — ?",
+    "en": "Do you know when — ?",
+    "bn": "Do you know when — ?"
+   },
+   "options": {
+    "a": {
+     "mix": "Islamic University was founded",
+     "en": "Islamic University was founded",
+     "bn": "Islamic University was founded"
+    },
+    "b": {
+     "mix": "Was Islamic University founded",
+     "en": "Was Islamic University founded",
+     "bn": "Was Islamic University founded"
+    },
+    "c": {
+     "mix": "Islamic University founded",
+     "en": "Islamic University founded",
+     "bn": "Islamic University founded"
+    },
+    "d": {
+     "mix": "Had Islamic University been founded",
+     "en": "Had Islamic University been founded",
+     "bn": "Had Islamic University been founded"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Embedded question-এর structure হলো wh question word + sub + be verb + verb-এর p.p (বাক্যটি passive হলে)। সুতরাং সঠিক expression হলো Islamic University was founded।",
+    "en": "The structure of an Embedded question is wh question word + sub + be verb + p.p of the verb (if the sentence is passive). So the correct expression is Islamic University was founded.",
+    "bn": "Embedded question-এর structure হলো wh question word + sub + be verb + verb-এর p.p (বাক্যটি passive হলে)। সুতরাং সঠিক expression হলো Islamic University was founded।"
+   },
+   "source": "ইসলামী বিশ্ববিদ্যালয় Unit-B (Set-B) ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 7,
+   "question": {
+    "mix": "Do you know — ?",
+    "en": "Do you know — ?",
+    "bn": "Do you know — ?"
+   },
+   "options": {
+    "a": {
+     "mix": "why Abir is absent today",
+     "en": "why Abir is absent today",
+     "bn": "why Abir is absent today"
+    },
+    "b": {
+     "mix": "why is Abir absent today",
+     "en": "why is Abir absent today",
+     "bn": "why is Abir absent today"
+    },
+    "c": {
+     "mix": "why was abir absent today",
+     "en": "why was abir absent today",
+     "bn": "why was abir absent today"
+    },
+    "d": {
+     "mix": "why has Abir been absent today",
+     "en": "why has Abir been absent today",
+     "bn": "why has Abir been absent today"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Hints : Embedded question-এ WH word-এর পর subject + verb (Assertive form) বসে: why Abir is absent today। তাই (ক) সঠিক। (খ)-তে প্রশ্নবোধক inversion (is Abir) হয়েছে; (গ)-তে was দিয়ে tense বদলে গেছে; (ঘ)-তেও has been দিয়ে গঠন মেলে না।",
+    "en": "Hints : In an Embedded question, subject + verb (Assertive form) sits after the WH word: why Abir is absent today. So (a) is correct. In (b) there is interrogative inversion (is Abir); in (c) the tense is changed with was; in (d) too the structure with has been does not match.",
+    "bn": "Hints : Embedded question-এ WH word-এর পর subject + verb (Assertive form) বসে: why Abir is absent today। তাই (ক) সঠিক। (খ)-তে প্রশ্নবোধক inversion (is Abir) হয়েছে; (গ)-তে was দিয়ে tense বদলে গেছে; (ঘ)-তেও has been দিয়ে গঠন মেলে না।"
+   },
+   "source": "বশেমুরবিপ্রবি ইউনিট D, E (সামাজিক বিজ্ঞান) ২০১৯-২০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 8,
+   "question": {
+    "mix": "The type of clothing people wear tells others a lot about — .",
+    "en": "The type of clothing people wear tells others a lot about — .",
+    "bn": "The type of clothing people wear tells others a lot about — ."
+   },
+   "options": {
+    "a": {
+     "mix": "who they are",
+     "en": "who they are",
+     "bn": "who they are"
+    },
+    "b": {
+     "mix": "they whom are",
+     "en": "they whom are",
+     "bn": "they whom are"
+    },
+    "c": {
+     "mix": "are they who",
+     "en": "are they who",
+     "bn": "are they who"
+    },
+    "d": {
+     "mix": "who are they",
+     "en": "who are they",
+     "bn": "who are they"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "বাক্যের মধ্যে Embedded question থাকলে তা assertive হয় (Who they are)।",
+    "en": "If there is an Embedded question in a sentence, it is assertive (Who they are).",
+    "bn": "বাক্যের মধ্যে Embedded question থাকলে তা assertive হয় (Who they are)।"
+   },
+   "source": "বশেমুরবিপ্রবি ইউনিট F (ব্যবসায় শিক্ষা) সেট-B ২০১৯-২০; ঢাবি ইউনিট গ ২০১৬-১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 9,
+   "question": {
+    "mix": "What surprised me the most was how — and reacted exactly like you, said the banker to me.",
+    "en": "What surprised me the most was how — and reacted exactly like you, said the banker to me.",
+    "bn": "What surprised me the most was how — and reacted exactly like you, said the banker to me."
+   },
+   "options": {
+    "a": {
+     "mix": "did he look",
+     "en": "did he look",
+     "bn": "did he look"
+    },
+    "b": {
+     "mix": "does he look",
+     "en": "does he look",
+     "bn": "does he look"
+    },
+    "c": {
+     "mix": "he looked",
+     "en": "he looked",
+     "bn": "he looked"
+    },
+    "d": {
+     "mix": "could he look",
+     "en": "could he look",
+     "bn": "could he look"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Embedded question-এর structure অনুযায়ী he looked বসবে কেননা embedded question-এর ক্ষেত্রে Wh question word + sub + verb বসে।",
+    "en": "According to the structure of an Embedded question, he looked will sit, because in the case of an embedded question Wh question word + sub + verb sits.",
+    "bn": "Embedded question-এর structure অনুযায়ী he looked বসবে কেননা embedded question-এর ক্ষেত্রে Wh question word + sub + verb বসে।"
+   },
+   "source": "ঢাবি 'ক' ইউনিট ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 10,
+   "question": {
+    "mix": "Could you tell me— ?",
+    "en": "Could you tell me— ?",
+    "bn": "Could you tell me— ?"
+   },
+   "options": {
+    "a": {
+     "mix": "What's the time",
+     "en": "What's the time",
+     "bn": "What's the time"
+    },
+    "b": {
+     "mix": "What time is it?",
+     "en": "What time is it?",
+     "bn": "What time is it?"
+    },
+    "c": {
+     "mix": "What it is time",
+     "en": "What it is time",
+     "bn": "What it is time"
+    },
+    "d": {
+     "mix": "What time it is",
+     "en": "What time it is",
+     "bn": "What time it is"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Embedded question হলো অন্য বাক্য বা প্রশ্নবোধক বাক্যের জুড়ে দেওয়া প্রশ্ন। Embedded question-এর structure হলো : Wh question word + sub + verb। সুতরাং বাক্যটিকে পূর্ণাঙ্গ করতে সঠিক expression হলো— What time it is।",
+    "en": "An Embedded question is a question joined to another sentence or an interrogative sentence. The structure of an Embedded question is: Wh question word + sub + verb. So the correct expression to complete the sentence is— What time it is.",
+    "bn": "Embedded question হলো অন্য বাক্য বা প্রশ্নবোধক বাক্যের জুড়ে দেওয়া প্রশ্ন। Embedded question-এর structure হলো : Wh question word + sub + verb। সুতরাং বাক্যটিকে পূর্ণাঙ্গ করতে সঠিক expression হলো— What time it is।"
+   },
+   "source": "ইবি ইউনিট ডি ২০১৮-১৯; ঢাবি Unit-D3 (ব্যবসায় শিক্ষা) ২০১৬-১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 11,
+   "question": {
+    "mix": "Please let me know why — the class.",
+    "en": "Please let me know why — the class.",
+    "bn": "Please let me know why — the class."
+   },
+   "options": {
+    "a": {
+     "mix": "you didn't attend",
+     "en": "you didn't attend",
+     "bn": "you didn't attend"
+    },
+    "b": {
+     "mix": "didn't you attend",
+     "en": "didn't you attend",
+     "bn": "didn't you attend"
+    },
+    "c": {
+     "mix": "you didn't attend to",
+     "en": "you didn't attend to",
+     "bn": "you didn't attend to"
+    },
+    "d": {
+     "mix": "you didn't go",
+     "en": "you didn't go",
+     "bn": "you didn't go"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "বাক্যে Embedded question ব্যবহৃত হবে। আর Embedded question এর structure হলো Wh question word + sub + verb। Option (গ) এবং (ঘ) একই নিয়ম ফলো করলেও attend the class হবে অর্থাৎ attend এর পর preposition হবে না। সুতরাং সঠিক উত্তর you didn't attend।",
+    "en": "An Embedded question will be used in the sentence. And the structure of an Embedded question is Wh question word + sub + verb. Although Options (c) and (d) follow the same rule, it will be attend the class, that is, there will be no preposition after attend. So the correct answer is you didn't attend.",
+    "bn": "বাক্যে Embedded question ব্যবহৃত হবে। আর Embedded question এর structure হলো Wh question word + sub + verb। Option (গ) এবং (ঘ) একই নিয়ম ফলো করলেও attend the class হবে অর্থাৎ attend এর পর preposition হবে না। সুতরাং সঠিক উত্তর you didn't attend।"
+   },
+   "source": "ঢাবি ইউনিট ক ২০১৭-১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 12,
+   "question": {
+    "mix": "Do you know when — ?",
+    "en": "Do you know when — ?",
+    "bn": "Do you know when — ?"
+   },
+   "options": {
+    "a": {
+     "mix": "DU was founded",
+     "en": "DU was founded",
+     "bn": "DU was founded"
+    },
+    "b": {
+     "mix": "was DU founded",
+     "en": "was DU founded",
+     "bn": "was DU founded"
+    },
+    "c": {
+     "mix": "DU founded",
+     "en": "DU founded",
+     "bn": "DU founded"
+    },
+    "d": {
+     "mix": "had DU been founded",
+     "en": "had DU been founded",
+     "bn": "had DU been founded"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Embedded question-এর ক্ষেত্রে Wh question word + sub + verb হবে। আর DU ব্যক্তি কর্তৃক নির্মিত হয় (found)। সুতরাং বাক্যটি passive structure-এ হবে। DU was founded হলো সঠিক option।",
+    "en": "In the case of an Embedded question, it will be Wh question word + sub + verb. And DU is built by persons (found). So the sentence will be in passive structure. DU was founded is the correct option.",
+    "bn": "Embedded question-এর ক্ষেত্রে Wh question word + sub + verb হবে। আর DU ব্যক্তি কর্তৃক নির্মিত হয় (found)। সুতরাং বাক্যটি passive structure-এ হবে। DU was founded হলো সঠিক option।"
+   },
+   "source": "ঢাবি ইউনিট গ ২০১৬-১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 13,
+   "question": {
+    "mix": "Could you please tell me when—? The missing words are :",
+    "en": "Could you please tell me when—? The missing words are :",
+    "bn": "Could you please tell me when—? The missing words are :"
+   },
+   "options": {
+    "a": {
+     "mix": "does the train leave",
+     "en": "does the train leave",
+     "bn": "does the train leave"
+    },
+    "b": {
+     "mix": "the train leaves",
+     "en": "the train leaves",
+     "bn": "the train leaves"
+    },
+    "c": {
+     "mix": "leaves the train",
+     "en": "leaves the train",
+     "bn": "leaves the train"
+    },
+    "d": {
+     "mix": "does leave the train.",
+     "en": "does leave the train.",
+     "bn": "does leave the train."
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Interrogative Sentence এ প্রথম clauseটি প্রশ্নবোধক হয় এবং পরবর্তী clauseটি Assertives বা বিবৃতিমূলক হয়।",
+    "en": "In an Interrogative Sentence, the first clause is interrogative and the following clause is Assertive or statement-like.",
+    "bn": "Interrogative Sentence এ প্রথম clauseটি প্রশ্নবোধক হয় এবং পরবর্তী clauseটি Assertives বা বিবৃতিমূলক হয়।"
+   },
+   "source": "রাবি ইউনিট A (সোড) ২০১৬-১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 14,
+   "question": {
+    "mix": "Can you tell me where— find the book?",
+    "en": "Can you tell me where— find the book?",
+    "bn": "Can you tell me where— find the book?"
+   },
+   "options": {
+    "a": {
+     "mix": "can I",
+     "en": "can I",
+     "bn": "can I"
+    },
+    "b": {
+     "mix": "can",
+     "en": "can",
+     "bn": "can"
+    },
+    "c": {
+     "mix": "I can",
+     "en": "I can",
+     "bn": "I can"
+    },
+    "d": {
+     "mix": "do I",
+     "en": "do I",
+     "bn": "do I"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Subordinating conjunction-এর পর 'Assertive sentence structure' অনুসৃত হয়। অর্থাৎ Wh-word + subject + verb–construction টি অনুসৃত হবে।",
+    "en": "After a Subordinating conjunction, the 'Assertive sentence structure' is followed. That is, the Wh-word + subject + verb–construction will be followed.",
+    "bn": "Subordinating conjunction-এর পর 'Assertive sentence structure' অনুসৃত হয়। অর্থাৎ Wh-word + subject + verb–construction টি অনুসৃত হবে।"
+   },
+   "source": "ঢাবি 'ডি' ইউনিট ২০১৬-১৭",
+   "explanation_source": "book"
+  }
+ ],
+ "unclear": [
+  {
+   "page": 487,
+   "note": "Chapter title banner ('CHAPTER 28 — Embedded Questions') and book page 469 verified from the page image. Inline MCQ ticks verified from image: Q1 against (খ) 'he comes from', Q2 against (গ) 'why he did it', Q3 against (ক), Q4 against (গ). No Hints are printed for the four inline MCQs, so their explanations are generated. Rule 28.3's example 'I don't know who has done it.' is printed without a Bengali translation."
+  },
+  {
+   "page": 488,
+   "note": "BCS Q1 margin key: ১৪তম বিসিএস, উত্তর গ. BCS-section Q2 is printed under the BCS heading but its margin source is the Postal Operator 2016 exam — recorded as printed. Bank Q2's printed Hints names 'why you didn't speak' while the keyed option (গ) prints 'why you did not speak'; margin key উত্তর গ, recorded as the answer. Bank Q3 has five options (ক–ঙ) as printed."
+  },
+  {
+   "page": 489,
+   "note": "University margin sources/keys read from enlarged margin crops: Q1 খুবি 'B' ইউনিট (সেট-বি) ২০১৯-২০ উত্তর ক; Q2 ঢাবি 'A' ইউনিট ২০১৯-২০ উত্তর গ; Q3 ঢাবি 'B-1' ইউনিট ২০১৯-২০ উত্তর ক; Q4 ঢাবি 'ডি' ইউনিট ২০১৯-২০ উত্তর ঘ; Q5 and Q6 both ইসলামী বিশ্ববিদ্যালয় Unit-B (Set-B) ২০১৯-২০, উত্তর খ and ক; Q7 বশেমুরবিপ্রবি ইউনিট D, E (সামাজিক বিজ্ঞান) ২০১৯-২০ উত্তর ক. No Hints printed for Q7, so its explanation is generated."
+  },
+  {
+   "page": 490,
+   "note": "Q8 and Q10 each carry two margin sources, joined with '; '. Q13's margin source parenthetical reads '(সোড)' as printed — the word is unclear in the scan but recorded exactly as printed (রাবি ইউনিট A (সোড) ২০১৬-১৭, উত্তর খ). All other p.490 keys verified from margin crops: Q8 ক, Q9 গ, Q10 ঘ, Q11 ক, Q12 ক, Q14 গ."
+  }
+ ],
+ "translation_source": "generated"
+}

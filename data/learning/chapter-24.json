@@ -1,0 +1,3875 @@
+{
+ "chapter": "Chapter-24: Identification of Clauses",
+ "pages": [
+  442,
+  452
+ ],
+ "rules": [
+  {
+   "heading": {
+    "mix": "Introduction",
+    "en": "Introduction",
+    "bn": "ভূমিকা"
+   },
+   "body": {
+    "mix": "Clause বাক্যের একটি গুরুত্বপূর্ণ অংশ। Complex এবং compound sentence-এ একের অধিক clause থাকে। আর বিভিন্ন প্রতিযোগিতামূলক পরীক্ষায় identification of clause আসে। তাই এ chapter টি ভালভাবে পড়লে পরীক্ষায় ভালো করা সম্ভব। আর সাথে সাথে অবশ্যই অনুশীলন করতে হবে।",
+    "en": "A clause is an important part of a sentence. A complex and a compound sentence have more than one clause. And identification of clauses comes in various competitive examinations. So if this chapter is read well, it is possible to do well in the examination. And practice must be done along with it.",
+    "bn": "Clause বাক্যের একটি গুরুত্বপূর্ণ অংশ। Complex এবং compound sentence-এ একের অধিক clause থাকে। আর বিভিন্ন প্রতিযোগিতামূলক পরীক্ষায় identification of clause আসে। তাই এ chapter টি ভালভাবে পড়লে পরীক্ষায় ভালো করা সম্ভব। আর সাথে সাথে অবশ্যই অনুশীলন করতে হবে।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "24.1 Definition of Clause",
+    "en": "24.1 Definition of Clause",
+    "bn": "24.1 Definition of Clause"
+   },
+   "body": {
+    "mix": "কোনো বাক্যাংশের মধ্যে যদি একটি subject ও একটি finite verb থাকে এবং উহা যখন একটি পূর্ণ বাক্যের অংশ হিসেবে কাজ করে তখন তাকে Clause বলে।",
+    "en": "If a part of a sentence has a subject and a finite verb and it works as part of a complete sentence, then it is called a clause.",
+    "bn": "কোনো বাক্যাংশের মধ্যে যদি একটি subject ও একটি finite verb থাকে এবং উহা যখন একটি পূর্ণ বাক্যের অংশ হিসেবে কাজ করে তখন তাকে Clause বলে।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "24.2 Kinds of Clauses",
+    "en": "24.2 Kinds of Clauses",
+    "bn": "24.2 Kinds of Clauses"
+   },
+   "body": {
+    "mix": "Clause-কে সাধারণত তিনভাগে ভাগ করা হয়। i. Principal Clause বা Independent Clause ii. Subordinate Clause বা Dependent Clause ii. Co-ordinate Clause",
+    "en": "Clauses are generally divided into three kinds. i. Principal Clause or Independent Clause ii. Subordinate Clause or Dependent Clause ii. Co-ordinate Clause",
+    "bn": "Clause-কে সাধারণত তিনভাগে ভাগ করা হয়। i. Principal Clause বা Independent Clause ii. Subordinate Clause বা Dependent Clause ii. Co-ordinate Clause"
+   }
+  },
+  {
+   "heading": {
+    "mix": "24.2.1 Principal/Independent Clause",
+    "en": "24.2.1 Principal/Independent Clause",
+    "bn": "24.2.1 Principal/Independent Clause"
+   },
+   "body": {
+    "mix": "যে Clause তার অর্থ প্রকাশের জন্য অন্য কোনো Clause-এর উপর নির্ভর করে না বরং নিজেই স্বয়ং সম্পূর্ণভাবে নিজের অর্থ প্রকাশ করতে পারে তাকে Principal Clause বা Main Clause বলে।",
+    "en": "The clause which does not depend on any other clause to express its meaning, but can itself express its own meaning completely on its own, is called a Principal Clause or Main Clause.",
+    "bn": "যে Clause তার অর্থ প্রকাশের জন্য অন্য কোনো Clause-এর উপর নির্ভর করে না বরং নিজেই স্বয়ং সম্পূর্ণভাবে নিজের অর্থ প্রকাশ করতে পারে তাকে Principal Clause বা Main Clause বলে।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "24.2.2 Subordinate/Dependent Clause",
+    "en": "24.2.2 Subordinate/Dependent Clause",
+    "bn": "24.2.2 Subordinate/Dependent Clause"
+   },
+   "body": {
+    "mix": "যে Clause নিজে নিজে পরিপূর্ণ অর্থ প্রকাশ করতে পারে না, অর্থ প্রকাশের জন্য Principal Clause-এর উপর নির্ভর করে তাকে Subordinate Clause/Dependent Clause বলে। Subordinate Clause সাধারণত একটি Subordinating Conjunction। যেমন— when, while, before, after, till, until, who, which, whom, since, though, although, if, unless ইত্যাদি দিয়ে শুরু হয়।",
+    "en": "The clause which cannot express a complete meaning by itself and depends on the Principal Clause to express its meaning is called a Subordinate Clause/Dependent Clause. A Subordinate Clause generally begins with a Subordinating Conjunction. For example — when, while, before, after, till, until, who, which, whom, since, though, although, if, unless, etc.",
+    "bn": "যে Clause নিজে নিজে পরিপূর্ণ অর্থ প্রকাশ করতে পারে না, অর্থ প্রকাশের জন্য Principal Clause-এর উপর নির্ভর করে তাকে Subordinate Clause/Dependent Clause বলে। Subordinate Clause সাধারণত একটি Subordinating Conjunction। যেমন— when, while, before, after, till, until, who, which, whom, since, though, although, if, unless ইত্যাদি দিয়ে শুরু হয়।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "24.2.3 Co-ordinate Clause",
+    "en": "24.2.3 Co-ordinate Clause",
+    "bn": "24.2.3 Co-ordinate Clause"
+   },
+   "body": {
+    "mix": "দুটি সমজাতীয় Principal Clause যদি কোনো Co-ordinating Conjunction দ্বারা যুক্ত হয় তখন তাকে Co-ordinate Clause বলে। সাধারণত And, or, but, so দ্বারা Co-ordinate Clause যুক্ত হয়ে থাকে।",
+    "en": "If two Principal Clauses of the same kind are joined by a Co-ordinating Conjunction, then it is called a Co-ordinate Clause. Generally, Co-ordinate Clauses are joined by and, or, but, so.",
+    "bn": "দুটি সমজাতীয় Principal Clause যদি কোনো Co-ordinating Conjunction দ্বারা যুক্ত হয় তখন তাকে Co-ordinate Clause বলে। সাধারণত And, or, but, so দ্বারা Co-ordinate Clause যুক্ত হয়ে থাকে।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "24.3 Classification of Subordinate Clause",
+    "en": "24.3 Classification of Subordinate Clause",
+    "bn": "24.3 Classification of Subordinate Clause"
+   },
+   "body": {
+    "mix": "Subordinate Clause সমূহকে তিন ভাগে ভাগ করা হয় : (ক) Noun Clause (খ) Adjective Clause (গ) Adverbial Clause",
+    "en": "Subordinate Clauses are divided into three kinds: (a) Noun Clause (b) Adjective Clause (c) Adverbial Clause",
+    "bn": "Subordinate Clause সমূহকে তিন ভাগে ভাগ করা হয় : (ক) Noun Clause (খ) Adjective Clause (গ) Adverbial Clause"
+   }
+  },
+  {
+   "heading": {
+    "mix": "24.3.1 Noun Clause",
+    "en": "24.3.1 Noun Clause",
+    "bn": "24.3.1 Noun Clause"
+   },
+   "body": {
+    "mix": "কোনো Clause যদি Noun-এর কাজ করে তবে তাকে Noun Clause বলে। Noun Clause সাধারণত that, what, how, why, whether etc দ্বারা সূচিত হয়। আগেই উল্লেখ করা হয়েছে যে ৬টি বিষয় Noun-এর কাজ করে। কোনো Clause যদি এই ৬টি অবস্থানে আসে তাহলে তাকে Noun Clause হিসেবে গণ্য করতে হবে। সেই ৬টি বিষয় হলো :",
+    "en": "If a clause does the work of a noun, it is called a Noun Clause. A Noun Clause is generally introduced by that, what, how, why, whether, etc. It has already been mentioned that 6 things do the work of a noun. If a clause comes in any of these 6 positions, it has to be counted as a Noun Clause. Those 6 things are:",
+    "bn": "কোনো Clause যদি Noun-এর কাজ করে তবে তাকে Noun Clause বলে। Noun Clause সাধারণত that, what, how, why, whether etc দ্বারা সূচিত হয়। আগেই উল্লেখ করা হয়েছে যে ৬টি বিষয় Noun-এর কাজ করে। কোনো Clause যদি এই ৬টি অবস্থানে আসে তাহলে তাকে Noun Clause হিসেবে গণ্য করতে হবে। সেই ৬টি বিষয় হলো :"
+   }
+  },
+  {
+   "heading": {
+    "mix": "A. Subject",
+    "en": "A. Subject",
+    "bn": "A. Subject"
+   },
+   "body": {
+    "mix": "That he is very intelligent is known to me.",
+    "en": "That he is very intelligent is known to me.",
+    "bn": "That he is very intelligent is known to me."
+   }
+  },
+  {
+   "heading": {
+    "mix": "B. Object",
+    "en": "B. Object",
+    "bn": "B. Object"
+   },
+   "body": {
+    "mix": "I know where he lives. He asked me why I was late.",
+    "en": "I know where he lives. He asked me why I was late.",
+    "bn": "I know where he lives. He asked me why I was late."
+   }
+  },
+  {
+   "heading": {
+    "mix": "C. Preposition-এর Object",
+    "en": "C. Object of a Preposition",
+    "bn": "C. Preposition-এর Object"
+   },
+   "body": {
+    "mix": "যেমন— Listen to what I say. We cannot depend on what he said.",
+    "en": "For example — Listen to what I say. We cannot depend on what he said.",
+    "bn": "যেমন— Listen to what I say. We cannot depend on what he said."
+   }
+  },
+  {
+   "heading": {
+    "mix": "D. Subject Complement",
+    "en": "D. Subject Complement",
+    "bn": "D. Subject Complement"
+   },
+   "body": {
+    "mix": "যেমন— The question is how he will respond.",
+    "en": "For example — The question is how he will respond.",
+    "bn": "যেমন— The question is how he will respond."
+   }
+  },
+  {
+   "heading": {
+    "mix": "E. Object Complement",
+    "en": "E. Object Complement",
+    "bn": "E. Object Complement"
+   },
+   "body": {
+    "mix": "যেমন— We named our house what he suggested. You may call the man whatever you like.",
+    "en": "For example — We named our house what he suggested. You may call the man whatever you like.",
+    "bn": "যেমন— We named our house what he suggested. You may call the man whatever you like."
+   }
+  },
+  {
+   "heading": {
+    "mix": "F. Appositive",
+    "en": "F. Appositive",
+    "bn": "F. Appositive"
+   },
+   "body": {
+    "mix": "যেমন— The news that he has come back is not true. Hints : এখানে Clause-টি news-এর পরিচিতিমূলক বর্ণনা, তাই Noun Clause, কিন্তু that clause যদি news-কে modify করে তাহলে তা Adjective Clause হবে। যেমন— The news that you gave me is not true. Note : Subject + be verb + adjective + that clause আকারে যেসব বাক্য ব্যবহৃত হয় সেগুলোর That clause-কে Noun Clause হিসেবে গণ্য করা হয়। যেমন— I am glad that you have passed the exam. It is obvious that he was wrong.",
+    "en": "For example — The news that he has come back is not true. Hints: Here the clause is a description identifying the news, so it is a Noun Clause, but if the that clause modifies news, then it will be an Adjective Clause. For example — The news that you gave me is not true. Note: In sentences used in the form Subject + be verb + adjective + that clause, the that clause is counted as a Noun Clause. For example — I am glad that you have passed the exam. It is obvious that he was wrong.",
+    "bn": "যেমন— The news that he has come back is not true. Hints : এখানে Clause-টি news-এর পরিচিতিমূলক বর্ণনা, তাই Noun Clause, কিন্তু that clause যদি news-কে modify করে তাহলে তা Adjective Clause হবে। যেমন— The news that you gave me is not true. Note : Subject + be verb + adjective + that clause আকারে যেসব বাক্য ব্যবহৃত হয় সেগুলোর That clause-কে Noun Clause হিসেবে গণ্য করা হয়। যেমন— I am glad that you have passed the exam. It is obvious that he was wrong."
+   }
+  },
+  {
+   "heading": {
+    "mix": "24.3.2 Adjective Clause",
+    "en": "24.3.2 Adjective Clause",
+    "bn": "24.3.2 Adjective Clause"
+   },
+   "body": {
+    "mix": "যে Clause কোনো Noun বা Pronoun-এর পরে বসে এটিকে বিশেষিত (modify) করে তাকে Adjective Clause বলে। এ ধরনের Clause-এর শুরুতে who, whom, whose, which, that, where, when, why ইত্যাদি Conjunction থাকে। সাধারণভাবে Adjective Clause-গুলো relative pronoun দ্বারা শুরু হয়ে থাকে। Adjective Clause-এর Relative Pronoun নিম্নোক্ত অবস্থান নিতে পারে : A. Subject : The man who came here is my brother. B. Object : The man whom you saw here is my brother. C. Object of Preposition : The man to whom you spoke is my brother. D. Possessive : The man whose car broke down is my brother.",
+    "en": "The clause which sits after a noun or pronoun and modifies it is called an Adjective Clause. At the beginning of this kind of clause there are conjunctions such as who, whom, whose, which, that, where, when, why, etc. Generally, Adjective Clauses begin with a relative pronoun. The relative pronoun of an Adjective Clause can take the following positions: A. Subject: The man who came here is my brother. B. Object: The man whom you saw here is my brother. C. Object of Preposition: The man to whom you spoke is my brother. D. Possessive: The man whose car broke down is my brother.",
+    "bn": "যে Clause কোনো Noun বা Pronoun-এর পরে বসে এটিকে বিশেষিত (modify) করে তাকে Adjective Clause বলে। এ ধরনের Clause-এর শুরুতে who, whom, whose, which, that, where, when, why ইত্যাদি Conjunction থাকে। সাধারণভাবে Adjective Clause-গুলো relative pronoun দ্বারা শুরু হয়ে থাকে। Adjective Clause-এর Relative Pronoun নিম্নোক্ত অবস্থান নিতে পারে : A. Subject : The man who came here is my brother. B. Object : The man whom you saw here is my brother. C. Object of Preposition : The man to whom you spoke is my brother. D. Possessive : The man whose car broke down is my brother."
+   }
+  },
+  {
+   "heading": {
+    "mix": "24.3.2.1 Adjective Clause-এর Relative Pronoun যদি object-এর স্থলে থাকে",
+    "en": "If the Relative Pronoun of an Adjective Clause is in the place of the object",
+    "bn": "24.3.2.1 Adjective Clause-এর Relative Pronoun যদি object-এর স্থলে থাকে"
+   },
+   "body": {
+    "mix": "Adjective Clause-এর Relative Pronoun যদি object-এর স্থলে থাকে তাহলে সেই Relative Pronoun-কে বাদ দেয়া যায়। যেমন— The man whom you saw here is brother। বাক্যটিতে Whom, object-এর স্থলে থাকায় এটিকে বাদ দিয়ে লেখা যায় এভাবে— The man you saw here is my brother.",
+    "en": "If the relative pronoun of an Adjective Clause is in the place of the object, then that relative pronoun can be omitted. For example — The man whom you saw here is brother. In the sentence, since whom is in the place of the object, omitting it the sentence can be written this way — The man you saw here is my brother.",
+    "bn": "Adjective Clause-এর Relative Pronoun যদি object-এর স্থলে থাকে তাহলে সেই Relative Pronoun-কে বাদ দেয়া যায়। যেমন— The man whom you saw here is brother। বাক্যটিতে Whom, object-এর স্থলে থাকায় এটিকে বাদ দিয়ে লেখা যায় এভাবে— The man you saw here is my brother."
+   }
+  },
+  {
+   "heading": {
+    "mix": "24.3.2.2 Adjective Clause-এর Relative Pronoun যদি Preposition-এর Object-এর স্থলে বসে",
+    "en": "If the Relative Pronoun of an Adjective Clause sits in the place of the Object of a Preposition",
+    "bn": "24.3.2.2 Adjective Clause-এর Relative Pronoun যদি Preposition-এর Object-এর স্থলে বসে"
+   },
+   "body": {
+    "mix": "Adjective Clause-এর Relative Pronoun যদি Preposition-এর Object-এর স্থলে বসে তাহলে সেই relative pronoun-কে বাদ দেয়া যায়। তবে শর্ত হলো তখন Preposition-টি clause-এর verb-এর পরে বসে। যেমন— The man to whom you spoke is my brother. বাক্যটিকে লেখা যায় এভাবে— The man you spoke to is my brother.",
+    "en": "If the relative pronoun of an Adjective Clause sits in the place of the object of a preposition, then that relative pronoun can be omitted. But the condition is that the preposition then sits after the verb of the clause. For example — The man to whom you spoke is my brother. The sentence can be written this way — The man you spoke to is my brother.",
+    "bn": "Adjective Clause-এর Relative Pronoun যদি Preposition-এর Object-এর স্থলে বসে তাহলে সেই relative pronoun-কে বাদ দেয়া যায়। তবে শর্ত হলো তখন Preposition-টি clause-এর verb-এর পরে বসে। যেমন— The man to whom you spoke is my brother. বাক্যটিকে লেখা যায় এভাবে— The man you spoke to is my brother."
+   }
+  },
+  {
+   "heading": {
+    "mix": "24.3.2.3 When, where, why বা how দিয়ে শুরু হওয়া Clause",
+    "en": "A Clause beginning with When, where, why or how",
+    "bn": "24.3.2.3 When, where, why বা how দিয়ে শুরু হওয়া Clause"
+   },
+   "body": {
+    "mix": "When, where, why বা how দিয়ে শুরু হওয়া কোনো Clause যদি তার পূর্ববর্তী Noun/Pronoun-কে modify বা বিশেষিত করে তখন ঐ Clause-টি Adjective Clause হয়ে যায়। [Note : You can see the sun wherever you go. এখানে আন্ডারলাইন করা অংশটুকু কী Clause? Sun-কে modify করেছে? ভেবে দেখুন তো! এখানে আলোচ্য clause-টি see verb-কে where দিয়ে প্রশ্ন করে তথা see-কে modify করে adverbial clause হয়েছে, Adjective clause নয়।]",
+    "en": "If a clause beginning with when, where, why or how modifies the noun/pronoun before it, then that clause becomes an Adjective Clause. [Note: You can see the sun wherever you go. What clause is the underlined part here? Has it modified sun? Think about it! Here the clause in question questions the verb see with 'where' and so modifies see and has become an adverbial clause, not an Adjective clause.]",
+    "bn": "When, where, why বা how দিয়ে শুরু হওয়া কোনো Clause যদি তার পূর্ববর্তী Noun/Pronoun-কে modify বা বিশেষিত করে তখন ঐ Clause-টি Adjective Clause হয়ে যায়। [Note : You can see the sun wherever you go. এখানে আন্ডারলাইন করা অংশটুকু কী Clause? Sun-কে modify করেছে? ভেবে দেখুন তো! এখানে আলোচ্য clause-টি see verb-কে where দিয়ে প্রশ্ন করে তথা see-কে modify করে adverbial clause হয়েছে, Adjective clause নয়।]"
+   }
+  },
+  {
+   "heading": {
+    "mix": "24.3.3 Adverbial Clause",
+    "en": "24.3.3 Adverbial Clause",
+    "bn": "24.3.3 Adverbial Clause"
+   },
+   "body": {
+    "mix": "যে Clause-টি verb-কে modify করে তাকে Adverbial clause বলে। সাধারণত verb-কে when, where, why, how দ্বারা প্রশ্ন করলে প্রাপ্ত উত্তরটি Adverbial Clause হবে।",
+    "en": "The clause which modifies the verb is called an Adverbial Clause. Generally, if the verb is questioned with when, where, why, how, the answer obtained will be an Adverbial Clause.",
+    "bn": "যে Clause-টি verb-কে modify করে তাকে Adverbial clause বলে। সাধারণত verb-কে when, where, why, how দ্বারা প্রশ্ন করলে প্রাপ্ত উত্তরটি Adverbial Clause হবে।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "24.3.3.1 Kinds of Adverbial Clauses",
+    "en": "24.3.3.1 Kinds of Adverbial Clauses",
+    "bn": "24.3.3.1 Kinds of Adverbial Clauses"
+   },
+   "body": {
+    "mix": "Adverbial Clause-কে নিম্নোক্ত ভাগে ভাগ করা হয় :",
+    "en": "Adverbial Clauses are divided into the following kinds:",
+    "bn": "Adverbial Clause-কে নিম্নোক্ত ভাগে ভাগ করা হয় :"
+   }
+  },
+  {
+   "heading": {
+    "mix": "A. Adverbial Clause of Time",
+    "en": "A. Adverbial Clause of Time",
+    "bn": "A. Adverbial Clause of Time"
+   },
+   "body": {
+    "mix": "Before, after, when, whenever, while, as, since, till, until, as soon as ইত্যাদি দিয়ে শুরু হয়। — When I was 5, I went to a school. — The patient had died before the doctor came.",
+    "en": "It begins with before, after, when, whenever, while, as, since, till, until, as soon as, etc. — When I was 5, I went to a school. — The patient had died before the doctor came.",
+    "bn": "Before, after, when, whenever, while, as, since, till, until, as soon as ইত্যাদি দিয়ে শুরু হয়। — When I was 5, I went to a school. — The patient had died before the doctor came."
+   }
+  },
+  {
+   "heading": {
+    "mix": "B. Adverbial Clause of Place",
+    "en": "B. Adverbial Clause of Place",
+    "bn": "B. Adverbial Clause of Place"
+   },
+   "body": {
+    "mix": "Where, wherever, whenever দ্বারা শুরু হয়।",
+    "en": "It begins with where, wherever, whenever.",
+    "bn": "Where, wherever, whenever দ্বারা শুরু হয়।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "C. Adverbial Clause of Reason",
+    "en": "C. Adverbial Clause of Reason",
+    "bn": "C. Adverbial Clause of Reason"
+   },
+   "body": {
+    "mix": "Because, since, as দ্বারা শুরু হয়।",
+    "en": "It begins with because, since, as.",
+    "bn": "Because, since, as দ্বারা শুরু হয়।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "D. Adverbial Clause of Manner",
+    "en": "D. Adverbial Clause of Manner",
+    "bn": "D. Adverbial Clause of Manner"
+   },
+   "body": {
+    "mix": "সাধারণত as, how etc. দ্বারা শুরু হয়ে verb-এর কাজটি কীভাবে, কেমন করে সম্পাদিত হয় তা বর্ণনা করে। — Do the work as I show you.",
+    "en": "It generally begins with as, how, etc. and describes how, in what manner, the work of the verb is done. — Do the work as I show you.",
+    "bn": "সাধারণত as, how etc. দ্বারা শুরু হয়ে verb-এর কাজটি কীভাবে, কেমন করে সম্পাদিত হয় তা বর্ণনা করে। — Do the work as I show you."
+   }
+  },
+  {
+   "heading": {
+    "mix": "E. Adverbial Clause of Concession",
+    "en": "E. Adverbial Clause of Concession",
+    "bn": "E. Adverbial Clause of Concession"
+   },
+   "body": {
+    "mix": "Though, although দিয়ে শুরু হয়। — Although he is poor, he is honest.",
+    "en": "It begins with though, although. — Although he is poor, he is honest.",
+    "bn": "Though, although দিয়ে শুরু হয়। — Although he is poor, he is honest."
+   }
+  },
+  {
+   "heading": {
+    "mix": "F. Adverbial Clause of Condition",
+    "en": "F. Adverbial Clause of Condition",
+    "bn": "F. Adverbial Clause of Condition"
+   },
+   "body": {
+    "mix": "If, unless, provided, providing that দ্বারা শুরু হয়। — If you come, I will go. — You cannot pass unless you study hard.",
+    "en": "It begins with if, unless, provided, providing that. — If you come, I will go. — You cannot pass unless you study hard.",
+    "bn": "If, unless, provided, providing that দ্বারা শুরু হয়। — If you come, I will go. — You cannot pass unless you study hard."
+   }
+  },
+  {
+   "heading": {
+    "mix": "G. Adverbial Clause of Comparison",
+    "en": "G. Adverbial Clause of Comparison",
+    "bn": "G. Adverbial Clause of Comparison"
+   },
+   "body": {
+    "mix": "এতে than থাকে। — He is wiser than I thought.",
+    "en": "It contains than. — He is wiser than I thought.",
+    "bn": "এতে than থাকে। — He is wiser than I thought."
+   }
+  },
+  {
+   "heading": {
+    "mix": "H. Adverbial Clause of Degree",
+    "en": "H. Adverbial Clause of Degree",
+    "bn": "H. Adverbial Clause of Degree"
+   },
+   "body": {
+    "mix": "As দিয়ে শুরু হয়। — He is as intelligent as you are.",
+    "en": "It begins with as. — He is as intelligent as you are.",
+    "bn": "As দিয়ে শুরু হয়। — He is as intelligent as you are."
+   }
+  },
+  {
+   "heading": {
+    "mix": "I. Adverbial Clause of Result",
+    "en": "I. Adverbial Clause of Result",
+    "bn": "I. Adverbial Clause of Result"
+   },
+   "body": {
+    "mix": "So ......... that দ্বারা শুরু হয়। — He is so weak that he cannot walk.",
+    "en": "It begins with so ......... that. — He is so weak that he cannot walk.",
+    "bn": "So ......... that দ্বারা শুরু হয়। — He is so weak that he cannot walk."
+   }
+  },
+  {
+   "heading": {
+    "mix": "J. Adverbial Clause of Purpose",
+    "en": "J. Adverbial Clause of Purpose",
+    "bn": "J. Adverbial Clause of Purpose"
+   },
+   "body": {
+    "mix": "that, so that, in order that দিয়ে শুরু হয়।",
+    "en": "It begins with that, so that, in order that.",
+    "bn": "that, so that, in order that দিয়ে শুরু হয়।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "24.3.4 Transitive verb-এর পর Noun Clause",
+    "en": "Noun Clause after a Transitive verb",
+    "bn": "24.3.4 Transitive verb-এর পর Noun Clause"
+   },
+   "body": {
+    "mix": "Transitive verb (wonder, ask, discuss, enquire)-এর পর noun clause-কে that দিয়ে শুরু না করে বরং সেটা why, where, how, if শুরু করতে হবে। যেমন—",
+    "en": "After a transitive verb (wonder, ask, discuss, enquire), the noun clause must not begin with that; rather it has to begin with why, where, how, if. For example —",
+    "bn": "Transitive verb (wonder, ask, discuss, enquire)-এর পর noun clause-কে that দিয়ে শুরু না করে বরং সেটা why, where, how, if শুরু করতে হবে। যেমন—"
+   }
+  },
+  {
+   "heading": {
+    "mix": "24.3.5 Relative Clause",
+    "en": "24.3.5 Relative Clause",
+    "bn": "24.3.5 Relative Clause"
+   },
+   "body": {
+    "mix": "A. যে relative clause-গুলো noun-কে define (সংজ্ঞায়িত) বা identify (সনাক্ত) করে সেইসব relative clause কে defining /identifying/ restrictive relative clause বলা হয়। যেমন— What's the name of the tall man who just came in? B. যে relative clause-গুলো noun সম্পর্কে অতিরিক্ত তথ্য দেয় সেসব relative clause কে non-defining /non-identifying/non-restrictive relative clause বলা হয়। উল্লেখ্য যে, relative clause-টি noun-এর পর কমা ( , ) দিয়ে পরবর্তী clause-টি লিখতে হয়। যেমন— This is Ms Rogers, who's joining the firm next week.",
+    "en": "A. The relative clauses which define or identify a noun are called defining/identifying/restrictive relative clauses. For example — What's the name of the tall man who just came in? B. The relative clauses which give extra information about a noun are called non-defining/non-identifying/non-restrictive relative clauses. Note that the relative clause has to be written after the noun with a comma ( , ) before the following clause. For example — This is Ms Rogers, who's joining the firm next week.",
+    "bn": "A. যে relative clause-গুলো noun-কে define (সংজ্ঞায়িত) বা identify (সনাক্ত) করে সেইসব relative clause কে defining /identifying/ restrictive relative clause বলা হয়। যেমন— What's the name of the tall man who just came in? B. যে relative clause-গুলো noun সম্পর্কে অতিরিক্ত তথ্য দেয় সেসব relative clause কে non-defining /non-identifying/non-restrictive relative clause বলা হয়। উল্লেখ্য যে, relative clause-টি noun-এর পর কমা ( , ) দিয়ে পরবর্তী clause-টি লিখতে হয়। যেমন— This is Ms Rogers, who's joining the firm next week."
+   }
+  }
+ ],
+ "mcqs": [
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 1,
+   "question": {
+    "mix": "A clause must have—",
+    "en": "A clause must have—",
+    "bn": "A clause must have—"
+   },
+   "options": {
+    "a": {
+     "mix": "Only a verb",
+     "en": "Only a verb",
+     "bn": "Only a verb"
+    },
+    "b": {
+     "mix": "A subject",
+     "en": "A subject",
+     "bn": "A subject"
+    },
+    "c": {
+     "mix": "Cause and effect",
+     "en": "Cause and effect",
+     "bn": "Cause and effect"
+    },
+    "d": {
+     "mix": "Subject and Verb",
+     "en": "Subject and Verb",
+     "bn": "Subject and Verb"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Clause-এর সংজ্ঞা অনুযায়ী (Rule 24.1) কোনো বাক্যাংশে একটি subject ও একটি finite verb থাকলে তবেই তা Clause হয়। শুধু verb (ক) বা শুধু subject (খ) যথেষ্ট নয়; cause and effect (গ) Clause-এর শর্ত নয়।",
+    "en": "According to the definition of a clause (Rule 24.1), a part of a sentence is a clause only if it has a subject and a finite verb. A verb alone (a) or a subject alone (b) is not enough; cause and effect (c) is not a condition of a clause.",
+    "bn": "Clause-এর সংজ্ঞা অনুযায়ী (Rule 24.1) কোনো বাক্যাংশে একটি subject ও একটি finite verb থাকলে তবেই তা Clause হয়। শুধু verb (ক) বা শুধু subject (খ) যথেষ্ট নয়; cause and effect (গ) Clause-এর শর্ত নয়।"
+   },
+   "source": "রাজশাহী বিশ্ববিদ্যালয় ২০০৫-০৬",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 2,
+   "question": {
+    "mix": "'The children are safe.' is—",
+    "en": "'The children are safe.' is—",
+    "bn": "'The children are safe.' is—"
+   },
+   "options": {
+    "a": {
+     "mix": "a main clause",
+     "en": "a main clause",
+     "bn": "a main clause"
+    },
+    "b": {
+     "mix": "an independent clause",
+     "en": "an independent clause",
+     "bn": "an independent clause"
+    },
+    "c": {
+     "mix": "both",
+     "en": "both",
+     "bn": "both"
+    },
+    "d": {
+     "mix": "none",
+     "en": "none",
+     "bn": "none"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "'The children are safe' নিজে নিজেই সম্পূর্ণ অর্থ প্রকাশ করে, অন্য কোনো Clause-এর উপর নির্ভর করে না — তাই এটি Principal/Main Clause এবং একই সঙ্গে Independent Clause (Rule 24.2.1)। সুতরাং (গ) both সঠিক।",
+    "en": "'The children are safe' expresses a complete meaning by itself and does not depend on any other clause — so it is a Principal/Main Clause and at the same time an Independent Clause (Rule 24.2.1). So (c) both is correct.",
+    "bn": "'The children are safe' নিজে নিজেই সম্পূর্ণ অর্থ প্রকাশ করে, অন্য কোনো Clause-এর উপর নির্ভর করে না — তাই এটি Principal/Main Clause এবং একই সঙ্গে Independent Clause (Rule 24.2.1)। সুতরাং (গ) both সঠিক।"
+   },
+   "source": "ইসলামী বিশ্ববিদ্যালয় ২০০৫-০৬",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 3,
+   "question": {
+    "mix": "Which part of the sentence 'Rahim said that he was good' is Subordinate Clause?",
+    "en": "Which part of the sentence 'Rahim said that he was good' is Subordinate Clause?",
+    "bn": "Which part of the sentence 'Rahim said that he was good' is Subordinate Clause?"
+   },
+   "options": {
+    "a": {
+     "mix": "Rahim said",
+     "en": "Rahim said",
+     "bn": "Rahim said"
+    },
+    "b": {
+     "mix": "that he was good",
+     "en": "that he was good",
+     "bn": "that he was good"
+    },
+    "c": {
+     "mix": "was good",
+     "en": "was good",
+     "bn": "was good"
+    },
+    "d": {
+     "mix": "he was good",
+     "en": "he was good",
+     "bn": "he was good"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "'that he was good' অংশটি নিজে সম্পূর্ণ অর্থ প্রকাশ করতে পারে না, Principal Clause 'Rahim said'-এর উপর নির্ভরশীল এবং that দিয়ে শুরু — তাই এটিই Subordinate Clause (Rule 24.2.2)। (ক) 'Rahim said' Principal Clause; (গ) ও (ঘ) পূর্ণ clause-ই নয় / that ছাড়া subordinate অংশ ধরা যায় না।",
+    "en": "The part 'that he was good' cannot express a complete meaning by itself, depends on the Principal Clause 'Rahim said' and begins with that — so this is the Subordinate Clause (Rule 24.2.2). (a) 'Rahim said' is the Principal Clause; (c) and (d) are not the full clause / the subordinate part cannot be taken without that.",
+    "bn": "'that he was good' অংশটি নিজে সম্পূর্ণ অর্থ প্রকাশ করতে পারে না, Principal Clause 'Rahim said'-এর উপর নির্ভরশীল এবং that দিয়ে শুরু — তাই এটিই Subordinate Clause (Rule 24.2.2)। (ক) 'Rahim said' Principal Clause; (গ) ও (ঘ) পূর্ণ clause-ই নয় / that ছাড়া subordinate অংশ ধরা যায় না।"
+   },
+   "source": "খুলনা বিশ্ববিদ্যালয় ২০০৭-০৮",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 4,
+   "question": {
+    "mix": "Identify the clause of the following sentence : I took no notice of him, so he flew into rage.",
+    "en": "Identify the clause of the following sentence : I took no notice of him, so he flew into rage.",
+    "bn": "Identify the clause of the following sentence : I took no notice of him, so he flew into rage."
+   },
+   "options": {
+    "a": {
+     "mix": "Co-ordinate Clause",
+     "en": "Co-ordinate Clause",
+     "bn": "Co-ordinate Clause"
+    },
+    "b": {
+     "mix": "Noun Clause",
+     "en": "Noun Clause",
+     "bn": "Noun Clause"
+    },
+    "c": {
+     "mix": "Adjective Clause",
+     "en": "Adjective Clause",
+     "bn": "Adjective Clause"
+    },
+    "d": {
+     "mix": "Adverbial Clause",
+     "en": "Adverbial Clause",
+     "bn": "Adverbial Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "আন্ডারলাইন করা 'so he flew into rage' একটি Principal Clause, যা co-ordinating conjunction 'so' দ্বারা আগের Principal Clause-এর সঙ্গে যুক্ত হয়েছে — তাই এটি Co-ordinate Clause (Rule 24.2.3)। এটি noun-এর কাজ করে না (খ), noun-কে modify করে না (গ) এবং verb-কে modify করে না (ঘ)।",
+    "en": "The underlined 'so he flew into rage' is a Principal Clause joined to the previous Principal Clause by the co-ordinating conjunction 'so' — so it is a Co-ordinate Clause (Rule 24.2.3). It does not do the work of a noun (b), does not modify a noun (c) and does not modify the verb (d).",
+    "bn": "আন্ডারলাইন করা 'so he flew into rage' একটি Principal Clause, যা co-ordinating conjunction 'so' দ্বারা আগের Principal Clause-এর সঙ্গে যুক্ত হয়েছে — তাই এটি Co-ordinate Clause (Rule 24.2.3)। এটি noun-এর কাজ করে না (খ), noun-কে modify করে না (গ) এবং verb-কে modify করে না (ঘ)।"
+   },
+   "source": "জগন্নাথ বিশ্ববিদ্যালয় ডি' ২০০৫-০৬",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 5,
+   "question": {
+    "mix": "That he is very intelligent is known to me.",
+    "en": "That he is very intelligent is known to me.",
+    "bn": "That he is very intelligent is known to me."
+   },
+   "options": {
+    "a": {
+     "mix": "Adverbial clause",
+     "en": "Adverbial clause",
+     "bn": "Adverbial clause"
+    },
+    "b": {
+     "mix": "An adjective clause",
+     "en": "An adjective clause",
+     "bn": "An adjective clause"
+    },
+    "c": {
+     "mix": "A main clause",
+     "en": "A main clause",
+     "bn": "A main clause"
+    },
+    "d": {
+     "mix": "A noun clause",
+     "en": "A noun clause",
+     "bn": "A noun clause"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "এই Clause-টি subject এর স্থলে বসেছে। তাই এটি Noun Clause।",
+    "en": "This clause has sat in the place of the subject. So it is a Noun Clause.",
+    "bn": "এই Clause-টি subject এর স্থলে বসেছে। তাই এটি Noun Clause।"
+   },
+   "source": "রাজশাহী বিশ্ববিদ্যালয় ইউনিট-খ, ২০১২-১৩",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 6,
+   "question": {
+    "mix": "I know where he lives. In this sentence the underlined clause is—",
+    "en": "I know where he lives. In this sentence the underlined clause is—",
+    "bn": "I know where he lives. In this sentence the underlined clause is—"
+   },
+   "options": {
+    "a": {
+     "mix": "a main clause",
+     "en": "a main clause",
+     "bn": "a main clause"
+    },
+    "b": {
+     "mix": "a noun clause",
+     "en": "a noun clause",
+     "bn": "a noun clause"
+    },
+    "c": {
+     "mix": "adjective clause",
+     "en": "adjective clause",
+     "bn": "adjective clause"
+    },
+    "d": {
+     "mix": "an adverbial clause",
+     "en": "an adverbial clause",
+     "bn": "an adverbial clause"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Where দেখে অনেকে মনে করেন এটি Adverbial Clause। কিন্তু আসলে এটি know verb-এর object হওয়ায় Noun Clause হবে।",
+    "en": "Seeing 'where', many think it is an Adverbial Clause. But in fact, as it is the object of the verb know, it will be a Noun Clause.",
+    "bn": "Where দেখে অনেকে মনে করেন এটি Adverbial Clause। কিন্তু আসলে এটি know verb-এর object হওয়ায় Noun Clause হবে।"
+   },
+   "source": "রাজশাহী বিশ্ববিদ্যালয় ইউনিট-খ, ২০১০-১১, ১২, ১৩",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 7,
+   "question": {
+    "mix": "He asked me why I was late.",
+    "en": "He asked me why I was late.",
+    "bn": "He asked me why I was late."
+   },
+   "options": {
+    "a": {
+     "mix": "Principal Clause",
+     "en": "Principal Clause",
+     "bn": "Principal Clause"
+    },
+    "b": {
+     "mix": "Noun Clause",
+     "en": "Noun Clause",
+     "bn": "Noun Clause"
+    },
+    "c": {
+     "mix": "Adjective Clause",
+     "en": "Adjective Clause",
+     "bn": "Adjective Clause"
+    },
+    "d": {
+     "mix": "Adverbial Clause",
+     "en": "Adverbial Clause",
+     "bn": "Adverbial Clause"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Ask verb-টি একটি di-transitive verb বা দ্বিকর্ম বিশিষ্ট ক্রিয়া। Me হচ্ছে উহার ১ম object, আর উক্ত clause-টি ২য় object হওয়ায় Noun Clause হয়েছে।",
+    "en": "The verb ask is a di-transitive verb, a verb with two objects. 'Me' is its 1st object, and as the clause in question is the 2nd object, it has become a Noun Clause.",
+    "bn": "Ask verb-টি একটি di-transitive verb বা দ্বিকর্ম বিশিষ্ট ক্রিয়া। Me হচ্ছে উহার ১ম object, আর উক্ত clause-টি ২য় object হওয়ায় Noun Clause হয়েছে।"
+   },
+   "source": "পরিবেশ অধিদপ্তরের সহকারী পরিচালক (কারিগরি)-১১",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 8,
+   "question": {
+    "mix": "The underlined part of the sentence, 'The question is how he will respond' is—",
+    "en": "The underlined part of the sentence, 'The question is how he will respond' is—",
+    "bn": "The underlined part of the sentence, 'The question is how he will respond' is—"
+   },
+   "options": {
+    "a": {
+     "mix": "an adverb clause of manner",
+     "en": "an adverb clause of manner",
+     "bn": "an adverb clause of manner"
+    },
+    "b": {
+     "mix": "an adjective clause",
+     "en": "an adjective clause",
+     "bn": "an adjective clause"
+    },
+    "c": {
+     "mix": "a noun clause",
+     "en": "a noun clause",
+     "bn": "a noun clause"
+    },
+    "d": {
+     "mix": "an adverb clause of time",
+     "en": "an adverb clause of time",
+     "bn": "an adverb clause of time"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Subject Complement সম্বন্ধে আগেই আলোচনা করা হয়েছে। এখানে The question is how he will respond। সুতরাং পরের অংশটি Subject Complement হওয়ায় Noun Clause।",
+    "en": "Subject Complement has already been discussed before. Here: The question is how he will respond. So as the latter part is a Subject Complement, it is a Noun Clause.",
+    "bn": "Subject Complement সম্বন্ধে আগেই আলোচনা করা হয়েছে। এখানে The question is how he will respond। সুতরাং পরের অংশটি Subject Complement হওয়ায় Noun Clause।"
+   },
+   "source": "",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 9,
+   "question": {
+    "mix": "This is the man who called you yesterday.",
+    "en": "This is the man who called you yesterday.",
+    "bn": "This is the man who called you yesterday."
+   },
+   "options": {
+    "a": {
+     "mix": "Independent clause",
+     "en": "Independent clause",
+     "bn": "Independent clause"
+    },
+    "b": {
+     "mix": "Adjective clause",
+     "en": "Adjective clause",
+     "bn": "Adjective clause"
+    },
+    "c": {
+     "mix": "Adverb clause",
+     "en": "Adverb clause",
+     "bn": "Adverb clause"
+    },
+    "d": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "'who called you yesterday' clause-টি noun 'man'-এর পরে বসে man-কে modify করেছে — তাই এটি Adjective Clause (Rule 24.3.2)। এটি স্বাধীনভাবে অর্থ প্রকাশ করে না (ক), verb-কে modify করে না (গ) এবং noun-এর কাজ করে না (ঘ)।",
+    "en": "The clause 'who called you yesterday' sits after the noun 'man' and modifies man — so it is an Adjective Clause (Rule 24.3.2). It does not express meaning independently (a), does not modify the verb (c) and does not do the work of a noun (d).",
+    "bn": "'who called you yesterday' clause-টি noun 'man'-এর পরে বসে man-কে modify করেছে — তাই এটি Adjective Clause (Rule 24.3.2)। এটি স্বাধীনভাবে অর্থ প্রকাশ করে না (ক), verb-কে modify করে না (গ) এবং noun-এর কাজ করে না (ঘ)।"
+   },
+   "source": "ইসলামী বিশ্ববিদ্যালয় ইউনিট-G, ২০১০-১১",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 10,
+   "question": {
+    "mix": "The book which I bought is lost. বাক্যে রেখাঙ্কিত অংশটুকু কোন প্রকারের Clause?",
+    "en": "The book which I bought is lost. What kind of clause is the underlined part in the sentence?",
+    "bn": "The book which I bought is lost. বাক্যে রেখাঙ্কিত অংশটুকু কোন প্রকারের Clause?"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun",
+     "en": "Noun",
+     "bn": "Noun"
+    },
+    "b": {
+     "mix": "Adjective",
+     "en": "Adjective",
+     "bn": "Adjective"
+    },
+    "c": {
+     "mix": "Adverbial",
+     "en": "Adverbial",
+     "bn": "Adverbial"
+    },
+    "d": {
+     "mix": "Principal",
+     "en": "Principal",
+     "bn": "Principal"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "'which I bought' clause-টি noun 'book'-কে modify করেছে — তাই এটি Adjective Clause (Rule 24.3.2)। এটি noun-এর কাজ করে না (ক), verb-কে modify করে না (গ) এবং স্বাধীন Principal Clause-ও নয় (ঘ)।",
+    "en": "The clause 'which I bought' modifies the noun 'book' — so it is an Adjective Clause (Rule 24.3.2). It does not do the work of a noun (a), does not modify the verb (c) and is not an independent Principal Clause either (d).",
+    "bn": "'which I bought' clause-টি noun 'book'-কে modify করেছে — তাই এটি Adjective Clause (Rule 24.3.2)। এটি noun-এর কাজ করে না (ক), verb-কে modify করে না (গ) এবং স্বাধীন Principal Clause-ও নয় (ঘ)।"
+   },
+   "source": "সরকারি মাধ্যমিক বিদ্যালয় প্রধান শিক্ষক ২০০০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 11,
+   "question": {
+    "mix": "He tells a tale that sounds untrue. Give the correct name of the underlined clause of the sentence using any of the four names of the clauses given below.",
+    "en": "He tells a tale that sounds untrue. Give the correct name of the underlined clause of the sentence using any of the four names of the clauses given below.",
+    "bn": "He tells a tale that sounds untrue. Give the correct name of the underlined clause of the sentence using any of the four names of the clauses given below."
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective clause",
+     "en": "Adjective clause",
+     "bn": "Adjective clause"
+    },
+    "b": {
+     "mix": "Adverb clause",
+     "en": "Adverb clause",
+     "bn": "Adverb clause"
+    },
+    "c": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    },
+    "d": {
+     "mix": "Pronoun and Antecedent",
+     "en": "Pronoun and Antecedent",
+     "bn": "Pronoun and Antecedent"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'that sounds untrue' clause-টি noun 'tale'-কে modify করেছে — তাই এটি Adjective Clause (Rule 24.3.2)। এটি verb-কে modify করে না (খ), noun-এর কাজ করে না (গ); (ঘ) কোনো clause-এর নামই নয়।",
+    "en": "The clause 'that sounds untrue' modifies the noun 'tale' — so it is an Adjective Clause (Rule 24.3.2). It does not modify the verb (b) and does not do the work of a noun (c); (d) is not a name of a clause at all.",
+    "bn": "'that sounds untrue' clause-টি noun 'tale'-কে modify করেছে — তাই এটি Adjective Clause (Rule 24.3.2)। এটি verb-কে modify করে না (খ), noun-এর কাজ করে না (গ); (ঘ) কোনো clause-এর নামই নয়।"
+   },
+   "source": "সহকারী থানা শিক্ষা অফিসার ১৯৯৯; রাজশাহী বিশ্ববিদ্যালয় ২০১১-১২",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 12,
+   "question": {
+    "mix": "Name the underlined clause in the following sentence. The news he gave me was false.",
+    "en": "Name the underlined clause in the following sentence. The news he gave me was false.",
+    "bn": "Name the underlined clause in the following sentence. The news he gave me was false."
+   },
+   "options": {
+    "a": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    },
+    "b": {
+     "mix": "Adverbial clause",
+     "en": "Adverbial clause",
+     "bn": "Adverbial clause"
+    },
+    "c": {
+     "mix": "Adjective clause",
+     "en": "Adjective clause",
+     "bn": "Adjective clause"
+    },
+    "d": {
+     "mix": "Principal clause",
+     "en": "Principal clause",
+     "bn": "Principal clause"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "আলোচ্য বাক্যটি মূলত ছিল— The news that he gave me was false। এখানে that, object-এর স্থলে বসায় তা বাদ দেয়া হয়েছে।",
+    "en": "The sentence in question was originally — The news that he gave me was false. Here that, sitting in the place of the object, has been omitted.",
+    "bn": "আলোচ্য বাক্যটি মূলত ছিল— The news that he gave me was false। এখানে that, object-এর স্থলে বসায় তা বাদ দেয়া হয়েছে।"
+   },
+   "source": "রাজশাহী বিশ্ববিদ্যালয় ২০০৫-০৬",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 13,
+   "question": {
+    "mix": "I remember the place where I was born.",
+    "en": "I remember the place where I was born.",
+    "bn": "I remember the place where I was born."
+   },
+   "options": {
+    "a": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    },
+    "b": {
+     "mix": "Co-ordinate clause",
+     "en": "Co-ordinate clause",
+     "bn": "Co-ordinate clause"
+    },
+    "c": {
+     "mix": "Adjective clause",
+     "en": "Adjective clause",
+     "bn": "Adjective clause"
+    },
+    "d": {
+     "mix": "Adverbial clause",
+     "en": "Adverbial clause",
+     "bn": "Adverbial clause"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "এখানে where দ্বারা শুরু আন্ডারলাইন করা Clause-টি place (noun)-কে modify করায় Adjective clause হয়েছে। উল্লেখ্য যে, বাক্যের the place শব্দদ্বয় বাদ দিলে এই Clause-টি remember verb-এর object হিসেবে Noun Clause হবে।",
+    "en": "Here the underlined clause beginning with where modifies place (noun), so it has become an Adjective clause. Note that if the two words the place are dropped from the sentence, this clause will be a Noun Clause as the object of the verb remember.",
+    "bn": "এখানে where দ্বারা শুরু আন্ডারলাইন করা Clause-টি place (noun)-কে modify করায় Adjective clause হয়েছে। উল্লেখ্য যে, বাক্যের the place শব্দদ্বয় বাদ দিলে এই Clause-টি remember verb-এর object হিসেবে Noun Clause হবে।"
+   },
+   "source": "ইসলামী বিশ্ববিদ্যালয় ২০১০-১১",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 14,
+   "question": {
+    "mix": "Identify the underlined Clause : I knew the reason why he was angry.",
+    "en": "Identify the underlined Clause : I knew the reason why he was angry.",
+    "bn": "Identify the underlined Clause : I knew the reason why he was angry."
+   },
+   "options": {
+    "a": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    },
+    "b": {
+     "mix": "Adjective clause",
+     "en": "Adjective clause",
+     "bn": "Adjective clause"
+    },
+    "c": {
+     "mix": "Adverbial clause",
+     "en": "Adverbial clause",
+     "bn": "Adverbial clause"
+    },
+    "d": {
+     "mix": "Adverbial phrase",
+     "en": "Adverbial phrase",
+     "bn": "Adverbial phrase"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "আলোচ্য Why যুক্ত Clause-টি reason, noun-টিকে modify করায় Adjective clause হয়েছে। উল্লেখ্য যে বাক্যটি থেকে the reason বাদ দিলে উক্ত clause-টি know, verb-এর object হওয়ায় Noun Clause হবে— I know why he was angry. (noun clause as object)",
+    "en": "The clause with why in question modifies the noun reason, so it has become an Adjective clause. Note that if the reason is dropped from the sentence, the clause will be a Noun Clause as the object of the verb know — I know why he was angry. (noun clause as object)",
+    "bn": "আলোচ্য Why যুক্ত Clause-টি reason, noun-টিকে modify করায় Adjective clause হয়েছে। উল্লেখ্য যে বাক্যটি থেকে the reason বাদ দিলে উক্ত clause-টি know, verb-এর object হওয়ায় Noun Clause হবে— I know why he was angry. (noun clause as object)"
+   },
+   "source": "",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 15,
+   "question": {
+    "mix": "I shall go where he lives. The underlined part of the sentence is—",
+    "en": "I shall go where he lives. The underlined part of the sentence is—",
+    "bn": "I shall go where he lives. The underlined part of the sentence is—"
+   },
+   "options": {
+    "a": {
+     "mix": "a noun clause",
+     "en": "a noun clause",
+     "bn": "a noun clause"
+    },
+    "b": {
+     "mix": "an adjective clause",
+     "en": "an adjective clause",
+     "bn": "an adjective clause"
+    },
+    "c": {
+     "mix": "an adverbial clause",
+     "en": "an adverbial clause",
+     "bn": "an adverbial clause"
+    },
+    "d": {
+     "mix": "a co-ordinate clause",
+     "en": "a co-ordinate clause",
+     "bn": "a co-ordinate clause"
+    },
+    "e": {
+     "mix": "a prepositional clause",
+     "en": "a prepositional clause",
+     "bn": "a prepositional clause"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "'where he lives' clause-টি verb 'go'-কে modify করেছে (কোথায় যাব — where দিয়ে প্রশ্নের উত্তর) — তাই এটি Adverbial Clause (Rule 24.3.3)। এটি noun-এর কাজ করে না (ক), noun-কে modify করে না (খ), co-ordinating conjunction দ্বারা যুক্ত নয় (ঘ) এবং 'prepositional clause' বলে কিছু নেই (ঙ)।",
+    "en": "The clause 'where he lives' modifies the verb 'go' (the answer to questioning with where) — so it is an Adverbial Clause (Rule 24.3.3). It does not do the work of a noun (a), does not modify a noun (b), is not joined by a co-ordinating conjunction (d) and there is no such thing as a 'prepositional clause' (e).",
+    "bn": "'where he lives' clause-টি verb 'go'-কে modify করেছে (কোথায় যাব — where দিয়ে প্রশ্নের উত্তর) — তাই এটি Adverbial Clause (Rule 24.3.3)। এটি noun-এর কাজ করে না (ক), noun-কে modify করে না (খ), co-ordinating conjunction দ্বারা যুক্ত নয় (ঘ) এবং 'prepositional clause' বলে কিছু নেই (ঙ)।"
+   },
+   "source": "চট্টগ্রাম বিশ্ববিদ্যালয় ইউনিট-খ, ২০০৯-১০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 16,
+   "question": {
+    "mix": "Show the clause of the underlined sentence. You may go wherever you like.",
+    "en": "Show the clause of the underlined sentence. You may go wherever you like.",
+    "bn": "Show the clause of the underlined sentence. You may go wherever you like."
+   },
+   "options": {
+    "a": {
+     "mix": "adverbial clause of place",
+     "en": "adverbial clause of place",
+     "bn": "adverbial clause of place"
+    },
+    "b": {
+     "mix": "adverbial clause of time",
+     "en": "adverbial clause of time",
+     "bn": "adverbial clause of time"
+    },
+    "c": {
+     "mix": "adverbial clause of reason",
+     "en": "adverbial clause of reason",
+     "bn": "adverbial clause of reason"
+    },
+    "d": {
+     "mix": "adverbial clause of noun",
+     "en": "adverbial clause of noun",
+     "bn": "adverbial clause of noun"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'wherever you like' clause-টি wherever দিয়ে শুরু হয়ে স্থান নির্দেশ করে verb 'go'-কে modify করেছে — তাই এটি Adverbial Clause of Place (Rule 24.3.3.1-B)। এটি সময় (খ) বা কারণ (গ) নির্দেশ করে না; (ঘ) কোনো প্রকারের নাম নয়।",
+    "en": "The clause 'wherever you like' begins with wherever, indicates place and modifies the verb 'go' — so it is an Adverbial Clause of Place (Rule 24.3.3.1-B). It does not indicate time (b) or reason (c); (d) is not the name of any kind.",
+    "bn": "'wherever you like' clause-টি wherever দিয়ে শুরু হয়ে স্থান নির্দেশ করে verb 'go'-কে modify করেছে — তাই এটি Adverbial Clause of Place (Rule 24.3.3.1-B)। এটি সময় (খ) বা কারণ (গ) নির্দেশ করে না; (ঘ) কোনো প্রকারের নাম নয়।"
+   },
+   "source": "চট্টগ্রাম বিশ্ববিদ্যালয় ২০১০-১১",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 17,
+   "question": {
+    "mix": "He often visits Spain 'because he likes the climate.' The underlined clause is—",
+    "en": "He often visits Spain 'because he likes the climate.' The underlined clause is—",
+    "bn": "He often visits Spain 'because he likes the climate.' The underlined clause is—"
+   },
+   "options": {
+    "a": {
+     "mix": "Principal clause",
+     "en": "Principal clause",
+     "bn": "Principal clause"
+    },
+    "b": {
+     "mix": "Adjective clause",
+     "en": "Adjective clause",
+     "bn": "Adjective clause"
+    },
+    "c": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    },
+    "d": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    }
+   },
+   "answer": null,
+   "explanation": {
+    "mix": "[Note : উত্তর হবে adverbial clause]",
+    "en": "[Note: The answer will be adverbial clause]",
+    "bn": "[Note : উত্তর হবে adverbial clause]"
+   },
+   "source": "ইসলামী বিশ্ববিদ্যালয় B ইউনিট ২০০৬-০৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 18,
+   "question": {
+    "mix": "We read that we may learn. In this sentence the undelined clause is—",
+    "en": "We read that we may learn. In this sentence the undelined clause is—",
+    "bn": "We read that we may learn. In this sentence the undelined clause is—"
+   },
+   "options": {
+    "a": {
+     "mix": "Co-ordinate clause",
+     "en": "Co-ordinate clause",
+     "bn": "Co-ordinate clause"
+    },
+    "b": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    },
+    "c": {
+     "mix": "Adjective clause",
+     "en": "Adjective clause",
+     "bn": "Adjective clause"
+    },
+    "d": {
+     "mix": "Adverbial clause.",
+     "en": "Adverbial clause.",
+     "bn": "Adverbial clause."
+    }
+   },
+   "answer": null,
+   "explanation": {
+    "mix": "বইয়ে এই প্রশ্নের কোনো option-এ tick ছাপা হয়নি। Rule 24.3.3.1-J অনুযায়ী that দিয়ে শুরু হয়ে উদ্দেশ্য (purpose) বোঝালে clause-টি Adverbial Clause of Purpose হয় — 'that we may learn' read verb-এর উদ্দেশ্য বোঝাচ্ছে, তাই এটি Adverbial Clause (ঘ)। এটি noun-এর কাজ করে না (খ), noun-কে modify করে না (গ) এবং co-ordinating conjunction দ্বারা যুক্ত নয় (ক)।",
+    "en": "No tick is printed on any option of this question in the book. According to Rule 24.3.3.1-J, a clause beginning with that and expressing purpose is an Adverbial Clause of Purpose — 'that we may learn' expresses the purpose of the verb read, so it is an Adverbial Clause (d). It does not do the work of a noun (b), does not modify a noun (c) and is not joined by a co-ordinating conjunction (a).",
+    "bn": "বইয়ে এই প্রশ্নের কোনো option-এ tick ছাপা হয়নি। Rule 24.3.3.1-J অনুযায়ী that দিয়ে শুরু হয়ে উদ্দেশ্য (purpose) বোঝালে clause-টি Adverbial Clause of Purpose হয় — 'that we may learn' read verb-এর উদ্দেশ্য বোঝাচ্ছে, তাই এটি Adverbial Clause (ঘ)। এটি noun-এর কাজ করে না (খ), noun-কে modify করে না (গ) এবং co-ordinating conjunction দ্বারা যুক্ত নয় (ক)।"
+   },
+   "source": "ইসলামী বিশ্ববিদ্যালয় ২০১০-১১",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 19,
+   "question": {
+    "mix": "He asked me why I was late.",
+    "en": "He asked me why I was late.",
+    "bn": "He asked me why I was late."
+   },
+   "options": {
+    "a": {
+     "mix": "principal clause",
+     "en": "principal clause",
+     "bn": "principal clause"
+    },
+    "b": {
+     "mix": "noun clause",
+     "en": "noun clause",
+     "bn": "noun clause"
+    },
+    "c": {
+     "mix": "adjective clause",
+     "en": "adjective clause",
+     "bn": "adjective clause"
+    },
+    "d": {
+     "mix": "adverbial clause",
+     "en": "adverbial clause",
+     "bn": "adverbial clause"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Rule 24.3.4 অনুযায়ী ask-এর মতো transitive verb-এর পর noun clause that দিয়ে শুরু না হয়ে why দিয়ে শুরু হয়; 'why I was late' clause-টি asked verb-এর object হিসেবে noun-এর কাজ করায় Noun Clause। এটি Principal Clause নয় (ক), noun-কে modify করে না (গ) এবং verb-কে modify করে না (ঘ)।",
+    "en": "According to Rule 24.3.4, after a transitive verb like ask, the noun clause begins not with that but with why; the clause 'why I was late' does the work of a noun as the object of the verb asked, so it is a Noun Clause. It is not a Principal Clause (a), does not modify a noun (c) and does not modify the verb (d).",
+    "bn": "Rule 24.3.4 অনুযায়ী ask-এর মতো transitive verb-এর পর noun clause that দিয়ে শুরু না হয়ে why দিয়ে শুরু হয়; 'why I was late' clause-টি asked verb-এর object হিসেবে noun-এর কাজ করায় Noun Clause। এটি Principal Clause নয় (ক), noun-কে modify করে না (গ) এবং verb-কে modify করে না (ঘ)।"
+   },
+   "source": "পরিবেশ অধিদপ্তরের সহকারী পরিচালক (কারিগরি) ২০১১",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 20,
+   "question": {
+    "mix": "I often wonder how you are getting on. Give the correct name of the underlined clause of the sentence using any of the four names of the clauses given below—",
+    "en": "I often wonder how you are getting on. Give the correct name of the underlined clause of the sentence using any of the four names of the clauses given below—",
+    "bn": "I often wonder how you are getting on. Give the correct name of the underlined clause of the sentence using any of the four names of the clauses given below—"
+   },
+   "options": {
+    "a": {
+     "mix": "adverb clause",
+     "en": "adverb clause",
+     "bn": "adverb clause"
+    },
+    "b": {
+     "mix": "noun clause",
+     "en": "noun clause",
+     "bn": "noun clause"
+    },
+    "c": {
+     "mix": "adjective clause",
+     "en": "adjective clause",
+     "bn": "adjective clause"
+    },
+    "d": {
+     "mix": "relative clause",
+     "en": "relative clause",
+     "bn": "relative clause"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Rule 24.3.4 অনুযায়ী wonder-এর মতো transitive verb-এর পরের clause how দিয়ে শুরু হয় এবং verb-এর object হিসেবে noun-এর কাজ করে — তাই 'how you are getting on' Noun Clause। এটি verb-কে modify করে না (ক), noun-কে modify করে না (গ) এবং relative pronoun দিয়েও শুরু হয়নি (ঘ)।",
+    "en": "According to Rule 24.3.4, the clause after a transitive verb like wonder begins with how and does the work of a noun as the object of the verb — so 'how you are getting on' is a Noun Clause. It does not modify the verb (a), does not modify a noun (c) and does not begin with a relative pronoun either (d).",
+    "bn": "Rule 24.3.4 অনুযায়ী wonder-এর মতো transitive verb-এর পরের clause how দিয়ে শুরু হয় এবং verb-এর object হিসেবে noun-এর কাজ করে — তাই 'how you are getting on' Noun Clause। এটি verb-কে modify করে না (ক), noun-কে modify করে না (গ) এবং relative pronoun দিয়েও শুরু হয়নি (ঘ)।"
+   },
+   "source": "থানা শিক্ষা অফিসার ১৯৯৯",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 1,
+   "question": {
+    "mix": "Identify the underlined clause: Tell me where you are now. (Underlined: where you are now)",
+    "en": "Identify the underlined clause: Tell me where you are now. (Underlined: where you are now)",
+    "bn": "Identify the underlined clause: Tell me where you are now. (Underlined: where you are now)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as object",
+     "en": "Noun Clause as object",
+     "bn": "Noun Clause as object"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'where you are now' clause-টি 'Tell' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই এটি Noun Clause as object।",
+    "en": "The clause 'where you are now' does the work of a noun as the object of the verb 'Tell' (Rule 24.3.1-B). So it is a Noun Clause as object.",
+    "bn": "'where you are now' clause-টি 'Tell' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই এটি Noun Clause as object।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 2,
+   "question": {
+    "mix": "Identify the underlined clause: Don't do anything that hurts your teacher. (Underlined: that hurts your teacher)",
+    "en": "Identify the underlined clause: Don't do anything that hurts your teacher. (Underlined: that hurts your teacher)",
+    "bn": "Identify the underlined clause: Don't do anything that hurts your teacher. (Underlined: that hurts your teacher)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective Clause modifying pronoun",
+     "en": "Adjective Clause modifying pronoun",
+     "bn": "Adjective Clause modifying pronoun"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'that hurts your teacher' clause-টি pronoun 'anything'-কে modify করেছে (Rule 24.3.2)। তাই এটি Adjective Clause modifying pronoun।",
+    "en": "The clause 'that hurts your teacher' modifies the pronoun 'anything' (Rule 24.3.2). So it is an Adjective Clause modifying pronoun.",
+    "bn": "'that hurts your teacher' clause-টি pronoun 'anything'-কে modify করেছে (Rule 24.3.2)। তাই এটি Adjective Clause modifying pronoun।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 3,
+   "question": {
+    "mix": "Identify the underlined clause: I can't remember when he came here. (Underlined: when he came here)",
+    "en": "Identify the underlined clause: I can't remember when he came here. (Underlined: when he came here)",
+    "bn": "Identify the underlined clause: I can't remember when he came here. (Underlined: when he came here)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as object",
+     "en": "Noun Clause as object",
+     "bn": "Noun Clause as object"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'when he came here' clause-টি 'remember' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই এটি Noun Clause as object।",
+    "en": "The clause 'when he came here' does the work of a noun as the object of the verb 'remember' (Rule 24.3.1-B). So it is a Noun Clause as object.",
+    "bn": "'when he came here' clause-টি 'remember' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই এটি Noun Clause as object।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 4,
+   "question": {
+    "mix": "Identify the underlined clause: He gave me everything I asked for. (Underlined: I asked for)",
+    "en": "Identify the underlined clause: He gave me everything I asked for. (Underlined: I asked for)",
+    "bn": "Identify the underlined clause: He gave me everything I asked for. (Underlined: I asked for)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective Clause modifying pronoun",
+     "en": "Adjective Clause modifying pronoun",
+     "bn": "Adjective Clause modifying pronoun"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'I asked for' clause-টি pronoun 'everything'-কে modify করেছে; এখানে relative pronoun (which/that) object-এর স্থলে থাকায় বাদ গেছে (Rule 24.3.2.1)। তাই এটি Adjective Clause modifying pronoun।",
+    "en": "The clause 'I asked for' modifies the pronoun 'everything'; here the relative pronoun (which/that) has been omitted as it was in the place of the object (Rule 24.3.2.1). So it is an Adjective Clause modifying pronoun.",
+    "bn": "'I asked for' clause-টি pronoun 'everything'-কে modify করেছে; এখানে relative pronoun (which/that) object-এর স্থলে থাকায় বাদ গেছে (Rule 24.3.2.1)। তাই এটি Adjective Clause modifying pronoun।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 5,
+   "question": {
+    "mix": "Identify the underlined clause: If I were you, I would not do this. (Underlined: If I were you)",
+    "en": "Identify the underlined clause: If I were you, I would not do this. (Underlined: If I were you)",
+    "bn": "Identify the underlined clause: If I were you, I would not do this. (Underlined: If I were you)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adverbial Clause of condition",
+     "en": "Adverbial Clause of condition",
+     "bn": "Adverbial Clause of condition"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'If I were you' clause-টি if দিয়ে শুরু হয়ে শর্ত (condition) বুঝিয়ে verb-কে modify করেছে (Rule 24.3.3.1-F)। তাই এটি Adverbial Clause of condition।",
+    "en": "The clause 'If I were you' begins with if, expresses a condition and modifies the verb (Rule 24.3.3.1-F). So it is an Adverbial Clause of condition.",
+    "bn": "'If I were you' clause-টি if দিয়ে শুরু হয়ে শর্ত (condition) বুঝিয়ে verb-কে modify করেছে (Rule 24.3.3.1-F)। তাই এটি Adverbial Clause of condition।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 6,
+   "question": {
+    "mix": "Identify the underlined clause: I can't remember where he was born. (Underlined: where he was born)",
+    "en": "Identify the underlined clause: I can't remember where he was born. (Underlined: where he was born)",
+    "bn": "Identify the underlined clause: I can't remember where he was born. (Underlined: where he was born)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as object",
+     "en": "Noun Clause as object",
+     "bn": "Noun Clause as object"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'where he was born' clause-টি 'remember' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই এটি Noun Clause as object।",
+    "en": "The clause 'where he was born' does the work of a noun as the object of the verb 'remember' (Rule 24.3.1-B). So it is a Noun Clause as object.",
+    "bn": "'where he was born' clause-টি 'remember' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই এটি Noun Clause as object।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 7,
+   "question": {
+    "mix": "Identify the underlined clause: He worked hard but could not succeed. (Underlined: but could not succeed)",
+    "en": "Identify the underlined clause: He worked hard but could not succeed. (Underlined: but could not succeed)",
+    "bn": "Identify the underlined clause: He worked hard but could not succeed. (Underlined: but could not succeed)"
+   },
+   "options": {
+    "a": {
+     "mix": "Co-ordinate Clause",
+     "en": "Co-ordinate Clause",
+     "bn": "Co-ordinate Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'but could not succeed' একটি Principal Clause, যা co-ordinating conjunction 'but' দ্বারা আগের Principal Clause-এর সঙ্গে যুক্ত (Rule 24.2.3)। তাই এটি Co-ordinate Clause।",
+    "en": "'but could not succeed' is a Principal Clause joined to the previous Principal Clause by the co-ordinating conjunction 'but' (Rule 24.2.3). So it is a Co-ordinate Clause.",
+    "bn": "'but could not succeed' একটি Principal Clause, যা co-ordinating conjunction 'but' দ্বারা আগের Principal Clause-এর সঙ্গে যুক্ত (Rule 24.2.3)। তাই এটি Co-ordinate Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 8,
+   "question": {
+    "mix": "Identify the underlined clause: Wait here until I return. (Underlined: Wait here)",
+    "en": "Identify the underlined clause: Wait here until I return. (Underlined: Wait here)",
+    "bn": "Identify the underlined clause: Wait here until I return. (Underlined: Wait here)"
+   },
+   "options": {
+    "a": {
+     "mix": "Principal Clause",
+     "en": "Principal Clause",
+     "bn": "Principal Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'Wait here' অংশটি নিজে নিজেই সম্পূর্ণ অর্থ প্রকাশ করে, অন্য কোনো Clause-এর উপর নির্ভর করে না (Rule 24.2.1)। তাই এটি Principal Clause।",
+    "en": "The part 'Wait here' expresses a complete meaning by itself and does not depend on any other clause (Rule 24.2.1). So it is a Principal Clause.",
+    "bn": "'Wait here' অংশটি নিজে নিজেই সম্পূর্ণ অর্থ প্রকাশ করে, অন্য কোনো Clause-এর উপর নির্ভর করে না (Rule 24.2.1)। তাই এটি Principal Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 9,
+   "question": {
+    "mix": "Identify the underlined clause: I wonder if he can help me. (Underlined: if he can help me)",
+    "en": "Identify the underlined clause: I wonder if he can help me. (Underlined: if he can help me)",
+    "bn": "Identify the underlined clause: I wonder if he can help me. (Underlined: if he can help me)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun clause as object",
+     "en": "Noun clause as object",
+     "bn": "Noun clause as object"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'if he can help me' clause-টি 'wonder' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.4)। তাই এটি Noun clause as object।",
+    "en": "The clause 'if he can help me' does the work of a noun as the object of the verb 'wonder' (Rule 24.3.4). So it is a Noun clause as object.",
+    "bn": "'if he can help me' clause-টি 'wonder' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.4)। তাই এটি Noun clause as object।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 10,
+   "question": {
+    "mix": "Identify the underlined clause: We'll buy everything you produce provided the price is reasonable. (Underlined: provided the price is reasonable)",
+    "en": "Identify the underlined clause: We'll buy everything you produce provided the price is reasonable. (Underlined: provided the price is reasonable)",
+    "bn": "Identify the underlined clause: We'll buy everything you produce provided the price is reasonable. (Underlined: provided the price is reasonable)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adverbial Clause of condition",
+     "en": "Adverbial Clause of condition",
+     "bn": "Adverbial Clause of condition"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'provided the price is reasonable' clause-টি provided দিয়ে শুরু হয়ে শর্ত বুঝিয়ে verb-কে modify করেছে (Rule 24.3.3.1-F)। তাই এটি Adverbial Clause of condition।",
+    "en": "The clause 'provided the price is reasonable' begins with provided, expresses a condition and modifies the verb (Rule 24.3.3.1-F). So it is an Adverbial Clause of condition.",
+    "bn": "'provided the price is reasonable' clause-টি provided দিয়ে শুরু হয়ে শর্ত বুঝিয়ে verb-কে modify করেছে (Rule 24.3.3.1-F)। তাই এটি Adverbial Clause of condition।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 11,
+   "question": {
+    "mix": "Identify the underlined clause: Nobody can explain why he failed. (Underlined: why he failed)",
+    "en": "Identify the underlined clause: Nobody can explain why he failed. (Underlined: why he failed)",
+    "bn": "Identify the underlined clause: Nobody can explain why he failed. (Underlined: why he failed)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as object",
+     "en": "Noun Clause as object",
+     "bn": "Noun Clause as object"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'why he failed' clause-টি 'explain' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই এটি Noun Clause as object।",
+    "en": "The clause 'why he failed' does the work of a noun as the object of the verb 'explain' (Rule 24.3.1-B). So it is a Noun Clause as object.",
+    "bn": "'why he failed' clause-টি 'explain' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই এটি Noun Clause as object।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 12,
+   "question": {
+    "mix": "Identify the underlined clause: This is where I was born. (Underlined: where I was born)",
+    "en": "Identify the underlined clause: This is where I was born. (Underlined: where I was born)",
+    "bn": "Identify the underlined clause: This is where I was born. (Underlined: where I was born)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as complement of subject",
+     "en": "Noun Clause as complement of subject",
+     "bn": "Noun Clause as complement of subject"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'where I was born' clause-টি 'is' verb-এর পরে বসে subject 'This'-এর complement হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-D)। তাই এটি Noun Clause as complement of subject।",
+    "en": "The clause 'where I was born' sits after the verb 'is' and does the work of a noun as the complement of the subject 'This' (Rule 24.3.1-D). So it is a Noun Clause as complement of subject.",
+    "bn": "'where I was born' clause-টি 'is' verb-এর পরে বসে subject 'This'-এর complement হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-D)। তাই এটি Noun Clause as complement of subject।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 13,
+   "question": {
+    "mix": "Identify the underlined clause: This is the boy we have been looking for. (Underlined: we have been looking for)",
+    "en": "Identify the underlined clause: This is the boy we have been looking for. (Underlined: we have been looking for)",
+    "bn": "Identify the underlined clause: This is the boy we have been looking for. (Underlined: we have been looking for)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective Clause",
+     "en": "Adjective Clause",
+     "bn": "Adjective Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'we have been looking for' clause-টি noun 'boy'-কে modify করেছে; relative pronoun object-এর স্থলে থাকায় বাদ গেছে (Rule 24.3.2.1)। তাই এটি Adjective Clause।",
+    "en": "The clause 'we have been looking for' modifies the noun 'boy'; the relative pronoun has been omitted as it was in the place of the object (Rule 24.3.2.1). So it is an Adjective Clause.",
+    "bn": "'we have been looking for' clause-টি noun 'boy'-কে modify করেছে; relative pronoun object-এর স্থলে থাকায় বাদ গেছে (Rule 24.3.2.1)। তাই এটি Adjective Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 14,
+   "question": {
+    "mix": "Identify the underlined clause: This is the book Rana has been looking for. (Underlined: Rana has been looking for)",
+    "en": "Identify the underlined clause: This is the book Rana has been looking for. (Underlined: Rana has been looking for)",
+    "bn": "Identify the underlined clause: This is the book Rana has been looking for. (Underlined: Rana has been looking for)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective Clause",
+     "en": "Adjective Clause",
+     "bn": "Adjective Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'Rana has been looking for' clause-টি noun 'book'-কে modify করেছে; relative pronoun object-এর স্থলে থাকায় বাদ গেছে (Rule 24.3.2.1)। তাই এটি Adjective Clause।",
+    "en": "The clause 'Rana has been looking for' modifies the noun 'book'; the relative pronoun has been omitted as it was in the place of the object (Rule 24.3.2.1). So it is an Adjective Clause.",
+    "bn": "'Rana has been looking for' clause-টি noun 'book'-কে modify করেছে; relative pronoun object-এর স্থলে থাকায় বাদ গেছে (Rule 24.3.2.1)। তাই এটি Adjective Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 15,
+   "question": {
+    "mix": "Identify the underlined clause: This is what he said about you. (Underlined: what he said about you)",
+    "en": "Identify the underlined clause: This is what he said about you. (Underlined: what he said about you)",
+    "bn": "Identify the underlined clause: This is what he said about you. (Underlined: what he said about you)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as complement of subject",
+     "en": "Noun Clause as complement of subject",
+     "bn": "Noun Clause as complement of subject"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'what he said about you' clause-টি 'is' verb-এর পরে বসে subject-এর complement হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-D)। তাই এটি Noun Clause as complement of subject।",
+    "en": "The clause 'what he said about you' sits after the verb 'is' and does the work of a noun as the complement of the subject (Rule 24.3.1-D). So it is a Noun Clause as complement of subject.",
+    "bn": "'what he said about you' clause-টি 'is' verb-এর পরে বসে subject-এর complement হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-D)। তাই এটি Noun Clause as complement of subject।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 16,
+   "question": {
+    "mix": "Identify the underlined clause: The money she spends comes from abroad. (Underlined: she spends)",
+    "en": "Identify the underlined clause: The money she spends comes from abroad. (Underlined: she spends)",
+    "bn": "Identify the underlined clause: The money she spends comes from abroad. (Underlined: she spends)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective Clause",
+     "en": "Adjective Clause",
+     "bn": "Adjective Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'she spends' clause-টি noun 'money'-কে modify করেছে; relative pronoun object-এর স্থলে থাকায় বাদ গেছে (Rule 24.3.2.1)। তাই এটি Adjective Clause।",
+    "en": "The clause 'she spends' modifies the noun 'money'; the relative pronoun has been omitted as it was in the place of the object (Rule 24.3.2.1). So it is an Adjective Clause.",
+    "bn": "'she spends' clause-টি noun 'money'-কে modify করেছে; relative pronoun object-এর স্থলে থাকায় বাদ গেছে (Rule 24.3.2.1)। তাই এটি Adjective Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 17,
+   "question": {
+    "mix": "Identify the underlined clause: Wherever you go I shall follow you. (Underlined: Wherever you go)",
+    "en": "Identify the underlined clause: Wherever you go I shall follow you. (Underlined: Wherever you go)",
+    "bn": "Identify the underlined clause: Wherever you go I shall follow you. (Underlined: Wherever you go)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adverbial Clause",
+     "en": "Adverbial Clause",
+     "bn": "Adverbial Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'Wherever you go' clause-টি wherever দিয়ে শুরু হয়ে verb 'follow'-কে modify করেছে (Rule 24.3.3)। তাই এটি Adverbial Clause।",
+    "en": "The clause 'Wherever you go' begins with wherever and modifies the verb 'follow' (Rule 24.3.3). So it is an Adverbial Clause.",
+    "bn": "'Wherever you go' clause-টি wherever দিয়ে শুরু হয়ে verb 'follow'-কে modify করেছে (Rule 24.3.3)। তাই এটি Adverbial Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 18,
+   "question": {
+    "mix": "Identify the underlined clause: Fools rush in where angels fear to tread. (Underlined: where angels fear to tread)",
+    "en": "Identify the underlined clause: Fools rush in where angels fear to tread. (Underlined: where angels fear to tread)",
+    "bn": "Identify the underlined clause: Fools rush in where angels fear to tread. (Underlined: where angels fear to tread)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adverbial Clause",
+     "en": "Adverbial Clause",
+     "bn": "Adverbial Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'where angels fear to tread' clause-টি verb 'rush in'-কে modify করেছে (Rule 24.3.3)। তাই এটি Adverbial Clause।",
+    "en": "The clause 'where angels fear to tread' modifies the verb 'rush in' (Rule 24.3.3). So it is an Adverbial Clause.",
+    "bn": "'where angels fear to tread' clause-টি verb 'rush in'-কে modify করেছে (Rule 24.3.3)। তাই এটি Adverbial Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 19,
+   "question": {
+    "mix": "Identify the underlined clause: I have no objection to what you are saying. (Underlined: what you are saying)",
+    "en": "Identify the underlined clause: I have no objection to what you are saying. (Underlined: what you are saying)",
+    "bn": "Identify the underlined clause: I have no objection to what you are saying. (Underlined: what you are saying)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as object of Preposition",
+     "en": "Noun Clause as object of Preposition",
+     "bn": "Noun Clause as object of Preposition"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'what you are saying' clause-টি preposition 'to'-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-C)। তাই এটি Noun Clause as object of Preposition।",
+    "en": "The clause 'what you are saying' does the work of a noun as the object of the preposition 'to' (Rule 24.3.1-C). So it is a Noun Clause as object of Preposition.",
+    "bn": "'what you are saying' clause-টি preposition 'to'-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-C)। তাই এটি Noun Clause as object of Preposition।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 20,
+   "question": {
+    "mix": "Identify the underlined clause: I can't utter the words he said. (Underlined: he said)",
+    "en": "Identify the underlined clause: I can't utter the words he said. (Underlined: he said)",
+    "bn": "Identify the underlined clause: I can't utter the words he said. (Underlined: he said)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective Clause",
+     "en": "Adjective Clause",
+     "bn": "Adjective Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'he said' clause-টি noun 'words'-কে modify করেছে; relative pronoun object-এর স্থলে থাকায় বাদ গেছে (Rule 24.3.2.1)। তাই এটি Adjective Clause।",
+    "en": "The clause 'he said' modifies the noun 'words'; the relative pronoun has been omitted as it was in the place of the object (Rule 24.3.2.1). So it is an Adjective Clause.",
+    "bn": "'he said' clause-টি noun 'words'-কে modify করেছে; relative pronoun object-এর স্থলে থাকায় বাদ গেছে (Rule 24.3.2.1)। তাই এটি Adjective Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 21,
+   "question": {
+    "mix": "Identify the underlined clause: It seemed that it would rain. (Underlined: that it would rain)",
+    "en": "Identify the underlined clause: It seemed that it would rain. (Underlined: that it would rain)",
+    "bn": "Identify the underlined clause: It seemed that it would rain. (Underlined: that it would rain)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as object",
+     "en": "Noun Clause as object",
+     "bn": "Noun Clause as object"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'that it would rain' clause-টি 'seemed' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই বইয়ের উত্তর Noun Clause as object।",
+    "en": "The clause 'that it would rain' does the work of a noun as the object of the verb 'seemed' (Rule 24.3.1-B). So the book's answer is Noun Clause as object.",
+    "bn": "'that it would rain' clause-টি 'seemed' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই বইয়ের উত্তর Noun Clause as object।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 22,
+   "question": {
+    "mix": "Identify the underlined clause: I am sure that you will pass the test. (Underlined: that you will pass the test)",
+    "en": "Identify the underlined clause: I am sure that you will pass the test. (Underlined: that you will pass the test)",
+    "bn": "Identify the underlined clause: I am sure that you will pass the test. (Underlined: that you will pass the test)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause",
+     "en": "Noun Clause",
+     "bn": "Noun Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'that you will pass the test' clause-টি Subject + be verb + adjective (sure) + that clause গঠনে এসেছে, যাকে বইয়ে Noun Clause হিসেবে গণ্য করা হয় (Rule 24.3.1-F Note)। তাই এটি Noun Clause।",
+    "en": "The clause 'that you will pass the test' comes in the structure Subject + be verb + adjective (sure) + that clause, which the book counts as a Noun Clause (Rule 24.3.1-F Note). So it is a Noun Clause.",
+    "bn": "'that you will pass the test' clause-টি Subject + be verb + adjective (sure) + that clause গঠনে এসেছে, যাকে বইয়ে Noun Clause হিসেবে গণ্য করা হয় (Rule 24.3.1-F Note)। তাই এটি Noun Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 23,
+   "question": {
+    "mix": "Identify the underlined clause: Were I your friend, I would help you. (Underlined: Were I your friend)",
+    "en": "Identify the underlined clause: Were I your friend, I would help you. (Underlined: Were I your friend)",
+    "bn": "Identify the underlined clause: Were I your friend, I would help you. (Underlined: Were I your friend)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adverbial Clause of Condition",
+     "en": "Adverbial Clause of Condition",
+     "bn": "Adverbial Clause of Condition"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'Were I your friend' clause-টি if-বিহীন শর্ত (Had/Were I your friend = If I were your friend) বুঝিয়ে verb-কে modify করেছে (Rule 24.3.3.1-F)। তাই এটি Adverbial Clause of Condition।",
+    "en": "The clause 'Were I your friend' expresses a condition without if (Were I your friend = If I were your friend) and modifies the verb (Rule 24.3.3.1-F). So it is an Adverbial Clause of Condition.",
+    "bn": "'Were I your friend' clause-টি if-বিহীন শর্ত (Had/Were I your friend = If I were your friend) বুঝিয়ে verb-কে modify করেছে (Rule 24.3.3.1-F)। তাই এটি Adverbial Clause of Condition।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 24,
+   "question": {
+    "mix": "Identify the underlined clause: The teacher asked me where I was born. (Underlined: where I was born)",
+    "en": "Identify the underlined clause: The teacher asked me where I was born. (Underlined: where I was born)",
+    "bn": "Identify the underlined clause: The teacher asked me where I was born. (Underlined: where I was born)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as object",
+     "en": "Noun Clause as object",
+     "bn": "Noun Clause as object"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'where I was born' clause-টি 'asked' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.4)। তাই এটি Noun Clause as object।",
+    "en": "The clause 'where I was born' does the work of a noun as the object of the verb 'asked' (Rule 24.3.4). So it is a Noun Clause as object.",
+    "bn": "'where I was born' clause-টি 'asked' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.4)। তাই এটি Noun Clause as object।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 25,
+   "question": {
+    "mix": "Identify the underlined clause: She is the most beautiful woman I have ever seen. (Underlined: I have ever seen)",
+    "en": "Identify the underlined clause: She is the most beautiful woman I have ever seen. (Underlined: I have ever seen)",
+    "bn": "Identify the underlined clause: She is the most beautiful woman I have ever seen. (Underlined: I have ever seen)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective Clause",
+     "en": "Adjective Clause",
+     "bn": "Adjective Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'I have ever seen' clause-টি noun 'woman'-কে modify করেছে; relative pronoun object-এর স্থলে থাকায় বাদ গেছে (Rule 24.3.2.1)। তাই এটি Adjective Clause।",
+    "en": "The clause 'I have ever seen' modifies the noun 'woman'; the relative pronoun has been omitted as it was in the place of the object (Rule 24.3.2.1). So it is an Adjective Clause.",
+    "bn": "'I have ever seen' clause-টি noun 'woman'-কে modify করেছে; relative pronoun object-এর স্থলে থাকায় বাদ গেছে (Rule 24.3.2.1)। তাই এটি Adjective Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 26,
+   "question": {
+    "mix": "Identify the underlined clause: Tell me who you are. (Underlined: who you are)",
+    "en": "Identify the underlined clause: Tell me who you are. (Underlined: who you are)",
+    "bn": "Identify the underlined clause: Tell me who you are. (Underlined: who you are)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as object",
+     "en": "Noun Clause as object",
+     "bn": "Noun Clause as object"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'who you are' clause-টি 'Tell' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই এটি Noun Clause as object।",
+    "en": "The clause 'who you are' does the work of a noun as the object of the verb 'Tell' (Rule 24.3.1-B). So it is a Noun Clause as object.",
+    "bn": "'who you are' clause-টি 'Tell' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই এটি Noun Clause as object।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 27,
+   "question": {
+    "mix": "Identify the underlined clause: Stay where you are. (Underlined: Stay)",
+    "en": "Identify the underlined clause: Stay where you are. (Underlined: Stay)",
+    "bn": "Identify the underlined clause: Stay where you are. (Underlined: Stay)"
+   },
+   "options": {
+    "a": {
+     "mix": "Principal Clause",
+     "en": "Principal Clause",
+     "bn": "Principal Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "আন্ডারলাইন করা 'Stay' অংশটি নিজে নিজেই সম্পূর্ণ অর্থ প্রকাশ করে, অন্য কোনো Clause-এর উপর নির্ভর করে না (Rule 24.2.1)। তাই এটি Principal Clause।",
+    "en": "The underlined part 'Stay' expresses a complete meaning by itself and does not depend on any other clause (Rule 24.2.1). So it is a Principal Clause.",
+    "bn": "আন্ডারলাইন করা 'Stay' অংশটি নিজে নিজেই সম্পূর্ণ অর্থ প্রকাশ করে, অন্য কোনো Clause-এর উপর নির্ভর করে না (Rule 24.2.1)। তাই এটি Principal Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 28,
+   "question": {
+    "mix": "Identify the underlined clause: Walk fast lest you should miss the train. (Underlined: lest you should miss the train)",
+    "en": "Identify the underlined clause: Walk fast lest you should miss the train. (Underlined: lest you should miss the train)",
+    "bn": "Identify the underlined clause: Walk fast lest you should miss the train. (Underlined: lest you should miss the train)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adverbial Clause",
+     "en": "Adverbial Clause",
+     "bn": "Adverbial Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'lest you should miss the train' clause-টি lest দিয়ে শুরু হয়ে verb 'Walk'-কে modify করেছে (Rule 24.3.3)। তাই এটি Adverbial Clause।",
+    "en": "The clause 'lest you should miss the train' begins with lest and modifies the verb 'Walk' (Rule 24.3.3). So it is an Adverbial Clause.",
+    "bn": "'lest you should miss the train' clause-টি lest দিয়ে শুরু হয়ে verb 'Walk'-কে modify করেছে (Rule 24.3.3)। তাই এটি Adverbial Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 29,
+   "question": {
+    "mix": "Identify the underlined clause: I know the girl you love. (Underlined: you love)",
+    "en": "Identify the underlined clause: I know the girl you love. (Underlined: you love)",
+    "bn": "Identify the underlined clause: I know the girl you love. (Underlined: you love)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective Clause",
+     "en": "Adjective Clause",
+     "bn": "Adjective Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'you love' clause-টি noun 'girl'-কে modify করেছে; relative pronoun object-এর স্থলে থাকায় বাদ গেছে (Rule 24.3.2.1)। তাই এটি Adjective Clause।",
+    "en": "The clause 'you love' modifies the noun 'girl'; the relative pronoun has been omitted as it was in the place of the object (Rule 24.3.2.1). So it is an Adjective Clause.",
+    "bn": "'you love' clause-টি noun 'girl'-কে modify করেছে; relative pronoun object-এর স্থলে থাকায় বাদ গেছে (Rule 24.3.2.1)। তাই এটি Adjective Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 30,
+   "question": {
+    "mix": "Identify the underlined clause: I know whom you love. (Underlined: you love)",
+    "en": "Identify the underlined clause: I know whom you love. (Underlined: you love)",
+    "bn": "Identify the underlined clause: I know whom you love. (Underlined: you love)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause",
+     "en": "Noun Clause",
+     "bn": "Noun Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "এখানে 'whom you love' পুরো অংশটি 'know' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই বইয়ের উত্তর Noun Clause।",
+    "en": "Here the whole part 'whom you love' does the work of a noun as the object of the verb 'know' (Rule 24.3.1-B). So the book's answer is Noun Clause.",
+    "bn": "এখানে 'whom you love' পুরো অংশটি 'know' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই বইয়ের উত্তর Noun Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 31,
+   "question": {
+    "mix": "Identify the underlined clause: Show me the place where you were born. (Underlined: where you were born)",
+    "en": "Identify the underlined clause: Show me the place where you were born. (Underlined: where you were born)",
+    "bn": "Identify the underlined clause: Show me the place where you were born. (Underlined: where you were born)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective Clause",
+     "en": "Adjective Clause",
+     "bn": "Adjective Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'where you were born' clause-টি noun 'place'-কে modify করেছে (Rule 24.3.2.3)। তাই এটি Adjective Clause।",
+    "en": "The clause 'where you were born' modifies the noun 'place' (Rule 24.3.2.3). So it is an Adjective Clause.",
+    "bn": "'where you were born' clause-টি noun 'place'-কে modify করেছে (Rule 24.3.2.3)। তাই এটি Adjective Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 32,
+   "question": {
+    "mix": "Identify the underlined clause: Had you been there, I would give you the news. (Underlined: Had you been there)",
+    "en": "Identify the underlined clause: Had you been there, I would give you the news. (Underlined: Had you been there)",
+    "bn": "Identify the underlined clause: Had you been there, I would give you the news. (Underlined: Had you been there)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adverbial Clause of Condition",
+     "en": "Adverbial Clause of Condition",
+     "bn": "Adverbial Clause of Condition"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'Had you been there' clause-টি if-বিহীন শর্ত (If you had been there) বুঝিয়ে verb-কে modify করেছে (Rule 24.3.3.1-F)। তাই এটি Adverbial Clause of Condition।",
+    "en": "The clause 'Had you been there' expresses a condition without if (If you had been there) and modifies the verb (Rule 24.3.3.1-F). So it is an Adverbial Clause of Condition.",
+    "bn": "'Had you been there' clause-টি if-বিহীন শর্ত (If you had been there) বুঝিয়ে verb-কে modify করেছে (Rule 24.3.3.1-F)। তাই এটি Adverbial Clause of Condition।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 33,
+   "question": {
+    "mix": "Identify the underlined clause: Who she is is still a mystery. (Underlined: Who she is is)",
+    "en": "Identify the underlined clause: Who she is is still a mystery. (Underlined: Who she is is)",
+    "bn": "Identify the underlined clause: Who she is is still a mystery. (Underlined: Who she is is)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as subject",
+     "en": "Noun Clause as subject",
+     "bn": "Noun Clause as subject"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'Who she is' clause-টি বাক্যের subject-এর স্থলে বসে noun-এর কাজ করেছে (Rule 24.3.1-A)। তাই এটি Noun Clause as subject।",
+    "en": "The clause 'Who she is' sits in the place of the subject of the sentence and does the work of a noun (Rule 24.3.1-A). So it is a Noun Clause as subject.",
+    "bn": "'Who she is' clause-টি বাক্যের subject-এর স্থলে বসে noun-এর কাজ করেছে (Rule 24.3.1-A)। তাই এটি Noun Clause as subject।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 34,
+   "question": {
+    "mix": "Identify the underlined clause: Nobody is happy with what they have. (Underlined: what they have)",
+    "en": "Identify the underlined clause: Nobody is happy with what they have. (Underlined: what they have)",
+    "bn": "Identify the underlined clause: Nobody is happy with what they have. (Underlined: what they have)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as object of Preposition",
+     "en": "Noun Clause as object of Preposition",
+     "bn": "Noun Clause as object of Preposition"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'what they have' clause-টি preposition 'with'-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-C)। তাই এটি Noun Clause as object of Preposition।",
+    "en": "The clause 'what they have' does the work of a noun as the object of the preposition 'with' (Rule 24.3.1-C). So it is a Noun Clause as object of Preposition.",
+    "bn": "'what they have' clause-টি preposition 'with'-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-C)। তাই এটি Noun Clause as object of Preposition।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 35,
+   "question": {
+    "mix": "Identify the underlined clause: Strike the iron while it is red. (Underlined: while it is red)",
+    "en": "Identify the underlined clause: Strike the iron while it is red. (Underlined: while it is red)",
+    "bn": "Identify the underlined clause: Strike the iron while it is red. (Underlined: while it is red)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adverbial Clause of time",
+     "en": "Adverbial Clause of time",
+     "bn": "Adverbial Clause of time"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'while it is red' clause-টি while দিয়ে শুরু হয়ে সময় নির্দেশ করে verb-কে modify করেছে (Rule 24.3.3.1-A)। তাই এটি Adverbial Clause of time।",
+    "en": "The clause 'while it is red' begins with while, indicates time and modifies the verb (Rule 24.3.3.1-A). So it is an Adverbial Clause of time.",
+    "bn": "'while it is red' clause-টি while দিয়ে শুরু হয়ে সময় নির্দেশ করে verb-কে modify করেছে (Rule 24.3.3.1-A)। তাই এটি Adverbial Clause of time।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 36,
+   "question": {
+    "mix": "Identify the underlined clause: This is where I live. (Underlined: where I live)",
+    "en": "Identify the underlined clause: This is where I live. (Underlined: where I live)",
+    "bn": "Identify the underlined clause: This is where I live. (Underlined: where I live)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as Complement of subject",
+     "en": "Noun Clause as Complement of subject",
+     "bn": "Noun Clause as Complement of subject"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'where I live' clause-টি 'is' verb-এর পরে বসে subject-এর complement হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-D)। তাই এটি Noun Clause as Complement of subject।",
+    "en": "The clause 'where I live' sits after the verb 'is' and does the work of a noun as the complement of the subject (Rule 24.3.1-D). So it is a Noun Clause as Complement of subject.",
+    "bn": "'where I live' clause-টি 'is' verb-এর পরে বসে subject-এর complement হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-D)। তাই এটি Noun Clause as Complement of subject।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 37,
+   "question": {
+    "mix": "Identify the underlined clause: The news that he has come back is not true. (Underlined: that he has come back)",
+    "en": "Identify the underlined clause: The news that he has come back is not true. (Underlined: that he has come back)",
+    "bn": "Identify the underlined clause: The news that he has come back is not true. (Underlined: that he has come back)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as Appositive",
+     "en": "Noun Clause as Appositive",
+     "bn": "Noun Clause as Appositive"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'that he has come back' clause-টি noun 'news'-এর পরিচিতিমূলক বর্ণনা (appositive) হিসেবে এসেছে (Rule 24.3.1-F)। তাই এটি Noun Clause as Appositive।",
+    "en": "The clause 'that he has come back' comes as a description identifying the noun 'news' (appositive) (Rule 24.3.1-F). So it is a Noun Clause as Appositive.",
+    "bn": "'that he has come back' clause-টি noun 'news'-এর পরিচিতিমূলক বর্ণনা (appositive) হিসেবে এসেছে (Rule 24.3.1-F)। তাই এটি Noun Clause as Appositive।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 38,
+   "question": {
+    "mix": "Identify the underlined clause: The news that you gave me is not true. (Underlined: that you gave me)",
+    "en": "Identify the underlined clause: The news that you gave me is not true. (Underlined: that you gave me)",
+    "bn": "Identify the underlined clause: The news that you gave me is not true. (Underlined: that you gave me)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective Clause",
+     "en": "Adjective Clause",
+     "bn": "Adjective Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'that you gave me' clause-টি noun 'news'-কে modify করেছে (Rule 24.3.1-F Hints)। তাই এটি Adjective Clause।",
+    "en": "The clause 'that you gave me' modifies the noun 'news' (Rule 24.3.1-F Hints). So it is an Adjective Clause.",
+    "bn": "'that you gave me' clause-টি noun 'news'-কে modify করেছে (Rule 24.3.1-F Hints)। তাই এটি Adjective Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 39,
+   "question": {
+    "mix": "Identify the underlined clause: He asked me if I was a student. (Underlined: if I was a student)",
+    "en": "Identify the underlined clause: He asked me if I was a student. (Underlined: if I was a student)",
+    "bn": "Identify the underlined clause: He asked me if I was a student. (Underlined: if I was a student)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as object",
+     "en": "Noun Clause as object",
+     "bn": "Noun Clause as object"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'if I was a student' clause-টি 'asked' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.4)। তাই এটি Noun Clause as object।",
+    "en": "The clause 'if I was a student' does the work of a noun as the object of the verb 'asked' (Rule 24.3.4). So it is a Noun Clause as object.",
+    "bn": "'if I was a student' clause-টি 'asked' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.4)। তাই এটি Noun Clause as object।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 40,
+   "question": {
+    "mix": "Identify the underlined clause: Wherever he goes his son goes with him. (Underlined: Wherever he goes)",
+    "en": "Identify the underlined clause: Wherever he goes his son goes with him. (Underlined: Wherever he goes)",
+    "bn": "Identify the underlined clause: Wherever he goes his son goes with him. (Underlined: Wherever he goes)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adverbial Clause",
+     "en": "Adverbial Clause",
+     "bn": "Adverbial Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'Wherever he goes' clause-টি wherever দিয়ে শুরু হয়ে verb-কে modify করেছে (Rule 24.3.3)। তাই এটি Adverbial Clause।",
+    "en": "The clause 'Wherever he goes' begins with wherever and modifies the verb (Rule 24.3.3). So it is an Adverbial Clause.",
+    "bn": "'Wherever he goes' clause-টি wherever দিয়ে শুরু হয়ে verb-কে modify করেছে (Rule 24.3.3)। তাই এটি Adverbial Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 41,
+   "question": {
+    "mix": "Identify the underlined clause: He could not come, for he was ill. (Underlined: for he was ill)",
+    "en": "Identify the underlined clause: He could not come, for he was ill. (Underlined: for he was ill)",
+    "bn": "Identify the underlined clause: He could not come, for he was ill. (Underlined: for he was ill)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adverbial Clause of Reason",
+     "en": "Adverbial Clause of Reason",
+     "bn": "Adverbial Clause of Reason"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "বইয়ের উত্তরে 'for he was ill' clause-টিকে কারণ (reason) নির্দেশক বলা হয়েছে। তাই এটি Adverbial Clause of Reason।",
+    "en": "In the book's answer, the clause 'for he was ill' is said to indicate reason. So it is an Adverbial Clause of Reason.",
+    "bn": "বইয়ের উত্তরে 'for he was ill' clause-টিকে কারণ (reason) নির্দেশক বলা হয়েছে। তাই এটি Adverbial Clause of Reason।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 42,
+   "question": {
+    "mix": "Identify the underlined clause: The man you spoke to is my brother. (Underlined: you spoke to)",
+    "en": "Identify the underlined clause: The man you spoke to is my brother. (Underlined: you spoke to)",
+    "bn": "Identify the underlined clause: The man you spoke to is my brother. (Underlined: you spoke to)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective Clause with Relative Pronoun (Omitted) as obj of Preposition",
+     "en": "Adjective Clause with Relative Pronoun (Omitted) as obj of Preposition",
+     "bn": "Adjective Clause with Relative Pronoun (Omitted) as obj of Preposition"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'you spoke to' clause-টি noun 'man'-কে modify করেছে; এখানে relative pronoun preposition-এর object-এর স্থলে থাকায় বাদ গেছে এবং preposition 'to' verb-এর পরে বসেছে (Rule 24.3.2.2)। তাই বইয়ের উত্তর Adjective Clause with Relative Pronoun (Omitted) as obj of Preposition।",
+    "en": "The clause 'you spoke to' modifies the noun 'man'; here the relative pronoun has been omitted as it was in the place of the object of the preposition, and the preposition 'to' sits after the verb (Rule 24.3.2.2). So the book's answer is Adjective Clause with Relative Pronoun (Omitted) as obj of Preposition.",
+    "bn": "'you spoke to' clause-টি noun 'man'-কে modify করেছে; এখানে relative pronoun preposition-এর object-এর স্থলে থাকায় বাদ গেছে এবং preposition 'to' verb-এর পরে বসেছে (Rule 24.3.2.2)। তাই বইয়ের উত্তর Adjective Clause with Relative Pronoun (Omitted) as obj of Preposition।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 43,
+   "question": {
+    "mix": "Identify the underlined clause: Do as I say. (Underlined: as I say)",
+    "en": "Identify the underlined clause: Do as I say. (Underlined: as I say)",
+    "bn": "Identify the underlined clause: Do as I say. (Underlined: as I say)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adverbial Clause of Manner",
+     "en": "Adverbial Clause of Manner",
+     "bn": "Adverbial Clause of Manner"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'as I say' clause-টি as দিয়ে শুরু হয়ে কাজটি কীভাবে করতে হবে (manner) তা বর্ণনা করে verb 'Do'-কে modify করেছে (Rule 24.3.3.1-D)। তাই এটি Adverbial Clause of Manner।",
+    "en": "The clause 'as I say' begins with as, describes how the work is to be done (manner) and modifies the verb 'Do' (Rule 24.3.3.1-D). So it is an Adverbial Clause of Manner.",
+    "bn": "'as I say' clause-টি as দিয়ে শুরু হয়ে কাজটি কীভাবে করতে হবে (manner) তা বর্ণনা করে verb 'Do'-কে modify করেছে (Rule 24.3.3.1-D)। তাই এটি Adverbial Clause of Manner।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 44,
+   "question": {
+    "mix": "Identify the underlined clause: May I ask when you will come back? (Underlined: when you will come back)",
+    "en": "Identify the underlined clause: May I ask when you will come back? (Underlined: when you will come back)",
+    "bn": "Identify the underlined clause: May I ask when you will come back? (Underlined: when you will come back)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as object",
+     "en": "Noun Clause as object",
+     "bn": "Noun Clause as object"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'when you will come back' clause-টি 'ask' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.4)। তাই এটি Noun Clause as object।",
+    "en": "The clause 'when you will come back' does the work of a noun as the object of the verb 'ask' (Rule 24.3.4). So it is a Noun Clause as object.",
+    "bn": "'when you will come back' clause-টি 'ask' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.4)। তাই এটি Noun Clause as object।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 45,
+   "question": {
+    "mix": "Identify the underlined clause: You can put the book wherever you like. (Underlined: wherever you like)",
+    "en": "Identify the underlined clause: You can put the book wherever you like. (Underlined: wherever you like)",
+    "bn": "Identify the underlined clause: You can put the book wherever you like. (Underlined: wherever you like)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adverbial Clause of Place",
+     "en": "Adverbial Clause of Place",
+     "bn": "Adverbial Clause of Place"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'wherever you like' clause-টি wherever দিয়ে শুরু হয়ে স্থান নির্দেশ করে verb-কে modify করেছে (Rule 24.3.3.1-B)। তাই এটি Adverbial Clause of Place।",
+    "en": "The clause 'wherever you like' begins with wherever, indicates place and modifies the verb (Rule 24.3.3.1-B). So it is an Adverbial Clause of Place.",
+    "bn": "'wherever you like' clause-টি wherever দিয়ে শুরু হয়ে স্থান নির্দেশ করে verb-কে modify করেছে (Rule 24.3.3.1-B)। তাই এটি Adverbial Clause of Place।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 46,
+   "question": {
+    "mix": "Identify the underlined clause: The moment you lose is lost for ever. (Underlined: you lose)",
+    "en": "Identify the underlined clause: The moment you lose is lost for ever. (Underlined: you lose)",
+    "bn": "Identify the underlined clause: The moment you lose is lost for ever. (Underlined: you lose)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective Clause",
+     "en": "Adjective Clause",
+     "bn": "Adjective Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'you lose' clause-টি noun 'moment'-কে modify করেছে; relative pronoun object-এর স্থলে থাকায় বাদ গেছে (Rule 24.3.2.1)। তাই এটি Adjective Clause।",
+    "en": "The clause 'you lose' modifies the noun 'moment'; the relative pronoun has been omitted as it was in the place of the object (Rule 24.3.2.1). So it is an Adjective Clause.",
+    "bn": "'you lose' clause-টি noun 'moment'-কে modify করেছে; relative pronoun object-এর স্থলে থাকায় বাদ গেছে (Rule 24.3.2.1)। তাই এটি Adjective Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 47,
+   "question": {
+    "mix": "Identify the underlined clause: Read attentively or you will fail. (Underlined: you will fail)",
+    "en": "Identify the underlined clause: Read attentively or you will fail. (Underlined: you will fail)",
+    "bn": "Identify the underlined clause: Read attentively or you will fail. (Underlined: you will fail)"
+   },
+   "options": {
+    "a": {
+     "mix": "Co-ordinate Clause",
+     "en": "Co-ordinate Clause",
+     "bn": "Co-ordinate Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'you will fail' একটি Principal Clause, যা co-ordinating conjunction 'or' দ্বারা আগের Principal Clause-এর সঙ্গে যুক্ত (Rule 24.2.3)। তাই এটি Co-ordinate Clause।",
+    "en": "'you will fail' is a Principal Clause joined to the previous Principal Clause by the co-ordinating conjunction 'or' (Rule 24.2.3). So it is a Co-ordinate Clause.",
+    "bn": "'you will fail' একটি Principal Clause, যা co-ordinating conjunction 'or' দ্বারা আগের Principal Clause-এর সঙ্গে যুক্ত (Rule 24.2.3)। তাই এটি Co-ordinate Clause।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 48,
+   "question": {
+    "mix": "Identify the underlined clause: I can't remember the time when I came here. (Underlined: when I came here)",
+    "en": "Identify the underlined clause: I can't remember the time when I came here. (Underlined: when I came here)",
+    "bn": "Identify the underlined clause: I can't remember the time when I came here. (Underlined: when I came here)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective Clause modifying time (noun)",
+     "en": "Adjective Clause modifying time (noun)",
+     "bn": "Adjective Clause modifying time (noun)"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'when I came here' clause-টি noun 'time'-কে modify করেছে (Rule 24.3.2.3)। তাই বইয়ের উত্তর Adjective Clause modifying time (noun)।",
+    "en": "The clause 'when I came here' modifies the noun 'time' (Rule 24.3.2.3). So the book's answer is Adjective Clause modifying time (noun).",
+    "bn": "'when I came here' clause-টি noun 'time'-কে modify করেছে (Rule 24.3.2.3)। তাই বইয়ের উত্তর Adjective Clause modifying time (noun)।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 49,
+   "question": {
+    "mix": "Identify the underlined clause: Do what I say. (Underlined: what I say)",
+    "en": "Identify the underlined clause: Do what I say. (Underlined: what I say)",
+    "bn": "Identify the underlined clause: Do what I say. (Underlined: what I say)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun Clause as object",
+     "en": "Noun Clause as object",
+     "bn": "Noun Clause as object"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'what I say' clause-টি 'Do' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই এটি Noun Clause as object।",
+    "en": "The clause 'what I say' does the work of a noun as the object of the verb 'Do' (Rule 24.3.1-B). So it is a Noun Clause as object.",
+    "bn": "'what I say' clause-টি 'Do' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই এটি Noun Clause as object।"
+   },
+   "source": "",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Grand Exercise",
+   "number": 50,
+   "question": {
+    "mix": "Identify the clause: All the faith he had had had had no effect on the outcome of his life. (No part is underlined in the book.)",
+    "en": "Identify the clause: All the faith he had had had had no effect on the outcome of his life. (No part is underlined in the book.)",
+    "bn": "Identify the clause: All the faith he had had had had no effect on the outcome of his life. (No part is underlined in the book.)"
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective Clause (he had had)",
+     "en": "Adjective Clause (he had had)",
+     "bn": "Adjective Clause (he had had)"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "এ বাক্যে ইচ্ছাকৃতভাবে আন্ডারলাইন তুলে দেয়া হয়েছে পাঠককে হতচকিত করার জন্য। একসঙ্গে ৪টি had— এও কি সম্ভব? আলোচ্য বাক্যে একটি Adjective Clause আছে, আর তা হলো he had had. এখানে Object এর স্থলে বসার কারণে Relative pronoun that-কে উহ্য রাখা হয়েছে। Principal Clause হলো— All the faith had had no effect on the outcome of his life. Principal clause-এর ২টি had (১টি মূল, আরেকটি auxiliary verb) এবং Adjective Clause-এর ২টি had সহ মোট ৪টি had বসেছে। বাক্যের উভয় অংশে ব্যবহৃত tense হচ্ছে Past Perfect।",
+    "en": "In this sentence the underline has deliberately been removed to startle the reader. Four hads together — is that even possible? The sentence in question has an Adjective Clause, and it is 'he had had'. Here the relative pronoun that has been kept understood as it sits in the place of the object. The Principal Clause is — All the faith had had no effect on the outcome of his life. With the 2 hads of the Principal clause (one main, the other an auxiliary verb) and the 2 hads of the Adjective Clause, a total of 4 hads have been used. The tense used in both parts of the sentence is Past Perfect.",
+    "bn": "এ বাক্যে ইচ্ছাকৃতভাবে আন্ডারলাইন তুলে দেয়া হয়েছে পাঠককে হতচকিত করার জন্য। একসঙ্গে ৪টি had— এও কি সম্ভব? আলোচ্য বাক্যে একটি Adjective Clause আছে, আর তা হলো he had had. এখানে Object এর স্থলে বসার কারণে Relative pronoun that-কে উহ্য রাখা হয়েছে। Principal Clause হলো— All the faith had had no effect on the outcome of his life. Principal clause-এর ২টি had (১টি মূল, আরেকটি auxiliary verb) এবং Adjective Clause-এর ২টি had সহ মোট ৪টি had বসেছে। বাক্যের উভয় অংশে ব্যবহৃত tense হচ্ছে Past Perfect।"
+   },
+   "source": "",
+   "explanation_source": "book"
+  },
+  {
+   "section": "BCS Preliminary Questions",
+   "number": 1,
+   "question": {
+    "mix": "'Strike while the iron is hot' is an example of—",
+    "en": "'Strike while the iron is hot' is an example of—",
+    "bn": "'Strike while the iron is hot' is an example of—"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    },
+    "b": {
+     "mix": "Adjective clause",
+     "en": "Adjective clause",
+     "bn": "Adjective clause"
+    },
+    "c": {
+     "mix": "Adverbial clause",
+     "en": "Adverbial clause",
+     "bn": "Adverbial clause"
+    },
+    "d": {
+     "mix": "Subordinate clause",
+     "en": "Subordinate clause",
+     "bn": "Subordinate clause"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Adverbial clause হলো এক ধরনের Independent clause যা adverb হিসেবে কাজ করে এবং complex sentence এর verb, adjective এমনকি adverbকে modify করতে পারে। সুতরাং Strike while the iron is hot হলো Adverbial clause-এর উদাহরণ।",
+    "en": "An Adverbial clause is a kind of Independent clause which works as an adverb and can modify the verb, adjective and even the adverb of a complex sentence. So 'Strike while the iron is hot' is an example of an Adverbial clause.",
+    "bn": "Adverbial clause হলো এক ধরনের Independent clause যা adverb হিসেবে কাজ করে এবং complex sentence এর verb, adjective এমনকি adverbকে modify করতে পারে। সুতরাং Strike while the iron is hot হলো Adverbial clause-এর উদাহরণ।"
+   },
+   "source": "৩৮তম বিসিএস",
+   "explanation_source": "book"
+  },
+  {
+   "section": "BCS Preliminary Questions",
+   "number": 2,
+   "question": {
+    "mix": "This is the book I lost. Here 'I lost' is—",
+    "en": "This is the book I lost. Here 'I lost' is—",
+    "bn": "This is the book I lost. Here 'I lost' is—"
+   },
+   "options": {
+    "a": {
+     "mix": "A noun clause",
+     "en": "A noun clause",
+     "bn": "A noun clause"
+    },
+    "b": {
+     "mix": "An adverbial clause",
+     "en": "An adverbial clause",
+     "bn": "An adverbial clause"
+    },
+    "c": {
+     "mix": "An adjective clause",
+     "en": "An adjective clause",
+     "bn": "An adjective clause"
+    },
+    "d": {
+     "mix": "None of the three",
+     "en": "None of the three",
+     "bn": "None of the three"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Adjective clause বাক্যে Adjective-এর মতো noun/pronoun-কে modify করে। প্রদত্ত বাক্যের 'I lost' clauseটি book-কে modify করছে।",
+    "en": "An Adjective clause modifies a noun/pronoun in the sentence like an adjective. In the given sentence, the clause 'I lost' is modifying book.",
+    "bn": "Adjective clause বাক্যে Adjective-এর মতো noun/pronoun-কে modify করে। প্রদত্ত বাক্যের 'I lost' clauseটি book-কে modify করছে।"
+   },
+   "source": "৩৭তম বিসিএস",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 1,
+   "question": {
+    "mix": "I know that he will come. The underlined part is—",
+    "en": "I know that he will come. The underlined part is—",
+    "bn": "I know that he will come. The underlined part is—"
+   },
+   "options": {
+    "a": {
+     "mix": "an adverbial clause",
+     "en": "an adverbial clause",
+     "bn": "an adverbial clause"
+    },
+    "b": {
+     "mix": "an adjective clause",
+     "en": "an adjective clause",
+     "bn": "an adjective clause"
+    },
+    "c": {
+     "mix": "a noun clause",
+     "en": "a noun clause",
+     "bn": "a noun clause"
+    },
+    "d": {
+     "mix": "a principal clause",
+     "en": "a principal clause",
+     "bn": "a principal clause"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "I know that he will come। এটি একটি complex sentence। এর প্রথম clause (I know)টি principal এবং দ্বিতীয় clause (that he will come)টি হলো subordinate clause।",
+    "en": "I know that he will come. It is a complex sentence. Its first clause (I know) is principal and the second clause (that he will come) is a subordinate clause.",
+    "bn": "I know that he will come। এটি একটি complex sentence। এর প্রথম clause (I know)টি principal এবং দ্বিতীয় clause (that he will come)টি হলো subordinate clause।"
+   },
+   "source": "তথ্য মন্ত্রণালয়ের অধীন বিটিভির সহকারী প্রকৌশলী (সিভিল) ২০১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 2,
+   "question": {
+    "mix": "Behave as a gentleman behaves. The underlined part is—",
+    "en": "Behave as a gentleman behaves. The underlined part is—",
+    "bn": "Behave as a gentleman behaves. The underlined part is—"
+   },
+   "options": {
+    "a": {
+     "mix": "an adverb clause",
+     "en": "an adverb clause",
+     "bn": "an adverb clause"
+    },
+    "b": {
+     "mix": "an adjective clause",
+     "en": "an adjective clause",
+     "bn": "an adjective clause"
+    },
+    "c": {
+     "mix": "a noun clause",
+     "en": "a noun clause",
+     "bn": "a noun clause"
+    },
+    "d": {
+     "mix": "a principal clause",
+     "en": "a principal clause",
+     "bn": "a principal clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "যেসব clause, adverb-এর মতো verbকে modify করে তা adverb clause। 'As a gentleman behaves' verb কে modify করছে। সুতরাং সঠিক উত্তর (ক) an adverb clause।",
+    "en": "The clauses which modify the verb like an adverb are adverb clauses. 'As a gentleman behaves' is modifying the verb. So the correct answer is (a) an adverb clause.",
+    "bn": "যেসব clause, adverb-এর মতো verbকে modify করে তা adverb clause। 'As a gentleman behaves' verb কে modify করছে। সুতরাং সঠিক উত্তর (ক) an adverb clause।"
+   },
+   "source": "১১তম বিজেএস (সহকারী জজ) ২০১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 3,
+   "question": {
+    "mix": "In the sentence 'They were asked to wait till the signal was given' the underlined part constitute—",
+    "en": "In the sentence 'They were asked to wait till the signal was given' the underlined part constitute—",
+    "bn": "In the sentence 'They were asked to wait till the signal was given' the underlined part constitute—"
+   },
+   "options": {
+    "a": {
+     "mix": "an adjective clause.",
+     "en": "an adjective clause.",
+     "bn": "an adjective clause."
+    },
+    "b": {
+     "mix": "a noun clause.",
+     "en": "a noun clause.",
+     "bn": "a noun clause."
+    },
+    "c": {
+     "mix": "a pronoun clause.",
+     "en": "a pronoun clause.",
+     "bn": "a pronoun clause."
+    },
+    "d": {
+     "mix": "an adverb clause.",
+     "en": "an adverb clause.",
+     "bn": "an adverb clause."
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Before, wherever, while, till, until দ্বারা adverbial clause of time শুরু হয় এবং till দ্বারা শুরু হওয়া clause টি verb wait-কে modify করছে। সুতরাং clause টি an adverb clause।",
+    "en": "Adverbial clauses of time begin with before, wherever, while, till, until, and the clause beginning with till is modifying the verb wait. So the clause is an adverb clause.",
+    "bn": "Before, wherever, while, till, until দ্বারা adverbial clause of time শুরু হয় এবং till দ্বারা শুরু হওয়া clause টি verb wait-কে modify করছে। সুতরাং clause টি an adverb clause।"
+   },
+   "source": "Sonali Bank Ltd. Officer 2018",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 1,
+   "question": {
+    "mix": "It's a mystery where he works. The underlined clause is a/an :",
+    "en": "It's a mystery where he works. The underlined clause is a/an :",
+    "bn": "It's a mystery where he works. The underlined clause is a/an :"
+   },
+   "options": {
+    "a": {
+     "mix": "noun clause",
+     "en": "noun clause",
+     "bn": "noun clause"
+    },
+    "b": {
+     "mix": "adjective clause",
+     "en": "adjective clause",
+     "bn": "adjective clause"
+    },
+    "c": {
+     "mix": "adverbial clause",
+     "en": "adverbial clause",
+     "bn": "adverbial clause"
+    },
+    "d": {
+     "mix": "principal clause",
+     "en": "principal clause",
+     "bn": "principal clause"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "যখন কোনো clause noun বা pronoun-এর পরে বসে noun বা pronoun-কে modify করে তাকে adjective clause বলে। প্রদত্ত clause টিও noun-এর পরে বসে nounটি modify করার কারণে clauseটি adjective clause।",
+    "en": "When a clause sits after a noun or pronoun and modifies the noun or pronoun, it is called an adjective clause. As the given clause also sits after a noun and modifies the noun, the clause is an adjective clause.",
+    "bn": "যখন কোনো clause noun বা pronoun-এর পরে বসে noun বা pronoun-কে modify করে তাকে adjective clause বলে। প্রদত্ত clause টিও noun-এর পরে বসে nounটি modify করার কারণে clauseটি adjective clause।"
+   },
+   "source": "রাবি ইউনিট-A বিশ্ব কলা অনুষদ (গ্রুপ-২) ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 2,
+   "question": {
+    "mix": "This is the book I lost. Here 'I lost' is —",
+    "en": "This is the book I lost. Here 'I lost' is —",
+    "bn": "This is the book I lost. Here 'I lost' is —"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    },
+    "b": {
+     "mix": "An adverbial clause",
+     "en": "An adverbial clause",
+     "bn": "An adverbial clause"
+    },
+    "c": {
+     "mix": "An adjective clause",
+     "en": "An adjective clause",
+     "bn": "An adjective clause"
+    },
+    "d": {
+     "mix": "None of the three",
+     "en": "None of the three",
+     "bn": "None of the three"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "কোনো clause noun বা pronoun এর পর বসে যে noun বা pronoun-কে বিশেষিত করে তাকে adjective clause বলে। এ ধরনের clause who, whom, which, when ইত্যাদি দ্বারা সূচিত হয়। অনেক ক্ষেত্রে relative pronoun-কে বাদ দেওয়াও যায়।",
+    "en": "A clause which sits after a noun or pronoun and qualifies that noun or pronoun is called an adjective clause. This kind of clause is introduced by who, whom, which, when, etc. In many cases the relative pronoun can also be omitted.",
+    "bn": "কোনো clause noun বা pronoun এর পর বসে যে noun বা pronoun-কে বিশেষিত করে তাকে adjective clause বলে। এ ধরনের clause who, whom, which, when ইত্যাদি দ্বারা সূচিত হয়। অনেক ক্ষেত্রে relative pronoun-কে বাদ দেওয়াও যায়।"
+   },
+   "source": "ইবি Unit-C (Set-A) ২০১৯-২০; যবিপ্রবি ইউনিট F (বিজ্ঞান শাখা) ২০১৯-২০; রাবি ইউনিট A (গ্রুপ-২) ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 3,
+   "question": {
+    "mix": "I know where he lives. The underlined clause is—",
+    "en": "I know where he lives. The underlined clause is—",
+    "bn": "I know where he lives. The underlined clause is—"
+   },
+   "options": {
+    "a": {
+     "mix": "a noun clause",
+     "en": "a noun clause",
+     "bn": "a noun clause"
+    },
+    "b": {
+     "mix": "an adjective clause",
+     "en": "an adjective clause",
+     "bn": "an adjective clause"
+    },
+    "c": {
+     "mix": "an adverbial clause",
+     "en": "an adverbial clause",
+     "bn": "an adverbial clause"
+    },
+    "d": {
+     "mix": "a principal clause",
+     "en": "a principal clause",
+     "bn": "a principal clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Clauseটি know-এর object হওয়ায় এটি noun clause। Noun clause সাধারণত that, what, how, why দ্বারা সূচিত হয়।",
+    "en": "As the clause is the object of know, it is a noun clause. A noun clause is generally introduced by that, what, how, why.",
+    "bn": "Clauseটি know-এর object হওয়ায় এটি noun clause। Noun clause সাধারণত that, what, how, why দ্বারা সূচিত হয়।"
+   },
+   "source": "ইসলামী বিশ্ববিদ্যালয় Unit-B (Set-A) ২০১৯-২০; রাবি ইউনিট A (গ্রুপ-২) ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 4,
+   "question": {
+    "mix": "'Do or die' is a — sentence.",
+    "en": "'Do or die' is a — sentence.",
+    "bn": "'Do or die' is a — sentence."
+   },
+   "options": {
+    "a": {
+     "mix": "simple",
+     "en": "simple",
+     "bn": "simple"
+    },
+    "b": {
+     "mix": "complex",
+     "en": "complex",
+     "bn": "complex"
+    },
+    "c": {
+     "mix": "compound",
+     "en": "compound",
+     "bn": "compound"
+    },
+    "d": {
+     "mix": "none",
+     "en": "none",
+     "bn": "none"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "And, or, but, so, therefore, otherwise ইত্যাদি conjunction দ্বারা দুটি principal clause যুক্ত বাক্যকে compound sentence বলে। সুতরাং do or die (করো না হয় মরো) বাক্যটি compound বাক্য।",
+    "en": "A sentence in which two principal clauses are joined by conjunctions such as and, or, but, so, therefore, otherwise is called a compound sentence. So the sentence do or die is a compound sentence.",
+    "bn": "And, or, but, so, therefore, otherwise ইত্যাদি conjunction দ্বারা দুটি principal clause যুক্ত বাক্যকে compound sentence বলে। সুতরাং do or die (করো না হয় মরো) বাক্যটি compound বাক্য।"
+   },
+   "source": "কুমিল্লা বিশ্ববিদ্যালয় ইউনিট A (বিজ্ঞান ও প্রকৌশল অনুষদ) ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 5,
+   "question": {
+    "mix": "He asked me who got the Noble Prize in literature in 2019. The underlined part is —",
+    "en": "He asked me who got the Noble Prize in literature in 2019. The underlined part is —",
+    "bn": "He asked me who got the Noble Prize in literature in 2019. The underlined part is —"
+   },
+   "options": {
+    "a": {
+     "mix": "a noun clause",
+     "en": "a noun clause",
+     "bn": "a noun clause"
+    },
+    "b": {
+     "mix": "an adjective clause",
+     "en": "an adjective clause",
+     "bn": "an adjective clause"
+    },
+    "c": {
+     "mix": "an adverbial clause",
+     "en": "an adverbial clause",
+     "bn": "an adverbial clause"
+    },
+    "d": {
+     "mix": "a participle clause",
+     "en": "a participle clause",
+     "bn": "a participle clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'who got the Noble Prize in literature in 2019' clause-টি 'asked' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.4)। তাই এটি Noun Clause। এটি noun-কে modify করে না (খ), verb-কে modify করে না (গ) এবং participle দিয়ে গঠিতও নয় (ঘ)।",
+    "en": "The clause 'who got the Noble Prize in literature in 2019' does the work of a noun as the object of the verb 'asked' (Rule 24.3.4). So it is a Noun Clause. It does not modify a noun (b), does not modify the verb (c) and is not formed with a participle either (d).",
+    "bn": "'who got the Noble Prize in literature in 2019' clause-টি 'asked' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.4)। তাই এটি Noun Clause। এটি noun-কে modify করে না (খ), verb-কে modify করে না (গ) এবং participle দিয়ে গঠিতও নয় (ঘ)।"
+   },
+   "source": "বশেমুরবিপ্রবি ইউনিট E (সামাজিক বিজ্ঞান) ২০১৯-২০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 6,
+   "question": {
+    "mix": "You cannot get the chance to be enrolled in a university unless you study hard. The underlined part is — .",
+    "en": "You cannot get the chance to be enrolled in a university unless you study hard. The underlined part is — .",
+    "bn": "You cannot get the chance to be enrolled in a university unless you study hard. The underlined part is — ."
+   },
+   "options": {
+    "a": {
+     "mix": "a noun clause",
+     "en": "a noun clause",
+     "bn": "a noun clause"
+    },
+    "b": {
+     "mix": "an adjective clause",
+     "en": "an adjective clause",
+     "bn": "an adjective clause"
+    },
+    "c": {
+     "mix": "an adverbial clause",
+     "en": "an adverbial clause",
+     "bn": "an adverbial clause"
+    },
+    "d": {
+     "mix": "a participle clause",
+     "en": "a participle clause",
+     "bn": "a participle clause"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "'unless you study hard' clause-টি unless দিয়ে শুরু হয়ে শর্ত বুঝিয়ে verb-কে modify করেছে — তাই এটি Adverbial Clause (of condition) (Rule 24.3.3.1-F)। এটি noun-এর কাজ করে না (ক), noun-কে modify করে না (খ) এবং participle clause নয় (ঘ)।",
+    "en": "The clause 'unless you study hard' begins with unless, expresses a condition and modifies the verb — so it is an Adverbial Clause (of condition) (Rule 24.3.3.1-F). It does not do the work of a noun (a), does not modify a noun (b) and is not a participle clause (d).",
+    "bn": "'unless you study hard' clause-টি unless দিয়ে শুরু হয়ে শর্ত বুঝিয়ে verb-কে modify করেছে — তাই এটি Adverbial Clause (of condition) (Rule 24.3.3.1-F)। এটি noun-এর কাজ করে না (ক), noun-কে modify করে না (খ) এবং participle clause নয় (ঘ)।"
+   },
+   "source": "বশেমুরবিপ্রবি ইউনিট F (বিজ্ঞান ও মানবিক) ২০১৯-২০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 7,
+   "question": {
+    "mix": "'The table has four chairs'. This is the example of — clause.",
+    "en": "'The table has four chairs'. This is the example of — clause.",
+    "bn": "'The table has four chairs'. This is the example of — clause."
+   },
+   "options": {
+    "a": {
+     "mix": "Dependent",
+     "en": "Dependent",
+     "bn": "Dependent"
+    },
+    "b": {
+     "mix": "Independent",
+     "en": "Independent",
+     "bn": "Independent"
+    },
+    "c": {
+     "mix": "Subordinate",
+     "en": "Subordinate",
+     "bn": "Subordinate"
+    },
+    "d": {
+     "mix": "Complex",
+     "en": "Complex",
+     "bn": "Complex"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "'The table has four chairs' একটিমাত্র clause, যা নিজে নিজেই সম্পূর্ণ অর্থ প্রকাশ করে — তাই এটি Independent Clause (Rule 24.2.1)। Dependent (ক) ও Subordinate (গ) clause অন্য clause-এর উপর নির্ভর করে; (ঘ) clause-এর প্রকার নয়।",
+    "en": "'The table has four chairs' is a single clause which expresses a complete meaning by itself — so it is an Independent Clause (Rule 24.2.1). Dependent (a) and Subordinate (c) clauses depend on another clause; (d) is not a kind of clause.",
+    "bn": "'The table has four chairs' একটিমাত্র clause, যা নিজে নিজেই সম্পূর্ণ অর্থ প্রকাশ করে — তাই এটি Independent Clause (Rule 24.2.1)। Dependent (ক) ও Subordinate (গ) clause অন্য clause-এর উপর নির্ভর করে; (ঘ) clause-এর প্রকার নয়।"
+   },
+   "source": "জাবি 'H' ইউনিট (আইআইটি) ২০১৮-১৯",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 8,
+   "question": {
+    "mix": "I know how he struggled against poverty. The underlined clause is a/an :",
+    "en": "I know how he struggled against poverty. The underlined clause is a/an :",
+    "bn": "I know how he struggled against poverty. The underlined clause is a/an :"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    },
+    "b": {
+     "mix": "Main clause",
+     "en": "Main clause",
+     "bn": "Main clause"
+    },
+    "c": {
+     "mix": "Adjective clause",
+     "en": "Adjective clause",
+     "bn": "Adjective clause"
+    },
+    "d": {
+     "mix": "Adverbial clause",
+     "en": "Adverbial clause",
+     "bn": "Adverbial clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "বাক্যে know verb-এর পরে how he struggled against poverty noun-এর কাজ করায় underlineকৃত অংশটি noun clause। তাছাড়া noun clause সাধারণত that, what, how, why ইত্যাদি দ্বারা সূচিত হয়।",
+    "en": "In the sentence, as 'how he struggled against poverty' after the verb know does the work of a noun, the underlined part is a noun clause. Besides, a noun clause is generally introduced by that, what, how, why, etc.",
+    "bn": "বাক্যে know verb-এর পরে how he struggled against poverty noun-এর কাজ করায় underlineকৃত অংশটি noun clause। তাছাড়া noun clause সাধারণত that, what, how, why ইত্যাদি দ্বারা সূচিত হয়।"
+   },
+   "source": "রাবি ইউনিট A (গ্রুপ-২) ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 9,
+   "question": {
+    "mix": "I know the boy who will win. The underlined clause is :",
+    "en": "I know the boy who will win. The underlined clause is :",
+    "bn": "I know the boy who will win. The underlined clause is :"
+   },
+   "options": {
+    "a": {
+     "mix": "a noun clause",
+     "en": "a noun clause",
+     "bn": "a noun clause"
+    },
+    "b": {
+     "mix": "an adjective clause",
+     "en": "an adjective clause",
+     "bn": "an adjective clause"
+    },
+    "c": {
+     "mix": "an adverbial clause",
+     "en": "an adverbial clause",
+     "bn": "an adverbial clause"
+    },
+    "d": {
+     "mix": "a principal clause",
+     "en": "a principal clause",
+     "bn": "a principal clause"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Underline কৃত clauseটি noun, the boyকে modify করায় clauseটি adjective clause।",
+    "en": "As the underlined clause modifies the noun, the boy, the clause is an adjective clause.",
+    "bn": "Underline কৃত clauseটি noun, the boyকে modify করায় clauseটি adjective clause।"
+   },
+   "source": "রাবি ইউনিট A (গ্রুপ-১) ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 10,
+   "question": {
+    "mix": "The prices were a great deal higher than I had anticipated. The underlined part is—",
+    "en": "The prices were a great deal higher than I had anticipated. The underlined part is—",
+    "bn": "The prices were a great deal higher than I had anticipated. The underlined part is—"
+   },
+   "options": {
+    "a": {
+     "mix": "Adverbial Clause",
+     "en": "Adverbial Clause",
+     "bn": "Adverbial Clause"
+    },
+    "b": {
+     "mix": "Noun Clause",
+     "en": "Noun Clause",
+     "bn": "Noun Clause"
+    },
+    "c": {
+     "mix": "Adjective Clause",
+     "en": "Adjective Clause",
+     "bn": "Adjective Clause"
+    },
+    "d": {
+     "mix": "Main Clause",
+     "en": "Main Clause",
+     "bn": "Main Clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Clause-এ than থাকাতে clauseটি adverbial clause of comparison প্রকাশ করছে।",
+    "en": "As the clause contains than, the clause expresses an adverbial clause of comparison.",
+    "bn": "Clause-এ than থাকাতে clauseটি adverbial clause of comparison প্রকাশ করছে।"
+   },
+   "source": "রাবি ইউনিট B (অবাণিজ্য) ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 11,
+   "question": {
+    "mix": "We all know that humans are mortal. Here the underlined clause is—",
+    "en": "We all know that humans are mortal. Here the underlined clause is—",
+    "bn": "We all know that humans are mortal. Here the underlined clause is—"
+   },
+   "options": {
+    "a": {
+     "mix": "an adjective clause",
+     "en": "an adjective clause",
+     "bn": "an adjective clause"
+    },
+    "b": {
+     "mix": "a noun clause",
+     "en": "a noun clause",
+     "bn": "a noun clause"
+    },
+    "c": {
+     "mix": "an adverb clause",
+     "en": "an adverb clause",
+     "bn": "an adverb clause"
+    },
+    "d": {
+     "mix": "both ক & গ",
+     "en": "both a & c",
+     "bn": "both ক & গ"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "প্রদত্ত বাক্যে underlineকৃত clauseটি noun clause কেননা clauseটি noun-এর কাজ করছে। তাছাড়া noun clause that, what, how দ্বারা শুরু হয়।",
+    "en": "In the given sentence the underlined clause is a noun clause because the clause is doing the work of a noun. Besides, a noun clause begins with that, what, how.",
+    "bn": "প্রদত্ত বাক্যে underlineকৃত clauseটি noun clause কেননা clauseটি noun-এর কাজ করছে। তাছাড়া noun clause that, what, how দ্বারা শুরু হয়।"
+   },
+   "source": "ঢবি ইউনিট D (সকাল) ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 12,
+   "question": {
+    "mix": "I enquire how he lost his money.",
+    "en": "I enquire how he lost his money.",
+    "bn": "I enquire how he lost his money."
+   },
+   "options": {
+    "a": {
+     "mix": "an adverb clause of reason",
+     "en": "an adverb clause of reason",
+     "bn": "an adverb clause of reason"
+    },
+    "b": {
+     "mix": "an adjective clause",
+     "en": "an adjective clause",
+     "bn": "an adjective clause"
+    },
+    "c": {
+     "mix": "a noun clause",
+     "en": "a noun clause",
+     "bn": "a noun clause"
+    },
+    "d": {
+     "mix": "an adverb clause of result",
+     "en": "an adverb clause of result",
+     "bn": "an adverb clause of result"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "'how he lost his money' clause-টি 'enquire' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.4)। তাই এটি Noun Clause। এটি কারণ (ক) বা ফলাফল (ঘ) বোঝায় না এবং noun-কেও modify করে না (খ)।",
+    "en": "The clause 'how he lost his money' does the work of a noun as the object of the verb 'enquire' (Rule 24.3.4). So it is a Noun Clause. It does not express reason (a) or result (d) and does not modify a noun either (b).",
+    "bn": "'how he lost his money' clause-টি 'enquire' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.4)। তাই এটি Noun Clause। এটি কারণ (ক) বা ফলাফল (ঘ) বোঝায় না এবং noun-কেও modify করে না (খ)।"
+   },
+   "source": "পুবি ইউনিট B ২০১৮-১৯",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 13,
+   "question": {
+    "mix": "The migratory bird that he shot down was beautiful.",
+    "en": "The migratory bird that he shot down was beautiful.",
+    "bn": "The migratory bird that he shot down was beautiful."
+   },
+   "options": {
+    "a": {
+     "mix": "a noun clause with relative pronoun as subject",
+     "en": "a noun clause with relative pronoun as subject",
+     "bn": "a noun clause with relative pronoun as subject"
+    },
+    "b": {
+     "mix": "an adverb clause of degree",
+     "en": "an adverb clause of degree",
+     "bn": "an adverb clause of degree"
+    },
+    "c": {
+     "mix": "an adjective clause with relative pronoun as possessive",
+     "en": "an adjective clause with relative pronoun as possessive",
+     "bn": "an adjective clause with relative pronoun as possessive"
+    },
+    "d": {
+     "mix": "an adjective clause with relative pronoun as object",
+     "en": "an adjective clause with relative pronoun as object",
+     "bn": "an adjective clause with relative pronoun as object"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "বইয়ের margin উত্তর অনুযায়ী সঠিক উত্তর (গ)। 'that he shot down' clause-টি noun 'bird'-এর পরে বসে bird-কে modify করায় এটি Adjective Clause (Rule 24.3.2)।",
+    "en": "According to the book's margin answer, the correct answer is (c). The clause 'that he shot down' sits after the noun 'bird' and modifies bird, so it is an Adjective Clause (Rule 24.3.2).",
+    "bn": "বইয়ের margin উত্তর অনুযায়ী সঠিক উত্তর (গ)। 'that he shot down' clause-টি noun 'bird'-এর পরে বসে bird-কে modify করায় এটি Adjective Clause (Rule 24.3.2)।"
+   },
+   "source": "পুবি ইউনিট B ২০১৮-১৯",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 14,
+   "question": {
+    "mix": "As I trust myself, I don't need to write a number on it. In this sentence, the underlined words are—",
+    "en": "As I trust myself, I don't need to write a number on it. In this sentence, the underlined words are—",
+    "bn": "As I trust myself, I don't need to write a number on it. In this sentence, the underlined words are—"
+   },
+   "options": {
+    "a": {
+     "mix": "adjective clause",
+     "en": "adjective clause",
+     "bn": "adjective clause"
+    },
+    "b": {
+     "mix": "adverb clause",
+     "en": "adverb clause",
+     "bn": "adverb clause"
+    },
+    "c": {
+     "mix": "noun clause",
+     "en": "noun clause",
+     "bn": "noun clause"
+    },
+    "d": {
+     "mix": "none of the above",
+     "en": "none of the above",
+     "bn": "none of the above"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "'As I trust myself' clause-টি as দিয়ে শুরু হয়ে verb-কে modify করেছে — তাই এটি Adverb Clause (Rule 24.3.3)। এটি noun-কে modify করে না (ক) এবং noun-এর কাজও করে না (গ)।",
+    "en": "The clause 'As I trust myself' begins with as and modifies the verb — so it is an Adverb Clause (Rule 24.3.3). It does not modify a noun (a) and does not do the work of a noun either (c).",
+    "bn": "'As I trust myself' clause-টি as দিয়ে শুরু হয়ে verb-কে modify করেছে — তাই এটি Adverb Clause (Rule 24.3.3)। এটি noun-কে modify করে না (ক) এবং noun-এর কাজও করে না (গ)।"
+   },
+   "source": "ইবি ইউনিট বি (1st shift) ২০১৮-১৯",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 15,
+   "question": {
+    "mix": "I'll take my shoes off so as not to dirty the carpet. In this sentence, the underlined words are —",
+    "en": "I'll take my shoes off so as not to dirty the carpet. In this sentence, the underlined words are —",
+    "bn": "I'll take my shoes off so as not to dirty the carpet. In this sentence, the underlined words are —"
+   },
+   "options": {
+    "a": {
+     "mix": "adjective clause",
+     "en": "adjective clause",
+     "bn": "adjective clause"
+    },
+    "b": {
+     "mix": "adverb clause",
+     "en": "adverb clause",
+     "bn": "adverb clause"
+    },
+    "c": {
+     "mix": "noun clause",
+     "en": "noun clause",
+     "bn": "noun clause"
+    },
+    "d": {
+     "mix": "none of the above",
+     "en": "none of the above",
+     "bn": "none of the above"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "'so as not to dirty the carpet' অংশটিতে কোনো finite verb নেই — এটি একটি infinitive phrase, কোনো clause নয়। তাই (ক), (খ), (গ) কোনোটিই নয়; সঠিক উত্তর (ঘ) none of the above।",
+    "en": "The part 'so as not to dirty the carpet' has no finite verb — it is an infinitive phrase, not a clause. So none of (a), (b), (c) applies; the correct answer is (d) none of the above.",
+    "bn": "'so as not to dirty the carpet' অংশটিতে কোনো finite verb নেই — এটি একটি infinitive phrase, কোনো clause নয়। তাই (ক), (খ), (গ) কোনোটিই নয়; সঠিক উত্তর (ঘ) none of the above।"
+   },
+   "source": "ইবি ইউনিট বি (2nd shift) ২০১৮-১৯",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 16,
+   "question": {
+    "mix": "The man who come here is my brother. The underlined clause is—.",
+    "en": "The man who come here is my brother. The underlined clause is—.",
+    "bn": "The man who come here is my brother. The underlined clause is—."
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective clause",
+     "en": "Adjective clause",
+     "bn": "Adjective clause"
+    },
+    "b": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    },
+    "c": {
+     "mix": "Adverb clause",
+     "en": "Adverb clause",
+     "bn": "Adverb clause"
+    },
+    "d": {
+     "mix": "None",
+     "en": "None",
+     "bn": "None"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'who come here' clause-টি noun 'man'-এর পরে বসে man-কে modify করেছে — তাই এটি Adjective Clause (Rule 24.3.2)। এটি noun-এর কাজ করে না (খ) এবং verb-কে modify করে না (গ)।",
+    "en": "The clause 'who come here' sits after the noun 'man' and modifies man — so it is an Adjective Clause (Rule 24.3.2). It does not do the work of a noun (b) and does not modify the verb (c).",
+    "bn": "'who come here' clause-টি noun 'man'-এর পরে বসে man-কে modify করেছে — তাই এটি Adjective Clause (Rule 24.3.2)। এটি noun-এর কাজ করে না (খ) এবং verb-কে modify করে না (গ)।"
+   },
+   "source": "ইবি ইউনিট জি ২০১৮-১৯",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 17,
+   "question": {
+    "mix": "I do not know who has come today. The underline —",
+    "en": "I do not know who has come today. The underline —",
+    "bn": "I do not know who has come today. The underline —"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    },
+    "b": {
+     "mix": "Adjective clause",
+     "en": "Adjective clause",
+     "bn": "Adjective clause"
+    },
+    "c": {
+     "mix": "Adverbal clause",
+     "en": "Adverbal clause",
+     "bn": "Adverbal clause"
+    },
+    "d": {
+     "mix": "Noun phrase",
+     "en": "Noun phrase",
+     "bn": "Noun phrase"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'who has come today' clause-টি 'know' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই এটি Noun Clause। এটি noun-কে modify করে না (খ), verb-কে modify করে না (গ) এবং phrase নয়, পূর্ণ clause (ঘ)।",
+    "en": "The clause 'who has come today' does the work of a noun as the object of the verb 'know' (Rule 24.3.1-B). So it is a Noun Clause. It does not modify a noun (b), does not modify the verb (c) and is a full clause, not a phrase (d).",
+    "bn": "'who has come today' clause-টি 'know' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই এটি Noun Clause। এটি noun-কে modify করে না (খ), verb-কে modify করে না (গ) এবং phrase নয়, পূর্ণ clause (ঘ)।"
+   },
+   "source": "কুবি 'বি' ইউনিট ২০১৮-১৯",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 18,
+   "question": {
+    "mix": "'The poor boy who was an orphan could not continue his studies.' The underlined part is an example of—",
+    "en": "'The poor boy who was an orphan could not continue his studies.' The underlined part is an example of—",
+    "bn": "'The poor boy who was an orphan could not continue his studies.' The underlined part is an example of—"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    },
+    "b": {
+     "mix": "Adjective clause",
+     "en": "Adjective clause",
+     "bn": "Adjective clause"
+    },
+    "c": {
+     "mix": "Adverbial clause",
+     "en": "Adverbial clause",
+     "bn": "Adverbial clause"
+    },
+    "d": {
+     "mix": "Prepositional clause",
+     "en": "Prepositional clause",
+     "bn": "Prepositional clause"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "'who was an orphan' clause-টি noun 'boy'-এর পরে বসে boy-কে modify করেছে — তাই এটি Adjective Clause (Rule 24.3.2)। এটি noun-এর কাজ করে না (ক), verb-কে modify করে না (গ); (ঘ) কোনো clause-এর নাম নয়।",
+    "en": "The clause 'who was an orphan' sits after the noun 'boy' and modifies boy — so it is an Adjective Clause (Rule 24.3.2). It does not do the work of a noun (a) and does not modify the verb (c); (d) is not the name of a clause.",
+    "bn": "'who was an orphan' clause-টি noun 'boy'-এর পরে বসে boy-কে modify করেছে — তাই এটি Adjective Clause (Rule 24.3.2)। এটি noun-এর কাজ করে না (ক), verb-কে modify করে না (গ); (ঘ) কোনো clause-এর নাম নয়।"
+   },
+   "source": "বশেমুরবিপ্রবি সি ইউনিট ২০১৮-১৯",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 19,
+   "question": {
+    "mix": "You cannot guess what type of person he is.",
+    "en": "You cannot guess what type of person he is.",
+    "bn": "You cannot guess what type of person he is."
+   },
+   "options": {
+    "a": {
+     "mix": "noun clause",
+     "en": "noun clause",
+     "bn": "noun clause"
+    },
+    "b": {
+     "mix": "adjective clause",
+     "en": "adjective clause",
+     "bn": "adjective clause"
+    },
+    "c": {
+     "mix": "adverbial clause",
+     "en": "adverbial clause",
+     "bn": "adverbial clause"
+    },
+    "d": {
+     "mix": "prepositional clause",
+     "en": "prepositional clause",
+     "bn": "prepositional clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'what type of person he is' clause-টি 'guess' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই এটি Noun Clause। এটি noun-কে modify করে না (খ) এবং verb-কে modify করে না (গ)।",
+    "en": "The clause 'what type of person he is' does the work of a noun as the object of the verb 'guess' (Rule 24.3.1-B). So it is a Noun Clause. It does not modify a noun (b) and does not modify the verb (c).",
+    "bn": "'what type of person he is' clause-টি 'guess' verb-এর object হিসেবে noun-এর কাজ করেছে (Rule 24.3.1-B)। তাই এটি Noun Clause। এটি noun-কে modify করে না (খ) এবং verb-কে modify করে না (গ)।"
+   },
+   "source": "বশেমুরবিপ্রবি ডি ইউনিট ২০১৮-১৯",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 20,
+   "question": {
+    "mix": "What he said is important? [Identify the clause]",
+    "en": "What he said is important? [Identify the clause]",
+    "bn": "What he said is important? [Identify the clause]"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    },
+    "b": {
+     "mix": "Adjective clause",
+     "en": "Adjective clause",
+     "bn": "Adjective clause"
+    },
+    "c": {
+     "mix": "Adverb clause",
+     "en": "Adverb clause",
+     "bn": "Adverb clause"
+    },
+    "d": {
+     "mix": "Main clause",
+     "en": "Main clause",
+     "bn": "Main clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Underlined clauseটি হলো noun clause কেননা noun clause সাধারণত that, what, how, why দ্বারা সূচিত হয়। তাছাড়া what he said clause টি subject-এর স্থলে বসেছে।",
+    "en": "The underlined clause is a noun clause because a noun clause is generally introduced by that, what, how, why. Besides, the clause 'what he said' has sat in the place of the subject.",
+    "bn": "Underlined clauseটি হলো noun clause কেননা noun clause সাধারণত that, what, how, why দ্বারা সূচিত হয়। তাছাড়া what he said clause টি subject-এর স্থলে বসেছে।"
+   },
+   "source": "জবি ইউনিট এ ২০১৭-১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 21,
+   "question": {
+    "mix": "The girl whom you met in the hospital is my cousin. The underlined clause is a/an :",
+    "en": "The girl whom you met in the hospital is my cousin. The underlined clause is a/an :",
+    "bn": "The girl whom you met in the hospital is my cousin. The underlined clause is a/an :"
+   },
+   "options": {
+    "a": {
+     "mix": "noun clause",
+     "en": "noun clause",
+     "bn": "noun clause"
+    },
+    "b": {
+     "mix": "adjective clause",
+     "en": "adjective clause",
+     "bn": "adjective clause"
+    },
+    "c": {
+     "mix": "adverbial clause",
+     "en": "adverbial clause",
+     "bn": "adverbial clause"
+    },
+    "d": {
+     "mix": "principal clause",
+     "en": "principal clause",
+     "bn": "principal clause"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Clauseটির পূর্বের Nounকে modify করায় হবে Adjective clause with relative pronoun as object.",
+    "en": "As the clause modifies the noun before it, it will be an Adjective clause with relative pronoun as object.",
+    "bn": "Clauseটির পূর্বের Nounকে modify করায় হবে Adjective clause with relative pronoun as object."
+   },
+   "source": "রাবি ইউনিট A ২০১৭-১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 22,
+   "question": {
+    "mix": "Look before you leap. Here 'look' is :",
+    "en": "Look before you leap. Here 'look' is :",
+    "bn": "Look before you leap. Here 'look' is :"
+   },
+   "options": {
+    "a": {
+     "mix": "a subordinate clause",
+     "en": "a subordinate clause",
+     "bn": "a subordinate clause"
+    },
+    "b": {
+     "mix": "not a clause",
+     "en": "not a clause",
+     "bn": "not a clause"
+    },
+    "c": {
+     "mix": "the principal clause",
+     "en": "the principal clause",
+     "bn": "the principal clause"
+    },
+    "d": {
+     "mix": "a verb clause",
+     "en": "a verb clause",
+     "bn": "a verb clause"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "'Look' অংশটি (Look before you leap) নিজে নিজেই সম্পূর্ণ অর্থ প্রকাশ করে এবং 'before you leap' subordinate clause-টি এর উপর নির্ভরশীল — তাই 'look' হলো the principal clause (Rule 24.2.1)। এটি subordinate clause নয় (ক); subject উহ্য থাকলেও এটি একটি clause (খ); (ঘ) কোনো প্রকারের নাম নয়।",
+    "en": "The part 'Look' (Look before you leap) expresses a complete meaning by itself and the subordinate clause 'before you leap' depends on it — so 'look' is the principal clause (Rule 24.2.1). It is not a subordinate clause (a); even with the subject understood, it is a clause (b); (d) is not the name of any kind.",
+    "bn": "'Look' অংশটি (Look before you leap) নিজে নিজেই সম্পূর্ণ অর্থ প্রকাশ করে এবং 'before you leap' subordinate clause-টি এর উপর নির্ভরশীল — তাই 'look' হলো the principal clause (Rule 24.2.1)। এটি subordinate clause নয় (ক); subject উহ্য থাকলেও এটি একটি clause (খ); (ঘ) কোনো প্রকারের নাম নয়।"
+   },
+   "source": "রাবি ইউনিট A ২০১৭-১৮",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 23,
+   "question": {
+    "mix": "Identify the underlined clause of the sentence. 'Whoever wants to know should ask me.'",
+    "en": "Identify the underlined clause of the sentence. 'Whoever wants to know should ask me.'",
+    "bn": "Identify the underlined clause of the sentence. 'Whoever wants to know should ask me.'"
+   },
+   "options": {
+    "a": {
+     "mix": "prepositional clause",
+     "en": "prepositional clause",
+     "bn": "prepositional clause"
+    },
+    "b": {
+     "mix": "adverbial clause",
+     "en": "adverbial clause",
+     "bn": "adverbial clause"
+    },
+    "c": {
+     "mix": "noun clause",
+     "en": "noun clause",
+     "bn": "noun clause"
+    },
+    "d": {
+     "mix": "independent clause",
+     "en": "independent clause",
+     "bn": "independent clause"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "'Whoever wants to know' clause-টি বাক্যের subject-এর স্থলে বসে noun-এর কাজ করেছে (Rule 24.3.1-A)। তাই এটি Noun Clause। এটি verb-কে modify করে না (খ), স্বাধীনভাবে দাঁড়াতে পারে না (ঘ); (ক) কোনো clause-এর নাম নয়।",
+    "en": "The clause 'Whoever wants to know' sits in the place of the subject of the sentence and does the work of a noun (Rule 24.3.1-A). So it is a Noun Clause. It does not modify the verb (b) and cannot stand independently (d); (a) is not the name of a clause.",
+    "bn": "'Whoever wants to know' clause-টি বাক্যের subject-এর স্থলে বসে noun-এর কাজ করেছে (Rule 24.3.1-A)। তাই এটি Noun Clause। এটি verb-কে modify করে না (খ), স্বাধীনভাবে দাঁড়াতে পারে না (ঘ); (ক) কোনো clause-এর নাম নয়।"
+   },
+   "source": "রাবি ইউনিট K (IER) ২০১৭-১৮",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 24,
+   "question": {
+    "mix": "I know the reason why Mithila has done it. (identify the type of clause of the underlined part)",
+    "en": "I know the reason why Mithila has done it. (identify the type of clause of the underlined part)",
+    "bn": "I know the reason why Mithila has done it. (identify the type of clause of the underlined part)"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    },
+    "b": {
+     "mix": "Adverbial clause",
+     "en": "Adverbial clause",
+     "bn": "Adverbial clause"
+    },
+    "c": {
+     "mix": "Adjective clause",
+     "en": "Adjective clause",
+     "bn": "Adjective clause"
+    },
+    "d": {
+     "mix": "Principal clause",
+     "en": "Principal clause",
+     "bn": "Principal clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "বইয়ের margin উত্তর অনুযায়ী সঠিক উত্তর (ক) Noun clause।",
+    "en": "According to the book's margin answer, the correct answer is (a) Noun clause.",
+    "bn": "বইয়ের margin উত্তর অনুযায়ী সঠিক উত্তর (ক) Noun clause।"
+   },
+   "source": "রাবি ইউনিট D ২০১৭-১৮",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 25,
+   "question": {
+    "mix": "They rested at sunset. Here \"at sunset\" is a/an—",
+    "en": "They rested at sunset. Here \"at sunset\" is a/an—",
+    "bn": "They rested at sunset. Here \"at sunset\" is a/an—"
+   },
+   "options": {
+    "a": {
+     "mix": "Adjective clause",
+     "en": "Adjective clause",
+     "bn": "Adjective clause"
+    },
+    "b": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    },
+    "c": {
+     "mix": "Adverb clause",
+     "en": "Adverb clause",
+     "bn": "Adverb clause"
+    },
+    "d": {
+     "mix": "Adverb phrase",
+     "en": "Adverb phrase",
+     "bn": "Adverb phrase"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "At sunset (সূর্যাস্তের সময়) দ্বারা বাক্যে সময় নির্দেশ করায় তা adverb phrase।",
+    "en": "As 'at sunset' indicates time in the sentence, it is an adverb phrase.",
+    "bn": "At sunset (সূর্যাস্তের সময়) দ্বারা বাক্যে সময় নির্দেশ করায় তা adverb phrase।"
+   },
+   "source": "ডেন্টাল কলেজ ভর্তি পরীক্ষা ২০১৭-১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 26,
+   "question": {
+    "mix": "I don't like the people who are untidy. The underlined part is a :",
+    "en": "I don't like the people who are untidy. The underlined part is a :",
+    "bn": "I don't like the people who are untidy. The underlined part is a :"
+   },
+   "options": {
+    "a": {
+     "mix": "noun clause",
+     "en": "noun clause",
+     "bn": "noun clause"
+    },
+    "b": {
+     "mix": "principal clause",
+     "en": "principal clause",
+     "bn": "principal clause"
+    },
+    "c": {
+     "mix": "co-ordinate clause",
+     "en": "co-ordinate clause",
+     "bn": "co-ordinate clause"
+    },
+    "d": {
+     "mix": "relative clause",
+     "en": "relative clause",
+     "bn": "relative clause"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "যে clause কোনো nounকে modify করে তাকে adjective clause বা relative clause বলে। প্রদত্ত clauseটি peopleকে modify করছে। সুতরাং এটি relative clause।",
+    "en": "The clause which modifies a noun is called an adjective clause or relative clause. The given clause is modifying people. So it is a relative clause.",
+    "bn": "যে clause কোনো nounকে modify করে তাকে adjective clause বা relative clause বলে। প্রদত্ত clauseটি peopleকে modify করছে। সুতরাং এটি relative clause।"
+   },
+   "source": "রাবি ইউনিট A (জোড়) ২০১৬-১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 27,
+   "question": {
+    "mix": "People living in the river banks are the worst sufferers of land erosion. The underlined clause is a/an—",
+    "en": "People living in the river banks are the worst sufferers of land erosion. The underlined clause is a/an—",
+    "bn": "People living in the river banks are the worst sufferers of land erosion. The underlined clause is a/an—"
+   },
+   "options": {
+    "a": {
+     "mix": "noun clause",
+     "en": "noun clause",
+     "bn": "noun clause"
+    },
+    "b": {
+     "mix": "adjective clause",
+     "en": "adjective clause",
+     "bn": "adjective clause"
+    },
+    "c": {
+     "mix": "adverb clause",
+     "en": "adverb clause",
+     "bn": "adverb clause"
+    },
+    "d": {
+     "mix": "main clause",
+     "en": "main clause",
+     "bn": "main clause"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "যে clause কোনো nounকে modify করে তাকে adjective clause বলে। প্রদত্ত বাক্যে Living in the river banks অংশটি peopleকে modefy করছে। সুতরাং এটি adjective clause।",
+    "en": "The clause which modifies a noun is called an adjective clause. In the given sentence the part 'Living in the river banks' is modifying people. So it is an adjective clause.",
+    "bn": "যে clause কোনো nounকে modify করে তাকে adjective clause বলে। প্রদত্ত বাক্যে Living in the river banks অংশটি peopleকে modefy করছে। সুতরাং এটি adjective clause।"
+   },
+   "source": "রাবি ইউনিট B ২০১৬-১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 28,
+   "question": {
+    "mix": "How the man died is a mystery. The underlined clause is an example of—",
+    "en": "How the man died is a mystery. The underlined clause is an example of—",
+    "bn": "How the man died is a mystery. The underlined clause is an example of—"
+   },
+   "options": {
+    "a": {
+     "mix": "Noun clause",
+     "en": "Noun clause",
+     "bn": "Noun clause"
+    },
+    "b": {
+     "mix": "Adjective clause",
+     "en": "Adjective clause",
+     "bn": "Adjective clause"
+    },
+    "c": {
+     "mix": "Adverbial clause",
+     "en": "Adverbial clause",
+     "bn": "Adverbial clause"
+    },
+    "d": {
+     "mix": "Co-ordinate clause",
+     "en": "Co-ordinate clause",
+     "bn": "Co-ordinate clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'How the man died' clause-টি বাক্যের subject-এর স্থলে বসে noun-এর কাজ করেছে (Rule 24.3.1-A)। তাই এটি Noun Clause। এটি noun-কে modify করে না (খ), verb-কে modify করে না (গ) এবং co-ordinating conjunction দ্বারা যুক্ত নয় (ঘ)।",
+    "en": "The clause 'How the man died' sits in the place of the subject of the sentence and does the work of a noun (Rule 24.3.1-A). So it is a Noun Clause. It does not modify a noun (b), does not modify the verb (c) and is not joined by a co-ordinating conjunction (d).",
+    "bn": "'How the man died' clause-টি বাক্যের subject-এর স্থলে বসে noun-এর কাজ করেছে (Rule 24.3.1-A)। তাই এটি Noun Clause। এটি noun-কে modify করে না (খ), verb-কে modify করে না (গ) এবং co-ordinating conjunction দ্বারা যুক্ত নয় (ঘ)।"
+   },
+   "source": "রাবি ইউনিট D (অবাণিজ্য) ২০১৬-১৭",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 29,
+   "question": {
+    "mix": "IF YOU MAKE A PROMISE, you must keep it. The underlined clause is :",
+    "en": "IF YOU MAKE A PROMISE, you must keep it. The underlined clause is :",
+    "bn": "IF YOU MAKE A PROMISE, you must keep it. The underlined clause is :"
+   },
+   "options": {
+    "a": {
+     "mix": "an adverbial clause",
+     "en": "an adverbial clause",
+     "bn": "an adverbial clause"
+    },
+    "b": {
+     "mix": "a noun clause",
+     "en": "a noun clause",
+     "bn": "a noun clause"
+    },
+    "c": {
+     "mix": "an adjective clause",
+     "en": "an adjective clause",
+     "bn": "an adjective clause"
+    },
+    "d": {
+     "mix": "a principal clause",
+     "en": "a principal clause",
+     "bn": "a principal clause"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Adverbial clause of condition।",
+    "en": "Adverbial clause of condition.",
+    "bn": "Adverbial clause of condition।"
+   },
+   "source": "রাবি ইউনিট E (বিজোড়) ২০১৬-১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 30,
+   "question": {
+    "mix": "I know the boy WHO CAME HERE YESTERDAY. The underlined clause is a/an :",
+    "en": "I know the boy WHO CAME HERE YESTERDAY. The underlined clause is a/an :",
+    "bn": "I know the boy WHO CAME HERE YESTERDAY. The underlined clause is a/an :"
+   },
+   "options": {
+    "a": {
+     "mix": "noun clause",
+     "en": "noun clause",
+     "bn": "noun clause"
+    },
+    "b": {
+     "mix": "adjective clause",
+     "en": "adjective clause",
+     "bn": "adjective clause"
+    },
+    "c": {
+     "mix": "adverbial clause",
+     "en": "adverbial clause",
+     "bn": "adverbial clause"
+    },
+    "d": {
+     "mix": "principal clause",
+     "en": "principal clause",
+     "bn": "principal clause"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "যে clause adjective এর কাজ করে তাকে adjective clause বলে। প্রদত্ত clauseটি boy কে modify করছে।",
+    "en": "The clause which does the work of an adjective is called an adjective clause. The given clause is modifying boy.",
+    "bn": "যে clause adjective এর কাজ করে তাকে adjective clause বলে। প্রদত্ত clauseটি boy কে modify করছে।"
+   },
+   "source": "রাবি ইউনিট E (বিজোড়) ২০১৬-১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 31,
+   "question": {
+    "mix": "— happened to the tourist, is not uncommon.",
+    "en": "— happened to the tourist, is not uncommon.",
+    "bn": "— happened to the tourist, is not uncommon."
+   },
+   "options": {
+    "a": {
+     "mix": "What",
+     "en": "What",
+     "bn": "What"
+    },
+    "b": {
+     "mix": "While",
+     "en": "While",
+     "bn": "While"
+    },
+    "c": {
+     "mix": "During",
+     "en": "During",
+     "bn": "During"
+    },
+    "d": {
+     "mix": "When",
+     "en": "When",
+     "bn": "When"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "অতীতে কোনো কাজ সংঘটিত হয়েছিল যা বর্তমানে সচরাচর হয় সেক্ষেত্রে সংঘটিত কাজটির verb simple past এ হবে। এবং Noun clause-এর subject হিসেবে 'What' ব্যবহৃত হবে।",
+    "en": "Where a work was done in the past which usually happens at present, the verb of the work done will be in the simple past. And 'What' will be used as the subject of the Noun clause.",
+    "bn": "অতীতে কোনো কাজ সংঘটিত হয়েছিল যা বর্তমানে সচরাচর হয় সেক্ষেত্রে সংঘটিত কাজটির verb simple past এ হবে। এবং Noun clause-এর subject হিসেবে 'What' ব্যবহৃত হবে।"
+   },
+   "source": "ঢবি Unit-D3 (ব্যবসায় শিক্ষা) ২০১৬-১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 32,
+   "question": {
+    "mix": "Some of the boys— did not come.",
+    "en": "Some of the boys— did not come.",
+    "bn": "Some of the boys— did not come."
+   },
+   "options": {
+    "a": {
+     "mix": "I invited",
+     "en": "I invited",
+     "bn": "I invited"
+    },
+    "b": {
+     "mix": "whom I invited them",
+     "en": "whom I invited them",
+     "bn": "whom I invited them"
+    },
+    "c": {
+     "mix": "whose I invited",
+     "en": "whose I invited",
+     "bn": "whose I invited"
+    },
+    "d": {
+     "mix": "I invited them",
+     "en": "I invited them",
+     "bn": "I invited them"
+    },
+    "e": {
+     "mix": "whom tried to invited them",
+     "en": "whom tried to invited them",
+     "bn": "whom tried to invited them"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "'Some of the boys' -কে modify করা adjective clause-এ relative pronoun object-এর স্থলে থাকায় বাদ যায় (Rule 24.3.2.1) — তাই শুধু 'I invited' বসবে। (খ) ও (ঘ)-তে অতিরিক্ত 'them' আছে, (গ)-তে whose ভুল এবং (ঙ) ব্যাকরণগতভাবে ভুল।",
+    "en": "In the adjective clause modifying 'Some of the boys', the relative pronoun is omitted as it is in the place of the object (Rule 24.3.2.1) — so only 'I invited' fits. (b) and (d) have an extra 'them', 'whose' in (c) is wrong and (e) is grammatically wrong.",
+    "bn": "'Some of the boys' -কে modify করা adjective clause-এ relative pronoun object-এর স্থলে থাকায় বাদ যায় (Rule 24.3.2.1) — তাই শুধু 'I invited' বসবে। (খ) ও (ঘ)-তে অতিরিক্ত 'them' আছে, (গ)-তে whose ভুল এবং (ঙ) ব্যাকরণগতভাবে ভুল।"
+   },
+   "source": "ঢবি 'জে' ইউনিট ২০১৬-১৭",
+   "explanation_source": "generated"
+  }
+ ],
+ "unclear": [
+  {
+   "page": 442,
+   "note": "Chapter title banner ('CHAPTER 24 — Identification of Clauses') verified from the page image; intro, rules 24.1-24.2.2 and inline MCQs 1-3 were read from the image. Inline MCQ ticks: Q1 against (ঘ), Q2 against (গ), Q3 against (খ). Rule 24.2 prints 'ii.' twice (Subordinate Clause and Co-ordinate Clause) — recorded as printed."
+  },
+  {
+   "page": 443,
+   "note": "Inline MCQ 8 ('The question is how he will respond') has no source printed in the margin; source recorded as ''. Its Hints is printed, so its explanation is book. Inline MCQs 5, 6 and 7 also carry printed Hints, recorded as their book explanations."
+  },
+  {
+   "page": 444,
+   "note": "Rule 24.3.2.1's example prints 'The man whom you saw here is brother' (sic — 'my' missing in the book) — recorded as printed. The F. Appositive Hints and the Subject + be verb + adjective Note are rule text and are included in the 24.3.1 F. Appositive rule body."
+  },
+  {
+   "page": 445,
+   "note": "Inline MCQ 14 ('I knew the reason why he was angry') has no source printed in the margin; source recorded as ''. Rule 24.3.3.1 B prints 'whenever' among the words beginning an Adverbial Clause of Place (sic) — recorded as printed. Inline MCQ 15 has five options (ক-ঙ)."
+  },
+  {
+   "page": 446,
+   "note": "Inline MCQ 17 ('because he likes the climate') prints 'Noun clause' twice (options গ and ঘ) and no tick; the book's printed Note says '[Note : উত্তর হবে adverbial clause]', but 'adverbial clause' is not among the printed options — so answer is recorded as null (Chapter 1 / Chapter 16 precedent) and the Note is recorded as its book explanation."
+  },
+  {
+   "page": 446,
+   "note": "Inline MCQ 18 ('We read that we may learn') has NO tick printed on any option and no margin key in the book (verified from a zoomed crop) — answer recorded as null rather than guessed; its generated explanation follows the rule it illustrates (24.3.3.1 J, Adverbial Clause of Purpose). The question also prints 'undelined' (sic), recorded as printed."
+  },
+  {
+   "page": 447,
+   "note": "Pages 447-448 are the 'Grand Exercise': 50 identification items with NO printed options and a printed answer key ('Answers to Grand Exercise'). Each item is stored with the book's own printed answer-key classification as its single option (a), so no option text was invented; all 50 sentences, underlined parts and answers were verified from the page images."
+  },
+  {
+   "page": 449,
+   "note": "PSC Q3 (Sonali Bank Ltd. Officer 2018): the right-margin answer key says খ ('a noun clause'), but the question's own printed Hints concludes the clause is an adverb clause. The margin key (খ) is recorded as the answer, as printed; the Hints is recorded unchanged as its book explanation. BCS Q1's Hints prints 'Adverbial clause হলো এক ধরনের Independent clause' (sic) — recorded as printed."
+  },
+  {
+   "page": 451,
+   "note": "University Q13 margin key is গ ('an adjective clause with relative pronoun as possessive'), verified from the zoomed crop and recorded as printed, although in 'that he shot down' the relative pronoun 'that' is the object of 'shot down'. University Q11's option (ঘ) prints 'both ক & গ' — recorded as printed."
+  },
+  {
+   "page": 452,
+   "note": "University Q24 margin key is ক ('Noun clause'), verified from the zoomed crop and recorded as printed, although the same 'reason + why' pattern is keyed as an Adjective Clause in inline MCQ 14 under rule 24.3.2.3. University Q32 has five options (ক-ঙ); its option (ঙ) prints 'whom tried to invited them' (sic), recorded as printed."
+  },
+  {
+   "page": 450,
+   "note": "University Q5 prints 'Noble Prize' (sic) in the question — recorded as printed. University Q2 and Q3 carry multiple margin sources; all were verified from zoomed crops and are joined with '; ' in the source field."
+  }
+ ],
+ "translation_source": "generated"
+}
