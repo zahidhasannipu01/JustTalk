@@ -1,0 +1,737 @@
+{
+  "chapter": "Chapter-31: Redundancy",
+  "pages": {
+    "pdf": "520-523",
+    "book": "502-505"
+  },
+  "rules": [
+    {
+      "heading": {
+        "mix": "Introduction",
+        "en": "Introduction",
+        "bn": "ভূমিকা"
+      },
+      "body": {
+        "mix": "Redundancy হচ্ছে কোনো Sentence-এ একই অর্থসম্পন্ন একাধিক Word-এর পুনরাবৃত্তি। বাংলাতে এটাকে 'বাহুল্য দোষ' বলে। Sentence গঠনের জন্য এটি একটি অপ্রয়োজনীয় অংশ বলে এটাকে বাদ দিতে হয়। সাধারণত Noun, Pronoun, Verb, Adjective, Preposition বা কোনো Phrase-এর Redundancy হয়ে থাকে।",
+        "en": "Redundancy is the repetition of several words with the same meaning in a sentence. In Bengali it is called 'bahulya dosh' (the fault of excess). Since it is an unnecessary part for forming a sentence, it has to be dropped. Usually a noun, pronoun, verb, adjective, preposition or a phrase becomes redundant.",
+        "bn": "Redundancy হচ্ছে কোনো Sentence-এ একই অর্থসম্পন্ন একাধিক Word-এর পুনরাবৃত্তি। বাংলাতে এটাকে 'বাহুল্য দোষ' বলে। Sentence গঠনের জন্য এটি একটি অপ্রয়োজনীয় অংশ বলে এটাকে বাদ দিতে হয়। সাধারণত Noun, Pronoun, Verb, Adjective, Preposition বা কোনো Phrase-এর Redundancy হয়ে থাকে।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "31.1 যেসব Word বা Phrase-এর Redundancy হয়ে থাকে তাদের একটি তালিকা দেয়া হলো :",
+        "en": "31.1 A list of the words or phrases that become redundant is given below:",
+        "bn": "31.1 যেসব Word বা Phrase-এর Redundancy হয়ে থাকে তাদের একটি তালিকা দেয়া হলো :"
+      },
+      "body": {
+        "mix": "Redundant Words/Phrases — Correct Usages: 1. Actual/true/ experience (বাস্তব অভিজ্ঞতা)/ fact (সত্য ঘটনা) — experience/fact; 2. Add (কোনো কিছু যোগ করা) an additional — add; 3. Added (অতিরিক্ত) bonus (অতিরিক্ত কোনোকিছু) — bonus; 4. Advance (সামনে এগিয়ে যাওয়া) forward — advance/forward; 5. As for example (as— যেমন, উদাহরণ হিসেবে = for example) — As/for example; 6. At the present time (at present = at this time) — at present; 7. Await for (await = wait for) — await/ wait for; 8. Basic fundamentals (basic— মৌলিক, fundamentals— মৌলিক প্রয়োজন) — basic/fundamentals; 9. Close proximity (close— সন্নিকটে, proximity— নৈকট্য) — proximity; 10. Collaborate/join/meet (একসাথে কাজ করা/যুক্ত হওয়া/সাক্ষাৎ করা) — together collaborate/join/meet; 11. Compete together (compete— একসাথে প্রতিযোগিতা করা) — compete; 12. Difficult dilemma (dilemma— উভয়সংকট যা সাধারণত জটিল হয়ে থাকে) — dilemma; 13. Dictionary book (dictionary হচ্ছে একটি word book) — dictionary; 14. End result (result-ই কোনো কিছুর শেষ) — result; 15. Foreign imports (import করা হয়ই foreign থেকে) — imports; 16. Free gift (gift—উপঢৌকন সর্বদা free-ই হয়ে থাকে) — gift; 17. Lodging house (lodging -ই হচ্ছে temporary housing) — lodging; 18. Matinee performance (matinee হচ্ছে বিকালের কোনো play/film-এর performance) — matinee; 19. Nearly almost (nearly— কাছাকাছি, almost প্রায়) — nearly/almost; 20. New innovation/invention/discovery (এগুলো দিয়ে নতুন কিছুকেই বুঝায়) — innovation/invention/discovery; 21. Past history/record (history/record হচ্ছে অতীতেরই কোনো ঘটনা) — history/record; 22. Proceed/progress forward (progress/proceed দ্বারা সম্মুখে অগ্রসর হওয়া বুঝায়) — proceed/progress; 23. Repeat again (repeat -ই হচ্ছে do/say again) — repeat; 24. Return/revert back (return/ revert হচ্ছে turn back) — return; 25. Same identical (same এবং identical— অভিন্ন; এরা সমার্থক) — same/identical; 26. Sufficient enough (এ দুটি শব্দের অর্থ একই অর্থাৎ 'যথেষ্ট') — sufficient/enough; 27. Still remain (remain অর্থই কোনো কিছু এখনও বিদ্যমান) — remain; 28. Suddenly exploded/Sudden explosion (কোনো explosion হঠাৎ-ই হয়ে থাকে) — explosion; 29. Two twins (twin-ই হচ্ছে জমজ বা জোড়া) — twins; 30. Unexpected surprise (মূলত কোনো surprise-ই expected নয় বরং unexpected) — surprise।",
+        "en": "Redundant Words/Phrases — Correct Usages: 1. Actual/true/ experience (real experience)/ fact (true event) — experience/fact; 2. Add (to add something) an additional — add; 3. Added (extra) bonus (something extra) — bonus; 4. Advance (to go forward) forward — advance/forward; 5. As for example (as — as, for example = for example) — As/for example; 6. At the present time (at present = at this time) — at present; 7. Await for (await = wait for) — await/ wait for; 8. Basic fundamentals (basic — fundamental, fundamentals — fundamental needs) — basic/fundamentals; 9. Close proximity (close — near, proximity — nearness) — proximity; 10. Collaborate/join/meet (to work together/to join/to meet) — together collaborate/join/meet; 11. Compete together (compete — to compete together) — compete; 12. Difficult dilemma (dilemma — a dilemma, which is usually complicated) — dilemma; 13. Dictionary book (a dictionary is a word book) — dictionary; 14. End result (result itself is the end of something) — result; 15. Foreign imports (imports are made from foreign countries) — imports; 16. Free gift (gift — a present is always free) — gift; 17. Lodging house (lodging itself is temporary housing) — lodging; 18. Matinee performance (a matinee is the performance of a play/film in the afternoon) — matinee; 19. Nearly almost (nearly — almost, almost — nearly) — nearly/almost; 20. New innovation/invention/discovery (these themselves mean something new) — innovation/invention/discovery; 21. Past history/record (history/record is an event of the past) — history/record; 22. Proceed/progress forward (progress/proceed means moving forward) — proceed/progress; 23. Repeat again (repeat itself is do/say again) — repeat; 24. Return/revert back (return/ revert is turn back) — return; 25. Same identical (same and identical — one and the same; they are synonyms) — same/identical; 26. Sufficient enough (these two words have the same meaning, that is, 'enough') — sufficient/enough; 27. Still remain (remain itself means something still exists) — remain; 28. Suddenly exploded/Sudden explosion (an explosion happens suddenly) — explosion; 29. Two twins (twin itself means a twin or a pair) — twins; 30. Unexpected surprise (basically no surprise is expected, rather unexpected) — surprise.",
+        "bn": "Redundant Words/Phrases — Correct Usages: 1. Actual/true/ experience (বাস্তব অভিজ্ঞতা)/ fact (সত্য ঘটনা) — experience/fact; 2. Add (কোনো কিছু যোগ করা) an additional — add; 3. Added (অতিরিক্ত) bonus (অতিরিক্ত কোনোকিছু) — bonus; 4. Advance (সামনে এগিয়ে যাওয়া) forward — advance/forward; 5. As for example (as— যেমন, উদাহরণ হিসেবে = for example) — As/for example; 6. At the present time (at present = at this time) — at present; 7. Await for (await = wait for) — await/ wait for; 8. Basic fundamentals (basic— মৌলিক, fundamentals— মৌলিক প্রয়োজন) — basic/fundamentals; 9. Close proximity (close— সন্নিকটে, proximity— নৈকট্য) — proximity; 10. Collaborate/join/meet (একসাথে কাজ করা/যুক্ত হওয়া/সাক্ষাৎ করা) — together collaborate/join/meet; 11. Compete together (compete— একসাথে প্রতিযোগিতা করা) — compete; 12. Difficult dilemma (dilemma— উভয়সংকট যা সাধারণত জটিল হয়ে থাকে) — dilemma; 13. Dictionary book (dictionary হচ্ছে একটি word book) — dictionary; 14. End result (result-ই কোনো কিছুর শেষ) — result; 15. Foreign imports (import করা হয়ই foreign থেকে) — imports; 16. Free gift (gift—উপঢৌকন সর্বদা free-ই হয়ে থাকে) — gift; 17. Lodging house (lodging -ই হচ্ছে temporary housing) — lodging; 18. Matinee performance (matinee হচ্ছে বিকালের কোনো play/film-এর performance) — matinee; 19. Nearly almost (nearly— কাছাকাছি, almost প্রায়) — nearly/almost; 20. New innovation/invention/discovery (এগুলো দিয়ে নতুন কিছুকেই বুঝায়) — innovation/invention/discovery; 21. Past history/record (history/record হচ্ছে অতীতেরই কোনো ঘটনা) — history/record; 22. Proceed/progress forward (progress/proceed দ্বারা সম্মুখে অগ্রসর হওয়া বুঝায়) — proceed/progress; 23. Repeat again (repeat -ই হচ্ছে do/say again) — repeat; 24. Return/revert back (return/ revert হচ্ছে turn back) — return; 25. Same identical (same এবং identical— অভিন্ন; এরা সমার্থক) — same/identical; 26. Sufficient enough (এ দুটি শব্দের অর্থ একই অর্থাৎ 'যথেষ্ট') — sufficient/enough; 27. Still remain (remain অর্থই কোনো কিছু এখনও বিদ্যমান) — remain; 28. Suddenly exploded/Sudden explosion (কোনো explosion হঠাৎ-ই হয়ে থাকে) — explosion; 29. Two twins (twin-ই হচ্ছে জমজ বা জোড়া) — twins; 30. Unexpected surprise (মূলত কোনো surprise-ই expected নয় বরং unexpected) — surprise।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "31.2 Redundancy -এর উপর কিছু exercise দেয়া হলো :",
+        "en": "31.2 Some exercises on redundancy are given below:",
+        "bn": "31.2 Redundancy -এর উপর কিছু exercise দেয়া হলো :"
+      },
+      "body": {
+        "mix": "Incorrect: It is a true fact. Correct: It is a fact. Incorrect: He has sufficient enough money to buy a car. Correct: He has sufficient money to buy a car. Or, He has enough money to buy a car. Incorrect: What is the end result of the game? Correct: What is the result of the game? Incorrect: iPod is a new invention in technology. Correct: iPod is an invention in technology. Incorrect: My lodging house is near to the school. Correct: My lodging is near to the school. Incorrect: Rony has bought a dictionary book. Correct: Rony has bought a dictionary. Incorrect: Simi is her cousin sister. Correct: Simi is her cousin. Incorrect: I am comparatively better today. Correct: I am better today. Incorrect: We should know the past history of our nation. Correct: We should know the history of our nation. Incorrect: The work is nearly almost finished. Correct: The work is nearly finished. Or, The work is almost finished.",
+        "en": "Incorrect: It is a true fact. Correct: It is a fact. Incorrect: He has sufficient enough money to buy a car. Correct: He has sufficient money to buy a car. Or, He has enough money to buy a car. Incorrect: What is the end result of the game? Correct: What is the result of the game? Incorrect: iPod is a new invention in technology. Correct: iPod is an invention in technology. Incorrect: My lodging house is near to the school. Correct: My lodging is near to the school. Incorrect: Rony has bought a dictionary book. Correct: Rony has bought a dictionary. Incorrect: Simi is her cousin sister. Correct: Simi is her cousin. Incorrect: I am comparatively better today. Correct: I am better today. Incorrect: We should know the past history of our nation. Correct: We should know the history of our nation. Incorrect: The work is nearly almost finished. Correct: The work is nearly finished. Or, The work is almost finished.",
+        "bn": "Incorrect: It is a true fact. Correct: It is a fact. Incorrect: He has sufficient enough money to buy a car. Correct: He has sufficient money to buy a car. Or, He has enough money to buy a car. Incorrect: What is the end result of the game? Correct: What is the result of the game? Incorrect: iPod is a new invention in technology. Correct: iPod is an invention in technology. Incorrect: My lodging house is near to the school. Correct: My lodging is near to the school. Incorrect: Rony has bought a dictionary book. Correct: Rony has bought a dictionary. Incorrect: Simi is her cousin sister. Correct: Simi is her cousin. Incorrect: I am comparatively better today. Correct: I am better today. Incorrect: We should know the past history of our nation. Correct: We should know the history of our nation. Incorrect: The work is nearly almost finished. Correct: The work is nearly finished. Or, The work is almost finished."
+      }
+    }
+  ],
+  "mcqs": [
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 1,
+      "question": {
+        "mix": "Choose the correct form of sentence.",
+        "en": "Choose the correct form of sentence.",
+        "bn": "Choose the correct form of sentence."
+      },
+      "options": {
+        "a": {
+          "mix": "I await for your decision.",
+          "en": "I await for your decision.",
+          "bn": "I await for your decision."
+        },
+        "b": {
+          "mix": "I wait your decision.",
+          "en": "I wait your decision.",
+          "bn": "I wait your decision."
+        },
+        "c": {
+          "mix": "I await your decision.",
+          "en": "I await your decision.",
+          "bn": "I await your decision."
+        },
+        "d": {
+          "mix": "I await upon your decision.",
+          "en": "I await upon your decision.",
+          "bn": "I await upon your decision."
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Hints : Await অর্থই wait for, তাই await-এর পর for বসে না। (ক) I await for your decision-এ for অতিরিক্ত, (খ) I wait your decision-এ wait-এর পর for নেই বলে ভুল এবং (ঘ) I await upon your decision-এ upon অতিরিক্ত। সুতরাং সঠিক উত্তর (গ) I await your decision।",
+        "en": "Hints : Await itself means wait for, so for does not sit after await. In (a) I await for your decision, for is extra; (b) I wait your decision is wrong because for is missing after wait; and in (d) I await upon your decision, upon is extra. So the correct answer is (c) I await your decision.",
+        "bn": "Hints : Await অর্থই wait for, তাই await-এর পর for বসে না। (ক) I await for your decision-এ for অতিরিক্ত, (খ) I wait your decision-এ wait-এর পর for নেই বলে ভুল এবং (ঘ) I await upon your decision-এ upon অতিরিক্ত। সুতরাং সঠিক উত্তর (গ) I await your decision।"
+      },
+      "source": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় ইউনিট A ২০১২-১৩",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 1,
+      "question": {
+        "mix": "Which is the correct sentence?",
+        "en": "Which is the correct sentence?",
+        "bn": "Which is the correct sentence?"
+      },
+      "options": {
+        "a": {
+          "mix": "This is a true.",
+          "en": "This is a true.",
+          "bn": "This is a true."
+        },
+        "b": {
+          "mix": "This is true fact.",
+          "en": "This is true fact.",
+          "bn": "This is true fact."
+        },
+        "c": {
+          "mix": "This is fact.",
+          "en": "This is fact.",
+          "bn": "This is fact."
+        },
+        "d": {
+          "mix": "This is a fact.",
+          "en": "This is a fact.",
+          "bn": "This is a fact."
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Hints : True এবং fact শব্দদ্বয় প্রায় একই অর্থ বহন করে। True এর আগে article 'a' বসে না তবে fact এর আগে বসে। আবার একই বাক্যে true এবং fact পাশাপাশি বসলে সেটা redundancy বা বাহুল্য দোষে দুষ্ট হয়ে যায়। সুতরাং সঠিক উত্তর (ঘ)।",
+        "en": "Hints : The two words true and fact carry almost the same meaning. The article 'a' does not sit before true, but it sits before fact. Again, if true and fact sit side by side in the same sentence, it becomes faulty with redundancy or the fault of excess. So the correct answer is (d).",
+        "bn": "Hints : True এবং fact শব্দদ্বয় প্রায় একই অর্থ বহন করে। True এর আগে article 'a' বসে না তবে fact এর আগে বসে। আবার একই বাক্যে true এবং fact পাশাপাশি বসলে সেটা redundancy বা বাহুল্য দোষে দুষ্ট হয়ে যায়। সুতরাং সঠিক উত্তর (ঘ)।"
+      },
+      "source": "জনপ্রশাসন মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা ২০১৬",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 2,
+      "question": {
+        "mix": "Choose the correct sentence.",
+        "en": "Choose the correct sentence.",
+        "bn": "Choose the correct sentence."
+      },
+      "options": {
+        "a": {
+          "mix": "Go to fetch some water for me.",
+          "en": "Go to fetch some water for me.",
+          "bn": "Go to fetch some water for me."
+        },
+        "b": {
+          "mix": "Go and fetch some water for me.",
+          "en": "Go and fetch some water for me.",
+          "bn": "Go and fetch some water for me."
+        },
+        "c": {
+          "mix": "Fetch and bring some water for me.",
+          "en": "Fetch and bring some water for me.",
+          "bn": "Fetch and bring some water for me."
+        },
+        "d": {
+          "mix": "Fetch some water for me.",
+          "en": "Fetch some water for me.",
+          "bn": "Fetch some water for me."
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Hints : Fetch অর্থই go and bring, তাই fetch-এর সাথে go বা bring আবার ব্যবহার করা redundancy। (ক)-তে go to fetch, (খ)-তে go and fetch এবং (গ)-তে fetch and bring-এ একই অর্থের পুনরাবৃত্তি ঘটেছে। সুতরাং সঠিক উত্তর (ঘ) Fetch some water for me।",
+        "en": "Hints : Fetch itself means go and bring, so using go or bring again with fetch is redundancy. In (a) go to fetch, (b) go and fetch and (c) fetch and bring, the same meaning is repeated. So the correct answer is (d) Fetch some water for me.",
+        "bn": "Hints : Fetch অর্থই go and bring, তাই fetch-এর সাথে go বা bring আবার ব্যবহার করা redundancy। (ক)-তে go to fetch, (খ)-তে go and fetch এবং (গ)-তে fetch and bring-এ একই অর্থের পুনরাবৃত্তি ঘটেছে। সুতরাং সঠিক উত্তর (ঘ) Fetch some water for me।"
+      },
+      "source": "প্রাক-প্রাথমিক সহকারী শিক্ষক ২০১৩ [রাইন]",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 3,
+      "question": {
+        "mix": "As road traffic increases, elevated highways are built to solve the problem of traffic jam.",
+        "en": "As road traffic increases, elevated highways are built to solve the problem of traffic jam.",
+        "bn": "As road traffic increases, elevated highways are built to solve the problem of traffic jam."
+      },
+      "options": {
+        "a": {
+          "mix": "road traffic",
+          "en": "road traffic",
+          "bn": "road traffic"
+        },
+        "b": {
+          "mix": "highways",
+          "en": "highways",
+          "bn": "highways"
+        },
+        "c": {
+          "mix": "the",
+          "en": "the",
+          "bn": "the"
+        },
+        "d": {
+          "mix": "jam.",
+          "en": "jam.",
+          "bn": "jam."
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Hints : এখানে কেবল traffic বলাই যথেষ্ট, road অতিরিক্ত।",
+        "en": "Hints : Here saying only traffic is enough; road is extra.",
+        "bn": "Hints : এখানে কেবল traffic বলাই যথেষ্ট, road অতিরিক্ত।"
+      },
+      "source": "Southeast Bank Ltd. Management Trainee Officer 2013",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 1,
+      "question": {
+        "mix": "Are you hungry? No, not at all. (Choose the correct answer to replace the underlined phrase)",
+        "en": "Are you hungry? No, not at all. (Choose the correct answer to replace the underlined phrase)",
+        "bn": "Are you hungry? No, not at all. (Choose the correct answer to replace the underlined phrase)"
+      },
+      "options": {
+        "a": {
+          "mix": "surely",
+          "en": "surely",
+          "bn": "surely"
+        },
+        "b": {
+          "mix": "in the least",
+          "en": "in the least",
+          "bn": "in the least"
+        },
+        "c": {
+          "mix": "too much",
+          "en": "too much",
+          "bn": "too much"
+        },
+        "d": {
+          "mix": "any way",
+          "en": "any way",
+          "bn": "any way"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Hints : (Not) at all অর্থ আদৌ (না); যে কোনো উপায়ে (না)। At all ব্যবহৃত হয় negative বাক্যে। Idiom টির অর্থ প্রকাশ পায় In any way দ্বারা।",
+        "en": "Hints : (Not) at all means not at all; in no way. At all is used in negative sentences. The meaning of the idiom is expressed by In any way.",
+        "bn": "Hints : (Not) at all অর্থ আদৌ (না); যে কোনো উপায়ে (না)। At all ব্যবহৃত হয় negative বাক্যে। Idiom টির অর্থ প্রকাশ পায় In any way দ্বারা।"
+      },
+      "source": "রাবি ইউনিট-B (অবাণিজ্য) ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 2,
+      "question": {
+        "mix": "Name the type of errors happens in the following sentence. The bride and the groom bear the same identical retina colour.",
+        "en": "Name the type of errors happens in the following sentence. The bride and the groom bear the same identical retina colour.",
+        "bn": "Name the type of errors happens in the following sentence. The bride and the groom bear the same identical retina colour."
+      },
+      "options": {
+        "a": {
+          "mix": "Wrong parallelism",
+          "en": "Wrong parallelism",
+          "bn": "Wrong parallelism"
+        },
+        "b": {
+          "mix": "Redundancy",
+          "en": "Redundancy",
+          "bn": "Redundancy"
+        },
+        "c": {
+          "mix": "Problem verbs",
+          "en": "Problem verbs",
+          "bn": "Problem verbs"
+        },
+        "d": {
+          "mix": "Unequal comparison",
+          "en": "Unequal comparison",
+          "bn": "Unequal comparison"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Hints : Same এবং identical সমার্থক শব্দ; দুটি একসাথে বসায় redundancy দোষ ঘটেছে। (ক) Wrong parallelism, (গ) Problem verbs ও (ঘ) Unequal comparison এখানে প্রযোজ্য নয়। সুতরাং সঠিক উত্তর (খ) Redundancy।",
+        "en": "Hints : Same and identical are synonymous words; sitting together they cause the fault of redundancy. (a) Wrong parallelism, (c) Problem verbs and (d) Unequal comparison do not apply here. So the correct answer is (b) Redundancy.",
+        "bn": "Hints : Same এবং identical সমার্থক শব্দ; দুটি একসাথে বসায় redundancy দোষ ঘটেছে। (ক) Wrong parallelism, (গ) Problem verbs ও (ঘ) Unequal comparison এখানে প্রযোজ্য নয়। সুতরাং সঠিক উত্তর (খ) Redundancy।"
+      },
+      "source": "বশেমুরবিপ্রবি ইউনিট D ২০১৯-২০",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 3,
+      "question": {
+        "mix": "Which is the unnecessary word in the sentences : 'He ordered for a cup of tea'.",
+        "en": "Which is the unnecessary word in the sentences : 'He ordered for a cup of tea'.",
+        "bn": "Which is the unnecessary word in the sentences : 'He ordered for a cup of tea'."
+      },
+      "options": {
+        "a": {
+          "mix": "ordered",
+          "en": "ordered",
+          "bn": "ordered"
+        },
+        "b": {
+          "mix": "a",
+          "en": "a",
+          "bn": "a"
+        },
+        "c": {
+          "mix": "for",
+          "en": "for",
+          "bn": "for"
+        },
+        "d": {
+          "mix": "tea",
+          "en": "tea",
+          "bn": "tea"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Hints : 'কোনো কিছু ফরমাশ দেওয়া' হচ্ছে 'Order sth'। এখানে 'for'-এর প্রয়োজন নেই।",
+        "en": "Hints : 'To order something' is 'Order sth'. Here 'for' is not needed.",
+        "bn": "Hints : 'কোনো কিছু ফরমাশ দেওয়া' হচ্ছে 'Order sth'। এখানে 'for'-এর প্রয়োজন নেই।"
+      },
+      "source": "ইসলামী বিশ্ববিদ্যালয় Unit-H ২০১৬-১৭",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 4,
+      "question": {
+        "mix": "Choose the correct complete sentence : She returned—",
+        "en": "Choose the correct complete sentence : She returned—",
+        "bn": "Choose the correct complete sentence : She returned—"
+      },
+      "options": {
+        "a": {
+          "mix": "back from the village after she had come to know about her husband's plan",
+          "en": "back from the village after she had come to know about her husband's plan",
+          "bn": "back from the village after she had come to know about her husband's plan"
+        },
+        "b": {
+          "mix": "back from the village after she had came to know about her husband's plan",
+          "en": "back from the village after she had came to know about her husband's plan",
+          "bn": "back from the village after she had came to know about her husband's plan"
+        },
+        "c": {
+          "mix": "backward from the village after she had come to know about her husband's plan",
+          "en": "backward from the village after she had come to know about her husband's plan",
+          "bn": "backward from the village after she had come to know about her husband's plan"
+        },
+        "d": {
+          "mix": "from the village after she had come to know about her husband's plan",
+          "en": "from the village after she had come to know about her husband's plan",
+          "bn": "from the village after she had come to know about her husband's plan"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Hints : Return অর্থই come back, তাই returned-এর পর back অতিরিক্ত (redundancy)। (ক) ও (খ)-তে back রয়েছে, (খ)-তে had came-ও ভুল এবং (গ)-তে backward ভুল প্রয়োগ। সুতরাং back ছাড়া (ঘ)-ই সঠিক।",
+        "en": "Hints : Return itself means come back, so back after returned is extra (redundancy). (a) and (b) contain back, (b) also has the wrong had came, and in (c) backward is wrongly used. So (d), without back, is correct.",
+        "bn": "Hints : Return অর্থই come back, তাই returned-এর পর back অতিরিক্ত (redundancy)। (ক) ও (খ)-তে back রয়েছে, (খ)-তে had came-ও ভুল এবং (গ)-তে backward ভুল প্রয়োগ। সুতরাং back ছাড়া (ঘ)-ই সঠিক।"
+      },
+      "source": "বঙ্গবন্ধু শেখ মুজিবুর রহমান বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় G ইউনিট ২০১৫-১৬",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 5,
+      "question": {
+        "mix": "We are not in —— financial position to reduce annual tuition fees.",
+        "en": "We are not in —— financial position to reduce annual tuition fees.",
+        "bn": "We are not in —— financial position to reduce annual tuition fees."
+      },
+      "options": {
+        "a": {
+          "mix": "a sufficient",
+          "en": "a sufficient",
+          "bn": "a sufficient"
+        },
+        "b": {
+          "mix": "a strong enough",
+          "en": "a strong enough",
+          "bn": "a strong enough"
+        },
+        "c": {
+          "mix": "sufficiently strong enough",
+          "en": "sufficiently strong enough",
+          "bn": "sufficiently strong enough"
+        },
+        "d": {
+          "mix": "an enough",
+          "en": "an enough",
+          "bn": "an enough"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Hints : Sufficient এবং enough একই অর্থ ('যথেষ্ট') বহন করে, তাই দুটি একসাথে বসানো redundancy। (খ) a strong enough ও (গ) sufficiently strong enough-এ enough অতিরিক্ত এবং (ঘ) an enough অশুদ্ধ। সুতরাং সঠিক উত্তর (ক) a sufficient।",
+        "en": "Hints : Sufficient and enough carry the same meaning ('enough'), so sitting the two together is redundancy. In (b) a strong enough and (c) sufficiently strong enough, enough is extra, and (d) an enough is incorrect. So the correct answer is (a) a sufficient.",
+        "bn": "Hints : Sufficient এবং enough একই অর্থ ('যথেষ্ট') বহন করে, তাই দুটি একসাথে বসানো redundancy। (খ) a strong enough ও (গ) sufficiently strong enough-এ enough অতিরিক্ত এবং (ঘ) an enough অশুদ্ধ। সুতরাং সঠিক উত্তর (ক) a sufficient।"
+      },
+      "source": "চট্টগ্রাম বিশ্ববিদ্যালয় Unit B-7 (কলা ও মানববিদ্যা অনুষদ) ২০১৪-১৫",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 6,
+      "question": {
+        "mix": "Which one of the following sentences is correct?",
+        "en": "Which one of the following sentences is correct?",
+        "bn": "Which one of the following sentences is correct?"
+      },
+      "options": {
+        "a": {
+          "mix": "He has resigned from his post.",
+          "en": "He has resigned from his post.",
+          "bn": "He has resigned from his post."
+        },
+        "b": {
+          "mix": "He has resigned his post.",
+          "en": "He has resigned his post.",
+          "bn": "He has resigned his post."
+        },
+        "c": {
+          "mix": "He has resigned in his post.",
+          "en": "He has resigned in his post.",
+          "bn": "He has resigned in his post."
+        },
+        "d": {
+          "mix": "He has resigned into his post.",
+          "en": "He has resigned into his post.",
+          "bn": "He has resigned into his post."
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Hints : Resign-এর পর সরাসরি object বসে, from বসে না; সঠিক প্রয়োগ 'resign his post'। (ক)-তে from, (গ)-তে in ও (ঘ)-তে into অতিরিক্ত/ভুল preposition। সুতরাং সঠিক উত্তর (খ)।",
+        "en": "Hints : The object sits directly after resign; from does not sit. The correct usage is 'resign his post'. In (a) from, in (c) in and in (d) into are extra/wrong prepositions. So the correct answer is (b).",
+        "bn": "Hints : Resign-এর পর সরাসরি object বসে, from বসে না; সঠিক প্রয়োগ 'resign his post'। (ক)-তে from, (গ)-তে in ও (ঘ)-তে into অতিরিক্ত/ভুল preposition। সুতরাং সঠিক উত্তর (খ)।"
+      },
+      "source": "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় বনায়ন (A-7) ২০১৩-১৪",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 7,
+      "question": {
+        "mix": "Indentify the error : (i) In recent years, great advances (ii) forward (iii) have been made in the field of (iv) genetic research.",
+        "en": "Indentify the error : (i) In recent years, great advances (ii) forward (iii) have been made in the field of (iv) genetic research.",
+        "bn": "Indentify the error : (i) In recent years, great advances (ii) forward (iii) have been made in the field of (iv) genetic research."
+      },
+      "options": {
+        "a": {
+          "mix": "(i)",
+          "en": "(i)",
+          "bn": "(i)"
+        },
+        "b": {
+          "mix": "(ii)",
+          "en": "(ii)",
+          "bn": "(ii)"
+        },
+        "c": {
+          "mix": "(iii)",
+          "en": "(iii)",
+          "bn": "(iii)"
+        },
+        "d": {
+          "mix": "(iv)",
+          "en": "(iv)",
+          "bn": "(iv)"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Hints : Advance অর্থই সামনে এগিয়ে যাওয়া, তাই advances-এর পর forward অতিরিক্ত (redundancy)। (i), (iii) ও (iv) অংশে কোনো ভুল নেই। সুতরাং ভুল অংশ (ii) অর্থাৎ সঠিক উত্তর (খ)।",
+        "en": "Hints : Advance itself means moving forward, so forward after advances is extra (redundancy). There is no error in parts (i), (iii) and (iv). So the erroneous part is (ii), that is, the correct answer is (b).",
+        "bn": "Hints : Advance অর্থই সামনে এগিয়ে যাওয়া, তাই advances-এর পর forward অতিরিক্ত (redundancy)। (i), (iii) ও (iv) অংশে কোনো ভুল নেই। সুতরাং ভুল অংশ (ii) অর্থাৎ সঠিক উত্তর (খ)।"
+      },
+      "source": "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় ইংরেজি বিভাগ (C-2) ২০১৩-১৪",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 8,
+      "question": {
+        "mix": "Whatever is grown in the kitchen garden it is not a vegetable.",
+        "en": "Whatever is grown in the kitchen garden it is not a vegetable.",
+        "bn": "Whatever is grown in the kitchen garden it is not a vegetable."
+      },
+      "options": {
+        "a": {
+          "mix": "Whatever",
+          "en": "Whatever",
+          "bn": "Whatever"
+        },
+        "b": {
+          "mix": "kitchen",
+          "en": "kitchen",
+          "bn": "kitchen"
+        },
+        "c": {
+          "mix": "it",
+          "en": "it",
+          "bn": "it"
+        },
+        "d": {
+          "mix": "vegetable.",
+          "en": "vegetable.",
+          "bn": "vegetable."
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Hints : Whatever নিজেই subject হিসেবে বসেছে, তাই পরে it আবার subject হিসেবে বসানো অতিরিক্ত (redundancy)। Whatever, kitchen ও vegetable-এ কোনো ভুল নেই। সুতরাং সঠিক উত্তর (গ) it।",
+        "en": "Hints : Whatever itself sits as the subject, so sitting it again as a subject later is extra (redundancy). There is no error in Whatever, kitchen or vegetable. So the correct answer is (c) it.",
+        "bn": "Hints : Whatever নিজেই subject হিসেবে বসেছে, তাই পরে it আবার subject হিসেবে বসানো অতিরিক্ত (redundancy)। Whatever, kitchen ও vegetable-এ কোনো ভুল নেই। সুতরাং সঠিক উত্তর (গ) it।"
+      },
+      "source": "রাজশাহী বিশ্ববিদ্যালয় (BUAT) ২০১৩-১৪",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 9,
+      "question": {
+        "mix": "The Republic of Plato is interesting, informative, and it is easy to read.",
+        "en": "The Republic of Plato is interesting, informative, and it is easy to read.",
+        "bn": "The Republic of Plato is interesting, informative, and it is easy to read."
+      },
+      "options": {
+        "a": {
+          "mix": "is",
+          "en": "is",
+          "bn": "is"
+        },
+        "b": {
+          "mix": "interesting",
+          "en": "interesting",
+          "bn": "interesting"
+        },
+        "c": {
+          "mix": "it is",
+          "en": "it is",
+          "bn": "it is"
+        },
+        "d": {
+          "mix": "to read.",
+          "en": "to read.",
+          "bn": "to read."
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Hints : Interesting, informative-এর সাথে parallel হতে হলে তৃতীয়টিও শুধু adjective হবে; 'and it is easy to read'-এ it is অতিরিক্ত। Is, interesting ও to read-এ কোনো ভুল নেই। সুতরাং সঠিক উত্তর (গ) it is।",
+        "en": "Hints : To be parallel with interesting and informative, the third item must also be only an adjective; in 'and it is easy to read', it is is extra. There is no error in is, interesting or to read. So the correct answer is (c) it is.",
+        "bn": "Hints : Interesting, informative-এর সাথে parallel হতে হলে তৃতীয়টিও শুধু adjective হবে; 'and it is easy to read'-এ it is অতিরিক্ত। Is, interesting ও to read-এ কোনো ভুল নেই। সুতরাং সঠিক উত্তর (গ) it is।"
+      },
+      "source": "রাজশাহী বিশ্ববিদ্যালয় ইউনিট E (জোড়) ২০১৩-১৪",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 10,
+      "question": {
+        "mix": "Despite of the increase in train fare, most people still prefer to travel by train.",
+        "en": "Despite of the increase in train fare, most people still prefer to travel by train.",
+        "bn": "Despite of the increase in train fare, most people still prefer to travel by train."
+      },
+      "options": {
+        "a": {
+          "mix": "Despite of",
+          "en": "Despite of",
+          "bn": "Despite of"
+        },
+        "b": {
+          "mix": "still",
+          "en": "still",
+          "bn": "still"
+        },
+        "c": {
+          "mix": "prefer to",
+          "en": "prefer to",
+          "bn": "prefer to"
+        },
+        "d": {
+          "mix": "travel",
+          "en": "travel",
+          "bn": "travel"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Hints : Despite of হয় না, শুধু Despite হয়। তবে in spite এর সাথে of হয় অর্থাৎ in spite of হবে। এ দুটি শব্দের অর্থ একই অর্থাৎ সত্ত্বেও।",
+        "en": "Hints : It is not Despite of, only Despite. But of sits with in spite, that is, it will be in spite of. These two words have the same meaning, that is, in spite of / despite.",
+        "bn": "Hints : Despite of হয় না, শুধু Despite হয়। তবে in spite এর সাথে of হয় অর্থাৎ in spite of হবে। এ দুটি শব্দের অর্থ একই অর্থাৎ সত্ত্বেও।"
+      },
+      "source": "রাজশাহী বিশ্ববিদ্যালয় ইউনিট E (জোড়) ২০১৩-১৪",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 11,
+      "question": {
+        "mix": "One should never throw water on an alive electrical fire.",
+        "en": "One should never throw water on an alive electrical fire.",
+        "bn": "One should never throw water on an alive electrical fire."
+      },
+      "options": {
+        "a": {
+          "mix": "One should",
+          "en": "One should",
+          "bn": "One should"
+        },
+        "b": {
+          "mix": "never",
+          "en": "never",
+          "bn": "never"
+        },
+        "c": {
+          "mix": "an alive electrical",
+          "en": "an alive electrical",
+          "bn": "an alive electrical"
+        },
+        "d": {
+          "mix": "fire.",
+          "en": "fire.",
+          "bn": "fire."
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Hints : Electrical fire-এর ক্ষেত্রে alive শব্দটি অপ্রয়োজনীয় ও ভুল প্রয়োগ, তাই (গ) অংশে ভুল রয়েছে। One should, never ও fire-এ কোনো ভুল নেই। সুতরাং সঠিক উত্তর (গ) an alive electrical।",
+        "en": "Hints : In the case of an electrical fire, the word alive is unnecessary and wrongly used, so the error is in part (c). There is no error in One should, never or fire. So the correct answer is (c) an alive electrical.",
+        "bn": "Hints : Electrical fire-এর ক্ষেত্রে alive শব্দটি অপ্রয়োজনীয় ও ভুল প্রয়োগ, তাই (গ) অংশে ভুল রয়েছে। One should, never ও fire-এ কোনো ভুল নেই। সুতরাং সঠিক উত্তর (গ) an alive electrical।"
+      },
+      "source": "রাজশাহী বিশ্ববিদ্যালয় (ইউনিট E) বিজোড় ২০১৩-১৪",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 12,
+      "question": {
+        "mix": "Venus, the second planet from the Sun, is exactly almost the same size as the earth.",
+        "en": "Venus, the second planet from the Sun, is exactly almost the same size as the earth.",
+        "bn": "Venus, the second planet from the Sun, is exactly almost the same size as the earth."
+      },
+      "options": {
+        "a": {
+          "mix": "the second planet",
+          "en": "the second planet",
+          "bn": "the second planet"
+        },
+        "b": {
+          "mix": "from",
+          "en": "from",
+          "bn": "from"
+        },
+        "c": {
+          "mix": "is exactly almost",
+          "en": "is exactly almost",
+          "bn": "is exactly almost"
+        },
+        "d": {
+          "mix": "same size",
+          "en": "same size",
+          "bn": "same size"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Hints : Exactly এবং almost একসাথে বসে না — দুটি একত্রে ব্যবহার redundancy/পরস্পরবিরোধী। The second planet, from ও same size-এ কোনো ভুল নেই। সুতরাং সঠিক উত্তর (গ) is exactly almost।",
+        "en": "Hints : Exactly and almost do not sit together — using the two together is redundancy/contradictory. There is no error in the second planet, from or same size. So the correct answer is (c) is exactly almost.",
+        "bn": "Hints : Exactly এবং almost একসাথে বসে না — দুটি একত্রে ব্যবহার redundancy/পরস্পরবিরোধী। The second planet, from ও same size-এ কোনো ভুল নেই। সুতরাং সঠিক উত্তর (গ) is exactly almost।"
+      },
+      "source": "রাজশাহী বিশ্ববিদ্যালয় (ইউনিট E) বিজোড় ২০১৩-১৪",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 13,
+      "question": {
+        "mix": "Which one of the following sentence is correct?",
+        "en": "Which one of the following sentence is correct?",
+        "bn": "Which one of the following sentence is correct?"
+      },
+      "options": {
+        "a": {
+          "mix": "The captain ordered his soldiers to fire.",
+          "en": "The captain ordered his soldiers to fire.",
+          "bn": "The captain ordered his soldiers to fire."
+        },
+        "b": {
+          "mix": "The captain ordered to his soldiers to fire.",
+          "en": "The captain ordered to his soldiers to fire.",
+          "bn": "The captain ordered to his soldiers to fire."
+        },
+        "c": {
+          "mix": "The captain gave orders his solddiers to fire.",
+          "en": "The captain gave orders his solddiers to fire.",
+          "bn": "The captain gave orders his solddiers to fire."
+        },
+        "d": {
+          "mix": "The captain did order to his soldiers to fire.",
+          "en": "The captain did order to his soldiers to fire.",
+          "bn": "The captain did order to his soldiers to fire."
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Hints : Order-এর পর সরাসরি object বসে (order sb to do sth), ordered to হয় না। (খ)-তে ordered to, (গ)-তে gave orders-এর পর to নেই এবং (ঘ)-তে did order to অশুদ্ধ। সুতরাং সঠিক উত্তর (ক)।",
+        "en": "Hints : The object sits directly after order (order sb to do sth); ordered to is not used. In (b) ordered to, in (c) to is missing after gave orders, and in (d) did order to is incorrect. So the correct answer is (a).",
+        "bn": "Hints : Order-এর পর সরাসরি object বসে (order sb to do sth), ordered to হয় না। (খ)-তে ordered to, (গ)-তে gave orders-এর পর to নেই এবং (ঘ)-তে did order to অশুদ্ধ। সুতরাং সঠিক উত্তর (ক)।"
+      },
+      "source": "রাজশাহী বিশ্ববিদ্যালয় জীব ও ভূ-বিজ্ঞান অনুষদ (ইউনিট F) অ-বিজ্ঞান গ্রুপ ২০১৩-১৪",
+      "explanation_source": "generated"
+    }
+  ],
+  "unclear": [
+    {
+      "page": 502,
+      "note": "31.1 table row 10 (Collaborate/join/meet): the Correct Usages column prints 'together collaborate/join/meet' with the last word at the page's right edge; recorded exactly as printed."
+    },
+    {
+      "page": 504,
+      "note": "PSC Q1 right-margin answer letter is partly obscured by the halftone (খ/ঘ ambiguous); answer (ঘ) taken from the printed Hints, which explicitly ends 'সুতরাং সঠিক উত্তর (ঘ)।'"
+    },
+    {
+      "page": 504,
+      "note": "PSC Q2 source bracketed word after ২০১৩ read as '[রাইন]' from the enlarged margin crop; the halftone makes this word uncertain."
+    },
+    {
+      "page": 505,
+      "note": "University Q6 source: the word between 'জাহাঙ্গীরনগর বিশ্ববিদ্যালয়' and '(A-7)' read as 'বনায়ন' from the enlarged margin crop; halftone makes it uncertain."
+    },
+    {
+      "page": 505,
+      "note": "University Q8 source bracket read as '(BUAT)' exactly as it appears in the enlarged margin crop (রাজশাহী বিশ্ববিদ্যালয় (BUAT) ২০১৩-১৪)."
+    },
+    {
+      "page": 505,
+      "note": "University Q11 and Q12 right-margin answer letters read as (গ) from enlarged margin crops; consistent with the redundant segments in each sentence (an alive electrical / is exactly almost)."
+    }
+  ],
+  "translation_source": "generated"
+}
