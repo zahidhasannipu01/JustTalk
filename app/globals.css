@@ -1802,6 +1802,31 @@
 .ln-rule{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 18px}
 .ln-rule h4{font-size:14.5px;margin:0 0 5px}
 .ln-rule-body{font-size:14px;font-weight:500;color:#3C403C;line-height:1.65;white-space:pre-wrap}
+.ln-rhead{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.ln-rhead h4{margin:0}
+.ln-rnum{background:var(--ink);color:#fff;font-size:12px;font-weight:800;border-radius:999px;padding:5px 11px;white-space:nowrap}
+.ln-lead{font-size:15.5px;font-weight:600;line-height:1.65;color:#262826}
+.ln-rpara{font-size:14.5px;font-weight:500;line-height:1.75;color:#3C403C}
+.ln-rlabel{font-size:11px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:16px 0 8px}
+.ln-exrow{display:flex;gap:8px;flex-wrap:wrap}
+.ln-exchip{background:var(--accent-soft);border-radius:12px;padding:9px 13px;font-size:13.5px;font-weight:700;line-height:1.5}
+.ln-exblock{border-left:3px solid var(--accent);background:#FFF7F3;border-radius:0 12px 12px 0;padding:12px 16px}
+.ln-exblock p{font-size:14.5px;font-weight:600;line-height:1.7;color:#262826}
+.ln-rnote{font-size:14px;font-weight:500;line-height:1.65;color:#3C403C;margin-top:14px;background:var(--soft);border-radius:12px;padding:12px 14px}
+.ln-pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:8px}
+.ln-pchip{display:flex;align-items:center;gap:9px;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:9px 12px}
+.ln-pchip .sfx{font-weight:800;font-size:14px;color:var(--accent);white-space:nowrap}
+.ln-pchip .arr{color:#B9BDB4;font-weight:800}
+.ln-pchip .wd{font-weight:700;font-size:14px}
+.ln-frows{display:flex;flex-direction:column}
+.ln-frow{display:flex;gap:12px;padding:11px 2px;border-top:1px solid #EFEFEA;align-items:baseline}
+.ln-frow:first-child{border-top:0}
+.ln-fnum{font-weight:800;font-size:13px;color:var(--muted);flex:0 0 22px}
+.ln-flabel{flex:0 0 180px;font-weight:800;font-size:14px}
+.ln-fex{font-size:14.5px;font-weight:600;line-height:1.55}
+.ln-fex b{color:var(--accent)}
+.ln-ftag{font-size:12.5px;color:var(--muted);font-weight:700}
+@media(max-width:700px){.ln-frow{flex-wrap:wrap}.ln-flabel{flex-basis:calc(100% - 34px)}.ln-fex{flex-basis:100%}}
 .ln-watch{margin-top:10px;border:1px solid var(--line);background:var(--soft);color:var(--ink);border-radius:999px;padding:8px 14px;font-size:12.5px;font-weight:800;display:inline-flex;align-items:center;gap:7px;cursor:pointer}
 .ln-watch .ic{color:var(--accent)}
 .ln-markdone{width:100%;margin-top:14px;min-height:50px;border-radius:999px;border:0;font-weight:800;font-size:14.5px}
@@ -1817,7 +1842,8 @@
    opacity; only the highlighted key word and the label pill carry accent
    colour. Selectors are kept more specific than the rule card's own
    paragraph colour (.ln-rule-body) so nothing can dim stage text. */
-.ln-stage{margin-top:14px;background:#101210;border-radius:14px;padding:18px;color:#fff}
+.ln-stage{margin-top:14px;background:#101210;border-radius:14px;padding:18px;color:#fff;animation:lnFadeUp .4s ease both}
+.ln-pair-part{animation:lnFadeUp .45s ease both}
 .ln-stage p{color:#fff}
 .ln-rule .ln-stage p{color:#fff}
 .ln-stage-body{min-height:118px;display:flex;flex-direction:column;justify-content:center;gap:12px}
@@ -1827,28 +1853,28 @@
 .ln-pair{display:flex;flex-direction:column;gap:6px}
 .ln-pill-slot-b{min-height:30px;display:flex;justify-content:center;margin-top:6px}
 .ln-morph{display:flex;flex-direction:column;gap:12px;align-items:center}
-.ln-mrow{font-size:20px;font-weight:700;line-height:1.5;text-align:center;color:#fff}
+.ln-mrow{font-size:20px;font-weight:700;line-height:1.5;text-align:center;color:#fff;animation:lnFadeUp .5s ease both}
 .ln-rule .ln-stage .ln-mrow{color:#fff}
-.ln-m-add{color:var(--accent)}
-.ln-m-res{color:#2FBF8F}
+.ln-m-add{color:var(--accent);display:inline-block;animation:lnPop .55s cubic-bezier(.34,1.45,.64,1) both}
+.ln-m-res{color:#2FBF8F;display:inline-block;animation:lnPop .55s cubic-bezier(.34,1.45,.64,1) both}
 .ln-topicnav{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:18px;justify-content:flex-end}
 .ln-topicnav .btn-soft:disabled{opacity:.45;cursor:not-allowed}
 .ln-countsel{font:inherit;font-size:13.5px;font-weight:800;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:999px;min-height:50px;padding:0 14px;cursor:pointer}
 .ln-practice-info{font-size:12.5px;color:var(--muted);font-weight:700;margin:16px 0 0}
 .ln-pill-slot{min-height:30px;display:flex;justify-content:center}
-.ln-pill{background:#fff;color:#101210;font-size:13px;font-weight:800;border-radius:999px;padding:6px 14px;animation:lnDrop .35s ease}
+.ln-pill{background:#fff;color:#101210;font-size:13px;font-weight:800;border-radius:999px;padding:6px 14px;animation:lnDrop .6s cubic-bezier(.34,1.45,.64,1) both}
 .ln-sent{font-size:19px;font-weight:700;line-height:1.55;text-align:center;color:#fff}
 .ln-rule .ln-stage .ln-sent{color:#fff}
-.ln-w{visibility:hidden;color:#fff}
-.ln-w.on{visibility:visible;animation:lnPop .25s ease}
-.ln-w.hl{color:var(--accent);background:rgba(255,77,36,.16);border-radius:6px;padding:0 4px}
-.ln-why{font-size:13.5px;font-weight:700;line-height:1.6;text-align:center;color:#fff}
+.ln-w{visibility:hidden;color:#fff;display:inline-block;transition:color .45s ease,background-color .45s ease}
+.ln-w.on{visibility:visible;animation:lnPop .6s cubic-bezier(.34,1.45,.64,1) both}
+.ln-w.hl{color:var(--accent);background:rgba(255,77,36,.16);border-radius:6px;padding:0 4px;animation:lnHl .55s ease}
+.ln-why{font-size:13.5px;font-weight:700;line-height:1.6;text-align:center;color:#fff;animation:lnFadeUp .55s ease both}
 .ln-rule .ln-stage .ln-why{color:#fff}
 .ln-achips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
-.ln-achip{visibility:hidden;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.1);color:#fff;font-size:13.5px;font-weight:700;border-radius:999px;padding:7px 13px}
-.ln-achip.on{visibility:visible;animation:lnPop .25s ease}
+.ln-achip{visibility:hidden;display:inline-block;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.1);color:#fff;font-size:13.5px;font-weight:700;border-radius:999px;padding:7px 13px}
+.ln-achip.on{visibility:visible;animation:lnPop .55s cubic-bezier(.34,1.45,.64,1) both}
 .ln-spot{display:flex;flex-direction:column;gap:8px}
-.ln-spot-s{font-size:14.5px;font-weight:600;line-height:1.6;color:#fff}
+.ln-spot-s{font-size:14.5px;font-weight:600;line-height:1.6;color:#fff;animation:lnFadeUp .5s ease both}
 .ln-rule .ln-stage .ln-spot-s{color:#fff}
 .ln-spot-s.now{font-weight:800;box-shadow:inset 3px 0 0 var(--accent);padding-left:10px}
 .ln-stage-bar{display:flex;align-items:center;gap:8px;margin-top:14px;border-top:1px solid rgba(255,255,255,.16);padding-top:12px}
@@ -1856,9 +1882,11 @@
 .ln-sbtn .ic{color:#fff}
 .ln-sbtn-txt{width:auto;border-radius:999px;padding:0 14px;font-size:12.5px}
 .ln-stage-count{margin-left:auto;font-size:12px;font-weight:700;color:#fff}
-@keyframes lnPop{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
-@keyframes lnDrop{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
-@media (prefers-reduced-motion: reduce){.ln-pill,.ln-w.on,.ln-achip.on{animation:none}}
+@keyframes lnPop{0%{opacity:0;transform:scale(.3) translateY(12px)}55%{opacity:1;transform:scale(1.14) translateY(-2px)}75%{transform:scale(.95) translateY(0)}100%{opacity:1;transform:scale(1) translateY(0)}}
+@keyframes lnDrop{0%{opacity:0;transform:translateY(-18px) scale(.65)}55%{opacity:1;transform:translateY(3px) scale(1.07)}75%{transform:translateY(-1px) scale(.98)}100%{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes lnFadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes lnHl{0%{transform:scale(1)}40%{transform:scale(1.22)}100%{transform:scale(1)}}
+@media (prefers-reduced-motion: reduce){.ln-pill,.ln-w.on,.ln-achip.on,.ln-why,.ln-mrow,.ln-spot-s,.ln-pair-part,.ln-stage,.ln-w.hl{animation:none}}
 .ln-quiz{max-width:680px}
 .ln-quiz-top{display:flex;align-items:center;gap:12px}
 .ln-quiz-title{font-size:14px;font-weight:800}
