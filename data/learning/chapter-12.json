@@ -1,0 +1,1703 @@
+{
+  "chapter": "Chapter-12: Inversions",
+  "pages": [
+    157,
+    163
+  ],
+  "rules": [
+    {
+      "heading": {
+        "mix": "Introduction",
+        "en": "Introduction",
+        "bn": "ভূমিকা"
+      },
+      "body": {
+        "mix": "Subject ও Verb-এর স্বাভাবিক ধারাবাহিকতা উল্টে গিয়ে যখন বাক্যে auxiliary verb + subject + মূল verb— এই গঠনে আসে তখন তাকে Grammar-এর পরিভাষায় inversion বলে। Inversion-এর একটি সরল উদাহরণ হলো interrogative sentence। কিন্তু শুরুতে প্রধানত adverbial phrase-কে অধিক গুরুত্বারোপ (emphasis) করার জন্য inversion ব্যবহৃত হয়ে থাকে। ইংরেজিতে কম-বেশি ১৮ প্রকারের inversion থাকলেও এখানে পরীক্ষার জন্য গুরুত্বপূর্ণ প্রকারগুলো আলোচনা করা হলো।",
+        "en": "When the normal order of subject and verb is reversed and a sentence takes the form auxiliary verb + subject + main verb, it is called inversion in the terminology of grammar. A simple example of inversion is the interrogative sentence. But inversion is mainly used to give greater emphasis to an adverbial phrase at the beginning. Although there are more or less 18 kinds of inversion in English, the important kinds for the examination are discussed here.",
+        "bn": "Subject ও Verb-এর স্বাভাবিক ধারাবাহিকতা উল্টে গিয়ে যখন বাক্যে auxiliary verb + subject + মূল verb— এই গঠনে আসে তখন তাকে Grammar-এর পরিভাষায় inversion বলে। Inversion-এর একটি সরল উদাহরণ হলো interrogative sentence। কিন্তু শুরুতে প্রধানত adverbial phrase-কে অধিক গুরুত্বারোপ (emphasis) করার জন্য inversion ব্যবহৃত হয়ে থাকে। ইংরেজিতে কম-বেশি ১৮ প্রকারের inversion থাকলেও এখানে পরীক্ষার জন্য গুরুত্বপূর্ণ প্রকারগুলো আলোচনা করা হলো।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "12.1 Negative Adverbs",
+        "en": "12.1 Negative Adverbs",
+        "bn": "12.1 Negative Adverbs"
+      },
+      "body": {
+        "mix": "বাক্যের শুরুতে নিম্নোক্ত উপাদানগুলো আসলে Inversion হয়ে থাকে :\n\nNegative Adverbs : বাক্যের শুরুতে নিম্নোক্ত নেতিবাচক adverbs/adverbials আসলে বাক্যটি inverted হয় :\nHardly, scarecly, rarely, barely, seldom, never, never before, never again, nowhere, no sooner, by no means, at no time, not one, not once, not until, not only, not till, little, not for a moment, under no circumstances, in no way, on no account etc. এগুলো বাক্যের শুরুতে বসলে auxiliary verb, subject-এর পূর্বে বসে। Auxiliary verb না থাকলে do, does, did বসবে।",
+        "en": "Inversion takes place when the following elements come at the beginning of a sentence:\n\nNegative Adverbs: When the following negative adverbs/adverbials come at the beginning of a sentence, the sentence becomes inverted:\nHardly, scarcely, rarely, barely, seldom, never, never before, never again, nowhere, no sooner, by no means, at no time, not one, not once, not until, not only, not till, little, not for a moment, under no circumstances, in no way, on no account etc. When these come at the beginning of a sentence, the auxiliary verb comes before the subject. If there is no auxiliary verb, do, does or did is used.",
+        "bn": "বাক্যের শুরুতে নিম্নোক্ত উপাদানগুলো আসলে Inversion হয়ে থাকে :\n\nNegative Adverbs : বাক্যের শুরুতে নিম্নোক্ত নেতিবাচক adverbs/adverbials আসলে বাক্যটি inverted হয় :\nHardly, scarcely, rarely, barely, seldom, never, never before, never again, nowhere, no sooner, by no means, at no time, not one, not once, not until, not only, not till, little, not for a moment, under no circumstances, in no way, on no account etc. এগুলো বাক্যের শুরুতে বসলে auxiliary verb, subject-এর পূর্বে বসে। Auxiliary verb না থাকলে do, does, did বসবে।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "12.2 After Adverbial Expressions Beginning with 'Only' :",
+        "en": "12.2 After Adverbial Expressions Beginning with 'Only' :",
+        "bn": "12.2 After Adverbial Expressions Beginning with 'Only' :"
+      },
+      "body": {
+        "mix": "Only if, only when, only because, only after, only until, only at, only in, only on, only once, only recently, only by, only since, only then, only later etc বাক্যের শুরুতে আসলে inversion হয়।\nবি: দ্র : উপর্যুক্ত Expression গুলো বাক্যের শুরুতে আসলে উক্ত বাক্যের principal clause-এ inversion হয়।",
+        "en": "When only if, only when, only because, only after, only until, only at, only in, only on, only once, only recently, only by, only since, only then, only later etc. come at the beginning of a sentence, inversion takes place.\nNote: When the above expressions come at the beginning of a sentence, inversion takes place in the principal clause of that sentence.",
+        "bn": "Only if, only when, only because, only after, only until, only at, only in, only on, only once, only recently, only by, only since, only then, only later etc বাক্যের শুরুতে আসলে inversion হয়।\nবি: দ্র : উপর্যুক্ত Expression গুলো বাক্যের শুরুতে আসলে উক্ত বাক্যের principal clause-এ inversion হয়।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "12.3 Inversion with Conditional :",
+        "en": "12.3 Inversion with Conditional :",
+        "bn": "12.3 Inversion with Conditional :"
+      },
+      "body": {
+        "mix": "Conditional sentence-এ if-কে বাদ দিয়ে auxiliary verb শুরুতে এনে inversion করা হয়। যেমন—\nConditional — If I were rich, I would help the poor.\nInversion — Were I rich, I would help the poor.\nConditional — If you decide to sell the house, I will be happy to buy it.\nInversion — Should you decide to sell the house, I will be happy to buy it.\nবি: দ্র : এখানে should-এর ব্যবহার একটি inversion।",
+        "en": "In a conditional sentence, inversion is done by dropping if and bringing the auxiliary verb to the front. For example —\nConditional — If I were rich, I would help the poor.\nInversion — Were I rich, I would help the poor.\nConditional — If you decide to sell the house, I will be happy to buy it.\nInversion — Should you decide to sell the house, I will be happy to buy it.\nNote: Here the use of should is an inversion.",
+        "bn": "Conditional sentence-এ if-কে বাদ দিয়ে auxiliary verb শুরুতে এনে inversion করা হয়। যেমন—\nConditional — If I were rich, I would help the poor.\nInversion — Were I rich, I would help the poor.\nConditional — If you decide to sell the house, I will be happy to buy it.\nInversion — Should you decide to sell the house, I will be happy to buy it.\nবি: দ্র : এখানে should-এর ব্যবহার একটি inversion।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "12.4 Inversion with 'as' :",
+        "en": "12.4 Inversion with 'as' :",
+        "bn": "12.4 Inversion with 'as' :"
+      },
+      "body": {
+        "mix": "Rina was too shy to dance, as was Runa.\nShe decided to leave early, as did Rita.",
+        "en": "Rina was too shy to dance, as was Runa.\nShe decided to leave early, as did Rita.",
+        "bn": "Rina was too shy to dance, as was Runa.\nShe decided to leave early, as did Rita."
+      }
+    },
+    {
+      "heading": {
+        "mix": "12.5 So am I, So do I :",
+        "en": "12.5 So am I, So do I :",
+        "bn": "12.5 So am I, So do I :"
+      },
+      "body": {
+        "mix": "বিশেষত Spoken English-এর ক্ষেত্রে ২য় বক্তা ১ম বক্তার অনুরূপ ইতিবাচক বক্তব্যের ক্ষেত্রে এই inversion ব্যবহৃত হয়। সাধারণ বাক্যের ক্ষেত্রেও এরূপ হতে পারে, তবে তখন ২য় অংশের পূর্বে একটি and যুক্ত করা হয়।\nSpeaker 1 : 'I am a student.' (আমি একজন ছাত্র)\nSpeaker 2 : 'So am I' (আমিও তো ছাত্র)\nSpeaker 1 : 'I play football.' (আমি ফুটবল খেলি)\nSpeaker 2 : 'So do I' (আমিও তো খেলি)\nSpeaker 1 : 'I went home.' (আমি বাড়ি গিয়েছিলাম)\nSpeaker 2 : 'So did I.' (আমিও তো গিয়েছিলাম)\nHe likes coffee and so does Rana.",
+        "en": "Especially in spoken English, this inversion is used when the second speaker agrees with the first speaker's similar affirmative statement. It can also happen in ordinary sentences, but then an and is added before the second part.\nSpeaker 1: 'I am a student.' (I am a student)\nSpeaker 2: 'So am I' (I am a student too)\nSpeaker 1: 'I play football.' (I play football)\nSpeaker 2: 'So do I' (I play too)\nSpeaker 1: 'I went home.' (I went home)\nSpeaker 2: 'So did I.' (I went too)\nHe likes coffee and so does Rana.",
+        "bn": "বিশেষত Spoken English-এর ক্ষেত্রে ২য় বক্তা ১ম বক্তার অনুরূপ ইতিবাচক বক্তব্যের ক্ষেত্রে এই inversion ব্যবহৃত হয়। সাধারণ বাক্যের ক্ষেত্রেও এরূপ হতে পারে, তবে তখন ২য় অংশের পূর্বে একটি and যুক্ত করা হয়।\nSpeaker 1 : 'I am a student.' (আমি একজন ছাত্র)\nSpeaker 2 : 'So am I' (আমিও তো ছাত্র)\nSpeaker 1 : 'I play football.' (আমি ফুটবল খেলি)\nSpeaker 2 : 'So do I' (আমিও তো খেলি)\nSpeaker 1 : 'I went home.' (আমি বাড়ি গিয়েছিলাম)\nSpeaker 2 : 'So did I.' (আমিও তো গিয়েছিলাম)\nHe likes coffee and so does Rana."
+      }
+    },
+    {
+      "heading": {
+        "mix": "12.6 Neither do I, Nor do I :",
+        "en": "12.6 Neither do I, Nor do I :",
+        "bn": "12.6 Neither do I, Nor do I :"
+      },
+      "body": {
+        "mix": "প্রধানত Spoken English-এর ক্ষেত্রে ১ম বক্তার নেতিবাচক বক্তব্যের উত্তরে ২য় বক্তার নেতিবাচক উত্তরে এই inversion হয়। এক্ষেত্রে যদি inversion না হয় তাহলে ২য় বক্তার বক্তব্য Subject + negative + either— এই গঠনে হবে।",
+        "en": "Mainly in spoken English, this inversion occurs in the second speaker's negative reply to the first speaker's negative statement. If inversion does not take place in this case, the second speaker's statement takes the form Subject + negative + either.",
+        "bn": "প্রধানত Spoken English-এর ক্ষেত্রে ১ম বক্তার নেতিবাচক বক্তব্যের উত্তরে ২য় বক্তার নেতিবাচক উত্তরে এই inversion হয়। এক্ষেত্রে যদি inversion না হয় তাহলে ২য় বক্তার বক্তব্য Subject + negative + either— এই গঠনে হবে।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "12.7 So/such + adj/adv — that :",
+        "en": "12.7 So/such + adj/adv — that :",
+        "bn": "12.7 So/such + adj/adv — that :"
+      },
+      "body": {
+        "mix": "So strong was the wind that we couldn't open the window.\nSo quickly did he run that the others couldn't catch up with him.",
+        "en": "So strong was the wind that we couldn't open the window.\nSo quickly did he run that the others couldn't catch up with him.",
+        "bn": "So strong was the wind that we couldn't open the window.\nSo quickly did he run that the others couldn't catch up with him."
+      }
+    },
+    {
+      "heading": {
+        "mix": "12.8 Inversion after adjective :",
+        "en": "12.8 Inversion after adjective :",
+        "bn": "12.8 Inversion after adjective :"
+      },
+      "body": {
+        "mix": "বাক্যের শুরুতে adjective আসলে তাতে inversion হয়।",
+        "en": "When an adjective comes at the beginning of a sentence, inversion takes place in it.",
+        "bn": "বাক্যের শুরুতে adjective আসলে তাতে inversion হয়।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "12.9 After Adverbial phrase of place :",
+        "en": "12.9 After Adverbial phrase of place :",
+        "bn": "12.9 After Adverbial phrase of place :"
+      },
+      "body": {
+        "mix": "Round the corner, came the postman.\nOn the doorstep, was a bunch of flowers.\nOn the table, was all the money we had lost.\nবি: দ্র : এই Inversion এ do, does, did বসে না।",
+        "en": "Round the corner, came the postman.\nOn the doorstep, was a bunch of flowers.\nOn the table, was all the money we had lost.\nNote: In this inversion, do, does and did are not used.",
+        "bn": "Round the corner, came the postman.\nOn the doorstep, was a bunch of flowers.\nOn the table, was all the money we had lost.\nবি: দ্র : এই Inversion এ do, does, did বসে না।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "12.10 After Here and There :",
+        "en": "12.10 After Here and There :",
+        "bn": "12.10 After Here and There :"
+      },
+      "body": {
+        "mix": "বাক্যের শুরুতে Here বা There আসলে বাক্যে inversion হয়।\nHere comes the bus!\nবি: দ্র : Subject pronoun হলে inversion হয় না। যেমন— Here he goes.",
+        "en": "When Here or There comes at the beginning of a sentence, inversion takes place in the sentence.\nHere comes the bus!\nNote: If the subject is a pronoun, inversion does not take place. For example — Here he goes.",
+        "bn": "বাক্যের শুরুতে Here বা There আসলে বাক্যে inversion হয়।\nHere comes the bus!\nবি: দ্র : Subject pronoun হলে inversion হয় না। যেমন— Here he goes."
+      }
+    }
+  ],
+  "mcqs": [
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 1,
+      "question": {
+        "mix": "Rarely — anyone using typewriters now-a-days.",
+        "en": "Rarely — anyone using typewriters now-a-days.",
+        "bn": "Rarely — anyone using typewriters now-a-days."
+      },
+      "options": {
+        "a": {
+          "mix": "you see",
+          "en": "you see",
+          "bn": "you see"
+        },
+        "b": {
+          "mix": "will you see",
+          "en": "will you see",
+          "bn": "will you see"
+        },
+        "c": {
+          "mix": "you will see",
+          "en": "you will see",
+          "bn": "you will see"
+        },
+        "d": {
+          "mix": "you have seen",
+          "en": "you have seen",
+          "bn": "you have seen"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Rarely (negative adverb) বাক্যের শুরুতে থাকলে inversion হয়— auxiliary verb subject-এর পূর্বে বসে। সুতরাং সঠিক উত্তর (খ) will you see। (ক) you see-তে কোনো auxiliary verb নেই, (গ) you will see-তে auxiliary verb subject-এর পরে আছে, আর (ঘ) you have seen-ও inversion নয়।",
+        "en": "When Rarely, a negative adverb, is at the beginning of a sentence, inversion takes place — the auxiliary verb comes before the subject. So the correct answer is (b) will you see. (a) you see has no auxiliary verb, in (c) you will see the auxiliary verb comes after the subject, and (d) you have seen is not inverted either.",
+        "bn": "Rarely (negative adverb) বাক্যের শুরুতে থাকলে inversion হয়— auxiliary verb subject-এর পূর্বে বসে। সুতরাং সঠিক উত্তর (খ) will you see। (ক) you see-তে কোনো auxiliary verb নেই, (গ) you will see-তে auxiliary verb subject-এর পরে আছে, আর (ঘ) you have seen-ও inversion নয়।"
+      },
+      "source": "রাজশাহী বিশ্ববিদ্যালয় আইন অনুষদ ২০১১-১২",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 2,
+      "question": {
+        "mix": "— received law degrees as today.",
+        "en": "— received law degrees as today.",
+        "bn": "— received law degrees as today."
+      },
+      "options": {
+        "a": {
+          "mix": "Never so many women have",
+          "en": "Never so many women have",
+          "bn": "Never so many women have"
+        },
+        "b": {
+          "mix": "Never have so many women",
+          "en": "Never have so many women",
+          "bn": "Never have so many women"
+        },
+        "c": {
+          "mix": "The women aren't ever",
+          "en": "The women aren't ever",
+          "bn": "The women aren't ever"
+        },
+        "d": {
+          "mix": "Women who have never",
+          "en": "Women who have never",
+          "bn": "Women who have never"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Never বাক্যের শুরুতে থাকলে inversion হয়— auxiliary verb subject-এর পূর্বে বসে। সুতরাং সঠিক উত্তর (খ) Never have so many women। (ক) Never so many women have-তে auxiliary verb subject-এর পরে আছে, (গ) The women aren't ever অর্থের দিক থেকে ভুল, আর (ঘ) Women who have never অসম্পূর্ণ বাক্য।",
+        "en": "When Never is at the beginning of a sentence, inversion takes place — the auxiliary verb comes before the subject. So the correct answer is (b) Never have so many women. In (a) Never so many women have, the auxiliary verb comes after the subject, (c) The women aren't ever is wrong in meaning, and (d) Women who have never is an incomplete sentence.",
+        "bn": "Never বাক্যের শুরুতে থাকলে inversion হয়— auxiliary verb subject-এর পূর্বে বসে। সুতরাং সঠিক উত্তর (খ) Never have so many women। (ক) Never so many women have-তে auxiliary verb subject-এর পরে আছে, (গ) The women aren't ever অর্থের দিক থেকে ভুল, আর (ঘ) Women who have never অসম্পূর্ণ বাক্য।"
+      },
+      "source": "রাজশাহী বিশ্ববিদ্যালয় (আইন) ২০০৫-০৬, বরিশাল বিশ্ববিদ্যালয় ডি ২০১২-১৩",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 3,
+      "question": {
+        "mix": "— but also it filters out harmful rays.",
+        "en": "— but also it filters out harmful rays.",
+        "bn": "— but also it filters out harmful rays."
+      },
+      "options": {
+        "a": {
+          "mix": "The atmosphere gives us air to breathe",
+          "en": "The atmosphere gives us air to breathe",
+          "bn": "The atmosphere gives us air to breathe"
+        },
+        "b": {
+          "mix": "Not only the atmosphere gives us air to breathe",
+          "en": "Not only the atmosphere gives us air to breathe",
+          "bn": "Not only the atmosphere gives us air to breathe"
+        },
+        "c": {
+          "mix": "The atmosphere which gives us air to breathe",
+          "en": "The atmosphere which gives us air to breathe",
+          "bn": "The atmosphere which gives us air to breathe"
+        },
+        "d": {
+          "mix": "Not only does the atmosphere give us air to breathe",
+          "en": "Not only does the atmosphere give us air to breathe",
+          "bn": "Not only does the atmosphere give us air to breathe"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Not only বাক্যের শুরুতে থাকলে inversion হয়— auxiliary verb subject-এর পূর্বে বসে। সুতরাং সঠিক উত্তর (ঘ) Not only does the atmosphere give us air to breathe। (ক) The atmosphere gives us air to breathe-তে কোনো inversion নেই, (খ) Not only the atmosphere gives us air to breathe-তে auxiliary verb subject-এর পরে আছে, আর (গ) The atmosphere which gives us air to breathe অসম্পূর্ণ বাক্য।",
+        "en": "When Not only is at the beginning of a sentence, inversion takes place — the auxiliary verb comes before the subject. So the correct answer is (d) Not only does the atmosphere give us air to breathe. (a) The atmosphere gives us air to breathe has no inversion, in (b) Not only the atmosphere gives us air to breathe the auxiliary verb comes after the subject, and (c) The atmosphere which gives us air to breathe is an incomplete sentence.",
+        "bn": "Not only বাক্যের শুরুতে থাকলে inversion হয়— auxiliary verb subject-এর পূর্বে বসে। সুতরাং সঠিক উত্তর (ঘ) Not only does the atmosphere give us air to breathe। (ক) The atmosphere gives us air to breathe-তে কোনো inversion নেই, (খ) Not only the atmosphere gives us air to breathe-তে auxiliary verb subject-এর পরে আছে, আর (গ) The atmosphere which gives us air to breathe অসম্পূর্ণ বাক্য।"
+      },
+      "source": "জগন্নাথ বিশ্ববিদ্যালয় ২০০৬-০৭",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 4,
+      "question": {
+        "mix": "— have goods returned to us because they are faulty.",
+        "en": "— have goods returned to us because they are faulty.",
+        "bn": "— have goods returned to us because they are faulty."
+      },
+      "options": {
+        "a": {
+          "mix": "Seldom we do",
+          "en": "Seldom we do",
+          "bn": "Seldom we do"
+        },
+        "b": {
+          "mix": "Seldom do we",
+          "en": "Seldom do we",
+          "bn": "Seldom do we"
+        },
+        "c": {
+          "mix": "Seldomly we do",
+          "en": "Seldomly we do",
+          "bn": "Seldomly we do"
+        },
+        "d": {
+          "mix": "Rarely we",
+          "en": "Rarely we",
+          "bn": "Rarely we"
+        },
+        "e": {
+          "mix": "Hardly we",
+          "en": "Hardly we",
+          "bn": "Hardly we"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Seldom বাক্যের শুরুতে থাকলে inversion হয়— auxiliary verb subject-এর পূর্বে বসে। সুতরাং সঠিক উত্তর (খ) Seldom do we। (ক) Seldom we do-তে auxiliary verb subject-এর পরে আছে, (গ) Seldomly বলে কোনো word নেই, (ঘ) Rarely we অসম্পূর্ণ, আর (ঙ) Hardly we-ও অসম্পূর্ণ।",
+        "en": "When Seldom is at the beginning of a sentence, inversion takes place — the auxiliary verb comes before the subject. So the correct answer is (b) Seldom do we. In (a) Seldom we do, the auxiliary verb comes after the subject, (c) Seldomly is not a word, (d) Rarely we is incomplete, and (e) Hardly we is incomplete too.",
+        "bn": "Seldom বাক্যের শুরুতে থাকলে inversion হয়— auxiliary verb subject-এর পূর্বে বসে। সুতরাং সঠিক উত্তর (খ) Seldom do we। (ক) Seldom we do-তে auxiliary verb subject-এর পরে আছে, (গ) Seldomly বলে কোনো word নেই, (ঘ) Rarely we অসম্পূর্ণ, আর (ঙ) Hardly we-ও অসম্পূর্ণ।"
+      },
+      "source": "চট্টগ্রাম বিশ্ববিদ্যালয় ই ইউনিট ২০০৫-০৬",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 5,
+      "question": {
+        "mix": "Hardly — entered the office when he realized that he had forgotten his wallet.",
+        "en": "Hardly — entered the office when he realized that he had forgotten his wallet.",
+        "bn": "Hardly — entered the office when he realized that he had forgotten his wallet."
+      },
+      "options": {
+        "a": {
+          "mix": "he had",
+          "en": "he had",
+          "bn": "he had"
+        },
+        "b": {
+          "mix": "he was",
+          "en": "he was",
+          "bn": "he was"
+        },
+        "c": {
+          "mix": "had he",
+          "en": "had he",
+          "bn": "had he"
+        },
+        "d": {
+          "mix": "did he",
+          "en": "did he",
+          "bn": "did he"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Hardly had + subject + verb-এর past participle — when + subject + past indefinite tense হলো সঠিক sequence। সুতরাং সঠিক উত্তর (গ) had he। (ক) he had ও (খ) he was-এ inversion হয়নি, আর (ঘ) did he দিয়ে past perfect হয় না।",
+        "en": "Hardly had + subject + past participle of the verb — when + subject + past indefinite tense is the correct sequence. So the correct answer is (c) had he. In (a) he had and (b) he was there is no inversion, and (d) did he does not give the past perfect.",
+        "bn": "Hardly had + subject + verb-এর past participle — when + subject + past indefinite tense হলো সঠিক sequence। সুতরাং সঠিক উত্তর (গ) had he। (ক) he had ও (খ) he was-এ inversion হয়নি, আর (ঘ) did he দিয়ে past perfect হয় না।"
+      },
+      "source": "চট্টগ্রাম বিশ্ববিদ্যালয় ডি ইউনিট ২০১২-১৩",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 6,
+      "question": {
+        "mix": "— did Arthur realize that there was a danger.",
+        "en": "— did Arthur realize that there was a danger.",
+        "bn": "— did Arthur realize that there was a danger."
+      },
+      "options": {
+        "a": {
+          "mix": "Upon entering the store",
+          "en": "Upon entering the store",
+          "bn": "Upon entering the store"
+        },
+        "b": {
+          "mix": "When he entered the store",
+          "en": "When he entered the store",
+          "bn": "When he entered the store"
+        },
+        "c": {
+          "mix": "After he had entered the store",
+          "en": "After he had entered the store",
+          "bn": "After he had entered the store"
+        },
+        "d": {
+          "mix": "Only after entering the store",
+          "en": "Only after entering the store",
+          "bn": "Only after entering the store"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Only after দিয়ে শুরু হওয়া adverbial expression-এর পর principal clause-এ inversion হয়। এখানে did Arthur realize থাকায় শূন্যস্থানে Only after entering the store বসবে— সঠিক উত্তর (ঘ)। (ক) Upon entering the store, (খ) When he entered the store ও (গ) After he had entered the store-এর পর inversion হয় না।",
+        "en": "After an adverbial expression beginning with Only after, inversion takes place in the principal clause. Since the sentence has did Arthur realize, Only after entering the store will go in the blank — the correct answer is (d). After (a) Upon entering the store, (b) When he entered the store and (c) After he had entered the store, no inversion takes place.",
+        "bn": "Only after দিয়ে শুরু হওয়া adverbial expression-এর পর principal clause-এ inversion হয়। এখানে did Arthur realize থাকায় শূন্যস্থানে Only after entering the store বসবে— সঠিক উত্তর (ঘ)। (ক) Upon entering the store, (খ) When he entered the store ও (গ) After he had entered the store-এর পর inversion হয় না।"
+      },
+      "source": "চট্টগ্রাম বিশ্ববিদ্যালয় বি ইউনিট ২০০৬-০৭; বি ১ ২০১২-১৩; বি ২০১৩-১৪",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 7,
+      "question": {
+        "mix": "Complete the sentence : Only after food has been dried or canned —",
+        "en": "Complete the sentence : Only after food has been dried or canned —",
+        "bn": "Sentence-টি সম্পূর্ণ করো : Only after food has been dried or canned —"
+      },
+      "options": {
+        "a": {
+          "mix": "that it should be stored for later consumption.",
+          "en": "that it should be stored for later consumption.",
+          "bn": "that it should be stored for later consumption."
+        },
+        "b": {
+          "mix": "should be stored for later consumption.",
+          "en": "should be stored for later consumption.",
+          "bn": "should be stored for later consumption."
+        },
+        "c": {
+          "mix": "should it be stored for later consumption.",
+          "en": "should it be stored for later consumption.",
+          "bn": "should it be stored for later consumption."
+        },
+        "d": {
+          "mix": "it should be stored for later consumption.",
+          "en": "it should be stored for later consumption.",
+          "bn": "it should be stored for later consumption."
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Only after বাক্যের শুরুতে থাকলে inversion হয়— auxiliary verb subject-এর পূর্বে বসে। সুতরাং সঠিক উত্তর (গ) should it be stored for later consumption। (ক) that it should be stored-এ that অপ্রয়োজনীয়, (খ) should be stored-এ subject নেই, আর (ঘ) it should be stored-এ inversion হয়নি।",
+        "en": "When Only after is at the beginning of a sentence, inversion takes place — the auxiliary verb comes before the subject. So the correct answer is (c) should it be stored for later consumption. In (a) that it should be stored, that is unnecessary, (b) should be stored has no subject, and in (d) it should be stored there is no inversion.",
+        "bn": "Only after বাক্যের শুরুতে থাকলে inversion হয়— auxiliary verb subject-এর পূর্বে বসে। সুতরাং সঠিক উত্তর (গ) should it be stored for later consumption। (ক) that it should be stored-এ that অপ্রয়োজনীয়, (খ) should be stored-এ subject নেই, আর (ঘ) it should be stored-এ inversion হয়নি।"
+      },
+      "source": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় বি ইউনিট ২০০৮-০৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 8,
+      "question": {
+        "mix": "— resigned, we would have been forced to sack him.",
+        "en": "— resigned, we would have been forced to sack him.",
+        "bn": "— resigned, we would have been forced to sack him."
+      },
+      "options": {
+        "a": {
+          "mix": "Had he not",
+          "en": "Had he not",
+          "bn": "Had he not"
+        },
+        "b": {
+          "mix": "He had",
+          "en": "He had",
+          "bn": "He had"
+        },
+        "c": {
+          "mix": "Had he",
+          "en": "Had he",
+          "bn": "Had he"
+        },
+        "d": {
+          "mix": "If he has not",
+          "en": "If he has not",
+          "bn": "If he has not"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "মূলত বাক্যটি ছিল If he had not resigned, — if-কে বাদ দিয়ে auxiliary had-কে subject-এর পূর্বে এনে inversion করা হয়েছে। বলা বাহুল্য এটি কোনো প্রশ্নবোধক বাক্য নয়।",
+        "en": "The sentence was originally: If he had not resigned, — inversion has been done by dropping if and bringing the auxiliary had before the subject. Needless to say, this is not an interrogative sentence.",
+        "bn": "মূলত বাক্যটি ছিল If he had not resigned, — if-কে বাদ দিয়ে auxiliary had-কে subject-এর পূর্বে এনে inversion করা হয়েছে। বলা বাহুল্য এটি কোনো প্রশ্নবোধক বাক্য নয়।"
+      },
+      "source": "ঢাকা বিশ্ববিদ্যালয় ২০১২-১৩",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 9,
+      "question": {
+        "mix": "You like chocolate—",
+        "en": "You like chocolate—",
+        "bn": "You like chocolate—"
+      },
+      "options": {
+        "a": {
+          "mix": "and me too",
+          "en": "and me too",
+          "bn": "and me too"
+        },
+        "b": {
+          "mix": "and I too",
+          "en": "and I too",
+          "bn": "and I too"
+        },
+        "c": {
+          "mix": "and also",
+          "en": "and also",
+          "bn": "and also"
+        },
+        "d": {
+          "mix": "and so do",
+          "en": "and so do",
+          "bn": "and so do"
+        },
+        "e": {
+          "mix": "and so do I",
+          "en": "and so do I",
+          "bn": "and so do I"
+        }
+      },
+      "answer": "e",
+      "explanation": {
+        "mix": "Affirmative agreement-এর ক্ষেত্রে structure হলো : and + so + পূর্বের tense অনুযায়ী auxiliary verb + subject। এখানে like (present tense) থাকায় সঠিক উত্তর (ঙ) and so do I। (ক) and me too ও (খ) and I too-তে auxiliary verb নেই, (গ) and also অসম্পূর্ণ, আর (ঘ) and so do-তে subject নেই।",
+        "en": "In the case of affirmative agreement, the structure is: and + so + auxiliary verb according to the previous tense + subject. Since like is in the present tense here, the correct answer is (e) and so do I. (a) and me too and (b) and I too have no auxiliary verb, (c) and also is incomplete, and (d) and so do has no subject.",
+        "bn": "Affirmative agreement-এর ক্ষেত্রে structure হলো : and + so + পূর্বের tense অনুযায়ী auxiliary verb + subject। এখানে like (present tense) থাকায় সঠিক উত্তর (ঙ) and so do I। (ক) and me too ও (খ) and I too-তে auxiliary verb নেই, (গ) and also অসম্পূর্ণ, আর (ঘ) and so do-তে subject নেই।"
+      },
+      "source": "চট্টগ্রাম বিশ্ববিদ্যালয় ই ইউনিট ২০০৯-১০",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 10,
+      "question": {
+        "mix": "Times have changed and so —",
+        "en": "Times have changed and so —",
+        "bn": "Times have changed and so —"
+      },
+      "options": {
+        "a": {
+          "mix": "we have",
+          "en": "we have",
+          "bn": "we have"
+        },
+        "b": {
+          "mix": "we are",
+          "en": "we are",
+          "bn": "we are"
+        },
+        "c": {
+          "mix": "have we",
+          "en": "have we",
+          "bn": "have we"
+        },
+        "d": {
+          "mix": "are we",
+          "en": "are we",
+          "bn": "are we"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Affirmative statement-এর ক্ষেত্রে যদি have verb main clause-এ ব্যবহৃত হয় তাহলে and এর পর structure হবে so + have + subject। সুতরাং সঠিক উত্তর (গ) have we। (ক) we have ও (খ) we are-তে inversion হয়নি, আর (ঘ) are we-তে tense মেলেনি।",
+        "en": "In the case of an affirmative statement, if the have verb is used in the main clause, the structure after and will be so + have + subject. So the correct answer is (c) have we. In (a) we have and (b) we are there is no inversion, and in (d) are we the tense does not match.",
+        "bn": "Affirmative statement-এর ক্ষেত্রে যদি have verb main clause-এ ব্যবহৃত হয় তাহলে and এর পর structure হবে so + have + subject। সুতরাং সঠিক উত্তর (গ) have we। (ক) we have ও (খ) we are-তে inversion হয়নি, আর (ঘ) are we-তে tense মেলেনি।"
+      },
+      "source": "বাংলাদেশ রেলওয়ের উপসহকারী প্রকৌশলী ২০১৩",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 11,
+      "question": {
+        "mix": "My half-brother visited Cox's Bazar a couple of weeks ago, and—",
+        "en": "My half-brother visited Cox's Bazar a couple of weeks ago, and—",
+        "bn": "My half-brother visited Cox's Bazar a couple of weeks ago, and—"
+      },
+      "options": {
+        "a": {
+          "mix": "so I did",
+          "en": "so I did",
+          "bn": "so I did"
+        },
+        "b": {
+          "mix": "so I was",
+          "en": "so I was",
+          "bn": "so I was"
+        },
+        "c": {
+          "mix": "so I had",
+          "en": "so I had",
+          "bn": "so I had"
+        },
+        "d": {
+          "mix": "so do I",
+          "en": "so do I",
+          "bn": "so do I"
+        },
+        "e": {
+          "mix": "so did I",
+          "en": "so did I",
+          "bn": "so did I"
+        }
+      },
+      "answer": "e",
+      "explanation": {
+        "mix": "Affirmative agreement-এর ক্ষেত্রে structure হলো : so + tense অনুযায়ী auxiliary verb + subject। এখানে visited (past tense) থাকায় সঠিক উত্তর (ঙ) so did I। (ক) so I did ও (খ) so I was-তে inversion হয়নি, (গ) so I had-তে tense মেলেনি, আর (ঘ) so do I present tense-এর।",
+        "en": "In the case of affirmative agreement, the structure is: so + auxiliary verb according to the tense + subject. Since visited is in the past tense here, the correct answer is (e) so did I. In (a) so I did and (b) so I was there is no inversion, in (c) so I had the tense does not match, and (d) so do I is in the present tense.",
+        "bn": "Affirmative agreement-এর ক্ষেত্রে structure হলো : so + tense অনুযায়ী auxiliary verb + subject। এখানে visited (past tense) থাকায় সঠিক উত্তর (ঙ) so did I। (ক) so I did ও (খ) so I was-তে inversion হয়নি, (গ) so I had-তে tense মেলেনি, আর (ঘ) so do I present tense-এর।"
+      },
+      "source": "চট্টগ্রাম বিশ্ববিদ্যালয় ডি ইউনিট ২০১২-১৩",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 12,
+      "question": {
+        "mix": "I can remember all their names and so — my sister.",
+        "en": "I can remember all their names and so — my sister.",
+        "bn": "I can remember all their names and so — my sister."
+      },
+      "options": {
+        "a": {
+          "mix": "can",
+          "en": "can",
+          "bn": "can"
+        },
+        "b": {
+          "mix": "does",
+          "en": "does",
+          "bn": "does"
+        },
+        "c": {
+          "mix": "might",
+          "en": "might",
+          "bn": "might"
+        },
+        "d": {
+          "mix": "may",
+          "en": "may",
+          "bn": "may"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Affirmative agreement-এর ক্ষেত্রে so-এর পর পূর্বের tense অনুযায়ী auxiliary verb বসে। এখানে can থাকায় সঠিক উত্তর (ক) can। (খ) does, (গ) might ও (ঘ) may— কোনোটিই can-এর সঙ্গে মেলে না।",
+        "en": "In the case of affirmative agreement, after so comes the auxiliary verb according to the previous tense. Since can is used here, the correct answer is (a) can. Neither (b) does, (c) might nor (d) may matches can.",
+        "bn": "Affirmative agreement-এর ক্ষেত্রে so-এর পর পূর্বের tense অনুযায়ী auxiliary verb বসে। এখানে can থাকায় সঠিক উত্তর (ক) can। (খ) does, (গ) might ও (ঘ) may— কোনোটিই can-এর সঙ্গে মেলে না।"
+      },
+      "source": "খুলনা বিশ্ববিদ্যালয় জীব বিজ্ঞান স্কুল ২০১১-১২",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 13,
+      "question": {
+        "mix": "'I don't like coffee' — do I'",
+        "en": "'I don't like coffee' — do I'",
+        "bn": "'I don't like coffee' — do I'"
+      },
+      "options": {
+        "a": {
+          "mix": "so",
+          "en": "so",
+          "bn": "so"
+        },
+        "b": {
+          "mix": "so as",
+          "en": "so as",
+          "bn": "so as"
+        },
+        "c": {
+          "mix": "either",
+          "en": "either",
+          "bn": "either"
+        },
+        "d": {
+          "mix": "not",
+          "en": "not",
+          "bn": "not"
+        },
+        "e": {
+          "mix": "neither",
+          "en": "neither",
+          "bn": "neither"
+        }
+      },
+      "answer": "e",
+      "explanation": {
+        "mix": "Negative বক্তব্যের উত্তরে agreement-এর ক্ষেত্রে neither + auxiliary verb + subject হয়। সুতরাং সঠিক উত্তর (ঙ) neither। (ক) so ও (খ) so as ইতিবাচক বক্তব্যের ক্ষেত্রে ব্যবহৃত হয়, (গ) either inversion ছাড়া ব্যবহৃত হয়, আর (ঘ) not দিয়ে এই structure হয় না।",
+        "en": "In the case of agreement in reply to a negative statement, the form is neither + auxiliary verb + subject. So the correct answer is (e) neither. (a) so and (b) so as are used for affirmative statements, (c) either is used without inversion, and (d) not does not give this structure.",
+        "bn": "Negative বক্তব্যের উত্তরে agreement-এর ক্ষেত্রে neither + auxiliary verb + subject হয়। সুতরাং সঠিক উত্তর (ঙ) neither। (ক) so ও (খ) so as ইতিবাচক বক্তব্যের ক্ষেত্রে ব্যবহৃত হয়, (গ) either inversion ছাড়া ব্যবহৃত হয়, আর (ঘ) not দিয়ে এই structure হয় না।"
+      },
+      "source": "চট্টগ্রাম বিশ্ববিদ্যালয় বি১ ইউনিট ২০১১-১২",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 14,
+      "question": {
+        "mix": "I can't ride a bike. B : — .",
+        "en": "I can't ride a bike. B : — .",
+        "bn": "I can't ride a bike. B : — ."
+      },
+      "options": {
+        "a": {
+          "mix": "Neither can't I",
+          "en": "Neither can't I",
+          "bn": "Neither can't I"
+        },
+        "b": {
+          "mix": "So can't I",
+          "en": "So can't I",
+          "bn": "So can't I"
+        },
+        "c": {
+          "mix": "Neither can I",
+          "en": "Neither can I",
+          "bn": "Neither can I"
+        },
+        "d": {
+          "mix": "So can I",
+          "en": "So can I",
+          "bn": "So can I"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Negative বক্তব্যের উত্তরে agreement-এর ক্ষেত্রে neither + auxiliary verb + subject হয়। এখানে can থাকায় সঠিক উত্তর (গ) Neither can I। (ক) Neither can't I-তে double negative হয়, (খ) So can't I ও (ঘ) So can I ইতিবাচক বক্তব্যের ক্ষেত্রে ব্যবহৃত হয়।",
+        "en": "In the case of agreement in reply to a negative statement, the form is neither + auxiliary verb + subject. Since can is used here, the correct answer is (c) Neither can I. (a) Neither can't I gives a double negative, and (b) So can't I and (d) So can I are used for affirmative statements.",
+        "bn": "Negative বক্তব্যের উত্তরে agreement-এর ক্ষেত্রে neither + auxiliary verb + subject হয়। এখানে can থাকায় সঠিক উত্তর (গ) Neither can I। (ক) Neither can't I-তে double negative হয়, (খ) So can't I ও (ঘ) So can I ইতিবাচক বক্তব্যের ক্ষেত্রে ব্যবহৃত হয়।"
+      },
+      "source": "ইসলামী বিশ্ববিদ্যালয় বি ইউনিট ২০১১-১২",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 15,
+      "question": {
+        "mix": "He didn't know the answer, and — .",
+        "en": "He didn't know the answer, and — .",
+        "bn": "He didn't know the answer, and — ."
+      },
+      "options": {
+        "a": {
+          "mix": "neither did he",
+          "en": "neither did he",
+          "bn": "neither did he"
+        },
+        "b": {
+          "mix": "he did'nt too",
+          "en": "he didn't too",
+          "bn": "he didn't too"
+        },
+        "c": {
+          "mix": "nor does he",
+          "en": "nor does he",
+          "bn": "nor does he"
+        },
+        "d": {
+          "mix": "he does not either",
+          "en": "he does not either",
+          "bn": "he does not either"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Negative agreement-এর ক্ষেত্রে and + neither + auxiliary verb + subject হয়। এখানে did থাকায় সঠিক উত্তর (ক) neither did he। (খ) he did'nt too-তে neither নেই, (গ) nor does he-তে tense মেলেনি, আর (ঘ) he does not either-এ inversion হয়নি।",
+        "en": "In the case of negative agreement, the form is and + neither + auxiliary verb + subject. Since did is used here, the correct answer is (a) neither did he. (b) he didn't too has no neither, in (c) nor does he the tense does not match, and in (d) he does not either there is no inversion.",
+        "bn": "Negative agreement-এর ক্ষেত্রে and + neither + auxiliary verb + subject হয়। এখানে did থাকায় সঠিক উত্তর (ক) neither did he। (খ) he did'nt too-তে neither নেই, (গ) nor does he-তে tense মেলেনি, আর (ঘ) he does not either-এ inversion হয়নি।"
+      },
+      "source": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় ২০০৬-০৭",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 16,
+      "question": {
+        "mix": "Peter can't go and I can't —",
+        "en": "Peter can't go and I can't —",
+        "bn": "Peter can't go and I can't —"
+      },
+      "options": {
+        "a": {
+          "mix": "neither",
+          "en": "neither",
+          "bn": "neither"
+        },
+        "b": {
+          "mix": "too",
+          "en": "too",
+          "bn": "too"
+        },
+        "c": {
+          "mix": "also",
+          "en": "also",
+          "bn": "also"
+        },
+        "d": {
+          "mix": "either",
+          "en": "either",
+          "bn": "either"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Negative বাক্যের ক্ষেত্রে inversion না হলে structure হয় subject + negative auxiliary verb + either। এখানে I can't-এর পর সঠিক উত্তর (ঘ) either। (ক) neither inversion-এর ক্ষেত্রে ব্যবহৃত হয়, (খ) too ও (গ) also ইতিবাচক বক্তব্যের ক্ষেত্রে ব্যবহৃত হয়।",
+        "en": "In the case of a negative sentence, if inversion does not take place, the structure is subject + negative auxiliary verb + either. Here, after I can't, the correct answer is (d) either. (a) neither is used in the case of inversion, and (b) too and (c) also are used for affirmative statements.",
+        "bn": "Negative বাক্যের ক্ষেত্রে inversion না হলে structure হয় subject + negative auxiliary verb + either। এখানে I can't-এর পর সঠিক উত্তর (ঘ) either। (ক) neither inversion-এর ক্ষেত্রে ব্যবহৃত হয়, (খ) too ও (গ) also ইতিবাচক বক্তব্যের ক্ষেত্রে ব্যবহৃত হয়।"
+      },
+      "source": "বাংলাদেশ রেলওয়ের উপসহকারী প্রকৌশলী ২০১৩",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 17,
+      "question": {
+        "mix": "Runa can't type well, and her sister—.",
+        "en": "Runa can't type well, and her sister—.",
+        "bn": "Runa can't type well, and her sister—."
+      },
+      "options": {
+        "a": {
+          "mix": "can either",
+          "en": "can either",
+          "bn": "can either"
+        },
+        "b": {
+          "mix": "also",
+          "en": "also",
+          "bn": "also"
+        },
+        "c": {
+          "mix": "neither can",
+          "en": "neither can",
+          "bn": "neither can"
+        },
+        "d": {
+          "mix": "either can't",
+          "en": "either can't",
+          "bn": "either can't"
+        },
+        "e": {
+          "mix": "can't either",
+          "en": "can't either",
+          "bn": "can't either"
+        }
+      },
+      "answer": "e",
+      "explanation": {
+        "mix": "Negative বাক্যের ক্ষেত্রে inversion না হলে structure হয় subject + negative auxiliary verb + either। সুতরাং সঠিক উত্তর (ঙ) can't either। (ক) can either-তে negative নেই, (খ) also ইতিবাচক বক্তব্যের ক্ষেত্রে ব্যবহৃত হয়, (গ) neither can-এ subject নেই বলে বাক্যটি অসম্পূর্ণ, আর (ঘ) either can't-এ word order ভুল।",
+        "en": "In the case of a negative sentence, if inversion does not take place, the structure is subject + negative auxiliary verb + either. So the correct answer is (e) can't either. (a) can either has no negative, (b) also is used for affirmative statements, (c) neither can has no subject so the sentence is incomplete, and in (d) either can't the word order is wrong.",
+        "bn": "Negative বাক্যের ক্ষেত্রে inversion না হলে structure হয় subject + negative auxiliary verb + either। সুতরাং সঠিক উত্তর (ঙ) can't either। (ক) can either-তে negative নেই, (খ) also ইতিবাচক বক্তব্যের ক্ষেত্রে ব্যবহৃত হয়, (গ) neither can-এ subject নেই বলে বাক্যটি অসম্পূর্ণ, আর (ঘ) either can't-এ word order ভুল।"
+      },
+      "source": "চট্টগ্রাম বিশ্ববিদ্যালয় বি২ ইউনিট ২০১২-১৩",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 18,
+      "question": {
+        "mix": "So quickly — he reached home on time.",
+        "en": "So quickly — he reached home on time.",
+        "bn": "So quickly — he reached home on time."
+      },
+      "options": {
+        "a": {
+          "mix": "he ran as",
+          "en": "he ran as",
+          "bn": "he ran as"
+        },
+        "b": {
+          "mix": "he ran that",
+          "en": "he ran that",
+          "bn": "he ran that"
+        },
+        "c": {
+          "mix": "did he run that",
+          "en": "did he run that",
+          "bn": "did he run that"
+        },
+        "d": {
+          "mix": "would he run that",
+          "en": "would he run that",
+          "bn": "would he run that"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "So + adverb + auxiliary verb + subject — that হলো inversion-এর structure। সুতরাং সঠিক উত্তর (গ) did he run that। (ক) he ran as ও (খ) he ran that-এ inversion হয়নি, আর (ঘ) would he run that-এ tense মেলেনি।",
+        "en": "So + adverb + auxiliary verb + subject — that is the structure of inversion. So the correct answer is (c) did he run that. In (a) he ran as and (b) he ran that there is no inversion, and in (d) would he run that the tense does not match.",
+        "bn": "So + adverb + auxiliary verb + subject — that হলো inversion-এর structure। সুতরাং সঠিক উত্তর (গ) did he run that। (ক) he ran as ও (খ) he ran that-এ inversion হয়নি, আর (ঘ) would he run that-এ tense মেলেনি।"
+      },
+      "source": "জগন্নাথ বিশ্ববিদ্যালয় সি ইউনিট ২০১৪-১৫",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 19,
+      "question": {
+        "mix": "Sweet — the uses of adversity.",
+        "en": "Sweet — the uses of adversity.",
+        "bn": "Sweet — the uses of adversity."
+      },
+      "options": {
+        "a": {
+          "mix": "is",
+          "en": "is",
+          "bn": "is"
+        },
+        "b": {
+          "mix": "are",
+          "en": "are",
+          "bn": "are"
+        },
+        "c": {
+          "mix": "has",
+          "en": "has",
+          "bn": "has"
+        },
+        "d": {
+          "mix": "have",
+          "en": "have",
+          "bn": "have"
+        },
+        "e": {
+          "mix": "had",
+          "en": "had",
+          "bn": "had"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "বাক্যের শুরুতে adjective আসলে inversion হয়— verb subject-এর পূর্বে বসে। এখানে subject the uses of adversity (plural) থাকায় verb হবে are। সুতরাং সঠিক উত্তর (খ) are। (ক) is singular, (গ) has ও (ঙ) had-এর সঙ্গে uses মেলে না, আর (ঘ) have দিয়ে এই বাক্য হয় না।",
+        "en": "When an adjective comes at the beginning of a sentence, inversion takes place — the verb comes before the subject. Here the subject the uses of adversity is plural, so the verb will be are. So the correct answer is (b) are. (a) is is singular, (c) has and (e) had do not go with uses, and (d) have does not make this sentence.",
+        "bn": "বাক্যের শুরুতে adjective আসলে inversion হয়— verb subject-এর পূর্বে বসে। এখানে subject the uses of adversity (plural) থাকায় verb হবে are। সুতরাং সঠিক উত্তর (খ) are। (ক) is singular, (গ) has ও (ঙ) had-এর সঙ্গে uses মেলে না, আর (ঘ) have দিয়ে এই বাক্য হয় না।"
+      },
+      "source": "চট্টগ্রাম বিশ্ববিদ্যালয় আই ইউনিট ২০১৩-১৪",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 1,
+      "question": {
+        "mix": "Times have changed and so—",
+        "en": "Times have changed and so—",
+        "bn": "Times have changed and so—"
+      },
+      "options": {
+        "a": {
+          "mix": "I have",
+          "en": "I have",
+          "bn": "I have"
+        },
+        "b": {
+          "mix": "I had",
+          "en": "I had",
+          "bn": "I had"
+        },
+        "c": {
+          "mix": "Had I",
+          "en": "Had I",
+          "bn": "Had I"
+        },
+        "d": {
+          "mix": "Have I",
+          "en": "Have I",
+          "bn": "Have I"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Affirmative statement-এর ক্ষেত্রে যদি have verb main clause-এ ব্যবহৃত হয় তাহলে and এর পর structure হবে so + have + sub। সুতরাং প্রদত্ত শূন্যস্থানে have I বসবে।",
+        "en": "In the case of an affirmative statement, if the have verb is used in the main clause, the structure after and will be so + have + subject. So have I will go in the given blank.",
+        "bn": "Affirmative statement-এর ক্ষেত্রে যদি have verb main clause-এ ব্যবহৃত হয় তাহলে and এর পর structure হবে so + have + sub। সুতরাং প্রদত্ত শূন্যস্থানে have I বসবে।"
+      },
+      "source": "১২তম সহকারী জজ ২০১৮; জনপ্রশাসন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা ২০১৬",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 2,
+      "question": {
+        "mix": "Rarely — seen from water.",
+        "en": "Rarely — seen from water.",
+        "bn": "Rarely — seen from water."
+      },
+      "options": {
+        "a": {
+          "mix": "spotted frogs",
+          "en": "spotted frogs",
+          "bn": "spotted frogs"
+        },
+        "b": {
+          "mix": "spotted frogs have",
+          "en": "spotted frogs have",
+          "bn": "spotted frogs have"
+        },
+        "c": {
+          "mix": "have spotted frogs",
+          "en": "have spotted frogs",
+          "bn": "have spotted frogs"
+        },
+        "d": {
+          "mix": "are spotted frogs",
+          "en": "are spotted frogs",
+          "bn": "are spotted frogs"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Rarely (negative adverb) বাক্যের শুরুতে থাকলে সে ক্ষেত্রে auxiliary verb সর্বদা subject এর পূর্বে বসে। পানির উপর থেকে ডোরাকাটা ব্যাঙগুলো দেখা যায় না বললেই চলে। প্রশ্নোক্ত বাক্যে দেখার কাজটি মানুষ বা অন্য কোনো প্রাণী করে। তাই বাক্যটি passive এ হবে। অপশন (গ) তে have subject এর পূর্বে থাকলেও বাক্যটি passive নয়। সুতরাং সঠিক উত্তর (ঘ) are spotted frogs।",
+        "en": "When Rarely, a negative adverb, is at the beginning of a sentence, the auxiliary verb always comes before the subject in that case. It can hardly be said that striped frogs are seen from above the water. In the sentence in the question, the act of seeing is done by a human or some other creature. So the sentence will be in the passive. Although in option (c) have comes before the subject, the sentence is not passive. So the correct answer is (d) are spotted frogs.",
+        "bn": "Rarely (negative adverb) বাক্যের শুরুতে থাকলে সে ক্ষেত্রে auxiliary verb সর্বদা subject এর পূর্বে বসে। পানির উপর থেকে ডোরাকাটা ব্যাঙগুলো দেখা যায় না বললেই চলে। প্রশ্নোক্ত বাক্যে দেখার কাজটি মানুষ বা অন্য কোনো প্রাণী করে। তাই বাক্যটি passive এ হবে। অপশন (গ) তে have subject এর পূর্বে থাকলেও বাক্যটি passive নয়। সুতরাং সঠিক উত্তর (ঘ) are spotted frogs।"
+      },
+      "source": "পরিসংখ্যান ও তথ্য ব্যবস্থাপনা অধিদপ্তরের পরিসংখ্যান কর্মকর্তা ২০১৭",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 3,
+      "question": {
+        "mix": "Never — such a heinous crime.",
+        "en": "Never — such a heinous crime.",
+        "bn": "Never — such a heinous crime."
+      },
+      "options": {
+        "a": {
+          "mix": "he has committed",
+          "en": "he has committed",
+          "bn": "he has committed"
+        },
+        "b": {
+          "mix": "has he done",
+          "en": "has he done",
+          "bn": "has he done"
+        },
+        "c": {
+          "mix": "he has done",
+          "en": "he has done",
+          "bn": "he has done"
+        },
+        "d": {
+          "mix": "has he committed",
+          "en": "has he committed",
+          "bn": "has he committed"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Inversion of verb-এর নিয়ম অনুযায়ী Never সর্বদাই 'verb' দ্বারা অনুসৃত হবে। সুতরাং সঠিক উত্তর (ঘ)। 'Crime' এর জন্য verb হিসেবে commit ব্যবহৃত হয়।",
+        "en": "According to the rule of inversion of the verb, Never will always be followed by a 'verb'. So the correct answer is (d). For 'crime', commit is used as the verb.",
+        "bn": "Inversion of verb-এর নিয়ম অনুযায়ী Never সর্বদাই 'verb' দ্বারা অনুসৃত হবে। সুতরাং সঠিক উত্তর (ঘ)। 'Crime' এর জন্য verb হিসেবে commit ব্যবহৃত হয়।"
+      },
+      "source": "পোস্ট মাস্টার জেনারেল (পূর্বাঞ্চল, চট্টগ্রাম)-এর কার্যালয়ের পোস্টাল অপারেটর ২০১৬",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Govt. & Private Bank Questions",
+      "number": 1,
+      "question": {
+        "mix": "Not often — fatal today, but immediate medical attention is essential.",
+        "en": "Not often — fatal today, but immediate medical attention is essential.",
+        "bn": "Not often — fatal today, but immediate medical attention is essential."
+      },
+      "options": {
+        "a": {
+          "mix": "a rattlesnake bit's",
+          "en": "a rattlesnake bit's",
+          "bn": "a rattlesnake bit's"
+        },
+        "b": {
+          "mix": "by a rattlesnake's bite",
+          "en": "by a rattlesnake's bite",
+          "bn": "by a rattlesnake's bite"
+        },
+        "c": {
+          "mix": "a rattlesnake bit is",
+          "en": "a rattlesnake bit is",
+          "bn": "a rattlesnake bit is"
+        },
+        "d": {
+          "mix": "is a rattlesnake bite",
+          "en": "is a rattlesnake bite",
+          "bn": "is a rattlesnake bite"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Not often, not only, rarely ইত্যাদি negative particle বাক্যের শুরুতে বসলে irversion হয়। সুতরাং শূন্যস্থানের জন্য যথাযথ অংশ is a rattlesnake bite।",
+        "en": "When negative particles like Not often, not only, rarely come at the beginning of a sentence, inversion takes place. So the appropriate part for the blank is is a rattlesnake bite.",
+        "bn": "Not often, not only, rarely ইত্যাদি negative particle বাক্যের শুরুতে বসলে inversion হয়। সুতরাং শূন্যস্থানের জন্য যথাযথ অংশ is a rattlesnake bite।"
+      },
+      "source": "One Bank Ltd. Special Cadre Officer (SCO) 2018",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Govt. & Private Bank Questions",
+      "number": 2,
+      "question": {
+        "mix": "He did not know the answer and I did not neither.",
+        "en": "He did not know the answer and I did not neither.",
+        "bn": "He did not know the answer and I did not neither."
+      },
+      "options": {
+        "a": {
+          "mix": "and either did I",
+          "en": "and either did I",
+          "bn": "and either did I"
+        },
+        "b": {
+          "mix": "and neither did I",
+          "en": "and neither did I",
+          "bn": "and neither did I"
+        },
+        "c": {
+          "mix": "and neitter have I",
+          "en": "and neither have I",
+          "bn": "and neither have I"
+        },
+        "d": {
+          "mix": "and either did have",
+          "en": "and either did have",
+          "bn": "and either did have"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Negative agreement (I did not know the answer) এর ক্ষেত্রে and + subject + auxiliary verb এর negative form + either অথবা and + neither + auxiliary verb + subject হয়। অপশন (ক)-তে either এরপর auxiliary verb এর negative form (didn't) না থাকায় তা সঠিক নয়। সঠিক form হলো and neither did I।",
+        "en": "In the case of negative agreement (I did not know the answer), the form is and + subject + negative form of the auxiliary verb + either, or and + neither + auxiliary verb + subject. Option (a) is not correct because after either there is no negative form of the auxiliary verb (didn't). The correct form is and neither did I.",
+        "bn": "Negative agreement (I did not know the answer) এর ক্ষেত্রে and + subject + auxiliary verb এর negative form + either অথবা and + neither + auxiliary verb + subject হয়। অপশন (ক)-তে either এরপর auxiliary verb এর negative form (didn't) না থাকায় তা সঠিক নয়। সঠিক form হলো and neither did I।"
+      },
+      "source": "Uttara Bank Ltd. Assistant Officer (Cash) 2017",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 1,
+      "question": {
+        "mix": "Kamal and his brother studied General History last year, and so — .",
+        "en": "Kamal and his brother studied General History last year, and so — .",
+        "bn": "Kamal and his brother studied General History last year, and so — ."
+      },
+      "options": {
+        "a": {
+          "mix": "does their sister",
+          "en": "does their sister",
+          "bn": "does their sister"
+        },
+        "b": {
+          "mix": "has their sister",
+          "en": "has their sister",
+          "bn": "has their sister"
+        },
+        "c": {
+          "mix": "did their sister",
+          "en": "did their sister",
+          "bn": "did their sister"
+        },
+        "d": {
+          "mix": "is their sister",
+          "en": "is their sister",
+          "bn": "is their sister"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Affirmative বাক্যের agreement-এর structure : so + tense অনুযায়ী auxiliary verb + sub। যেহেতু and পূর্ববর্তী clause টি past tense-এ। সুতরাং সঠিক expression হলো did their sister।",
+        "en": "The structure of agreement in an affirmative sentence is: so + auxiliary verb according to the tense + subject. Since the clause before and is in the past tense, the correct expression is did their sister.",
+        "bn": "Affirmative বাক্যের agreement-এর structure : so + tense অনুযায়ী auxiliary verb + sub। যেহেতু and পূর্ববর্তী clause টি past tense-এ। সুতরাং সঠিক expression হলো did their sister।"
+      },
+      "source": "চবি 'B-1' ইউনিট ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 2,
+      "question": {
+        "mix": "My family members do not like coffee, and — .",
+        "en": "My family members do not like coffee, and — .",
+        "bn": "My family members do not like coffee, and — ."
+      },
+      "options": {
+        "a": {
+          "mix": "I don't well",
+          "en": "I don't well",
+          "bn": "I don't well"
+        },
+        "b": {
+          "mix": "neither do I",
+          "en": "neither do I",
+          "bn": "neither do I"
+        },
+        "c": {
+          "mix": "neither don't I",
+          "en": "neither don't I",
+          "bn": "neither don't I"
+        },
+        "d": {
+          "mix": "either don't I",
+          "en": "either don't I",
+          "bn": "either don't I"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Negative বাক্যের ক্ষেত্রে agreement-এর structure neither + positive auxiliary (tense অনুযায়ী) + sub। সুতরাং সঠিক expression হলো neither do I।",
+        "en": "In the case of a negative sentence, the structure of agreement is neither + positive auxiliary (according to the tense) + subject. So the correct expression is neither do I.",
+        "bn": "Negative বাক্যের ক্ষেত্রে agreement-এর structure neither + positive auxiliary (tense অনুযায়ী) + sub। সুতরাং সঠিক expression হলো neither do I।"
+      },
+      "source": "চবি 'B-1' ইউনিট ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 3,
+      "question": {
+        "mix": "Only after entering the bedroom — .",
+        "en": "Only after entering the bedroom — .",
+        "bn": "Only after entering the bedroom — ."
+      },
+      "options": {
+        "a": {
+          "mix": "he was the strange figure",
+          "en": "he was the strange figure",
+          "bn": "he was the strange figure"
+        },
+        "b": {
+          "mix": "he has seen the strange figure",
+          "en": "he has seen the strange figure",
+          "bn": "he has seen the strange figure"
+        },
+        "c": {
+          "mix": "did he saw the strange figure",
+          "en": "did he saw the strange figure",
+          "bn": "did he saw the strange figure"
+        },
+        "d": {
+          "mix": "did he find the stranger",
+          "en": "did he find the stranger",
+          "bn": "did he find the stranger"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Only after, only when, only until, only if ইত্যাদি বাক্যের শুরুতে থাকলে auxiliary verb বাক্যের শুরুতে এনে inversion করতে হয়।",
+        "en": "When only after, only when, only until, only if etc. are at the beginning of a sentence, inversion has to be done by bringing the auxiliary verb to the beginning of the sentence.",
+        "bn": "Only after, only when, only until, only if ইত্যাদি বাক্যের শুরুতে থাকলে auxiliary verb বাক্যের শুরুতে এনে inversion করতে হয়।"
+      },
+      "source": "চবি 'B-1' ইউনিট ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 4,
+      "question": {
+        "mix": "Hardly — I shut the door when the telephone rang.",
+        "en": "Hardly — I shut the door when the telephone rang.",
+        "bn": "Hardly — I shut the door when the telephone rang."
+      },
+      "options": {
+        "a": {
+          "mix": "have",
+          "en": "have",
+          "bn": "have"
+        },
+        "b": {
+          "mix": "did",
+          "en": "did",
+          "bn": "did"
+        },
+        "c": {
+          "mix": "could",
+          "en": "could",
+          "bn": "could"
+        },
+        "d": {
+          "mix": "had",
+          "en": "had",
+          "bn": "had"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Hardly had + sub + verb-এর p.p — when + sub + past indefinite tense হলো সঠিক বাক্যের sequence। সুতরাং সঠিক verb form হলো had।",
+        "en": "Hardly had + subject + past participle of the verb — when + subject + past indefinite tense is the correct sequence of the sentence. So the correct verb form is had.",
+        "bn": "Hardly had + sub + verb-এর p.p — when + sub + past indefinite tense হলো সঠিক বাক্যের sequence। সুতরাং সঠিক verb form হলো had।"
+      },
+      "source": "চবি 'ডি' ইউনিট ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 5,
+      "question": {
+        "mix": "Choose the correct sentence from below.",
+        "en": "Choose the correct sentence from below.",
+        "bn": "নিচের থেকে সঠিক sentence-টি বেছে নাও।"
+      },
+      "options": {
+        "a": {
+          "mix": "Never I have understands less than men.",
+          "en": "Never I have understands less than men.",
+          "bn": "Never I have understands less than men."
+        },
+        "b": {
+          "mix": "Never have I understood less than men.",
+          "en": "Never have I understood less than men.",
+          "bn": "Never have I understood less than men."
+        },
+        "c": {
+          "mix": "Never having I understood less than men.",
+          "en": "Never having I understood less than men.",
+          "bn": "Never having I understood less than men."
+        },
+        "d": {
+          "mix": "I have never understanding less than men.",
+          "en": "I have never understanding less than men.",
+          "bn": "I have never understanding less than men."
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Never বাক্যের শুরুতে থাকলে inversion হয়— auxiliary verb subject-এর পূর্বে বসে। সুতরাং সঠিক উত্তর (খ) Never have I understood less than men। (ক) Never I have understands-এ inversion হয়নি ও understands ভুল, (গ) Never having I understood অসম্পূর্ণ, আর (ঘ) I have never understanding-এ verb form ভুল।",
+        "en": "When Never is at the beginning of a sentence, inversion takes place — the auxiliary verb comes before the subject. So the correct answer is (b) Never have I understood less than men. In (a) Never I have understands there is no inversion and understands is wrong, (c) Never having I understood is incomplete, and in (d) I have never understanding the verb form is wrong.",
+        "bn": "Never বাক্যের শুরুতে থাকলে inversion হয়— auxiliary verb subject-এর পূর্বে বসে। সুতরাং সঠিক উত্তর (খ) Never have I understood less than men। (ক) Never I have understands-এ inversion হয়নি ও understands ভুল, (গ) Never having I understood অসম্পূর্ণ, আর (ঘ) I have never understanding-এ verb form ভুল।"
+      },
+      "source": "বশেমুরবিপ্রবি ইউনিট D ২০১৯-২০",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 6,
+      "question": {
+        "mix": "Only then — what she meant",
+        "en": "Only then — what she meant",
+        "bn": "Only then — what she meant"
+      },
+      "options": {
+        "a": {
+          "mix": "I understand",
+          "en": "I understand",
+          "bn": "I understand"
+        },
+        "b": {
+          "mix": "did I understand",
+          "en": "did I understand",
+          "bn": "did I understand"
+        },
+        "c": {
+          "mix": "I was understood",
+          "en": "I was understood",
+          "bn": "I was understood"
+        },
+        "d": {
+          "mix": "I had understood",
+          "en": "I had understood",
+          "bn": "I had understood"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Only then, hardly, scarcely, seldom ইত্যাদি adverbial phrase বা word বাক্যের শুরুতে বসলে auxiliary verb sub-এর পূর্বে বসে। সুতরাং শূন্যস্থানের সঠিক expression হলো did I understand।",
+        "en": "When an adverbial phrase or word like only then, hardly, scarcely, seldom comes at the beginning of a sentence, the auxiliary verb comes before the subject. So the correct expression for the blank is did I understand.",
+        "bn": "Only then, hardly, scarcely, seldom ইত্যাদি adverbial phrase বা word বাক্যের শুরুতে বসলে auxiliary verb sub-এর পূর্বে বসে। সুতরাং শূন্যস্থানের সঠিক expression হলো did I understand।"
+      },
+      "source": "কুবি ইউনিট সি ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 7,
+      "question": {
+        "mix": "Seldom — understand her fault while talking to others.",
+        "en": "Seldom — understand her fault while talking to others.",
+        "bn": "Seldom — understand her fault while talking to others."
+      },
+      "options": {
+        "a": {
+          "mix": "she could",
+          "en": "she could",
+          "bn": "she could"
+        },
+        "b": {
+          "mix": "could she",
+          "en": "could she",
+          "bn": "could she"
+        },
+        "c": {
+          "mix": "had she",
+          "en": "had she",
+          "bn": "had she"
+        },
+        "d": {
+          "mix": "she had",
+          "en": "she had",
+          "bn": "she had"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Seldom বাক্যের শুরুতে থাকলে inversion হয়— auxiliary verb subject-এর পূর্বে বসে। এখানে understand-এর সঙ্গে could মানানসই বলে সঠিক উত্তর (খ) could she। (ক) she could ও (ঘ) she had-এ inversion হয়নি, আর (গ) had she-এর সঙ্গে understand মেলে না।",
+        "en": "When Seldom is at the beginning of a sentence, inversion takes place — the auxiliary verb comes before the subject. Here could goes with understand, so the correct answer is (b) could she. In (a) she could and (d) she had there is no inversion, and (c) had she does not go with understand.",
+        "bn": "Seldom বাক্যের শুরুতে থাকলে inversion হয়— auxiliary verb subject-এর পূর্বে বসে। এখানে understand-এর সঙ্গে could মানানসই বলে সঠিক উত্তর (খ) could she। (ক) she could ও (ঘ) she had-এ inversion হয়নি, আর (গ) had she-এর সঙ্গে understand মেলে না।"
+      },
+      "source": "বশেমুরবিপ্রবি ইউনিট F ২০১৮-১৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 8,
+      "question": {
+        "mix": "They are engrossed in studies and — .",
+        "en": "They are engrossed in studies and — .",
+        "bn": "They are engrossed in studies and — ."
+      },
+      "options": {
+        "a": {
+          "mix": "so do I",
+          "en": "so do I",
+          "bn": "so do I"
+        },
+        "b": {
+          "mix": "so I am",
+          "en": "so I am",
+          "bn": "so I am"
+        },
+        "c": {
+          "mix": "so am I",
+          "en": "so am I",
+          "bn": "so am I"
+        },
+        "d": {
+          "mix": "so did I",
+          "en": "so did I",
+          "bn": "so did I"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Affirmative agreement-এর ক্ষেত্রে so + auxiliary verb হলো সঠিক sequence। সুতরাং শূন্যস্থানে so am I বসবে।",
+        "en": "In the case of affirmative agreement, so + auxiliary verb is the correct sequence. So so am I will go in the blank.",
+        "bn": "Affirmative agreement-এর ক্ষেত্রে so + auxiliary verb হলো সঠিক sequence। সুতরাং শূন্যস্থানে so am I বসবে।"
+      },
+      "source": "চবি ইউনিট A (বিকাল) ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 9,
+      "question": {
+        "mix": "Rajshahi relies heavily on income from fruit crops, — .",
+        "en": "Rajshahi relies heavily on income from fruit crops, — .",
+        "bn": "Rajshahi relies heavily on income from fruit crops, — ."
+      },
+      "options": {
+        "a": {
+          "mix": "and so is Dinajpur",
+          "en": "and so is Dinajpur",
+          "bn": "and so is Dinajpur"
+        },
+        "b": {
+          "mix": "and so are other districts",
+          "en": "and so are other districts",
+          "bn": "and so are other districts"
+        },
+        "c": {
+          "mix": "and so is Chittagong",
+          "en": "and so is Chittagong",
+          "bn": "and so is Chittagong"
+        },
+        "d": {
+          "mix": "and so does Dinajpur",
+          "en": "and so does Dinajpur",
+          "bn": "and so does Dinajpur"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Agreement-এর ক্ষেত্রে প্রথম clauseটি যে tense-এ আছে পরবর্তী clauseটিও সেই tense এ হবে। আর and so-এর পরে ঐ tense-এর auxiliary verb এবং ঠিক তারপরই sub বসবে। সুতরাং শূন্যস্থানের জন্য সঠিক expression হলো and so does Dinajpur।",
+        "en": "In the case of agreement, the following clause will be in the same tense as the first clause. And after and so comes the auxiliary verb of that tense, followed immediately by the subject. So the correct expression for the blank is and so does Dinajpur.",
+        "bn": "Agreement-এর ক্ষেত্রে প্রথম clauseটি যে tense-এ আছে পরবর্তী clauseটিও সেই tense এ হবে। আর and so-এর পরে ঐ tense-এর auxiliary verb এবং ঠিক তারপরই sub বসবে। সুতরাং শূন্যস্থানের জন্য সঠিক expression হলো and so does Dinajpur।"
+      },
+      "source": "চবি ইউনিট D (সকাল) ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 10,
+      "question": {
+        "mix": "In no way — .",
+        "en": "In no way — .",
+        "bn": "In no way — ."
+      },
+      "options": {
+        "a": {
+          "mix": "we can justify militancy",
+          "en": "we can justify militancy",
+          "bn": "we can justify militancy"
+        },
+        "b": {
+          "mix": "we cannot justify militancy",
+          "en": "we cannot justify militancy",
+          "bn": "we cannot justify militancy"
+        },
+        "c": {
+          "mix": "can we justified militancy",
+          "en": "can we justified militancy",
+          "bn": "can we justified militancy"
+        },
+        "d": {
+          "mix": "can we justify militancy",
+          "en": "can we justify militancy",
+          "bn": "can we justify militancy"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "'In no way' adverbial phrase বাক্যের পূর্বে বসলে model auxiliary verbটি subject-এর পূর্বে চলে আসে। সুতরাং প্রদত্ত বাক্যটির শূন্যস্থানের জন্য যথাযথ expression হলো can we justify militancy। অন্যদিকে (গ) ভুল কারণ can এরপর verb-এর base form হয়।",
+        "en": "When the adverbial phrase 'In no way' comes before the sentence, the modal auxiliary verb comes before the subject. So the appropriate expression for the blank of the given sentence is can we justify militancy. On the other hand, (c) is wrong because after can the base form of the verb is used.",
+        "bn": "'In no way' adverbial phrase বাক্যের পূর্বে বসলে modal auxiliary verbটি subject-এর পূর্বে চলে আসে। সুতরাং প্রদত্ত বাক্যটির শূন্যস্থানের জন্য যথাযথ expression হলো can we justify militancy। অন্যদিকে (গ) ভুল কারণ can এরপর verb-এর base form হয়।"
+      },
+      "source": "চবি ইউনিট D (বিকাল) ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 11,
+      "question": {
+        "mix": "You like chocolate—",
+        "en": "You like chocolate—",
+        "bn": "You like chocolate—"
+      },
+      "options": {
+        "a": {
+          "mix": "and me too.",
+          "en": "and me too.",
+          "bn": "and me too."
+        },
+        "b": {
+          "mix": "and too.",
+          "en": "and too.",
+          "bn": "and too."
+        },
+        "c": {
+          "mix": "and so do I.",
+          "en": "and so do I.",
+          "bn": "and so do I."
+        },
+        "d": {
+          "mix": "and I do.",
+          "en": "and I do.",
+          "bn": "and I do."
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Affirmative agreement-এর ক্ষেত্রে structure হলো : And + so + পূর্বের tense অনুযায়ী auxiliary verb + sub। সুতরাং সঠিক উত্তর and so do I।",
+        "en": "In the case of affirmative agreement, the structure is: And + so + auxiliary verb according to the previous tense + subject. So the correct answer is and so do I.",
+        "bn": "Affirmative agreement-এর ক্ষেত্রে structure হলো : And + so + পূর্বের tense অনুযায়ী auxiliary verb + sub। সুতরাং সঠিক উত্তর and so do I।"
+      },
+      "source": "জগন্নাথবি ইউনিট ডি ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 12,
+      "question": {
+        "mix": "No sooner— I shut the door, when the telephone rang.",
+        "en": "No sooner— I shut the door, when the telephone rang.",
+        "bn": "No sooner— I shut the door, when the telephone rang."
+      },
+      "options": {
+        "a": {
+          "mix": "had",
+          "en": "had",
+          "bn": "had"
+        },
+        "b": {
+          "mix": "did",
+          "en": "did",
+          "bn": "did"
+        },
+        "c": {
+          "mix": "will",
+          "en": "will",
+          "bn": "will"
+        },
+        "d": {
+          "mix": "would",
+          "en": "would",
+          "bn": "would"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "No sooner একটি negative adverb যা কোনো বাক্যে ব্যবহৃত হলে ঐ বাক্যের subject (I) এর পূর্বে auxiliary verb বসে। যেহেতু দ্বিতীয় clause টি past indefinite tense-এ সেহেতু প্রথম clauseটি past perfect tense-এ হবে। তাই শূন্যস্থানে had বসবে।",
+        "en": "No sooner is a negative adverb; when it is used in a sentence, the auxiliary verb comes before the subject (I) of that sentence. Since the second clause is in the past indefinite tense, the first clause will be in the past perfect tense. So had will go in the blank.",
+        "bn": "No sooner একটি negative adverb যা কোনো বাক্যে ব্যবহৃত হলে ঐ বাক্যের subject (I) এর পূর্বে auxiliary verb বসে। যেহেতু দ্বিতীয় clause টি past indefinite tense-এ সেহেতু প্রথম clauseটি past perfect tense-এ হবে। তাই শূন্যস্থানে had বসবে।"
+      },
+      "source": "চবি ইউনিট D ২০১৭-১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 13,
+      "question": {
+        "mix": "A good number of adolescents do not socialize, — .",
+        "en": "A good number of adolescents do not socialize, — .",
+        "bn": "A good number of adolescents do not socialize, — ."
+      },
+      "options": {
+        "a": {
+          "mix": "they neither build up their career",
+          "en": "they neither build up their career",
+          "bn": "they neither build up their career"
+        },
+        "b": {
+          "mix": "nor they build up their career",
+          "en": "nor they build up their career",
+          "bn": "nor they build up their career"
+        },
+        "c": {
+          "mix": "nor do they build up their career",
+          "en": "nor do they build up their career",
+          "bn": "nor do they build up their career"
+        },
+        "d": {
+          "mix": "hardly they build up their career",
+          "en": "hardly they build up their career",
+          "bn": "hardly they build up their career"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "বাক্যে অতিরিক্ত জোর প্রদান করতে মাঝে মাঝে কিছু negative adverb বাক্যের শুরুতে বসে। সেক্ষেত্রে বাক্যের গঠন ভিন্ন হয়। Negative adverb + auxiliary verb + subject + verb + obj হয়। Negative adverb এর ব্যবহার অনুযায়ী (গ) অপশনের বাক্য ব্যতীত বাকি তিনটি অপশনের বাক্যই ভুল।",
+        "en": "To give extra emphasis to a sentence, sometimes some negative adverbs sit at the beginning of the sentence. In that case the structure of the sentence becomes different: Negative adverb + auxiliary verb + subject + verb + object. According to the use of the negative adverb, except for the sentence in option (c), the sentences in the other three options are all wrong.",
+        "bn": "বাক্যে অতিরিক্ত জোর প্রদান করতে মাঝে মাঝে কিছু negative adverb বাক্যের শুরুতে বসে। সেক্ষেত্রে বাক্যের গঠন ভিন্ন হয়। Negative adverb + auxiliary verb + subject + verb + obj হয়। Negative adverb এর ব্যবহার অনুযায়ী (গ) অপশনের বাক্য ব্যতীত বাকি তিনটি অপশনের বাক্যই ভুল।"
+      },
+      "source": "চবি ইউনিট D ২০১৭-১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 14,
+      "question": {
+        "mix": "Most students don't like homework and — .",
+        "en": "Most students don't like homework and — .",
+        "bn": "Most students don't like homework and — ."
+      },
+      "options": {
+        "a": {
+          "mix": "neither do I",
+          "en": "neither do I",
+          "bn": "neither do I"
+        },
+        "b": {
+          "mix": "I do not too",
+          "en": "I do not too",
+          "bn": "I do not too"
+        },
+        "c": {
+          "mix": "neither don't I",
+          "en": "neither don't I",
+          "bn": "neither don't I"
+        },
+        "d": {
+          "mix": "either I don't",
+          "en": "either I don't",
+          "bn": "either I don't"
+        },
+        "e": {
+          "mix": "I either don't",
+          "en": "I either don't",
+          "bn": "I either don't"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "'Verb' এর inversion এর ক্ষেত্রে neither + positive auxiliary verb + subject— structure-টি অনুসৃত হবে।",
+        "en": "In the case of inversion of the 'verb', the structure neither + positive auxiliary verb + subject will be followed.",
+        "bn": "'Verb' এর inversion এর ক্ষেত্রে neither + positive auxiliary verb + subject— structure-টি অনুসৃত হবে।"
+      },
+      "source": "চবি ইউনিট সি ২০১৬-১৭",
+      "explanation_source": "book"
+    }
+  ],
+  "unclear": [
+    {
+      "page": 156,
+      "note": "PDF page 156 (book p. 138) is the tail of Chapter 11 (Adverbs, University & Medical Q15–24); Chapter 12 proper begins on PDF page 157. The page is included in chapter-12-raw.txt as part of the assigned range, but its MCQs are not in this chapter's data."
+    },
+    {
+      "page": 157,
+      "note": "Introduction prints 'কিন্তু শুরুতে প্রধানত adverbial phrase-কে...' — preserved verbatim in mix; rendered as 'mainly' in en/bn."
+    },
+    {
+      "page": 157,
+      "note": "Rule 12.1 prints 'scarecly' (for scarcely); preserved verbatim in mix, spelled 'scarcely' in en/bn."
+    },
+    {
+      "page": 159,
+      "note": "Inline MCQ 15 option (খ) is printed 'he did'nt too'; preserved verbatim in mix, spelled 'he didn't too' in en/bn."
+    },
+    {
+      "page": 159,
+      "note": "Inline MCQ 13 question is printed with odd quotation marks around the blank ('I don't like coffee' '— do I'); recorded as \"'I don't like coffee' — do I'\"."
+    },
+    {
+      "page": 161,
+      "note": "Bank Q02 option (গ) is printed 'and neitter have I'; preserved verbatim in mix, spelled 'and neither have I' in en/bn."
+    },
+    {
+      "page": 161,
+      "note": "Bank Q01 Hints prints 'irversion' (for inversion); preserved verbatim in mix, spelled 'inversion' in en/bn."
+    },
+    {
+      "page": 161,
+      "note": "PSC Q03 source in the shaded right margin is faint; recorded as 'পোস্ট মাস্টার জেনারেল (পূর্বাঞ্চল, চট্টগ্রাম)-এর কার্যালয়ের পোস্টাল অপারেটর ২০১৬' with the answer letter (ঘ) clearly printed."
+    },
+    {
+      "page": 163,
+      "note": "Univ Q10 Hints prints 'model auxiliary verb' (for modal); preserved verbatim in mix, spelled 'modal' in en/bn."
+    },
+    {
+      "page": 163,
+      "note": "Univ Q11 source in the shaded right margin is faint; read as 'জগন্নাথবি ইউনিট ডি ২০১৮-১৯' with the answer letter (গ) clearly printed."
+    }
+  ],
+  "translation_source": "generated"
+}
