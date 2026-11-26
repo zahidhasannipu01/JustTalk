@@ -1,0 +1,2859 @@
+{
+  "chapter": "Chapter-02: The Noun",
+  "pages": [
+    41,
+    50
+  ],
+  "rules": [
+    {
+      "heading": {
+        "mix": "Introduction",
+        "en": "Introduction",
+        "bn": "ভূমিকা"
+      },
+      "body": {
+        "mix": "চাকরি কিংবা ভর্তি যে কোনো প্রতিযোগিতামূলক পরীক্ষায় Noun-এর প্রকারভেদ, কোনটি কোন প্রকারের noun, noun টি countable না uncountable, অন্যান্য parts of speech থেকে noun গঠন, gerund, verbal noun ইত্যাদি সম্পর্কিত প্রশ্ন এসে থাকে। ঐ সকল প্রশ্নের সঠিক উত্তর প্রদানের জন্য নিচের আলোচনাটি ভালোভাবে পড়ুন।",
+        "en": "In any competitive examination, whether for a job or for admission, questions come on the kinds of nouns, which noun is of which kind, whether a noun is countable or uncountable, forming nouns from other parts of speech, gerunds, verbal nouns, and so on. Read the discussion below carefully to answer all such questions correctly.",
+        "bn": "চাকরি কিংবা ভর্তি যে কোনো প্রতিযোগিতামূলক পরীক্ষায় Noun-এর প্রকারভেদ, কোনটি কোন প্রকারের noun, noun টি countable না uncountable, অন্যান্য parts of speech থেকে noun গঠন, gerund, verbal noun ইত্যাদি সম্পর্কিত প্রশ্ন এসে থাকে। ঐ সকল প্রশ্নের সঠিক উত্তর প্রদানের জন্য নিচের আলোচনাটি ভালোভাবে পড়ুন।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "2 Noun",
+        "en": "2 Noun",
+        "bn": "2 Noun"
+      },
+      "body": {
+        "mix": "কোনো ব্যক্তি, বস্তু, স্থান বা ক্রিয়ার নামকে Noun বলে। যেমন— Karim, Dhaka, man, flower, planet, class, team, iron, water, wisdom, honesty ইত্যাদি।",
+        "en": "The name of a person, thing, place or action is called a noun. For example — Karim, Dhaka, man, flower, planet, class, team, iron, water, wisdom, honesty etc.",
+        "bn": "কোনো ব্যক্তি, বস্তু, স্থান বা ক্রিয়ার নামকে Noun বলে। যেমন— Karim, Dhaka, man, flower, planet, class, team, iron, water, wisdom, honesty ইত্যাদি।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.1 Classification (শ্রেণি বিভাগ)",
+        "en": "2.1 Classification",
+        "bn": "2.1 Classification (শ্রেণি বিভাগ)"
+      },
+      "body": {
+        "mix": "Noun-এর অস্তিত্ব বিচারে Noun-কে দুই ভাগে ভাগ করা যায়। যথা: 1. Concrete Noun ও 2. Abstract Noun। Concrete noun-কে আবার চার ভাগে (proper, common, collective ও material) ভাগ করা যায়। তাই বলা যায়, Noun মোট পাঁচ প্রকার। যথা: 1. Proper Noun, 2. Common Noun, 3. Collective Noun, 4. Material Noun, 5. Abstract Noun।",
+        "en": "Judging by their existence, nouns can be divided into two kinds, namely: 1. Concrete Noun and 2. Abstract Noun. A concrete noun can again be divided into four kinds (proper, common, collective and material). So it can be said that there are five kinds of nouns in all, namely: 1. Proper Noun, 2. Common Noun, 3. Collective Noun, 4. Material Noun, 5. Abstract Noun.",
+        "bn": "Noun-এর অস্তিত্ব বিচারে Noun-কে দুই ভাগে ভাগ করা যায়। যথা: 1. Concrete Noun ও 2. Abstract Noun। Concrete noun-কে আবার চার ভাগে (proper, common, collective ও material) ভাগ করা যায়। তাই বলা যায়, Noun মোট পাঁচ প্রকার। যথা: 1. Proper Noun, 2. Common Noun, 3. Collective Noun, 4. Material Noun, 5. Abstract Noun।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.1.a Proper Noun",
+        "en": "2.1.a Proper Noun",
+        "bn": "2.1.a Proper Noun"
+      },
+      "body": {
+        "mix": "যেসব noun নির্দিষ্ট কোনো ব্যক্তি, বস্তু, স্থান বা অন্য কিছুর নামকে বোঝায়, তাদেরকে Proper Noun বলে। Proper Noun সাধারণত capital letter দিয়ে শুরু হয়। যেমন— Rahim, Karim, Titanic, Moon, Dhaka, Rajshahi etc.",
+        "en": "The nouns that denote the name of a particular person, thing, place or anything else are called proper nouns. A proper noun generally begins with a capital letter. For example — Rahim, Karim, Titanic, Moon, Dhaka, Rajshahi etc.",
+        "bn": "যেসব noun নির্দিষ্ট কোনো ব্যক্তি, বস্তু, স্থান বা অন্য কিছুর নামকে বোঝায়, তাদেরকে Proper Noun বলে। Proper Noun সাধারণত capital letter দিয়ে শুরু হয়। যেমন— Rahim, Karim, Titanic, Moon, Dhaka, Rajshahi etc."
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.1.b Common Noun",
+        "en": "2.1.b Common Noun",
+        "bn": "2.1.b Common Noun"
+      },
+      "body": {
+        "mix": "যেসব noun নির্দিষ্ট কোনো কিছুকে না বুঝিয়ে একটি শ্রেণির ব্যক্তি বা বস্তুর প্রত্যেকের সাধারণ নাম বোঝায়, তাদেরকে Common Noun বলে। যেমন— man, flower, girl, woman, planet, dress, fruit, player, dancer, cow, country, actor, actress, ship ইত্যাদি।",
+        "en": "The nouns that, instead of denoting any particular thing, denote the common name of every person or thing of a class are called common nouns. For example — man, flower, girl, woman, planet, dress, fruit, player, dancer, cow, country, actor, actress, ship etc.",
+        "bn": "যেসব noun নির্দিষ্ট কোনো কিছুকে না বুঝিয়ে একটি শ্রেণির ব্যক্তি বা বস্তুর প্রত্যেকের সাধারণ নাম বোঝায়, তাদেরকে Common Noun বলে। যেমন— man, flower, girl, woman, planet, dress, fruit, player, dancer, cow, country, actor, actress, ship ইত্যাদি।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.1.c Collective Noun",
+        "en": "2.1.c Collective Noun",
+        "bn": "2.1.c Collective Noun"
+      },
+      "body": {
+        "mix": "যেসব noun একজাতীয় ব্যক্তি বা বস্তুর অবিভক্ত সমষ্টিকে বোঝায় তাদেরকে Collective Noun বলে। যেমন— army, flock, band, cavalry, herd, jury, crowd, family, poultry, cattle, navy, party, gang, committee, group, fleet, flock, infantry ইত্যাদি।",
+        "en": "The nouns that denote an undivided collection of persons or things of the same kind are called collective nouns. For example — army, flock, band, cavalry, herd, jury, crowd, family, poultry, cattle, navy, party, gang, committee, group, fleet, flock, infantry etc.",
+        "bn": "যেসব noun একজাতীয় ব্যক্তি বা বস্তুর অবিভক্ত সমষ্টিকে বোঝায় তাদেরকে Collective Noun বলে। যেমন— army, flock, band, cavalry, herd, jury, crowd, family, poultry, cattle, navy, party, gang, committee, group, fleet, flock, infantry ইত্যাদি।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.1.d Material Noun",
+        "en": "2.1.d Material Noun",
+        "bn": "2.1.d Material Noun"
+      },
+      "body": {
+        "mix": "যেসব noun কোনো পদার্থের সমুদয় অংশকে এককভাবে বোঝায় এবং তার অন্তর্গত কোনো খণ্ড বা অংশকে বোঝায় না তাদেরকে Material Noun বলে। এগুলোকে গণনা করা যায় না, অন্য কোনোভাবে পরিমাপ করা যায়। যেমন— diamond, gold, iron, wheat, salt, flour, milk, tea, coffee, water etc.",
+        "en": "The nouns that denote the whole of a substance as a single unit, and do not denote any piece or part of it, are called material nouns. They cannot be counted; they can be measured in some other way. For example — diamond, gold, iron, wheat, salt, flour, milk, tea, coffee, water etc.",
+        "bn": "যেসব noun কোনো পদার্থের সমুদয় অংশকে এককভাবে বোঝায় এবং তার অন্তর্গত কোনো খণ্ড বা অংশকে বোঝায় না তাদেরকে Material Noun বলে। এগুলোকে গণনা করা যায় না, অন্য কোনোভাবে পরিমাপ করা যায়। যেমন— diamond, gold, iron, wheat, salt, flour, milk, tea, coffee, water etc."
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.1.e Abstract Noun",
+        "en": "2.1.e Abstract Noun",
+        "bn": "2.1.e Abstract Noun"
+      },
+      "body": {
+        "mix": "যেসব noun অবস্তুগত ধারণা বা গুণকে নির্দেশ করে, যাদের বাহ্যিক অস্তিত্ব নেই বা ইন্দ্রিয়ের সাহায্যে উপলব্ধি করা যায় না অর্থাৎ যাদেরকে দেখা যায় না, যাদের গন্ধ নেয়া যায় না, যাদেরকে স্পর্শ করা যায় না বা যাদের স্বাদ নেয়া যায় না, কিন্তু শুধু কল্পনা দ্বারা বা অনুভব দ্বারা বোঝা যায়, তাদেরকে Abstract Noun বলে। যেমন— agency, childhood, fatherhood, friendship, girlhood, heroism, infancy, manhood, motherhood etc.",
+        "en": "The nouns that indicate an immaterial idea or quality, which have no outward existence and cannot be perceived with the senses — that is, which cannot be seen, smelled, touched or tasted, but can only be understood through imagination or feeling — are called abstract nouns. For example — agency, childhood, fatherhood, friendship, girlhood, heroism, infancy, manhood, motherhood etc.",
+        "bn": "যেসব noun অবস্তুগত ধারণা বা গুণকে নির্দেশ করে, যাদের বাহ্যিক অস্তিত্ব নেই বা ইন্দ্রিয়ের সাহায্যে উপলব্ধি করা যায় না অর্থাৎ যাদেরকে দেখা যায় না, যাদের গন্ধ নেয়া যায় না, যাদেরকে স্পর্শ করা যায় না বা যাদের স্বাদ নেয়া যায় না, কিন্তু শুধু কল্পনা দ্বারা বা অনুভব দ্বারা বোঝা যায়, তাদেরকে Abstract Noun বলে। যেমন— agency, childhood, fatherhood, friendship, girlhood, heroism, infancy, manhood, motherhood etc."
+      }
+    },
+    {
+      "heading": {
+        "mix": "Abstract Noun চেনার উপায়",
+        "en": "How to Recognise an Abstract Noun",
+        "bn": "Abstract Noun চেনার উপায়"
+      },
+      "body": {
+        "mix": "Noun-এর শেষে suffix যেমন— ness, ship, cy, age, hood, ty, tude, mony, ment ইত্যাদি থাকে।",
+        "en": "At the end of a noun there are suffixes such as — ness, ship, cy, age, hood, ty, tude, mony, ment etc.",
+        "bn": "Noun-এর শেষে suffix যেমন— ness, ship, cy, age, hood, ty, tude, mony, ment ইত্যাদি থাকে।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.2 গণনযোগ্যতার ভিত্তিতে Noun-এর ভাগ",
+        "en": "2.2 Division of Nouns by Countability",
+        "bn": "2.2 গণনযোগ্যতার ভিত্তিতে Noun-এর ভাগ"
+      },
+      "body": {
+        "mix": "গণনযোগ্যতার ভিত্তিতে Noun-কে দুই ভাগে ভাগ করা যায়। যথা: i. Countable Noun ও ii. Uncountable Noun।",
+        "en": "On the basis of countability, nouns can be divided into two kinds, namely: i. Countable Noun and ii. Uncountable Noun.",
+        "bn": "গণনযোগ্যতার ভিত্তিতে Noun-কে দুই ভাগে ভাগ করা যায়। যথা: i. Countable Noun ও ii. Uncountable Noun।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.2.i Countable Noun",
+        "en": "2.2.i Countable Noun",
+        "bn": "2.2.i Countable Noun"
+      },
+      "body": {
+        "mix": "যেসব noun-এর সংখ্যা গণনা করা যায়, তাদেরকে Countable Noun বলে। Countable Noun-এর Plural হয়। যেমন— book, city, stars etc.",
+        "en": "The nouns whose number can be counted are called countable nouns. Countable nouns have plurals. For example — book, city, stars etc.",
+        "bn": "যেসব noun-এর সংখ্যা গণনা করা যায়, তাদেরকে Countable Noun বলে। Countable Noun-এর Plural হয়। যেমন— book, city, stars etc."
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.2.ii Uncountable Noun",
+        "en": "2.2.ii Uncountable Noun",
+        "bn": "2.2.ii Uncountable Noun"
+      },
+      "body": {
+        "mix": "যেসব noun-এর সংখ্যা গণনা করা যায় না, অন্য কোনো উপায়ে পরিমাপ করা গেলেও যেতে পারে তাদেরকে Uncountable Noun বলে। Uncountable Noun-এর plural হয় না। যেমন— water, honesty, air, news, physics etc.",
+        "en": "The nouns whose number cannot be counted, although they may be measured in some other way, are called uncountable nouns. Uncountable nouns have no plural. For example — water, honesty, air, news, physics etc.",
+        "bn": "যেসব noun-এর সংখ্যা গণনা করা যায় না, অন্য কোনো উপায়ে পরিমাপ করা গেলেও যেতে পারে তাদেরকে Uncountable Noun বলে। Uncountable Noun-এর plural হয় না। যেমন— water, honesty, air, news, physics etc."
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.3 Gerund",
+        "en": "2.3 Gerund",
+        "bn": "2.3 Gerund"
+      },
+      "body": {
+        "mix": "Verb + ing যখন sentence-এ noun-এর কাজ করে তখন তাকে Gerund বলে। নিচের sentence-এ swimming ও watching হলো Gerund। Swimming is a good exercise. He enjoys watching television.",
+        "en": "When verb + ing does the work of a noun in a sentence, it is called a gerund. In the sentences below, 'swimming' and 'watching' are gerunds. Swimming is a good exercise. He enjoys watching television.",
+        "bn": "Verb + ing যখন sentence-এ noun-এর কাজ করে তখন তাকে Gerund বলে। নিচের sentence-এ swimming ও watching হলো Gerund। Swimming is a good exercise. He enjoys watching television."
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.4 Verbal Noun",
+        "en": "2.4 Verbal Noun",
+        "bn": "2.4 Verbal Noun"
+      },
+      "body": {
+        "mix": "Verb+ing-এর পূর্বে the এবং পরে of থাকলে তাকে Verbal Noun বলে। যেমন— The reading of novels gives us pleasure. The killing of animals is an offence.",
+        "en": "When 'the' comes before verb + ing and 'of' comes after it, it is called a verbal noun. For example — The reading of novels gives us pleasure. The killing of animals is an offence.",
+        "bn": "Verb+ing-এর পূর্বে the এবং পরে of থাকলে তাকে Verbal Noun বলে। যেমন— The reading of novels gives us pleasure. The killing of animals is an offence."
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.5 Functions of Noun (Noun-এর কাজ)",
+        "en": "2.5 Functions of Noun",
+        "bn": "2.5 Functions of Noun (Noun-এর কাজ)"
+      },
+      "body": {
+        "mix": "Noun বাক্যের sub, obj হিসেবে ব্যবহৃত হতে পারে। Preposition-এর obj, linking verb-এর complement হিসেবে আবার Noun-এর apposition হিসেবেও বাক্যে ব্যবহৃত হয়। (a) Verb-এর subject হিসেবে কাজ করতে পারে। যেমন— Akbar rules over India. This book reads well. (b) Transitive verb-এর object হিসেবে কাজ করতে পারে। যেমন— We visited India. The driver starts the bus. (c) Preposition-এর object হিসেবে কাজ করতে পারে। যেমন— The cat is fond of milk. I cannot rely on Karim. (d) Linking verb-এর complement হিসেবে কাজ করতে পারে। যেমন— He is Akbar. We elected him chairman. (e) Noun-এর apposition হিসেবে কাজ করতে পারে। যেমন— My brother, Akbar, is a good boy. We, the SSC examinees, are waiting for the result.",
+        "en": "A noun can be used in a sentence as the subject or object. It is also used as the object of a preposition, as the complement of a linking verb, and as the apposition of a noun. (a) It can work as the subject of a verb. For example — Akbar rules over India. This book reads well. (b) It can work as the object of a transitive verb. For example — We visited India. The driver starts the bus. (c) It can work as the object of a preposition. For example — The cat is fond of milk. I cannot rely on Karim. (d) It can work as the complement of a linking verb. For example — He is Akbar. We elected him chairman. (e) It can work as the apposition of a noun. For example — My brother, Akbar, is a good boy. We, the SSC examinees, are waiting for the result.",
+        "bn": "Noun বাক্যের sub, obj হিসেবে ব্যবহৃত হতে পারে। Preposition-এর obj, linking verb-এর complement হিসেবে আবার Noun-এর apposition হিসেবেও বাক্যে ব্যবহৃত হয়। (a) Verb-এর subject হিসেবে কাজ করতে পারে। যেমন— Akbar rules over India. This book reads well. (b) Transitive verb-এর object হিসেবে কাজ করতে পারে। যেমন— We visited India. The driver starts the bus. (c) Preposition-এর object হিসেবে কাজ করতে পারে। যেমন— The cat is fond of milk. I cannot rely on Karim. (d) Linking verb-এর complement হিসেবে কাজ করতে পারে। যেমন— He is Akbar. We elected him chairman. (e) Noun-এর apposition হিসেবে কাজ করতে পারে। যেমন— My brother, Akbar, is a good boy. We, the SSC examinees, are waiting for the result."
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.6 Formation of Derived Nouns",
+        "en": "2.6 Formation of Derived Nouns",
+        "bn": "2.6 Formation of Derived Nouns"
+      },
+      "body": {
+        "mix": "অন্য word থেকে prefixation and suffixation, conversion ও compounding-এর মাধ্যমে Derived Nouns গঠিত হয়।",
+        "en": "Derived nouns are formed from other words through prefixation and suffixation, conversion and compounding.",
+        "bn": "অন্য word থেকে prefixation and suffixation, conversion ও compounding-এর মাধ্যমে Derived Nouns গঠিত হয়।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.6.a. Prefixation",
+        "en": "2.6.a. Prefixation",
+        "bn": "2.6.a. Prefixation"
+      },
+      "body": {
+        "mix": "Noun-এর শুরুতে prefix যোগ হয়ে নতুন noun গঠিত হয়। যেমন— anti-: antibody, anticlimax; arch-: arch-enemy, archbishop; auto-: autobiography, autograph; bi-: bicentenary, bilingualism; bio-: biochemistry, biomass; co-: co-chairman, co-founder; dis-: disbelief, discomfort; ex-: ex-student, ex-chairman; in-: inattention, inactivity; inter-: interaction, intermarriage।",
+        "en": "A new noun is formed by adding a prefix at the beginning of a noun. For example — anti-: antibody, anticlimax; arch-: arch-enemy, archbishop; auto-: autobiography, autograph; bi-: bicentenary, bilingualism; bio-: biochemistry, biomass; co-: co-chairman, co-founder; dis-: disbelief, discomfort; ex-: ex-student, ex-chairman; in-: inattention, inactivity; inter-: interaction, intermarriage.",
+        "bn": "Noun-এর শুরুতে prefix যোগ হয়ে নতুন noun গঠিত হয়। যেমন— anti-: antibody, anticlimax; arch-: arch-enemy, archbishop; auto-: autobiography, autograph; bi-: bicentenary, bilingualism; bio-: biochemistry, biomass; co-: co-chairman, co-founder; dis-: disbelief, discomfort; ex-: ex-student, ex-chairman; in-: inattention, inactivity; inter-: interaction, intermarriage।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.6.b. Suffixation",
+        "en": "2.6.b. Suffixation",
+        "bn": "2.6.b. Suffixation"
+      },
+      "body": {
+        "mix": "Noun-এর শেষে suffix যোগ হয়ে নতুন noun গঠিত হয়। যেমন— -an, -ian: American, historian; -ician: clinician, politician; -cy: decency, currency; -dom: boredom, wisdom; -ee: absentee, devotee; -ese: Chinese, Japanese; -ess: actress, tigress; -ette: Cigarette, kitchenette; -ful: Handful, mouthful; -hood: childhood, falsehood।",
+        "en": "A new noun is formed by adding a suffix at the end of a noun. For example — -an, -ian: American, historian; -ician: clinician, politician; -cy: decency, currency; -dom: boredom, wisdom; -ee: absentee, devotee; -ese: Chinese, Japanese; -ess: actress, tigress; -ette: Cigarette, kitchenette; -ful: Handful, mouthful; -hood: childhood, falsehood.",
+        "bn": "Noun-এর শেষে suffix যোগ হয়ে নতুন noun গঠিত হয়। যেমন— -an, -ian: American, historian; -ician: clinician, politician; -cy: decency, currency; -dom: boredom, wisdom; -ee: absentee, devotee; -ese: Chinese, Japanese; -ess: actress, tigress; -ette: Cigarette, kitchenette; -ful: Handful, mouthful; -hood: childhood, falsehood।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.7 অন্যান্য পদ থেকে Abstract Noun",
+        "en": "2.7 Abstract Nouns from Other Parts of Speech",
+        "bn": "2.7 অন্যান্য পদ থেকে Abstract Noun"
+      },
+      "body": {
+        "mix": "অন্যান্য পদ থেকে Abstract Noun গঠিত হতে পারে। নিচের তালিকা দেখুন।",
+        "en": "Abstract nouns can be formed from other parts of speech. See the list below.",
+        "bn": "অন্যান্য পদ থেকে Abstract Noun গঠিত হতে পারে। নিচের তালিকা দেখুন।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.7.a Common Noun ও Adjective থেকে Abstract Noun গঠনের তালিকা",
+        "en": "2.7.a List of Abstract Nouns Formed from Common Nouns and Adjectives",
+        "bn": "2.7.a Common Noun ও Adjective থেকে Abstract Noun গঠনের তালিকা"
+      },
+      "body": {
+        "mix": "agent: agency; friend: friendship; child: childhood; father: fatherhood; girl: girlhood; hero: heroism; advise: advice; anxious: anxiety; beautiful: beauty; clever: cleverness; deep: depth; fat: fatness; high: height; hate: hatred।",
+        "en": "agent: agency; friend: friendship; child: childhood; father: fatherhood; girl: girlhood; hero: heroism; advise: advice; anxious: anxiety; beautiful: beauty; clever: cleverness; deep: depth; fat: fatness; high: height; hate: hatred.",
+        "bn": "agent: agency; friend: friendship; child: childhood; father: fatherhood; girl: girlhood; hero: heroism; advise: advice; anxious: anxiety; beautiful: beauty; clever: cleverness; deep: depth; fat: fatness; high: height; hate: hatred।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.7.b. Verb থেকে Abstract Noun",
+        "en": "2.7.b. Abstract Nouns from Verbs",
+        "bn": "2.7.b. Verb থেকে Abstract Noun"
+      },
+      "body": {
+        "mix": "amplify: amplification; arrive: arrival; believe: belief; choose: choice; know: knowledge; laugh: laughter; live: life; multiply: multiplicity।",
+        "en": "amplify: amplification; arrive: arrival; believe: belief; choose: choice; know: knowledge; laugh: laughter; live: life; multiply: multiplicity.",
+        "bn": "amplify: amplification; arrive: arrival; believe: belief; choose: choice; know: knowledge; laugh: laughter; live: life; multiply: multiplicity।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.8 Converted Nouns",
+        "en": "2.8 Converted Nouns",
+        "bn": "2.8 Converted Nouns"
+      },
+      "body": {
+        "mix": "কতকগুলো adjective ও verb কোনো পরিবর্তন না হয়ে সরাসরি noun হিসেবে ব্যবহৃত হয়। এদেরকে Converted Noun বলে। যেমন— hopeful (adj.): They are presidential hopefuls.; white (adj.): They speak like the whites.; catch (v): He took a brilliant catch.; cheat (v): You are a cheat.; walk (v): We can go for a walk।",
+        "en": "Some adjectives and verbs are used directly as nouns without any change. They are called converted nouns. For example — hopeful (adj.): They are presidential hopefuls.; white (adj.): They speak like the whites.; catch (v): He took a brilliant catch.; cheat (v): You are a cheat.; walk (v): We can go for a walk.",
+        "bn": "কতকগুলো adjective ও verb কোনো পরিবর্তন না হয়ে সরাসরি noun হিসেবে ব্যবহৃত হয়। এদেরকে Converted Noun বলে। যেমন— hopeful (adj.): They are presidential hopefuls.; white (adj.): They speak like the whites.; catch (v): He took a brilliant catch.; cheat (v): You are a cheat.; walk (v): We can go for a walk।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "2.9 Compound Nouns",
+        "en": "2.9 Compound Nouns",
+        "bn": "2.9 Compound Nouns"
+      },
+      "body": {
+        "mix": "কতকগুলো noun-এর সাথে অন্যান্য noun বা অন্যান্য Parts of Speech যোগ হয়ে একটি noun বা noun phrase হিসেবে ব্যবহৃত হয়। এদেরকে Compound noun বলে। যেমন— noun + noun: headmaster, bathroom, database, classroom etc.; noun + verb/noun: gunfire, handshake, home run, moonwalk etc.; noun + verb-er: dishwasher, dressmaker, eye-opener, fire-fighter etc.; noun + verb-ing: fire-fighting, housekeeping, thanksgiving etc.; verb/noun + noun: cookbook, dipstick, playboy, swimsuit etc.; self + noun: self-control, self-esteem, self-help, self-pity etc.; verb-ing + noun: filling cabinet, filling station, mockingbird etc.; adjective + noun: bigwig, blackbird, grandmother, highway etc.; verb + particle: checkout, feedback, fly-over, go-between etc.; particle + verb/noun: Bystander, downturn, in-fighting, outfit etc.",
+        "en": "Some nouns join with other nouns or other parts of speech and are used as a single noun or noun phrase. They are called compound nouns. For example — noun + noun: headmaster, bathroom, database, classroom etc.; noun + verb/noun: gunfire, handshake, home run, moonwalk etc.; noun + verb-er: dishwasher, dressmaker, eye-opener, fire-fighter etc.; noun + verb-ing: fire-fighting, housekeeping, thanksgiving etc.; verb/noun + noun: cookbook, dipstick, playboy, swimsuit etc.; self + noun: self-control, self-esteem, self-help, self-pity etc.; verb-ing + noun: filing cabinet, filling station, mockingbird etc.; adjective + noun: bigwig, blackbird, grandmother, highway etc.; verb + particle: checkout, feedback, fly-over, go-between etc.; particle + verb/noun: Bystander, downturn, in-fighting, outfit etc.",
+        "bn": "কতকগুলো noun-এর সাথে অন্যান্য noun বা অন্যান্য Parts of Speech যোগ হয়ে একটি noun বা noun phrase হিসেবে ব্যবহৃত হয়। এদেরকে Compound noun বলে। যেমন— noun + noun: headmaster, bathroom, database, classroom etc.; noun + verb/noun: gunfire, handshake, home run, moonwalk etc.; noun + verb-er: dishwasher, dressmaker, eye-opener, fire-fighter etc.; noun + verb-ing: fire-fighting, housekeeping, thanksgiving etc.; verb/noun + noun: cookbook, dipstick, playboy, swimsuit etc.; self + noun: self-control, self-esteem, self-help, self-pity etc.; verb-ing + noun: filling cabinet, filling station, mockingbird etc.; adjective + noun: bigwig, blackbird, grandmother, highway etc.; verb + particle: checkout, feedback, fly-over, go-between etc.; particle + verb/noun: Bystander, downturn, in-fighting, outfit etc."
+      }
+    }
+  ],
+  "mcqs": [
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 1,
+      "question": {
+        "mix": "Noun কত প্রকার?",
+        "en": "How many kinds of nouns are there?",
+        "bn": "Noun কত প্রকার?"
+      },
+      "options": {
+        "a": {
+          "mix": "5",
+          "en": "5",
+          "bn": "5"
+        },
+        "b": {
+          "mix": "6",
+          "en": "6",
+          "bn": "6"
+        },
+        "c": {
+          "mix": "4",
+          "en": "4",
+          "bn": "4"
+        },
+        "d": {
+          "mix": "3",
+          "en": "3",
+          "bn": "3"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Noun মোট পাঁচ প্রকার— Proper, Common, Collective, Material ও Abstract Noun। Concrete Noun চার প্রকার (proper, common, collective, material) আর Abstract Noun এক প্রকার— মোট পাঁচ।",
+        "en": "There are five kinds of nouns in all — Proper, Common, Collective, Material and Abstract Noun. Concrete nouns are of four kinds (proper, common, collective, material) and abstract noun is of one kind — five in all.",
+        "bn": "Noun মোট পাঁচ প্রকার— Proper, Common, Collective, Material ও Abstract Noun। Concrete Noun চার প্রকার (proper, common, collective, material) আর Abstract Noun এক প্রকার— মোট পাঁচ।"
+      },
+      "source": "প্রাথমিক শিক্ষা অধিদপ্তরের হিসাব সহকারী ২০১১",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 2,
+      "question": {
+        "mix": "Which of the following nouns is not a proper noun?",
+        "en": "Which of the following nouns is not a proper noun?",
+        "bn": "নিচের কোন noun-টি proper noun নয়?"
+      },
+      "options": {
+        "a": {
+          "mix": "Team",
+          "en": "Team",
+          "bn": "Team"
+        },
+        "b": {
+          "mix": "Dhaka",
+          "en": "Dhaka",
+          "bn": "Dhaka"
+        },
+        "c": {
+          "mix": "Sunday",
+          "en": "Sunday",
+          "bn": "Sunday"
+        },
+        "d": {
+          "mix": "Kabir",
+          "en": "Kabir",
+          "bn": "Kabir"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Dhaka (স্থান), Sunday (দিন) ও Kabir (ব্যক্তি)— প্রত্যেকটি নির্দিষ্ট নাম, তাই Proper Noun। আর Team কোনো নির্দিষ্ট দলের নাম নয়, এটি সমষ্টির নাম, তাই Collective Noun।",
+        "en": "Dhaka (a place), Sunday (a day) and Kabir (a person) — each is a particular name, so they are proper nouns. 'Team' is not the name of any particular team; it is the name of a collection, so it is a collective noun.",
+        "bn": "Dhaka (স্থান), Sunday (দিন) ও Kabir (ব্যক্তি)— প্রত্যেকটি নির্দিষ্ট নাম, তাই Proper Noun। আর Team কোনো নির্দিষ্ট দলের নাম নয়, এটি সমষ্টির নাম, তাই Collective Noun।"
+      },
+      "source": "দুর্যোগ ব্যবস্থাপনা ও ত্রাণ মন্ত্রণালয়ের অফিস সহায়ক ২০১৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 3,
+      "question": {
+        "mix": "What kind of noun is 'river'?",
+        "en": "What kind of noun is 'river'?",
+        "bn": "'river' কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Material",
+          "en": "Material",
+          "bn": "Material"
+        },
+        "b": {
+          "mix": "Collective",
+          "en": "Collective",
+          "bn": "Collective"
+        },
+        "c": {
+          "mix": "Proper",
+          "en": "Proper",
+          "bn": "Proper"
+        },
+        "d": {
+          "mix": "Common",
+          "en": "Common",
+          "bn": "Common"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "River কোনো নির্দিষ্ট নদীর নাম নয়; এটি সব নদীর সাধারণ নাম, তাই Common Noun।",
+        "en": "'River' is not the name of any particular river; it is the common name of all rivers, so it is a common noun.",
+        "bn": "River কোনো নির্দিষ্ট নদীর নাম নয়; এটি সব নদীর সাধারণ নাম, তাই Common Noun।"
+      },
+      "source": "বাংলাদেশ পানি উন্নয়ন বোর্ড (BWDB)-এর ডাটা এন্ট্রি অপারেটর ২০১৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 4,
+      "question": {
+        "mix": "What kind of noun is 'Boy'?",
+        "en": "What kind of noun is 'Boy'?",
+        "bn": "'Boy' কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Material",
+          "en": "Material",
+          "bn": "Material"
+        },
+        "b": {
+          "mix": "Proper",
+          "en": "Proper",
+          "bn": "Proper"
+        },
+        "c": {
+          "mix": "Common",
+          "en": "Common",
+          "bn": "Common"
+        },
+        "d": {
+          "mix": "Collective",
+          "en": "Collective",
+          "bn": "Collective"
+        },
+        "e": {
+          "mix": "None of these",
+          "en": "None of these",
+          "bn": "None of these"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Boy কোনো নির্দিষ্ট ছেলের নাম নয়; এক জাতীয় সকল ছেলেকেই বোঝায়, তাই Common Noun।",
+        "en": "'Boy' is not the name of any particular boy; it denotes all boys of a kind, so it is a common noun.",
+        "bn": "Boy কোনো নির্দিষ্ট ছেলের নাম নয়; এক জাতীয় সকল ছেলেকেই বোঝায়, তাই Common Noun।"
+      },
+      "source": "ঢাকা ইলেকট্রিক সাপ্লাই কোম্পানি (DESCO)-এর অ্যাসিসটেন্ট কমপ্লেইন্ট সুপারভাইজার ২০১৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 5,
+      "question": {
+        "mix": "Flock is a—",
+        "en": "Flock is a—",
+        "bn": "Flock একটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Proper noun",
+          "en": "Proper noun",
+          "bn": "Proper noun"
+        },
+        "b": {
+          "mix": "Common noun",
+          "en": "Common noun",
+          "bn": "Common noun"
+        },
+        "c": {
+          "mix": "Collective noun",
+          "en": "Collective noun",
+          "bn": "Collective noun"
+        },
+        "d": {
+          "mix": "Abstract noun",
+          "en": "Abstract noun",
+          "bn": "Abstract noun"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Flock দ্বারা একদল পাখি বা প্রাণীর সমষ্টি বোঝায়, তাই Collective Noun।",
+        "en": "'Flock' denotes a collection of a group of birds or animals, so it is a collective noun.",
+        "bn": "Flock দ্বারা একদল পাখি বা প্রাণীর সমষ্টি বোঝায়, তাই Collective Noun।"
+      },
+      "source": "বিভিন্ন মন্ত্রণা./বিভাগ/অধি. ব্যক্তিগত কর্মকর্তা (সাধারণ) ২০১৮",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 6,
+      "question": {
+        "mix": "What kind of noun is 'cattle'?",
+        "en": "What kind of noun is 'cattle'?",
+        "bn": "'cattle' কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "proper",
+          "en": "proper",
+          "bn": "proper"
+        },
+        "b": {
+          "mix": "common",
+          "en": "common",
+          "bn": "common"
+        },
+        "c": {
+          "mix": "collective",
+          "en": "collective",
+          "bn": "collective"
+        },
+        "d": {
+          "mix": "material",
+          "en": "material",
+          "bn": "material"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Cattle দ্বারা গবাদিপশুর সমষ্টি বোঝায়, তাই Collective Noun।",
+        "en": "'Cattle' denotes a collection of farm animals, so it is a collective noun.",
+        "bn": "Cattle দ্বারা গবাদিপশুর সমষ্টি বোঝায়, তাই Collective Noun।"
+      },
+      "source": "একটি বাড়ি একটি খামার প্রকল্পের ফিল্ড সুপারভাইজার ২০১৮",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 7,
+      "question": {
+        "mix": "Which one is a material noun?",
+        "en": "Which one is a material noun?",
+        "bn": "কোনটি material noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Group",
+          "en": "Group",
+          "bn": "Group"
+        },
+        "b": {
+          "mix": "Meat",
+          "en": "Meat",
+          "bn": "Meat"
+        },
+        "c": {
+          "mix": "Seriousness",
+          "en": "Seriousness",
+          "bn": "Seriousness"
+        },
+        "d": {
+          "mix": "Party",
+          "en": "Party",
+          "bn": "Party"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Meat সংখ্যায় গণনা করা যায় না, একক দিয়ে পরিমাপ করা যায়, তাই Material Noun। Group ও Party সমষ্টিবাচক, Seriousness গুণের নাম।",
+        "en": "'Meat' cannot be counted in number; it can be measured by unit, so it is a material noun. 'Group' and 'Party' are collective, and 'Seriousness' is the name of a quality.",
+        "bn": "Meat সংখ্যায় গণনা করা যায় না, একক দিয়ে পরিমাপ করা যায়, তাই Material Noun। Group ও Party সমষ্টিবাচক, Seriousness গুণের নাম।"
+      },
+      "source": "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (যান্ত্রিক) ২০১৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 8,
+      "question": {
+        "mix": "'Water' is a — noun.",
+        "en": "'Water' is a — noun.",
+        "bn": "'Water' একটি — noun।"
+      },
+      "options": {
+        "a": {
+          "mix": "proper",
+          "en": "proper",
+          "bn": "proper"
+        },
+        "b": {
+          "mix": "common",
+          "en": "common",
+          "bn": "common"
+        },
+        "c": {
+          "mix": "material",
+          "en": "material",
+          "bn": "material"
+        },
+        "d": {
+          "mix": "abstract",
+          "en": "abstract",
+          "bn": "abstract"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Water পদার্থের নাম; গণনা করা যায় না, পরিমাপ করা যায়, তাই Material Noun।",
+        "en": "'Water' is the name of a substance; it cannot be counted but can be measured, so it is a material noun.",
+        "bn": "Water পদার্থের নাম; গণনা করা যায় না, পরিমাপ করা যায়, তাই Material Noun।"
+      },
+      "source": "সংস্কৃতি বিষয়ক মন্ত্রণালয়ের প্রত্নতত্ত্ব অধিদপ্তরের এস্টিমেটর ২০১৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 9,
+      "question": {
+        "mix": "The soldiers were rewarded for their bravery. Which class of noun 'bravery' belongs to?",
+        "en": "The soldiers were rewarded for their bravery. Which class of noun 'bravery' belongs to?",
+        "bn": "The soldiers were rewarded for their bravery. 'bravery' কোন শ্রেণির noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Collective",
+          "en": "Collective",
+          "bn": "Collective"
+        },
+        "b": {
+          "mix": "Material",
+          "en": "Material",
+          "bn": "Material"
+        },
+        "c": {
+          "mix": "Common",
+          "en": "Common",
+          "bn": "Common"
+        },
+        "d": {
+          "mix": "Abstract",
+          "en": "Abstract",
+          "bn": "Abstract"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Bravery (সাহসিকতা) একটি গুণের নাম; দেখা বা ছোঁয়া যায় না, শুধু অনুভব করা যায়, তাই Abstract Noun।",
+        "en": "'Bravery' (bravery) is the name of a quality; it cannot be seen or touched, only felt, so it is an abstract noun.",
+        "bn": "Bravery (সাহসিকতা) একটি গুণের নাম; দেখা বা ছোঁয়া যায় না, শুধু অনুভব করা যায়, তাই Abstract Noun।"
+      },
+      "source": "বিভিন্ন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা ২০১৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 10,
+      "question": {
+        "mix": "'Honesty is the best policy.' In this sentence the word 'honesty' is —",
+        "en": "'Honesty is the best policy.' In this sentence the word 'honesty' is —",
+        "bn": "'Honesty is the best policy.' এই বাক্যে 'honesty' শব্দটি —"
+      },
+      "options": {
+        "a": {
+          "mix": "a proper noun",
+          "en": "a proper noun",
+          "bn": "a proper noun"
+        },
+        "b": {
+          "mix": "a common noun",
+          "en": "a common noun",
+          "bn": "a common noun"
+        },
+        "c": {
+          "mix": "a collective noun",
+          "en": "a collective noun",
+          "bn": "a collective noun"
+        },
+        "d": {
+          "mix": "an abstract noun",
+          "en": "an abstract noun",
+          "bn": "an abstract noun"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Honesty (সততা) গুণের নাম; ইন্দ্রিয় দিয়ে উপলব্ধি করা যায় না, তাই Abstract Noun।",
+        "en": "'Honesty' (honesty) is the name of a quality; it cannot be perceived with the senses, so it is an abstract noun.",
+        "bn": "Honesty (সততা) গুণের নাম; ইন্দ্রিয় দিয়ে উপলব্ধি করা যায় না, তাই Abstract Noun।"
+      },
+      "source": "পররাষ্ট্র মন্ত্রণালয়ের সুপারিনটেনডেন্ট ২০১৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 11,
+      "question": {
+        "mix": "Which of the following is NOT an abstract noun?",
+        "en": "Which of the following is NOT an abstract noun?",
+        "bn": "নিচের কোনটি abstract noun নয়?"
+      },
+      "options": {
+        "a": {
+          "mix": "Goodness",
+          "en": "Goodness",
+          "bn": "Goodness"
+        },
+        "b": {
+          "mix": "Family",
+          "en": "Family",
+          "bn": "Family"
+        },
+        "c": {
+          "mix": "Bravery",
+          "en": "Bravery",
+          "bn": "Bravery"
+        },
+        "d": {
+          "mix": "Childhood",
+          "en": "Childhood",
+          "bn": "Childhood"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Goodness, Bravery ও Childhood গুণ বা অবস্থার নাম, তাই Abstract Noun। আর Family অর্থ পরিবার— অনেক সদস্যের সমষ্টি, তাই Collective Noun।",
+        "en": "'Goodness', 'Bravery' and 'Childhood' are names of qualities or states, so they are abstract nouns. 'Family' means a family — a collection of many members, so it is a collective noun.",
+        "bn": "Goodness, Bravery ও Childhood গুণ বা অবস্থার নাম, তাই Abstract Noun। আর Family অর্থ পরিবার— অনেক সদস্যের সমষ্টি, তাই Collective Noun।"
+      },
+      "source": "ঢাকা বিশ্ববিদ্যালয় ২০১৭-১৮; ইউনিট খ",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 12,
+      "question": {
+        "mix": "Which of the following words does fall under uncountable noun?",
+        "en": "Which of the following words does fall under uncountable noun?",
+        "bn": "নিচের কোন শব্দটি uncountable noun-এর অন্তর্গত?"
+      },
+      "options": {
+        "a": {
+          "mix": "Star",
+          "en": "Star",
+          "bn": "Star"
+        },
+        "b": {
+          "mix": "Rice",
+          "en": "Rice",
+          "bn": "Rice"
+        },
+        "c": {
+          "mix": "Field",
+          "en": "Field",
+          "bn": "Field"
+        },
+        "d": {
+          "mix": "Foe",
+          "en": "Foe",
+          "bn": "Foe"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Rice সংখ্যায় গণনা করা যায় না, পরিমাপ করা যায়, তাই Uncountable Noun। Star, Field, Foe গণনা করা যায়, তাই Countable Noun।",
+        "en": "'Rice' cannot be counted in number; it can be measured, so it is an uncountable noun. 'Star', 'Field' and 'Foe' can be counted, so they are countable nouns.",
+        "bn": "Rice সংখ্যায় গণনা করা যায় না, পরিমাপ করা যায়, তাই Uncountable Noun। Star, Field, Foe গণনা করা যায়, তাই Countable Noun।"
+      },
+      "source": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় ২০০৮-০৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 13,
+      "question": {
+        "mix": "We had some fun. The underlined word is—",
+        "en": "We had some fun. The underlined word is—",
+        "bn": "We had some fun. underline করা শব্দটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "an uncountable noun",
+          "en": "an uncountable noun",
+          "bn": "an uncountable noun"
+        },
+        "b": {
+          "mix": "a countable noun",
+          "en": "a countable noun",
+          "bn": "a countable noun"
+        },
+        "c": {
+          "mix": "a proper noun",
+          "en": "a proper noun",
+          "bn": "a proper noun"
+        },
+        "d": {
+          "mix": "a mass noun",
+          "en": "a mass noun",
+          "bn": "a mass noun"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Fun (আনন্দ) গণনা করা যায় না; এটি Uncountable Noun।",
+        "en": "'Fun' (joy) cannot be counted; it is an uncountable noun.",
+        "bn": "Fun (আনন্দ) গণনা করা যায় না; এটি Uncountable Noun।"
+      },
+      "source": "জাতীয় বিশ্ববিদ্যালয় (বিজ্ঞান) ২০১৪-১৫",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 14,
+      "question": {
+        "mix": "'Swimming is a good exercise'. Here 'swimming' is a/an—.",
+        "en": "'Swimming is a good exercise'. Here 'swimming' is a/an—.",
+        "bn": "'Swimming is a good exercise'. এখানে 'swimming' একটি—।"
+      },
+      "options": {
+        "a": {
+          "mix": "verb",
+          "en": "verb",
+          "bn": "verb"
+        },
+        "b": {
+          "mix": "noun",
+          "en": "noun",
+          "bn": "noun"
+        },
+        "c": {
+          "mix": "gerund",
+          "en": "gerund",
+          "bn": "gerund"
+        },
+        "d": {
+          "mix": "adverb",
+          "en": "adverb",
+          "bn": "adverb"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Swimming এখানে Verb + ing হয়ে sentence-এর subject হিসেবে noun-এর কাজ করছে, তাই Gerund।",
+        "en": "'Swimming' here, as verb + ing, is doing the work of a noun as the subject of the sentence, so it is a gerund.",
+        "bn": "Swimming এখানে Verb + ing হয়ে sentence-এর subject হিসেবে noun-এর কাজ করছে, তাই Gerund।"
+      },
+      "source": "সরকারি মাধ্যমিক বিদ্যালয় সহকারী শিক্ষক ২০১৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 15,
+      "question": {
+        "mix": "In the sentence 'copying is prohibited in the examination'. 'copying' is a/an—",
+        "en": "In the sentence 'copying is prohibited in the examination'. 'copying' is a/an—",
+        "bn": "'copying is prohibited in the examination' বাক্যে 'copying' একটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "noun",
+          "en": "noun",
+          "bn": "noun"
+        },
+        "b": {
+          "mix": "adjective",
+          "en": "adjective",
+          "bn": "adjective"
+        },
+        "c": {
+          "mix": "adverb",
+          "en": "adverb",
+          "bn": "adverb"
+        },
+        "d": {
+          "mix": "verb",
+          "en": "verb",
+          "bn": "verb"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Copying এখানে Verb + ing হয়ে sentence-এর subject হিসেবে বসেছে, তাই noun (gerund)-এর কাজ করছে।",
+        "en": "'Copying' here, as verb + ing, sits as the subject of the sentence, so it is doing the work of a noun (gerund).",
+        "bn": "Copying এখানে Verb + ing হয়ে sentence-এর subject হিসেবে বসেছে, তাই noun (gerund)-এর কাজ করছে।"
+      },
+      "source": "প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের উপসহকারী পরিচালক ২০১৭",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 16,
+      "question": {
+        "mix": "Which is an example of verbal noun?",
+        "en": "Which is an example of verbal noun?",
+        "bn": "কোনটি verbal noun-এর উদাহরণ?"
+      },
+      "options": {
+        "a": {
+          "mix": "Writing a good letter is difficult.",
+          "en": "Writing a good letter is difficult.",
+          "bn": "Writing a good letter is difficult."
+        },
+        "b": {
+          "mix": "The writing of a good letter is difficult.",
+          "en": "The writing of a good letter is difficult.",
+          "bn": "The writing of a good letter is difficult."
+        },
+        "c": {
+          "mix": "Good letter writing is difficult.",
+          "en": "Good letter writing is difficult.",
+          "bn": "Good letter writing is difficult."
+        },
+        "d": {
+          "mix": "It is very difficult to write a good letter.",
+          "en": "It is very difficult to write a good letter.",
+          "bn": "It is very difficult to write a good letter."
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Verb + ing-এর পূর্বে the এবং পরে of থাকলে তাকে Verbal Noun বলে। 'The writing of a good letter'-এ the + writing + of আছে, তাই এটিই Verbal Noun।",
+        "en": "When 'the' comes before verb + ing and 'of' comes after it, it is called a verbal noun. In 'The writing of a good letter' there is the + writing + of, so this is the verbal noun.",
+        "bn": "Verb + ing-এর পূর্বে the এবং পরে of থাকলে তাকে Verbal Noun বলে। 'The writing of a good letter'-এ the + writing + of আছে, তাই এটিই Verbal Noun।"
+      },
+      "source": "তথ্য মন্ত্রণালয়ের অধীন চলচ্চিত্র ও প্রকাশনা অধিদপ্তরের ক্যামেরাম্যান ২০১৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 17,
+      "question": {
+        "mix": "'He became a politician.' — Here the word 'politician' is used as —",
+        "en": "'He became a politician.' — Here the word 'politician' is used as —",
+        "bn": "'He became a politician.' — এখানে 'politician' শব্দটি — হিসেবে ব্যবহৃত হয়েছে।"
+      },
+      "options": {
+        "a": {
+          "mix": "object",
+          "en": "object",
+          "bn": "object"
+        },
+        "b": {
+          "mix": "subject",
+          "en": "subject",
+          "bn": "subject"
+        },
+        "c": {
+          "mix": "adverb",
+          "en": "adverb",
+          "bn": "adverb"
+        },
+        "d": {
+          "mix": "complement",
+          "en": "complement",
+          "bn": "complement"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "He became a politician— এখানে politician, linking verb became-এর complement হিসেবে বসেছে।",
+        "en": "In 'He became a politician', 'politician' sits as the complement of the linking verb 'became'.",
+        "bn": "He became a politician— এখানে politician, linking verb became-এর complement হিসেবে বসেছে।"
+      },
+      "source": "স্বাস্থ্য মন্ত্রণালয়ের সহকারী প্রকৌশলী (সিভিল) ২০১৭",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 18,
+      "question": {
+        "mix": "That type of noun the word 'infancy' is?",
+        "en": "That type of noun the word 'infancy' is?",
+        "bn": "'infancy' শব্দটি কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Common",
+          "en": "Common",
+          "bn": "Common"
+        },
+        "b": {
+          "mix": "Abstract",
+          "en": "Abstract",
+          "bn": "Abstract"
+        },
+        "c": {
+          "mix": "Material",
+          "en": "Material",
+          "bn": "Material"
+        },
+        "d": {
+          "mix": "Collective",
+          "en": "Collective",
+          "bn": "Collective"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Infancy (শৈশব) শব্দের শেষে -cy suffix আছে এবং এটি একটি অবস্থার নাম, তাই Abstract Noun।",
+        "en": "'Infancy' (infancy) has the -cy suffix at the end of the word, and it is the name of a state, so it is an abstract noun.",
+        "bn": "Infancy (শৈশব) শব্দের শেষে -cy suffix আছে এবং এটি একটি অবস্থার নাম, তাই Abstract Noun।"
+      },
+      "source": "প্রাথমিক সহকারী শিক্ষক ২০১৮",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 19,
+      "question": {
+        "mix": "What is the abstract noun form of 'Hero'?",
+        "en": "What is the abstract noun form of 'Hero'?",
+        "bn": "'Hero'-এর abstract noun form কোনটি?"
+      },
+      "options": {
+        "a": {
+          "mix": "Heroism",
+          "en": "Heroism",
+          "bn": "Heroism"
+        },
+        "b": {
+          "mix": "Heroic",
+          "en": "Heroic",
+          "bn": "Heroic"
+        },
+        "c": {
+          "mix": "Heroine",
+          "en": "Heroine",
+          "bn": "Heroine"
+        },
+        "d": {
+          "mix": "Hero-like",
+          "en": "Hero-like",
+          "bn": "Hero-like"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Hero-এর Abstract Noun form হলো Heroism। Heroic হলো adjective, Heroine হলো স্ত্রীবাচক noun।",
+        "en": "The abstract noun form of 'Hero' is 'Heroism'. 'Heroic' is an adjective, and 'Heroine' is a feminine noun.",
+        "bn": "Hero-এর Abstract Noun form হলো Heroism। Heroic হলো adjective, Heroine হলো স্ত্রীবাচক noun।"
+      },
+      "source": "সোনালী ব্যাংক অফিসার ২০১৪",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 20,
+      "question": {
+        "mix": "Select correct noun of the verb 'believe'.",
+        "en": "Select correct noun of the verb 'believe'.",
+        "bn": "'believe' verb-টির সঠিক noun form কোনটি?"
+      },
+      "options": {
+        "a": {
+          "mix": "Believer",
+          "en": "Believer",
+          "bn": "Believer"
+        },
+        "b": {
+          "mix": "Believable",
+          "en": "Believable",
+          "bn": "Believable"
+        },
+        "c": {
+          "mix": "Belief",
+          "en": "Belief",
+          "bn": "Belief"
+        },
+        "d": {
+          "mix": "Believingly",
+          "en": "Believingly",
+          "bn": "Believingly"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Believe verb-এর noun form হলো Belief। Believer মানে বিশ্বাসকারী, Believable মানে বিশ্বাসযোগ্য (adjective)।",
+        "en": "The noun form of the verb 'believe' is 'Belief'. 'Believer' means one who believes, and 'Believable' means believable (adjective).",
+        "bn": "Believe verb-এর noun form হলো Belief। Believer মানে বিশ্বাসকারী, Believable মানে বিশ্বাসযোগ্য (adjective)।"
+      },
+      "source": "প্রতিরক্ষা মন্ত্রণালয়ের উপ-সহকারী পরিচালক ২০১৬",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 21,
+      "question": {
+        "mix": "People from all walks of life all ended the meaning. The underlined words is a/an—",
+        "en": "People from all walks of life all ended the meaning. The underlined words is a/an—",
+        "bn": "People from all walks of life all ended the meaning. underline করা শব্দটি একটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "adjective",
+          "en": "adjective",
+          "bn": "adjective"
+        },
+        "b": {
+          "mix": "verb",
+          "en": "verb",
+          "bn": "verb"
+        },
+        "c": {
+          "mix": "noun",
+          "en": "noun",
+          "bn": "noun"
+        },
+        "d": {
+          "mix": "adverb",
+          "en": "adverb",
+          "bn": "adverb"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Determiner (all)-এর পর এবং preposition (of)-এর পূর্বে noun বসে। এখানে walks, all ও of-এর মাঝে বসে noun হিসেবে ব্যবহৃত হয়েছে।",
+        "en": "A noun comes after a determiner (all) and before a preposition (of). Here 'walks', sitting between 'all' and 'of', has been used as a noun.",
+        "bn": "Determiner (all)-এর পর এবং preposition (of)-এর পূর্বে noun বসে। এখানে walks, all ও of-এর মাঝে বসে noun হিসেবে ব্যবহৃত হয়েছে।"
+      },
+      "source": "প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের উপসহকারী পরিচালক ২০১৭",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 22,
+      "question": {
+        "mix": "You have no right to do it. The underlined word is—",
+        "en": "You have no right to do it. The underlined word is—",
+        "bn": "You have no right to do it. underline করা শব্দটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "an adjective",
+          "en": "an adjective",
+          "bn": "an adjective"
+        },
+        "b": {
+          "mix": "a noun",
+          "en": "a noun",
+          "bn": "a noun"
+        },
+        "c": {
+          "mix": "an adverb",
+          "en": "an adverb",
+          "bn": "an adverb"
+        },
+        "d": {
+          "mix": "a verb",
+          "en": "a verb",
+          "bn": "a verb"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Have no-এর পরে noun বসে। এখানে right (অধিকার) noun হিসেবে ব্যবহৃত হয়েছে।",
+        "en": "A noun comes after 'have no'. Here 'right' (right) has been used as a noun.",
+        "bn": "Have no-এর পরে noun বসে। এখানে right (অধিকার) noun হিসেবে ব্যবহৃত হয়েছে।"
+      },
+      "source": "বিটিভির সহকারী প্রকৌশলী (সিভিল) ২০১৭",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 23,
+      "question": {
+        "mix": "Which of the following nouns is made up of two nouns?",
+        "en": "Which of the following nouns is made up of two nouns?",
+        "bn": "নিচের কোন noun-টি দুটি noun দিয়ে গঠিত?"
+      },
+      "options": {
+        "a": {
+          "mix": "Happiness",
+          "en": "Happiness",
+          "bn": "Happiness"
+        },
+        "b": {
+          "mix": "Classroom",
+          "en": "Classroom",
+          "bn": "Classroom"
+        },
+        "c": {
+          "mix": "Whitepen",
+          "en": "Whitepen",
+          "bn": "Whitepen"
+        },
+        "d": {
+          "mix": "Obscurity",
+          "en": "Obscurity",
+          "bn": "Obscurity"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Classroom = class + room, দুটি noun মিলে গঠিত। Happiness ও Obscurity Abstract Noun।",
+        "en": "'Classroom' = class + room, formed of two nouns. 'Happiness' and 'Obscurity' are abstract nouns.",
+        "bn": "Classroom = class + room, দুটি noun মিলে গঠিত। Happiness ও Obscurity Abstract Noun।"
+      },
+      "source": "জবি সি ইউনিট ২০১৪-১৫",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 24,
+      "question": {
+        "mix": "Which one is a compound noun?",
+        "en": "Which one is a compound noun?",
+        "bn": "কোনটি compound noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Headmaster",
+          "en": "Headmaster",
+          "bn": "Headmaster"
+        },
+        "b": {
+          "mix": "Information",
+          "en": "Information",
+          "bn": "Information"
+        },
+        "c": {
+          "mix": "Friday",
+          "en": "Friday",
+          "bn": "Friday"
+        },
+        "d": {
+          "mix": "Examination",
+          "en": "Examination",
+          "bn": "Examination"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Headmaster = head + master, দুটি শব্দ মিলে একটি noun, তাই Compound Noun। Information ও Examination suffix দিয়ে গঠিত, Friday একটি দিনের নাম।",
+        "en": "'Headmaster' = head + master, two words joined into one noun, so it is a compound noun. 'Information' and 'Examination' are formed with suffixes, and 'Friday' is the name of a day.",
+        "bn": "Headmaster = head + master, দুটি শব্দ মিলে একটি noun, তাই Compound Noun। Information ও Examination suffix দিয়ে গঠিত, Friday একটি দিনের নাম।"
+      },
+      "source": "একটি বাড়ি একটি খামার প্রকল্পের জেলা সমন্বয়কারী ২০১৭",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "BCS Preliminary Questions",
+      "number": 1,
+      "question": {
+        "mix": "The warning of the authority falls on deaf ears. Here warning does the function of—",
+        "en": "The warning of the authority falls on deaf ears. Here warning does the function of—",
+        "bn": "The warning of the authority falls on deaf ears. এখানে warning কোন কাজটি করে—"
+      },
+      "options": {
+        "a": {
+          "mix": "adverb",
+          "en": "adverb",
+          "bn": "adverb"
+        },
+        "b": {
+          "mix": "adjective",
+          "en": "adjective",
+          "bn": "adjective"
+        },
+        "c": {
+          "mix": "verb",
+          "en": "verb",
+          "bn": "verb"
+        },
+        "d": {
+          "mix": "noun",
+          "en": "noun",
+          "bn": "noun"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "The + verb + ing + of দ্বারা verbal noun গঠিত হয়। সুতরাং প্রদত্ত বাক্যের warning শব্দটি noun।",
+        "en": "A verbal noun is formed by the + verb + ing + of. Therefore the word 'warning' in the given sentence is a noun.",
+        "bn": "The + verb + ing + of দ্বারা verbal noun গঠিত হয়। সুতরাং প্রদত্ত বাক্যের warning শব্দটি noun।"
+      },
+      "source": "৩৯তম বিসিএস (বিশেষ)",
+      "explanation_source": "book"
+    },
+    {
+      "section": "BCS Preliminary Questions",
+      "number": 2,
+      "question": {
+        "mix": "'Mutton' is a/an—",
+        "en": "'Mutton' is a/an—",
+        "bn": "'Mutton' একটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Common noun",
+          "en": "Common noun",
+          "bn": "Common noun"
+        },
+        "b": {
+          "mix": "Abstract noun",
+          "en": "Abstract noun",
+          "bn": "Abstract noun"
+        },
+        "c": {
+          "mix": "Material noun",
+          "en": "Material noun",
+          "bn": "Material noun"
+        },
+        "d": {
+          "mix": "Proper noun",
+          "en": "Proper noun",
+          "bn": "Proper noun"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Mutton (ভেড়ার মাংস; মেষমাংস) হলো Material Noun, কেননা mutton শব্দটি পদার্থবিষয়ক।",
+        "en": "'Mutton' (mutton) is a material noun, because the word 'mutton' relates to a substance.",
+        "bn": "Mutton (ভেড়ার মাংস; মেষমাংস) হলো Material Noun, কেননা mutton শব্দটি পদার্থবিষয়ক।"
+      },
+      "source": "৩৮তম বিসিএস",
+      "explanation_source": "book"
+    },
+    {
+      "section": "BCS Preliminary Questions",
+      "number": 3,
+      "question": {
+        "mix": "I am in the process of collecting material for my story. The underlined word is a/an—",
+        "en": "I am in the process of collecting material for my story. The underlined word is a/an—",
+        "bn": "I am in the process of collecting material for my story. underline করা শব্দটি একটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Verb",
+          "en": "Verb",
+          "bn": "Verb"
+        },
+        "b": {
+          "mix": "Adjective",
+          "en": "Adjective",
+          "bn": "Adjective"
+        },
+        "c": {
+          "mix": "Adverb",
+          "en": "Adverb",
+          "bn": "Adverb"
+        },
+        "d": {
+          "mix": "Noun",
+          "en": "Noun",
+          "bn": "Noun"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "'Material' শব্দটি noun এবং adjective দুটিই হয়। তবে, বাক্যটিতে এটি Noun এর অর্থ (উপাদান) প্রকাশ করছে। আবার 'material' শব্দটি collecting verb (participle) এর object হিসেবে ব্যবহৃত হওয়ায় এটি নিয়মগত দিক থেকেও noun।",
+        "en": "The word 'material' can be both a noun and an adjective. However, in this sentence it expresses the noun sense (material/ingredient). Again, since the word 'material' is used as the object of the verb (participle) 'collecting', it is a noun by rule as well.",
+        "bn": "'Material' শব্দটি noun এবং adjective দুটিই হয়। তবে, বাক্যটিতে এটি Noun এর অর্থ (উপাদান) প্রকাশ করছে। আবার 'material' শব্দটি collecting verb (participle) এর object হিসেবে ব্যবহৃত হওয়ায় এটি নিয়মগত দিক থেকেও noun।"
+      },
+      "source": "৩৫তম বিসিএস",
+      "explanation_source": "book"
+    },
+    {
+      "section": "BCS Preliminary Questions",
+      "number": 4,
+      "question": {
+        "mix": "What kind of noun is 'Cattle'?",
+        "en": "What kind of noun is 'Cattle'?",
+        "bn": "'Cattle' কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Proper",
+          "en": "Proper",
+          "bn": "Proper"
+        },
+        "b": {
+          "mix": "Common",
+          "en": "Common",
+          "bn": "Common"
+        },
+        "c": {
+          "mix": "Collective",
+          "en": "Collective",
+          "bn": "Collective"
+        },
+        "d": {
+          "mix": "Material",
+          "en": "Material",
+          "bn": "Material"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Cattle দ্বারা সকল গবাদি পশু যেমন— গরু, মহিষ ইত্যাদির সমষ্টি বোঝানোর কারণে cattle হলো collective noun।",
+        "en": "Since 'cattle' denotes the collection of all farm animals, such as cows, buffaloes etc., 'cattle' is a collective noun.",
+        "bn": "Cattle দ্বারা সকল গবাদি পশু যেমন— গরু, মহিষ ইত্যাদির সমষ্টি বোঝানোর কারণে cattle হলো collective noun।"
+      },
+      "source": "১০ম বিসিএস; একটি বাড়ি একটি খামার প্রকল্পের ফিল্ড সুপারভাইজার ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "BCS Preliminary Questions",
+      "number": 5,
+      "question": {
+        "mix": "What kind of noun is 'Girl'?",
+        "en": "What kind of noun is 'Girl'?",
+        "bn": "'Girl' কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Proper",
+          "en": "Proper",
+          "bn": "Proper"
+        },
+        "b": {
+          "mix": "Common",
+          "en": "Common",
+          "bn": "Common"
+        },
+        "c": {
+          "mix": "Collective",
+          "en": "Collective",
+          "bn": "Collective"
+        },
+        "d": {
+          "mix": "Material",
+          "en": "Material",
+          "bn": "Material"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Girl কোনো বিশেষ মেয়েকে না বুঝিয়ে সাধারণভাবে সকল মেয়েকে বোঝায়। সুতরাং এটি একটি Common Noun।",
+        "en": "'Girl' does not denote any particular girl; it denotes all girls in general. So it is a common noun.",
+        "bn": "Girl কোনো বিশেষ মেয়েকে না বুঝিয়ে সাধারণভাবে সকল মেয়েকে বোঝায়। সুতরাং এটি একটি Common Noun।"
+      },
+      "source": "১০ম বিসিএস",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 1,
+      "question": {
+        "mix": "What type of noun is 'kindness'?",
+        "en": "What type of noun is 'kindness'?",
+        "bn": "'kindness' কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "abstract",
+          "en": "abstract",
+          "bn": "abstract"
+        },
+        "b": {
+          "mix": "proper",
+          "en": "proper",
+          "bn": "proper"
+        },
+        "c": {
+          "mix": "common",
+          "en": "common",
+          "bn": "common"
+        },
+        "d": {
+          "mix": "material",
+          "en": "material",
+          "bn": "material"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "যেসব noun অবস্তুগত ধারণা বা গুণকে নির্দেশ করে, যাদের অস্তিত্ব নেই বা ইন্দ্রিয়ের সাহায্যে উপলব্ধি করা যায় না কিন্তু শুধু কল্পনা দ্বারা বা অনুভব দ্বারা বোঝা যায় তাদেরকে abstract noun বলে। যেমন—honesty, beauty, kindness, childhood, manhood, agency ইত্যাদি।",
+        "en": "The nouns that indicate an immaterial idea or quality, which have no existence and cannot be perceived with the senses, but can only be understood through imagination or feeling, are called abstract nouns. For example — honesty, beauty, kindness, childhood, manhood, agency etc.",
+        "bn": "যেসব noun অবস্তুগত ধারণা বা গুণকে নির্দেশ করে, যাদের অস্তিত্ব নেই বা ইন্দ্রিয়ের সাহায্যে উপলব্ধি করা যায় না কিন্তু শুধু কল্পনা দ্বারা বা অনুভব দ্বারা বোঝা যায় তাদেরকে abstract noun বলে। যেমন—honesty, beauty, kindness, childhood, manhood, agency ইত্যাদি।"
+      },
+      "source": "বাংলাদেশ পরিসংখ্যান ব্যুরোর (BBS) থানা পরিসংখ্যানবিদ ২০২০; নার্সিং ও মিডওয়াইফারি অধিদপ্তরের সিনিয়র স্টাফ নার্স ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 2,
+      "question": {
+        "mix": "What part of speech is 'Beauty'?",
+        "en": "What part of speech is 'Beauty'?",
+        "bn": "'Beauty' কোন parts of speech?"
+      },
+      "options": {
+        "a": {
+          "mix": "Pronoun",
+          "en": "Pronoun",
+          "bn": "Pronoun"
+        },
+        "b": {
+          "mix": "Noun",
+          "en": "Noun",
+          "bn": "Noun"
+        },
+        "c": {
+          "mix": "Adjective",
+          "en": "Adjective",
+          "bn": "Adjective"
+        },
+        "d": {
+          "mix": "Verb",
+          "en": "Verb",
+          "bn": "Verb"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "কোনো কিছুর নামকে noun বলে। Beauty একটি abstract noun। এর verb form 'beautify' এবং adjective form 'beautiful'।",
+        "en": "The name of anything is called a noun. 'Beauty' is an abstract noun. Its verb form is 'beautify' and its adjective form is 'beautiful'.",
+        "bn": "কোনো কিছুর নামকে noun বলে। Beauty একটি abstract noun। এর verb form 'beautify' এবং adjective form 'beautiful'।"
+      },
+      "source": "দুর্নীতি দমন কমিশনের উপ-সহকারী পরিচালক/কোর্ট পরিদর্শক ২০২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 3,
+      "question": {
+        "mix": "What kind of noun is 'girl'?",
+        "en": "What kind of noun is 'girl'?",
+        "bn": "'girl' কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "collective",
+          "en": "collective",
+          "bn": "collective"
+        },
+        "b": {
+          "mix": "material",
+          "en": "material",
+          "bn": "material"
+        },
+        "c": {
+          "mix": "proper",
+          "en": "proper",
+          "bn": "proper"
+        },
+        "d": {
+          "mix": "common",
+          "en": "common",
+          "bn": "common"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "যে সকল Noun দ্বারা একই জাতীয় সকলকে বোঝায় তাদেরকে Common Noun বলে। Common Noun এর কয়েকটি উদাহরণ হলো man, girl, student, cow ইত্যাদি।",
+        "en": "The nouns that denote all of the same kind are called common nouns. A few examples of common nouns are man, girl, student, cow etc.",
+        "bn": "যে সকল Noun দ্বারা একই জাতীয় সকলকে বোঝায় তাদেরকে Common Noun বলে। Common Noun এর কয়েকটি উদাহরণ হলো man, girl, student, cow ইত্যাদি।"
+      },
+      "source": "বাংলাদেশ পরিসংখ্যান ব্যুরোর (BBS) জুনিয়র পরিসংখ্যান সহকারী ২০২০; প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (চতুর্থ ধাপ) ২০১৯; সরকারি মাধ্যমিক বিদ্যালয় সহকারী শিক্ষক ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 4,
+      "question": {
+        "mix": "What is the correct noun form of the word 'important'?",
+        "en": "What is the correct noun form of the word 'important'?",
+        "bn": "'important' শব্দটির সঠিক noun form কোনটি?"
+      },
+      "options": {
+        "a": {
+          "mix": "Importance",
+          "en": "Importance",
+          "bn": "Importance"
+        },
+        "b": {
+          "mix": "Importantly",
+          "en": "Importantly",
+          "bn": "Importantly"
+        },
+        "c": {
+          "mix": "Importanced",
+          "en": "Importanced",
+          "bn": "Importanced"
+        },
+        "d": {
+          "mix": "Being important",
+          "en": "Being important",
+          "bn": "Being important"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Important শব্দটি adjective যার অর্থ গুরুত্বপূর্ণ, তাৎপর্যপূর্ণ। শব্দটির Noun form হলো Importance— যার অর্থ গুরুত্ব, তাৎপর্য, প্রতিপত্তি।",
+        "en": "The word 'Important' is an adjective, meaning important, significant. The noun form of the word is 'Importance' — meaning importance, significance, prestige.",
+        "bn": "Important শব্দটি adjective যার অর্থ গুরুত্বপূর্ণ, তাৎপর্যপূর্ণ। শব্দটির Noun form হলো Importance— যার অর্থ গুরুত্ব, তাৎপর্য, প্রতিপত্তি।"
+      },
+      "source": "প্রাথমিক শিক্ষা অধিদপ্তরের PEDP-4 প্রকল্পের উপজেলা/আরবান প্রোগ্রাম কো-অর্ডিনেটর ২০২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 5,
+      "question": {
+        "mix": "The word 'practice' is a/an—",
+        "en": "The word 'practice' is a/an—",
+        "bn": "'practice' শব্দটি একটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "verb",
+          "en": "verb",
+          "bn": "verb"
+        },
+        "b": {
+          "mix": "noun",
+          "en": "noun",
+          "bn": "noun"
+        },
+        "c": {
+          "mix": "adjective",
+          "en": "adjective",
+          "bn": "adjective"
+        },
+        "d": {
+          "mix": "adverb",
+          "en": "adverb",
+          "bn": "adverb"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "British English অনুযায়ী practice শব্দটি হলো noun, যার অর্থ অনুশীলন। Practice শব্দটির verb হলো practise, যার অর্থ অনুশীলন করা। অন্যদিকে American English অনুযায়ী practice শব্দটি verb হিসেবেও ব্যবহৃত হয়। কিন্তু practice শব্দটি noun হিসেবে বেশি ব্যবহৃত হয় বলে সঠিক উত্তর খ।",
+        "en": "According to British English, the word 'practice' is a noun, meaning practice. The verb of the word 'practice' is 'practise', meaning to practise. On the other hand, according to American English, the word 'practice' is also used as a verb. But since the word 'practice' is used more as a noun, the correct answer is (b).",
+        "bn": "British English অনুযায়ী practice শব্দটি হলো noun, যার অর্থ অনুশীলন। Practice শব্দটির verb হলো practise, যার অর্থ অনুশীলন করা। অন্যদিকে American English অনুযায়ী practice শব্দটি verb হিসেবেও ব্যবহৃত হয়। কিন্তু practice শব্দটি noun হিসেবে বেশি ব্যবহৃত হয় বলে সঠিক উত্তর খ।"
+      },
+      "source": "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (যান্ত্রিক) ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 6,
+      "question": {
+        "mix": "The word 'wisdom' is a—",
+        "en": "The word 'wisdom' is a—",
+        "bn": "'wisdom' শব্দটি একটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "noun",
+          "en": "noun",
+          "bn": "noun"
+        },
+        "b": {
+          "mix": "pronoun",
+          "en": "pronoun",
+          "bn": "pronoun"
+        },
+        "c": {
+          "mix": "verb",
+          "en": "verb",
+          "bn": "verb"
+        },
+        "d": {
+          "mix": "adverb",
+          "en": "adverb",
+          "bn": "adverb"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Dom sufix যুক্ত শব্দ যেমন freedom, wisdom, boredom সাধারণত noun।",
+        "en": "Words with the -dom suffix, such as freedom, wisdom, boredom, are generally nouns.",
+        "bn": "Dom sufix যুক্ত শব্দ যেমন freedom, wisdom, boredom সাধারণত noun।"
+      },
+      "source": "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (যান্ত্রিক) ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 7,
+      "question": {
+        "mix": "Which one is a material noun?",
+        "en": "Which one is a material noun?",
+        "bn": "কোনটি material noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Group",
+          "en": "Group",
+          "bn": "Group"
+        },
+        "b": {
+          "mix": "Meat",
+          "en": "Meat",
+          "bn": "Meat"
+        },
+        "c": {
+          "mix": "Seriousness",
+          "en": "Seriousness",
+          "bn": "Seriousness"
+        },
+        "d": {
+          "mix": "Party",
+          "en": "Party",
+          "bn": "Party"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "যে Noun সংখ্যা দ্বারা গণনা করা যায় না কিন্তু একক দ্বারা পরিমাপ করা যায় তাদের Material noun বলে। Option-এর meat শব্দটি সংখ্যা দ্বারা গণনা করা যায় না। কিন্তু একক দ্বারা পরিমাপ করা যায় বলে 'meat' material noun।",
+        "en": "The nouns that cannot be counted by number but can be measured by unit are called material nouns. The word 'meat' in the options cannot be counted by number. But since it can be measured by unit, 'meat' is a material noun.",
+        "bn": "যে Noun সংখ্যা দ্বারা গণনা করা যায় না কিন্তু একক দ্বারা পরিমাপ করা যায় তাদের Material noun বলে। Option-এর meat শব্দটি সংখ্যা দ্বারা গণনা করা যায় না। কিন্তু একক দ্বারা পরিমাপ করা যায় বলে 'meat' material noun।"
+      },
+      "source": "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (যান্ত্রিক) ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 8,
+      "question": {
+        "mix": "What kind of noun is 'river'?",
+        "en": "What kind of noun is 'river'?",
+        "bn": "'river' কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Material",
+          "en": "Material",
+          "bn": "Material"
+        },
+        "b": {
+          "mix": "Collective",
+          "en": "Collective",
+          "bn": "Collective"
+        },
+        "c": {
+          "mix": "Proper",
+          "en": "Proper",
+          "bn": "Proper"
+        },
+        "d": {
+          "mix": "Common",
+          "en": "Common",
+          "bn": "Common"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "যে সকল noun দ্বারা নির্দিষ্ট কোনো ব্যক্তি বা বস্তু, স্থানের নাম না বুঝিয়ে এক জাতীয় সকলকেই বোঝায় তাদেরকে common noun বলে। কয়েকটি Common Noun এর উদাহরণ হলো man, boy, girl, student, river।",
+        "en": "The nouns that, instead of denoting the name of any particular person, thing or place, denote all of a kind are called common nouns. A few examples of common nouns are man, boy, girl, student, river.",
+        "bn": "যে সকল noun দ্বারা নির্দিষ্ট কোনো ব্যক্তি বা বস্তু, স্থানের নাম না বুঝিয়ে এক জাতীয় সকলকেই বোঝায় তাদেরকে common noun বলে। কয়েকটি Common Noun এর উদাহরণ হলো man, boy, girl, student, river।"
+      },
+      "source": "বাংলাদেশ পানি উন্নয়ন বোর্ড (BWDB)-এর ডাটা এন্ট্রি অপারেটর ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 9,
+      "question": {
+        "mix": "What type of noun the word 'Rice' is?",
+        "en": "What type of noun the word 'Rice' is?",
+        "bn": "'Rice' শব্দটি কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Proper noun",
+          "en": "Proper noun",
+          "bn": "Proper noun"
+        },
+        "b": {
+          "mix": "Common noun",
+          "en": "Common noun",
+          "bn": "Common noun"
+        },
+        "c": {
+          "mix": "Abstract noun",
+          "en": "Abstract noun",
+          "bn": "Abstract noun"
+        },
+        "d": {
+          "mix": "Material noun",
+          "en": "Material noun",
+          "bn": "Material noun"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "যে সকল noun গণনা করা যায় না কিন্তু একক দ্বারা পরিমাপ করা যায় তাকে material noun বলে। কয়েকটি material noun-এর উদাহরণ হলো rice, salt, milk, mutton ইত্যাদি।",
+        "en": "The nouns that cannot be counted but can be measured by unit are called material nouns. A few examples of material nouns are rice, salt, milk, mutton etc.",
+        "bn": "যে সকল noun গণনা করা যায় না কিন্তু একক দ্বারা পরিমাপ করা যায় তাকে material noun বলে। কয়েকটি material noun-এর উদাহরণ হলো rice, salt, milk, mutton ইত্যাদি।"
+      },
+      "source": "তথ্য মন্ত্রণালয়ের অধীন চলচ্চিত্র ও প্রকাশনা অধিদপ্তরের ক্যামেরাম্যান ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 10,
+      "question": {
+        "mix": "The word 'army' is a —",
+        "en": "The word 'army' is a —",
+        "bn": "'army' শব্দটি একটি —"
+      },
+      "options": {
+        "a": {
+          "mix": "proper noun",
+          "en": "proper noun",
+          "bn": "proper noun"
+        },
+        "b": {
+          "mix": "common noun",
+          "en": "common noun",
+          "bn": "common noun"
+        },
+        "c": {
+          "mix": "collective noun",
+          "en": "collective noun",
+          "bn": "collective noun"
+        },
+        "d": {
+          "mix": "material noun",
+          "en": "material noun",
+          "bn": "material noun"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "যে noun দ্বারা সমজাতীয় ব্যক্তি, বস্তুর সমষ্টিকে বোঝায় সে nounকে collective noun বলে। কয়েকটি collective noun-এর উদাহরণ হলো army, committee, class, group ইত্যাদি।",
+        "en": "The noun that denotes a collection of persons or things of the same kind is called a collective noun. A few examples of collective nouns are army, committee, class, group etc.",
+        "bn": "যে noun দ্বারা সমজাতীয় ব্যক্তি, বস্তুর সমষ্টিকে বোঝায় সে nounকে collective noun বলে। কয়েকটি collective noun-এর উদাহরণ হলো army, committee, class, group ইত্যাদি।"
+      },
+      "source": "তথ্য মন্ত্রণালয়ের অধীন চলচ্চিত্র ও প্রকাশনা অধিদপ্তরের ক্যামেরাম্যান ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 11,
+      "question": {
+        "mix": "What kind of noun is 'Boy'?",
+        "en": "What kind of noun is 'Boy'?",
+        "bn": "'Boy' কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Material",
+          "en": "Material",
+          "bn": "Material"
+        },
+        "b": {
+          "mix": "Proper",
+          "en": "Proper",
+          "bn": "Proper"
+        },
+        "c": {
+          "mix": "Common",
+          "en": "Common",
+          "bn": "Common"
+        },
+        "d": {
+          "mix": "Collective",
+          "en": "Collective",
+          "bn": "Collective"
+        },
+        "e": {
+          "mix": "None of these",
+          "en": "None of these",
+          "bn": "None of these"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Boy শব্দটি নির্দিষ্ট কোনো ব্যক্তি না বুঝিয়ে এক জাতীয় সকলকেই বোঝানোর কারণে boy শব্দটি common noun।",
+        "en": "Since the word 'Boy' denotes all of a kind instead of any particular person, the word 'boy' is a common noun.",
+        "bn": "Boy শব্দটি নির্দিষ্ট কোনো ব্যক্তি না বুঝিয়ে এক জাতীয় সকলকেই বোঝানোর কারণে boy শব্দটি common noun।"
+      },
+      "source": "ঢাকা ইলেকট্রিক সাপ্লাই কোম্পানি (DESCO)-এর অ্যাসিসটেন্ট কমপ্লেইন্ট সুপারভাইজার ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 12,
+      "question": {
+        "mix": "'Water' is a — noun.",
+        "en": "'Water' is a — noun.",
+        "bn": "'Water' একটি — noun।"
+      },
+      "options": {
+        "a": {
+          "mix": "proper",
+          "en": "proper",
+          "bn": "proper"
+        },
+        "b": {
+          "mix": "common",
+          "en": "common",
+          "bn": "common"
+        },
+        "c": {
+          "mix": "material",
+          "en": "material",
+          "bn": "material"
+        },
+        "d": {
+          "mix": "abstract",
+          "en": "abstract",
+          "bn": "abstract"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "যে সকল Noun সংখ্যা দ্বারা গণনা করা যায় না কিন্তু একক দ্বারা পরিমাপ করা যায় তাদেরকে material noun বলে। Material noun-এর কয়েকটি উদাহরণ হলো Water, rice, milk, salt, diamond ইত্যাদি।",
+        "en": "The nouns that cannot be counted by number but can be measured by unit are called material nouns. A few examples of material nouns are Water, rice, milk, salt, diamond etc.",
+        "bn": "যে সকল Noun সংখ্যা দ্বারা গণনা করা যায় না কিন্তু একক দ্বারা পরিমাপ করা যায় তাদেরকে material noun বলে। Material noun-এর কয়েকটি উদাহরণ হলো Water, rice, milk, salt, diamond ইত্যাদি।"
+      },
+      "source": "সংস্কৃতি বিষয়ক মন্ত্রণালয়ের প্রত্নতত্ত্ব অধিদপ্তরের এস্টিমেটর ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 13,
+      "question": {
+        "mix": "কোনটি Collective Noun?",
+        "en": "Which one is a collective noun?",
+        "bn": "কোনটি Collective Noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Library",
+          "en": "Library",
+          "bn": "Library"
+        },
+        "b": {
+          "mix": "Month",
+          "en": "Month",
+          "bn": "Month"
+        },
+        "c": {
+          "mix": "Boy",
+          "en": "Boy",
+          "bn": "Boy"
+        },
+        "d": {
+          "mix": "Books",
+          "en": "Books",
+          "bn": "Books"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "যেসব noun দ্বারা সমজাতীয় কিছু ব্যক্তি বা বস্তুর সমষ্টিকে বোঝায় তাকে collective noun বলে। Collective noun-এর কয়েকটি উদাহরণ হলো audience (শ্রোতামণ্ডলী), Jury (বিচারকমণ্ডলী), library (বইয়ের সংগ্রহ)।",
+        "en": "The nouns that denote a collection of some persons or things of the same kind are called collective nouns. A few examples of collective nouns are audience (audience), Jury (jury), library (a collection of books).",
+        "bn": "যেসব noun দ্বারা সমজাতীয় কিছু ব্যক্তি বা বস্তুর সমষ্টিকে বোঝায় তাকে collective noun বলে। Collective noun-এর কয়েকটি উদাহরণ হলো audience (শ্রোতামণ্ডলী), Jury (বিচারকমণ্ডলী), library (বইয়ের সংগ্রহ)।"
+      },
+      "source": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (চতুর্থ ধাপ) ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 14,
+      "question": {
+        "mix": "He has done no wrong. The underlined word is a/an—",
+        "en": "He has done no wrong. The underlined word is a/an—",
+        "bn": "He has done no wrong. underline করা শব্দটি একটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "pronoun",
+          "en": "pronoun",
+          "bn": "pronoun"
+        },
+        "b": {
+          "mix": "adverb",
+          "en": "adverb",
+          "bn": "adverb"
+        },
+        "c": {
+          "mix": "adjective",
+          "en": "adjective",
+          "bn": "adjective"
+        },
+        "d": {
+          "mix": "noun",
+          "en": "noun",
+          "bn": "noun"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "বাক্যে wrong শব্দটি noun হিসেবে ব্যবহৃত হয়েছে। বাক্যটির বাংলা: সে কোনো অন্যায় কাজ করেনি।",
+        "en": "In the sentence, the word 'wrong' has been used as a noun. The Bangla of the sentence is: He has done no wrong.",
+        "bn": "বাক্যে wrong শব্দটি noun হিসেবে ব্যবহৃত হয়েছে। বাক্যটির বাংলা: সে কোনো অন্যায় কাজ করেনি।"
+      },
+      "source": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (চতুর্থ ধাপ) ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 15,
+      "question": {
+        "mix": "The soldiers were rewarded for their bravery. Which class of noun 'bravery' belongs to?",
+        "en": "The soldiers were rewarded for their bravery. Which class of noun 'bravery' belongs to?",
+        "bn": "The soldiers were rewarded for their bravery. 'bravery' কোন শ্রেণির noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Collective",
+          "en": "Collective",
+          "bn": "Collective"
+        },
+        "b": {
+          "mix": "Material",
+          "en": "Material",
+          "bn": "Material"
+        },
+        "c": {
+          "mix": "Common",
+          "en": "Common",
+          "bn": "Common"
+        },
+        "d": {
+          "mix": "Abstract",
+          "en": "Abstract",
+          "bn": "Abstract"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Bravery (সাহসিকতা) শব্দটি দ্বারা গুণের নাম বোঝানোর কারণে bravery শব্দটি abstract noun।",
+        "en": "Since the word 'Bravery' (bravery) denotes the name of a quality, the word 'bravery' is an abstract noun.",
+        "bn": "Bravery (সাহসিকতা) শব্দটি দ্বারা গুণের নাম বোঝানোর কারণে bravery শব্দটি abstract noun।"
+      },
+      "source": "বিভিন্ন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 16,
+      "question": {
+        "mix": "What kind of noun is 'cattle'?",
+        "en": "What kind of noun is 'cattle'?",
+        "bn": "'cattle' কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Proper",
+          "en": "Proper",
+          "bn": "Proper"
+        },
+        "b": {
+          "mix": "Common",
+          "en": "Common",
+          "bn": "Common"
+        },
+        "c": {
+          "mix": "Collective",
+          "en": "Collective",
+          "bn": "Collective"
+        },
+        "d": {
+          "mix": "Material",
+          "en": "Material",
+          "bn": "Material"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Cattle (গবাদিপশুর পাল) হলো collective noun। কারণ cattle দ্বারা গবাদিপশুর সমষ্টিকে নির্দেশ করে। Collective noun-এর কয়েকটি উদাহরণ হলো clergy, committee, class, jury, public.",
+        "en": "'Cattle' (a herd of farm animals) is a collective noun, because 'cattle' indicates a collection of farm animals. A few examples of collective nouns are clergy, committee, class, jury, public.",
+        "bn": "Cattle (গবাদিপশুর পাল) হলো collective noun। কারণ cattle দ্বারা গবাদিপশুর সমষ্টিকে নির্দেশ করে। Collective noun-এর কয়েকটি উদাহরণ হলো clergy, committee, class, jury, public."
+      },
+      "source": "সরকারি মাধ্যমিক বিদ্যালয় সহকারী শিক্ষক ২০১৬",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 17,
+      "question": {
+        "mix": "'Honesty is the best policy.' In this sentence the word 'honesty' is —",
+        "en": "'Honesty is the best policy.' In this sentence the word 'honesty' is —",
+        "bn": "'Honesty is the best policy.' এই বাক্যে 'honesty' শব্দটি —"
+      },
+      "options": {
+        "a": {
+          "mix": "a proper noun",
+          "en": "a proper noun",
+          "bn": "a proper noun"
+        },
+        "b": {
+          "mix": "a common noun",
+          "en": "a common noun",
+          "bn": "a common noun"
+        },
+        "c": {
+          "mix": "a collective noun",
+          "en": "a collective noun",
+          "bn": "a collective noun"
+        },
+        "d": {
+          "mix": "an abstract noun",
+          "en": "an abstract noun",
+          "bn": "an abstract noun"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "যে noun দ্বারা কোনো ব্যক্তির বা বস্তুর গুণ, অবস্থা বা কার্যের নাম প্রকাশ করে তাকে abstract noun বলে। Abstract noun-এর কয়েকটি উদাহরণ হলো honesty, kindness, freedom, illness।",
+        "en": "The noun that expresses the name of a quality, state or action of a person or thing is called an abstract noun. A few examples of abstract nouns are honesty, kindness, freedom, illness.",
+        "bn": "যে noun দ্বারা কোনো ব্যক্তির বা বস্তুর গুণ, অবস্থা বা কার্যের নাম প্রকাশ করে তাকে abstract noun বলে। Abstract noun-এর কয়েকটি উদাহরণ হলো honesty, kindness, freedom, illness।"
+      },
+      "source": "পররাষ্ট্র মন্ত্রণালয়ের সুপারিনটেনডেন্ট ২০১৯; একটি বাড়ি একটি খামার প্রকল্পের ফিল্ড সুপারভাইজার ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 18,
+      "question": {
+        "mix": "Flock is a—",
+        "en": "Flock is a—",
+        "bn": "Flock একটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Proper noun",
+          "en": "Proper noun",
+          "bn": "Proper noun"
+        },
+        "b": {
+          "mix": "Common noun",
+          "en": "Common noun",
+          "bn": "Common noun"
+        },
+        "c": {
+          "mix": "Collective noun",
+          "en": "Collective noun",
+          "bn": "Collective noun"
+        },
+        "d": {
+          "mix": "Abstract noun",
+          "en": "Abstract noun",
+          "bn": "Abstract noun"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Flock (প্রাণীর দল) বলতে অনেকগুলো প্রাণীর সমষ্টিকে বোঝায়। সুতরাং flock শব্দটি collective (সমষ্টিবাচক) noun।",
+        "en": "'Flock' (a flock of animals) means a collection of many animals. So the word 'flock' is a collective noun.",
+        "bn": "Flock (প্রাণীর দল) বলতে অনেকগুলো প্রাণীর সমষ্টিকে বোঝায়। সুতরাং flock শব্দটি collective (সমষ্টিবাচক) noun।"
+      },
+      "source": "বিভিন্ন মন্ত্রণা./বিভাগ/অধি. ব্যক্তিগত কর্মকর্তা (সাধারণ) ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 19,
+      "question": {
+        "mix": "What kind of noun is 'committee'?",
+        "en": "What kind of noun is 'committee'?",
+        "bn": "'committee' কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "abstract",
+          "en": "abstract",
+          "bn": "abstract"
+        },
+        "b": {
+          "mix": "proper",
+          "en": "proper",
+          "bn": "proper"
+        },
+        "c": {
+          "mix": "collective",
+          "en": "collective",
+          "bn": "collective"
+        },
+        "d": {
+          "mix": "common",
+          "en": "common",
+          "bn": "common"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Committee (বিশেষ কাজ সম্পাদনের জন্য নির্বাচিত ব্যক্তিবর্গ) একটি collective noun।",
+        "en": "'Committee' (a body of persons elected to perform a particular task) is a collective noun.",
+        "bn": "Committee (বিশেষ কাজ সম্পাদনের জন্য নির্বাচিত ব্যক্তিবর্গ) একটি collective noun।"
+      },
+      "source": "শেরপুর কৃষি বিশ্ববিদ্যালয় ... ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 20,
+      "question": {
+        "mix": "What type of noun the word 'Chemistry' is—",
+        "en": "What type of noun the word 'Chemistry' is—",
+        "bn": "'Chemistry' শব্দটি কোন ধরনের noun—"
+      },
+      "options": {
+        "a": {
+          "mix": "material",
+          "en": "material",
+          "bn": "material"
+        },
+        "b": {
+          "mix": "proper",
+          "en": "proper",
+          "bn": "proper"
+        },
+        "c": {
+          "mix": "common",
+          "en": "common",
+          "bn": "common"
+        },
+        "d": {
+          "mix": "abstract",
+          "en": "abstract",
+          "bn": "abstract"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "বস্তুর গুণ, কাজ বা অবস্থা যা দেখাও স্পর্শ করা যায় না কিন্তু ইন্দ্রিয় দ্বারা অনুভব করা যায় তাই abstract noun। তাই সঠিক উত্তর ঘ।",
+        "en": "A quality, action or state of a thing which cannot be seen or touched but can be felt with the senses is an abstract noun. So the correct answer is (d).",
+        "bn": "বস্তুর গুণ, কাজ বা অবস্থা যা দেখাও স্পর্শ করা যায় না কিন্তু ইন্দ্রিয় দ্বারা অনুভব করা যায় তাই abstract noun। তাই সঠিক উত্তর ঘ।"
+      },
+      "source": "প্রাথমিক সহকারী শিক্ষক ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 21,
+      "question": {
+        "mix": "The word 'American' is—",
+        "en": "The word 'American' is—",
+        "bn": "'American' শব্দটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "pronoun",
+          "en": "pronoun",
+          "bn": "pronoun"
+        },
+        "b": {
+          "mix": "both noun and adjective",
+          "en": "both noun and adjective",
+          "bn": "both noun and adjective"
+        },
+        "c": {
+          "mix": "noun",
+          "en": "noun",
+          "bn": "noun"
+        },
+        "d": {
+          "mix": "adjective",
+          "en": "adjective",
+          "bn": "adjective"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "American শব্দটি noun এবং adjective উভয় হিসেবেই ব্যবহৃত হয়। Noun হিসেবে American অর্থ আমেরিকার অধিবাসী; যুক্তরাষ্ট্রের নাগরিক আর adjective হিসেবে American অর্থ উত্তর বা দক্ষিণ আমেরিকা সম্বন্ধীয়, বিশেষত মার্কিন।",
+        "en": "The word 'American' is used both as a noun and as an adjective. As a noun, 'American' means an inhabitant of America; a citizen of the United States. As an adjective, 'American' means relating to North or South America, especially American (of the USA).",
+        "bn": "American শব্দটি noun এবং adjective উভয় হিসেবেই ব্যবহৃত হয়। Noun হিসেবে American অর্থ আমেরিকার অধিবাসী; যুক্তরাষ্ট্রের নাগরিক আর adjective হিসেবে American অর্থ উত্তর বা দক্ষিণ আমেরিকা সম্বন্ধীয়, বিশেষত মার্কিন।"
+      },
+      "source": "প্রাথমিক সহকারী শিক্ষক ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 22,
+      "question": {
+        "mix": "What type of noun the word 'infancy' is?",
+        "en": "What type of noun the word 'infancy' is?",
+        "bn": "'infancy' শব্দটি কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Common",
+          "en": "Common",
+          "bn": "Common"
+        },
+        "b": {
+          "mix": "Abstract",
+          "en": "Abstract",
+          "bn": "Abstract"
+        },
+        "c": {
+          "mix": "Material",
+          "en": "Material",
+          "bn": "Material"
+        },
+        "d": {
+          "mix": "Collective",
+          "en": "Collective",
+          "bn": "Collective"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "যাদের বাহ্যিক অস্তিত্ব নেই বা ইন্দ্রিয়ের সাহায্যে উপলব্ধি করা যায় না অর্থাৎ দেখা, গন্ধ নেয়া বা স্পর্শ করা যায় না তাকে abstract noun বলে। কয়েকটি abstract noun-এর উদাহরণ হলো agency, childhood, fatherhood, infancy (শৈশব)।",
+        "en": "That which has no outward existence and cannot be perceived with the senses — that is, cannot be seen, smelled or touched — is called an abstract noun. A few examples of abstract nouns are agency, childhood, fatherhood, infancy (infancy).",
+        "bn": "যাদের বাহ্যিক অস্তিত্ব নেই বা ইন্দ্রিয়ের সাহায্যে উপলব্ধি করা যায় না অর্থাৎ দেখা, গন্ধ নেয়া বা স্পর্শ করা যায় না তাকে abstract noun বলে। কয়েকটি abstract noun-এর উদাহরণ হলো agency, childhood, fatherhood, infancy (শৈশব)।"
+      },
+      "source": "প্রাথমিক সহকারী শিক্ষক ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 23,
+      "question": {
+        "mix": "People from all walks of life all ended the meaning. The underlined words is a/an—",
+        "en": "People from all walks of life all ended the meaning. The underlined words is a/an—",
+        "bn": "People from all walks of life all ended the meaning. underline করা শব্দটি একটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "adjective",
+          "en": "adjective",
+          "bn": "adjective"
+        },
+        "b": {
+          "mix": "verb",
+          "en": "verb",
+          "bn": "verb"
+        },
+        "c": {
+          "mix": "noun",
+          "en": "noun",
+          "bn": "noun"
+        },
+        "d": {
+          "mix": "adverb",
+          "en": "adverb",
+          "bn": "adverb"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Determiner (all)-এর পর এবং preposition (of)-এর পূর্বে noun বসে। সেই অর্থে প্রশ্নোক্ত বাক্যে walks শব্দটি noun হিসেবে ব্যবহৃত হয়েছে।",
+        "en": "A noun comes after a determiner (all) and before a preposition (of). In that sense, in the sentence in question, the word 'walks' has been used as a noun.",
+        "bn": "Determiner (all)-এর পর এবং preposition (of)-এর পূর্বে noun বসে। সেই অর্থে প্রশ্নোক্ত বাক্যে walks শব্দটি noun হিসেবে ব্যবহৃত হয়েছে।"
+      },
+      "source": "প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের উপসহকারী পরিচালক ২০১৭",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 24,
+      "question": {
+        "mix": "You have no right to do it. The underlined word is—",
+        "en": "You have no right to do it. The underlined word is—",
+        "bn": "You have no right to do it. underline করা শব্দটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "an adjective",
+          "en": "an adjective",
+          "bn": "an adjective"
+        },
+        "b": {
+          "mix": "a noun",
+          "en": "a noun",
+          "bn": "a noun"
+        },
+        "c": {
+          "mix": "an adverb",
+          "en": "an adverb",
+          "bn": "an adverb"
+        },
+        "d": {
+          "mix": "a verb",
+          "en": "a verb",
+          "bn": "a verb"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "প্রশ্নোক্ত বাক্যে right (অধিকার) শব্দটিকে noun হিসেবে ব্যবহার করেছে। কারণ have no-এর পরে noun বসে।",
+        "en": "In the sentence in question, the word 'right' (right) has been used as a noun, because a noun comes after 'have no'.",
+        "bn": "প্রশ্নোক্ত বাক্যে right (অধিকার) শব্দটিকে noun হিসেবে ব্যবহার করেছে। কারণ have no-এর পরে noun বসে।"
+      },
+      "source": "বিটিভির সহকারী প্রকৌশলী (সিভিল) ২০১৭",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 25,
+      "question": {
+        "mix": "I had a talk with him. Here 'talk' is a —.",
+        "en": "I had a talk with him. Here 'talk' is a —.",
+        "bn": "I had a talk with him. এখানে 'talk' একটি —।"
+      },
+      "options": {
+        "a": {
+          "mix": "verb",
+          "en": "verb",
+          "bn": "verb"
+        },
+        "b": {
+          "mix": "noun",
+          "en": "noun",
+          "bn": "noun"
+        },
+        "c": {
+          "mix": "pronoun",
+          "en": "pronoun",
+          "bn": "pronoun"
+        },
+        "d": {
+          "mix": "adverb",
+          "en": "adverb",
+          "bn": "adverb"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "সাধারণত কোনো verb-এর আগে article বা modifier বসিয়ে সেটাকে Noun করা যায়। তাছাড়া এই বাক্যে 'talk' object হিসেবে ব্যবহৃত হয়েছে। সুতরাং শব্দটি এখানে noun।",
+        "en": "Generally, a verb can be made into a noun by placing an article or modifier before it. Besides, in this sentence 'talk' has been used as an object. So the word here is a noun.",
+        "bn": "সাধারণত কোনো verb-এর আগে article বা modifier বসিয়ে সেটাকে Noun করা যায়। তাছাড়া এই বাক্যে 'talk' object হিসেবে ব্যবহৃত হয়েছে। সুতরাং শব্দটি এখানে noun।"
+      },
+      "source": "ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার ২০১৬",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 1,
+      "question": {
+        "mix": "'Forgiveness is a great virtue'. Which class of noun 'forgiveness' belongs to?",
+        "en": "'Forgiveness is a great virtue'. Which class of noun 'forgiveness' belongs to?",
+        "bn": "'Forgiveness is a great virtue'. 'forgiveness' কোন শ্রেণির noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Collective",
+          "en": "Collective",
+          "bn": "Collective"
+        },
+        "b": {
+          "mix": "Common",
+          "en": "Common",
+          "bn": "Common"
+        },
+        "c": {
+          "mix": "Material",
+          "en": "Material",
+          "bn": "Material"
+        },
+        "d": {
+          "mix": "Abstract",
+          "en": "Abstract",
+          "bn": "Abstract"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Forgiveness (ক্ষমা) শব্দটি Abstract noun। কারণ abstract noun দ্বারা দোষ, গুণ, অবস্থা ও কাজের নাম বোঝায়। Forgiveness শব্দটি গুণের নাম।",
+        "en": "The word 'Forgiveness' (forgiveness) is an abstract noun, because an abstract noun denotes the name of a fault, quality, state or action. The word 'Forgiveness' is the name of a quality.",
+        "bn": "Forgiveness (ক্ষমা) শব্দটি Abstract noun। কারণ abstract noun দ্বারা দোষ, গুণ, অবস্থা ও কাজের নাম বোঝায়। Forgiveness শব্দটি গুণের নাম।"
+      },
+      "source": "খুবি A ইউনিট সেট-ক ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 2,
+      "question": {
+        "mix": "'Swimming is a good exercise'. Here 'swimming' is a/an —",
+        "en": "'Swimming is a good exercise'. Here 'swimming' is a/an —",
+        "bn": "'Swimming is a good exercise'. এখানে 'swimming' একটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Verb",
+          "en": "Verb",
+          "bn": "Verb"
+        },
+        "b": {
+          "mix": "Noun",
+          "en": "Noun",
+          "bn": "Noun"
+        },
+        "c": {
+          "mix": "Gerund",
+          "en": "Gerund",
+          "bn": "Gerund"
+        },
+        "d": {
+          "mix": "Adverb",
+          "en": "Adverb",
+          "bn": "Adverb"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Verb + ing যখন noun এবং verb হিসেবে কাজ করে তখন তাকে gerund বলে। প্রদত্ত বাক্যে swimming শব্দটি sub হিসেবে noun এবং verb-এর কাজ করায় প্রদত্ত বাক্যে শব্দটি gerund হিসেবে ব্যবহৃত হয়েছে।",
+        "en": "When verb + ing works as both a noun and a verb, it is called a gerund. In the given sentence, since the word 'swimming' does the work of a noun and a verb as the subject, the word has been used as a gerund in the given sentence.",
+        "bn": "Verb + ing যখন noun এবং verb হিসেবে কাজ করে তখন তাকে gerund বলে। প্রদত্ত বাক্যে swimming শব্দটি sub হিসেবে noun এবং verb-এর কাজ করায় প্রদত্ত বাক্যে শব্দটি gerund হিসেবে ব্যবহৃত হয়েছে।"
+      },
+      "source": "ইবি Unit-B (Set-B) ২০১৯-২০; ঢাবি অধিভুক্ত সরকারি ৭ কলেজ, বিজ্ঞান ইউনিট ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 3,
+      "question": {
+        "mix": "What kind of noun is 'knowledge'?",
+        "en": "What kind of noun is 'knowledge'?",
+        "bn": "'knowledge' কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "proper",
+          "en": "proper",
+          "bn": "proper"
+        },
+        "b": {
+          "mix": "material",
+          "en": "material",
+          "bn": "material"
+        },
+        "c": {
+          "mix": "abstract",
+          "en": "abstract",
+          "bn": "abstract"
+        },
+        "d": {
+          "mix": "common",
+          "en": "common",
+          "bn": "common"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Knowledge (জ্ঞান) অবস্তুগত গুণ নির্দেশ করায় এবং পঞ্চ ইন্দ্রিয়ের সাহায্যে উপলব্ধি করতে না পারার কারণে knowledge শব্দটি abstract noun।",
+        "en": "'Knowledge' (knowledge) indicates an immaterial quality and cannot be perceived with the five senses, so the word 'knowledge' is an abstract noun.",
+        "bn": "Knowledge (জ্ঞান) অবস্তুগত গুণ নির্দেশ করায় এবং পঞ্চ ইন্দ্রিয়ের সাহায্যে উপলব্ধি করতে না পারার কারণে knowledge শব্দটি abstract noun।"
+      },
+      "source": "ইবি ২০১৮-১৯; ইউনিট বি",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 4,
+      "question": {
+        "mix": "'Mutton' is a/an—",
+        "en": "'Mutton' is a/an—",
+        "bn": "'Mutton' একটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Common noun",
+          "en": "Common noun",
+          "bn": "Common noun"
+        },
+        "b": {
+          "mix": "Abstract noun",
+          "en": "Abstract noun",
+          "bn": "Abstract noun"
+        },
+        "c": {
+          "mix": "Material noun",
+          "en": "Material noun",
+          "bn": "Material noun"
+        },
+        "d": {
+          "mix": "Proper noun",
+          "en": "Proper noun",
+          "bn": "Proper noun"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Mutton শব্দটি material noun কেননা Material noun পদার্থের সমুদয় অংশকে বোঝায় এবং এ noun গণনা করা যায় না, পরিমাপ করা যায়।",
+        "en": "The word 'Mutton' is a material noun, because a material noun denotes the whole of a substance, and this noun cannot be counted but can be measured.",
+        "bn": "Mutton শব্দটি material noun কেননা Material noun পদার্থের সমুদয় অংশকে বোঝায় এবং এ noun গণনা করা যায় না, পরিমাপ করা যায়।"
+      },
+      "source": "জগন্নাথ বিশ্ববিদ্যালয় ২০১৭-১৮; ইউনিট C",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 5,
+      "question": {
+        "mix": "To ride well requires practices. The underlined part is — phrase.",
+        "en": "To ride well requires practices. The underlined part is — phrase.",
+        "bn": "To ride well requires practices. underline করা অংশটি — phrase।"
+      },
+      "options": {
+        "a": {
+          "mix": "a noun",
+          "en": "a noun",
+          "bn": "a noun"
+        },
+        "b": {
+          "mix": "an adjective",
+          "en": "an adjective",
+          "bn": "an adjective"
+        },
+        "c": {
+          "mix": "a prepositional",
+          "en": "a prepositional",
+          "bn": "a prepositional"
+        },
+        "d": {
+          "mix": "an adverbial",
+          "en": "an adverbial",
+          "bn": "an adverbial"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Infinitive অর্থাৎ to + verb-এর base form যখন বাক্যের sub হিসেবে কাজ করে তখন তাকে noun হিসেবে গণ্য করা হয়।",
+        "en": "An infinitive — that is, to + the base form of a verb — when it works as the subject of a sentence, is counted as a noun.",
+        "bn": "Infinitive অর্থাৎ to + verb-এর base form যখন বাক্যের sub হিসেবে কাজ করে তখন তাকে noun হিসেবে গণ্য করা হয়।"
+      },
+      "source": "জগন্নাথ বিশ্ববিদ্যালয় ২০১৮-১৯; ইউনিট ডি",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 6,
+      "question": {
+        "mix": "He is fond of fishing. The underlined part is a/an—.",
+        "en": "He is fond of fishing. The underlined part is a/an—.",
+        "bn": "He is fond of fishing. underline করা অংশটি একটি—।"
+      },
+      "options": {
+        "a": {
+          "mix": "gerund",
+          "en": "gerund",
+          "bn": "gerund"
+        },
+        "b": {
+          "mix": "participle",
+          "en": "participle",
+          "bn": "participle"
+        },
+        "c": {
+          "mix": "verb",
+          "en": "verb",
+          "bn": "verb"
+        },
+        "d": {
+          "mix": "adjective",
+          "en": "adjective",
+          "bn": "adjective"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "He is fond of fishing— এখানে fishing, preposition of-এর object হিসেবে noun-এর কাজ করছে। Verb + ing noun-এর কাজ করলে তাকে Gerund বলে।",
+        "en": "In 'He is fond of fishing', 'fishing' is doing the work of a noun as the object of the preposition 'of'. When verb + ing does the work of a noun, it is called a gerund.",
+        "bn": "He is fond of fishing— এখানে fishing, preposition of-এর object হিসেবে noun-এর কাজ করছে। Verb + ing noun-এর কাজ করলে তাকে Gerund বলে।"
+      },
+      "source": "বশেমুরবিপ্রবি ২০১৮-১৯; ইউনিট E",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 7,
+      "question": {
+        "mix": "Which of the following is NOT an abstract noun?",
+        "en": "Which of the following is NOT an abstract noun?",
+        "bn": "নিচের কোনটি abstract noun নয়?"
+      },
+      "options": {
+        "a": {
+          "mix": "Goodness",
+          "en": "Goodness",
+          "bn": "Goodness"
+        },
+        "b": {
+          "mix": "Family",
+          "en": "Family",
+          "bn": "Family"
+        },
+        "c": {
+          "mix": "Bravery",
+          "en": "Bravery",
+          "bn": "Bravery"
+        },
+        "d": {
+          "mix": "Childhood",
+          "en": "Childhood",
+          "bn": "Childhood"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "ধরা, ছোঁয়া, স্পর্শ করা যায় না কিন্তু অনুভব করা যায় তাকে abstract noun বলে। Goodness (ভালোত্ব; সদগুণ), bravery (সাহসিকতা; নির্ভীকতা) এবং Childhood (শৈশব) শব্দগুলো abstract noun কিন্তু family অর্থ পরিবার যা অনেক সদস্যের সমষ্টি। Family শব্দটি হলো collective noun।",
+        "en": "That which cannot be caught, touched or felt by hand but can be felt is called an abstract noun. The words 'Goodness' (goodness; virtue), 'bravery' (bravery; fearlessness) and 'Childhood' (childhood) are abstract nouns, but 'family' means a family, which is a collection of many members. The word 'Family' is a collective noun.",
+        "bn": "ধরা, ছোঁয়া, স্পর্শ করা যায় না কিন্তু অনুভব করা যায় তাকে abstract noun বলে। Goodness (ভালোত্ব; সদগুণ), bravery (সাহসিকতা; নির্ভীকতা) এবং Childhood (শৈশব) শব্দগুলো abstract noun কিন্তু family অর্থ পরিবার যা অনেক সদস্যের সমষ্টি। Family শব্দটি হলো collective noun।"
+      },
+      "source": "ঢাবি ২০১৭-১৮; ইউনিট খ",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 8,
+      "question": {
+        "mix": "The police dispersed the crowd. Here the word 'crowd' is a—",
+        "en": "The police dispersed the crowd. Here the word 'crowd' is a—",
+        "bn": "The police dispersed the crowd. এখানে 'crowd' শব্দটি একটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "proper noun",
+          "en": "proper noun",
+          "bn": "proper noun"
+        },
+        "b": {
+          "mix": "common noun",
+          "en": "common noun",
+          "bn": "common noun"
+        },
+        "c": {
+          "mix": "collective noun",
+          "en": "collective noun",
+          "bn": "collective noun"
+        },
+        "d": {
+          "mix": "abstract noun",
+          "en": "abstract noun",
+          "bn": "abstract noun"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "বাক্যে ব্যবহৃত crowd শব্দটি হলো collective noun। Crowd (জনতা; জনসাধারণ) শব্দটি দ্বারা অনেক মানুষের সমষ্টি বোঝাচ্ছে।",
+        "en": "The word 'crowd' used in the sentence is a collective noun. The word 'Crowd' (crowd; the public) denotes a collection of many people.",
+        "bn": "বাক্যে ব্যবহৃত crowd শব্দটি হলো collective noun। Crowd (জনতা; জনসাধারণ) শব্দটি দ্বারা অনেক মানুষের সমষ্টি বোঝাচ্ছে।"
+      },
+      "source": "ঢাবি ২০১৭-১৮; ইউনিট ই",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 9,
+      "question": {
+        "mix": "What type of noun the underlined word is? : Water has no colour of its own.",
+        "en": "What type of noun the underlined word is? : Water has no colour of its own.",
+        "bn": "Water has no colour of its own. underline করা শব্দটি কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Common",
+          "en": "Common",
+          "bn": "Common"
+        },
+        "b": {
+          "mix": "Abstract",
+          "en": "Abstract",
+          "bn": "Abstract"
+        },
+        "c": {
+          "mix": "Proper",
+          "en": "Proper",
+          "bn": "Proper"
+        },
+        "d": {
+          "mix": "Material",
+          "en": "Material",
+          "bn": "Material"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Underlined word 'water' হলো material noun, কেননা water হলো পদার্থের নাম এবং material noun গণনা করা যায় না কিন্তু পরিমাপ নির্ণয় করা যায়।",
+        "en": "The underlined word 'water' is a material noun, because 'water' is the name of a substance, and a material noun cannot be counted but its measure can be determined.",
+        "bn": "Underlined word 'water' হলো material noun, কেননা water হলো পদার্থের নাম এবং material noun গণনা করা যায় না কিন্তু পরিমাপ নির্ণয় করা যায়।"
+      },
+      "source": "জাবি ২০১৭-১৮; ইউনিট H",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 10,
+      "question": {
+        "mix": "— of the history of words is called etymology.",
+        "en": "— of the history of words is called etymology.",
+        "bn": "— of the history of words is called etymology."
+      },
+      "options": {
+        "a": {
+          "mix": "The study",
+          "en": "The study",
+          "bn": "The study"
+        },
+        "b": {
+          "mix": "Study",
+          "en": "Study",
+          "bn": "Study"
+        },
+        "c": {
+          "mix": "Studying",
+          "en": "Studying",
+          "bn": "Studying"
+        },
+        "d": {
+          "mix": "To study",
+          "en": "To study",
+          "bn": "To study"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "বাক্যের subject হিসেবে The study বসে। শুধু Study বসলে বাক্যটি অসম্পূর্ণ হয়; Studying বা To study এখানে সঠিক নয়।",
+        "en": "'The study' sits as the subject of the sentence. If only 'Study' were used, the sentence would be incomplete; 'Studying' or 'To study' is not correct here.",
+        "bn": "বাক্যের subject হিসেবে The study বসে। শুধু Study বসলে বাক্যটি অসম্পূর্ণ হয়; Studying বা To study এখানে সঠিক নয়।"
+      },
+      "source": "রাবি ২০১৭-১৮; ইউনিট B",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 11,
+      "question": {
+        "mix": "What kind of noun is the word 'kindness'?",
+        "en": "What kind of noun is the word 'kindness'?",
+        "bn": "'kindness' শব্দটি কোন ধরনের noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "proper",
+          "en": "proper",
+          "bn": "proper"
+        },
+        "b": {
+          "mix": "abstract",
+          "en": "abstract",
+          "bn": "abstract"
+        },
+        "c": {
+          "mix": "common",
+          "en": "common",
+          "bn": "common"
+        },
+        "d": {
+          "mix": "material",
+          "en": "material",
+          "bn": "material"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Kindness (দয়া) গুণের নাম; দেখা বা ছোঁয়া যায় না, শুধু অনুভব করা যায়, তাই Abstract Noun।",
+        "en": "'Kindness' (kindness) is the name of a quality; it cannot be seen or touched, only felt, so it is an abstract noun.",
+        "bn": "Kindness (দয়া) গুণের নাম; দেখা বা ছোঁয়া যায় না, শুধু অনুভব করা যায়, তাই Abstract Noun।"
+      },
+      "source": "রাবি ২০১৭-১৮; ইউনিট E",
+      "explanation_source": "generated"
+    }
+  ],
+  "unclear": [
+    {
+      "page": 41,
+      "note": "Chapter title banner ('CHAPTER 02 — The Noun') verified from the page image; the intro paragraph and rules were read from the image."
+    },
+    {
+      "page": 48,
+      "note": "PSC Q19 source in the right margin is partly illegible in the scan; recorded as best-effort 'শেরপুর কৃষি বিশ্ববিদ্যালয় ... ২০১৮' with the answer letter (গ) clearly printed."
+    },
+    {
+      "page": 49,
+      "note": "PSC Q20, Q21, Q22 right-margin sources are hard to read in the scan (প্রাথমিক সহকারী শিক্ষক ২০১৮, ধাপ/জেলা details partly illegible); recorded as best-effort with the answer letters clearly printed."
+    },
+    {
+      "page": 45,
+      "note": "Inline Q21 question is printed as 'People from all walks of life all ended the meaning.' — preserved exactly as printed; the underlined target word is 'walks'."
+    },
+    {
+      "page": 42,
+      "note": "Inline Q4 'Boy' has 5 options (ক–ঙ, including 'None of these'); recorded with an extra 'e' option, as in Chapter 1."
+    },
+    {
+      "page": 48,
+      "note": "PSC Q11 'Boy' has 5 options (ক–ঙ, including 'None of these'); recorded with an extra 'e' option."
+    }
+  ],
+  "translation_source": "generated"
+}

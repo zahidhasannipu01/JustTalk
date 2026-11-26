@@ -1,0 +1,4782 @@
+{
+  "chapter": "Chapter-06: Number of Noun",
+  "pages": [
+    81,
+    96
+  ],
+  "rules": [
+    {
+      "heading": {
+        "mix": "Introduction",
+        "en": "Introduction",
+        "bn": "ভূমিকা"
+      },
+      "body": {
+        "mix": "Number শব্দটি দ্বারা কোনো কিছুর সংখ্যাকে বুঝানো হয়। আর Grammar-এর ভাষায়, যে কোনো ব্যক্তি, বস্তু বা প্রাণীর সংখ্যাকে Number বলে। Number প্রধানত দুই প্রকার (1) Singular Number এবং (2) Plural Number। তবে একটি বিষয় বিশেষভাবে মনে রাখতে হবে যে, Noun এবং Pronoun-এর Number হয়।",
+        "en": "The word 'number' denotes the number of anything. In the language of grammar, the number of any person, thing or animal is called number. Number is mainly of two kinds: (1) Singular Number and (2) Plural Number. But one thing must be remembered specially: nouns and pronouns have number.",
+        "bn": "Number শব্দটি দ্বারা কোনো কিছুর সংখ্যাকে বুঝানো হয়। আর Grammar-এর ভাষায়, যে কোনো ব্যক্তি, বস্তু বা প্রাণীর সংখ্যাকে Number বলে। Number প্রধানত দুই প্রকার (1) Singular Number এবং (2) Plural Number। তবে একটি বিষয় বিশেষভাবে মনে রাখতে হবে যে, Noun এবং Pronoun-এর Number হয়।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.1",
+        "en": "6.1",
+        "bn": "6.1"
+      },
+      "body": {
+        "mix": "Singular number-কে plural number-এ পরিণত করার জন্য কিছু সুনির্দিষ্ট নিয়ম রয়েছে। তবে সাধারণত কিছু word আছে যেগুলোর শেষে শুধু 's' যোগ করে plural করা যায়। যেমন— Book–books, Pen–pens, Boy–boys, Cat–cats, Dog–dogs ইত্যাদি।",
+        "en": "There are some definite rules for changing a singular number into a plural number. But generally there are some words that can be made plural simply by adding 's' at the end. For example — Book–books, Pen–pens, Boy–boys, Cat–cats, Dog–dogs, etc.",
+        "bn": "Singular number-কে plural number-এ পরিণত করার জন্য কিছু সুনির্দিষ্ট নিয়ম রয়েছে। তবে সাধারণত কিছু word আছে যেগুলোর শেষে শুধু 's' যোগ করে plural করা যায়। যেমন— Book–books, Pen–pens, Boy–boys, Cat–cats, Dog–dogs ইত্যাদি।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.2",
+        "en": "6.2",
+        "bn": "6.2"
+      },
+      "body": {
+        "mix": "যেসব Word-এর শেষে s, ss, sh, ch, x, z রয়েছে, তাদের শেষে 'es' যোগ করে plural করা যায়। তবে ch-এর উচ্চারণ যদি 'ক'-এর মতো হয়, তাহলে তার শেষে শুধু 's' যোগ করে plural করতে হয়। যেমন— Bus–buses, Ass—asses, Dish—dishes, Branch–branches, Stomach (স্টমাক)—stomachs, Monarch (মনাক)—monarchs, Fox–foxes, Fez–fezes ইত্যাদি।",
+        "en": "Words ending in s, ss, sh, ch, x or z can be made plural by adding 'es' at the end. But if the pronunciation of 'ch' is like 'k', only 's' is added at the end to make the plural. For example — Bus–buses, Ass—asses, Dish—dishes, Branch–branches, Stomach—stomachs, Monarch—monarchs, Fox–foxes, Fez–fezes, etc.",
+        "bn": "যেসব Word-এর শেষে s, ss, sh, ch, x, z রয়েছে, তাদের শেষে 'es' যোগ করে plural করা যায়। তবে ch-এর উচ্চারণ যদি 'ক'-এর মতো হয়, তাহলে তার শেষে শুধু 's' যোগ করে plural করতে হয়। যেমন— Bus–buses, Ass—asses, Dish—dishes, Branch–branches, Stomach (স্টমাক)—stomachs, Monarch (মনাক)—monarchs, Fox–foxes, Fez–fezes ইত্যাদি।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.3",
+        "en": "6.3",
+        "bn": "6.3"
+      },
+      "body": {
+        "mix": "Singular noun-এর শেষে f বা fe থাকলে plural করার সময় f বা fe-এর পরিবর্তে ves যোগ করে plural করতে হয়। যেমন— Calf (বাছুর)—Calves, Half (অর্ধেক)—Halves, Knife (ছুরি)—Knives, Leaf (পাতা)—Leaves, Life (জীবন)—Lives, Loaf (পাউরুটির খণ্ডবিশেষ)—Loaves, Self (নিজ)—Selves, Sheaf (গুচ্ছ)—Sheaves, Shelf (তাক)—Shelves, Thief (চোর)—Thieves, Wife (স্ত্রী)—Wives, Wolf (নেকড়ে)—Wolves।",
+        "en": "When a singular noun ends in f or fe, the f or fe is replaced by 'ves' to form the plural. For example — Calf—Calves, Half—Halves, Knife—Knives, Leaf—Leaves, Life—Lives, Loaf—Loaves, Self—Selves, Sheaf—Sheaves, Shelf—Shelves, Thief—Thieves, Wife—Wives, Wolf—Wolves.",
+        "bn": "Singular noun-এর শেষে f বা fe থাকলে plural করার সময় f বা fe-এর পরিবর্তে ves যোগ করে plural করতে হয়। যেমন— Calf (বাছুর)—Calves, Half (অর্ধেক)—Halves, Knife (ছুরি)—Knives, Leaf (পাতা)—Leaves, Life (জীবন)—Lives, Loaf (পাউরুটির খণ্ডবিশেষ)—Loaves, Self (নিজ)—Selves, Sheaf (গুচ্ছ)—Sheaves, Shelf (তাক)—Shelves, Thief (চোর)—Thieves, Wife (স্ত্রী)—Wives, Wolf (নেকড়ে)—Wolves।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.3.1",
+        "en": "6.3.1",
+        "bn": "6.3.1"
+      },
+      "body": {
+        "mix": "কিন্তু Noun এর শেষে if, ief, eef, oof, বা rf থাকলে শুধু s যোগ করে plural করতে হয়। নিচের উদাহরণগুলো দেখুন। Belief (আস্থা)—Beliefs, Brief (সংক্ষিপ্ত বিবরণী)—Briefs, Chief (নেতা)—Chiefs, Cliff (উঁচু খাড়া পাহাড়)—Cliffs, Dwarf (বামন)—Dwarfs/Dwarves, Gulf (উপসাগর)—Gulfs, Hoof (খুর)—Hoofs/Hooves, Proof (প্রমাণ)—Proofs, Roof (ছাদ)—Roofs, scarf (গলবস্ত্র)—scarf/scarves।",
+        "en": "But if a noun ends in if, ief, eef, oof or rf, only 's' is added to form the plural. Look at the examples below. Belief—Beliefs, Brief—Briefs, Chief—Chiefs, Cliff—Cliffs, Dwarf—Dwarfs/Dwarves, Gulf—Gulfs, Hoof—Hoofs/Hooves, Proof—Proofs, Roof—Roofs, scarf—scarfs/scarves.",
+        "bn": "কিন্তু Noun এর শেষে if, ief, eef, oof, বা rf থাকলে শুধু s যোগ করে plural করতে হয়। নিচের উদাহরণগুলো দেখুন। Belief (আস্থা)—Beliefs, Brief (সংক্ষিপ্ত বিবরণী)—Briefs, Chief (নেতা)—Chiefs, Cliff (উঁচু খাড়া পাহাড়)—Cliffs, Dwarf (বামন)—Dwarfs/Dwarves, Gulf (উপসাগর)—Gulfs, Hoof (খুর)—Hoofs/Hooves, Proof (প্রমাণ)—Proofs, Roof (ছাদ)—Roofs, scarf (গলবস্ত্র)—scarfs/scarves।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.4",
+        "en": "6.4",
+        "bn": "6.4"
+      },
+      "body": {
+        "mix": "যেসব word-এর শেষে o থাকে এবং o-এর পূর্বে একটি consonant থাকে, সে সকল word-এর শেষে es যোগ করে plural করা হয় আর o-এর পূর্বে vowel থাকলে শুধু s যোগ করে plural করতে হয়। যেমন— Mango–mangoes, Zero–zeroes, Hero–heroes, Echo–echoes, Bamboo–bamboos, Cuckoo–cuckoos, Studio–Studios ইত্যাদি।",
+        "en": "For words ending in 'o' preceded by a consonant, 'es' is added at the end to form the plural; but if a vowel precedes the 'o', only 's' is added. For example — Mango–mangoes, Zero–zeroes, Hero–heroes, Echo–echoes, Bamboo–bamboos, Cuckoo–cuckoos, Studio–Studios, etc.",
+        "bn": "যেসব word-এর শেষে o থাকে এবং o-এর পূর্বে একটি consonant থাকে, সে সকল word-এর শেষে es যোগ করে plural করা হয় আর o-এর পূর্বে vowel থাকলে শুধু s যোগ করে plural করতে হয়। যেমন— Mango–mangoes, Zero–zeroes, Hero–heroes, Echo–echoes, Bamboo–bamboos, Cuckoo–cuckoos, Studio–Studios ইত্যাদি।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.4.1",
+        "en": "6.4.1",
+        "bn": "6.4.1"
+      },
+      "body": {
+        "mix": "তবে, কিছু Noun-এর শেষে o-এবং o-এর পূর্বে একটি consonant থাকলেও শুধু s যোগ করে plural করতে হয়। যেমন— Canto (দীর্ঘ কবিতার সর্গ)—Cantos, Dynamo (বিদ্যুৎ উৎপাদক যন্ত্রবিশেষ)—Dynamos, Photo (ছবি)—Photos, Piano (বাদ্যযন্ত্র)—Pianos, Quango (রাষ্ট্রীয় অর্থে পরিচালিত সংস্থা)—Quangos, Quarto (আট পেজী বই)—Quartos।",
+        "en": "But for some nouns, even though they end in 'o' preceded by a consonant, only 's' is added to form the plural. For example — Canto—Cantos, Dynamo—Dynamos, Photo—Photos, Piano—Pianos, Quango—Quangos, Quarto—Quartos.",
+        "bn": "তবে, কিছু Noun-এর শেষে o-এবং o-এর পূর্বে একটি consonant থাকলেও শুধু s যোগ করে plural করতে হয়। যেমন— Canto (দীর্ঘ কবিতার সর্গ)—Cantos, Dynamo (বিদ্যুৎ উৎপাদক যন্ত্রবিশেষ)—Dynamos, Photo (ছবি)—Photos, Piano (বাদ্যযন্ত্র)—Pianos, Quango (রাষ্ট্রীয় অর্থে পরিচালিত সংস্থা)—Quangos, Quarto (আট পেজী বই)—Quartos।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.5",
+        "en": "6.5",
+        "bn": "6.5"
+      },
+      "body": {
+        "mix": "যেসব Singular noun-এর শেষে y এবং y-এর পূর্বে consonant রয়েছে, সেসব ক্ষেত্রে y-এর পরিবর্তে i এবং শেষে es যোগ করে plural করতে হয়। যেমন— Army (সেনা)—Armies, Baby (শিশু)—Babies, Body (শরীর)—Bodies, Country (দেশ)—Countries, Fly (মাছি)—Flies, Lady (ভদ্রমহিলা)—Ladies।",
+        "en": "For singular nouns ending in 'y' preceded by a consonant, the 'y' is changed to 'i' and 'es' is added at the end to form the plural. For example — Army—Armies, Baby—Babies, Body—Bodies, Country—Countries, Fly—Flies, Lady—Ladies.",
+        "bn": "যেসব Singular noun-এর শেষে y এবং y-এর পূর্বে consonant রয়েছে, সেসব ক্ষেত্রে y-এর পরিবর্তে i এবং শেষে es যোগ করে plural করতে হয়। যেমন— Army (সেনা)—Armies, Baby (শিশু)—Babies, Body (শরীর)—Bodies, Country (দেশ)—Countries, Fly (মাছি)—Flies, Lady (ভদ্রমহিলা)—Ladies।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.5.1",
+        "en": "6.5.1",
+        "bn": "6.5.1"
+      },
+      "body": {
+        "mix": "কিন্তু y এর পূর্বে Consonant না থেকে যদি vowel থাকে, তাহলে শুধু s যোগ করে plural করতে হয়। যেমন— Day (দিন)—Days, Monkey (বানর)—Monkeys, Toy (খেলনা)—Toys, Play (নাটক)—Plays।",
+        "en": "But if a vowel, not a consonant, precedes the 'y', only 's' is added to form the plural. For example — Day—Days, Monkey—Monkeys, Toy—Toys, Play—Plays.",
+        "bn": "কিন্তু y এর পূর্বে Consonant না থেকে যদি vowel থাকে, তাহলে শুধু s যোগ করে plural করতে হয়। যেমন— Day (দিন)—Days, Monkey (বানর)—Monkeys, Toy (খেলনা)—Toys, Play (নাটক)—Plays।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.6",
+        "en": "6.6",
+        "bn": "6.6"
+      },
+      "body": {
+        "mix": "কতগুলো noun-এর মাঝের vowel পরিবর্তন করে plural করতে হয়। যেমন— Foot (পায়ের পাতা)—Feet, Goose (রাজহংসী)—Geese, Man (পুরুষ মানুষ)—Men, Tooth (দাঁত)—Teeth, Woman (নারী)—Women।",
+        "en": "Some nouns are made plural by changing the middle vowel. For example — Foot—Feet, Goose—Geese, Man—Men, Tooth—Teeth, Woman—Women.",
+        "bn": "কতগুলো noun-এর মাঝের vowel পরিবর্তন করে plural করতে হয়। যেমন— Foot (পায়ের পাতা)—Feet, Goose (রাজহংসী)—Geese, Man (পুরুষ মানুষ)—Men, Tooth (দাঁত)—Teeth, Woman (নারী)—Women।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.6.1",
+        "en": "6.6.1",
+        "bn": "6.6.1"
+      },
+      "body": {
+        "mix": "আবার, কিছু word-এর মাঝের consonant এবং vowel-পরিবর্তন করে singular থেকে plural করা হয়। যেমন— Louse (উকুন)—lice, Mouse—mice, Dormouse (ইঁদুর বা কাটবিড়ালির মতো এক প্রকার ছোট প্রাণী)—dormice ইত্যাদি।",
+        "en": "Again, some words are changed from singular to plural by changing the middle consonant and vowel. For example — Louse—lice, Mouse—mice, Dormouse—dormice, etc.",
+        "bn": "আবার, কিছু word-এর মাঝের consonant এবং vowel-পরিবর্তন করে singular থেকে plural করা হয়। যেমন— Louse (উকুন)—lice, Mouse—mice, Dormouse (ইঁদুর বা কাটবিড়ালির মতো এক প্রকার ছোট প্রাণী)—dormice ইত্যাদি।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.7",
+        "en": "6.7",
+        "bn": "6.7"
+      },
+      "body": {
+        "mix": "কিছু Noun-এর শেষে en, ren, ne যোগ করে plural করতে হয়। যেমন— Brother–brethren (brothers), Child–children, Ox–oxen, Cow–kine (cows) ইত্যাদি।",
+        "en": "Some nouns are made plural by adding en, ren or ne at the end. For example — Brother–brethren (brothers), Child–children, Ox–oxen, Cow–kine (cows), etc.",
+        "bn": "কিছু Noun-এর শেষে en, ren, ne যোগ করে plural করতে হয়। যেমন— Brother–brethren (brothers), Child–children, Ox–oxen, Cow–kine (cows) ইত্যাদি।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.8",
+        "en": "6.8",
+        "bn": "6.8"
+      },
+      "body": {
+        "mix": "Singular number এর শেষে um থাকলে plural করার সময় um-এর পরিবর্তে a বসবে। কখনো কখনো Singular number এর সঙ্গে s যোগ করে plural করা হয়। তবে প্রশ্নপত্রে দুটিই থাকলে প্রথমটি গ্রহণ করতে হবে। যেমন— Addendum (পরিশিষ্ট, সংযোজন)—Addenda, Agendum (আলোচ্য বিষয়)—Agenda, Aquarium (কাঁচের মৎস্যাধার)—Aquaria/Aquariums, Bacterium (জীবাণু)—Bacteria, Corrigendum (শুদ্ধিপত্র)—Corrigenda, Cranium (মাথার খুলি)—Crania/Craniums, Curriculum (পাঠ্যক্রম)—Curricula, Datum (তথ্য, উপাত্ত)—Data, Dictum (সত্য বাণী, নীতিবাক্য)—Dicta, Effluvium (দূষিত বাষ্পকণা)—Effluvia, Encomium (উচ্চ প্রশংসা)—Encomia/Encomiums, Epithalamium (বিবাহের গান)—Epithalamia, Epithalamiums, Erratum (শুদ্ধিপত্র)—Errata, Exemplum (দৃষ্টান্ত, উদাহরণ)—Exempla, Exordium (ভূমিকা)—Exordia/Exordiums, Flagellum (বেত্রদণ্ড)—Flagella/Flagellums, Fulcrum (উপস্তম্ভ)—Fulcra/Fulcrums, Forum (আলোচনা সভা)—Fora/Forums, Gymnasium (ব্যায়ামাগার)—Gymnasia/Gymnasiums, Hilum (ডিম্বনাভি)—Hila, Hypogastrium (উদরের মধ্যস্থলের নিম্নাংশ)—Hypogastria, Idolum (ভাবমূর্তি)—Idola, Medium (মাধ্যম)—Media, Memorandum (স্মারকলিপি)—Memoranda, Optimum (সর্বানুকূল অবস্থা)—Optima, Ovum (ডিম্বাণু)—Ova, Referendum (গণভোট)—Referenda, Symposium (আলোচনা সভা)—Symposia, Ultimatum (চরমপত্র/ শেষ শর্ত)—Ultimata/Ultimatums।",
+        "en": "When a singular number ends in 'um', the 'um' is replaced by 'a' to form the plural. Sometimes 's' is added to the singular number to form the plural. But if both forms appear in the question paper, the first one must be taken. For example — Addendum—Addenda, Agendum—Agenda, Aquarium—Aquaria/Aquariums, Bacterium—Bacteria, Corrigendum—Corrigenda, Cranium—Crania/Craniums, Curriculum—Curricula, Datum—Data, Dictum—Dicta, Effluvium—Effluvia, Encomium—Encomia/Encomiums, Epithalamium—Epithalamia, Epithalamiums, Erratum—Errata, Exemplum—Exempla, Exordium—Exordia/Exordiums, Flagellum—Flagella/Flagellums, Fulcrum—Fulcra/Fulcrums, Forum—Fora/Forums, Gymnasium—Gymnasia/Gymnasiums, Hilum—Hila, Hypogastrium—Hypogastria, Idolum—Idola, Medium—Media, Memorandum—Memoranda, Optimum—Optima, Ovum—Ova, Referendum—Referenda, Symposium—Symposia, Ultimatum—Ultimata/Ultimatums.",
+        "bn": "Singular number এর শেষে um থাকলে plural করার সময় um-এর পরিবর্তে a বসবে। কখনো কখনো Singular number এর সঙ্গে s যোগ করে plural করা হয়। তবে প্রশ্নপত্রে দুটিই থাকলে প্রথমটি গ্রহণ করতে হবে। যেমন— Addendum (পরিশিষ্ট, সংযোজন)—Addenda, Agendum (আলোচ্য বিষয়)—Agenda, Aquarium (কাঁচের মৎস্যাধার)—Aquaria/Aquariums, Bacterium (জীবাণু)—Bacteria, Corrigendum (শুদ্ধিপত্র)—Corrigenda, Cranium (মাথার খুলি)—Crania/Craniums, Curriculum (পাঠ্যক্রম)—Curricula, Datum (তথ্য, উপাত্ত)—Data, Dictum (সত্য বাণী, নীতিবাক্য)—Dicta, Effluvium (দূষিত বাষ্পকণা)—Effluvia, Encomium (উচ্চ প্রশংসা)—Encomia/Encomiums, Epithalamium (বিবাহের গান)—Epithalamia, Epithalamiums, Erratum (শুদ্ধিপত্র)—Errata, Exemplum (দৃষ্টান্ত, উদাহরণ)—Exempla, Exordium (ভূমিকা)—Exordia/Exordiums, Flagellum (বেত্রদণ্ড)—Flagella/Flagellums, Fulcrum (উপস্তম্ভ)—Fulcra/Fulcrums, Forum (আলোচনা সভা)—Fora/Forums, Gymnasium (ব্যায়ামাগার)—Gymnasia/Gymnasiums, Hilum (ডিম্বনাভি)—Hila, Hypogastrium (উদরের মধ্যস্থলের নিম্নাংশ)—Hypogastria, Idolum (ভাবমূর্তি)—Idola, Medium (মাধ্যম)—Media, Memorandum (স্মারকলিপি)—Memoranda, Optimum (সর্বানুকূল অবস্থা)—Optima, Ovum (ডিম্বাণু)—Ova, Referendum (গণভোট)—Referenda, Symposium (আলোচনা সভা)—Symposia, Ultimatum (চরমপত্র/ শেষ শর্ত)—Ultimata/Ultimatums।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.9",
+        "en": "6.9",
+        "bn": "6.9"
+      },
+      "body": {
+        "mix": "যেসব Noun-এর শেষে on রয়েছে, তাদের plural form-এ রূপান্তরের ক্ষেত্রে on-এর পরিবর্তে a বসবে। যেমন— Criterion (বিচারের মাপকাঠি)—criteria, Phenomenon (ইন্দ্রিয়গোচর বস্তু/বিস্ময়কর ব্যক্তি বা ঘটনা)—phenomena ইত্যাদি।",
+        "en": "For nouns ending in 'on', the 'on' is replaced by 'a' when changing to the plural form. For example — Criterion—criteria, Phenomenon—phenomena, etc.",
+        "bn": "যেসব Noun-এর শেষে on রয়েছে, তাদের plural form-এ রূপান্তরের ক্ষেত্রে on-এর পরিবর্তে a বসবে। যেমন— Criterion (বিচারের মাপকাঠি)—criteria, Phenomenon (ইন্দ্রিয়গোচর বস্তু/বিস্ময়কর ব্যক্তি বা ঘটনা)—phenomena ইত্যাদি।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.10",
+        "en": "6.10",
+        "bn": "6.10"
+      },
+      "body": {
+        "mix": "Singular number-এর শেষে is থাকলে plural করার সময় is এর পরিবর্তে es বসবে। যেমন— Analysis (বিশ্লেষণ)—Analyses, Axis (অক্ষ)—Axes, Basis (ভিত্তি)—Bases, Crisis (সংকট)—Crises, Diagnosis (রোগ নির্ণয়)—Diagnoses, Hypothesis (অনুমান)—Hypotheses, Oasis (মরূদ্যান)—Oases, Parenthesis (বন্ধনী)—Parentheses, Synopsis (সংক্ষিপ্তসার)—Synopses, Thesis (গবেষণামূলক প্রবন্ধ)—Theses।",
+        "en": "When a singular number ends in 'is', the 'is' is replaced by 'es' to form the plural. For example — Analysis—Analyses, Axis—Axes, Basis—Bases, Crisis—Crises, Diagnosis—Diagnoses, Hypothesis—Hypotheses, Oasis—Oases, Parenthesis—Parentheses, Synopsis—Synopses, Thesis—Theses.",
+        "bn": "Singular number-এর শেষে is থাকলে plural করার সময় is এর পরিবর্তে es বসবে। যেমন— Analysis (বিশ্লেষণ)—Analyses, Axis (অক্ষ)—Axes, Basis (ভিত্তি)—Bases, Crisis (সংকট)—Crises, Diagnosis (রোগ নির্ণয়)—Diagnoses, Hypothesis (অনুমান)—Hypotheses, Oasis (মরূদ্যান)—Oases, Parenthesis (বন্ধনী)—Parentheses, Synopsis (সংক্ষিপ্তসার)—Synopses, Thesis (গবেষণামূলক প্রবন্ধ)—Theses।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.11",
+        "en": "6.11",
+        "bn": "6.11"
+      },
+      "body": {
+        "mix": "Singular-এর শেষে us থাকলে plural করার সময় us-এর স্থলে i হবে অথবা us-এর পর es করতে হয়। যেমন— Alumnus (প্রাক্তন ছাত্র)—Alumni, Focus (কেন্দ্র)—Foci/Focuses, Genius (প্রতিভা)—Genii/Geniuses, Locus (সংঘটনপথ)—Loci, Radius (ব্যাসার্ধ)—Radii/Radiuses, Stimulus (উদ্দীপক)—Stimuli, Syllabus (পাঠ্যসূচি)—Syllabi/Syllabuses, Terminus (শেষপ্রান্ত)—Termini/Termimuses।",
+        "en": "When a singular ends in 'us', the 'us' becomes 'i' in the plural, or 'es' is added after 'us'. For example — Alumnus—Alumni, Focus—Foci/Focuses, Genius—Genii/Geniuses, Locus—Loci, Radius—Radii/Radiuses, Stimulus—Stimuli, Syllabus—Syllabi/Syllabuses, Terminus—Termini/Terminuses.",
+        "bn": "Singular-এর শেষে us থাকলে plural করার সময় us-এর স্থলে i হবে অথবা us-এর পর es করতে হয়। যেমন— Alumnus (প্রাক্তন ছাত্র)—Alumni, Focus (কেন্দ্র)—Foci/Focuses, Genius (প্রতিভা)—Genii/Geniuses, Locus (সংঘটনপথ)—Loci, Radius (ব্যাসার্ধ)—Radii/Radiuses, Stimulus (উদ্দীপক)—Stimuli, Syllabus (পাঠ্যসূচি)—Syllabi/Syllabuses, Terminus (শেষপ্রান্ত)—Termini/Terminuses।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.12",
+        "en": "6.12",
+        "bn": "6.12"
+      },
+      "body": {
+        "mix": "Singular number-এর শেষে u থাকলে plural করার সময় এর সাথে x অথবা s যোগ করতে হবে। যেমন— Adieu (বিদায়)—Adieux/Adieus, Bandeau (চুলের ফিতা)—Bandeaux, Bureau (দপ্তর)—Bureaux/Bureaus, Flambeau (মশাল)—Flambeaux/Flambeaus, Milieu (পারিপার্শ্বিকতা)—Milieux, Plateau (মালভূমি)—Plateaux/Plateaus।",
+        "en": "When a singular number ends in 'u', 'x' or 's' must be added to form the plural. For example — Adieu—Adieux/Adieus, Bandeau—Bandeaux, Bureau—Bureaux/Bureaus, Flambeau—Flambeaux/Flambeaus, Milieu—Milieux, Plateau—Plateaux/Plateaus.",
+        "bn": "Singular number-এর শেষে u থাকলে plural করার সময় এর সাথে x অথবা s যোগ করতে হবে। যেমন— Adieu (বিদায়)—Adieux/Adieus, Bandeau (চুলের ফিতা)—Bandeaux, Bureau (দপ্তর)—Bureaux/Bureaus, Flambeau (মশাল)—Flambeaux/Flambeaus, Milieu (পারিপার্শ্বিকতা)—Milieux, Plateau (মালভূমি)—Plateaux/Plateaus।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.13",
+        "en": "6.13",
+        "bn": "6.13"
+      },
+      "body": {
+        "mix": "Singular number-এর শেষে a থাকলে এর সাথে s অথবা e অথবা ta যোগ করে plural করতে হবে। যেমন— Alumna (প্রাক্তন ছাত্রী)—Alumnae, Dogma (ধর্মমত, মতবাদ)—Dogmas, Exanthema (রোগবিশেষ)—Exanthemata, Vertebra (কশেরুকা)—Vertebrae।",
+        "en": "When a singular number ends in 'a', 's' or 'e' or 'ta' must be added to form the plural. For example — Alumna—Alumnae, Dogma—Dogmas, Exanthema—Exanthemata, Vertebra—Vertebrae.",
+        "bn": "Singular number-এর শেষে a থাকলে এর সাথে s অথবা e অথবা ta যোগ করে plural করতে হবে। যেমন— Alumna (প্রাক্তন ছাত্রী)—Alumnae, Dogma (ধর্মমত, মতবাদ)—Dogmas, Exanthema (রোগবিশেষ)—Exanthemata, Vertebra (কশেরুকা)—Vertebrae।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.14",
+        "en": "6.14",
+        "bn": "6.14"
+      },
+      "body": {
+        "mix": "Singular number-এর শেষে ix/ex থাকলে plural করার সময় ix/ex-এর পরিবর্তে ices বসবে অথবা es যোগ করতে হবে। তবে প্রশ্নপত্রে দুটিই থাকলে প্রথমটি গ্রহণ করতে হবে। যেমন— Appendix (পরিশিষ্ট)—Appendices/Appendixes (in books), Index (সূচক, নির্ঘণ্ট)—Indices/Indexes, Radix (উৎস)—Radices, Vertex (শীর্ষ)—Vertices/Vertexes।",
+        "en": "When a singular number ends in ix/ex, the ix/ex is replaced by 'ices' in the plural, or 'es' is added. But if both forms appear in the question paper, the first one must be taken. For example — Appendix—Appendices/Appendixes (in books), Index—Indices/Indexes, Radix—Radices, Vertex—Vertices/Vertexes.",
+        "bn": "Singular number-এর শেষে ix/ex থাকলে plural করার সময় ix/ex-এর পরিবর্তে ices বসবে অথবা es যোগ করতে হবে। তবে প্রশ্নপত্রে দুটিই থাকলে প্রথমটি গ্রহণ করতে হবে। যেমন— Appendix (পরিশিষ্ট)—Appendices/Appendixes (in books), Index (সূচক, নির্ঘণ্ট)—Indices/Indexes, Radix (উৎস)—Radices, Vertex (শীর্ষ)—Vertices/Vertexes।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.15",
+        "en": "6.15",
+        "bn": "6.15"
+      },
+      "body": {
+        "mix": "অন্যভাবেও Singular number থেকে plural number হতে পারে। যেমন— Bandit (দস্যু)—Banditti/Bandits, Cherub (স্বর্গীয় দূত)—Cherubim/Cherubs, Madam (ভদ্র মহিলা)—Mesdames, Seraph (দেবদূত)—Seraphim/Seraphs।",
+        "en": "A singular number can also become a plural number in other ways. For example — Bandit—Banditti/Bandits, Cherub—Cherubim/Cherubs, Madam—Mesdames, Seraph—Seraphim/Seraphs.",
+        "bn": "অন্যভাবেও Singular number থেকে plural number হতে পারে। যেমন— Bandit (দস্যু)—Banditti/Bandits, Cherub (স্বর্গীয় দূত)—Cherubim/Cherubs, Madam (ভদ্র মহিলা)—Mesdames, Seraph (দেবদূত)—Seraphim/Seraphs।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.16",
+        "en": "6.16",
+        "bn": "6.16"
+      },
+      "body": {
+        "mix": "কিছু Noun শব্দ রয়েছে যেগুলো সর্বদাই Singular হিসেবে ব্যবহৃত হয়, যেমন— advice, alphabet, bread, furniture, information, knowledge, poetry, scenery ইত্যাদি।",
+        "en": "There are some nouns that are always used as singular, such as — advice, alphabet, bread, furniture, information, knowledge, poetry, scenery, etc.",
+        "bn": "কিছু Noun শব্দ রয়েছে যেগুলো সর্বদাই Singular হিসেবে ব্যবহৃত হয়, যেমন— advice, alphabet, bread, furniture, information, knowledge, poetry, scenery ইত্যাদি।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.17",
+        "en": "6.17",
+        "bn": "6.17"
+      },
+      "body": {
+        "mix": "Aircraft, brace, barracks, cops, dice, deer, dozen, gallows, grouse, headquarters, horsepower, hundred, innings, means, menes, offspring, ineries, score, intone, salmon, species, sheep, swine, thousand, million billion, trillion, works (factory) ইত্যাদি শব্দের singular plural from একই। তবে dozen, hundred, score, thousand এর পূর্বে some, many থাকলে অথবা এদের পরে of থাকলে s যুক্ত হয়ে plural হয়ে থাকে। যেমন— Some dozens, many dozens কিন্তু এদের plural + of দ্বারা অনেক পরিমাণ বোঝায়। যেমন— hundreds of times (শত শত বার), thousands of people (হাজার হাজার লোক) ইত্যাদি।",
+        "en": "The singular and plural forms of words such as aircraft, brace, barracks, cops, dice, deer, dozen, gallows, grouse, headquarters, horsepower, hundred, innings, means, menes, offspring, ineries, score, intone, salmon, species, sheep, swine, thousand, million, billion, trillion and works (factory) are the same. But if some or many precedes dozen, hundred, score or thousand, or if 'of' follows them, 's' is added and they become plural. For example — Some dozens, many dozens; but their plural + 'of' expresses a large amount. For example — hundreds of times, thousands of people, etc.",
+        "bn": "Aircraft, brace, barracks, cops, dice, deer, dozen, gallows, grouse, headquarters, horsepower, hundred, innings, means, menes, offspring, ineries, score, intone, salmon, species, sheep, swine, thousand, million billion, trillion, works (factory) ইত্যাদি শব্দের singular plural form একই। তবে dozen, hundred, score, thousand এর পূর্বে some, many থাকলে অথবা এদের পরে of থাকলে s যুক্ত হয়ে plural হয়ে থাকে। যেমন— Some dozens, many dozens কিন্তু এদের plural + of দ্বারা অনেক পরিমাণ বোঝায়। যেমন— hundreds of times (শত শত বার), thousands of people (হাজার হাজার লোক) ইত্যাদি।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.18",
+        "en": "6.18",
+        "bn": "6.18"
+      },
+      "body": {
+        "mix": "Ethics, mathematics, news, physics, politics ইত্যাদি noun গুলো দেখতে plural হলেও এগুলো singular হিসেবে ব্যবহৃত হয়।",
+        "en": "Nouns such as ethics, mathematics, news, physics and politics look plural but are used as singular.",
+        "bn": "Ethics, mathematics, news, physics, politics ইত্যাদি noun গুলো দেখতে plural হলেও এগুলো singular হিসেবে ব্যবহৃত হয়।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.19",
+        "en": "6.19",
+        "bn": "6.19"
+      },
+      "body": {
+        "mix": "কতকগুলো Noun সবসময় plural অর্থে ব্যবহৃত হয়। যেমন— aborigines, ashes, assets, belongings, bowels, cattle, livestock, environs, fetters, measles, mumps, nuptials, police, poultry, proceeds, savings, scissors, spectacles, surroundings, tidings, trousers, vitals, vermin প্রভৃতি।",
+        "en": "Some nouns are always used in the plural sense. For example — aborigines, ashes, assets, belongings, bowels, cattle, livestock, environs, fetters, measles, mumps, nuptials, police, poultry, proceeds, savings, scissors, spectacles, surroundings, tidings, trousers, vitals, vermin, etc.",
+        "bn": "কতকগুলো Noun সবসময় plural অর্থে ব্যবহৃত হয়। যেমন— aborigines, ashes, assets, belongings, bowels, cattle, livestock, environs, fetters, measles, mumps, nuptials, police, poultry, proceeds, savings, scissors, spectacles, surroundings, tidings, trousers, vitals, vermin প্রভৃতি।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.20",
+        "en": "6.20",
+        "bn": "6.20"
+      },
+      "body": {
+        "mix": "সংখ্যা, প্রতীক বা বর্ণের শেষে apostrophe ('s) যোগ করে plural number-এ রূপান্তর করা যায়। যেমন— B.A's, i's ইত্যাদি।",
+        "en": "A number, symbol or letter can be changed into a plural number by adding an apostrophe ('s) at the end. For example — B.A's, i's, etc.",
+        "bn": "সংখ্যা, প্রতীক বা বর্ণের শেষে apostrophe ('s) যোগ করে plural number-এ রূপান্তর করা যায়। যেমন— B.A's, i's ইত্যাদি।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.21",
+        "en": "6.21",
+        "bn": "6.21"
+      },
+      "body": {
+        "mix": "কতগুলো Compound Noun-এর প্রধান অংশের সাথে 's' যোগ করে plural করতে হয়। যেমন— Brother-in-law—Brothers-in-law, Father-in-law—Fathers-in-law, Step-brother—Step-brothers, Maid-servant—Maid-servants, Court-martial—Court-martials, Commander-in-chief—Commanders-in-chief, Looker-on—Lookers-on। কিন্তু কতগুলো Compound Noun-এর প্রত্যেকটি অংশের plural করতে হয়। যেমন— Lord-justice—Lords-justices, Woman-servant—Women-servants, Man-servant—Men-servants।",
+        "en": "Some compound nouns are made plural by adding 's' to the main part. For example — Brother-in-law—Brothers-in-law, Father-in-law—Fathers-in-law, Step-brother—Step-brothers, Maid-servant—Maid-servants, Court-martial—Court-martials, Commander-in-chief—Commanders-in-chief, Looker-on—Lookers-on. But for some compound nouns, every part must be made plural. For example — Lord-justice—Lords-justices, Woman-servant—Women-servants, Man-servant—Men-servants.",
+        "bn": "কতগুলো Compound Noun-এর প্রধান অংশের সাথে 's' যোগ করে plural করতে হয়। যেমন— Brother-in-law—Brothers-in-law, Father-in-law—Fathers-in-law, Step-brother—Step-brothers, Maid-servant—Maid-servants, Court-martial—Court-martials, Commander-in-chief—Commanders-in-chief, Looker-on—Lookers-on। কিন্তু কতগুলো Compound Noun-এর প্রত্যেকটি অংশের plural করতে হয়। যেমন— Lord-justice—Lords-justices, Woman-servant—Women-servants, Man-servant—Men-servants।"
+      }
+    },
+    {
+      "heading": {
+        "mix": "6.22",
+        "en": "6.22",
+        "bn": "6.22"
+      },
+      "body": {
+        "mix": "Full-যুক্ত Singular Compound Noun-কে 's' যোগ করে plural-এ রূপান্তর করতে হয়। যেমন— Basketful—Basketfuls, Mouthful—Mouthfuls, Spoonful—Spoonfuls।",
+        "en": "A singular compound noun ending in 'ful' is changed into the plural by adding 's'. For example — Basketful—Basketfuls, Mouthful—Mouthfuls, Spoonful—Spoonfuls.",
+        "bn": "Full-যুক্ত Singular Compound Noun-কে 's' যোগ করে plural-এ রূপান্তর করতে হয়। যেমন— Basketful—Basketfuls, Mouthful—Mouthfuls, Spoonful—Spoonfuls।"
+      }
+    }
+  ],
+  "mcqs": [
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 1,
+      "question": {
+        "mix": "Doll-এর সঠিক plural কোনটি?",
+        "en": "What is the correct plural of 'Doll'?",
+        "bn": "Doll-এর সঠিক plural কোনটি?"
+      },
+      "options": {
+        "a": {
+          "mix": "Dolse",
+          "en": "Dolse",
+          "bn": "Dolse"
+        },
+        "b": {
+          "mix": "Dolls",
+          "en": "Dolls",
+          "bn": "Dolls"
+        },
+        "c": {
+          "mix": "Doles",
+          "en": "Doles",
+          "bn": "Doles"
+        },
+        "d": {
+          "mix": "Dolly",
+          "en": "Dolly",
+          "bn": "Dolly"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Doll-এর শেষে শুধু 's' যোগ করে plural করতে হয়— Dolls। Dolse ও Doles ভুল বানান, আর Dolly হলো Doll-এর অন্য রূপ (পুতুল), plural নয়।",
+        "en": "The plural of 'Doll' is formed by simply adding 's' — Dolls. 'Dolse' and 'Doles' are wrong spellings, and 'Dolly' is another form of 'doll' (a small doll), not its plural.",
+        "bn": "Doll-এর শেষে শুধু 's' যোগ করে plural করতে হয়— Dolls। Dolse ও Doles ভুল বানান, আর Dolly হলো Doll-এর অন্য রূপ (পুতুল), plural নয়।"
+      },
+      "source": "অর্থ মন্ত্রণালয়ের অফিস সহকারী ২০১১",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 2,
+      "question": {
+        "mix": "Fox-এর সঠিক plural কোনটি?",
+        "en": "What is the correct plural of 'Fox'?",
+        "bn": "Fox-এর সঠিক plural কোনটি?"
+      },
+      "options": {
+        "a": {
+          "mix": "foxen",
+          "en": "foxen",
+          "bn": "foxen"
+        },
+        "b": {
+          "mix": "foxes",
+          "en": "foxes",
+          "bn": "foxes"
+        },
+        "c": {
+          "mix": "foxs",
+          "en": "foxs",
+          "bn": "foxs"
+        },
+        "d": {
+          "mix": "foxss",
+          "en": "foxss",
+          "bn": "foxss"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Fox-এর শেষে x থাকায় 'es' যোগ করে plural করতে হয়— foxes। foxs ও foxss ভুল, আর foxen বলে কোনো plural form নেই।",
+        "en": "Since 'Fox' ends in 'x', 'es' is added to form the plural — foxes. 'foxs' and 'foxss' are wrong, and there is no plural form 'foxen'.",
+        "bn": "Fox-এর শেষে x থাকায় 'es' যোগ করে plural করতে হয়— foxes। foxs ও foxss ভুল, আর foxen বলে কোনো plural form নেই।"
+      },
+      "source": "অর্থ মন্ত্রণালয়ের অফিস সহকারী ২০১১",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 3,
+      "question": {
+        "mix": "Plural form of the word 'knife' is —",
+        "en": "Plural form of the word 'knife' is —",
+        "bn": "'knife' শব্দটির plural form কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Knifes",
+          "en": "Knifes",
+          "bn": "Knifes"
+        },
+        "b": {
+          "mix": "Kniveses",
+          "en": "Kniveses",
+          "bn": "Kniveses"
+        },
+        "c": {
+          "mix": "Knives",
+          "en": "Knives",
+          "bn": "Knives"
+        },
+        "d": {
+          "mix": "Knifeess",
+          "en": "Knifeess",
+          "bn": "Knifeess"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Knife-এর শেষে fe থাকায় fe-এর পরিবর্তে ves যোগ করে plural করতে হয়— Knives। Knifes, Kniveses ও Knifeess ভুল form।",
+        "en": "Since 'knife' ends in 'fe', the 'fe' is replaced by 'ves' to form the plural — Knives. 'Knifes', 'Kniveses' and 'Knifeess' are wrong forms.",
+        "bn": "Knife-এর শেষে fe থাকায় fe-এর পরিবর্তে ves যোগ করে plural করতে হয়— Knives। Knifes, Kniveses ও Knifeess ভুল form।"
+      },
+      "source": "উপজেলা/থানা সহকারী শিক্ষা অফিসার ২০০৫; রাজশাহী বিশ্ববিদ্যালয় ২০০৬-০৭",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 4,
+      "question": {
+        "mix": "The Plural form of 'dwarf' is —",
+        "en": "The Plural form of 'dwarf' is —",
+        "bn": "'dwarf' শব্দটির plural form কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Dwarves",
+          "en": "Dwarves",
+          "bn": "Dwarves"
+        },
+        "b": {
+          "mix": "Dwarfes",
+          "en": "Dwarfes",
+          "bn": "Dwarfes"
+        },
+        "c": {
+          "mix": "Dwarfs",
+          "en": "Dwarfs",
+          "bn": "Dwarfs"
+        },
+        "d": {
+          "mix": "Dwarx",
+          "en": "Dwarx",
+          "bn": "Dwarx"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "[Note : 'ক' ও 'গ' দুটি উত্তরই সঠিক।]",
+        "en": "[Note: Both answers (a) and (c) are correct.]",
+        "bn": "[Note : 'ক' ও 'গ' দুটি উত্তরই সঠিক।]"
+      },
+      "source": "রাবি ২০১৮-১৯; ইউনিট D (গ্রুপ-১); ঢাকা বিশ্ববিদ্যালয় 'সি' ইউনিট ২০০০-০১",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 5,
+      "question": {
+        "mix": "Which is the plural form of the word 'Hero'?",
+        "en": "Which is the plural form of the word 'Hero'?",
+        "bn": "'Hero' শব্দটির plural form কোনটি?"
+      },
+      "options": {
+        "a": {
+          "mix": "Heros",
+          "en": "Heros",
+          "bn": "Heros"
+        },
+        "b": {
+          "mix": "Heroes",
+          "en": "Heroes",
+          "bn": "Heroes"
+        },
+        "c": {
+          "mix": "Herois",
+          "en": "Herois",
+          "bn": "Herois"
+        },
+        "d": {
+          "mix": "Heross",
+          "en": "Heross",
+          "bn": "Heross"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Hero-এর শেষে o এবং o-এর পূর্বে consonant (r) থাকায় es যোগ করে plural করতে হয়— Heroes। Heros, Herois ও Heross ভুল form।",
+        "en": "Since 'Hero' ends in 'o' preceded by the consonant 'r', 'es' is added to form the plural — Heroes. 'Heros', 'Herois' and 'Heross' are wrong forms.",
+        "bn": "Hero-এর শেষে o এবং o-এর পূর্বে consonant (r) থাকায় es যোগ করে plural করতে হয়— Heroes। Heros, Herois ও Heross ভুল form।"
+      },
+      "source": "উপজেলা মহিলা বিষয়ক কর্মকর্তা ২০০৭",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 6,
+      "question": {
+        "mix": "What is the plural of 'photo'?",
+        "en": "What is the plural of 'photo'?",
+        "bn": "'photo' শব্দটির plural কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "photoes",
+          "en": "photoes",
+          "bn": "photoes"
+        },
+        "b": {
+          "mix": "photos",
+          "en": "photos",
+          "bn": "photos"
+        },
+        "c": {
+          "mix": "photographs",
+          "en": "photographs",
+          "bn": "photographs"
+        },
+        "d": {
+          "mix": "none of these",
+          "en": "none of these",
+          "bn": "none of these"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Photo-এর শেষে o থাকলেও o-এর পূর্বে consonant থাকা সত্ত্বেও শুধু s যোগ করে plural করতে হয়— photos। photoes ভুল, আর photographs হলো photo-এর পূর্ণরূপ, plural নয়।",
+        "en": "Although 'photo' ends in 'o', only 's' is added to form the plural — photos. 'photoes' is wrong, and 'photographs' is the full form of 'photo', not its plural.",
+        "bn": "Photo-এর শেষে o থাকলেও o-এর পূর্বে consonant থাকা সত্ত্বেও শুধু s যোগ করে plural করতে হয়— photos। photoes ভুল, আর photographs হলো photo-এর পূর্ণরূপ, plural নয়।"
+      },
+      "source": "খুলনা বিশ্ববিদ্যালয় ২০০৬-০৭",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 7,
+      "question": {
+        "mix": "The plural form of the word 'army' is—",
+        "en": "The plural form of the word 'army' is—",
+        "bn": "'army' শব্দটির plural form কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "armys",
+          "en": "armys",
+          "bn": "armys"
+        },
+        "b": {
+          "mix": "armyes",
+          "en": "armyes",
+          "bn": "armyes"
+        },
+        "c": {
+          "mix": "armis",
+          "en": "armis",
+          "bn": "armis"
+        },
+        "d": {
+          "mix": "armies",
+          "en": "armies",
+          "bn": "armies"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Army-এর শেষে y এবং y-এর পূর্বে consonant (m) থাকায় y-এর পরিবর্তে i এবং শেষে es যোগ করে plural করতে হয়— armies। armys, armyes ও armis ভুল form।",
+        "en": "Since 'army' ends in 'y' preceded by the consonant 'm', the 'y' is changed to 'i' and 'es' is added — armies. 'armys', 'armyes' and 'armis' are wrong forms.",
+        "bn": "Army-এর শেষে y এবং y-এর পূর্বে consonant (m) থাকায় y-এর পরিবর্তে i এবং শেষে es যোগ করে plural করতে হয়— armies। armys, armyes ও armis ভুল form।"
+      },
+      "source": "ইসলামী বিশ্ববিদ্যালয় 'সি' ইউনিট ২০০৮-০৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 8,
+      "question": {
+        "mix": "Many a — had tried but a few — succeeded. Fill in the blanks.",
+        "en": "Many a — had tried but a few — succeeded. Fill in the blanks.",
+        "bn": "Many a — had tried but a few — succeeded. শূন্যস্থান পূরণ করো।"
+      },
+      "options": {
+        "a": {
+          "mix": "men, men",
+          "en": "men, men",
+          "bn": "men, men"
+        },
+        "b": {
+          "mix": "man, men",
+          "en": "man, men",
+          "bn": "man, men"
+        },
+        "c": {
+          "mix": "girl, girl",
+          "en": "girl, girl",
+          "bn": "girl, girl"
+        },
+        "d": {
+          "mix": "boys, boy",
+          "en": "boys, boy",
+          "bn": "boys, boy"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Many a-এর পরে singular noun বসে— man; আর a few-এর পরে plural noun বসে— men। তাই সঠিক জোড়া man, men। men, men ভুল কারণ many a-এর পরে plural হয় না; girl, girl ও boys, boy-তে দ্বিতীয় শূন্যস্থানের number মেলে না।",
+        "en": "'Many a' is followed by a singular noun — man; 'a few' is followed by a plural noun — men. So the correct pair is 'man, men'. 'men, men' is wrong because 'many a' never takes a plural; in 'girl, girl' and 'boys, boy' the number of the second blank does not match.",
+        "bn": "Many a-এর পরে singular noun বসে— man; আর a few-এর পরে plural noun বসে— men। তাই সঠিক জোড়া man, men। men, men ভুল কারণ many a-এর পরে plural হয় না; girl, girl ও boys, boy-তে দ্বিতীয় শূন্যস্থানের number মেলে না।"
+      },
+      "source": "যশোর বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় ইউনিট C ২০১৯-২০",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 9,
+      "question": {
+        "mix": "Which one is plural form of the word 'mouse'?",
+        "en": "Which one is plural form of the word 'mouse'?",
+        "bn": "'mouse' শব্দটির plural form কোনটি?"
+      },
+      "options": {
+        "a": {
+          "mix": "Mouses",
+          "en": "Mouses",
+          "bn": "Mouses"
+        },
+        "b": {
+          "mix": "Mousess",
+          "en": "Mousess",
+          "bn": "Mousess"
+        },
+        "c": {
+          "mix": "Mice",
+          "en": "Mice",
+          "bn": "Mice"
+        },
+        "d": {
+          "mix": "Mices",
+          "en": "Mices",
+          "bn": "Mices"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Mouse-এর মাঝের vowel পরিবর্তন করে plural করতে হয়— mice। Mouses, Mousess ও Mices ভুল form।",
+        "en": "The plural of 'mouse' is formed by changing the middle vowel — mice. 'Mouses', 'Mousess' and 'Mices' are wrong forms.",
+        "bn": "Mouse-এর মাঝের vowel পরিবর্তন করে plural করতে হয়— mice। Mouses, Mousess ও Mices ভুল form।"
+      },
+      "source": "পাউবো'র ডাটা এন্ট্রি অপারেটর ২০১৯; পরিসংখ্যান ও তথ্য ব্যবস্থাপনা পরিসংখ্যান কর্মকর্তা ২০১৭; Trust Bank Officer 2012; রাজশাহী বিশ্ববিদ্যালয় ২০০৮-০৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 10,
+      "question": {
+        "mix": "Which one is in plural number?",
+        "en": "Which one is in plural number?",
+        "bn": "কোনটি plural number-এ আছে?"
+      },
+      "options": {
+        "a": {
+          "mix": "School",
+          "en": "School",
+          "bn": "School"
+        },
+        "b": {
+          "mix": "Oxen",
+          "en": "Oxen",
+          "bn": "Oxen"
+        },
+        "c": {
+          "mix": "Leaf",
+          "en": "Leaf",
+          "bn": "Leaf"
+        },
+        "d": {
+          "mix": "Mathematics",
+          "en": "Mathematics",
+          "bn": "Mathematics"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Ox-এর শেষে en যোগ করে plural হয়— Oxen। School ও Leaf singular noun; Mathematics দেখতে plural হলেও singular হিসেবে ব্যবহৃত হয়।",
+        "en": "The plural of 'ox' is formed by adding 'en' — Oxen. 'School' and 'Leaf' are singular nouns; 'Mathematics' looks plural but is used as singular.",
+        "bn": "Ox-এর শেষে en যোগ করে plural হয়— Oxen। School ও Leaf singular noun; Mathematics দেখতে plural হলেও singular হিসেবে ব্যবহৃত হয়।"
+      },
+      "source": "জাতীয় রাজস্ব বোর্ডের সহকারী রাজস্ব কর্মকর্তা ২০১২",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 11,
+      "question": {
+        "mix": "Singular form of 'data' is—",
+        "en": "Singular form of 'data' is—",
+        "bn": "'data' শব্দটির singular form কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "datum",
+          "en": "datum",
+          "bn": "datum"
+        },
+        "b": {
+          "mix": "dat",
+          "en": "dat",
+          "bn": "dat"
+        },
+        "c": {
+          "mix": "datas",
+          "en": "datas",
+          "bn": "datas"
+        },
+        "d": {
+          "mix": "none",
+          "en": "none",
+          "bn": "none"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Data হলো datum-এর plural form; um-এর পরিবর্তে a বসে plural হয়— Datum → Data। dat ও datas ভুল form, আর none সঠিক নয় কারণ datum-ই singular।",
+        "en": "'Data' is the plural of 'datum'; the 'um' is replaced by 'a' — Datum → Data. 'dat' and 'datas' are wrong forms, and 'none' is not correct because 'datum' is the singular.",
+        "bn": "Data হলো datum-এর plural form; um-এর পরিবর্তে a বসে plural হয়— Datum → Data। dat ও datas ভুল form, আর none সঠিক নয় কারণ datum-ই singular।"
+      },
+      "source": "ইসলামী বিশ্ববিদ্যালয় 'সি' ইউনিট ২০১৪-১৫",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 12,
+      "question": {
+        "mix": "Plural form of 'Phenomenon' is —",
+        "en": "Plural form of 'Phenomenon' is —",
+        "bn": "'Phenomenon' শব্দটির plural form কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Phenomene",
+          "en": "Phenomene",
+          "bn": "Phenomene"
+        },
+        "b": {
+          "mix": "Phenomena",
+          "en": "Phenomena",
+          "bn": "Phenomena"
+        },
+        "c": {
+          "mix": "Phenomean",
+          "en": "Phenomean",
+          "bn": "Phenomean"
+        },
+        "d": {
+          "mix": "Phanaminas",
+          "en": "Phanaminas",
+          "bn": "Phanaminas"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Phenomenon-এর শেষে on-এর পরিবর্তে a বসে plural হয়— Phenomena। Phenomene, Phenomean ও Phanaminas ভুল form।",
+        "en": "In the plural of 'phenomenon', the final 'on' is replaced by 'a' — Phenomena. 'Phenomene', 'Phenomean' and 'Phanaminas' are wrong forms.",
+        "bn": "Phenomenon-এর শেষে on-এর পরিবর্তে a বসে plural হয়— Phenomena। Phenomene, Phenomean ও Phanaminas ভুল form।"
+      },
+      "source": "ইসলামী বিশ্ববিদ্যালয় 'বি' ইউনিট ২০১৪-১৫",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 13,
+      "question": {
+        "mix": "The plural form of 'Oasis' is :",
+        "en": "The plural form of 'Oasis' is :",
+        "bn": "'Oasis' শব্দটির plural form কোনটি:"
+      },
+      "options": {
+        "a": {
+          "mix": "oasies",
+          "en": "oasies",
+          "bn": "oasies"
+        },
+        "b": {
+          "mix": "oasis",
+          "en": "oasis",
+          "bn": "oasis"
+        },
+        "c": {
+          "mix": "oasess",
+          "en": "oasess",
+          "bn": "oasess"
+        },
+        "d": {
+          "mix": "oases",
+          "en": "oases",
+          "bn": "oases"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Oasis-এর শেষে is-এর পরিবর্তে es বসে plural হয়— oases। oasies, oasis ও oasess ভুল form।",
+        "en": "In the plural of 'oasis', the final 'is' is replaced by 'es' — oases. 'oasies', 'oasis' and 'oasess' are wrong forms.",
+        "bn": "Oasis-এর শেষে is-এর পরিবর্তে es বসে plural হয়— oases। oasies, oasis ও oasess ভুল form।"
+      },
+      "source": "রাজশাহী বিশ্ববিদ্যালয় 'এ' ইউনিট (বিজোড়) ২০১৩-১৪",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 14,
+      "question": {
+        "mix": "The plural number of 'Bureau'—",
+        "en": "The plural number of 'Bureau'—",
+        "bn": "'Bureau' শব্দটির plural number কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Bureax",
+          "en": "Bureax",
+          "bn": "Bureax"
+        },
+        "b": {
+          "mix": "Bureaux",
+          "en": "Bureaux",
+          "bn": "Bureaux"
+        },
+        "c": {
+          "mix": "Buraes",
+          "en": "Buraes",
+          "bn": "Buraes"
+        },
+        "d": {
+          "mix": "Bureas",
+          "en": "Bureas",
+          "bn": "Bureas"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Bureau-এর শেষে u থাকায় x যোগ করে plural করতে হয়— Bureaux। Bureax, Buraes ও Bureas ভুল form।",
+        "en": "Since 'Bureau' ends in 'u', 'x' is added to form the plural — Bureaux. 'Bureax', 'Buraes' and 'Bureas' are wrong forms.",
+        "bn": "Bureau-এর শেষে u থাকায় x যোগ করে plural করতে হয়— Bureaux। Bureax, Buraes ও Bureas ভুল form।"
+      },
+      "source": "ইসলামী বিশ্ববিদ্যালয় 'বি' ইউনিট ২০১৪-১৫",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 15,
+      "question": {
+        "mix": "The plural form of 'appendix' is —",
+        "en": "The plural form of 'appendix' is —",
+        "bn": "'appendix' শব্দটির plural form কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "appendixes",
+          "en": "appendixes",
+          "bn": "appendixes"
+        },
+        "b": {
+          "mix": "appendis",
+          "en": "appendis",
+          "bn": "appendis"
+        },
+        "c": {
+          "mix": "appendices",
+          "en": "appendices",
+          "bn": "appendices"
+        },
+        "d": {
+          "mix": "appendesis",
+          "en": "appendesis",
+          "bn": "appendesis"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Appendix-এর শেষে ix-এর পরিবর্তে ices বসে plural হয়— appendices। appendis ও appendesis ভুল form; appendixes-ও শুদ্ধ হলেও প্রশ্নপত্রে দুটিই থাকলে প্রথমটি (appendices) গ্রহণ করতে হয়।",
+        "en": "In the plural of 'appendix', the final 'ix' is replaced by 'ices' — appendices. 'appendis' and 'appendesis' are wrong forms; 'appendixes' is also correct, but when both appear in the question paper the first one (appendices) is taken.",
+        "bn": "Appendix-এর শেষে ix-এর পরিবর্তে ices বসে plural হয়— appendices। appendis ও appendesis ভুল form; appendixes-ও শুদ্ধ হলেও প্রশ্নপত্রে দুটিই থাকলে প্রথমটি (appendices) গ্রহণ করতে হয়।"
+      },
+      "source": "বরিশাল বিশ্ববিদ্যালয় 'ঘ' ইউনিট ২০১৪-১৫",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 16,
+      "question": {
+        "mix": "What is the plural form of the word 'Seraph'?",
+        "en": "What is the plural form of the word 'Seraph'?",
+        "bn": "'Seraph' শব্দটির plural form কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "Seraphs",
+          "en": "Seraphs",
+          "bn": "Seraphs"
+        },
+        "b": {
+          "mix": "Seraphes",
+          "en": "Seraphes",
+          "bn": "Seraphes"
+        },
+        "c": {
+          "mix": "Serapic",
+          "en": "Serapic",
+          "bn": "Serapic"
+        },
+        "d": {
+          "mix": "Seraphim",
+          "en": "Seraphim",
+          "bn": "Seraphim"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Seraph-এর plural form হলো Seraphim (বা Seraphs)। Seraphes ও Serapic ভুল form; প্রশ্নের উত্তর হিসেবে Seraphim-ই গৃহীত হয়।",
+        "en": "The plural of 'Seraph' is 'Seraphim' (or 'Seraphs'). 'Seraphes' and 'Serapic' are wrong forms; 'Seraphim' is the accepted answer here.",
+        "bn": "Seraph-এর plural form হলো Seraphim (বা Seraphs)। Seraphes ও Serapic ভুল form; প্রশ্নের উত্তর হিসেবে Seraphim-ই গৃহীত হয়।"
+      },
+      "source": "সরকারি মাধ্যমিক সহকারী শিক্ষক ২০০৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 17,
+      "question": {
+        "mix": "The plural form of 'alphabet' is —",
+        "en": "The plural form of 'alphabet' is —",
+        "bn": "'alphabet' শব্দটির plural form কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "alphabets",
+          "en": "alphabets",
+          "bn": "alphabets"
+        },
+        "b": {
+          "mix": "alphabets",
+          "en": "alphabets",
+          "bn": "alphabets"
+        },
+        "c": {
+          "mix": "alphabeties",
+          "en": "alphabeties",
+          "bn": "alphabeties"
+        },
+        "d": {
+          "mix": "none",
+          "en": "none",
+          "bn": "none"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Alphabet সর্বদা singular হিসেবে ব্যবহৃত হয়— এর কোনো plural form নেই। তাই alphabets (দুবার দেওয়া) ও alphabeties ভুল, সঠিক উত্তর none।",
+        "en": "'Alphabet' is always used as singular — it has no plural form. So 'alphabets' (given twice) and 'alphabeties' are wrong, and the correct answer is 'none'.",
+        "bn": "Alphabet সর্বদা singular হিসেবে ব্যবহৃত হয়— এর কোনো plural form নেই। তাই alphabets (দুবার দেওয়া) ও alphabeties ভুল, সঠিক উত্তর none।"
+      },
+      "source": "রাজশাহী বিশ্ববিদ্যালয় ২০০৯-১০",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 18,
+      "question": {
+        "mix": "The plural form of the word 'sheep' is—",
+        "en": "The plural form of the word 'sheep' is—",
+        "bn": "'sheep' শব্দটির plural form কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "sheeps",
+          "en": "sheeps",
+          "bn": "sheeps"
+        },
+        "b": {
+          "mix": "sheep",
+          "en": "sheep",
+          "bn": "sheep"
+        },
+        "c": {
+          "mix": "sheepes",
+          "en": "sheepes",
+          "bn": "sheepes"
+        },
+        "d": {
+          "mix": "ships",
+          "en": "ships",
+          "bn": "ships"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Sheep-এর singular ও plural একই— sheep। sheeps, sheepes ভুল form, আর ships অর্থ জাহাজ।",
+        "en": "The singular and plural of 'sheep' are the same — sheep. 'sheeps' and 'sheepes' are wrong forms, and 'ships' means vessels.",
+        "bn": "Sheep-এর singular ও plural একই— sheep। sheeps, sheepes ভুল form, আর ships অর্থ জাহাজ।"
+      },
+      "source": "উপজেলা/থানা শিক্ষা কর্মকর্তা ২০১০; কারা তত্ত্বাবধায়ক ২০১৩",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 19,
+      "question": {
+        "mix": "Which of the following is not a plural noun?",
+        "en": "Which of the following is not a plural noun?",
+        "bn": "নিচের কোনটি plural noun নয়?"
+      },
+      "options": {
+        "a": {
+          "mix": "Politics",
+          "en": "Politics",
+          "bn": "Politics"
+        },
+        "b": {
+          "mix": "Oases",
+          "en": "Oases",
+          "bn": "Oases"
+        },
+        "c": {
+          "mix": "Measles",
+          "en": "Measles",
+          "bn": "Measles"
+        },
+        "d": {
+          "mix": "Shingles",
+          "en": "Shingles",
+          "bn": "Shingles"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Politics দেখতে plural হলেও singular হিসেবে ব্যবহৃত হয়। Oases (oasis-এর plural), Measles ও Shingles সবসময় plural অর্থে ব্যবহৃত হয়।",
+        "en": "'Politics' looks plural but is used as singular. 'Oases' (the plural of 'oasis'), 'Measles' and 'Shingles' are always used in the plural sense.",
+        "bn": "Politics দেখতে plural হলেও singular হিসেবে ব্যবহৃত হয়। Oases (oasis-এর plural), Measles ও Shingles সবসময় plural অর্থে ব্যবহৃত হয়।"
+      },
+      "source": "বেগম রোকেয়া বিশ্ববিদ্যালয় ২০০৯-১০",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 20,
+      "question": {
+        "mix": "Which one of the nouns has no singular form?",
+        "en": "Which one of the nouns has no singular form?",
+        "bn": "কোন noun-টির singular form নেই?"
+      },
+      "options": {
+        "a": {
+          "mix": "Measles",
+          "en": "Measles",
+          "bn": "Measles"
+        },
+        "b": {
+          "mix": "Horses",
+          "en": "Horses",
+          "bn": "Horses"
+        },
+        "c": {
+          "mix": "Men",
+          "en": "Men",
+          "bn": "Men"
+        },
+        "d": {
+          "mix": "Brethren",
+          "en": "Brethren",
+          "bn": "Brethren"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Measles সবসময় plural অর্থে ব্যবহৃত হয়— এর কোনো singular form নেই। Horses-এর singular horse, Men-এর singular man, Brethren-এর singular brother।",
+        "en": "'Measles' is always used in the plural sense — it has no singular form. The singular of 'Horses' is 'horse', of 'Men' is 'man', and of 'Brethren' is 'brother'.",
+        "bn": "Measles সবসময় plural অর্থে ব্যবহৃত হয়— এর কোনো singular form নেই। Horses-এর singular horse, Men-এর singular man, Brethren-এর singular brother।"
+      },
+      "source": "আইন বিচার ও সংসদ বিষয়ক মন্ত্রণালয়ের সাব-রেজিস্ট্রার ২০১২",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 21,
+      "question": {
+        "mix": "Which one is plural number?",
+        "en": "Which one is plural number?",
+        "bn": "কোনটি plural number?"
+      },
+      "options": {
+        "a": {
+          "mix": "five's",
+          "en": "five's",
+          "bn": "five's"
+        },
+        "b": {
+          "mix": "fivess",
+          "en": "fivess",
+          "bn": "fivess"
+        },
+        "c": {
+          "mix": "five",
+          "en": "five",
+          "bn": "five"
+        },
+        "d": {
+          "mix": "fiveses",
+          "en": "fiveses",
+          "bn": "fiveses"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "সংখ্যার শেষে apostrophe ('s) যোগ করে plural করা যায়— five's। five singular, আর fivess ও fiveses ভুল form।",
+        "en": "A number can be made plural by adding an apostrophe ('s) — five's. 'five' is singular, and 'fivess' and 'fiveses' are wrong forms.",
+        "bn": "সংখ্যার শেষে apostrophe ('s) যোগ করে plural করা যায়— five's। five singular, আর fivess ও fiveses ভুল form।"
+      },
+      "source": "ইসলামী বিশ্ববিদ্যালয় 'জি' ইউনিট ২০১০-১১",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "Rules (inline MCQs)",
+      "number": 22,
+      "question": {
+        "mix": "Plural number of 'woman-novelist' is—",
+        "en": "Plural number of 'woman-novelist' is—",
+        "bn": "'woman-novelist' শব্দটির plural number কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "woman-novelists",
+          "en": "woman-novelists",
+          "bn": "woman-novelists"
+        },
+        "b": {
+          "mix": "women-novelists",
+          "en": "women-novelists",
+          "bn": "women-novelists"
+        },
+        "c": {
+          "mix": "women-novelist",
+          "en": "women-novelist",
+          "bn": "women-novelist"
+        },
+        "d": {
+          "mix": "woman-novelist",
+          "en": "woman-novelist",
+          "bn": "woman-novelist"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Woman-novelist একটি Compound Noun যার প্রত্যেকটি অংশের plural করতে হয়— women-novelists। woman-novelists ও women-novelist-এ একটি অংশ singular থেকে যায়, আর woman-novelist তো singular-ই।",
+        "en": "'Woman-novelist' is a compound noun in which every part must be made plural — women-novelists. In 'woman-novelists' and 'women-novelist' one part stays singular, and 'woman-novelist' is itself singular.",
+        "bn": "Woman-novelist একটি Compound Noun যার প্রত্যেকটি অংশের plural করতে হয়— women-novelists। woman-novelists ও women-novelist-এ একটি অংশ singular থেকে যায়, আর woman-novelist তো singular-ই।"
+      },
+      "source": "ইসলামী বিশ্ববিদ্যালয় 'বি' ইউনিট ২০১৪-১৫",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "BCS Preliminary Questions",
+      "number": 1,
+      "question": {
+        "mix": "Identify the word which remains the same in its plural form—",
+        "en": "Identify the word which remains the same in its plural form—",
+        "bn": "যে শব্দটি plural form-এ একই থাকে সেটি চিহ্নিত করো—"
+      },
+      "options": {
+        "a": {
+          "mix": "aircraft",
+          "en": "aircraft",
+          "bn": "aircraft"
+        },
+        "b": {
+          "mix": "intention",
+          "en": "intention",
+          "bn": "intention"
+        },
+        "c": {
+          "mix": "mouse",
+          "en": "mouse",
+          "bn": "mouse"
+        },
+        "d": {
+          "mix": "thesis",
+          "en": "thesis",
+          "bn": "thesis"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "যে শব্দটি plural form এ কোনো রূপ পরিবর্তন করে না সে wordটি হলো aircraft। অপশনের অন্য শব্দগুলোর plural form যথাক্রমে intentions, mice এবং theses।",
+        "en": "The word that does not change its form in the plural is 'aircraft'. The plural forms of the other words in the options are 'intentions', 'mice' and 'theses' respectively.",
+        "bn": "যে শব্দটি plural form এ কোনো রূপ পরিবর্তন করে না সে wordটি হলো aircraft। অপশনের অন্য শব্দগুলোর plural form যথাক্রমে intentions, mice এবং theses।"
+      },
+      "source": "৪০তম বিসিএস",
+      "explanation_source": "book"
+    },
+    {
+      "section": "BCS Preliminary Questions",
+      "number": 2,
+      "question": {
+        "mix": "What is the plural number of 'ovum'?",
+        "en": "What is the plural number of 'ovum'?",
+        "bn": "'ovum' শব্দটির plural number কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "ovams",
+          "en": "ovams",
+          "bn": "ovams"
+        },
+        "b": {
+          "mix": "ovumes",
+          "en": "ovumes",
+          "bn": "ovumes"
+        },
+        "c": {
+          "mix": "ovums",
+          "en": "ovums",
+          "bn": "ovums"
+        },
+        "d": {
+          "mix": "ova",
+          "en": "ova",
+          "bn": "ova"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Ovum-এর বাংলা অর্থ ডিম্বাণু এবং plural form হলো ova।",
+        "en": "The Bengali meaning of 'ovum' is 'ovum', and its plural form is 'ova'.",
+        "bn": "Ovum-এর বাংলা অর্থ ডিম্বাণু এবং plural form হলো ova।"
+      },
+      "source": "৩৯তম বিসিএস (বিশেষ)",
+      "explanation_source": "book"
+    },
+    {
+      "section": "BCS Preliminary Questions",
+      "number": 3,
+      "question": {
+        "mix": "What is the plural form of the word 'louse'?",
+        "en": "What is the plural form of the word 'louse'?",
+        "bn": "'louse' শব্দটির plural form কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "louses",
+          "en": "louses",
+          "bn": "louses"
+        },
+        "b": {
+          "mix": "lice",
+          "en": "lice",
+          "bn": "lice"
+        },
+        "c": {
+          "mix": "lices",
+          "en": "lices",
+          "bn": "lices"
+        },
+        "d": {
+          "mix": "licess",
+          "en": "licess",
+          "bn": "licess"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "কতগুলো noun (mouse, goose, louse)-এর মধ্যবর্তী vowel পরিবর্তন করে plural করা হয়। সুতরাং louse (উকুন)-এর plural form হলো lice।",
+        "en": "Some nouns (mouse, goose, louse) are made plural by changing the middle vowel. So the plural form of 'louse' is 'lice'.",
+        "bn": "কতগুলো noun (mouse, goose, louse)-এর মধ্যবর্তী vowel পরিবর্তন করে plural করা হয়। সুতরাং louse (উকুন)-এর plural form হলো lice।"
+      },
+      "source": "৩৮তম বিসিএস",
+      "explanation_source": "book"
+    },
+    {
+      "section": "BCS Preliminary Questions",
+      "number": 4,
+      "question": {
+        "mix": "Which one of the following words is in singular form?",
+        "en": "Which one of the following words is in singular form?",
+        "bn": "নিচের কোন শব্দটি singular form-এ আছে?"
+      },
+      "options": {
+        "a": {
+          "mix": "agenda",
+          "en": "agenda",
+          "bn": "agenda"
+        },
+        "b": {
+          "mix": "oases",
+          "en": "oases",
+          "bn": "oases"
+        },
+        "c": {
+          "mix": "radius",
+          "en": "radius",
+          "bn": "radius"
+        },
+        "d": {
+          "mix": "formulae",
+          "en": "formulae",
+          "bn": "formulae"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "প্রদত্ত option গুলোর মধ্যে singular form হলো radius, যার plural radiuses/radii। Option-এর বাকি তিনটি শব্দ plural, যাদের singular form গুলো হলো যথাক্রমে agendum, oasis এবং formula।",
+        "en": "Among the given options, the singular form is 'radius', whose plural is 'radiuses/radii'. The other three words in the options are plural, and their singular forms are 'agendum', 'oasis' and 'formula' respectively.",
+        "bn": "প্রদত্ত option গুলোর মধ্যে singular form হলো radius, যার plural radiuses/radii। Option-এর বাকি তিনটি শব্দ plural, যাদের singular form গুলো হলো যথাক্রমে agendum, oasis এবং formula।"
+      },
+      "source": "৩৮তম; ৩৭তম বিসিএস",
+      "explanation_source": "book"
+    },
+    {
+      "section": "BCS Preliminary Questions",
+      "number": 5,
+      "question": {
+        "mix": "All of the people at the AAME conference are—",
+        "en": "All of the people at the AAME conference are—",
+        "bn": "All of the people at the AAME conference are—"
+      },
+      "options": {
+        "a": {
+          "mix": "Mathematic teachers",
+          "en": "Mathematic teachers",
+          "bn": "Mathematic teachers"
+        },
+        "b": {
+          "mix": "Mathematics teachers",
+          "en": "Mathematics teachers",
+          "bn": "Mathematics teachers"
+        },
+        "c": {
+          "mix": "Mathematics teacher",
+          "en": "Mathematics teacher",
+          "bn": "Mathematics teacher"
+        },
+        "d": {
+          "mix": "Mathematic's teachers",
+          "en": "Mathematic's teachers",
+          "bn": "Mathematic's teachers"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "All শব্দটি plural হওয়ায় teachers শব্দটি (Plural) ব্যবহৃত হবে।",
+        "en": "Since the word 'All' is plural, the word 'teachers' (plural) will be used.",
+        "bn": "All শব্দটি plural হওয়ায় teachers শব্দটি (Plural) ব্যবহৃত হবে।"
+      },
+      "source": "১৮তম বিসিএস",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 1,
+      "question": {
+        "mix": "The plural number of 'Oasis' is —",
+        "en": "The plural number of 'Oasis' is —",
+        "bn": "'Oasis' শব্দটির plural number কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Oasies",
+          "en": "Oasies",
+          "bn": "Oasies"
+        },
+        "b": {
+          "mix": "Oasises",
+          "en": "Oasises",
+          "bn": "Oasises"
+        },
+        "c": {
+          "mix": "Oases",
+          "en": "Oases",
+          "bn": "Oases"
+        },
+        "d": {
+          "mix": "Oasisees",
+          "en": "Oasisees",
+          "bn": "Oasisees"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Oasis অর্থ মরূদ্যান যার plural number হলো 'oases'।",
+        "en": "The word 'Oasis' means a desert oasis, and its plural number is 'oases'.",
+        "bn": "Oasis অর্থ মরূদ্যান যার plural number হলো 'oases'।"
+      },
+      "source": "বাংলাদেশ কোস্ট গার্ড-এর উপ-সহকারী প্রকৌশলী (পূর্ত) ২০২০; বাংলাদেশ পরিসংখ্যান ব্যুরোর পরিসংখ্যান সহকারী ২০২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 2,
+      "question": {
+        "mix": "Choose the word which never has a plural.",
+        "en": "Choose the word which never has a plural.",
+        "bn": "যে শব্দটির কখনো plural হয় না সেটি বেছে নাও।"
+      },
+      "options": {
+        "a": {
+          "mix": "mouse",
+          "en": "mouse",
+          "bn": "mouse"
+        },
+        "b": {
+          "mix": "intention",
+          "en": "intention",
+          "bn": "intention"
+        },
+        "c": {
+          "mix": "woman",
+          "en": "woman",
+          "bn": "woman"
+        },
+        "d": {
+          "mix": "information",
+          "en": "information",
+          "bn": "information"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "কিছু noun সর্বদা singular হিসেবে ব্যবহৃত হয়। যেমন—Furniture, alphabet, brick, business, hair, information, scenery, beard, machinery, issue, poetry, money ইত্যাদি।",
+        "en": "Some nouns are always used as singular. For example — Furniture, alphabet, brick, business, hair, information, scenery, beard, machinery, issue, poetry, money, etc.",
+        "bn": "কিছু noun সর্বদা singular হিসেবে ব্যবহৃত হয়। যেমন—Furniture, alphabet, brick, business, hair, information, scenery, beard, machinery, issue, poetry, money ইত্যাদি।"
+      },
+      "source": "প্রাণিসম্পদ অধিদপ্তরের ভিএফএ/এফএ (এ/আই)/কম্পাউন্ডার/পোল্ট্রি টেকনিশিয়ান ২০২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 3,
+      "question": {
+        "mix": "Which of the word plural?",
+        "en": "Which of the word plural?",
+        "bn": "কোন শব্দটি plural?"
+      },
+      "options": {
+        "a": {
+          "mix": "Formula",
+          "en": "Formula",
+          "bn": "Formula"
+        },
+        "b": {
+          "mix": "Vertex",
+          "en": "Vertex",
+          "bn": "Vertex"
+        },
+        "c": {
+          "mix": "Memoranda",
+          "en": "Memoranda",
+          "bn": "Memoranda"
+        },
+        "d": {
+          "mix": "Agendum",
+          "en": "Agendum",
+          "bn": "Agendum"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Memoranda শব্দটি plural। এর singular from হচ্ছে memorandum অর্থ স্মারকলিপি। এছাড়া formula (সূত্র), vertex (শীর্ষবিন্দু) এবং agendum (আলোচ্যসূচি)-এর plural from যথাক্রমে formulas, vertices/ vertexes এবং agenda।",
+        "en": "The word 'Memoranda' is plural. Its singular form is 'memorandum', meaning a memorandum. Besides, the plural forms of 'formula', 'vertex' and 'agendum' are 'formulas', 'vertices/vertexes' and 'agenda' respectively.",
+        "bn": "Memoranda শব্দটি plural। এর singular form হচ্ছে memorandum অর্থ স্মারকলিপি। এছাড়া formula (সূত্র), vertex (শীর্ষবিন্দু) এবং agendum (আলোচ্যসূচি)-এর plural form যথাক্রমে formulas, vertices/ vertexes এবং agenda।"
+      },
+      "source": "প্রাণিসম্পদ অধিদপ্তরের ভিএফএ/এফএ (এ/আই)/কম্পাউন্ডার/পোল্ট্রি টেকনিশিয়ান ২০২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 4,
+      "question": {
+        "mix": "We need to buy some new—",
+        "en": "We need to buy some new—",
+        "bn": "We need to buy some new—"
+      },
+      "options": {
+        "a": {
+          "mix": "furnitures",
+          "en": "furnitures",
+          "bn": "furnitures"
+        },
+        "b": {
+          "mix": "furniturs",
+          "en": "furniturs",
+          "bn": "furniturs"
+        },
+        "c": {
+          "mix": "furnitured",
+          "en": "furnitured",
+          "bn": "furnitured"
+        },
+        "d": {
+          "mix": "furniture",
+          "en": "furniture",
+          "bn": "furniture"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Furniture শব্দটি একটি uncountable noun। এটি শুধু singular form হয়। অর্থাৎ এর কোনো plural form নেই।",
+        "en": "The word 'Furniture' is an uncountable noun. It is only in the singular form. That is, it has no plural form.",
+        "bn": "Furniture শব্দটি একটি uncountable noun। এটি শুধু singular form হয়। অর্থাৎ এর কোনো plural form নেই।"
+      },
+      "source": "প্রাণিসম্পদ অধিদপ্তরের ভিএফএ/এফএ (এ/আই)/কম্পাউন্ডার/পোল্ট্রি টেকনিশিয়ান ২০২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 5,
+      "question": {
+        "mix": "What is the plural form of the word 'deer'?",
+        "en": "What is the plural form of the word 'deer'?",
+        "bn": "'deer' শব্দটির plural form কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "deers",
+          "en": "deers",
+          "bn": "deers"
+        },
+        "b": {
+          "mix": "deer",
+          "en": "deer",
+          "bn": "deer"
+        },
+        "c": {
+          "mix": "deerz",
+          "en": "deerz",
+          "bn": "deerz"
+        },
+        "d": {
+          "mix": "many deer",
+          "en": "many deer",
+          "bn": "many deer"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Deer, sheep, swine, corps, offspring, series, species, aircraft, spacecraft, dice, salmon ইত্যাদি word-এর singular ও plural একই।",
+        "en": "The singular and plural of words such as deer, sheep, swine, corps, offspring, series, species, aircraft, spacecraft, dice and salmon are the same.",
+        "bn": "Deer, sheep, swine, corps, offspring, series, species, aircraft, spacecraft, dice, salmon ইত্যাদি word-এর singular ও plural একই।"
+      },
+      "source": "প্রাথমিক শিক্ষা অধিদপ্তরের PEDP-4 প্রকল্পের উপজেলা/আরবান প্রোগ্রাম কো-অর্ডিনেটর ২০২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 6,
+      "question": {
+        "mix": "The appropriate plural form of the word : STRATUM is—",
+        "en": "The appropriate plural form of the word : STRATUM is—",
+        "bn": "STRATUM শব্দটির সঠিক plural form কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Startles",
+          "en": "Startles",
+          "bn": "Startles"
+        },
+        "b": {
+          "mix": "Stratames",
+          "en": "Stratames",
+          "bn": "Stratames"
+        },
+        "c": {
+          "mix": "Strata",
+          "en": "Strata",
+          "bn": "Strata"
+        },
+        "d": {
+          "mix": "Stratumies",
+          "en": "Stratumies",
+          "bn": "Stratumies"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Singular number-এর শেষে um থাকলে plural করার সময় um-এর পরিবর্তে a বসবে। কখনো কখনো singular number এর সঙ্গে s যোগ করে plural করা হয়। Corrigendum (singular) → corrigenda (plural) Forum (singular) → fora/forums। Stratum (layer-স্তর, tier- ধাপ) হলো singular number-এর plural number হলো strata।",
+        "en": "When a singular number ends in 'um', the 'um' is replaced by 'a' in the plural. Sometimes 's' is added to the singular number to form the plural. Corrigendum (singular) → corrigenda (plural); Forum (singular) → fora/forums. Stratum (layer, tier) is a singular number whose plural number is 'strata'.",
+        "bn": "Singular number-এর শেষে um থাকলে plural করার সময় um-এর পরিবর্তে a বসবে। কখনো কখনো singular number এর সঙ্গে s যোগ করে plural করা হয়। Corrigendum (singular) → corrigenda (plural) Forum (singular) → fora/forums। Stratum (layer-স্তর, tier- ধাপ) হলো singular number-এর plural number হলো strata।"
+      },
+      "source": "বাংলাদেশ অর্থনৈতিক অঞ্চল কর্তৃপক্ষ (বেজা)-এর সহকারী ব্যবস্থাপক ২০২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 7,
+      "question": {
+        "mix": "Which one is a singular number?",
+        "en": "Which one is a singular number?",
+        "bn": "কোনটি singular number?"
+      },
+      "options": {
+        "a": {
+          "mix": "News",
+          "en": "News",
+          "bn": "News"
+        },
+        "b": {
+          "mix": "Samples",
+          "en": "Samples",
+          "bn": "Samples"
+        },
+        "c": {
+          "mix": "Effects",
+          "en": "Effects",
+          "bn": "Effects"
+        },
+        "d": {
+          "mix": "Sons",
+          "en": "Sons",
+          "bn": "Sons"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "News (খবর) শব্দটি singular number। Option-এর বাকি শব্দগুলো plural।",
+        "en": "The word 'News' is a singular number. The other words in the options are plural.",
+        "bn": "News (খবর) শব্দটি singular number। Option-এর বাকি শব্দগুলো plural।"
+      },
+      "source": "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (যান্ত্রিক) ২০১৯; সড়ক ও জনপথ অধিদপ্তরের ... ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 8,
+      "question": {
+        "mix": "The singular form of 'phenomena' is—",
+        "en": "The singular form of 'phenomena' is—",
+        "bn": "'phenomena' শব্দটির singular form কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "phenom",
+          "en": "phenom",
+          "bn": "phenom"
+        },
+        "b": {
+          "mix": "phenomenon",
+          "en": "phenomenon",
+          "bn": "phenomenon"
+        },
+        "c": {
+          "mix": "phenomeno",
+          "en": "phenomeno",
+          "bn": "phenomeno"
+        },
+        "d": {
+          "mix": "phenomenoo",
+          "en": "phenomenoo",
+          "bn": "phenomenoo"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Phenomena-এর singular form হলো phenomenon যার অর্থ ইন্দ্রিয়গোচর বস্তু বা বিষয়।",
+        "en": "The singular form of 'Phenomena' is 'phenomenon', which means a thing or matter perceived by the senses.",
+        "bn": "Phenomena-এর singular form হলো phenomenon যার অর্থ ইন্দ্রিয়গোচর বস্তু বা বিষয়।"
+      },
+      "source": "সংস্কৃতি বিষয়ক মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (সিভিল) ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 9,
+      "question": {
+        "mix": "Which one is the plural form of the word 'hero'?",
+        "en": "Which one is the plural form of the word 'hero'?",
+        "bn": "'hero' শব্দটির plural form কোনটি?"
+      },
+      "options": {
+        "a": {
+          "mix": "herois",
+          "en": "herois",
+          "bn": "herois"
+        },
+        "b": {
+          "mix": "heross",
+          "en": "heross",
+          "bn": "heross"
+        },
+        "c": {
+          "mix": "heros",
+          "en": "heros",
+          "bn": "heros"
+        },
+        "d": {
+          "mix": "heroes",
+          "en": "heroes",
+          "bn": "heroes"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Hero (বীরপুরুষ) শব্দটি plural করতে wordটির শেষে es যুক্ত করতে হয়।",
+        "en": "To make the word 'Hero' (a brave man) plural, 'es' must be added at the end of the word.",
+        "bn": "Hero (বীরপুরুষ) শব্দটি plural করতে wordটির শেষে es যুক্ত করতে হয়।"
+      },
+      "source": "পানি উন্নয়ন বোর্ড-এর ডাটা এন্ট্রি অপারেটর ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 10,
+      "question": {
+        "mix": "Which of the following is in the correct plural form of the word?",
+        "en": "Which of the following is in the correct plural form of the word?",
+        "bn": "নিচের কোনটি শব্দটির সঠিক plural form-এ আছে?"
+      },
+      "options": {
+        "a": {
+          "mix": "phenomenons",
+          "en": "phenomenons",
+          "bn": "phenomenons"
+        },
+        "b": {
+          "mix": "phenomenon",
+          "en": "phenomenon",
+          "bn": "phenomenon"
+        },
+        "c": {
+          "mix": "phenomene",
+          "en": "phenomene",
+          "bn": "phenomene"
+        },
+        "d": {
+          "mix": "phenomenas",
+          "en": "phenomenas",
+          "bn": "phenomenas"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Phenomenon-এর plural form হলো phenomenons।",
+        "en": "The plural form of 'Phenomenon' is 'phenomenons'.",
+        "bn": "Phenomenon-এর plural form হলো phenomenons।"
+      },
+      "source": "জাতীয় ... ২০১৯; বিদ্যুৎ মন্ত্রণালয়/বিভাগের প্রশাসনিক কর্মকর্তা ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 11,
+      "question": {
+        "mix": "Which one of the following is in plural from?",
+        "en": "Which one of the following is in plural form?",
+        "bn": "নিচের কোনটি plural form-এ আছে?"
+      },
+      "options": {
+        "a": {
+          "mix": "media",
+          "en": "media",
+          "bn": "media"
+        },
+        "b": {
+          "mix": "datum",
+          "en": "datum",
+          "bn": "datum"
+        },
+        "c": {
+          "mix": "locus",
+          "en": "locus",
+          "bn": "locus"
+        },
+        "d": {
+          "mix": "radius",
+          "en": "radius",
+          "bn": "radius"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Option গুলোর মাঝে plural form হলো media যার singular form medium। অন্য word গুলো singular যাদের plural form যথাক্রমে data, loci আর radii।",
+        "en": "Among the options, the plural form is 'media', whose singular form is 'medium'. The other words are singular, and their plural forms are 'data', 'loci' and 'radii' respectively.",
+        "bn": "Option গুলোর মাঝে plural form হলো media যার singular form medium। অন্য word গুলো singular যাদের plural form যথাক্রমে data, loci আর radii।"
+      },
+      "source": "তথ্য মন্ত্রণালয়ের অধীন চলচ্চিত্র ও প্রকাশনা অধিদপ্তরের ক্যামেরাম্যান ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 12,
+      "question": {
+        "mix": "Which one of the following is in singular form?",
+        "en": "Which one of the following is in singular form?",
+        "bn": "নিচের কোনটি singular form-এ আছে?"
+      },
+      "options": {
+        "a": {
+          "mix": "gentry",
+          "en": "gentry",
+          "bn": "gentry"
+        },
+        "b": {
+          "mix": "aristocracy",
+          "en": "aristocracy",
+          "bn": "aristocracy"
+        },
+        "c": {
+          "mix": "physics",
+          "en": "physics",
+          "bn": "physics"
+        },
+        "d": {
+          "mix": "vermin",
+          "en": "vermin",
+          "bn": "vermin"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Option গুলোর মধ্যে singular form noun হলো physics। Physics ছাড়াও plural দেখতে কিন্তু singular noun হলো ethics, mathematics, news ইত্যাদি।",
+        "en": "Among the options, the singular-form noun is 'physics'. Besides 'physics', other nouns that look plural but are singular are ethics, mathematics, news, etc.",
+        "bn": "Option গুলোর মধ্যে singular form noun হলো physics। Physics ছাড়াও plural দেখতে কিন্তু singular noun হলো ethics, mathematics, news ইত্যাদি।"
+      },
+      "source": "তথ্য মন্ত্রণালয়ের অধীন চলচ্চিত্র ও প্রকাশনা অধিদপ্তরের ক্যামেরাম্যান ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 13,
+      "question": {
+        "mix": "What is the plural form of—",
+        "en": "What is the plural form of—",
+        "bn": "—-এর plural form কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "its",
+          "en": "its",
+          "bn": "its"
+        },
+        "b": {
+          "mix": "they",
+          "en": "they",
+          "bn": "they"
+        },
+        "c": {
+          "mix": "these",
+          "en": "these",
+          "bn": "these"
+        },
+        "d": {
+          "mix": "those",
+          "en": "those",
+          "bn": "those"
+        }
+      },
+      "answer": null,
+      "explanation": {
+        "mix": "[Note : প্রশ্নটি অসম্পূর্ণ। যে word-টির plural চাওয়া হয়েছে সেটি প্রশ্নে দেয়া নেই।]",
+        "en": "[Note: The question is incomplete. The word whose plural is asked for is not given in the question.]",
+        "bn": "[Note : প্রশ্নটি অসম্পূর্ণ। যে word-টির plural চাওয়া হয়েছে সেটি প্রশ্নে দেয়া নেই।]"
+      },
+      "source": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (চতুর্থ ধাপ) ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 14,
+      "question": {
+        "mix": "Which one is plural—",
+        "en": "Which one is plural—",
+        "bn": "কোনটি plural—"
+      },
+      "options": {
+        "a": {
+          "mix": "Each",
+          "en": "Each",
+          "bn": "Each"
+        },
+        "b": {
+          "mix": "None of these",
+          "en": "None of these",
+          "bn": "None of these"
+        },
+        "c": {
+          "mix": "Anyone",
+          "en": "Anyone",
+          "bn": "Anyone"
+        },
+        "d": {
+          "mix": "Someone",
+          "en": "Someone",
+          "bn": "Someone"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Option গুলোতে each, anyone, some one হলো singular। সুতরাং সঠিক উত্তর none of these।",
+        "en": "In the options, 'each', 'anyone' and 'some one' are singular. So the correct answer is 'none of these'.",
+        "bn": "Option গুলোতে each, anyone, some one হলো singular। সুতরাং সঠিক উত্তর none of these।"
+      },
+      "source": "সহকারী শিক্ষক (তৃতীয় ধাপ) ২০১৯; মিডওয়াইফ ২০১৭",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 15,
+      "question": {
+        "mix": "Which one is plural—",
+        "en": "Which one is plural—",
+        "bn": "কোনটি plural—"
+      },
+      "options": {
+        "a": {
+          "mix": "Oasis",
+          "en": "Oasis",
+          "bn": "Oasis"
+        },
+        "b": {
+          "mix": "Terminus",
+          "en": "Terminus",
+          "bn": "Terminus"
+        },
+        "c": {
+          "mix": "Vertex",
+          "en": "Vertex",
+          "bn": "Vertex"
+        },
+        "d": {
+          "mix": "Bureaux",
+          "en": "Bureaux",
+          "bn": "Bureaux"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Option গুলোর মধ্যে plural শব্দটি হলো bureaux যার singular form হলো bureau (সরকারি বা পৌর অফিস)।",
+        "en": "Among the options, the plural word is 'bureaux', whose singular form is 'bureau' (a government or municipal office).",
+        "bn": "Option গুলোর মধ্যে plural শব্দটি হলো bureaux যার singular form হলো bureau (সরকারি বা পৌর অফিস)।"
+      },
+      "source": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (দ্বিতীয় ধাপ) ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 16,
+      "question": {
+        "mix": "The plural of 'Fez' is—",
+        "en": "The plural of 'Fez' is—",
+        "bn": "'Fez' শব্দটির plural কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Fez",
+          "en": "Fez",
+          "bn": "Fez"
+        },
+        "b": {
+          "mix": "Fezees",
+          "en": "Fezees",
+          "bn": "Fezees"
+        },
+        "c": {
+          "mix": "Feezes",
+          "en": "Feezes",
+          "bn": "Feezes"
+        },
+        "d": {
+          "mix": "Fezes",
+          "en": "Fezes",
+          "bn": "Fezes"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Fez (ফেজ টুপি; মুসলমানদের ব্যবহৃত লাল টুপি) এর plural form হলো fezzes বা fezes। [Ref : Merriam–Webster Online Dictiony]",
+        "en": "The plural form of 'Fez' (a fez cap; the red cap worn by Muslims) is 'fezzes' or 'fezes'. [Ref: Merriam–Webster Online Dictionary]",
+        "bn": "Fez (ফেজ টুপি; মুসলমানদের ব্যবহৃত লাল টুপি) এর plural form হলো fezzes বা fezes। [Ref : Merriam–Webster Online Dictionary]"
+      },
+      "source": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (দ্বিতীয় ধাপ) ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 17,
+      "question": {
+        "mix": "Which one of the following words is not plural?",
+        "en": "Which one of the following words is not plural?",
+        "bn": "নিচের কোন শব্দটি plural নয়?"
+      },
+      "options": {
+        "a": {
+          "mix": "Men",
+          "en": "Men",
+          "bn": "Men"
+        },
+        "b": {
+          "mix": "Feet",
+          "en": "Feet",
+          "bn": "Feet"
+        },
+        "c": {
+          "mix": "Lice",
+          "en": "Lice",
+          "bn": "Lice"
+        },
+        "d": {
+          "mix": "News",
+          "en": "News",
+          "bn": "News"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Option গুলোতে men, feet, lice হলো plural noun যাদের singular form যথাক্রমে man, foot, louse। অন্যদিকে plural নয় এমন noun টি হলো news (খবর)।",
+        "en": "In the options, 'men', 'feet' and 'lice' are plural nouns whose singular forms are 'man', 'foot' and 'louse' respectively. On the other hand, the noun that is not plural is 'news'.",
+        "bn": "Option গুলোতে men, feet, lice হলো plural noun যাদের singular form যথাক্রমে man, foot, louse। অন্যদিকে plural নয় এমন noun টি হলো news (খবর)।"
+      },
+      "source": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (প্রথম ধাপ) ২০১৯; ঢাকা ... ২০১৬",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 18,
+      "question": {
+        "mix": "Singular form of 'data' is?",
+        "en": "Singular form of 'data' is?",
+        "bn": "'data' শব্দটির singular form কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "dat",
+          "en": "dat",
+          "bn": "dat"
+        },
+        "b": {
+          "mix": "datas",
+          "en": "datas",
+          "bn": "datas"
+        },
+        "c": {
+          "mix": "none",
+          "en": "none",
+          "bn": "none"
+        },
+        "d": {
+          "mix": "datum",
+          "en": "datum",
+          "bn": "datum"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Data (তথ্য)-এর singular form হলো datum।",
+        "en": "The singular form of 'Data' is 'datum'.",
+        "bn": "Data (তথ্য)-এর singular form হলো datum।"
+      },
+      "source": "সহকারী শিক্ষক (প্রথম ধাপ) ২০১৯; বিভিন্ন মন্ত্রণালয়/বিভাগ/অধিদপ্তরের প্রশাসনিক কর্মকর্তা (মুজিবনগর) ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 19,
+      "question": {
+        "mix": "The plural of the word 'Agendum' is—",
+        "en": "The plural of the word 'Agendum' is—",
+        "bn": "'Agendum' শব্দটির plural কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Agendas",
+          "en": "Agendas",
+          "bn": "Agendas"
+        },
+        "b": {
+          "mix": "Agendases",
+          "en": "Agendases",
+          "bn": "Agendases"
+        },
+        "c": {
+          "mix": "Agendums",
+          "en": "Agendums",
+          "bn": "Agendums"
+        },
+        "d": {
+          "mix": "Agenda",
+          "en": "Agenda",
+          "bn": "Agenda"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Agendum-এর plural form হলো agenda (অ্যাজেন্ডা) যার অর্থ আলোচ্যসূচি।",
+        "en": "The plural form of 'Agendum' is 'agenda', which means the list of matters to be discussed.",
+        "bn": "Agendum-এর plural form হলো agenda (অ্যাজেন্ডা) যার অর্থ আলোচ্যসূচি।"
+      },
+      "source": "পররাষ্ট্র মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 20,
+      "question": {
+        "mix": "Which one is in plural number?",
+        "en": "Which one is in plural number?",
+        "bn": "কোনটি plural number-এ আছে?"
+      },
+      "options": {
+        "a": {
+          "mix": "data",
+          "en": "data",
+          "bn": "data"
+        },
+        "b": {
+          "mix": "goose",
+          "en": "goose",
+          "bn": "goose"
+        },
+        "c": {
+          "mix": "basis",
+          "en": "basis",
+          "bn": "basis"
+        },
+        "d": {
+          "mix": "formula",
+          "en": "formula",
+          "bn": "formula"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Option গুলোর মধ্যে plural form-এ রয়েছে data শব্দটি। Option-এর অন্যগুলো singular number, যাদের plural form যথাক্রমে geese, bases এবং formulae।",
+        "en": "Among the options, the word 'data' is in the plural form. The others in the options are singular numbers, whose plural forms are 'geese', 'bases' and 'formulae' respectively.",
+        "bn": "Option গুলোর মধ্যে plural form-এ রয়েছে data শব্দটি। Option-এর অন্যগুলো singular number, যাদের plural form যথাক্রমে geese, bases এবং formulae।"
+      },
+      "source": "সরকারি মাধ্যমিক বিদ্যালয় সহকারী শিক্ষক ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 21,
+      "question": {
+        "mix": "Which one is in singular number?",
+        "en": "Which one is in singular number?",
+        "bn": "কোনটি singular number-এ আছে?"
+      },
+      "options": {
+        "a": {
+          "mix": "lice",
+          "en": "lice",
+          "bn": "lice"
+        },
+        "b": {
+          "mix": "errata",
+          "en": "errata",
+          "bn": "errata"
+        },
+        "c": {
+          "mix": "phenomenon",
+          "en": "phenomenon",
+          "bn": "phenomenon"
+        },
+        "d": {
+          "mix": "mice",
+          "en": "mice",
+          "bn": "mice"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Option-গুলোর মধ্যে singular number হলো phenomenon, যার plural form হলো phenomena। অপশনের বাকি তিনটি শব্দ plural যাদের singular number যথাক্রমে louse, erratum এবং mouse।",
+        "en": "Among the options, the singular number is 'phenomenon', whose plural form is 'phenomena'. The other three words in the options are plural, and their singular numbers are 'louse', 'erratum' and 'mouse' respectively.",
+        "bn": "Option-গুলোর মধ্যে singular number হলো phenomenon, যার plural form হলো phenomena। অপশনের বাকি তিনটি শব্দ plural যাদের singular number যথাক্রমে louse, erratum এবং mouse।"
+      },
+      "source": "সরকারি মাধ্যমিক বিদ্যালয় সহকারী শিক্ষক ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 22,
+      "question": {
+        "mix": "What is the plural form of 'Mr.'?",
+        "en": "What is the plural form of 'Mr.'?",
+        "bn": "'Mr.' শব্দটির plural form কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "Mrs.",
+          "en": "Mrs.",
+          "bn": "Mrs."
+        },
+        "b": {
+          "mix": "Misters",
+          "en": "Misters",
+          "bn": "Misters"
+        },
+        "c": {
+          "mix": "Ms.",
+          "en": "Ms.",
+          "bn": "Ms."
+        },
+        "d": {
+          "mix": "Messrs",
+          "en": "Messrs",
+          "bn": "Messrs"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Mr. (পুরুষের নামের আগে যুক্ত খেতাব; জনাব)-এর plural form হলো Messrs (সর্বজনাব)। অন্যদিকে Mrs হলো বিবাহিত স্ত্রীলোকের পারিবারিক নামের আগে যুক্ত খেতাব, বেগম। Ms. হলো বিবাহিতা বা অবিবাহিতা স্ত্রীলোকের নামের পূর্বে যুক্ত খেতাব।",
+        "en": "The plural form of 'Mr.' (the title used before a man's name) is 'Messrs'. On the other hand, 'Mrs.' is the title used before the family name of a married woman, and 'Ms.' is the title used before the name of a married or unmarried woman.",
+        "bn": "Mr. (পুরুষের নামের আগে যুক্ত খেতাব; জনাব)-এর plural form হলো Messrs (সর্বজনাব)। অন্যদিকে Mrs হলো বিবাহিত স্ত্রীলোকের পারিবারিক নামের আগে যুক্ত খেতাব, বেগম। Ms. হলো বিবাহিতা বা অবিবাহিতা স্ত্রীলোকের নামের পূর্বে যুক্ত খেতাব।"
+      },
+      "source": "পররাষ্ট্র মন্ত্রণালয়ের সুপারিনটেনডেন্ট ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 23,
+      "question": {
+        "mix": "Which one of the following is a plural noun?",
+        "en": "Which one of the following is a plural noun?",
+        "bn": "নিচের কোনটি plural noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "news",
+          "en": "news",
+          "bn": "news"
+        },
+        "b": {
+          "mix": "mathematics",
+          "en": "mathematics",
+          "bn": "mathematics"
+        },
+        "c": {
+          "mix": "crises",
+          "en": "crises",
+          "bn": "crises"
+        },
+        "d": {
+          "mix": "economics",
+          "en": "economics",
+          "bn": "economics"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Crises হলো option-গুলোর মধ্যে plural noun যার singular form হলো crisis। Option এর অন্য word-গুলো singular noun।",
+        "en": "'Crises' is the plural noun among the options, and its singular form is 'crisis'. The other words in the options are singular nouns.",
+        "bn": "Crises হলো option-গুলোর মধ্যে plural noun যার singular form হলো crisis। Option এর অন্য word-গুলো singular noun।"
+      },
+      "source": "পররাষ্ট্র মন্ত্রণালয়ের সুপারিনটেনডেন্ট ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 24,
+      "question": {
+        "mix": "Select the singular number.",
+        "en": "Select the singular number.",
+        "bn": "Singular number-টি বেছে নাও।"
+      },
+      "options": {
+        "a": {
+          "mix": "pianos",
+          "en": "pianos",
+          "bn": "pianos"
+        },
+        "b": {
+          "mix": "premises",
+          "en": "premises",
+          "bn": "premises"
+        },
+        "c": {
+          "mix": "politics",
+          "en": "politics",
+          "bn": "politics"
+        },
+        "d": {
+          "mix": "index",
+          "en": "index",
+          "bn": "index"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "সঠিক singular number হলো index যার plural form হলো indexes অথবা indices। তাছাড়া option এর বাকি তিনটি শব্দ plural। তবে politics শব্দটি বাক্যের অর্থভেদে singular ও plural উভয় হিসেবেই ব্যবহৃত হয়।",
+        "en": "The correct singular number is 'index', whose plural form is 'indexes' or 'indices'. Besides, the other three words in the options are plural. However, the word 'politics' is used as both singular and plural depending on the meaning of the sentence.",
+        "bn": "সঠিক singular number হলো index যার plural form হলো indexes অথবা indices। তাছাড়া option এর বাকি তিনটি শব্দ plural। তবে politics শব্দটি বাক্যের অর্থভেদে singular ও plural উভয় হিসেবেই ব্যবহৃত হয়।"
+      },
+      "source": "ডাক অধিদপ্তরের এস্টিমেটর ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 25,
+      "question": {
+        "mix": "Select the plural number—",
+        "en": "Select the plural number—",
+        "bn": "Plural number-টি বেছে নাও—"
+      },
+      "options": {
+        "a": {
+          "mix": "index",
+          "en": "index",
+          "bn": "index"
+        },
+        "b": {
+          "mix": "goose",
+          "en": "goose",
+          "bn": "goose"
+        },
+        "c": {
+          "mix": "issue",
+          "en": "issue",
+          "bn": "issue"
+        },
+        "d": {
+          "mix": "quarters",
+          "en": "quarters",
+          "bn": "quarters"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "একমাত্র plural number হলো quarters যার singular number হলো quarter (এক-চতুর্থাংশ, চার ভাগের এক ভাগ)। তাছাড়া index, goose এবং issue-এর plural form যথাক্রমে indices, geese এবং issues।",
+        "en": "The only plural number is 'quarters', whose singular number is 'quarter' (one-fourth, one part of four parts). Besides, the plural forms of 'index', 'goose' and 'issue' are 'indices', 'geese' and 'issues' respectively.",
+        "bn": "একমাত্র plural number হলো quarters যার singular number হলো quarter (এক-চতুর্থাংশ, চার ভাগের এক ভাগ)। তাছাড়া index, goose এবং issue-এর plural form যথাক্রমে indices, geese এবং issues।"
+      },
+      "source": "ডাক অধিদপ্তরের বিল্ডিং ওভারশিয়ার ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 26,
+      "question": {
+        "mix": "What is the plural of 'Criterion'?",
+        "en": "What is the plural of 'Criterion'?",
+        "bn": "'Criterion' শব্দটির plural কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "Criterions",
+          "en": "Criterions",
+          "bn": "Criterions"
+        },
+        "b": {
+          "mix": "Criteria",
+          "en": "Criteria",
+          "bn": "Criteria"
+        },
+        "c": {
+          "mix": "Criteriones",
+          "en": "Criteriones",
+          "bn": "Criteriones"
+        },
+        "d": {
+          "mix": "Criterias",
+          "en": "Criterias",
+          "bn": "Criterias"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Criterion (বিচারের মাপকাঠি; মানদণ্ড) শব্দটির plural form হলো criteria।",
+        "en": "The plural form of the word 'Criterion' (a standard of judgement) is 'criteria'.",
+        "bn": "Criterion (বিচারের মাপকাঠি; মানদণ্ড) শব্দটির plural form হলো criteria।"
+      },
+      "source": "প্রতিরক্ষা মন্ত্রণালয় মিলিটারি ইঞ্জিনিয়ারিং সার্ভিসেসের স্টোরম্যান ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 27,
+      "question": {
+        "mix": "Which of the following is in plural form?",
+        "en": "Which of the following is in plural form?",
+        "bn": "নিচের কোনটি plural form-এ আছে?"
+      },
+      "options": {
+        "a": {
+          "mix": "datum",
+          "en": "datum",
+          "bn": "datum"
+        },
+        "b": {
+          "mix": "media",
+          "en": "media",
+          "bn": "media"
+        },
+        "c": {
+          "mix": "analysis",
+          "en": "analysis",
+          "bn": "analysis"
+        },
+        "d": {
+          "mix": "radius",
+          "en": "radius",
+          "bn": "radius"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Option গুলোর মধ্যে একমাত্র plural noun হলো media যার singular form হলো medium। Option বাকি তিনটি singular noun-এর plural form যথাক্রমে data, analyses এবং radii।",
+        "en": "Among the options, the only plural noun is 'media', whose singular form is 'medium'. The plural forms of the other three singular nouns in the options are 'data', 'analyses' and 'radii' respectively.",
+        "bn": "Option গুলোর মধ্যে একমাত্র plural noun হলো media যার singular form হলো medium। Option বাকি তিনটি singular noun-এর plural form যথাক্রমে data, analyses এবং radii।"
+      },
+      "source": "পরিবার পরিকল্পনা অধিদপ্তর পরিবার কল্যাণ পরিদর্শিকা ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 28,
+      "question": {
+        "mix": "The plural form 'ox' :",
+        "en": "The plural form of 'ox' is:",
+        "bn": "'ox' শব্দটির plural form কোনটি:"
+      },
+      "options": {
+        "a": {
+          "mix": "oxes",
+          "en": "oxes",
+          "bn": "oxes"
+        },
+        "b": {
+          "mix": "oxen",
+          "en": "oxen",
+          "bn": "oxen"
+        },
+        "c": {
+          "mix": "oxis",
+          "en": "oxis",
+          "bn": "oxis"
+        },
+        "d": {
+          "mix": "bullock",
+          "en": "bullock",
+          "bn": "bullock"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Ox (ষাঁড়) শব্দটির শেষে en যোগ করে plural করতে হয়। সুতরাং ox-এর plural form oxen।",
+        "en": "The plural of the word 'Ox' (a bullock) is formed by adding 'en' at the end. So the plural form of 'ox' is 'oxen'.",
+        "bn": "Ox (ষাঁড়) শব্দটির শেষে en যোগ করে plural করতে হয়। সুতরাং ox-এর plural form oxen।"
+      },
+      "source": "পরিবার পরিকল্পনা অধিদপ্তর পরিবার কল্যাণ পরিদর্শিকা ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 29,
+      "question": {
+        "mix": "The plural of 'analysis' is—",
+        "en": "The plural of 'analysis' is—",
+        "bn": "'analysis' শব্দটির plural কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "analyses",
+          "en": "analyses",
+          "bn": "analyses"
+        },
+        "b": {
+          "mix": "analysises",
+          "en": "analysises",
+          "bn": "analysises"
+        },
+        "c": {
+          "mix": "analysess",
+          "en": "analysess",
+          "bn": "analysess"
+        },
+        "d": {
+          "mix": "analysis",
+          "en": "analysis",
+          "bn": "analysis"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "'Analysis' অর্থ মন্তব্য সহকারে (বই, কোনো চরিত্র বা পরিস্থিতির) বিশ্লেষণ যার plural form হলো analyses।",
+        "en": "The word 'Analysis' means an analysis (of a book, a character or a situation) with comments, and its plural form is 'analyses'.",
+        "bn": "'Analysis' অর্থ মন্তব্য সহকারে (বই, কোনো চরিত্র বা পরিস্থিতির) বিশ্লেষণ যার plural form হলো analyses।"
+      },
+      "source": "বিভিন্ন মন্ত্রণালয়/বিভাগ/অধিদপ্তরের ব্যক্তিগত কর্মকর্তা (সাধারণ) ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 30,
+      "question": {
+        "mix": "What is the plural of 'deer'?",
+        "en": "What is the plural of 'deer'?",
+        "bn": "'deer' শব্দটির plural কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "deers",
+          "en": "deers",
+          "bn": "deers"
+        },
+        "b": {
+          "mix": "deerese",
+          "en": "deerese",
+          "bn": "deerese"
+        },
+        "c": {
+          "mix": "deeres",
+          "en": "deeres",
+          "bn": "deeres"
+        },
+        "d": {
+          "mix": "deer",
+          "en": "deer",
+          "bn": "deer"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "'Deer'-এর singular form deer আবার plural form ও deer।",
+        "en": "The singular form of 'Deer' is 'deer', and its plural form is also 'deer'.",
+        "bn": "'Deer'-এর singular form deer আবার plural form ও deer।"
+      },
+      "source": "নার্সিং ও মিডওয়াইফারি অধিদপ্তরের সিনিয়র স্টাফ নার্স ২০১৮; ... সহকারী পরিচালক ২০১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 31,
+      "question": {
+        "mix": "Choose the word which does not have a plural—",
+        "en": "Choose the word which does not have a plural—",
+        "bn": "যে শব্দটির plural নেই সেটি বেছে নাও—"
+      },
+      "options": {
+        "a": {
+          "mix": "mouse",
+          "en": "mouse",
+          "bn": "mouse"
+        },
+        "b": {
+          "mix": "intention",
+          "en": "intention",
+          "bn": "intention"
+        },
+        "c": {
+          "mix": "woman",
+          "en": "woman",
+          "bn": "woman"
+        },
+        "d": {
+          "mix": "information",
+          "en": "information",
+          "bn": "information"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Information শব্দটি হলো uncountable অর্থাৎ যার কোনো plural form নেই। অন্যদিকে option-এর বাকি তিনটি শব্দের plural হলো যথাক্রমে mice, intensions এবং women।",
+        "en": "The word 'Information' is uncountable, that is, it has no plural form. On the other hand, the plurals of the other three words in the options are 'mice', 'intensions' and 'women' respectively.",
+        "bn": "Information শব্দটি হলো uncountable অর্থাৎ যার কোনো plural form নেই। অন্যদিকে option-এর বাকি তিনটি শব্দের plural হলো যথাক্রমে mice, intensions এবং women।"
+      },
+      "source": "একটি বাড়ি একটি খামার প্রকল্পের ফিল্ড সুপারভাইজার ২০১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 32,
+      "question": {
+        "mix": "Identify singular number :",
+        "en": "Identify singular number:",
+        "bn": "Singular number-টি চিহ্নিত করো:"
+      },
+      "options": {
+        "a": {
+          "mix": "Fungi",
+          "en": "Fungi",
+          "bn": "Fungi"
+        },
+        "b": {
+          "mix": "Agenda",
+          "en": "Agenda",
+          "bn": "Agenda"
+        },
+        "c": {
+          "mix": "Formula",
+          "en": "Formula",
+          "bn": "Formula"
+        },
+        "d": {
+          "mix": "Data",
+          "en": "Data",
+          "bn": "Data"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Option-গুলোর মধ্যে singular number হলো formula যার plural formulas বা formulae। তাছাড়া fungi, agenda, data শব্দগুলো plural যাদের singular form যথাক্রমে fungus, agendum এবং datum।",
+        "en": "Among the options, the singular number is 'formula', whose plural is 'formulas' or 'formulae'. Besides, the words 'fungi', 'agenda' and 'data' are plural, and their singular forms are 'fungus', 'agendum' and 'datum' respectively.",
+        "bn": "Option-গুলোর মধ্যে singular number হলো formula যার plural formulas বা formulae। তাছাড়া fungi, agenda, data শব্দগুলো plural যাদের singular form যথাক্রমে fungus, agendum এবং datum।"
+      },
+      "source": "প্রা. সহ. শিক্ষক ২০১৮ (স্থগিত ২০১৪) [১৪ জেলা]",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 33,
+      "question": {
+        "mix": "Which one is the singular of leaves?",
+        "en": "Which one is the singular of leaves?",
+        "bn": "'leaves' শব্দটির singular কোনটি?"
+      },
+      "options": {
+        "a": {
+          "mix": "Leafe",
+          "en": "Leafe",
+          "bn": "Leafe"
+        },
+        "b": {
+          "mix": "Leaf",
+          "en": "Leaf",
+          "bn": "Leaf"
+        },
+        "c": {
+          "mix": "Leav",
+          "en": "Leav",
+          "bn": "Leav"
+        },
+        "d": {
+          "mix": "Leave",
+          "en": "Leave",
+          "bn": "Leave"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Leaves শব্দটির singular noun হলো leaf যার অর্থ পাতা; পত্র।",
+        "en": "The singular noun of the word 'Leaves' is 'leaf', which means a leaf.",
+        "bn": "Leaves শব্দটির singular noun হলো leaf যার অর্থ পাতা; পত্র।"
+      },
+      "source": "প্রা. সহ. শিক্ষক ২০১৮ (স্থগিত ২০১৪) [১২ জেলা]",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 34,
+      "question": {
+        "mix": "What is the plural form of 'it'?",
+        "en": "What is the plural form of 'it'?",
+        "bn": "'it' শব্দটির plural form কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "Its",
+          "en": "Its",
+          "bn": "Its"
+        },
+        "b": {
+          "mix": "There",
+          "en": "There",
+          "bn": "There"
+        },
+        "c": {
+          "mix": "They",
+          "en": "They",
+          "bn": "They"
+        },
+        "d": {
+          "mix": "Those",
+          "en": "Those",
+          "bn": "Those"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "অপ্রাণীবাচক অর্থে it-এর plural form হলো they।",
+        "en": "In the non-living sense, the plural form of 'it' is 'they'.",
+        "bn": "অপ্রাণীবাচক অর্থে it-এর plural form হলো they।"
+      },
+      "source": "বিআরটিএ'র মোটরযান পরিদর্শক ২০১৭",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 35,
+      "question": {
+        "mix": "Which of the following is a singular number?",
+        "en": "Which of the following is a singular number?",
+        "bn": "নিচের কোনটি singular number?"
+      },
+      "options": {
+        "a": {
+          "mix": "cliffs",
+          "en": "cliffs",
+          "bn": "cliffs"
+        },
+        "b": {
+          "mix": "index",
+          "en": "index",
+          "bn": "index"
+        },
+        "c": {
+          "mix": "crises",
+          "en": "crises",
+          "bn": "crises"
+        },
+        "d": {
+          "mix": "mice",
+          "en": "mice",
+          "bn": "mice"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Index (সূচক) শব্দটি singular number যার plural number হলো indexes বা indices। Cliffs, crises এবং mice শব্দগুলো plural এদের singular number যথাক্রমে cliff (উঁচু খাড়া পাহাড়), crisis (সংকটকাল) এবং mouse (ইঁদুর)।",
+        "en": "The word 'Index' is a singular number whose plural number is 'indexes' or 'indices'. The words 'Cliffs', 'crises' and 'mice' are plural, and their singular numbers are 'cliff', 'crisis' and 'mouse' respectively.",
+        "bn": "Index (সূচক) শব্দটি singular number যার plural number হলো indexes বা indices। Cliffs, crises এবং mice শব্দগুলো plural এদের singular number যথাক্রমে cliff (উঁচু খাড়া পাহাড়), crisis (সংকটকাল) এবং mouse (ইঁদুর)।"
+      },
+      "source": "প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের উপসহকারী পরিচালক ২০১৭",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 36,
+      "question": {
+        "mix": "Which of the following is not a singular number?",
+        "en": "Which of the following is not a singular number?",
+        "bn": "নিচের কোনটি singular number নয়?"
+      },
+      "options": {
+        "a": {
+          "mix": "analysis",
+          "en": "analysis",
+          "bn": "analysis"
+        },
+        "b": {
+          "mix": "poetry",
+          "en": "poetry",
+          "bn": "poetry"
+        },
+        "c": {
+          "mix": "cattle",
+          "en": "cattle",
+          "bn": "cattle"
+        },
+        "d": {
+          "mix": "alms",
+          "en": "alms",
+          "bn": "alms"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Analysis, poetry, alms শব্দগুলো singular কিন্তু cattle শব্দটি plural যার অর্থ গবাদিপশু। রূপগতভাবে alms singular number. তাই এ প্রশ্নে একে singular গণ্য করা হলো। কিন্তু এর plural form ও alms এবং সাধারণত এ শব্দটি plural হিসেবেই ব্যবহৃত হয়।",
+        "en": "The words 'analysis', 'poetry' and 'alms' are singular, but the word 'cattle' is plural, which means farm animals. Formally, 'alms' is a singular number, so in this question it is counted as singular. But its plural form is also 'alms', and generally this word is used as plural.",
+        "bn": "Analysis, poetry, alms শব্দগুলো singular কিন্তু cattle শব্দটি plural যার অর্থ গবাদিপশু। রূপগতভাবে alms singular number. তাই এ প্রশ্নে একে singular গণ্য করা হলো। কিন্তু এর plural form ও alms এবং সাধারণত এ শব্দটি plural হিসেবেই ব্যবহৃত হয়।"
+      },
+      "source": "সিনিয়র স্টাফ নার্স (বাতিলকৃত) ২০১৭",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 37,
+      "question": {
+        "mix": "Choose the correct plural form :",
+        "en": "Choose the correct plural form:",
+        "bn": "সঠিক plural form-টি বেছে নাও:"
+      },
+      "options": {
+        "a": {
+          "mix": "wifes",
+          "en": "wifes",
+          "bn": "wifes"
+        },
+        "b": {
+          "mix": "roofs",
+          "en": "roofs",
+          "bn": "roofs"
+        },
+        "c": {
+          "mix": "wolfs",
+          "en": "wolfs",
+          "bn": "wolfs"
+        },
+        "d": {
+          "mix": "shelfs",
+          "en": "shelfs",
+          "bn": "shelfs"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Roof (ছাদ বা চাল)-এর plural form হলো roofs। আর wife, wolf ও shelf-এর plural form হলো wives, wolves ও shelves।",
+        "en": "The plural form of 'Roof' (a roof or a thatch) is 'roofs'. And the plural forms of 'wife', 'wolf' and 'shelf' are 'wives', 'wolves' and 'shelves'.",
+        "bn": "Roof (ছাদ বা চাল)-এর plural form হলো roofs। আর wife, wolf ও shelf-এর plural form হলো wives, wolves ও shelves।"
+      },
+      "source": "বিটিসিএল সহকারী প্রকৌশলী (সিভিল) ২০১৭",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 38,
+      "question": {
+        "mix": "Choose the right words : I am —",
+        "en": "Choose the right words: I am —",
+        "bn": "সঠিক শব্দগুলো বেছে নাও: I am —"
+      },
+      "options": {
+        "a": {
+          "mix": "1.5 metres high",
+          "en": "1.5 metres high",
+          "bn": "1.5 metres high"
+        },
+        "b": {
+          "mix": "1.5 metres tall",
+          "en": "1.5 metres tall",
+          "bn": "1.5 metres tall"
+        },
+        "c": {
+          "mix": "1.5 metre high",
+          "en": "1.5 metre high",
+          "bn": "1.5 metre high"
+        },
+        "d": {
+          "mix": "1.5 metre tall",
+          "en": "1.5 metre tall",
+          "bn": "1.5 metre tall"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "ব্যক্তির উচ্চতা নির্ণয়ের ক্ষেত্রে tall এবং বস্তুর ক্ষেত্রে high হয়। উচ্চতা নির্ণয়ের একক (1.5) plural হওয়ায় tall-এর পূর্বে metres হবে। অতএব, সঠিক উত্তর (খ)।",
+        "en": "For measuring a person's height, 'tall' is used, and for a thing, 'high' is used. Since the unit of height (1.5) is plural, 'metres' will come before 'tall'. Therefore, the correct answer is (b).",
+        "bn": "ব্যক্তির উচ্চতা নির্ণয়ের ক্ষেত্রে tall এবং বস্তুর ক্ষেত্রে high হয়। উচ্চতা নির্ণয়ের একক (1.5) plural হওয়ায় tall-এর পূর্বে metres হবে। অতএব, সঠিক উত্তর (খ)।"
+      },
+      "source": "স্বাস্থ্য মন্ত্রণালয়ের সহকারী প্রকৌশলী (সিভিল) ২০১৭",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 39,
+      "question": {
+        "mix": "Thief-এর plural কোনটি?",
+        "en": "What is the plural of 'Thief'?",
+        "bn": "Thief-এর plural কোনটি?"
+      },
+      "options": {
+        "a": {
+          "mix": "Thiefes",
+          "en": "Thiefes",
+          "bn": "Thiefes"
+        },
+        "b": {
+          "mix": "Thieves",
+          "en": "Thieves",
+          "bn": "Thieves"
+        },
+        "c": {
+          "mix": "thiefs",
+          "en": "thiefs",
+          "bn": "thiefs"
+        },
+        "d": {
+          "mix": "thives",
+          "en": "thives",
+          "bn": "thives"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "শব্দের শেষে fe, ef, if ইত্যাদি থাকলে সাধারণত সেগুলোকে plural করার সময় f বা ef-এর স্থলে ves যোগ করে plural করতে হয়। সুতরাং সঠিক উত্তর খ।",
+        "en": "When a word ends in fe, ef, if, etc., it is generally made plural by adding 'ves' in place of 'f' or 'ef'. So the correct answer is (b).",
+        "bn": "শব্দের শেষে fe, ef, if ইত্যাদি থাকলে সাধারণত সেগুলোকে plural করার সময় f বা ef-এর স্থলে ves যোগ করে plural করতে হয়। সুতরাং সঠিক উত্তর খ।"
+      },
+      "source": "সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী ২০১৬",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 40,
+      "question": {
+        "mix": "Which one is the plural number?",
+        "en": "Which one is the plural number?",
+        "bn": "কোনটি plural number?"
+      },
+      "options": {
+        "a": {
+          "mix": "School",
+          "en": "School",
+          "bn": "School"
+        },
+        "b": {
+          "mix": "Oxen",
+          "en": "Oxen",
+          "bn": "Oxen"
+        },
+        "c": {
+          "mix": "Leaf",
+          "en": "Leaf",
+          "bn": "Leaf"
+        },
+        "d": {
+          "mix": "Mathematics",
+          "en": "Mathematics",
+          "bn": "Mathematics"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "School, leaf, mathematics শব্দ তিনটি singular। Oxen শব্দটি Ox এর plural form।",
+        "en": "The three words 'School', 'leaf' and 'mathematics' are singular. The word 'Oxen' is the plural form of 'Ox'.",
+        "bn": "School, leaf, mathematics শব্দ তিনটি singular। Oxen শব্দটি Ox এর plural form।"
+      },
+      "source": "জনপ্রশাসন মন্ত্রণালয়ের অধীনে পিএসসি'র সহকারী পরিচালক ২০১৬",
+      "explanation_source": "book"
+    },
+    {
+      "section": "PSC & Other Exams' Questions",
+      "number": 41,
+      "question": {
+        "mix": "What is the plural of 'Magus'?",
+        "en": "What is the plural of 'Magus'?",
+        "bn": "'Magus' শব্দটির plural কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "Magus",
+          "en": "Magus",
+          "bn": "Magus"
+        },
+        "b": {
+          "mix": "Maguses",
+          "en": "Maguses",
+          "bn": "Maguses"
+        },
+        "c": {
+          "mix": "Magux",
+          "en": "Magux",
+          "bn": "Magux"
+        },
+        "d": {
+          "mix": "Magi",
+          "en": "Magi",
+          "bn": "Magi"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Magus (n)—পুরোহিত এবং Plural number বা বহুবচন হচ্ছে Magi যার অর্থ পুরোহিতমণ্ডলী।",
+        "en": "Magus (n) means a priest, and its plural number is 'Magi', which means a group of priests.",
+        "bn": "Magus (n)—পুরোহিত এবং Plural number বা বহুবচন হচ্ছে Magi যার অর্থ পুরোহিতমণ্ডলী।"
+      },
+      "source": "১৩তম প্রভাষক নিবন্ধন (কলেজ/সমপর্যায়) ২০১৬",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Govt. & Private Bank Questions",
+      "number": 1,
+      "question": {
+        "mix": "What is the singular form of the word 'alumni'?",
+        "en": "What is the singular form of the word 'alumni'?",
+        "bn": "'alumni' শব্দটির singular form কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "alumnus",
+          "en": "alumnus",
+          "bn": "alumnus"
+        },
+        "b": {
+          "mix": "alummni",
+          "en": "alummni",
+          "bn": "alummni"
+        },
+        "c": {
+          "mix": "aluminum",
+          "en": "aluminum",
+          "bn": "aluminum"
+        },
+        "d": {
+          "mix": "alumnae",
+          "en": "alumnae",
+          "bn": "alumnae"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Alumnus (প্রাক্তন ছাত্র) শব্দটি singular হিসেবে ব্যবহৃত হয়। একে plural করার জন্য singular-এর শেষে us-এর স্থলে i অথবা us-এর পর es করতে হয়। তাই option গুলোর মধ্যে alumnus শব্দটি সঠিক।",
+        "en": "The word 'Alumnus' (a former student) is used as singular. To make it plural, the final 'us' of the singular is replaced by 'i', or 'es' is added after 'us'. So among the options, the word 'alumnus' is correct.",
+        "bn": "Alumnus (প্রাক্তন ছাত্র) শব্দটি singular হিসেবে ব্যবহৃত হয়। একে plural করার জন্য singular-এর শেষে us-এর স্থলে i অথবা us-এর পর es করতে হয়। তাই option গুলোর মধ্যে alumnus শব্দটি সঠিক।"
+      },
+      "source": "Bangladesh Bank Data Entry/Control Operator (IT) 2020",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Govt. & Private Bank Questions",
+      "number": 2,
+      "question": {
+        "mix": "Correct Plural form of Half is :",
+        "en": "Correct Plural form of Half is:",
+        "bn": "'Half' শব্দটির সঠিক plural form কোনটি:"
+      },
+      "options": {
+        "a": {
+          "mix": "Halfs",
+          "en": "Halfs",
+          "bn": "Halfs"
+        },
+        "b": {
+          "mix": "Halffs",
+          "en": "Halffs",
+          "bn": "Halffs"
+        },
+        "c": {
+          "mix": "Halve",
+          "en": "Halve",
+          "bn": "Halve"
+        },
+        "d": {
+          "mix": "Halves",
+          "en": "Halves",
+          "bn": "Halves"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Half-এর শেষে f থাকায় plural করার সময় f-এর স্থলে v বসে এবং তারপর es যোগ করতে হয়। সুতরাং half-এর plural form halves।",
+        "en": "Since 'Half' ends in 'f', in the plural the 'f' is replaced by 'v' and then 'es' is added. So the plural form of 'half' is 'halves'.",
+        "bn": "Half-এর শেষে f থাকায় plural করার সময় f-এর স্থলে v বসে এবং তারপর es যোগ করতে হয়। সুতরাং half-এর plural form halves।"
+      },
+      "source": "BSC Senior Officer (IT/ICT) 2018",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Govt. & Private Bank Questions",
+      "number": 3,
+      "question": {
+        "mix": "The plural form of 'Genus' is —",
+        "en": "The plural form of 'Genus' is —",
+        "bn": "'Genus' শব্দটির plural form কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "geniuses",
+          "en": "geniuses",
+          "bn": "geniuses"
+        },
+        "b": {
+          "mix": "genera",
+          "en": "genera",
+          "bn": "genera"
+        },
+        "c": {
+          "mix": "genesis",
+          "en": "genesis",
+          "bn": "genesis"
+        },
+        "d": {
+          "mix": "generous",
+          "en": "generous",
+          "bn": "generous"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Genus অর্থ প্রাণী বা উদ্ভিদের 'গণ' যার plural হলো genera। Genus ও Species মিলিয়ে প্রাণী ও উদ্ভিদের বৈজ্ঞানিক নাম লেখা হয়।",
+        "en": "The word 'Genus' means the 'genus' of an animal or plant, and its plural is 'genera'. The scientific names of animals and plants are written by combining Genus and Species.",
+        "bn": "Genus অর্থ প্রাণী বা উদ্ভিদের 'গণ' যার plural হলো genera। Genus ও Species মিলিয়ে প্রাণী ও উদ্ভিদের বৈজ্ঞানিক নাম লেখা হয়।"
+      },
+      "source": "IBBL Probationary Officer 2019; Southeast Bank Ltd. Trainee Officer 2018",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Govt. & Private Bank Questions",
+      "number": 4,
+      "question": {
+        "mix": "Which one is plural?",
+        "en": "Which one is plural?",
+        "bn": "কোনটি plural?"
+      },
+      "options": {
+        "a": {
+          "mix": "Actress",
+          "en": "Actress",
+          "bn": "Actress"
+        },
+        "b": {
+          "mix": "News",
+          "en": "News",
+          "bn": "News"
+        },
+        "c": {
+          "mix": "Princes",
+          "en": "Princes",
+          "bn": "Princes"
+        },
+        "d": {
+          "mix": "Princess",
+          "en": "Princess",
+          "bn": "Princess"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Option গুলোর মধ্যে plural শব্দটি হলো princes, যার singular হলো prince (রাজকুমার)। অন্য শব্দগুলো singular number।",
+        "en": "Among the options, the plural word is 'princes', whose singular is 'prince' (a prince). The other words are singular numbers.",
+        "bn": "Option গুলোর মধ্যে plural শব্দটি হলো princes, যার singular হলো prince (রাজকুমার)। অন্য শব্দগুলো singular number।"
+      },
+      "source": "IFIC Bank Ltd. Trainee Assistant Officer (TAO) 2018",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Govt. & Private Bank Questions",
+      "number": 5,
+      "question": {
+        "mix": "Which is in singular number?",
+        "en": "Which is in singular number?",
+        "bn": "কোনটি singular number-এ আছে?"
+      },
+      "options": {
+        "a": {
+          "mix": "Hypothesis",
+          "en": "Hypothesis",
+          "bn": "Hypothesis"
+        },
+        "b": {
+          "mix": "Media",
+          "en": "Media",
+          "bn": "Media"
+        },
+        "c": {
+          "mix": "Agenda",
+          "en": "Agenda",
+          "bn": "Agenda"
+        },
+        "d": {
+          "mix": "Syllabi",
+          "en": "Syllabi",
+          "bn": "Syllabi"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "'Hypothesis' Singular number। এর অর্থ প্রস্তাব বা অনুমান। এর plural হলো hypotheses। Media-এর singular medium, Agenda ও Syllabi-এর singular যথাক্রমে agendum ও syllabus।",
+        "en": "'Hypothesis' is a singular number. It means a proposal or an assumption. Its plural is 'hypotheses'. The singular of 'Media' is 'medium', and the singulars of 'Agenda' and 'Syllabi' are 'agendum' and 'syllabus' respectively.",
+        "bn": "'Hypothesis' Singular number। এর অর্থ প্রস্তাব বা অনুমান। এর plural হলো hypotheses। Media-এর singular medium, Agenda ও Syllabi-এর singular যথাক্রমে agendum ও syllabus।"
+      },
+      "source": "Agrani Bank Ltd. Senior Officer 2017",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Govt. & Private Bank Questions",
+      "number": 6,
+      "question": {
+        "mix": "The plural of 'Spectrum' is—",
+        "en": "The plural of 'Spectrum' is—",
+        "bn": "'Spectrum' শব্দটির plural কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Spectra",
+          "en": "Spectra",
+          "bn": "Spectra"
+        },
+        "b": {
+          "mix": "Spikes",
+          "en": "Spikes",
+          "bn": "Spikes"
+        },
+        "c": {
+          "mix": "Spectrums",
+          "en": "Spectrums",
+          "bn": "Spectrums"
+        },
+        "d": {
+          "mix": "Species",
+          "en": "Species",
+          "bn": "Species"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Singular noun 'Spectrum' (বর্ণচ্ছটা বর্ণালি)-এর plural number হলো spectra।",
+        "en": "The plural number of the singular noun 'Spectrum' (a spectrum of colours) is 'spectra'.",
+        "bn": "Singular noun 'Spectrum' (বর্ণচ্ছটা বর্ণালি)-এর plural number হলো spectra।"
+      },
+      "source": "Bangladesh Krishi Bank Officer (Cash) 2017",
+      "explanation_source": "book"
+    },
+    {
+      "section": "Govt. & Private Bank Questions",
+      "number": 7,
+      "question": {
+        "mix": "The 'zero plural marker' is used in—",
+        "en": "The 'zero plural marker' is used in—",
+        "bn": "'zero plural marker' কোনটিতে ব্যবহৃত হয়—"
+      },
+      "options": {
+        "a": {
+          "mix": "canon",
+          "en": "canon",
+          "bn": "canon"
+        },
+        "b": {
+          "mix": "mouse",
+          "en": "mouse",
+          "bn": "mouse"
+        },
+        "c": {
+          "mix": "physics",
+          "en": "physics",
+          "bn": "physics"
+        },
+        "d": {
+          "mix": "medium",
+          "en": "medium",
+          "bn": "medium"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "যেসব word-এর singular এবং plural একই (যেমন : sheep, fish) সেসব word-কে zero plural marker বলে। এসব word-এর শেষে s/es যুক্ত হয় না। সুতরাং সঠিক উত্তর physics, যার singular এবং plural form একই।",
+        "en": "Words whose singular and plural are the same (for example: sheep, fish) are called zero plural markers. No 's/es' is added at the end of such words. So the correct answer is 'physics', whose singular and plural forms are the same.",
+        "bn": "যেসব word-এর singular এবং plural একই (যেমন : sheep, fish) সেসব word-কে zero plural marker বলে। এসব word-এর শেষে s/es যুক্ত হয় না। সুতরাং সঠিক উত্তর physics, যার singular এবং plural form একই।"
+      },
+      "source": "Bangladesh Development Bank Ltd. Senior Officer 2017",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 1,
+      "question": {
+        "mix": "Which noun is in plural form?",
+        "en": "Which noun is in plural form?",
+        "bn": "কোন noun-টি plural form-এ আছে?"
+      },
+      "options": {
+        "a": {
+          "mix": "diagnoses",
+          "en": "diagnoses",
+          "bn": "diagnoses"
+        },
+        "b": {
+          "mix": "crisis",
+          "en": "crisis",
+          "bn": "crisis"
+        },
+        "c": {
+          "mix": "goose",
+          "en": "goose",
+          "bn": "goose"
+        },
+        "d": {
+          "mix": "class",
+          "en": "class",
+          "bn": "class"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Option গুলোর মধ্যে plural noun হলো diagnoses, যার singular form হলো diagnosis (রোগ নির্ণয়)। অন্যদিকে option-এর বাকি শব্দগুলো singular যাদের plural form যথাক্রমে crises, geese এবং classes।",
+        "en": "Among the options, the plural noun is 'diagnoses', whose singular form is 'diagnosis' (the diagnosis of a disease). On the other hand, the other words in the options are singular, and their plural forms are 'crises', 'geese' and 'classes' respectively.",
+        "bn": "Option গুলোর মধ্যে plural noun হলো diagnoses, যার singular form হলো diagnosis (রোগ নির্ণয়)। অন্যদিকে option-এর বাকি শব্দগুলো singular যাদের plural form যথাক্রমে crises, geese এবং classes।"
+      },
+      "source": "ঢাবি 'চ' ইউনিট ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 2,
+      "question": {
+        "mix": "What is the singular form of 'Media'?",
+        "en": "What is the singular form of 'Media'?",
+        "bn": "'Media' শব্দটির singular form কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "Medien",
+          "en": "Medien",
+          "bn": "Medien"
+        },
+        "b": {
+          "mix": "Mediam",
+          "en": "Mediam",
+          "bn": "Mediam"
+        },
+        "c": {
+          "mix": "Medium",
+          "en": "Medium",
+          "bn": "Medium"
+        },
+        "d": {
+          "mix": "Mediom",
+          "en": "Mediom",
+          "bn": "Mediom"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Media শব্দটি plural, যার singular রূপ হলো medium।",
+        "en": "The word 'Media' is plural, and its singular form is 'medium'.",
+        "bn": "Media শব্দটি plural, যার singular রূপ হলো medium।"
+      },
+      "source": "জাবি 'B' ইউনিট (সমাজ বিজ্ঞান; সেট: B) ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 3,
+      "question": {
+        "mix": "Which of the following is a plural form?",
+        "en": "Which of the following is a plural form?",
+        "bn": "নিচের কোনটি plural form?"
+      },
+      "options": {
+        "a": {
+          "mix": "datum",
+          "en": "datum",
+          "bn": "datum"
+        },
+        "b": {
+          "mix": "phenomena",
+          "en": "phenomena",
+          "bn": "phenomena"
+        },
+        "c": {
+          "mix": "phenomenon",
+          "en": "phenomenon",
+          "bn": "phenomenon"
+        },
+        "d": {
+          "mix": "criterion",
+          "en": "criterion",
+          "bn": "criterion"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Option-গুলোর মধ্যে plural form হলো phenomena, যার singular form হলো phenomenon। তাছাড়া datum এবং criterion-এর plural form যথাক্রমে data এবং criteria।",
+        "en": "Among the options, the plural form is 'phenomena', whose singular form is 'phenomenon'. Besides, the plural forms of 'datum' and 'criterion' are 'data' and 'criteria' respectively.",
+        "bn": "Option-গুলোর মধ্যে plural form হলো phenomena, যার singular form হলো phenomenon। তাছাড়া datum এবং criterion-এর plural form যথাক্রমে data এবং criteria।"
+      },
+      "source": "রাবি ইউনিট-C বিজ্ঞান (সকাল) ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 4,
+      "question": {
+        "mix": "Plural of 'stimulus' is —",
+        "en": "Plural of 'stimulus' is —",
+        "bn": "'stimulus' শব্দটির plural কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "stimuli",
+          "en": "stimuli",
+          "bn": "stimuli"
+        },
+        "b": {
+          "mix": "stimulus",
+          "en": "stimulus",
+          "bn": "stimulus"
+        },
+        "c": {
+          "mix": "stimilie",
+          "en": "stimilie",
+          "bn": "stimilie"
+        },
+        "d": {
+          "mix": "stimulies",
+          "en": "stimulies",
+          "bn": "stimulies"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Stimulus (কর্মপ্রেরণাদায়ক বস্তু বা বিষয়; উদ্দীপক)-এর plural form হলো stimuli।",
+        "en": "The plural form of 'Stimulus' (a thing or matter that inspires action; a stimulus) is 'stimuli'.",
+        "bn": "Stimulus (কর্মপ্রেরণাদায়ক বস্তু বা বিষয়; উদ্দীপক)-এর plural form হলো stimuli।"
+      },
+      "source": "রাবি ইউনিট-B (বাণিজ্য) ২০১৯-২০; হাবি ইউনিট বি ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 5,
+      "question": {
+        "mix": "Which one is the singular form of the word 'Alumni'?",
+        "en": "Which one is the singular form of the word 'Alumni'?",
+        "bn": "'Alumni' শব্দটির singular form কোনটি?"
+      },
+      "options": {
+        "a": {
+          "mix": "Alumnae",
+          "en": "Alumnae",
+          "bn": "Alumnae"
+        },
+        "b": {
+          "mix": "Alumnies",
+          "en": "Alumnies",
+          "bn": "Alumnies"
+        },
+        "c": {
+          "mix": "Alumnis",
+          "en": "Alumnis",
+          "bn": "Alumnis"
+        },
+        "d": {
+          "mix": "Alumnus",
+          "en": "Alumnus",
+          "bn": "Alumnus"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Alumni (স্কুল, কলেজ বা বিশ্ববিদ্যালয়ের প্রাক্তন ছাত্রছাত্রী)-এর singular form হলো alumnus।",
+        "en": "The singular form of 'Alumni' (former students of a school, college or university) is 'alumnus'.",
+        "bn": "Alumni (স্কুল, কলেজ বা বিশ্ববিদ্যালয়ের প্রাক্তন ছাত্রছাত্রী)-এর singular form হলো alumnus।"
+      },
+      "source": "রাবি A ইউনিট সেট-ক ২০১৯-২০; ঢাবি অধিভুক্ত সরকারি ৭ কলেজ (কলা ও সামাজিক বিজ্ঞান ইউনিট) ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 6,
+      "question": {
+        "mix": "Which is the plural form of the word 'mouse'?",
+        "en": "Which is the plural form of the word 'mouse'?",
+        "bn": "'mouse' শব্দটির plural form কোনটি?"
+      },
+      "options": {
+        "a": {
+          "mix": "Mouses",
+          "en": "Mouses",
+          "bn": "Mouses"
+        },
+        "b": {
+          "mix": "Mousess",
+          "en": "Mousess",
+          "bn": "Mousess"
+        },
+        "c": {
+          "mix": "Mice",
+          "en": "Mice",
+          "bn": "Mice"
+        },
+        "d": {
+          "mix": "Mices",
+          "en": "Mices",
+          "bn": "Mices"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "কিছু কিছু noun-এর মধ্যবর্তী vowel পরিবর্তন করে plural করতে হয়। যেমন— man-men, mouse-mice, louse-lice ইত্যাদি। সুতরাং সঠিক plural form হলো mice।",
+        "en": "Some nouns are made plural by changing the middle vowel. For example — man-men, mouse-mice, louse-lice, etc. So the correct plural form is 'mice'.",
+        "bn": "কিছু কিছু noun-এর মধ্যবর্তী vowel পরিবর্তন করে plural করতে হয়। যেমন— man-men, mouse-mice, louse-lice ইত্যাদি। সুতরাং সঠিক plural form হলো mice।"
+      },
+      "source": "ঢাবি A Unit-C (Set-A) ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 7,
+      "question": {
+        "mix": "The plural number of 'index' is — .",
+        "en": "The plural number of 'index' is —.",
+        "bn": "'index' শব্দটির plural number কোনটি—।"
+      },
+      "options": {
+        "a": {
+          "mix": "indexis",
+          "en": "indexis",
+          "bn": "indexis"
+        },
+        "b": {
+          "mix": "indix",
+          "en": "indix",
+          "bn": "indix"
+        },
+        "c": {
+          "mix": "indexus",
+          "en": "indexus",
+          "bn": "indexus"
+        },
+        "d": {
+          "mix": "indices",
+          "en": "indices",
+          "bn": "indices"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Index শব্দটির শেষে ex থাকায় plural করতে ex-এর স্থলে ices যোগ করতে হবে। সুতরাং সঠিক plural form হলো indices।",
+        "en": "Since the word 'Index' ends in 'ex', 'ices' must be added in place of 'ex' to form the plural. So the correct plural form is 'indices'.",
+        "bn": "Index শব্দটির শেষে ex থাকায় plural করতে ex-এর স্থলে ices যোগ করতে হবে। সুতরাং সঠিক plural form হলো indices।"
+      },
+      "source": "ইবি Unit-B (Set-A; Set-E) ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 8,
+      "question": {
+        "mix": "Which one is a singular number?",
+        "en": "Which one is a singular number?",
+        "bn": "কোনটি singular number?"
+      },
+      "options": {
+        "a": {
+          "mix": "data",
+          "en": "data",
+          "bn": "data"
+        },
+        "b": {
+          "mix": "errata",
+          "en": "errata",
+          "bn": "errata"
+        },
+        "c": {
+          "mix": "criteria",
+          "en": "criteria",
+          "bn": "criteria"
+        },
+        "d": {
+          "mix": "phenomenon",
+          "en": "phenomenon",
+          "bn": "phenomenon"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Option গুলোর মধ্যে singular number হলো phenomenon, যার plural form হলো phenomena। তাছাড়া option-এর অন্য word-গুলো হলো plural, যাদের singular number হলো যথাক্রমে datum, erratum এবং criterion।",
+        "en": "Among the options, the singular number is 'phenomenon', whose plural form is 'phenomena'. Besides, the other words in the options are plural, and their singular numbers are 'datum', 'erratum' and 'criterion' respectively.",
+        "bn": "Option গুলোর মধ্যে singular number হলো phenomenon, যার plural form হলো phenomena। তাছাড়া option-এর অন্য word-গুলো হলো plural, যাদের singular number হলো যথাক্রমে datum, erratum এবং criterion।"
+      },
+      "source": "কুবি ইউনিট A (বিজ্ঞান ও প্রকৌশল অনুষদ) ২০১৯-২০; রাবি ইউনিট E (বিজোড়) ২০১৬-১৭; রাবি ইউনিট E ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 9,
+      "question": {
+        "mix": "The plural form of 'Sheep' is —",
+        "en": "The plural form of 'Sheep' is —",
+        "bn": "'Sheep' শব্দটির plural form কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Sheeps",
+          "en": "Sheeps",
+          "bn": "Sheeps"
+        },
+        "b": {
+          "mix": "Sheepses",
+          "en": "Sheepses",
+          "bn": "Sheepses"
+        },
+        "c": {
+          "mix": "Sheps",
+          "en": "Sheps",
+          "bn": "Sheps"
+        },
+        "d": {
+          "mix": "Sheep",
+          "en": "Sheep",
+          "bn": "Sheep"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Sheep (ভেড়া; মেষ)-এর plural করতে এর রূপ পরিবর্তন হয় না। সুতরাং sheep-এর plural form হলো sheep।",
+        "en": "The form of 'Sheep' (a sheep) does not change in the plural. So the plural form of 'sheep' is 'sheep'.",
+        "bn": "Sheep (ভেড়া; মেষ)-এর plural করতে এর রূপ পরিবর্তন হয় না। সুতরাং sheep-এর plural form হলো sheep।"
+      },
+      "source": "জাককানইবি D ইউনিট ২০১৯-২০; ঢাবি অধিভুক্ত সরকারি ৭ কলেজ (কলা ও সামাজিক বিজ্ঞান ইউনিট) ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 10,
+      "question": {
+        "mix": "Which of the following is always singular?",
+        "en": "Which of the following is always singular?",
+        "bn": "নিচের কোনটি সবসময় singular?"
+      },
+      "options": {
+        "a": {
+          "mix": "Nucleus",
+          "en": "Nucleus",
+          "bn": "Nucleus"
+        },
+        "b": {
+          "mix": "Formula",
+          "en": "Formula",
+          "bn": "Formula"
+        },
+        "c": {
+          "mix": "Scenery",
+          "en": "Scenery",
+          "bn": "Scenery"
+        },
+        "d": {
+          "mix": "Machinery",
+          "en": "Machinery",
+          "bn": "Machinery"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "[Hints : Scenery এবং machinery উভয়ই non-count noun। আর তাই উভয়ই singular number। তাই সঠিক উত্তর গ ও ঘ।]",
+        "en": "[Hints: Both 'Scenery' and 'machinery' are non-count nouns. And so both are singular numbers. So the correct answers are (c) and (d).]",
+        "bn": "[Hints : Scenery এবং machinery উভয়ই non-count noun। আর তাই উভয়ই singular number। তাই সঠিক উত্তর গ ও ঘ।]"
+      },
+      "source": "বশেমুরবিপ্রবি ইউনিট-E (সামাজিক বিজ্ঞান) ২০১৯-২০",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 11,
+      "question": {
+        "mix": "Which of the following words is plural?",
+        "en": "Which of the following words is plural?",
+        "bn": "নিচের কোন শব্দটি plural?"
+      },
+      "options": {
+        "a": {
+          "mix": "news",
+          "en": "news",
+          "bn": "news"
+        },
+        "b": {
+          "mix": "phenomenon",
+          "en": "phenomenon",
+          "bn": "phenomenon"
+        },
+        "c": {
+          "mix": "magus",
+          "en": "magus",
+          "bn": "magus"
+        },
+        "d": {
+          "mix": "criteria",
+          "en": "criteria",
+          "bn": "criteria"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Criteria হলো criterion-এর plural form— on-এর পরিবর্তে a বসে plural হয়। news দেখতে plural হলেও singular, phenomenon ও magus দুটোই singular noun।",
+        "en": "'Criteria' is the plural form of 'criterion' — the final 'on' is replaced by 'a'. 'news' looks plural but is singular, and 'phenomenon' and 'magus' are both singular nouns.",
+        "bn": "Criteria হলো criterion-এর plural form— on-এর পরিবর্তে a বসে plural হয়। news দেখতে plural হলেও singular, phenomenon ও magus দুটোই singular noun।"
+      },
+      "source": "বশেমুরবিপ্রবি ইউনিট F (বিজ্ঞান ও মানবিক) ২০১৯-২০",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 12,
+      "question": {
+        "mix": "What is the plural of phenomenon?",
+        "en": "What is the plural of phenomenon?",
+        "bn": "'phenomenon' শব্দটির plural কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "phenomeni",
+          "en": "phenomeni",
+          "bn": "phenomeni"
+        },
+        "b": {
+          "mix": "phenomenons",
+          "en": "phenomenons",
+          "bn": "phenomenons"
+        },
+        "c": {
+          "mix": "phenomena",
+          "en": "phenomena",
+          "bn": "phenomena"
+        },
+        "d": {
+          "mix": "phenomenia",
+          "en": "phenomenia",
+          "bn": "phenomenia"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Phenomenon (ঘটনা, ইন্দ্রিয়গ্রাহ্য বস্তু)-এর plural form হলো phenomena।",
+        "en": "The plural form of 'Phenomenon' (an event, a thing perceived by the senses) is 'phenomena'.",
+        "bn": "Phenomenon (ঘটনা, ইন্দ্রিয়গ্রাহ্য বস্তু)-এর plural form হলো phenomena।"
+      },
+      "source": "ঢাবি 'চ' ইউনিট ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 13,
+      "question": {
+        "mix": "Which of the following is a correct plural word?",
+        "en": "Which of the following is a correct plural word?",
+        "bn": "নিচের কোনটি সঠিক plural word?"
+      },
+      "options": {
+        "a": {
+          "mix": "agendum",
+          "en": "agendum",
+          "bn": "agendum"
+        },
+        "b": {
+          "mix": "peasantry",
+          "en": "peasantry",
+          "bn": "peasantry"
+        },
+        "c": {
+          "mix": "datum",
+          "en": "datum",
+          "bn": "datum"
+        },
+        "d": {
+          "mix": "phenomenon",
+          "en": "phenomenon",
+          "bn": "phenomenon"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Option গুলোর মধ্যে plural form হলো peasantry যার অর্থ কোনো দেশের কৃষক সম্প্রদায়, কৃষক শ্রেণি। তাছাড়া অন্যান্য শব্দগুলো agendum, datum এবং phenomenon হলো singular number যাদের plural form হলো যথাক্রমে— agenda, data এবং phenomena।",
+        "en": "Among the options, the plural form is 'peasantry', which means the farming community or farming class of a country. Besides, the other words — agendum, datum and phenomenon — are singular numbers whose plural forms are 'agenda', 'data' and 'phenomena' respectively.",
+        "bn": "Option গুলোর মধ্যে plural form হলো peasantry যার অর্থ কোনো দেশের কৃষক সম্প্রদায়, কৃষক শ্রেণি। তাছাড়া অন্যান্য শব্দগুলো agendum, datum এবং phenomenon হলো singular number যাদের plural form হলো যথাক্রমে— agenda, data এবং phenomena।"
+      },
+      "source": "ঢাবি অধিভুক্ত ৭ কলেজ ২০১৮-১৯ (বিজ্ঞান)",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 14,
+      "question": {
+        "mix": "The plural of 'half' is —",
+        "en": "The plural of 'half' is —",
+        "bn": "'half' শব্দটির plural কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Halfs",
+          "en": "Halfs",
+          "bn": "Halfs"
+        },
+        "b": {
+          "mix": "Halves",
+          "en": "Halves",
+          "bn": "Halves"
+        },
+        "c": {
+          "mix": "More than half",
+          "en": "More than half",
+          "bn": "More than half"
+        },
+        "d": {
+          "mix": "More of half",
+          "en": "More of half",
+          "bn": "More of half"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Noun-এর শেষে f বা fe থাকলে f বা fe-এর স্থলে ves যোগ করে plural করতে হয়। সুতরাং half-এর plural number হলো halves।",
+        "en": "When a noun ends in 'f' or 'fe', 'ves' is added in place of 'f' or 'fe' to form the plural. So the plural number of 'half' is 'halves'.",
+        "bn": "Noun-এর শেষে f বা fe থাকলে f বা fe-এর স্থলে ves যোগ করে plural করতে হয়। সুতরাং half-এর plural number হলো halves।"
+      },
+      "source": "ঢাবি অধিভুক্ত ৭ কলেজ ২০১৮-১৯ (বাণিজ্য)",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 15,
+      "question": {
+        "mix": "What is the plural form of 'Appendix'?",
+        "en": "What is the plural form of 'Appendix'?",
+        "bn": "'Appendix' শব্দটির plural form কী?"
+      },
+      "options": {
+        "a": {
+          "mix": "Appendixe",
+          "en": "Appendixe",
+          "bn": "Appendixe"
+        },
+        "b": {
+          "mix": "Appendixs",
+          "en": "Appendixs",
+          "bn": "Appendixs"
+        },
+        "c": {
+          "mix": "Appendics",
+          "en": "Appendics",
+          "bn": "Appendics"
+        },
+        "d": {
+          "mix": "Appendices",
+          "en": "Appendices",
+          "bn": "Appendices"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Appendix (বিশেষত বইয়ের শেষে সংযোজিত অংশ, পরিশিষ্ট)-এর plural form হলো appendices বা appendixes।",
+        "en": "The plural form of 'Appendix' (especially the part added at the end of a book; an appendix) is 'appendices' or 'appendixes'.",
+        "bn": "Appendix (বিশেষত বইয়ের শেষে সংযোজিত অংশ, পরিশিষ্ট)-এর plural form হলো appendices বা appendixes।"
+      },
+      "source": "জাবি 'B' ইউনিট (সমাজবিজ্ঞান) ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 16,
+      "question": {
+        "mix": "Choose the plural number.",
+        "en": "Choose the plural number.",
+        "bn": "Plural number-টি বেছে নাও।"
+      },
+      "options": {
+        "a": {
+          "mix": "syllabus",
+          "en": "syllabus",
+          "bn": "syllabus"
+        },
+        "b": {
+          "mix": "news",
+          "en": "news",
+          "bn": "news"
+        },
+        "c": {
+          "mix": "physics",
+          "en": "physics",
+          "bn": "physics"
+        },
+        "d": {
+          "mix": "agenda",
+          "en": "agenda",
+          "bn": "agenda"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Option-এ plural number হলো agenda যার singular number হলো agendum। অন্যদিকে option-এর বাকি শব্দগুলো singular।",
+        "en": "In the options, the plural number is 'agenda', whose singular number is 'agendum'. On the other hand, the other words in the options are singular.",
+        "bn": "Option-এ plural number হলো agenda যার singular number হলো agendum। অন্যদিকে option-এর বাকি শব্দগুলো singular।"
+      },
+      "source": "রাবি ২০১৮-১৯; ইউনিট E",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 17,
+      "question": {
+        "mix": "Plural form of the word 'basis' is—",
+        "en": "Plural form of the word 'basis' is—",
+        "bn": "'basis' শব্দটির plural form কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "Basises",
+          "en": "Basises",
+          "bn": "Basises"
+        },
+        "b": {
+          "mix": "Basies",
+          "en": "Basies",
+          "bn": "Basies"
+        },
+        "c": {
+          "mix": "Bases",
+          "en": "Bases",
+          "bn": "Bases"
+        },
+        "d": {
+          "mix": "Basiss",
+          "en": "Basiss",
+          "bn": "Basiss"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Basis (ভিত্তি)-এর plural form হলো bases।",
+        "en": "The plural form of 'Basis' (a foundation) is 'bases'.",
+        "bn": "Basis (ভিত্তি)-এর plural form হলো bases।"
+      },
+      "source": "কুবি ২০১৮-১৯ ইউনিট A",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 18,
+      "question": {
+        "mix": "The plural of 'thesis' is—",
+        "en": "The plural of 'thesis' is—",
+        "bn": "'thesis' শব্দটির plural কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "thesises",
+          "en": "thesises",
+          "bn": "thesises"
+        },
+        "b": {
+          "mix": "theses",
+          "en": "theses",
+          "bn": "theses"
+        },
+        "c": {
+          "mix": "thesess",
+          "en": "thesess",
+          "bn": "thesess"
+        },
+        "d": {
+          "mix": "none of the above",
+          "en": "none of the above",
+          "bn": "none of the above"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Thesis (যুক্তির দ্বারা সমর্থিত বা সমর্থনীয় বিবৃতি বা তত্ত্ব)-এর plural হলো theses।",
+        "en": "The plural of 'Thesis' (a statement or theory supported or supportable by argument) is 'theses'.",
+        "bn": "Thesis (যুক্তির দ্বারা সমর্থিত বা সমর্থনীয় বিবৃতি বা তত্ত্ব)-এর plural হলো theses।"
+      },
+      "source": "ইবি ইউনিট বি (1st Shift) ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 19,
+      "question": {
+        "mix": "Which one is singular number?",
+        "en": "Which one is singular number?",
+        "bn": "কোনটি singular number?"
+      },
+      "options": {
+        "a": {
+          "mix": "data",
+          "en": "data",
+          "bn": "data"
+        },
+        "b": {
+          "mix": "media",
+          "en": "media",
+          "bn": "media"
+        },
+        "c": {
+          "mix": "criteria",
+          "en": "criteria",
+          "bn": "criteria"
+        },
+        "d": {
+          "mix": "glass",
+          "en": "glass",
+          "bn": "glass"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Option গুলোর মধ্যে singular number হলো glass যার plural number glasses। অন্যদিকে option-এর বাকি শব্দগুলো plural যাদের singular form যথাক্রমে datum, medium এবং criterion।",
+        "en": "Among the options, the singular number is 'glass', whose plural number is 'glasses'. On the other hand, the other words in the options are plural, and their singular forms are 'datum', 'medium' and 'criterion' respectively.",
+        "bn": "Option গুলোর মধ্যে singular number হলো glass যার plural number glasses। অন্যদিকে option-এর বাকি শব্দগুলো plural যাদের singular form যথাক্রমে datum, medium এবং criterion।"
+      },
+      "source": "ইবি ইউনিট বি ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 20,
+      "question": {
+        "mix": "The plural form of 'radius' is — .",
+        "en": "The plural form of 'radius' is —.",
+        "bn": "'radius' শব্দটির plural form কোনটি—।"
+      },
+      "options": {
+        "a": {
+          "mix": "radic",
+          "en": "radic",
+          "bn": "radic"
+        },
+        "b": {
+          "mix": "radi",
+          "en": "radi",
+          "bn": "radi"
+        },
+        "c": {
+          "mix": "radiusis",
+          "en": "radiusis",
+          "bn": "radiusis"
+        },
+        "d": {
+          "mix": "radiuses",
+          "en": "radiuses",
+          "bn": "radiuses"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Radius (ব্যাসার্ধ)-এর plural form হলো radiuses বা radii।",
+        "en": "The plural form of 'Radius' (the radius) is 'radiuses' or 'radii'.",
+        "bn": "Radius (ব্যাসার্ধ)-এর plural form হলো radiuses বা radii।"
+      },
+      "source": "ইবি ইউনিট বি ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 21,
+      "question": {
+        "mix": "'Alumni' is the plural form of—",
+        "en": "'Alumni' is the plural form of—",
+        "bn": "'Alumni' কার plural form—"
+      },
+      "options": {
+        "a": {
+          "mix": "Alumnus",
+          "en": "Alumnus",
+          "bn": "Alumnus"
+        },
+        "b": {
+          "mix": "Alummous",
+          "en": "Alummous",
+          "bn": "Alummous"
+        },
+        "c": {
+          "mix": "Aluminus",
+          "en": "Aluminus",
+          "bn": "Aluminus"
+        },
+        "d": {
+          "mix": "Aluminise",
+          "en": "Aluminise",
+          "bn": "Aluminise"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Alumni হলো alumnus-এর plural form। Alumnus অর্থ স্কুল কলেজ বা বিশ্ববিদ্যালয়ের প্রাক্তন ছাত্র।",
+        "en": "'Alumni' is the plural form of 'alumnus'. 'Alumnus' means a former student of a school, college or university.",
+        "bn": "Alumni হলো alumnus-এর plural form। Alumnus অর্থ স্কুল কলেজ বা বিশ্ববিদ্যালয়ের প্রাক্তন ছাত্র।"
+      },
+      "source": "কুবি 'বি' ইউনিট ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 22,
+      "question": {
+        "mix": "Choose the correct singular form.",
+        "en": "Choose the correct singular form.",
+        "bn": "সঠিক singular form-টি বেছে নাও।"
+      },
+      "options": {
+        "a": {
+          "mix": "corrigenda",
+          "en": "corrigenda",
+          "bn": "corrigenda"
+        },
+        "b": {
+          "mix": "formulae",
+          "en": "formulae",
+          "bn": "formulae"
+        },
+        "c": {
+          "mix": "oases",
+          "en": "oases",
+          "bn": "oases"
+        },
+        "d": {
+          "mix": "radius",
+          "en": "radius",
+          "bn": "radius"
+        }
+      },
+      "answer": "d",
+      "explanation": {
+        "mix": "Option গুলোর মধ্যে singular number হলো radius যার plural form হলো radii। অন্যদিকে বাকি option গুলো plural number যাদের singular number হলো যথাক্রমে corrigendum, formula এবং oasis।",
+        "en": "Among the options, the singular number is 'radius', whose plural form is 'radii'. On the other hand, the other options are plural numbers, and their singular numbers are 'corrigendum', 'formula' and 'oasis' respectively.",
+        "bn": "Option গুলোর মধ্যে singular number হলো radius যার plural form হলো radii। অন্যদিকে বাকি option গুলো plural number যাদের singular number হলো যথাক্রমে corrigendum, formula এবং oasis।"
+      },
+      "source": "জাককানইবি ইউনিট এ-এল ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 23,
+      "question": {
+        "mix": "Which of the following has no plural form?",
+        "en": "Which of the following has no plural form?",
+        "bn": "নিচের কোনটির plural form নেই?"
+      },
+      "options": {
+        "a": {
+          "mix": "analysis",
+          "en": "analysis",
+          "bn": "analysis"
+        },
+        "b": {
+          "mix": "crisis",
+          "en": "crisis",
+          "bn": "crisis"
+        },
+        "c": {
+          "mix": "soap",
+          "en": "soap",
+          "bn": "soap"
+        },
+        "d": {
+          "mix": "louse",
+          "en": "louse",
+          "bn": "louse"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Option গুলোর মধ্যে plural form নেই এমন word হলো Soap। Soap-কে plural করতে two bars of soap, three bars of soap ইত্যাদি লিখতে হয়।",
+        "en": "Among the options, the word that has no plural form is 'Soap'. To make 'soap' plural, one must write 'two bars of soap', 'three bars of soap', etc.",
+        "bn": "Option গুলোর মধ্যে plural form নেই এমন word হলো Soap। Soap-কে plural করতে two bars of soap, three bars of soap ইত্যাদি লিখতে হয়।"
+      },
+      "source": "জাককানইবি ইউনিট এ-এল ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 24,
+      "question": {
+        "mix": "The correct plural form of 'spectrum' is—",
+        "en": "The correct plural form of 'spectrum' is—",
+        "bn": "'spectrum' শব্দটির সঠিক plural form কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "spectrum",
+          "en": "spectrum",
+          "bn": "spectrum"
+        },
+        "b": {
+          "mix": "spectra",
+          "en": "spectra",
+          "bn": "spectra"
+        },
+        "c": {
+          "mix": "species",
+          "en": "species",
+          "bn": "species"
+        },
+        "d": {
+          "mix": "imagery",
+          "en": "imagery",
+          "bn": "imagery"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Spectrum (বর্ণালি)-এর plural form হলো spectra।",
+        "en": "The plural form of 'Spectrum' (a spectrum) is 'spectra'.",
+        "bn": "Spectrum (বর্ণালি)-এর plural form হলো spectra।"
+      },
+      "source": "জাককানইবি ইউনিট এ-এল ২০১৮-১৯",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 25,
+      "question": {
+        "mix": "One of the most significant phenomenons of our time has been the development of cinema.",
+        "en": "One of the most significant phenomenons of our time has been the development of cinema.",
+        "bn": "One of the most significant phenomenons of our time has been the development of cinema."
+      },
+      "options": {
+        "a": {
+          "mix": "phenomenon",
+          "en": "phenomenon",
+          "bn": "phenomenon"
+        },
+        "b": {
+          "mix": "phenomena",
+          "en": "phenomena",
+          "bn": "phenomena"
+        },
+        "c": {
+          "mix": "phenomenonna",
+          "en": "phenomenonna",
+          "bn": "phenomenonna"
+        },
+        "d": {
+          "mix": "phenomenonns",
+          "en": "phenomenonns",
+          "bn": "phenomenonns"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Phenomenon-এর plural form হলো phenomena— on-এর পরিবর্তে a বসে। বাক্যে one of the most significant-এর পরে plural form বসে, তাই phenomenons-এর স্থলে phenomena হবে। phenomenon singular, আর phenomenonna ও phenomenonns ভুল বানান।",
+        "en": "The plural form of 'phenomenon' is 'phenomena' — the final 'on' is replaced by 'a'. After 'one of the most significant', a plural form is used, so 'phenomena' replaces 'phenomenons'. 'phenomenon' is singular, and 'phenomenonna' and 'phenomenonns' are wrong spellings.",
+        "bn": "Phenomenon-এর plural form হলো phenomena— on-এর পরিবর্তে a বসে। বাক্যে one of the most significant-এর পরে plural form বসে, তাই phenomenons-এর স্থলে phenomena হবে। phenomenon singular, আর phenomenonna ও phenomenonns ভুল বানান।"
+      },
+      "source": "বশেমুরবিপ্রবি ইউনিট D (মানবিকী) ২০১৮-১৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 26,
+      "question": {
+        "mix": "Which of the following nouns is in plural form?",
+        "en": "Which of the following nouns is in plural form?",
+        "bn": "নিচের কোন noun-টি plural form-এ আছে?"
+      },
+      "options": {
+        "a": {
+          "mix": "Radius",
+          "en": "Radius",
+          "bn": "Radius"
+        },
+        "b": {
+          "mix": "Data",
+          "en": "Data",
+          "bn": "Data"
+        },
+        "c": {
+          "mix": "Medium",
+          "en": "Medium",
+          "bn": "Medium"
+        },
+        "d": {
+          "mix": "Oasis",
+          "en": "Oasis",
+          "bn": "Oasis"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Data হলো datum-এর plural form— um-এর পরিবর্তে a বসে plural হয়। Radius, Medium ও Oasis তিনটিই singular noun।",
+        "en": "'Data' is the plural form of 'datum' — the 'um' is replaced by 'a'. 'Radius', 'Medium' and 'Oasis' are all singular nouns.",
+        "bn": "Data হলো datum-এর plural form— um-এর পরিবর্তে a বসে plural হয়। Radius, Medium ও Oasis তিনটিই singular noun।"
+      },
+      "source": "বশেমুরবিপ্রবি ইউনিট D (মানবিকী) ২০১৮-১৯",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 27,
+      "question": {
+        "mix": "Which of the following word is the plural form of brother?",
+        "en": "Which of the following word is the plural form of brother?",
+        "bn": "নিচের কোন শব্দটি brother-এর plural form?"
+      },
+      "options": {
+        "a": {
+          "mix": "gaudy",
+          "en": "gaudy",
+          "bn": "gaudy"
+        },
+        "b": {
+          "mix": "brethren",
+          "en": "brethren",
+          "bn": "brethren"
+        },
+        "c": {
+          "mix": "buddy",
+          "en": "buddy",
+          "bn": "buddy"
+        },
+        "d": {
+          "mix": "bro",
+          "en": "bro",
+          "bn": "bro"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Brother-এর plural form হলো brethren এবং brothers উভয়। দুভাবেই brother-এর plural form লেখা যায়।",
+        "en": "The plural form of 'Brother' is both 'brethren' and 'brothers'. The plural form of 'brother' can be written in both ways.",
+        "bn": "Brother-এর plural form হলো brethren এবং brothers উভয়। দুভাবেই brother-এর plural form লেখা যায়।"
+      },
+      "source": "জবি ইউনিট ই ২০১৭-১৮",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 28,
+      "question": {
+        "mix": "Which plural word can be used as singular?",
+        "en": "Which plural word can be used as singular?",
+        "bn": "কোন plural শব্দটি singular হিসেবে ব্যবহৃত হতে পারে?"
+      },
+      "options": {
+        "a": {
+          "mix": "books",
+          "en": "books",
+          "bn": "books"
+        },
+        "b": {
+          "mix": "ethics",
+          "en": "ethics",
+          "bn": "ethics"
+        },
+        "c": {
+          "mix": "princes",
+          "en": "princes",
+          "bn": "princes"
+        },
+        "d": {
+          "mix": "universities",
+          "en": "universities",
+          "bn": "universities"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Ethics দেখতে plural হলেও singular হিসেবে ব্যবহৃত হয়— যেমন Ethics is a branch of philosophy। books, princes ও universities স্পষ্টতই plural noun।",
+        "en": "'Ethics' looks plural but is used as singular — for example, 'Ethics is a branch of philosophy'. 'books', 'princes' and 'universities' are clearly plural nouns.",
+        "bn": "Ethics দেখতে plural হলেও singular হিসেবে ব্যবহৃত হয়— যেমন Ethics is a branch of philosophy। books, princes ও universities স্পষ্টতই plural noun।"
+      },
+      "source": "রাবি ইউনিট B ২০১৭-১৮",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 29,
+      "question": {
+        "mix": "Which one is plural?",
+        "en": "Which one is plural?",
+        "bn": "কোনটি plural?"
+      },
+      "options": {
+        "a": {
+          "mix": "Genera",
+          "en": "Genera",
+          "bn": "Genera"
+        },
+        "b": {
+          "mix": "Agendum",
+          "en": "Agendum",
+          "bn": "Agendum"
+        },
+        "c": {
+          "mix": "Formula",
+          "en": "Formula",
+          "bn": "Formula"
+        },
+        "d": {
+          "mix": "Genus",
+          "en": "Genus",
+          "bn": "Genus"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Genera হলো genus-এর plural form। Agendum, Formula ও Genus তিনটিই singular noun— এদের plural যথাক্রমে agenda, formulae/formulas ও genera।",
+        "en": "'Genera' is the plural form of 'genus'. 'Agendum', 'Formula' and 'Genus' are all singular nouns — their plurals are 'agenda', 'formulae/formulas' and 'genera' respectively.",
+        "bn": "Genera হলো genus-এর plural form। Agendum, Formula ও Genus তিনটিই singular noun— এদের plural যথাক্রমে agenda, formulae/formulas ও genera।"
+      },
+      "source": "রাবি ইউনিট C-1 ২০১৭-১৮",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 30,
+      "question": {
+        "mix": "Which of the following is a singular noun?",
+        "en": "Which of the following is a singular noun?",
+        "bn": "নিচের কোনটি singular noun?"
+      },
+      "options": {
+        "a": {
+          "mix": "Syllabi",
+          "en": "Syllabi",
+          "bn": "Syllabi"
+        },
+        "b": {
+          "mix": "Phenomena",
+          "en": "Phenomena",
+          "bn": "Phenomena"
+        },
+        "c": {
+          "mix": "Premium",
+          "en": "Premium",
+          "bn": "Premium"
+        },
+        "d": {
+          "mix": "Media",
+          "en": "Media",
+          "bn": "Media"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Syllabi (pl.) – syllabus (sing.); phenomena (pl.)– phenomenon (sing.); premium (sing.)– premia (pl); media (pl.)– medium (sing.)।",
+        "en": "Syllabi (plural) – syllabus (singular); phenomena (plural) – phenomenon (singular); premium (singular) – premia (plural); media (plural) – medium (singular).",
+        "bn": "Syllabi (pl.) – syllabus (sing.); phenomena (pl.)– phenomenon (sing.); premium (sing.)– premia (pl); media (pl.)– medium (sing.)।"
+      },
+      "source": "জবি ইউনিট A ২০১৬-১৭",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 31,
+      "question": {
+        "mix": "'Data' is a plural form of —",
+        "en": "'Data' is a plural form of —",
+        "bn": "'Data' কার plural form—"
+      },
+      "options": {
+        "a": {
+          "mix": "Datum",
+          "en": "Datum",
+          "bn": "Datum"
+        },
+        "b": {
+          "mix": "Datu",
+          "en": "Datu",
+          "bn": "Datu"
+        },
+        "c": {
+          "mix": "Dates",
+          "en": "Dates",
+          "bn": "Dates"
+        },
+        "d": {
+          "mix": "Dative",
+          "en": "Dative",
+          "bn": "Dative"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Data হলো datum-এর plural form— um-এর পরিবর্তে a বসে plural হয়। Datu, Dates ও Dative-এর কোনোটিই datum-এর plural নয়।",
+        "en": "'Data' is the plural form of 'datum' — the 'um' is replaced by 'a'. Neither 'Datu', 'Dates' nor 'Dative' is the plural of 'datum'.",
+        "bn": "Data হলো datum-এর plural form— um-এর পরিবর্তে a বসে plural হয়। Datu, Dates ও Dative-এর কোনোটিই datum-এর plural নয়।"
+      },
+      "source": "জবি ইউনিট E ২০১৬-১৭",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 32,
+      "question": {
+        "mix": "The plural form of 'thief' is :",
+        "en": "The plural form of 'thief' is:",
+        "bn": "'thief' শব্দটির plural form কোনটি:"
+      },
+      "options": {
+        "a": {
+          "mix": "thiefs",
+          "en": "thiefs",
+          "bn": "thiefs"
+        },
+        "b": {
+          "mix": "thieves",
+          "en": "thieves",
+          "bn": "thieves"
+        },
+        "c": {
+          "mix": "thiefes",
+          "en": "thiefes",
+          "bn": "thiefes"
+        },
+        "d": {
+          "mix": "thiefee",
+          "en": "thiefee",
+          "bn": "thiefee"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "যেসব শব্দের শেষে ef, fe, if থাকে তাদের plural করার সময় ef/fe/if এর পরিবর্তে ves বসে।",
+        "en": "For words ending in ef, fe or if, 'ves' is used in place of ef/fe/if to form the plural.",
+        "bn": "যেসব শব্দের শেষে ef, fe, if থাকে তাদের plural করার সময় ef/fe/if এর পরিবর্তে ves বসে।"
+      },
+      "source": "রাবি ইউনিট A (জোড়) ২০১৬-১৭",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 33,
+      "question": {
+        "mix": "Change the word 'oasis' into plural :",
+        "en": "Change the word 'oasis' into plural:",
+        "bn": "'oasis' শব্দটিকে plural-এ পরিবর্তন করো:"
+      },
+      "options": {
+        "a": {
+          "mix": "oasas",
+          "en": "oasas",
+          "bn": "oasas"
+        },
+        "b": {
+          "mix": "oases",
+          "en": "oases",
+          "bn": "oases"
+        },
+        "c": {
+          "mix": "oasess",
+          "en": "oasess",
+          "bn": "oasess"
+        },
+        "d": {
+          "mix": "oasises",
+          "en": "oasises",
+          "bn": "oasises"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Singular noun শব্দের শেষে 'is' থাকলে তা plural করতে শেষে 'is' এর পরিবর্তে 'es' যোগ করতে হয়।",
+        "en": "When a singular noun ends in 'is', 'es' is added in place of the final 'is' to make it plural.",
+        "bn": "Singular noun শব্দের শেষে 'is' থাকলে তা plural করতে শেষে 'is' এর পরিবর্তে 'es' যোগ করতে হয়।"
+      },
+      "source": "রাবি ইউনিট E (জোড়) ২০১৬-১৭",
+      "explanation_source": "book"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 34,
+      "question": {
+        "mix": "Singular form of 'agenda' is—",
+        "en": "Singular form of 'agenda' is—",
+        "bn": "'agenda' শব্দটির singular form কোনটি—"
+      },
+      "options": {
+        "a": {
+          "mix": "agendum",
+          "en": "agendum",
+          "bn": "agendum"
+        },
+        "b": {
+          "mix": "agendam",
+          "en": "agendam",
+          "bn": "agendam"
+        },
+        "c": {
+          "mix": "agendem",
+          "en": "agendem",
+          "bn": "agendem"
+        },
+        "d": {
+          "mix": "agendua",
+          "en": "agendua",
+          "bn": "agendua"
+        }
+      },
+      "answer": "a",
+      "explanation": {
+        "mix": "Agenda হলো agendum-এর plural form— um-এর পরিবর্তে a বসে plural হয়। agendam, agendem ও agendua ভুল form।",
+        "en": "'Agenda' is the plural form of 'agendum' — the 'um' is replaced by 'a'. 'agendam', 'agendem' and 'agendua' are wrong forms.",
+        "bn": "Agenda হলো agendum-এর plural form— um-এর পরিবর্তে a বসে plural হয়। agendam, agendem ও agendua ভুল form।"
+      },
+      "source": "রাবি ইউনিট E (জোড়) ২০১৬-১৭",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 35,
+      "question": {
+        "mix": "Identify the word that can be used as both singular and plural :",
+        "en": "Identify the word that can be used as both singular and plural:",
+        "bn": "যে শব্দটি singular ও plural উভয় হিসেবে ব্যবহৃত হতে পারে সেটি চিহ্নিত করো:"
+      },
+      "options": {
+        "a": {
+          "mix": "wood",
+          "en": "wood",
+          "bn": "wood"
+        },
+        "b": {
+          "mix": "fish",
+          "en": "fish",
+          "bn": "fish"
+        },
+        "c": {
+          "mix": "issue",
+          "en": "issue",
+          "bn": "issue"
+        },
+        "d": {
+          "mix": "light",
+          "en": "light",
+          "bn": "light"
+        }
+      },
+      "answer": "b",
+      "explanation": {
+        "mix": "Fish-এর singular ও plural একই— fish। wood, issue ও light-এর plural হয় যথাক্রমে woods, issues ও lights।",
+        "en": "The singular and plural of 'fish' are the same — fish. The plurals of 'wood', 'issue' and 'light' are 'woods', 'issues' and 'lights' respectively.",
+        "bn": "Fish-এর singular ও plural একই— fish। wood, issue ও light-এর plural হয় যথাক্রমে woods, issues ও lights।"
+      },
+      "source": "রাবি ইউনিট E (বিজোড়) ২০১৬-১৭",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 36,
+      "question": {
+        "mix": "Identify the singular number—",
+        "en": "Identify the singular number—",
+        "bn": "Singular number-টি চিহ্নিত করো—"
+      },
+      "options": {
+        "a": {
+          "mix": "crises",
+          "en": "crises",
+          "bn": "crises"
+        },
+        "b": {
+          "mix": "data",
+          "en": "data",
+          "bn": "data"
+        },
+        "c": {
+          "mix": "axis",
+          "en": "axis",
+          "bn": "axis"
+        },
+        "d": {
+          "mix": "phenomena",
+          "en": "phenomena",
+          "bn": "phenomena"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Axis singular noun— এর plural হলো axes। crises (crisis-এর plural), data (datum-এর plural) ও phenomena (phenomenon-এর plural) তিনটিই plural form।",
+        "en": "'Axis' is a singular noun — its plural is 'axes'. 'crises' (the plural of 'crisis'), 'data' (the plural of 'datum') and 'phenomena' (the plural of 'phenomenon') are all plural forms.",
+        "bn": "Axis singular noun— এর plural হলো axes। crises (crisis-এর plural), data (datum-এর plural) ও phenomena (phenomenon-এর plural) তিনটিই plural form।"
+      },
+      "source": "রাবি ইউনিট E (বিজোড়) ২০১৬-১৭",
+      "explanation_source": "generated"
+    },
+    {
+      "section": "University & Medical Questions",
+      "number": 37,
+      "question": {
+        "mix": "Which one is singular?",
+        "en": "Which one is singular?",
+        "bn": "কোনটি singular?"
+      },
+      "options": {
+        "a": {
+          "mix": "data",
+          "en": "data",
+          "bn": "data"
+        },
+        "b": {
+          "mix": "mitochondria",
+          "en": "mitochondria",
+          "bn": "mitochondria"
+        },
+        "c": {
+          "mix": "focus",
+          "en": "focus",
+          "bn": "focus"
+        },
+        "d": {
+          "mix": "fungi",
+          "en": "fungi",
+          "bn": "fungi"
+        }
+      },
+      "answer": "c",
+      "explanation": {
+        "mix": "Focus-singular, Plural-foci.",
+        "en": "Focus is singular; its plural is 'foci'.",
+        "bn": "Focus-singular, Plural-foci."
+      },
+      "source": "রাবি ইউনিট C (কৃষি অনুষদ) ২০১৬-১৭",
+      "explanation_source": "book"
+    }
+  ],
+  "unclear": [
+    {
+      "page": 81,
+      "note": "Chapter title banner ('CHAPTER 06 — Number of Noun') verified from the page image; the intro paragraph and rules were read from the image."
+    },
+    {
+      "page": 82,
+      "note": "Rule 6.3.1 table prints the plural of scarf as 'scarf/scarves' (book error); preserved verbatim in mix, corrected to 'scarfs/scarves' in en/bn."
+    },
+    {
+      "page": 82,
+      "note": "Inline dwarf MCQ: the book's [Note:] says both (ক) Dwarves and (গ) Dwarfs are correct; the answer field records (ক) Dwarves, the first-listed correct option, and the book Note is kept verbatim as the explanation."
+    },
+    {
+      "page": 82,
+      "note": "Rule 6.4.1 table: the Dynamo gloss reads 'বিদ্যুৎ উৎপাদক যন্ত্রবিশেষ' and the Quango gloss 'রাষ্ট্রীয় অর্থে পরিচালিত সংস্থা' as best-effort — the print is cramped in the scan."
+    },
+    {
+      "page": 84,
+      "note": "Rule 6.11 table prints the plural of Terminus as 'Termini/Termimuses' (book typo); preserved verbatim in mix, corrected to 'Termini/Terminuses' in en/bn. The Locus gloss is printed 'সংঘটনপথ'; preserved as printed."
+    },
+    {
+      "page": 86,
+      "note": "Inline alphabet MCQ: options (ক) and (খ) are both printed 'alphabets'; preserved as printed, answer is (ঘ) none."
+    },
+    {
+      "page": 86,
+      "note": "Rule 6.17 list prints 'menes', 'ineries' and 'intone' (apparent book misprints) and 'singular plural from' (for 'form'); preserved verbatim in mix, 'form' used in en/bn."
+    },
+    {
+      "page": 87,
+      "note": "The Full-compound rule is headed only by a small marker in the print; numbered 6.22 here by sequence. The both-parts compound table (Lord-justice etc.) is unnumbered in the book and is folded into rule 6.21."
+    },
+    {
+      "page": 88,
+      "note": "PSC Q03 Hints prints 'singular from' / 'plural from' (for 'form'); preserved verbatim in mix, corrected to 'form' in en/bn."
+    },
+    {
+      "page": 89,
+      "note": "PSC Q07 second source is partly illegible in the scan; recorded as best-effort 'সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (যান্ত্রিক) ২০১৯; সড়ক ও জনপথ অধিদপ্তরের ... ২০১৯' with the answer (ক) clearly printed."
+    },
+    {
+      "page": 89,
+      "note": "PSC Q10 first source is partly illegible in the scan; recorded as best-effort 'জাতীয় ... ২০১৯; বিদ্যুৎ মন্ত্রণালয়/বিভাগের প্রশাসনিক কর্মকর্তা ২০১৯' with the answer (ক) clearly printed. The book's Hints gives the plural of Phenomenon as 'phenomenons' here, although rule 6.9 gives 'phenomena'; recorded exactly as the book's answer key says."
+    },
+    {
+      "page": 89,
+      "note": "PSC Q13 has no answer letter in the book — the right margin says only 'উত্তর: Note' and the printed [Note:] says the question is incomplete; answer recorded as null, as in Chapter 1."
+    },
+    {
+      "page": 90,
+      "note": "PSC Q16 book Hints prints '[Ref : Merriam–Webster Online Dictiony]' (book typo for Dictionary); preserved verbatim in mix, corrected in en/bn."
+    },
+    {
+      "page": 90,
+      "note": "PSC Q17 second source is partly illegible in the scan; recorded as best-effort 'প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (প্রথম ধাপ) ২০১৯; ঢাকা ... ২০১৬' with the answer (ঘ) clearly printed."
+    },
+    {
+      "page": 90,
+      "note": "PSC Q18 second source is partly illegible in the scan; recorded as best-effort 'সহকারী শিক্ষক (প্রথম ধাপ) ২০১৯; বিভিন্ন মন্ত্রণালয়/বিভাগ/অধিদপ্তরের প্রশাসনিক কর্মকর্তা (মুজিবনগর) ২০১৮' with the answer (ঘ) clearly printed."
+    },
+    {
+      "page": 91,
+      "note": "PSC Q30 second source is partly illegible in the scan; recorded as best-effort 'নার্সিং ও মিডওয়াইফারি অধিদপ্তরের সিনিয়র স্টাফ নার্স ২০১৮; ... সহকারী পরিচালক ২০১৯' with the answer (ঘ) clearly printed."
+    },
+    {
+      "page": 94,
+      "note": "University Q10: the book's [Hints:] says both (গ) Scenery and (ঘ) Machinery are correct; the answer field records (গ) Scenery, the first-listed correct option, and the book Hints is kept verbatim as the explanation."
+    },
+    {
+      "page": 94,
+      "note": "University Q12: the right margin says 'উত্তর: Note' with no answer letter, but the printed Hints clearly gives the plural of phenomenon as 'phenomena'; answer recorded as (গ) phenomena."
+    },
+    {
+      "page": 92,
+      "note": "PSC Q36 book Hints prints 'রূপগতভাবে alms singular number' (the scan shows a doubled syllable); recorded as 'রূপগতভাবে' in mix."
+    }
+  ],
+  "translation_source": "generated"
+}

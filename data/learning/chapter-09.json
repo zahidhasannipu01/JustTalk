@@ -1,0 +1,5566 @@
+{
+ "chapter": "Chapter-09: Determiners and Articles",
+ "pages": [
+  115,
+  130
+ ],
+ "rules": [
+  {
+   "heading": {
+    "mix": "Introduction",
+    "en": "Introduction",
+    "bn": "ভূমিকা"
+   },
+   "body": {
+    "mix": "যেসব শব্দ Noun/Pronoun-এর নির্দিষ্টতা, অনির্দিষ্টতা, সংখ্যা বা পরিমাণ নির্দেশ করে তাদেরকে Determiners বলা হয়। যেমন— a, an, many, much, few, little ইত্যাদি। অতীতে এসব শব্দকে Adjectives মনে করা হলেও বর্তমানে এগুলোকে ৮ প্রকার Parts of Speech-এর মধ্যে গণ্য করা হয় না। Determiners দেখতে বেশ সহজ মনে হলেও বাক্যের শুদ্ধাশুদ্ধিতে এগুলো গুরুত্বপূর্ণ ভূমিকা পালন করে বিধায় এগুলো আলাদাভাবে উদাহরণসহ আলোচনা করা হলো।",
+    "en": "The words which indicate the definiteness, indefiniteness, number or quantity of a noun or pronoun are called determiners. For example — a, an, many, much, few, little etc. Although these words were earlier regarded as adjectives, nowadays they are not counted among the 8 kinds of parts of speech. Although determiners look quite easy, they play an important role in the correctness of sentences, and so they are discussed here separately with examples.",
+    "bn": "যেসব শব্দ Noun/Pronoun-এর নির্দিষ্টতা, অনির্দিষ্টতা, সংখ্যা বা পরিমাণ নির্দেশ করে তাদেরকে Determiners বলা হয়। যেমন— a, an, many, much, few, little ইত্যাদি। অতীতে এসব শব্দকে Adjectives মনে করা হলেও বর্তমানে এগুলোকে ৮ প্রকার Parts of Speech-এর মধ্যে গণ্য করা হয় না। Determiners দেখতে বেশ সহজ মনে হলেও বাক্যের শুদ্ধাশুদ্ধিতে এগুলো গুরুত্বপূর্ণ ভূমিকা পালন করে বিধায় এগুলো আলাদাভাবে উদাহরণসহ আলোচনা করা হলো।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.1 Types of Determiners",
+    "en": "9.1 Types of Determiners",
+    "bn": "9.1 Types of Determiners"
+   },
+   "body": {
+    "mix": "নির্দিষ্টতা/অনির্দিষ্টতা বা সংখ্যা/পরিমাণ নির্দেশ করে এমন সব শব্দ তথা Determiners-কে দুভাগে ভাগ করা যায়। A. Group A : বস্তুকে শনাক্ত করতে সহায়তা করে এমন সব Determiners। যেমন— Articles : a, an, the. Possessives : my, your, his, her, its, our, your, their, one's, whose. Demonstrative : this, these, that, those. এসব Determiners একসাথে একাধিক ব্যবহার করা যায় না। তাই the house, my house বলা গেলেও the my house বলা যায় না। B. Group B : সংখ্যা বা পরিমাণ নির্দেশ করে এমন সব Determiners, যাদেরকে quantifier বলা হয়। যেমন— Some, any, no; Each, every, either, neither; Much, many, more, most, little, few, fewer, fewest, several, enough, a lot of; All, both, half; What, whatever, which, whichever; One, two, three …., other.",
+    "en": "All the words that indicate definiteness/indefiniteness or number/quantity, that is, determiners, can be divided into two groups. A. Group A: all determiners that help to identify a thing. For example — Articles: a, an, the. Possessives: my, your, his, her, its, our, your, their, one's, whose. Demonstrative: this, these, that, those. These determiners cannot be used together more than one at a time. So although 'the house' and 'my house' can be said, 'the my house' cannot be said. B. Group B: all determiners that indicate number or quantity, which are called quantifiers. For example — Some, any, no; Each, every, either, neither; Much, many, more, most, little, few, fewer, fewest, several, enough, a lot of; All, both, half; What, whatever, which, whichever; One, two, three …., other.",
+    "bn": "নির্দিষ্টতা/অনির্দিষ্টতা বা সংখ্যা/পরিমাণ নির্দেশ করে এমন সব শব্দ তথা Determiners-কে দুভাগে ভাগ করা যায়। A. Group A : বস্তুকে শনাক্ত করতে সহায়তা করে এমন সব Determiners। যেমন— Articles : a, an, the. Possessives : my, your, his, her, its, our, your, their, one's, whose. Demonstrative : this, these, that, those. এসব Determiners একসাথে একাধিক ব্যবহার করা যায় না। তাই the house, my house বলা গেলেও the my house বলা যায় না। B. Group B : সংখ্যা বা পরিমাণ নির্দেশ করে এমন সব Determiners, যাদেরকে quantifier বলা হয়। যেমন— Some, any, no; Each, every, either, neither; Much, many, more, most, little, few, fewer, fewest, several, enough, a lot of; All, both, half; What, whatever, which, whichever; One, two, three …., other."
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.2 Countable/Uncountable Determiners",
+    "en": "9.2 Countable/Uncountable Determiners",
+    "bn": "9.2 Countable/Uncountable Determiners"
+   },
+   "body": {
+    "mix": "কিছু কিছু Determiners আছে যেগুলো countable এবং এরা countable noun-এর সাথে ব্যবহৃত হয়। অন্যদিকে uncountable determiner সমূহ uncountable noun-এর সাথে বসে। কিছু কিছু Determiner আছে যেগুলো countable ও uncountable উভয় প্রকার Noun-এর সাথে বসতে পারে। a. Countable Determiners : many, few, several, a, an, either, neither, each, every. b. Uncountable Determiners : much, little, less, least. c. Countable + Uncountable Determiners : some, a lot of, no.",
+    "en": "There are some determiners which are countable and are used with countable nouns. On the other hand, uncountable determiners sit with uncountable nouns. There are some determiners which can sit with both countable and uncountable nouns. a. Countable Determiners: many, few, several, a, an, either, neither, each, every. b. Uncountable Determiners: much, little, less, least. c. Countable + Uncountable Determiners: some, a lot of, no.",
+    "bn": "কিছু কিছু Determiners আছে যেগুলো countable এবং এরা countable noun-এর সাথে ব্যবহৃত হয়। অন্যদিকে uncountable determiner সমূহ uncountable noun-এর সাথে বসে। কিছু কিছু Determiner আছে যেগুলো countable ও uncountable উভয় প্রকার Noun-এর সাথে বসতে পারে। a. Countable Determiners : many, few, several, a, an, either, neither, each, every. b. Uncountable Determiners : much, little, less, least. c. Countable + Uncountable Determiners : some, a lot of, no."
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.3 Singular/Plural Determiners",
+    "en": "9.3 Singular/Plural Determiners",
+    "bn": "9.3 Singular/Plural Determiners"
+   },
+   "body": {
+    "mix": "কিছু কিছু Determiners হচ্ছে Singular যা Singular Noun-এর সাথে ব্যবহৃত হয়। আর Plural Determiner গুলো Plural noun-এর সাথে বসে। a. Singular Determiner : a, an, each, every, either, neither........... b. Plural Determiners : many, few, several, all, both, two, three .......",
+    "en": "Some determiners are singular, and they are used with singular nouns. And plural determiners sit with plural nouns. a. Singular Determiner: a, an, each, every, either, neither........... b. Plural Determiners: many, few, several, all, both, two, three .......",
+    "bn": "কিছু কিছু Determiners হচ্ছে Singular যা Singular Noun-এর সাথে ব্যবহৃত হয়। আর Plural Determiner গুলো Plural noun-এর সাথে বসে। a. Singular Determiner : a, an, each, every, either, neither........... b. Plural Determiners : many, few, several, all, both, two, three ......."
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.4 Much, Many, A lot of",
+    "en": "9.4 Much, Many, A lot of",
+    "bn": "9.4 Much, Many, A lot of"
+   },
+   "body": {
+    "mix": "এগুলোর অর্থ খুব, বেশি। কিন্তু Much শব্দটি uncountable noun-এর পূর্বে বসে। শব্দটি সাধারণত না-বোধক ও প্রশ্নবোধক বাক্যে ব্যবহৃত হয়। Many বসে countable noun-এর পূর্বে। সাধারণত প্রশ্নবোধক ও নাবোধক বাক্যে many বসে, হাঁ-বোধক বাক্যের ক্ষেত্রে a lot of, lots of, a great/ good deal of, plenty of ব্যবহৃত হয়।",
+    "en": "These mean very, much, many. But the word 'much' sits before an uncountable noun. The word is generally used in negative and interrogative sentences. 'Many' sits before a countable noun. Generally 'many' is used in interrogative and negative sentences, while in affirmative sentences 'a lot of', 'lots of', 'a great/good deal of', 'plenty of' are used.",
+    "bn": "এগুলোর অর্থ খুব, বেশি। কিন্তু Much শব্দটি uncountable noun-এর পূর্বে বসে। শব্দটি সাধারণত না-বোধক ও প্রশ্নবোধক বাক্যে ব্যবহৃত হয়। Many বসে countable noun-এর পূর্বে। সাধারণত প্রশ্নবোধক ও নাবোধক বাক্যে many বসে, হাঁ-বোধক বাক্যের ক্ষেত্রে a lot of, lots of, a great/ good deal of, plenty of ব্যবহৃত হয়।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.5 Few, A few, the few",
+    "en": "9.5 Few, A few, the few",
+    "bn": "9.5 Few, A few, the few"
+   },
+   "body": {
+    "mix": "Few অর্থ অল্প সংখ্যক, নেই বললেই চলে। এটা countable noun-এর পূর্বে বসে এবং নেতিবাচক অর্থ প্রদান করে। A few কিছু সংখ্যক (some) এবং the few অর্থ অল্প যে কজন/কটি আছে তার সবগুলো/সবাই।",
+    "en": "'Few' means a small number, almost none. It sits before a countable noun and gives a negative meaning. 'A few' means some in number, and 'the few' means all of the few persons or things that there are.",
+    "bn": "Few অর্থ অল্প সংখ্যক, নেই বললেই চলে। এটা countable noun-এর পূর্বে বসে এবং নেতিবাচক অর্থ প্রদান করে। A few কিছু সংখ্যক (some) এবং the few অর্থ অল্প যে কজন/কটি আছে তার সবগুলো/সবাই।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.6 Little, A little, the little",
+    "en": "9.6 Little, A little, the little",
+    "bn": "9.6 Little, A little, the little"
+   },
+   "body": {
+    "mix": "Little অর্থ কিঞ্চিত, নেই বললেই চলে। শব্দটি uncountable noun-এর পূর্বে বসে এবং negative idea প্রদান করে। A little অর্থ সামান্য পরিমাণ। এটি positive idea প্রদান করে। The little সামান্য যেটুকু আছে তার সবটুকু।",
+    "en": "'Little' means a very small amount, almost none. The word sits before an uncountable noun and gives a negative idea. 'A little' means a small quantity. It gives a positive idea. 'The little' means all of the small amount that there is.",
+    "bn": "Little অর্থ কিঞ্চিত, নেই বললেই চলে। শব্দটি uncountable noun-এর পূর্বে বসে এবং negative idea প্রদান করে। A little অর্থ সামান্য পরিমাণ। এটি positive idea প্রদান করে। The little সামান্য যেটুকু আছে তার সবটুকু।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.7 Less, Fewer",
+    "en": "9.7 Less, Fewer",
+    "bn": "9.7 Less, Fewer"
+   },
+   "body": {
+    "mix": "Little-এর comparative degree হচ্ছে less এবং few-এর comparative fewer. Uncountable noun-এর আগে less এবং countable-এর আগে fewer বসে 'তুলনামূলক কম' অর্থ প্রদান করে।",
+    "en": "The comparative degree of 'little' is 'less' and the comparative of 'few' is 'fewer'. 'Less' sits before an uncountable noun and 'fewer' before a countable noun, giving the meaning 'comparatively less'.",
+    "bn": "Little-এর comparative degree হচ্ছে less এবং few-এর comparative fewer. Uncountable noun-এর আগে less এবং countable-এর আগে fewer বসে 'তুলনামূলক কম' অর্থ প্রদান করে।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.8 Each, Every",
+    "en": "9.8 Each, Every",
+    "bn": "9.8 Each, Every"
+   },
+   "body": {
+    "mix": "এ দুটি Determiner-এর পর singular noun বসে এবং verbও singular হয় কিন্তু each-এর পর of থাকলে noun plural হয় কিন্তু verb singular থাকে।",
+    "en": "After these two determiners a singular noun sits and the verb is also singular, but if 'of' follows 'each', the noun becomes plural while the verb remains singular.",
+    "bn": "এ দুটি Determiner-এর পর singular noun বসে এবং verbও singular হয় কিন্তু each-এর পর of থাকলে noun plural হয় কিন্তু verb singular থাকে।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.9 Any, Some",
+    "en": "9.9 Any, Some",
+    "bn": "9.9 Any, Some"
+   },
+   "body": {
+    "mix": "অনির্দিষ্ট সংখ্যক ব্যক্তি বা বস্তু বোঝাতে any/some ব্যবহৃত হয়। তবে সাধারণত হাঁ-বোধক বাক্যের ক্ষেত্রে Some এবং না-বোধক/প্রশ্নবোধক বাক্যের ক্ষেত্রে any বসে। যেমন— I need some money. Have you got any money?",
+    "en": "Any/some are used to mean an indefinite number of persons or things. But generally 'some' is used in affirmative sentences and 'any' in negative/interrogative sentences. For example — I need some money. Have you got any money?",
+    "bn": "অনির্দিষ্ট সংখ্যক ব্যক্তি বা বস্তু বোঝাতে any/some ব্যবহৃত হয়। তবে সাধারণত হাঁ-বোধক বাক্যের ক্ষেত্রে Some এবং না-বোধক/প্রশ্নবোধক বাক্যের ক্ষেত্রে any বসে। যেমন— I need some money. Have you got any money?"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.10 Half",
+    "en": "9.10 Half",
+    "bn": "9.10 Half"
+   },
+   "body": {
+    "mix": "Half যখন পূর্ণ সংখ্যার সাথে বসে তখন এর পূর্বে a বসে। কিন্তু half একাকী থাকলে এর পর a বসে। যেমন— 1½ kilos = One and a half kilos বা one kilo and a half; কিন্তু ½ kilo = half a kilo; তেমনি ½ hour = half an hour. NB. One and a half এই expression টি Plural তাই এর পর Plural noun হবে। যেমন— I've been waiting here for one and a half hours. কিন্তু I've been waiting here for an hour and a half.",
+    "en": "When 'half' sits with a whole number, 'a' sits before it. But when 'half' stands alone, 'a' sits after it. For example — 1½ kilos = One and a half kilos or one kilo and a half; but ½ kilo = half a kilo; likewise ½ hour = half an hour. NB. The expression 'one and a half' is plural, so a plural noun follows it. For example — I've been waiting here for one and a half hours. But I've been waiting here for an hour and a half.",
+    "bn": "Half যখন পূর্ণ সংখ্যার সাথে বসে তখন এর পূর্বে a বসে। কিন্তু half একাকী থাকলে এর পর a বসে। যেমন— 1½ kilos = One and a half kilos বা one kilo and a half; কিন্তু ½ kilo = half a kilo; তেমনি ½ hour = half an hour. NB. One and a half এই expression টি Plural তাই এর পর Plural noun হবে। যেমন— I've been waiting here for one and a half hours. কিন্তু I've been waiting here for an hour and a half."
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.11.a A, An",
+    "en": "9.11.a A, An",
+    "bn": "9.11.a A, An"
+   },
+   "body": {
+    "mix": "শব্দের শুরুতে consonant থাকলে তার পূর্বে a এবং vowel থাকলে তার পূর্বে an বসে। তবে শব্দের প্রথম অক্ষর h এবং তার উচ্চারণ 'অ/এ'-এর মতো হলে তার পূর্বে an বসে এবং শুরুতে e/u এর উচ্চারণ 'ইউ'-এর মতো হলে তার পূর্বে a বসে। যেমন—",
+    "en": "If a word begins with a consonant, 'a' sits before it, and if it begins with a vowel, 'an' sits before it. But if the first letter of the word is 'h' and its pronunciation is like 'aw/e', 'an' sits before it, and if the initial e/u is pronounced like 'yu', 'a' sits before it. For example —",
+    "bn": "শব্দের শুরুতে consonant থাকলে তার পূর্বে a এবং vowel থাকলে তার পূর্বে an বসে। তবে শব্দের প্রথম অক্ষর h এবং তার উচ্চারণ 'অ/এ'-এর মতো হলে তার পূর্বে an বসে এবং শুরুতে e/u এর উচ্চারণ 'ইউ'-এর মতো হলে তার পূর্বে a বসে। যেমন—"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.11.b",
+    "en": "9.11.b",
+    "bn": "9.11.b"
+   },
+   "body": {
+    "mix": "O যদি 'ওয়া' এর মতো উচ্চারিত হয়, তবে এর পূর্বে a বসে এবং abbreviation-এর প্রথম অক্ষর consonant হলেও তা vowel-এর মতো উচ্চারিত হলে তার পূর্বে an হয়। যেমন—",
+    "en": "If 'O' is pronounced like 'wa', 'a' sits before it, and even if the first letter of an abbreviation is a consonant, if it is pronounced like a vowel, 'an' sits before it. For example —",
+    "bn": "O যদি 'ওয়া' এর মতো উচ্চারিত হয়, তবে এর পূর্বে a বসে এবং abbreviation-এর প্রথম অক্ষর consonant হলেও তা vowel-এর মতো উচ্চারিত হলে তার পূর্বে an হয়। যেমন—"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.11.c",
+    "en": "9.11.c",
+    "bn": "9.11.c"
+   },
+   "body": {
+    "mix": "Word-এর শুরুতে h থাকলে এবং তার উচ্চারণ 'হ' এর মতো হলে ঐ শব্দের শুরুতে a বসে। যেমন—",
+    "en": "If a word begins with 'h' and its pronunciation is like 'h', 'a' sits at the beginning of that word. For example —",
+    "bn": "Word-এর শুরুতে h থাকলে এবং তার উচ্চারণ 'হ' এর মতো হলে ঐ শব্দের শুরুতে a বসে। যেমন—"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.11.d",
+    "en": "9.11.d",
+    "bn": "9.11.d"
+   },
+   "body": {
+    "mix": "কোনো ব্যক্তিকে নির্দিষ্ট অন্য কোনো ব্যক্তির সাথে তুলনা করতে Proper noun-এর পূর্বে a/an ব্যবহৃত হয় এবং proper noun টি common noun হয়ে যায়। যেমন—",
+    "en": "To compare a person with some other definite person, a/an is used before a proper noun, and the proper noun becomes a common noun. For example —",
+    "bn": "কোনো ব্যক্তিকে নির্দিষ্ট অন্য কোনো ব্যক্তির সাথে তুলনা করতে Proper noun-এর পূর্বে a/an ব্যবহৃত হয় এবং proper noun টি common noun হয়ে যায়। যেমন—"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.11.e",
+    "en": "9.11.e",
+    "bn": "9.11.e"
+   },
+   "body": {
+    "mix": "Most যখন তুলনা না বুঝিয়ে কোনো বিশেষ গুণ বা অবস্থার খুব বেশি পরিমাণ বোঝায় অর্থাৎ, very অর্থে ব্যবহৃত হয়, তখন most-এর পূর্বে the না হয়ে a হয়। যেমন—",
+    "en": "When 'most' does not mean comparison but means a very large amount of some special quality or state, that is, when it is used in the sense of 'very', then 'a' sits before 'most', not 'the'. For example —",
+    "bn": "Most যখন তুলনা না বুঝিয়ে কোনো বিশেষ গুণ বা অবস্থার খুব বেশি পরিমাণ বোঝায় অর্থাৎ, very অর্থে ব্যবহৃত হয়, তখন most-এর পূর্বে the না হয়ে a হয়। যেমন—"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.12.a The",
+    "en": "9.12.a The",
+    "bn": "9.12.a The"
+   },
+   "body": {
+    "mix": "কোনো কিছুকে নির্দিষ্ট করে বোঝাতে the ব্যবহৃত হয় বলে একে definite article বলে। যেমন—",
+    "en": "'The' is used to mean something definite, so it is called the definite article. For example —",
+    "bn": "কোনো কিছুকে নির্দিষ্ট করে বোঝাতে the ব্যবহৃত হয় বলে একে definite article বলে। যেমন—"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.12.b",
+    "en": "9.12.b",
+    "bn": "9.12.b"
+   },
+   "body": {
+    "mix": "সমগ্র জাতি বোঝাতে singular common noun-এর পূর্বে সাধারণত the বসে। তবে মানবজাতি বুঝাতে man/woman-এর পূর্বে কোনো article বসে না। যেমন—",
+    "en": "To mean a whole class, 'the' generally sits before a singular common noun. But to mean mankind, no article sits before man/woman. For example —",
+    "bn": "সমগ্র জাতি বোঝাতে singular common noun-এর পূর্বে সাধারণত the বসে। তবে মানবজাতি বুঝাতে man/woman-এর পূর্বে কোনো article বসে না। যেমন—"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.12.c",
+    "en": "9.12.c",
+    "bn": "9.12.c"
+   },
+   "body": {
+    "mix": "প্রকৃতিতে যা একটি মাত্র আছে। যেমন— পৃথিবী, চন্দ্র, সূর্য, পূর্ব, পশ্চিম, উত্তর, দক্ষিণ, আকাশ ইত্যাদি শব্দের পূর্বে the বসে। আবার, নদী, সাগর, মহাসাগর, পর্বতশ্রেণি, দ্বীপপুঞ্জ, মরুভূমি, ধর্মগ্রন্থ, সংবাদপত্র, ট্রেন, জাহাজ ইত্যাদির নামের পূর্বেও the বসে। যেমন— কিন্তু একটি মাত্র পর্বত, দ্বীপ বা হ্রদ বুঝালে তার পূর্বে the বসে না। যেমন—",
+    "en": "That which is only one in nature. For example — 'the' sits before words like the earth, the moon, the sun, the east, the west, the north, the south, the sky etc. Again, 'the' also sits before the names of rivers, seas, oceans, mountain ranges, groups of islands, deserts, holy books, newspapers, trains, ships etc. For example — but if a single mountain, island or lake is meant, 'the' does not sit before it. For example —",
+    "bn": "প্রকৃতিতে যা একটি মাত্র আছে। যেমন— পৃথিবী, চন্দ্র, সূর্য, পূর্ব, পশ্চিম, উত্তর, দক্ষিণ, আকাশ ইত্যাদি শব্দের পূর্বে the বসে। আবার, নদী, সাগর, মহাসাগর, পর্বতশ্রেণি, দ্বীপপুঞ্জ, মরুভূমি, ধর্মগ্রন্থ, সংবাদপত্র, ট্রেন, জাহাজ ইত্যাদির নামের পূর্বেও the বসে। যেমন— কিন্তু একটি মাত্র পর্বত, দ্বীপ বা হ্রদ বুঝালে তার পূর্বে the বসে না। যেমন—"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.12.d",
+    "en": "9.12.d",
+    "bn": "9.12.d"
+   },
+   "body": {
+    "mix": "ভাষার নামের পূর্বে the বসে না, তবে ভাষার নামের পূর্বে the ব্যবহৃত হলে ঐ ভাষার সমগ্র জাতিকে বোঝায়। যেমন—",
+    "en": "'The' does not sit before the name of a language, but if 'the' is used before the name of a language, it means the whole nation of that language. For example —",
+    "bn": "ভাষার নামের পূর্বে the বসে না, তবে ভাষার নামের পূর্বে the ব্যবহৃত হলে ঐ ভাষার সমগ্র জাতিকে বোঝায়। যেমন—"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.12.e",
+    "en": "9.12.e",
+    "bn": "9.12.e"
+   },
+   "body": {
+    "mix": "Musical instruments-এর পূর্বে সাধারণত the ব্যবহৃত হয়। তবে, play on-এর পর the হয় না। আবার কারও বাদ্যযন্ত্র থাকা বোঝাতে তাদের নামের পূর্বে a/an বসে। যেমন— He can play the piano. He is playing on piano. He has a piano.",
+    "en": "'The' is generally used before musical instruments. But after 'play on' there is no 'the'. Again, to mean that someone owns a musical instrument, a/an sits before its name. For example — He can play the piano. He is playing on piano. He has a piano.",
+    "bn": "Musical instruments-এর পূর্বে সাধারণত the ব্যবহৃত হয়। তবে, play on-এর পর the হয় না। আবার কারও বাদ্যযন্ত্র থাকা বোঝাতে তাদের নামের পূর্বে a/an বসে। যেমন— He can play the piano. He is playing on piano. He has a piano."
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.12.f",
+    "en": "9.12.f",
+    "bn": "9.12.f"
+   },
+   "body": {
+    "mix": "সমষ্টিবাচক দেশের নামের পূর্বে the ব্যবহৃত হয়। যেমন— the USA, the UK, the UAE।",
+    "en": "'The' is used before the names of collective countries. For example — the USA, the UK, the UAE.",
+    "bn": "সমষ্টিবাচক দেশের নামের পূর্বে the ব্যবহৃত হয়। যেমন— the USA, the UK, the UAE।"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.12.g",
+    "en": "9.12.g",
+    "bn": "9.12.g"
+   },
+   "body": {
+    "mix": "একই গুণ, দোষ বা বৈশিষ্ট্যসম্পন্ন সকলকে বোঝাতে adjective-এর পূর্বে the ব্যবহৃত হয়। তবে তা plural common noun হয়ে যায়। যেমন—",
+    "en": "To mean all those having the same quality, fault or characteristic, 'the' is used before an adjective. But then it becomes a plural common noun. For example —",
+    "bn": "একই গুণ, দোষ বা বৈশিষ্ট্যসম্পন্ন সকলকে বোঝাতে adjective-এর পূর্বে the ব্যবহৃত হয়। তবে তা plural common noun হয়ে যায়। যেমন—"
+   }
+  },
+  {
+   "heading": {
+    "mix": "9.12.h",
+    "en": "9.12.h",
+    "bn": "9.12.h"
+   },
+   "body": {
+    "mix": "খাবার সময়ের (breakfast, lunch, dinner, supper) পূর্বে the বসে না। তবে নির্দিষ্ট খাবার বা নিমন্ত্রণ বোঝাতে the ব্যবহৃত হয়। যেমন—",
+    "en": "'The' does not sit before meal times (breakfast, lunch, dinner, supper). But 'the' is used to mean a definite meal or invitation. For example —",
+    "bn": "খাবার সময়ের (breakfast, lunch, dinner, supper) পূর্বে the বসে না। তবে নির্দিষ্ট খাবার বা নিমন্ত্রণ বোঝাতে the ব্যবহৃত হয়। যেমন—"
+   }
+  }
+ ],
+ "mcqs": [
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 1,
+   "question": {
+    "mix": "I don't have — spare time these days.",
+    "en": "I don't have — spare time these days.",
+    "bn": "আজকাল আমার হাতে — অবসর সময় নেই।"
+   },
+   "options": {
+    "a": {
+     "mix": "many",
+     "en": "many",
+     "bn": "many"
+    },
+    "b": {
+     "mix": "much",
+     "en": "much",
+     "bn": "much"
+    },
+    "c": {
+     "mix": "some",
+     "en": "some",
+     "bn": "some"
+    },
+    "d": {
+     "mix": "more",
+     "en": "more",
+     "bn": "more"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "এখানে বাক্যটি না-বোধক এবং time শব্দটি uncountable হওয়ায় সঠিক উত্তর হবে much।",
+    "en": "Here the sentence is negative and the word 'time' is uncountable, so the correct answer is 'much'.",
+    "bn": "এখানে বাক্যটি না-বোধক এবং time শব্দটি uncountable হওয়ায় সঠিক উত্তর হবে much।"
+   },
+   "source": "ঢাকা বিশ্ববিদ্যালয় খ ইউনিট ২০০১-০২",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 2,
+   "question": {
+    "mix": "Is there any milk in that jag? Not—",
+    "en": "Is there any milk in that jag? Not—",
+    "bn": "ওই জগে কি কোনো দুধ আছে? না—"
+   },
+   "options": {
+    "a": {
+     "mix": "more",
+     "en": "more",
+     "bn": "more"
+    },
+    "b": {
+     "mix": "many",
+     "en": "many",
+     "bn": "many"
+    },
+    "c": {
+     "mix": "much",
+     "en": "much",
+     "bn": "much"
+    },
+    "d": {
+     "mix": "some",
+     "en": "some",
+     "bn": "some"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Milk হলো uncountable noun, তাই এর পরিমাণ বোঝাতে uncountable determiner much বসে। Many countable noun-এর পূর্বে বসে, more এখানে খাপ খায় না, আর না-বোধক উত্তরে some বসে না।",
+    "en": "'Milk' is an uncountable noun, so the uncountable determiner 'much' sits to show its quantity. 'Many' sits before a countable noun, 'more' does not fit here, and 'some' is not used in a negative answer.",
+    "bn": "Milk হলো uncountable noun, তাই এর পরিমাণ বোঝাতে uncountable determiner much বসে। Many countable noun-এর পূর্বে বসে, more এখানে খাপ খায় না, আর না-বোধক উত্তরে some বসে না।"
+   },
+   "source": "ঢাকা বিশ্ববিদ্যালয় খ ইউনিট ২০০১-০২",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 3,
+   "question": {
+    "mix": "There are – dangerous drivers.",
+    "en": "There are – dangerous drivers.",
+    "bn": "— বিপজ্জনক চালক আছে।"
+   },
+   "options": {
+    "a": {
+     "mix": "a very lot of",
+     "en": "a very lot of",
+     "bn": "a very lot of"
+    },
+    "b": {
+     "mix": "very many of",
+     "en": "very many of",
+     "bn": "very many of"
+    },
+    "c": {
+     "mix": "very much of",
+     "en": "very much of",
+     "bn": "very much of"
+    },
+    "d": {
+     "mix": "a lot of",
+     "en": "a lot of",
+     "bn": "a lot of"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Drivers হলো countable plural noun, তাই এর পূর্বে a lot of বসে। A very lot of, very many of ও very much of — এগুলোর কোনোটিই সঠিক phrase নয়; much uncountable noun-এর পূর্বে বসে।",
+    "en": "'Drivers' is a countable plural noun, so 'a lot of' sits before it. 'A very lot of', 'very many of' and 'very much of' are none of them correct phrases; 'much' sits before an uncountable noun.",
+    "bn": "Drivers হলো countable plural noun, তাই এর পূর্বে a lot of বসে। A very lot of, very many of ও very much of — এগুলোর কোনোটিই সঠিক phrase নয়; much uncountable noun-এর পূর্বে বসে।"
+   },
+   "source": "২৪তম বিসিএস",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 4,
+   "question": {
+    "mix": "She wanted to serve some coffee of her guests : however— —",
+    "en": "She wanted to serve some coffee of her guests : however— —",
+    "bn": "তিনি তার অতিথিদের কিছু কফি পরিবেশন করতে চেয়েছিলেন : তবে— —"
+   },
+   "options": {
+    "a": {
+     "mix": "she hand't many sugar",
+     "en": "she hadn't much sugar",
+     "bn": "তার কাছে খুব বেশি চিনি ছিল না"
+    },
+    "b": {
+     "mix": "there was not a great amount of sugar",
+     "en": "there was not a great amount of sugar",
+     "bn": "চিনির পরিমাণ খুব বেশি ছিল না"
+    },
+    "c": {
+     "mix": "she did not have much sugar",
+     "en": "she did not have much sugar",
+     "bn": "তার কাছে খুব বেশি চিনি ছিল না"
+    },
+    "d": {
+     "mix": "she was lacking in amount of the gugar",
+     "en": "she was lacking in amount of the sugar",
+     "bn": "তার চিনির পরিমাণে ঘাটতি ছিল"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Sugar হলো uncountable noun, তাই এর পূর্বে much বসে, many নয়। তাই she did not have much sugar সঠিক; hand't many sugar-এ many ভুল, আর (খ) ও (ঘ) বাক্যটির সাথে অর্থগতভাবে খাপ খায় না।",
+    "en": "'Sugar' is an uncountable noun, so 'much' sits before it, not 'many'. So 'she did not have much sugar' is correct; 'many' is wrong in the first option, and options (b) and (d) do not fit the sense of the sentence.",
+    "bn": "Sugar হলো uncountable noun, তাই এর পূর্বে much বসে, many নয়। তাই she did not have much sugar সঠিক; hand't many sugar-এ many ভুল, আর (খ) ও (ঘ) বাক্যটির সাথে অর্থগতভাবে খাপ খায় না।"
+   },
+   "source": "মেকানিক্যাল অ্যান্ড পাওয়ার ইঞ্জিনিয়ারিং ১৯৯৯",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 5,
+   "question": {
+    "mix": "Which one of the following is the correct meaning of a few?",
+    "en": "Which one of the following is the correct meaning of a few?",
+    "bn": "নিচের কোনটি a few-এর সঠিক অর্থ?"
+   },
+   "options": {
+    "a": {
+     "mix": "Not many, hardly any",
+     "en": "Not many, hardly any",
+     "bn": "Not many, hardly any"
+    },
+    "b": {
+     "mix": "Not many, but all there are",
+     "en": "Not many, but all there are",
+     "bn": "Not many, but all there are"
+    },
+    "c": {
+     "mix": "Some",
+     "en": "Some",
+     "bn": "Some"
+    },
+    "d": {
+     "mix": "Not much",
+     "en": "Not much",
+     "bn": "Not much"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "A few অর্থ কিছু সংখ্যক, অর্থাৎ some। Not many, hardly any হলো few-এর অর্থ, Not many, but all there are হলো the few-এর অর্থ, আর Not much হলো little-এর অর্থ।",
+    "en": "'A few' means some in number, that is, 'some'. 'Not many, hardly any' is the meaning of 'few', 'not many, but all there are' is the meaning of 'the few', and 'not much' is the meaning of 'little'.",
+    "bn": "A few অর্থ কিছু সংখ্যক, অর্থাৎ some। Not many, hardly any হলো few-এর অর্থ, Not many, but all there are হলো the few-এর অর্থ, আর Not much হলো little-এর অর্থ।"
+   },
+   "source": "সাব-রেজিস্ট্রার ১৯৯২",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 6,
+   "question": {
+    "mix": "Choose the correct sentence —",
+    "en": "Choose the correct sentence —",
+    "bn": "সঠিক বাক্যটি বেছে নিন—"
+   },
+   "options": {
+    "a": {
+     "mix": "I have a little friends in Bangladesh",
+     "en": "I have a little friends in Bangladesh",
+     "bn": "বাংলাদেশে আমার অল্প কিছু বন্ধু আছে"
+    },
+    "b": {
+     "mix": "I have little friends in Bangladesh",
+     "en": "I have little friends in Bangladesh",
+     "bn": "বাংলাদেশে আমার প্রায় কোনো বন্ধু নেই"
+    },
+    "c": {
+     "mix": "I have few friend in Bangladesh",
+     "en": "I have few friend in Bangladesh",
+     "bn": "বাংলাদেশে আমার অল্প কয়েকজন বন্ধু আছে"
+    },
+    "d": {
+     "mix": "I have a few friends in Bangladesh",
+     "en": "I have a few friends in Bangladesh",
+     "bn": "বাংলাদেশে আমার কয়েকজন বন্ধু আছে"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Friends শব্দটি countable ও plural noun এবং বাক্যটি ইতিবাচক হওয়ায় I have a few friends বাক্যটি সঠিক।",
+    "en": "The word 'friends' is a countable and plural noun, and since the sentence is affirmative, the sentence 'I have a few friends' is correct.",
+    "bn": "Friends শব্দটি countable ও plural noun এবং বাক্যটি ইতিবাচক হওয়ায় I have a few friends বাক্যটি সঠিক।"
+   },
+   "source": "প্রধানমন্ত্রীর কার্যালয় ও মন্ত্রিপরিষদ কার্যালয়ে প্রশাসনিক কর্মকর্তা ২০০৪",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 7,
+   "question": {
+    "mix": "Fill in the blank with the correct quantifier. I still have — money in my pocket.",
+    "en": "Fill in the blank with the correct quantifier. I still have — money in my pocket.",
+    "bn": "সঠিক quantifier দিয়ে শূন্যস্থান পূরণ করুন। আমার পকেটে এখনো — টাকা আছে।"
+   },
+   "options": {
+    "a": {
+     "mix": "a little",
+     "en": "a little",
+     "bn": "a little"
+    },
+    "b": {
+     "mix": "many",
+     "en": "many",
+     "bn": "many"
+    },
+    "c": {
+     "mix": "few",
+     "en": "few",
+     "bn": "few"
+    },
+    "d": {
+     "mix": "a few",
+     "en": "a few",
+     "bn": "a few"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "money শব্দটি যেহেতু uncountable তাই এর সাথে countable determiner few বা many বসবে না, বসাতে হবে uncountable determiner a little। বাক্যটিতে still থাকায় ইতিবাচক অর্থ প্রদান করেছে বিধায় a little যথার্থ।",
+    "en": "Since the word 'money' is uncountable, the countable determiners 'few' or 'many' will not sit with it; the uncountable determiner 'a little' must sit. Since the word 'still' in the sentence gives an affirmative sense, 'a little' is appropriate.",
+    "bn": "money শব্দটি যেহেতু uncountable তাই এর সাথে countable determiner few বা many বসবে না, বসাতে হবে uncountable determiner a little। বাক্যটিতে still থাকায় ইতিবাচক অর্থ প্রদান করেছে বিধায় a little যথার্থ।"
+   },
+   "source": "সড়ক ও জনপথ অধিদপ্তরের উপসহকারী প্রকৌশলী (সিভিল) ২০০৩",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 8,
+   "question": {
+    "mix": "There are four sentences below. In one of them only, the determiner has been used correctly, indentify the same.",
+    "en": "There are four sentences below. In one of them only, the determiner has been used correctly, identify the same.",
+    "bn": "নিচে চারটি বাক্য দেওয়া আছে। কেবল একটিতেই determiner সঠিকভাবে ব্যবহৃত হয়েছে, সেটি চিহ্নিত করুন।"
+   },
+   "options": {
+    "a": {
+     "mix": "He does not have many money",
+     "en": "He does not have many money",
+     "bn": "তার কাছে খুব বেশি টাকা নেই"
+    },
+    "b": {
+     "mix": "I would take a little salt on my vegetables",
+     "en": "I would take a little salt on my vegetables",
+     "bn": "আমি আমার সবজিতে একটু লবণ নেব"
+    },
+    "c": {
+     "mix": "I do not want these water",
+     "en": "I do not want these water",
+     "bn": "আমি এই পানি চাই না"
+    },
+    "d": {
+     "mix": "There are less students in this class than in the other class",
+     "en": "There are less students in this class than in the other class",
+     "bn": "অন্য ক্লাসের তুলনায় এই ক্লাসে কম ছাত্র আছে"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Salt হলো uncountable noun, তাই a little salt সঠিক। Money uncountable হওয়ায় many money ভুল; water uncountable হওয়ায় these water ভুল; students countable plural হওয়ায় less-এর বদলে fewer হবে।",
+    "en": "'Salt' is an uncountable noun, so 'a little salt' is correct. Since 'money' is uncountable, 'many money' is wrong; since 'water' is uncountable, 'these water' is wrong; since 'students' is countable plural, 'fewer' should be used instead of 'less'.",
+    "bn": "Salt হলো uncountable noun, তাই a little salt সঠিক। Money uncountable হওয়ায় many money ভুল; water uncountable হওয়ায় these water ভুল; students countable plural হওয়ায় less-এর বদলে fewer হবে।"
+   },
+   "source": "থানা সহকারী শিক্ষা অফিসার ১৯৯৯",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 9,
+   "question": {
+    "mix": "Choose the correct sentence.",
+    "en": "Choose the correct sentence.",
+    "bn": "সঠিক বাক্যটি বেছে নিন।"
+   },
+   "options": {
+    "a": {
+     "mix": "Less people get American Visas nowadays",
+     "en": "Less people get American Visas nowadays",
+     "bn": "আজকাল কম লোক আমেরিকান ভিসা পায়"
+    },
+    "b": {
+     "mix": "Least people get American Visas nowadays",
+     "en": "Least people get American Visas nowadays",
+     "bn": "আজকাল সবচেয়ে কম লোক আমেরিকান ভিসা পায়"
+    },
+    "c": {
+     "mix": "Few people get American Visas nowadays",
+     "en": "Few people get American Visas nowadays",
+     "bn": "আজকাল অল্প লোক আমেরিকান ভিসা পায়"
+    },
+    "d": {
+     "mix": "Fewer people get American Visas nowadays",
+     "en": "Fewer people get American Visas nowadays",
+     "bn": "আজকাল আরও কম লোক আমেরিকান ভিসা পায়"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "People হলো countable plural noun, তাই এর পূর্বে fewer বসে, less নয়। Least হলো superlative, এখানে তুলনা বোঝানো হয়নি; few দিয়ে তুলনামূলক কম বোঝায় না।",
+    "en": "'People' is a countable plural noun, so 'fewer' sits before it, not 'less'. 'Least' is a superlative, and no comparison is meant here; 'few' does not mean comparatively fewer.",
+    "bn": "People হলো countable plural noun, তাই এর পূর্বে fewer বসে, less নয়। Least হলো superlative, এখানে তুলনা বোঝানো হয়নি; few দিয়ে তুলনামূলক কম বোঝায় না।"
+   },
+   "source": "ঢাকা বিশ্ববিদ্যালয় ঘ ইউনিট ২০০১-০২",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 10,
+   "question": {
+    "mix": "Choose the correct sentence.",
+    "en": "Choose the correct sentence.",
+    "bn": "সঠিক বাক্যটি বেছে নিন।"
+   },
+   "options": {
+    "a": {
+     "mix": "A few of the three boys got a prize",
+     "en": "A few of the three boys got a prize",
+     "bn": "তিন ছেলের মধ্যে কয়েকজন পুরস্কার পেয়েছিল"
+    },
+    "b": {
+     "mix": "Every of the three boys got a prize",
+     "en": "Every of the three boys got a prize",
+     "bn": "তিন ছেলের প্রত্যেকেই পুরস্কার পেয়েছিল"
+    },
+    "c": {
+     "mix": "All of the three boys got a prize",
+     "en": "All of the three boys got a prize",
+     "bn": "তিন ছেলেই পুরস্কার পেয়েছিল"
+    },
+    "d": {
+     "mix": "Each of the three boys got a prize",
+     "en": "Each of the three boys got a prize",
+     "bn": "তিন ছেলের প্রত্যেকেই পুরস্কার পেয়েছিল"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Each-এর পর of থাকলে noun plural হয় কিন্তু verb singular থাকে, তাই Each of the three boys got a prize সঠিক। Every-এর পর of বসে না, আর A few ও All এখানে সঠিক অর্থ দেয় না।",
+    "en": "When 'of' follows 'each', the noun becomes plural but the verb remains singular, so 'Each of the three boys got a prize' is correct. 'Of' does not sit after 'every', and 'a few' and 'all' do not give the correct sense here.",
+    "bn": "Each-এর পর of থাকলে noun plural হয় কিন্তু verb singular থাকে, তাই Each of the three boys got a prize সঠিক। Every-এর পর of বসে না, আর A few ও All এখানে সঠিক অর্থ দেয় না।"
+   },
+   "source": "থানা সহকারী শিক্ষা অফিসার ১৯৯৫",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 11,
+   "question": {
+    "mix": "He left — heir.",
+    "en": "He left — heir.",
+    "bn": "তিনি — উত্তরাধিকারী রেখে গেলেন।"
+   },
+   "options": {
+    "a": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "one",
+     "en": "one",
+     "bn": "one"
+    },
+    "d": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Heir শব্দের h অনুচ্চারিত, এর উচ্চারণ vowel-এর মতো (এয়ার), তাই এর পূর্বে an বসে। The বা one এখানে বসে না, আর article ছাড়া বাক্যটি অসম্পূর্ণ থাকে।",
+    "en": "The 'h' in the word 'heir' is silent; its pronunciation is like a vowel (air), so 'an' sits before it. 'The' or 'one' does not sit here, and without an article the sentence remains incomplete.",
+    "bn": "Heir শব্দের h অনুচ্চারিত, এর উচ্চারণ vowel-এর মতো (এয়ার), তাই এর পূর্বে an বসে। The বা one এখানে বসে না, আর article ছাড়া বাক্যটি অসম্পূর্ণ থাকে।"
+   },
+   "source": "স্বাস্থ্য সহকারী ২০১০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 12,
+   "question": {
+    "mix": "My younger brother is — university student.",
+    "en": "My younger brother is — university student.",
+    "bn": "আমার ছোট ভাই — বিশ্ববিদ্যালয়ের ছাত্র।"
+   },
+   "options": {
+    "a": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "b": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "c": {
+     "mix": "reading",
+     "en": "reading",
+     "bn": "reading"
+    },
+    "d": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "University শব্দের u-এর উচ্চারণ 'ইউ'-এর মতো, তাই vowel হলেও এর পূর্বে an নয়, a বসে। The এখানে নির্দিষ্ট অর্থ দেবে না, আর reading বাক্যে বসে না।",
+    "en": "The 'u' in the word 'university' is pronounced like 'yu', so although it is a vowel, 'a' sits before it, not 'an'. 'The' would not give a definite sense here, and 'reading' does not fit in the sentence.",
+    "bn": "University শব্দের u-এর উচ্চারণ 'ইউ'-এর মতো, তাই vowel হলেও এর পূর্বে an নয়, a বসে। The এখানে নির্দিষ্ট অর্থ দেবে না, আর reading বাক্যে বসে না।"
+   },
+   "source": "চট্টগ্রাম বিশ্ববিদ্যালয় ইউনিট B-2, 3, 4, 5 & 6 ২০১৪-২০১৫",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 13,
+   "question": {
+    "mix": "Give me — one taka note.",
+    "en": "Give me — one taka note.",
+    "bn": "আমাকে — এক টাকার নোট দিন।"
+   },
+   "options": {
+    "a": {
+     "mix": "The",
+     "en": "The",
+     "bn": "The"
+    },
+    "b": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "c": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "d": {
+     "mix": "very",
+     "en": "very",
+     "bn": "very"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "One শব্দের উচ্চারণ 'ওয়ান', অর্থাৎ 'ওয়া'-এর মতো, তাই এর পূর্বে an নয়, a বসে। The এখানে নির্দিষ্ট অর্থ দেবে না, আর very article নয়।",
+    "en": "The word 'one' is pronounced 'wan', that is, like 'wa', so 'a' sits before it, not 'an'. 'The' would not give a definite sense here, and 'very' is not an article.",
+    "bn": "One শব্দের উচ্চারণ 'ওয়ান', অর্থাৎ 'ওয়া'-এর মতো, তাই এর পূর্বে an নয়, a বসে। The এখানে নির্দিষ্ট অর্থ দেবে না, আর very article নয়।"
+   },
+   "source": "রাজশাহী বিশ্ববিদ্যালয় ই (জোড়) ২০১৪-১৫",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 14,
+   "question": {
+    "mix": "He is — MBBS. (Choose the article)",
+    "en": "He is — MBBS. (Choose the article)",
+    "bn": "তিনি — এমবিবিএস। (article বেছে নিন)"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "MBBS একটি abbreviation, এর প্রথম অক্ষর M consonant হলেও এর উচ্চারণ 'এম', অর্থাৎ vowel-এর মতো, তাই এর পূর্বে an বসে। A বা the এখানে বসে না।",
+    "en": "'MBBS' is an abbreviation; although its first letter 'M' is a consonant, its pronunciation is 'em', that is, like a vowel, so 'an' sits before it. 'A' or 'the' does not sit here.",
+    "bn": "MBBS একটি abbreviation, এর প্রথম অক্ষর M consonant হলেও এর উচ্চারণ 'এম', অর্থাৎ vowel-এর মতো, তাই এর পূর্বে an বসে। A বা the এখানে বসে না।"
+   },
+   "source": "পররাষ্ট্র মন্ত্রণালয়ের সাইফার অফিসার ২০১২",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 15,
+   "question": {
+    "mix": "They will do it in — hour and — half.",
+    "en": "They will do it in — hour and — half.",
+    "bn": "তারা এটি — ঘণ্টা এবং — আধ ঘণ্টায় করবে।"
+   },
+   "options": {
+    "a": {
+     "mix": "the, a",
+     "en": "the, a",
+     "bn": "the, a"
+    },
+    "b": {
+     "mix": "a, a",
+     "en": "a, a",
+     "bn": "a, a"
+    },
+    "c": {
+     "mix": "a, an",
+     "en": "a, an",
+     "bn": "a, an"
+    },
+    "d": {
+     "mix": "an, a",
+     "en": "an, a",
+     "bn": "an, a"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Hour শব্দের h অনুচ্চারিত, উচ্চারণ 'আওয়ার', তাই এর পূর্বে an বসে। আর half একাকী থাকলে এর পর a বসে, অর্থাৎ an hour and a half সঠিক।",
+    "en": "The 'h' in the word 'hour' is silent; its pronunciation is 'our', so 'an' sits before it. And when 'half' stands alone, 'a' sits after it, that is, 'an hour and a half' is correct.",
+    "bn": "Hour শব্দের h অনুচ্চারিত, উচ্চারণ 'আওয়ার', তাই এর পূর্বে an বসে। আর half একাকী থাকলে এর পর a বসে, অর্থাৎ an hour and a half সঠিক।"
+   },
+   "source": "জগন্নাথ বিশ্ববিদ্যালয় গ ইউনিট ২০০৭-০৮",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 16,
+   "question": {
+    "mix": "He thinks he is — Rabindranath.",
+    "en": "He thinks he is — Rabindranath.",
+    "bn": "সে মনে করে সে — রবীন্দ্রনাথ।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "none",
+     "en": "none",
+     "bn": "none"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "কোনো ব্যক্তিকে নির্দিষ্ট অন্য কোনো ব্যক্তির সাথে তুলনা করতে proper noun-এর পূর্বে a/an বসে এবং proper noun টি common noun হয়ে যায়। Rabindranath consonant দিয়ে শুরু হওয়ায় a বসে।",
+    "en": "To compare a person with some other definite person, a/an is used before a proper noun, and the proper noun becomes a common noun. Since 'Rabindranath' begins with a consonant, 'a' sits before it.",
+    "bn": "কোনো ব্যক্তিকে নির্দিষ্ট অন্য কোনো ব্যক্তির সাথে তুলনা করতে proper noun-এর পূর্বে a/an বসে এবং proper noun টি common noun হয়ে যায়। Rabindranath consonant দিয়ে শুরু হওয়ায় a বসে।"
+   },
+   "source": "রাজশাহী বিশ্ববিদ্যালয় এ (জোড়) ইউনিট ২০১৪-১৫",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 17,
+   "question": {
+    "mix": "He saw — most wonderful sight.",
+    "en": "He saw — most wonderful sight.",
+    "bn": "তিনি — অত্যন্ত চমৎকার দৃশ্য দেখলেন।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "none",
+     "en": "none",
+     "bn": "none"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Most এখানে তুলনা না বুঝিয়ে very অর্থে ব্যবহৃত হয়েছে, তাই এর পূর্বে the না হয়ে a বসে। An বা none এখানে বসে না।",
+    "en": "Here 'most' is used in the sense of 'very', not comparison, so 'a' sits before it, not 'the'. 'An' or 'none' does not sit here.",
+    "bn": "Most এখানে তুলনা না বুঝিয়ে very অর্থে ব্যবহৃত হয়েছে, তাই এর পূর্বে the না হয়ে a বসে। An বা none এখানে বসে না।"
+   },
+   "source": "ইসলামী বিশ্ববিদ্যালয় গ ইউনিট ২০১২-১৩",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 18,
+   "question": {
+    "mix": "The article 'the' is used—",
+    "en": "The article 'the' is used—",
+    "bn": "Article 'the' ব্যবহৃত হয়—"
+   },
+   "options": {
+    "a": {
+     "mix": "to make something specific.",
+     "en": "to make something specific.",
+     "bn": "to make something specific."
+    },
+    "b": {
+     "mix": "to make things general.",
+     "en": "to make things general.",
+     "bn": "to make things general."
+    },
+    "c": {
+     "mix": "has no use or meaning.",
+     "en": "has no use or meaning.",
+     "bn": "has no use or meaning."
+    },
+    "d": {
+     "mix": "to make a thing real.",
+     "en": "to make a thing real.",
+     "bn": "to make a thing real."
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "The হলো definite article; কোনো কিছুকে নির্দিষ্ট করে বোঝাতে the ব্যবহৃত হয়। সাধারণ অর্থ বোঝাতে the বসে না, আর the-এর ব্যবহার ও অর্থ অবশ্যই আছে।",
+    "en": "'The' is the definite article; it is used to mean something definite. 'The' is not used to mean things in general, and 'the' certainly has a use and a meaning.",
+    "bn": "The হলো definite article; কোনো কিছুকে নির্দিষ্ট করে বোঝাতে the ব্যবহৃত হয়। সাধারণ অর্থ বোঝাতে the বসে না, আর the-এর ব্যবহার ও অর্থ অবশ্যই আছে।"
+   },
+   "source": "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় ২০০৯-১০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 19,
+   "question": {
+    "mix": "Choose the correct sentence :",
+    "en": "Choose the correct sentence :",
+    "bn": "সঠিক বাক্যটি বেছে নিন :"
+   },
+   "options": {
+    "a": {
+     "mix": "An ant is industrious beings.",
+     "en": "An ant is industrious beings.",
+     "bn": "একটি পিঁপড়া পরিশ্রমী প্রাণী"
+    },
+    "b": {
+     "mix": "The ant is an industrious beings.",
+     "en": "The ant is an industrious beings.",
+     "bn": "পিঁপড়া একটি পরিশ্রমী প্রাণী"
+    },
+    "c": {
+     "mix": "The ant is an industrious being.",
+     "en": "The ant is an industrious being.",
+     "bn": "পিঁপড়া একটি পরিশ্রমী প্রাণী"
+    },
+    "d": {
+     "mix": "The ant is a industrious being.",
+     "en": "The ant is a industrious being.",
+     "bn": "পিঁপড়া একটি পরিশ্রমী প্রাণী"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "সমগ্র জাতি বোঝাতে singular common noun-এর পূর্বে the বসে, তাই The ant সঠিক। Ant singular হওয়ায় being হবে, beings নয়; আর industrious vowel দিয়ে শুরু হওয়ায় a নয়, an বসে।",
+    "en": "To mean a whole class, 'the' sits before a singular common noun, so 'The ant' is correct. Since 'ant' is singular, 'being' is used, not 'beings'; and since 'industrious' begins with a vowel, 'an' sits before it, not 'a'.",
+    "bn": "সমগ্র জাতি বোঝাতে singular common noun-এর পূর্বে the বসে, তাই The ant সঠিক। Ant singular হওয়ায় being হবে, beings নয়; আর industrious vowel দিয়ে শুরু হওয়ায় a নয়, an বসে।"
+   },
+   "source": "জগন্নাথ বিশ্ববিদ্যালয় ই ইউনিট ২০১৪-১৫",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 20,
+   "question": {
+    "mix": "Choose the best answer :",
+    "en": "Choose the best answer :",
+    "bn": "সবচেয়ে ভালো উত্তরটি বেছে নিন :"
+   },
+   "options": {
+    "a": {
+     "mix": "The man is mortal.",
+     "en": "The man is mortal.",
+     "bn": "মানুষ মরণশীল"
+    },
+    "b": {
+     "mix": "Man is mortal.",
+     "en": "Man is mortal.",
+     "bn": "মানুষ মরণশীল"
+    },
+    "c": {
+     "mix": "A man is mortal.",
+     "en": "A man is mortal.",
+     "bn": "একজন মানুষ মরণশীল"
+    },
+    "d": {
+     "mix": "None",
+     "en": "None",
+     "bn": "None"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "মানবজাতি বুঝাতে man-এর পূর্বে কোনো article বসে না, তাই Man is mortal সঠিক। The man নির্দিষ্ট একজন মানুষকে বোঝায়, আর A man একজন অনির্দিষ্ট মানুষকে বোঝায়।",
+    "en": "To mean mankind, no article sits before 'man', so 'Man is mortal' is correct. 'The man' means one definite man, and 'a man' means one indefinite man.",
+    "bn": "মানবজাতি বুঝাতে man-এর পূর্বে কোনো article বসে না, তাই Man is mortal সঠিক। The man নির্দিষ্ট একজন মানুষকে বোঝায়, আর A man একজন অনির্দিষ্ট মানুষকে বোঝায়।"
+   },
+   "source": "শ্রম ও কর্মসংস্থান মন্ত্রণালয়ের সহকারী শ্রম পরিচালক ২০০৪",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 21,
+   "question": {
+    "mix": "Which of the following sentence is incorrect?",
+    "en": "Which of the following sentence is incorrect?",
+    "bn": "নিচের কোন বাক্যটি ভুল?"
+   },
+   "options": {
+    "a": {
+     "mix": "The sky is blue.",
+     "en": "The sky is blue.",
+     "bn": "আকাশ নীল"
+    },
+    "b": {
+     "mix": "The earth is round.",
+     "en": "The earth is round.",
+     "bn": "পৃথিবী গোল"
+    },
+    "c": {
+     "mix": "The moon shines by night.",
+     "en": "The moon shines by night.",
+     "bn": "চাঁদ রাতে আলো দেয়"
+    },
+    "d": {
+     "mix": "A sky is blue.",
+     "en": "A sky is blue.",
+     "bn": "একটি আকাশ নীল"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "আকাশ প্রকৃতিতে একটি মাত্র আছে, তাই এর পূর্বে the বসে; A sky is blue ভুল। The sky, The earth ও The moon — তিনটিই সঠিক।",
+    "en": "The sky is only one in nature, so 'the' sits before it; 'A sky is blue' is wrong. 'The sky', 'The earth' and 'The moon' are all correct.",
+    "bn": "আকাশ প্রকৃতিতে একটি মাত্র আছে, তাই এর পূর্বে the বসে; A sky is blue ভুল। The sky, The earth ও The moon — তিনটিই সঠিক।"
+   },
+   "source": "প্রাথমিক সহকারী শিক্ষক (মেঘনা) ২০১৩",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 22,
+   "question": {
+    "mix": "— Andamans are in — Indian ocean. Fill in the blanks with—",
+    "en": "— Andamans are in — Indian ocean. Fill in the blanks with—",
+    "bn": "— আন্দামান — ভারত মহাসাগরে অবস্থিত। শূন্যস্থান পূরণ করুন—"
+   },
+   "options": {
+    "a": {
+     "mix": "the, the",
+     "en": "the, the",
+     "bn": "the, the"
+    },
+    "b": {
+     "mix": "the, a",
+     "en": "the, a",
+     "bn": "the, a"
+    },
+    "c": {
+     "mix": "the, an",
+     "en": "the, an",
+     "bn": "the, an"
+    },
+    "d": {
+     "mix": "a, the",
+     "en": "a, the",
+     "bn": "a, the"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "দ্বীপপুঞ্জের নামের পূর্বে the বসে, তাই the Andamans; আর মহাসাগরের নামের পূর্বেও the বসে, তাই the Indian ocean। তাই the, the সঠিক।",
+    "en": "'The' sits before the name of a group of islands, so 'the Andamans'; and 'the' also sits before the name of an ocean, so 'the Indian ocean'. So 'the, the' is correct.",
+    "bn": "দ্বীপপুঞ্জের নামের পূর্বে the বসে, তাই the Andamans; আর মহাসাগরের নামের পূর্বেও the বসে, তাই the Indian ocean। তাই the, the সঠিক।"
+   },
+   "source": "চট্টগ্রাম বিশ্ববিদ্যালয় ২০১০-১১",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 23,
+   "question": {
+    "mix": "Which one is correct?",
+    "en": "Which one is correct?",
+    "bn": "কোনটি সঠিক?"
+   },
+   "options": {
+    "a": {
+     "mix": "The Lake Chilka is in Orissa.",
+     "en": "The Lake Chilka is in Orissa.",
+     "bn": "চিলকা হ্রদ উড়িষ্যায় অবস্থিত"
+    },
+    "b": {
+     "mix": "The Lake Chilka is in the Orissa.",
+     "en": "The Lake Chilka is in the Orissa.",
+     "bn": "চিলকা হ্রদ উড়িষ্যায় অবস্থিত"
+    },
+    "c": {
+     "mix": "Lake Chilka is in Orissa.",
+     "en": "Lake Chilka is in Orissa.",
+     "bn": "চিলকা হ্রদ উড়িষ্যায় অবস্থিত"
+    },
+    "d": {
+     "mix": "Lake Chilka is in the Orissa.",
+     "en": "Lake Chilka is in the Orissa.",
+     "bn": "চিলকা হ্রদ উড়িষ্যায় অবস্থিত"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "একটি মাত্র হ্রদ বুঝালে তার পূর্বে the বসে না, তাই Lake Chilka সঠিক। আর Orissa একটি রাজ্যের নাম, এর পূর্বেও the বসে না।",
+    "en": "If a single lake is meant, 'the' does not sit before it, so 'Lake Chilka' is correct. And 'Orissa' is the name of a state, so 'the' does not sit before it either.",
+    "bn": "একটি মাত্র হ্রদ বুঝালে তার পূর্বে the বসে না, তাই Lake Chilka সঠিক। আর Orissa একটি রাজ্যের নাম, এর পূর্বেও the বসে না।"
+   },
+   "source": "প্রাক-প্রাথমিক সহকারী শিক্ষক (সুরমা) ২০১৩",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 24,
+   "question": {
+    "mix": "'The French' refers to—",
+    "en": "'The French' refers to—",
+    "bn": "'The French' বলতে বোঝায়—"
+   },
+   "options": {
+    "a": {
+     "mix": "The French people",
+     "en": "The French people",
+     "bn": "The French people"
+    },
+    "b": {
+     "mix": "The French language",
+     "en": "The French language",
+     "bn": "The French language"
+    },
+    "c": {
+     "mix": "The French manners",
+     "en": "The French manners",
+     "bn": "The French manners"
+    },
+    "d": {
+     "mix": "The French society.",
+     "en": "The French society.",
+     "bn": "The French society."
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "ভাষার নামের পূর্বে the বসে না, তবে ভাষার নামের পূর্বে the ব্যবহৃত হলে ঐ ভাষার সমগ্র জাতিকে বোঝায়। তাই 'The French' বলতে The French people-কে বোঝায়, ভাষা, আচার বা সমাজকে নয়।",
+    "en": "'The' does not sit before the name of a language, but if 'the' is used before the name of a language, it means the whole nation of that language. So 'The French' means the French people, not the language, manners or society.",
+    "bn": "ভাষার নামের পূর্বে the বসে না, তবে ভাষার নামের পূর্বে the ব্যবহৃত হলে ঐ ভাষার সমগ্র জাতিকে বোঝায়। তাই 'The French' বলতে The French people-কে বোঝায়, ভাষা, আচার বা সমাজকে নয়।"
+   },
+   "source": "৩৩তম বিসিএস",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 25,
+   "question": {
+    "mix": "I can play— flute.",
+    "en": "I can play— flute.",
+    "bn": "আমি — বাঁশি বাজাতে পারি।"
+   },
+   "options": {
+    "a": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "b": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "c": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "d": {
+     "mix": "no article needed",
+     "en": "no article needed",
+     "bn": "no article needed"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Musical instruments-এর পূর্বে সাধারণত the ব্যবহৃত হয়, তাই I can play the flute সঠিক। A বা an এখানে বসে না।",
+    "en": "'The' is generally used before musical instruments, so 'I can play the flute' is correct. 'A' or 'an' does not sit here.",
+    "bn": "Musical instruments-এর পূর্বে সাধারণত the ব্যবহৃত হয়, তাই I can play the flute সঠিক। A বা an এখানে বসে না।"
+   },
+   "source": "ঢাকা বিশ্ববিদ্যালয় এ ইউনিট ২০০৯-১০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 26,
+   "question": {
+    "mix": "Last summer we visited—",
+    "en": "Last summer we visited—",
+    "bn": "গত গ্রীষ্মে আমরা — ভ্রমণ করেছিলাম।"
+   },
+   "options": {
+    "a": {
+     "mix": "Canada and United States",
+     "en": "Canada and United States",
+     "bn": "কানাডা ও যুক্তরাষ্ট্র"
+    },
+    "b": {
+     "mix": "Canada and the United States",
+     "en": "Canada and the United States",
+     "bn": "কানাডা ও যুক্তরাষ্ট্র"
+    },
+    "c": {
+     "mix": "The Canada and the United States",
+     "en": "The Canada and the United States",
+     "bn": "কানাডা ও যুক্তরাষ্ট্র"
+    },
+    "d": {
+     "mix": "The Canada and United States.",
+     "en": "The Canada and United States.",
+     "bn": "কানাডা ও যুক্তরাষ্ট্র"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "সমষ্টিবাচক দেশের নামের পূর্বে the বসে, তাই the United States সঠিক। কিন্তু Canada একক দেশের নাম, এর পূর্বে the বসে না।",
+    "en": "'The' sits before the names of collective countries, so 'the United States' is correct. But 'Canada' is the name of a single country, so 'the' does not sit before it.",
+    "bn": "সমষ্টিবাচক দেশের নামের পূর্বে the বসে, তাই the United States সঠিক। কিন্তু Canada একক দেশের নাম, এর পূর্বে the বসে না।"
+   },
+   "source": "রাজশাহী বিশ্ববিদ্যালয় ডি ইউনিট ২০১৩-১৪",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 27,
+   "question": {
+    "mix": "— virtuous are always happy.",
+    "en": "— virtuous are always happy.",
+    "bn": "— সৎ ব্যক্তিরা সবসময় সুখী।"
+   },
+   "options": {
+    "a": {
+     "mix": "A",
+     "en": "A",
+     "bn": "A"
+    },
+    "b": {
+     "mix": "The",
+     "en": "The",
+     "bn": "The"
+    },
+    "c": {
+     "mix": "An",
+     "en": "An",
+     "bn": "An"
+    },
+    "d": {
+     "mix": "No article",
+     "en": "No article",
+     "bn": "No article"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "একই গুণসম্পন্ন সকলকে বোঝাতে adjective-এর পূর্বে the ব্যবহৃত হয় এবং তা plural common noun হয়ে যায়, তাই The virtuous সঠিক। A বা An এখানে বসে না।",
+    "en": "To mean all those having the same quality, 'the' is used before an adjective, and it becomes a plural common noun, so 'The virtuous' is correct. 'A' or 'An' does not sit here.",
+    "bn": "একই গুণসম্পন্ন সকলকে বোঝাতে adjective-এর পূর্বে the ব্যবহৃত হয় এবং তা plural common noun হয়ে যায়, তাই The virtuous সঠিক। A বা An এখানে বসে না।"
+   },
+   "source": "খুলনা বিশ্ববিদ্যালয় জীববিজ্ঞান স্কুল ২০০০-০১",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "Rules (inline MCQs)",
+   "number": 28,
+   "question": {
+    "mix": "What did you eat for — breakfast this morning?",
+    "en": "What did you eat for — breakfast this morning?",
+    "bn": "আজ সকালে নাশতায় তুমি — খেয়েছিলে?"
+   },
+   "options": {
+    "a": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "b": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "c": {
+     "mix": "a or the",
+     "en": "a or the",
+     "bn": "a or the"
+    },
+    "d": {
+     "mix": "None",
+     "en": "None",
+     "bn": "None"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "খাবার সময়ের (breakfast, lunch, dinner, supper) পূর্বে the বসে না, আর এখানে কোনো নির্দিষ্ট খাবার বা নিমন্ত্রণও বোঝানো হয়নি, তাই কোনো article বসবে না।",
+    "en": "'The' does not sit before meal times (breakfast, lunch, dinner, supper), and here neither a definite meal nor an invitation is meant, so no article will sit.",
+    "bn": "খাবার সময়ের (breakfast, lunch, dinner, supper) পূর্বে the বসে না, আর এখানে কোনো নির্দিষ্ট খাবার বা নিমন্ত্রণও বোঝানো হয়নি, তাই কোনো article বসবে না।"
+   },
+   "source": "জগন্নাথ বিশ্ববিদ্যালয় সি ইউনিট ২০১২-১৩",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "BCS Preliminary Questions",
+   "number": 1,
+   "question": {
+    "mix": "Identify the determiner in the following sentence : 'I have no news for you.'",
+    "en": "Identify the determiner in the following sentence : 'I have no news for you.'",
+    "bn": "নিচের বাক্যে determiner টি চিহ্নিত করুন : 'I have no news for you.'"
+   },
+   "options": {
+    "a": {
+     "mix": "have",
+     "en": "have",
+     "bn": "have"
+    },
+    "b": {
+     "mix": "news",
+     "en": "news",
+     "bn": "news"
+    },
+    "c": {
+     "mix": "no",
+     "en": "no",
+     "bn": "no"
+    },
+    "d": {
+     "mix": "for",
+     "en": "for",
+     "bn": "for"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Determiner হলো সেসব word যা noun-এর পূর্বে বসে nounটি নির্দিষ্ট না সাধারণ তা নির্দেশ করে। প্রদত্ত বাক্যে noun-এর পূর্বে ব্যবহৃত 'no' determiner হিসেবে ব্যবহৃত হয়েছে। কয়েকটি determiner-এর উদাহরণ হলো these, those, my, our, much ইত্যাদি।",
+    "en": "A determiner is a word that sits before a noun and indicates whether the noun is definite or general. In the given sentence, 'no', used before the noun, is used as a determiner. A few examples of determiners are these, those, my, our, much etc.",
+    "bn": "Determiner হলো সেসব word যা noun-এর পূর্বে বসে nounটি নির্দিষ্ট না সাধারণ তা নির্দেশ করে। প্রদত্ত বাক্যে noun-এর পূর্বে ব্যবহৃত 'no' determiner হিসেবে ব্যবহৃত হয়েছে। কয়েকটি determiner-এর উদাহরণ হলো these, those, my, our, much ইত্যাদি।"
+   },
+   "source": "৪০তম বিসিএস",
+   "explanation_source": "book"
+  },
+  {
+   "section": "BCS Preliminary Questions",
+   "number": 2,
+   "question": {
+    "mix": "He went to — hospital because he had — heart attack.",
+    "en": "He went to — hospital because he had — heart attack.",
+    "bn": "তিনি — হাসপাতালে গিয়েছিলেন কারণ তার — হার্ট অ্যাটাক হয়েছিল।"
+   },
+   "options": {
+    "a": {
+     "mix": "no article, an",
+     "en": "no article, an",
+     "bn": "no article, an"
+    },
+    "b": {
+     "mix": "a, an",
+     "en": "a, an",
+     "bn": "a, an"
+    },
+    "c": {
+     "mix": "the, no article",
+     "en": "the, no article",
+     "bn": "the, no article"
+    },
+    "d": {
+     "mix": "no article, a",
+     "en": "no article, a",
+     "bn": "no article, a"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "সাধারণত school, college, hospital, mosque ইত্যাদি স্থানগুলোতে মূল উদ্দেশ্যে গেলে এসব স্থানের পূর্বে article বসে না। রোগের নামের পূর্বে indefinite article হিসেবে a বসবে।",
+    "en": "Generally, when one goes to places like school, college, hospital, mosque for their main purpose, no article sits before these places. Before the name of a disease, 'a' sits as an indefinite article.",
+    "bn": "সাধারণত school, college, hospital, mosque ইত্যাদি স্থানগুলোতে মূল উদ্দেশ্যে গেলে এসব স্থানের পূর্বে article বসে না। রোগের নামের পূর্বে indefinite article হিসেবে a বসবে।"
+   },
+   "source": "৩৯তম বিসিএস (বিশেষ)",
+   "explanation_source": "book"
+  },
+  {
+   "section": "BCS Preliminary Questions",
+   "number": 3,
+   "question": {
+    "mix": "Fill in the blank with the correct quantifier. I still have — money.",
+    "en": "Fill in the blank with the correct quantifier. I still have — money.",
+    "bn": "সঠিক quantifier দিয়ে শূন্যস্থান পূরণ করুন। আমার এখনো — টাকা আছে।"
+   },
+   "options": {
+    "a": {
+     "mix": "a few",
+     "en": "a few",
+     "bn": "a few"
+    },
+    "b": {
+     "mix": "quite a few",
+     "en": "quite a few",
+     "bn": "quite a few"
+    },
+    "c": {
+     "mix": "many",
+     "en": "many",
+     "bn": "many"
+    },
+    "d": {
+     "mix": "a little",
+     "en": "a little",
+     "bn": "a little"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Money শব্দটি non-countable noun। সুতরাং money শব্দটির পূর্বে non-countable quantifier বসবে। Option এর a few, quite a few এবং many quantifierগুলো countable noun-এর পূর্বে বসে। একমাত্র 'a little' non-countable noun-এর পূর্বে বসে।",
+    "en": "The word 'money' is a non-countable noun. So a non-countable quantifier will sit before the word 'money'. The quantifiers 'a few', 'quite a few' and 'many' in the options sit before countable nouns. Only 'a little' sits before a non-countable noun.",
+    "bn": "Money শব্দটি non-countable noun। সুতরাং money শব্দটির পূর্বে non-countable quantifier বসবে। Option এর a few, quite a few এবং many quantifierগুলো countable noun-এর পূর্বে বসে। একমাত্র 'a little' non-countable noun-এর পূর্বে বসে।"
+   },
+   "source": "৩৮তম বিসিএস",
+   "explanation_source": "book"
+  },
+  {
+   "section": "BCS Preliminary Questions",
+   "number": 4,
+   "question": {
+    "mix": "Use the appropriate article— I saw — one-eyed man when I was walking on the road.",
+    "en": "Use the appropriate article— I saw — one-eyed man when I was walking on the road.",
+    "bn": "উপযুক্ত article ব্যবহার করুন— রাস্তা দিয়ে হাঁটার সময় আমি — একচোখা লোককে দেখলাম।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "no article is needed",
+     "en": "no article is needed",
+     "bn": "no article is needed"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "সাধারণত Vowel (a, e, i, o, u)-এর পূর্বে article 'An' বসে। কিন্তু Vowel 'U'-এর উচ্চারণ যদি 'ইউ' এবং 'O'-এর উচ্চারণ যদি 'ওয়া'-এর মতো হয় তাহলে 'An'-এর পরিবর্তে 'A' বসে। তাই One (ওয়ান)-এর পূর্বে 'a' বসবে।",
+    "en": "Generally the article 'an' sits before a vowel (a, e, i, o, u). But if the pronunciation of the vowel 'u' is like 'yu' and the pronunciation of 'o' is like 'wa', then 'a' sits instead of 'an'. So 'a' will sit before 'one' (wan).",
+    "bn": "সাধারণত Vowel (a, e, i, o, u)-এর পূর্বে article 'An' বসে। কিন্তু Vowel 'U'-এর উচ্চারণ যদি 'ইউ' এবং 'O'-এর উচ্চারণ যদি 'ওয়া'-এর মতো হয় তাহলে 'An'-এর পরিবর্তে 'A' বসে। তাই One (ওয়ান)-এর পূর্বে 'a' বসবে।"
+   },
+   "source": "৩৭তম বিসিএস",
+   "explanation_source": "book"
+  },
+  {
+   "section": "BCS Preliminary Questions",
+   "number": 5,
+   "question": {
+    "mix": "Which word is the determiner in the sentence \"Will it take much time?\"",
+    "en": "Which word is the determiner in the sentence \"Will it take much time?\"",
+    "bn": "\"Will it take much time?\" বাক্যে কোন শব্দটি determiner?"
+   },
+   "options": {
+    "a": {
+     "mix": "will",
+     "en": "will",
+     "bn": "will"
+    },
+    "b": {
+     "mix": "take",
+     "en": "take",
+     "bn": "take"
+    },
+    "c": {
+     "mix": "much",
+     "en": "much",
+     "bn": "much"
+    },
+    "d": {
+     "mix": "time",
+     "en": "time",
+     "bn": "time"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Determiner হচ্ছে noun/pronoun-এর নির্দিষ্টতা, অনির্দিষ্টতা, সংখ্যা বা পরিমাণ নির্দেশক। Optionগুলোর মধ্যে 'will' হচ্ছে Future Indefinite tense-এর auxiliary verb; much হচ্ছে time-এর পরিমাণ নির্দেশক; take হচ্ছে finite + transitive verb এবং time হচ্ছে object + noun। সুতরাং 'much' হচ্ছে determiner।",
+    "en": "A determiner indicates the definiteness, indefiniteness, number or quantity of a noun/pronoun. Among the options, 'will' is the auxiliary verb of the future indefinite tense; 'much' indicates the quantity of 'time'; 'take' is a finite + transitive verb and 'time' is an object + noun. So 'much' is the determiner.",
+    "bn": "Determiner হচ্ছে noun/pronoun-এর নির্দিষ্টতা, অনির্দিষ্টতা, সংখ্যা বা পরিমাণ নির্দেশক। Optionগুলোর মধ্যে 'will' হচ্ছে Future Indefinite tense-এর auxiliary verb; much হচ্ছে time-এর পরিমাণ নির্দেশক; take হচ্ছে finite + transitive verb এবং time হচ্ছে object + noun। সুতরাং 'much' হচ্ছে determiner।"
+   },
+   "source": "৩৫তম বিসিএস",
+   "explanation_source": "book"
+  },
+  {
+   "section": "BCS Preliminary Questions",
+   "number": 6,
+   "question": {
+    "mix": "— amazing song haunted me for a long time.",
+    "en": "— amazing song haunted me for a long time.",
+    "bn": "— চমৎকার গানটি অনেকদিন ধরে আমাকে তাড়া করেছিল।"
+   },
+   "options": {
+    "a": {
+     "mix": "These",
+     "en": "These",
+     "bn": "These"
+    },
+    "b": {
+     "mix": "Those",
+     "en": "Those",
+     "bn": "Those"
+    },
+    "c": {
+     "mix": "Thus",
+     "en": "Thus",
+     "bn": "Thus"
+    },
+    "d": {
+     "mix": "That",
+     "en": "That",
+     "bn": "That"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "প্রশ্নোক্ত বাক্যে 'Song' singular হওয়ার কারণে determinerও singular হবে। Option গুলোর মধ্যে শুধুমাত্র (ঘ) That-ই Singular হওয়ায় তা সঠিক উত্তর।",
+    "en": "Since 'song' in the given sentence is singular, the determiner will also be singular. Among the options, only (d) 'that' is singular, so it is the correct answer.",
+    "bn": "প্রশ্নোক্ত বাক্যে 'Song' singular হওয়ার কারণে determinerও singular হবে। Option গুলোর মধ্যে শুধুমাত্র (ঘ) That-ই Singular হওয়ায় তা সঠিক উত্তর।"
+   },
+   "source": "৩৫তম বিসিএস",
+   "explanation_source": "book"
+  },
+  {
+   "section": "BCS Preliminary Questions",
+   "number": 7,
+   "question": {
+    "mix": "'The French' refers to—",
+    "en": "'The French' refers to—",
+    "bn": "'The French' বলতে বোঝায়—"
+   },
+   "options": {
+    "a": {
+     "mix": "the French people",
+     "en": "the French people",
+     "bn": "the French people"
+    },
+    "b": {
+     "mix": "the French language",
+     "en": "the French language",
+     "bn": "the French language"
+    },
+    "c": {
+     "mix": "the French manners",
+     "en": "the French manners",
+     "bn": "the French manners"
+    },
+    "d": {
+     "mix": "the French society",
+     "en": "the French society",
+     "bn": "the French society"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "ভাষার নামের পূর্বে কখনো Article 'the' বসে না। জাতি বোঝাতে তার পূর্বে the বসে। যেমন— The English (ইংরেজ জাতি)।",
+    "en": "The article 'the' never sits before the name of a language. To mean a nation, 'the' sits before it. For example — The English (the English nation).",
+    "bn": "ভাষার নামের পূর্বে কখনো Article 'the' বসে না। জাতি বোঝাতে তার পূর্বে the বসে। যেমন— The English (ইংরেজ জাতি)।"
+   },
+   "source": "৩৩তম বিসিএস",
+   "explanation_source": "book"
+  },
+  {
+   "section": "BCS Preliminary Questions",
+   "number": 8,
+   "question": {
+    "mix": "I spent — with the patient.",
+    "en": "I spent — with the patient.",
+    "bn": "আমি রোগীর সাথে — কাটিয়েছিলাম।"
+   },
+   "options": {
+    "a": {
+     "mix": "sometimes",
+     "en": "sometimes",
+     "bn": "sometimes"
+    },
+    "b": {
+     "mix": "sometime",
+     "en": "sometime",
+     "bn": "sometime"
+    },
+    "c": {
+     "mix": "some time",
+     "en": "some time",
+     "bn": "some time"
+    },
+    "d": {
+     "mix": "some times",
+     "en": "some times",
+     "bn": "some times"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "sometimes—প্রায়ই, মাঝে মধ্যে, sometime—কোনো এক সময়, some time—কিছু সময়, খানিকটা সময়।",
+    "en": "'Sometimes' means often, now and then; 'sometime' means some one time; 'some time' means some time, a little while.",
+    "bn": "sometimes—প্রায়ই, মাঝে মধ্যে, sometime—কোনো এক সময়, some time—কিছু সময়, খানিকটা সময়।"
+   },
+   "source": "২৩তম বিসিএস",
+   "explanation_source": "book"
+  },
+  {
+   "section": "BCS Preliminary Questions",
+   "number": 9,
+   "question": {
+    "mix": "There are — dangerous drivers.",
+    "en": "There are — dangerous drivers.",
+    "bn": "— বিপজ্জনক চালক আছে।"
+   },
+   "options": {
+    "a": {
+     "mix": "a very lot of",
+     "en": "a very lot of",
+     "bn": "a very lot of"
+    },
+    "b": {
+     "mix": "very many of",
+     "en": "very many of",
+     "bn": "very many of"
+    },
+    "c": {
+     "mix": "very much of",
+     "en": "very much of",
+     "bn": "very much of"
+    },
+    "d": {
+     "mix": "a lot of",
+     "en": "a lot of",
+     "bn": "a lot of"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Drivers হলো countable plural noun, তাই এর পূর্বে a lot of বসে। A very lot of, very many of ও very much of — এগুলোর কোনোটিই সঠিক phrase নয়; much uncountable noun-এর পূর্বে বসে।",
+    "en": "'Drivers' is a countable plural noun, so 'a lot of' sits before it. 'A very lot of', 'very many of' and 'very much of' are none of them correct phrases; 'much' sits before an uncountable noun.",
+    "bn": "Drivers হলো countable plural noun, তাই এর পূর্বে a lot of বসে। A very lot of, very many of ও very much of — এগুলোর কোনোটিই সঠিক phrase নয়; much uncountable noun-এর পূর্বে বসে।"
+   },
+   "source": "২৪তম বিসিএস",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "BCS Preliminary Questions",
+   "number": 10,
+   "question": {
+    "mix": "I have — interest in the matter.",
+    "en": "I have — interest in the matter.",
+    "bn": "এ বিষয়ে আমার — আগ্রহ আছে।"
+   },
+   "options": {
+    "a": {
+     "mix": "not",
+     "en": "not",
+     "bn": "not"
+    },
+    "b": {
+     "mix": "any",
+     "en": "any",
+     "bn": "any"
+    },
+    "c": {
+     "mix": "none",
+     "en": "none",
+     "bn": "none"
+    },
+    "d": {
+     "mix": "no",
+     "en": "no",
+     "bn": "no"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Noun (interest)-এর পূর্বে no বসে।",
+    "en": "'No' sits before the noun 'interest'.",
+    "bn": "Noun (interest)-এর পূর্বে no বসে।"
+   },
+   "source": "২৪তম বিসিএস",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 1,
+   "question": {
+    "mix": "Man is — architect of his own fate.",
+    "en": "Man is — architect of his own fate.",
+    "bn": "মানুষ নিজের ভাগ্যের — স্থপতি।"
+   },
+   "options": {
+    "a": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "b": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "c": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "d": {
+     "mix": "No article",
+     "en": "No article",
+     "bn": "No article"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "কোনো noun যখন ব্যক্তি বা বস্তুর গুণ প্রকাশ করে তখন abstract nounটির পূর্বে the বসে।",
+    "en": "When a noun expresses the quality of a person or thing, 'the' sits before that abstract noun.",
+    "bn": "কোনো noun যখন ব্যক্তি বা বস্তুর গুণ প্রকাশ করে তখন abstract nounটির পূর্বে the বসে।"
+   },
+   "source": "প্রাণিসম্পদ অধিদপ্তরের ডিএফএ/এফএ (এ/আই)/কম্পাউন্ডার/পোল্ট্রি টেকনিশিয়ান ২০২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 2,
+   "question": {
+    "mix": "He leads.......... most unhappy life.",
+    "en": "He leads.......... most unhappy life.",
+    "bn": "তিনি.......... অত্যন্ত অসুখী জীবনযাপন করেন।"
+   },
+   "options": {
+    "a": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "d": {
+     "mix": "all",
+     "en": "all",
+     "bn": "all"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "এখানে most ব্যবহৃত হয়েছে very অর্থে। এটি এখানে adverb। 'Unhappy'-এর superlative form গঠনের জন্য ব্যবহৃত হয়নি। তাই এখানে সঠিক উত্তর (গ)।",
+    "en": "Here 'most' is used in the sense of 'very'. It is an adverb here. It is not used to form the superlative form of 'unhappy'. So the correct answer here is (c).",
+    "bn": "এখানে most ব্যবহৃত হয়েছে very অর্থে। এটি এখানে adverb। 'Unhappy'-এর superlative form গঠনের জন্য ব্যবহৃত হয়নি। তাই এখানে সঠিক উত্তর (গ)।"
+   },
+   "source": "বাংলাদেশ পরিসংখ্যান ব্যুরোর ডাটা এন্ট্রি/কন্ট্রোল অপারেটর ২০২৩",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 3,
+   "question": {
+    "mix": "Iron is — useful metal.",
+    "en": "Iron is — useful metal.",
+    "bn": "লোহা — দরকারি ধাতু।"
+   },
+   "options": {
+    "a": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "b": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "c": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "d": {
+     "mix": "none",
+     "en": "none",
+     "bn": "none"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Article-এর নিয়মানুযায়ী 'u' যদি ইউ-এর মতো উচ্চারিত হয় তবে তার পূর্বে an না বসে a বসবে। অন্য তিনটি option অর্থাৎ (ক), (খ) এবং (ঘ) এখানে কার্যকর নয়। সুতরাং সঠিক উত্তর (গ)।",
+    "en": "According to the rule of articles, if 'u' is pronounced like 'yu', 'a' sits before it, not 'an'. The other three options, that is, (a), (b) and (d), are not effective here. So the correct answer is (c).",
+    "bn": "Article-এর নিয়মানুযায়ী 'u' যদি ইউ-এর মতো উচ্চারিত হয় তবে তার পূর্বে an না বসে a বসবে। অন্য তিনটি option অর্থাৎ (ক), (খ) এবং (ঘ) এখানে কার্যকর নয়। সুতরাং সঠিক উত্তর (গ)।"
+   },
+   "source": "সংস্কৃতি বিষয়ক মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (সিভিল) ২০১৯, সেবা পরিদপ্তরের সিনিয়র স্টাফ নার্স ২০১৬",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 4,
+   "question": {
+    "mix": "'A' 'an' 'the' are the examples of—",
+    "en": "'A' 'an' 'the' are the examples of—",
+    "bn": "'A', 'an', 'the' হলো —-এর উদাহরণ।"
+   },
+   "options": {
+    "a": {
+     "mix": "verb",
+     "en": "verb",
+     "bn": "verb"
+    },
+    "b": {
+     "mix": "adverb",
+     "en": "adverb",
+     "bn": "adverb"
+    },
+    "c": {
+     "mix": "preposition",
+     "en": "preposition",
+     "bn": "preposition"
+    },
+    "d": {
+     "mix": "articles",
+     "en": "articles",
+     "bn": "articles"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Noun কে নির্দিষ্টতা বা অনির্দিষ্টতা নির্দেশের ক্ষেত্রে a, an এবং the ব্যবহৃত হয়। আর a, an এবং the কে article বলে।",
+    "en": "A, an and the are used to indicate the definiteness or indefiniteness of a noun. And a, an and the are called articles.",
+    "bn": "Noun কে নির্দিষ্টতা বা অনির্দিষ্টতা নির্দেশের ক্ষেত্রে a, an এবং the ব্যবহৃত হয়। আর a, an এবং the কে article বলে।"
+   },
+   "source": "সংস্কৃতি বিষয়ক মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (সিভিল) ২০১৯, সিনিয়র স্টাফ নার্স ২০১৬",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 5,
+   "question": {
+    "mix": "Select the right word to the gap in the sentence. Mr. Robert lives in — Hague.",
+    "en": "Select the right word to the gap in the sentence. Mr. Robert lives in — Hague.",
+    "bn": "বাক্যের শূন্যস্থানের জন্য সঠিক শব্দটি বেছে নিন। Mr. Robert — হেগে থাকেন।"
+   },
+   "options": {
+    "a": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "b": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "c": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "d": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Hague হলো Netherlands-এর তৃতীয় বৃহত্তম শহর আর Hague শব্দের পূর্বে article 'the' ব্যবহৃত হবে।",
+    "en": "'Hague' is the third largest city of the Netherlands, and the article 'the' will be used before the word 'Hague'.",
+    "bn": "Hague হলো Netherlands-এর তৃতীয় বৃহত্তম শহর আর Hague শব্দের পূর্বে article 'the' ব্যবহৃত হবে।"
+   },
+   "source": "সংস্কৃতি বিষয়ক মন্ত্রণালয়ের প্রত্নতত্ত্ব অধিদপ্তরের এস্টিমেটর ২০১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 6,
+   "question": {
+    "mix": "The King left — heir.",
+    "en": "The King left — heir.",
+    "bn": "রাজা — উত্তরাধিকারী রেখে গেলেন।"
+   },
+   "options": {
+    "a": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "b": {
+     "mix": "none",
+     "en": "none",
+     "bn": "none"
+    },
+    "c": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "d": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "ইংরেজি শব্দের প্রথম বর্ণ consonant হওয়া সত্ত্বেও এর উচ্চারণ যদি vowel-এর মতো হয় তাহলে এর পূর্বে a না বসে an বসে। তাই heir (এয়ার) এর পূর্বে an বসে।",
+    "en": "Although the first letter of an English word is a consonant, if its pronunciation is like a vowel, 'an' sits before it, not 'a'. So 'an' sits before 'heir' (air).",
+    "bn": "ইংরেজি শব্দের প্রথম বর্ণ consonant হওয়া সত্ত্বেও এর উচ্চারণ যদি vowel-এর মতো হয় তাহলে এর পূর্বে a না বসে an বসে। তাই heir (এয়ার) এর পূর্বে an বসে।"
+   },
+   "source": "বাংলাদেশ পানি উন্নয়ন বোর্ড (BWDB)-এর ডাটা এন্ট্রি অপারেটর ২০১৯; প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের ইন্সট্রাক্টর (টিটিসি) ২০১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 7,
+   "question": {
+    "mix": "At last the beast in him got — upper hand.",
+    "en": "At last the beast in him got — upper hand.",
+    "bn": "অবশেষে তার ভেতরের পশুত্ব — প্রাধান্য লাভ করল।"
+   },
+   "options": {
+    "a": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "b": {
+     "mix": "none",
+     "en": "none",
+     "bn": "none"
+    },
+    "c": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "d": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Get the upper hand অর্থ কারো উপর সুবিধা/প্রাধান্য লাভ করা। The যোগে বাক্যটির বাংলা : অবশেষে তার মধ্যে পশুত্ব প্রাধান্য লাভ করল।",
+    "en": "'Get the upper hand' means to gain an advantage/dominance over someone. With 'the', the Bangla of the sentence is: at last the beast in him gained dominance.",
+    "bn": "Get the upper hand অর্থ কারো উপর সুবিধা/প্রাধান্য লাভ করা। The যোগে বাক্যটির বাংলা : অবশেষে তার মধ্যে পশুত্ব প্রাধান্য লাভ করল।"
+   },
+   "source": "BWDB'র ডাটা এন্ট্রি অপারেটর ২০১৯; সরকারি মাধ্যমিক বিদ্যালয় সহকারী শিক্ষক ২০১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 8,
+   "question": {
+    "mix": "English is a language whereas — English is a nation.",
+    "en": "English is a language whereas — English is a nation.",
+    "bn": "ইংরেজি একটি ভাষা, অথচ — ইংরেজরা একটি জাতি।"
+   },
+   "options": {
+    "a": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "b": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "none of the above",
+     "en": "none of the above",
+     "bn": "none of the above"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "ভাষার নামের পূর্বে the বসে না কিন্তু জাতি বোঝাতে English-এর পূর্বে the ব্যবহৃত হয়। The বসিয়ে বাক্যের বাংলা : ইংরেজি একটি ভাষা যেখানে ইংরেজরা হলো জাতি।",
+    "en": "'The' does not sit before the name of a language, but to mean a nation, 'the' is used before 'English'. With 'the', the Bangla of the sentence is: English is a language whereas the English are a nation.",
+    "bn": "ভাষার নামের পূর্বে the বসে না কিন্তু জাতি বোঝাতে English-এর পূর্বে the ব্যবহৃত হয়। The বসিয়ে বাক্যের বাংলা : ইংরেজি একটি ভাষা যেখানে ইংরেজরা হলো জাতি।"
+   },
+   "source": "তথ্য মন্ত্রণালয়ের অধীন চলচ্চিত্র ও প্রকাশনা অধিদপ্তরের ক্যামেরাম্যান ২০১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 9,
+   "question": {
+    "mix": "I saw — one-eyed man.",
+    "en": "I saw — one-eyed man.",
+    "bn": "আমি — একচোখা লোককে দেখলাম।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "none of these",
+     "en": "none of these",
+     "bn": "none of these"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "সাধারণত vowel এর পূর্বে an articleটি ব্যবহৃত হয় কিন্তু one শব্দটির পূর্বে a ব্যবহৃত হয়।",
+    "en": "Generally the article 'an' is used before a vowel, but 'a' is used before the word 'one'.",
+    "bn": "সাধারণত vowel এর পূর্বে an articleটি ব্যবহৃত হয় কিন্তু one শব্দটির পূর্বে a ব্যবহৃত হয়।"
+   },
+   "source": "বাংলাদেশ প্রতিযোগিতা কমিশনের বিভিন্ন পদ ২০১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 10,
+   "question": {
+    "mix": "— English are industrious.",
+    "en": "— English are industrious.",
+    "bn": "— ইংরেজরা পরিশ্রমী।"
+   },
+   "options": {
+    "a": {
+     "mix": "A",
+     "en": "A",
+     "bn": "A"
+    },
+    "b": {
+     "mix": "No articles",
+     "en": "No articles",
+     "bn": "No articles"
+    },
+    "c": {
+     "mix": "The",
+     "en": "The",
+     "bn": "The"
+    },
+    "d": {
+     "mix": "An",
+     "en": "An",
+     "bn": "An"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "ইংরেজ জাতি বোঝাতে English-এর পূর্বে the ব্যবহৃত হবে। The English অর্থ ইংরেজরা কিন্তু English দ্বারা ভাষাকে নির্দেশ করলে এর পূর্বে কোনো article বসবে না।",
+    "en": "To mean the English nation, 'the' will be used before 'English'. 'The English' means the English people, but if 'English' indicates the language, no article will sit before it.",
+    "bn": "ইংরেজ জাতি বোঝাতে English-এর পূর্বে the ব্যবহৃত হবে। The English অর্থ ইংরেজরা কিন্তু English দ্বারা ভাষাকে নির্দেশ করলে এর পূর্বে কোনো article বসবে না।"
+   },
+   "source": "প্রাথমিক ও গণশিক্ষা মন্ত্রণালয়ের প্রাথমিক শিক্ষা অধি: পিটিআই ইন্সট্রাক্টর (সাধারণ) ২০১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 11,
+   "question": {
+    "mix": "Rajshahi has one of lowest motor fatality rates in the country.",
+    "en": "Rajshahi has one of lowest motor fatality rates in the country.",
+    "bn": "রাজশাহীতে দেশের মধ্যে সর্বনিম্ন সড়ক দুর্ঘটনায় মৃত্যুর হারগুলোর একটি রয়েছে।"
+   },
+   "options": {
+    "a": {
+     "mix": "is",
+     "en": "is",
+     "bn": "is"
+    },
+    "b": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "c": {
+     "mix": "of",
+     "en": "of",
+     "bn": "of"
+    },
+    "d": {
+     "mix": "between",
+     "en": "between",
+     "bn": "between"
+    },
+    "e": {
+     "mix": "No word is missing",
+     "en": "No word is missing",
+     "bn": "No word is missing"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Adjective-এর Superlative degree-এর পূর্বে the বসে। Lowest-এর পূর্বে the বসালে বাক্যটি সঠিক হবে।",
+    "en": "'The' sits before the superlative degree of an adjective. If 'the' sits before 'lowest', the sentence will be correct.",
+    "bn": "Adjective-এর Superlative degree-এর পূর্বে the বসে। Lowest-এর পূর্বে the বসালে বাক্যটি সঠিক হবে।"
+   },
+   "source": "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড (BREB)-এর সহকারী সচিব/সহকারী পরিচালক (প্রশাসন) ২০১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 12,
+   "question": {
+    "mix": "— Mount Everest is the highest peak in the Himalayas.",
+    "en": "— Mount Everest is the highest peak in the Himalayas.",
+    "bn": "— মাউন্ট এভারেস্ট হিমালয়ের সর্বোচ্চ শৃঙ্গ।"
+   },
+   "options": {
+    "a": {
+     "mix": "A",
+     "en": "A",
+     "bn": "A"
+    },
+    "b": {
+     "mix": "An",
+     "en": "An",
+     "bn": "An"
+    },
+    "c": {
+     "mix": "The",
+     "en": "The",
+     "bn": "The"
+    },
+    "d": {
+     "mix": "No article",
+     "en": "No article",
+     "bn": "No article"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Mount-এর পূর্বে কোনো article বসে না। কিন্তু Mountain range (পর্বতশ্রেণি)-এর পূর্বে the ব্যবহৃত হয়।",
+    "en": "No article sits before 'Mount'. But 'the' is used before a mountain range.",
+    "bn": "Mount-এর পূর্বে কোনো article বসে না। কিন্তু Mountain range (পর্বতশ্রেণি)-এর পূর্বে the ব্যবহৃত হয়।"
+   },
+   "source": "১৫তম প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (কলেজ/সমপর্যায়) ২০১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 13,
+   "question": {
+    "mix": "There is — milk in the glass.",
+    "en": "There is — milk in the glass.",
+    "bn": "গ্লাসে — দুধ আছে।"
+   },
+   "options": {
+    "a": {
+     "mix": "a big amount",
+     "en": "a big amount",
+     "bn": "a big amount"
+    },
+    "b": {
+     "mix": "much",
+     "en": "much",
+     "bn": "much"
+    },
+    "c": {
+     "mix": "small",
+     "en": "small",
+     "bn": "small"
+    },
+    "d": {
+     "mix": "a little",
+     "en": "a little",
+     "bn": "a little"
+    }
+   },
+   "answer": "b, d",
+   "explanation": {
+    "mix": "Non count noun-এর পূর্বে much এবং a little উভয়ই ব্যবহৃত হয়। তাই খ ও ঘ উভয়ই সঠিক।",
+    "en": "Both 'much' and 'a little' are used before a non-count noun. So both (b) and (d) are correct.",
+    "bn": "Non count noun-এর পূর্বে much এবং a little উভয়ই ব্যবহৃত হয়। তাই খ ও ঘ উভয়ই সঠিক।"
+   },
+   "source": "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (প্রথম ধাপ) ২০১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 14,
+   "question": {
+    "mix": "Fill in the blank of following sentence. England is — European country.",
+    "en": "Fill in the blank of following sentence. England is — European country.",
+    "bn": "নিচের বাক্যের শূন্যস্থান পূরণ করুন। ইংল্যান্ড — ইউরোপীয় দেশ।"
+   },
+   "options": {
+    "a": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "b": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    },
+    "c": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "d": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "শব্দের শুরুতে যদি vowel বা vowels থাকে এবং তা যদি ইউ (u) এর মতো উচ্চারিত হয় তাহলে তার পূর্বে an না বসে a বসে।",
+    "en": "If a word begins with a vowel or vowels and it is pronounced like 'yu' (u), then 'a' sits before it, not 'an'.",
+    "bn": "শব্দের শুরুতে যদি vowel বা vowels থাকে এবং তা যদি ইউ (u) এর মতো উচ্চারিত হয় তাহলে তার পূর্বে an না বসে a বসে।"
+   },
+   "source": "পররাষ্ট্র মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা ২০১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 15,
+   "question": {
+    "mix": "Fill in the blanks of the following sentence. I found — old lady came to our house.",
+    "en": "Fill in the blanks of the following sentence. I found — old lady came to our house.",
+    "bn": "নিচের বাক্যের শূন্যস্থান পূরণ করুন। আমি দেখলাম — বৃদ্ধা মহিলা আমাদের বাড়িতে এসেছেন।"
+   },
+   "options": {
+    "a": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "b": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    },
+    "c": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "d": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Old শব্দটি Vowel O দ্বারা শুরু হওয়ায় এর পূর্বে article an বসবে।",
+    "en": "Since the word 'old' begins with the vowel 'O', the article 'an' will sit before it.",
+    "bn": "Old শব্দটি Vowel O দ্বারা শুরু হওয়ায় এর পূর্বে article an বসবে।"
+   },
+   "source": "পররাষ্ট্র মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা ২০১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 16,
+   "question": {
+    "mix": "I saw — man.",
+    "en": "I saw — man.",
+    "bn": "আমি — লোককে দেখলাম।"
+   },
+   "options": {
+    "a": {
+     "mix": "an one-eye",
+     "en": "an one-eye",
+     "bn": "an one-eye"
+    },
+    "b": {
+     "mix": "a one eye",
+     "en": "a one eye",
+     "bn": "a one eye"
+    },
+    "c": {
+     "mix": "a one-eyed",
+     "en": "a one-eyed",
+     "bn": "a one-eyed"
+    },
+    "d": {
+     "mix": "an one-eyed",
+     "en": "an one-eyed",
+     "bn": "an one-eyed"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Vowel-এর পূর্বে an বসে কিন্তু one-এর পূর্বে a বসে আর noun-এর পূর্বে adjective form one-eyed (এক চোখ বিশিষ্ট) সঠিক। সুতরাং সঠিক expression হলো a one-eyed।",
+    "en": "'An' sits before a vowel, but 'a' sits before 'one', and before a noun the adjective form 'one-eyed' (one-eyed) is correct. So the correct expression is 'a one-eyed'.",
+    "bn": "Vowel-এর পূর্বে an বসে কিন্তু one-এর পূর্বে a বসে আর noun-এর পূর্বে adjective form one-eyed (এক চোখ বিশিষ্ট) সঠিক। সুতরাং সঠিক expression হলো a one-eyed।"
+   },
+   "source": "জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়ের নিরাপত্তা কর্মকর্তা ২০১৯; সরকারি মাধ্যমিক বিদ্যালয় সহকারী শিক্ষক ২০১৯; প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের ইন্সট্রাক্টর (টিটিসি) ২০১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 17,
+   "question": {
+    "mix": "March 7 is — historic day for Bangladesh.",
+    "en": "March 7 is — historic day for Bangladesh.",
+    "bn": "৭ মার্চ বাংলাদেশের জন্য — ঐতিহাসিক দিন।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "no article required",
+     "en": "no article required",
+     "bn": "no article required"
+    },
+    "d": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "শূন্যস্থানে a বসবে কারণ বাংলাদেশের জন্য ৭ মার্চ একটি গুরুত্বপূর্ণ দিন। একটি গুরুত্বপূর্ণ দিন বোঝাতে a ব্যবহৃত হবে।",
+    "en": "'A' will sit in the blank because 7 March is an important day for Bangladesh. 'A' will be used to mean an important day.",
+    "bn": "শূন্যস্থানে a বসবে কারণ বাংলাদেশের জন্য ৭ মার্চ একটি গুরুত্বপূর্ণ দিন। একটি গুরুত্বপূর্ণ দিন বোঝাতে a ব্যবহৃত হবে।"
+   },
+   "source": "জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়ের নিরাপত্তা কর্মকর্তা ২০১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 18,
+   "question": {
+    "mix": "'She is now a student of — university'. Fill in the blank in the above sentence :",
+    "en": "'She is now a student of — university'. Fill in the blank in the above sentence :",
+    "bn": "'She is now a student of — university'। উপরের বাক্যের শূন্যস্থান পূরণ করুন :"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "c": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "d": {
+     "mix": "none",
+     "en": "none",
+     "bn": "none"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "বাক্যটিতে নির্দিষ্ট করে না বোঝানোর কারণে definite article না বসে indefinite article বসবে আর শব্দের শুরুতে যদি vowel থাকে এবং তা যদি ইউ (u)-এর মতো উচ্চারিত হয় তার পূর্বে an না বসে a বসে।",
+    "en": "Since the sentence does not mean anything definite, an indefinite article will sit instead of a definite article, and if a word begins with a vowel and it is pronounced like 'yu' (u), 'a' sits before it, not 'an'.",
+    "bn": "বাক্যটিতে নির্দিষ্ট করে না বোঝানোর কারণে definite article না বসে indefinite article বসবে আর শব্দের শুরুতে যদি vowel থাকে এবং তা যদি ইউ (u)-এর মতো উচ্চারিত হয় তার পূর্বে an না বসে a বসে।"
+   },
+   "source": "পররাষ্ট্র মন্ত্রণালয়ের সুপারিনটেনডেন্ট ২০১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 19,
+   "question": {
+    "mix": "Fill in the gaps of the following with appropriate word/words : —Germans are very enterprising.",
+    "en": "Fill in the gaps of the following with appropriate word/words : —Germans are very enterprising.",
+    "bn": "উপযুক্ত শব্দ দিয়ে নিচের শূন্যস্থান পূরণ করুন : — জার্মানরা খুবই উদ্যোগী।"
+   },
+   "options": {
+    "a": {
+     "mix": "No",
+     "en": "No",
+     "bn": "No"
+    },
+    "b": {
+     "mix": "The",
+     "en": "The",
+     "bn": "The"
+    },
+    "c": {
+     "mix": "An",
+     "en": "An",
+     "bn": "An"
+    },
+    "d": {
+     "mix": "A",
+     "en": "A",
+     "bn": "A"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "জার্মান জাতি বোঝাতে Germans-এর পূর্বে article the বসে। The বসিয়ে বাক্যটির বাংলা : জার্মানরা খুবই উদ্যোগী।",
+    "en": "To mean the German nation, the article 'the' sits before 'Germans'. With 'the', the Bangla of the sentence is: the Germans are very enterprising.",
+    "bn": "জার্মান জাতি বোঝাতে Germans-এর পূর্বে article the বসে। The বসিয়ে বাক্যটির বাংলা : জার্মানরা খুবই উদ্যোগী।"
+   },
+   "source": "ডাক অধিদপ্তরের এস্টিমেটর ২০১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 20,
+   "question": {
+    "mix": "What will be right word for following gap? She is — Honors graduate.",
+    "en": "What will be right word for following gap? She is — Honors graduate.",
+    "bn": "নিচের শূন্যস্থানের জন্য সঠিক শব্দ কোনটি? তিনি — অনার্স গ্র্যাজুয়েট।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Word-এর প্রথম অক্ষর h হলে এবং h এর উচ্চারণ 'হ'-এর মতো উচ্চারিত না হয়ে 'অ'-এর মতো হয় তাহলে তার পূর্বে an বসে। Honors-এর উচ্চারণ হলো 'অনার্স'।",
+    "en": "If the first letter of a word is 'h' and the pronunciation of 'h' is not like 'h' but like 'aw', then 'an' sits before it. The pronunciation of 'Honors' is 'onors'.",
+    "bn": "Word-এর প্রথম অক্ষর h হলে এবং h এর উচ্চারণ 'হ'-এর মতো উচ্চারিত না হয়ে 'অ'-এর মতো হয় তাহলে তার পূর্বে an বসে। Honors-এর উচ্চারণ হলো 'অনার্স'।"
+   },
+   "source": "ডাক অধিদপ্তরের বিভিন্ন ওভারশিয়ার ২০১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 21,
+   "question": {
+    "mix": "Fill in the blanks : I am going to— USA.",
+    "en": "Fill in the blanks : I am going to— USA.",
+    "bn": "শূন্যস্থান পূরণ করুন : আমি — যুক্তরাষ্ট্রে যাচ্ছি।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "none of these",
+     "en": "none of these",
+     "bn": "none of these"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "সমষ্টিবাচক দেশের নামের সংক্ষিপ্ত রূপের পূর্বে the বসে। যেমন United States of America-এর সংক্ষিপ্ত রূপ USA। সুতরাং USA-এর পূর্বে the বসবে।",
+    "en": "'The' sits before the abbreviated form of the name of a collective country. For example, the abbreviated form of 'United States of America' is 'USA'. So 'the' will sit before 'USA'.",
+    "bn": "সমষ্টিবাচক দেশের নামের সংক্ষিপ্ত রূপের পূর্বে the বসে। যেমন United States of America-এর সংক্ষিপ্ত রূপ USA। সুতরাং USA-এর পূর্বে the বসবে।"
+   },
+   "source": "নার্সিং ও মিডওয়াইফারি অধিদপ্তর: সিনিয়র স্টাফ নার্স ২০১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 22,
+   "question": {
+    "mix": "Which word is the determiner in the sentence, 'Will it take much time?'",
+    "en": "Which word is the determiner in the sentence, 'Will it take much time?'",
+    "bn": "'Will it take much time?' বাক্যে কোন শব্দটি determiner?"
+   },
+   "options": {
+    "a": {
+     "mix": "will",
+     "en": "will",
+     "bn": "will"
+    },
+    "b": {
+     "mix": "take",
+     "en": "take",
+     "bn": "take"
+    },
+    "c": {
+     "mix": "much",
+     "en": "much",
+     "bn": "much"
+    },
+    "d": {
+     "mix": "time",
+     "en": "time",
+     "bn": "time"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Much (অনেক) একটি পরিমাণ বাচক determiner যা uncountable noun এর পূর্বে বসে।",
+    "en": "'Much' (a lot) is a quantity determiner that sits before an uncountable noun.",
+    "bn": "Much (অনেক) একটি পরিমাণ বাচক determiner যা uncountable noun এর পূর্বে বসে।"
+   },
+   "source": "বিভিন্ন মন্ত্রণালয়/বিভাগ/অধিদপ্তর: ব্যক্তিগত কর্মকর্তা ২০১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 23,
+   "question": {
+    "mix": "Sohana is — European lady. Put an article in the blank :",
+    "en": "Sohana is — European lady. Put an article in the blank :",
+    "bn": "সোহানা — ইউরোপীয় মহিলা। শূন্যস্থানে article বসান :"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "c": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "d": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Vowel sounds (a, e, i, o, u)-এর পূর্বে an বসে কিন্তু vowel sound যদি eu (ইউ) অথবা wa (ওয়া)-এর মত উচ্চারণ হয় তাহলে এর পূর্বে a হয়। Sohana is a European lady।",
+    "en": "'An' sits before vowel sounds (a, e, i, o, u), but if the vowel sound is pronounced like 'eu' (yu) or 'wa' (wa), then 'a' sits before it. Sohana is a European lady.",
+    "bn": "Vowel sounds (a, e, i, o, u)-এর পূর্বে an বসে কিন্তু vowel sound যদি eu (ইউ) অথবা wa (ওয়া)-এর মত উচ্চারণ হয় তাহলে এর পূর্বে a হয়। Sohana is a European lady।"
+   },
+   "source": "স্থানীয় সরকার বিভাগের অধীনে জনস্বাস্থ্য প্রকৌশল অধিদপ্তর: এস্টিমেটর ২০১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 24,
+   "question": {
+    "mix": "He lives — comfortable life.",
+    "en": "He lives — comfortable life.",
+    "bn": "তিনি — আরামদায়ক জীবনযাপন করেন।"
+   },
+   "options": {
+    "a": {
+     "mix": "none of them",
+     "en": "none of them",
+     "bn": "none of them"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Consonant-এর পূর্বে a বসবে কেননা a comfortable life দ্বারা অনির্দিষ্টতা নির্দেশ করে।",
+    "en": "'A' will sit before a consonant, because 'a comfortable life' indicates indefiniteness.",
+    "bn": "Consonant-এর পূর্বে a বসবে কেননা a comfortable life দ্বারা অনির্দিষ্টতা নির্দেশ করে।"
+   },
+   "source": "প্রাথমিক সহকারী শিক্ষক ২০১৮ (স্থগিত ২০১৪) ১৫ জেলা",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 25,
+   "question": {
+    "mix": "He prefers — European country for spending his vaction.",
+    "en": "He prefers — European country for spending his vacation.",
+    "bn": "তিনি ছুটি কাটানোর জন্য — ইউরোপীয় দেশ পছন্দ করেন।"
+   },
+   "options": {
+    "a": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "d": {
+     "mix": "none",
+     "en": "none",
+     "bn": "none"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Europe-এর যে কোনো দেশকে অনির্দিষ্ট করে বোঝাতে European-এর পূর্বে a ব্যবহৃত হবে। European-এর পূর্বে an না বসে a বসবে কারণ প্রথম vowel-এর উচ্চারণ ইউ (u)-এর মতো।",
+    "en": "To mean any country of Europe indefinitely, 'a' will be used before 'European'. 'A' sits before 'European', not 'an', because the pronunciation of the first vowel is like 'yu' (u).",
+    "bn": "Europe-এর যে কোনো দেশকে অনির্দিষ্ট করে বোঝাতে European-এর পূর্বে a ব্যবহৃত হবে। European-এর পূর্বে an না বসে a বসবে কারণ প্রথম vowel-এর উচ্চারণ ইউ (u)-এর মতো।"
+   },
+   "source": "প্রাথমিক সহকারী শিক্ষক ২০১৮ (স্থগিত ২০১৪) ১৫ জেলা",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 26,
+   "question": {
+    "mix": "— English are industrious.",
+    "en": "— English are industrious.",
+    "bn": "— ইংরেজরা পরিশ্রমী।"
+   },
+   "options": {
+    "a": {
+     "mix": "An",
+     "en": "An",
+     "bn": "An"
+    },
+    "b": {
+     "mix": "The",
+     "en": "The",
+     "bn": "The"
+    },
+    "c": {
+     "mix": "A",
+     "en": "A",
+     "bn": "A"
+    },
+    "d": {
+     "mix": "None",
+     "en": "None",
+     "bn": "None"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "ইংরেজ জাতি বোঝাতে English-এর পূর্বে the বসবে। The English অর্থ ইংরেজরা।",
+    "en": "To mean the English nation, 'the' will sit before 'English'. 'The English' means the English people.",
+    "bn": "ইংরেজ জাতি বোঝাতে English-এর পূর্বে the বসবে। The English অর্থ ইংরেজরা।"
+   },
+   "source": "বিদ্যুৎ বিভাগের মিটার রিডার ২০১৭; স্বাস্থ্য মন্ত্রণালয়ের সহকারী প্রকৌশলী (সিভিল) ২০১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 27,
+   "question": {
+    "mix": "Fill up the blank of the following sentence. My mother gave me— one-taka note.",
+    "en": "Fill up the blank of the following sentence. My mother gave me— one-taka note.",
+    "bn": "নিচের বাক্যের শূন্যস্থান পূরণ করুন। আমার মা আমাকে — এক টাকার নোট দিয়েছিলেন।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "A one-taka note— এক টাকার একটি নোট। সাধারণত প্রথমেই vowel দিয়ে গঠিত শব্দের পূর্বে article an বসে। কিন্তু উচ্চারণ যদি 'ওয়া' বা 'ইউ'-এর মতো হয় তাহলে an-এর পরিবর্তে a হয়। এজন্য One (ওয়ান)-এর পূর্বে a বসে।",
+    "en": "'A one-taka note' — a note of one taka. Generally the article 'an' sits before a word formed with a vowel at the very beginning. But if the pronunciation is like 'wa' or 'yu', 'a' sits instead of 'an'. For this reason 'a' sits before 'One' (wan).",
+    "bn": "A one-taka note— এক টাকার একটি নোট। সাধারণত প্রথমেই vowel দিয়ে গঠিত শব্দের পূর্বে article an বসে। কিন্তু উচ্চারণ যদি 'ওয়া' বা 'ইউ'-এর মতো হয় তাহলে an-এর পরিবর্তে a হয়। এজন্য One (ওয়ান)-এর পূর্বে a বসে।"
+   },
+   "source": "প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের উপসহকারী পরিচালক ২০১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 28,
+   "question": {
+    "mix": "I have never seen— airplane before.",
+    "en": "I have never seen— airplane before.",
+    "bn": "আমি আগে কখনো — বিমান দেখিনি।"
+   },
+   "options": {
+    "a": {
+     "mix": "any larger",
+     "en": "any larger",
+     "bn": "any larger"
+    },
+    "b": {
+     "mix": "as large",
+     "en": "as large",
+     "bn": "as large"
+    },
+    "c": {
+     "mix": "such a large",
+     "en": "such a large",
+     "bn": "such a large"
+    },
+    "d": {
+     "mix": "so large",
+     "en": "so large",
+     "bn": "so large"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "আশ্চর্যজনক কোনো কিছু বোঝাতে such + an/a + adjective + noun ব্যবহৃত হয়। সুতরাং such a large phrase টি শূন্যস্থানের জন্য যথোপযুক্ত।",
+    "en": "To mean something astonishing, 'such + an/a + adjective + noun' is used. So the phrase 'such a large' is appropriate for the blank.",
+    "bn": "আশ্চর্যজনক কোনো কিছু বোঝাতে such + an/a + adjective + noun ব্যবহৃত হয়। সুতরাং such a large phrase টি শূন্যস্থানের জন্য যথোপযুক্ত।"
+   },
+   "source": "কন্ট্রোলার জেনারেল ডিফেন্স ফাইন্যান্স কার্যালয়ের অডিটর ২০১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 29,
+   "question": {
+    "mix": "I know someone who wrote a book about— life of Bangabandhu Sheikh Mujibur Rahman.",
+    "en": "I know someone who wrote a book about— life of Bangabandhu Sheikh Mujibur Rahman.",
+    "bn": "আমি এমন একজনকে চিনি যিনি বঙ্গবন্ধু শেখ মুজিবুর রহমানের জীবন নিয়ে — বই লিখেছেন।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "c": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "d": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "About the life of Bangabandhu Sheikh Mujibur Rahman (বঙ্গবন্ধু শেখ মুজিবুর রহমানের জীবন সম্পর্কে) নির্দিষ্ট কোনো ব্যক্তির জীবন বোঝাতে এর পূর্বে definite article 'the' বসবে।",
+    "en": "To mean the life of a definite person — 'about the life of Bangabandhu Sheikh Mujibur Rahman' — the definite article 'the' will sit before it.",
+    "bn": "About the life of Bangabandhu Sheikh Mujibur Rahman (বঙ্গবন্ধু শেখ মুজিবুর রহমানের জীবন সম্পর্কে) নির্দিষ্ট কোনো ব্যক্তির জীবন বোঝাতে এর পূর্বে definite article 'the' বসবে।"
+   },
+   "source": "তথ্য মন্ত্রণালয়ের অধীন বিটিভির সহকারী প্রকৌশলী (সিভিল) ২০১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 30,
+   "question": {
+    "mix": "Fill in the blank with the correct word : The old man was — weak to get out of bed.",
+    "en": "Fill in the blank with the correct word : The old man was — weak to get out of bed.",
+    "bn": "সঠিক শব্দ দিয়ে শূন্যস্থান পূরণ করুন : বৃদ্ধ লোকটি বিছানা থেকে উঠতে — দুর্বল ছিলেন।"
+   },
+   "options": {
+    "a": {
+     "mix": "most",
+     "en": "most",
+     "bn": "most"
+    },
+    "b": {
+     "mix": "so",
+     "en": "so",
+     "bn": "so"
+    },
+    "c": {
+     "mix": "very",
+     "en": "very",
+     "bn": "very"
+    },
+    "d": {
+     "mix": "too",
+     "en": "too",
+     "bn": "too"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Sub + auxiliary verb + too + adjective + to + verb হয়। তাই শূন্যস্থানে too বসবে।",
+    "en": "The structure is 'subject + auxiliary verb + too + adjective + to + verb'. So 'too' will sit in the blank.",
+    "bn": "Sub + auxiliary verb + too + adjective + to + verb হয়। তাই শূন্যস্থানে too বসবে।"
+   },
+   "source": "স্বাস্থ্য মন্ত্রণালয়ের সহকারী প্রকৌশলী (সিভিল) ২০১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 31,
+   "question": {
+    "mix": "He is lazy. He never does — work.",
+    "en": "He is lazy. He never does — work.",
+    "bn": "সে অলস। সে কখনো — কাজ করে না।"
+   },
+   "options": {
+    "a": {
+     "mix": "some",
+     "en": "some",
+     "bn": "some"
+    },
+    "b": {
+     "mix": "any",
+     "en": "any",
+     "bn": "any"
+    },
+    "c": {
+     "mix": "no",
+     "en": "no",
+     "bn": "no"
+    },
+    "d": {
+     "mix": "none",
+     "en": "none",
+     "bn": "none"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "বাক্যটি না-বোধক, তাই এর মধ্যে any বসে। Some সাধারণত হাঁ-বোধক বাক্যে বসে; no-এর পর noun বসলেও never-এর সাথে no বসে না; none pronoun, determiner নয়।",
+    "en": "The sentence is negative, so 'any' sits in it. 'Some' generally sits in affirmative sentences; although a noun sits after 'no', 'no' does not sit with 'never'; 'none' is a pronoun, not a determiner.",
+    "bn": "বাক্যটি না-বোধক, তাই এর মধ্যে any বসে। Some সাধারণত হাঁ-বোধক বাক্যে বসে; no-এর পর noun বসলেও never-এর সাথে no বসে না; none pronoun, determiner নয়।"
+   },
+   "source": "বিআরডিবি'র সহকারী সচিব/সহকারী পরিচালক (প্রশাসন) ২০১৬",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 32,
+   "question": {
+    "mix": "Fill up the gap : — big book on — table is for my history class.",
+    "en": "Fill up the gap : — big book on — table is for my history class.",
+    "bn": "শূন্যস্থান পূরণ করুন : — বড় বইটি — টেবিলের উপর, এটি আমার ইতিহাস ক্লাসের জন্য।"
+   },
+   "options": {
+    "a": {
+     "mix": "a, a",
+     "en": "a, a",
+     "bn": "a, a"
+    },
+    "b": {
+     "mix": "The, a",
+     "en": "The, a",
+     "bn": "The, a"
+    },
+    "c": {
+     "mix": "The, the",
+     "en": "The, the",
+     "bn": "The, the"
+    },
+    "d": {
+     "mix": "A, the",
+     "en": "A, the",
+     "bn": "A, the"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "(ক) A, a; (খ) The, a; (ঘ) A, the প্রদত্ত বাক্যের শূন্যস্থানসমূহের জন্য suitable না। The, the option-টিই বাক্যটির জন্য suitable। সুতরাং The, the-ই তাই সঠিক উত্তর (গ)।",
+    "en": "(a) 'A, a'; (b) 'The, a'; (d) 'A, the' are not suitable for the blanks of the given sentence. Only the option 'The, the' is suitable for the sentence. So 'The, the' is the correct answer (c).",
+    "bn": "(ক) A, a; (খ) The, a; (ঘ) A, the প্রদত্ত বাক্যের শূন্যস্থানসমূহের জন্য suitable না। The, the option-টিই বাক্যটির জন্য suitable। সুতরাং The, the-ই তাই সঠিক উত্তর (গ)।"
+   },
+   "source": "প্রতিরক্ষা মন্ত্রণালয়ের উপ-সহকারী পরিচালক ২০১৬",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 33,
+   "question": {
+    "mix": "I know he is — honest man.",
+    "en": "I know he is — honest man.",
+    "bn": "আমি জানি তিনি — সৎ মানুষ।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "for",
+     "en": "for",
+     "bn": "for"
+    },
+    "c": {
+     "mix": "on",
+     "en": "on",
+     "bn": "on"
+    },
+    "d": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "H-এর উচ্চারণ যদি 'অ' বা 'আ' অর্থাৎ vowel-এর মতো হয় তাহলে তার পূর্বে an বসে। Honest-এর H এখানে 'হ'-এর মতো না হয়ে 'অ'-এর মতো হয়েছে। সুতরাং সঠিক উত্তর (ঘ)।",
+    "en": "If the pronunciation of 'h' is like 'aw' or 'a', that is, like a vowel, then 'an' sits before it. The 'h' of 'honest' here has become like 'aw', not like 'h'. So the correct answer is (d).",
+    "bn": "H-এর উচ্চারণ যদি 'অ' বা 'আ' অর্থাৎ vowel-এর মতো হয় তাহলে তার পূর্বে an বসে। Honest-এর H এখানে 'হ'-এর মতো না হয়ে 'অ'-এর মতো হয়েছে। সুতরাং সঠিক উত্তর (ঘ)।"
+   },
+   "source": "কৃষি সম্প্রসারণ অধিদপ্তরের সহকারী কৃষি কর্মকর্তা ২০১৬",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 34,
+   "question": {
+    "mix": "There is— milk in the bottle.",
+    "en": "There is— milk in the bottle.",
+    "bn": "বোতলে — দুধ আছে।"
+   },
+   "options": {
+    "a": {
+     "mix": "very few",
+     "en": "very few",
+     "bn": "very few"
+    },
+    "b": {
+     "mix": "any",
+     "en": "any",
+     "bn": "any"
+    },
+    "c": {
+     "mix": "very little",
+     "en": "very little",
+     "bn": "very little"
+    },
+    "d": {
+     "mix": "many",
+     "en": "many",
+     "bn": "many"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Uncountable noun-এর পূর্বে determiner হিসেবে little এবং Countable noun-এর পূর্বে few, many ব্যবহৃত হয়। তাছাড়া negative ও interrogative sentence-এ any ব্যবহৃত হয়।",
+    "en": "As a determiner, 'little' is used before an uncountable noun, and 'few' and 'many' are used before a countable noun. Besides, 'any' is used in negative and interrogative sentences.",
+    "bn": "Uncountable noun-এর পূর্বে determiner হিসেবে little এবং Countable noun-এর পূর্বে few, many ব্যবহৃত হয়। তাছাড়া negative ও interrogative sentence-এ any ব্যবহৃত হয়।"
+   },
+   "source": "১৩তম শিক্ষক নিবন্ধন (স্কুল/সমপর্যায়) ২০১৬",
+   "explanation_source": "book"
+  },
+  {
+   "section": "PSC & Other Exams' Questions",
+   "number": 35,
+   "question": {
+    "mix": "What will be the appropriate article in the blank of the sentence? I see you are — Wordsworth.",
+    "en": "What will be the appropriate article in the blank of the sentence? I see you are — Wordsworth.",
+    "bn": "বাক্যের শূন্যস্থানে উপযুক্ত article কোনটি হবে? আমি দেখছি তুমি — ওয়ার্ডসওয়ার্থ।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "none",
+     "en": "none",
+     "bn": "none"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "I see you are a Wordsworth. এটি একটি Proper noun-এর common noun-হিসেবে ব্যবহারের উদাহরণ। সুতরাং এক্ষেত্রে শূন্যস্থানে a বসবে।",
+    "en": "'I see you are a Wordsworth.' This is an example of using a proper noun as a common noun. So in this case 'a' will sit in the blank.",
+    "bn": "I see you are a Wordsworth. এটি একটি Proper noun-এর common noun-হিসেবে ব্যবহারের উদাহরণ। সুতরাং এক্ষেত্রে শূন্যস্থানে a বসবে।"
+   },
+   "source": "সহকারী উপজেলা/থানা শিক্ষা অফিসার (ATEO) ২০১৬",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Govt. & Private Bank Questions",
+   "number": 1,
+   "question": {
+    "mix": "'The' article is used before :",
+    "en": "'The' article is used before :",
+    "bn": "'The' article ব্যবহৃত হয় —-এর পূর্বে :"
+   },
+   "options": {
+    "a": {
+     "mix": "China",
+     "en": "China",
+     "bn": "China"
+    },
+    "b": {
+     "mix": "Indonesia",
+     "en": "Indonesia",
+     "bn": "Indonesia"
+    },
+    "c": {
+     "mix": "Malaysia",
+     "en": "Malaysia",
+     "bn": "Malaysia"
+    },
+    "d": {
+     "mix": "Philippines",
+     "en": "Philippines",
+     "bn": "Philippines"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "কিছু কিছু দেশের নামের পূর্বে the বসে। যেমন—The Vatican City, The Marshall Islands, The Maldives, The Bahamas, The Central African Republic, The Philippines।",
+    "en": "'The' sits before the names of some countries. For example — The Vatican City, The Marshall Islands, The Maldives, The Bahamas, The Central African Republic, The Philippines.",
+    "bn": "কিছু কিছু দেশের নামের পূর্বে the বসে। যেমন—The Vatican City, The Marshall Islands, The Maldives, The Bahamas, The Central African Republic, The Philippines।"
+   },
+   "source": "Janata Bank Ltd. Officer (Cash) 2020",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Govt. & Private Bank Questions",
+   "number": 2,
+   "question": {
+    "mix": "Tisha has a knack for playing — piano.",
+    "en": "Tisha has a knack for playing — piano.",
+    "bn": "তিশার — পিয়ানো বাজানোর দক্ষতা আছে।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "on",
+     "en": "on",
+     "bn": "on"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "with",
+     "en": "with",
+     "bn": "with"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Musical instrument-এর পূর্বে the বসে। Knack for doing something অর্থ কোনো কিছু করার দক্ষতা। শূন্যস্থানে the বসিয়ে বাক্যটির বাংলা: তিশার পিয়ানো বাজানোর দক্ষতা আছে।",
+    "en": "'The' sits before a musical instrument. 'Knack for doing something' means skill in doing something. With 'the' in the blank, the Bangla of the sentence is: Tisha has skill in playing the piano.",
+    "bn": "Musical instrument-এর পূর্বে the বসে। Knack for doing something অর্থ কোনো কিছু করার দক্ষতা। শূন্যস্থানে the বসিয়ে বাক্যটির বাংলা: তিশার পিয়ানো বাজানোর দক্ষতা আছে।"
+   },
+   "source": "Sonali Bank Ltd. Officer 2018",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Govt. & Private Bank Questions",
+   "number": 3,
+   "question": {
+    "mix": "— types of investments go up or down in value at the same time.",
+    "en": "— types of investments go up or down in value at the same time.",
+    "bn": "— ধরনের বিনিয়োগের মূল্য একই সময়ে বাড়ে বা কমে।"
+   },
+   "options": {
+    "a": {
+     "mix": "Not",
+     "en": "Not",
+     "bn": "Not"
+    },
+    "b": {
+     "mix": "Not only",
+     "en": "Not only",
+     "bn": "Not only"
+    },
+    "c": {
+     "mix": "Not all",
+     "en": "Not all",
+     "bn": "Not all"
+    },
+    "d": {
+     "mix": "Not at all",
+     "en": "Not at all",
+     "bn": "Not at all"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Plural noun types-এর পূর্বে plural determiner all বসবে আর all-এর পূর্বে not বসানো যায়। সুতরাং শূন্যস্থানে not all বসবে।",
+    "en": "The plural determiner 'all' will sit before the plural noun 'types', and 'not' can be placed before 'all'. So 'not all' will sit in the blank.",
+    "bn": "Plural noun types-এর পূর্বে plural determiner all বসবে আর all-এর পূর্বে not বসানো যায়। সুতরাং শূন্যস্থানে not all বসবে।"
+   },
+   "source": "One Bank Ltd. Special Cadre Officer (SCO) 2018",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Govt. & Private Bank Questions",
+   "number": 4,
+   "question": {
+    "mix": "Generally speaking, — peacocks are more beautiful than peahens. The gap requires—",
+    "en": "Generally speaking, — peacocks are more beautiful than peahens. The gap requires—",
+    "bn": "সাধারণভাবে বলতে গেলে, — ময়ূর ময়ূরীর চেয়ে বেশি সুন্দর। শূন্যস্থানে প্রয়োজন—"
+   },
+   "options": {
+    "a": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "b": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "c": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "d": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "মানুষ, প্রাণী ইত্যাদি সাধারণভাবে (in general) বোঝাতে plural number ব্যবহৃত হলে এদের পূর্বে কোনো article ব্যবহৃত হয় না।",
+    "en": "When plural number is used to mean men, animals etc. in general, no article is used before them.",
+    "bn": "মানুষ, প্রাণী ইত্যাদি সাধারণভাবে (in general) বোঝাতে plural number ব্যবহৃত হলে এদের পূর্বে কোনো article ব্যবহৃত হয় না।"
+   },
+   "source": "Bangladesh Development Bank Ltd. Senior Officer 2017",
+   "explanation_source": "book"
+  },
+  {
+   "section": "Govt. & Private Bank Questions",
+   "number": 5,
+   "question": {
+    "mix": "The weather was not good; it was a bit pleasant.",
+    "en": "The weather was not good; it was a bit pleasant.",
+    "bn": "আবহাওয়া ভালো ছিল না; এটি কিছুটা মনোরম ছিল।"
+   },
+   "options": {
+    "a": {
+     "mix": "fairly",
+     "en": "fairly",
+     "bn": "fairly"
+    },
+    "b": {
+     "mix": "to some extent",
+     "en": "to some extent",
+     "bn": "to some extent"
+    },
+    "c": {
+     "mix": "a little",
+     "en": "a little",
+     "bn": "a little"
+    },
+    "d": {
+     "mix": "rather",
+     "en": "rather",
+     "bn": "rather"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "প্রদত্ত option গুলোর সবগুলোর উত্তরই প্রায় কাছাকাছি। তবে প্রদত্ত বাক্যের context অনুযায়ী (গ) a little সবচেয়ে যুক্তিযুক্ত। তাই সঠিক উত্তর (গ)।",
+    "en": "The answers of all the given options are almost close. But according to the context of the given sentence, (c) 'a little' is the most reasonable. So the correct answer is (c).",
+    "bn": "প্রদত্ত option গুলোর সবগুলোর উত্তরই প্রায় কাছাকাছি। তবে প্রদত্ত বাক্যের context অনুযায়ী (গ) a little সবচেয়ে যুক্তিযুক্ত। তাই সঠিক উত্তর (গ)।"
+   },
+   "source": "Uttara Bank Ltd. Assistant Officer (Cash) 2017",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 1,
+   "question": {
+    "mix": "We have not been given — update on the patient's condition.",
+    "en": "We have not been given — update on the patient's condition.",
+    "bn": "রোগীর অবস্থা সম্পর্কে আমাদের — আপডেট দেওয়া হয়নি।"
+   },
+   "options": {
+    "a": {
+     "mix": "some",
+     "en": "some",
+     "bn": "some"
+    },
+    "b": {
+     "mix": "none",
+     "en": "none",
+     "bn": "none"
+    },
+    "c": {
+     "mix": "any",
+     "en": "any",
+     "bn": "any"
+    },
+    "d": {
+     "mix": "much",
+     "en": "much",
+     "bn": "much"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "সাধারণত negative এবং interrogative বাক্যে any (কোনো) এবং much (অনেক) ব্যবহৃত হয়। Any, count এবং non-count উভয় noun-এর পূর্বে ব্যবহৃত হয়। কিন্তু much non-count noun-এর পূর্বে ব্যবহৃত হয়। বাক্যে ব্যবহৃত update একটি count noun। তাই এ বাক্যে much ব্যবহার করা ভুল হবে।",
+    "en": "Generally 'any' (any) and 'much' (much) are used in negative and interrogative sentences. 'Any' is used before both count and non-count nouns. But 'much' is used before a non-count noun. The 'update' used in the sentence is a count noun. So using 'much' in this sentence would be wrong.",
+    "bn": "সাধারণত negative এবং interrogative বাক্যে any (কোনো) এবং much (অনেক) ব্যবহৃত হয়। Any, count এবং non-count উভয় noun-এর পূর্বে ব্যবহৃত হয়। কিন্তু much non-count noun-এর পূর্বে ব্যবহৃত হয়। বাক্যে ব্যবহৃত update একটি count noun। তাই এ বাক্যে much ব্যবহার করা ভুল হবে।"
+   },
+   "source": "ঢাবি 'খ' ইউনিট ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 2,
+   "question": {
+    "mix": "The dress was designed by — famous Italian artist.",
+    "en": "The dress was designed by — famous Italian artist.",
+    "bn": "পোশাকটি — বিখ্যাত ইতালীয় শিল্পীর নকশা করা।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "c": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "d": {
+     "mix": "one",
+     "en": "one",
+     "bn": "one"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "অনির্দিষ্ট ব্যক্তি, প্রাণী ও বস্তুকে বোঝাতে indefinite article a বা an ব্যবহৃত হয়। সুতরাং শব্দের শুরুতে consonant letter যুক্ত wordটির পূর্বে a বসবে।",
+    "en": "To mean an indefinite person, animal or thing, the indefinite article 'a' or 'an' is used. So 'a' will sit before the word beginning with a consonant letter.",
+    "bn": "অনির্দিষ্ট ব্যক্তি, প্রাণী ও বস্তুকে বোঝাতে indefinite article a বা an ব্যবহৃত হয়। সুতরাং শব্দের শুরুতে consonant letter যুক্ত wordটির পূর্বে a বসবে।"
+   },
+   "source": "ঢাবি 'খ' ইউনিট ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 3,
+   "question": {
+    "mix": "You are — Nazrul, I see.",
+    "en": "You are — Nazrul, I see.",
+    "bn": "আমি দেখছি, তুমি — নজরুল।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "কারো মতো একজন বোঝাতে proper noun-এর পূর্বে a বা an ব্যবহৃত হয়। Nazrul, consonant letter দ্বারা শুরু হওয়ায় এর পূর্বে a বসবে।",
+    "en": "To mean someone like a person, 'a' or 'an' is used before a proper noun. Since 'Nazrul' begins with a consonant letter, 'a' will sit before it.",
+    "bn": "কারো মতো একজন বোঝাতে proper noun-এর পূর্বে a বা an ব্যবহৃত হয়। Nazrul, consonant letter দ্বারা শুরু হওয়ায় এর পূর্বে a বসবে।"
+   },
+   "source": "রাবি ইউনিট-C বিজ্ঞান (সকাল) ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 4,
+   "question": {
+    "mix": "There are — passengers in the compartment today.",
+    "en": "There are — passengers in the compartment today.",
+    "bn": "আজ কামরায় — যাত্রী আছে।"
+   },
+   "options": {
+    "a": {
+     "mix": "little",
+     "en": "little",
+     "bn": "little"
+    },
+    "b": {
+     "mix": "less",
+     "en": "less",
+     "bn": "less"
+    },
+    "c": {
+     "mix": "least",
+     "en": "least",
+     "bn": "least"
+    },
+    "d": {
+     "mix": "fewer",
+     "en": "fewer",
+     "bn": "fewer"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Countable noun-এর পূর্বে countable determiner বসে। সুতরাং countable determiner fewer শূন্যস্থানে বসবে।",
+    "en": "A countable determiner sits before a countable noun. So the countable determiner 'fewer' will sit in the blank.",
+    "bn": "Countable noun-এর পূর্বে countable determiner বসে। সুতরাং countable determiner fewer শূন্যস্থানে বসবে।"
+   },
+   "source": "রাবি ইউনিট-B (বাণিজ্য) ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 5,
+   "question": {
+    "mix": "He asked me — sheep were there in the field.",
+    "en": "He asked me — sheep were there in the field.",
+    "bn": "তিনি আমাকে জিজ্ঞেস করলেন মাঠে — ভেড়া ছিল।"
+   },
+   "options": {
+    "a": {
+     "mix": "how many",
+     "en": "how many",
+     "bn": "how many"
+    },
+    "b": {
+     "mix": "what a lot of",
+     "en": "what a lot of",
+     "bn": "what a lot of"
+    },
+    "c": {
+     "mix": "what great number of",
+     "en": "what great number of",
+     "bn": "what great number of"
+    },
+    "d": {
+     "mix": "how much",
+     "en": "how much",
+     "bn": "how much"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Sheep count noun হওয়ায়, এর পূর্বে countable determiner বসবে। (ঘ)-তে প্রদত্ত much uncountable determiner হওয়ায় এটি ভুল। আর বাকিগুলো countable determiner তবে অর্থগতভাবে সঠিক (ক)।",
+    "en": "Since 'sheep' is a count noun, a countable determiner will sit before it. The 'much' given in (d) is an uncountable determiner, so it is wrong. And the rest are countable determiners, but (a) is correct in meaning.",
+    "bn": "Sheep count noun হওয়ায়, এর পূর্বে countable determiner বসবে। (ঘ)-তে প্রদত্ত much uncountable determiner হওয়ায় এটি ভুল। আর বাকিগুলো countable determiner তবে অর্থগতভাবে সঠিক (ক)।"
+   },
+   "source": "ঢাবি 'A' ইউনিট ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 6,
+   "question": {
+    "mix": "The newspaper reports inform that women drivers have — accidents than men.",
+    "en": "The newspaper reports inform that women drivers have — accidents than men.",
+    "bn": "সংবাদপত্রের প্রতিবেদনে বলা হয়েছে, পুরুষদের তুলনায় নারী চালকদের — দুর্ঘটনা ঘটে।"
+   },
+   "options": {
+    "a": {
+     "mix": "less",
+     "en": "less",
+     "bn": "less"
+    },
+    "b": {
+     "mix": "least",
+     "en": "least",
+     "bn": "least"
+    },
+    "c": {
+     "mix": "lower",
+     "en": "lower",
+     "bn": "lower"
+    },
+    "d": {
+     "mix": "fewer",
+     "en": "fewer",
+     "bn": "fewer"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Plural countable noun-এর পূর্বে plural determiner বসে। সুতরাং সঠিক word হলো fewer।",
+    "en": "A plural determiner sits before a plural countable noun. So the correct word is 'fewer'.",
+    "bn": "Plural countable noun-এর পূর্বে plural determiner বসে। সুতরাং সঠিক word হলো fewer।"
+   },
+   "source": "ঢাবি 'B-1' ইউনিট ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 7,
+   "question": {
+    "mix": "Fill in the gap with an appropriate article. Have you ever visited — Notre Dame Cathedral in Paris?",
+    "en": "Fill in the gap with an appropriate article. Have you ever visited — Notre Dame Cathedral in Paris?",
+    "bn": "উপযুক্ত article দিয়ে শূন্যস্থান পূরণ করুন। আপনি কি কখনো প্যারিসের — নটর ডেম ক্যাথেড্রাল পরিদর্শন করেছেন?"
+   },
+   "options": {
+    "a": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "b": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "c": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "d": {
+     "mix": "none of them",
+     "en": "none of them",
+     "bn": "none of them"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Notre Dame Cathedral একটি নির্দিষ্ট বিখ্যাত স্থাপনা, তাই এর পূর্বে definite article the বসে। A বা an অনির্দিষ্ট অর্থ দেবে, আর article ছাড়া বাক্যটি অসম্পূর্ণ থাকে।",
+    "en": "'Notre Dame Cathedral' is a definite famous building, so the definite article 'the' sits before it. 'A' or 'an' would give an indefinite sense, and without an article the sentence remains incomplete.",
+    "bn": "Notre Dame Cathedral একটি নির্দিষ্ট বিখ্যাত স্থাপনা, তাই এর পূর্বে definite article the বসে। A বা an অনির্দিষ্ট অর্থ দেবে, আর article ছাড়া বাক্যটি অসম্পূর্ণ থাকে।"
+   },
+   "source": "চবি A ইউনিট সেট-ক ২০১৯-২০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 8,
+   "question": {
+    "mix": "The Fahrenheit scale is — unit of temperature measurement.",
+    "en": "The Fahrenheit scale is — unit of temperature measurement.",
+    "bn": "ফারেনহাইট স্কেল তাপমাত্রা পরিমাপের — একক।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "শব্দের শুরুতে যদি vowel বা vowels থাকে এবং তা যদি (u) এর মতো উচ্চারিত হয় তবে তার পূর্বে an না বসে a বসে।",
+    "en": "If a word begins with a vowel or vowels and it is pronounced like (u), then 'a' sits before it, not 'an'.",
+    "bn": "শব্দের শুরুতে যদি vowel বা vowels থাকে এবং তা যদি (u) এর মতো উচ্চারিত হয় তবে তার পূর্বে an না বসে a বসে।"
+   },
+   "source": "চবি C ইউনিট (ব্যবসায় প্রশাসন ও ব্যবসায় প্রশাসন স্কুল) (Set-A) ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 9,
+   "question": {
+    "mix": "He went to hospital because he had — heart attack.",
+    "en": "He went to hospital because he had — heart attack.",
+    "bn": "তিনি হাসপাতালে গিয়েছিলেন কারণ তার — হার্ট অ্যাটাক হয়েছিল।"
+   },
+   "options": {
+    "a": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "b": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "c": {
+     "mix": "almost",
+     "en": "almost",
+     "bn": "almost"
+    },
+    "d": {
+     "mix": "about",
+     "en": "about",
+     "bn": "about"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "রোগের নামের পূর্বে indefinite article 'a' বসবে। 'a' যোগে বাক্যটির বাংলা : তিনি হাসপাতালে গিয়েছিলেন কারণ তার হার্ট অ্যাটাক হয়েছিল।",
+    "en": "The indefinite article 'a' will sit before the name of a disease. With 'a', the Bangla of the sentence is: he went to hospital because he had a heart attack.",
+    "bn": "রোগের নামের পূর্বে indefinite article 'a' বসবে। 'a' যোগে বাক্যটির বাংলা : তিনি হাসপাতালে গিয়েছিলেন কারণ তার হার্ট অ্যাটাক হয়েছিল।"
+   },
+   "source": "চবি C ইউনিট (ব্যবসায় প্রশাসন ও ব্যবসায় প্রশাসন স্কুল) (Set-A) ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 10,
+   "question": {
+    "mix": "People all over the world are starving—",
+    "en": "People all over the world are starving—",
+    "bn": "সারা বিশ্বের মানুষ — অনাহারে আছে।"
+   },
+   "options": {
+    "a": {
+     "mix": "greater in numbers",
+     "en": "greater in numbers",
+     "bn": "greater in numbers"
+    },
+    "b": {
+     "mix": "in more numbers",
+     "en": "in more numbers",
+     "bn": "in more numbers"
+    },
+    "c": {
+     "mix": "more numerously",
+     "en": "more numerously",
+     "bn": "more numerously"
+    },
+    "d": {
+     "mix": "in greater numbers",
+     "en": "in greater numbers",
+     "bn": "in greater numbers"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "সঠিক expression হবে in greater numbers। কারণ 'great' adjective টি noun 'number' কে modify করছে।",
+    "en": "The correct expression is 'in greater numbers'. Because the adjective 'great' modifies the noun 'number'.",
+    "bn": "সঠিক expression হবে in greater numbers। কারণ 'great' adjective টি noun 'number' কে modify করছে।"
+   },
+   "source": "ইবি Unit-C (Set-A) ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 11,
+   "question": {
+    "mix": "'The English' means —.",
+    "en": "'The English' means —.",
+    "bn": "'The English' বলতে বোঝায় —।"
+   },
+   "options": {
+    "a": {
+     "mix": "The English language",
+     "en": "The English language",
+     "bn": "The English language"
+    },
+    "b": {
+     "mix": "The English literature",
+     "en": "The English literature",
+     "bn": "The English literature"
+    },
+    "c": {
+     "mix": "The English culture",
+     "en": "The English culture",
+     "bn": "The English culture"
+    },
+    "d": {
+     "mix": "The English people",
+     "en": "The English people",
+     "bn": "The English people"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "ভাষার নামের পূর্বে the বসে না কিন্তু সমগ্রজাতিকে বোঝাতে ভাষার নামের পূর্বে the বসে। এখানে 'the English' বলতে the English people-কে বোঝাচ্ছে।",
+    "en": "'The' does not sit before the name of a language, but to mean a whole nation, 'the' sits before the name of the language. Here 'the English' means the English people.",
+    "bn": "ভাষার নামের পূর্বে the বসে না কিন্তু সমগ্রজাতিকে বোঝাতে ভাষার নামের পূর্বে the বসে। এখানে 'the English' বলতে the English people-কে বোঝাচ্ছে।"
+   },
+   "source": "জাককানইবি C ইউনিট ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 12,
+   "question": {
+    "mix": "— man is mortal.",
+    "en": "— man is mortal.",
+    "bn": "— মানুষ মরণশীল।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "সমগ্র মানবজাতি বোঝাতে man-এর পূর্বে কোনো article বসে না। Man is mortal অর্থ মানুষ মরণশীল।",
+    "en": "To mean the whole of mankind, no article sits before 'man'. 'Man is mortal' means man is mortal.",
+    "bn": "সমগ্র মানবজাতি বোঝাতে man-এর পূর্বে কোনো article বসে না। Man is mortal অর্থ মানুষ মরণশীল।"
+   },
+   "source": "জাককানইবি D ইউনিট ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 13,
+   "question": {
+    "mix": "There isn't — traffic along the street where I live.",
+    "en": "There isn't — traffic along the street where I live.",
+    "bn": "আমি যে রাস্তায় থাকি সেখানে — যানজট নেই।"
+   },
+   "options": {
+    "a": {
+     "mix": "many",
+     "en": "many",
+     "bn": "many"
+    },
+    "b": {
+     "mix": "much",
+     "en": "much",
+     "bn": "much"
+    },
+    "c": {
+     "mix": "much of",
+     "en": "much of",
+     "bn": "much of"
+    },
+    "d": {
+     "mix": "many of",
+     "en": "many of",
+     "bn": "many of"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Traffic হলো uncountable noun। সুতরাং এর পূর্বে uncountable determiner বসবে। Uncountable determiner হিসেবে much শব্দটি যথাযথ।",
+    "en": "'Traffic' is an uncountable noun. So an uncountable determiner will sit before it. As an uncountable determiner, the word 'much' is appropriate.",
+    "bn": "Traffic হলো uncountable noun। সুতরাং এর পূর্বে uncountable determiner বসবে। Uncountable determiner হিসেবে much শব্দটি যথাযথ।"
+   },
+   "source": "জাককানইবি A ইউনিট ২০১৯-২০",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 14,
+   "question": {
+    "mix": "'They have little money' means—",
+    "en": "'They have little money' means—",
+    "bn": "'They have little money' বলতে বোঝায়—"
+   },
+   "options": {
+    "a": {
+     "mix": "They have no money at all.",
+     "en": "They have no money at all.",
+     "bn": "তাদের কাছে একদমই টাকা নেই"
+    },
+    "b": {
+     "mix": "They have almost no money.",
+     "en": "They have almost no money.",
+     "bn": "তাদের কাছে প্রায় কোনো টাকাই নেই"
+    },
+    "c": {
+     "mix": "They have yet some money.",
+     "en": "They have yet some money.",
+     "bn": "তাদের কাছে এখনো কিছু টাকা আছে"
+    },
+    "d": {
+     "mix": "They have quite some money.",
+     "en": "They have quite some money.",
+     "bn": "তাদের কাছে বেশ কিছু টাকা আছে"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Little অর্থ কিঞ্চিত, নেই বললেই চলে — তাই They have little money অর্থ তাদের কাছে প্রায় কোনো টাকাই নেই। No money at all অর্থ একদমই নেই, যা little-এর চেয়ে শক্ত; yet some money ও quite some money ইতিবাচক অর্থ দেয়।",
+    "en": "'Little' means a very small amount, almost none — so 'They have little money' means they have almost no money. 'No money at all' means absolutely none, which is stronger than 'little'; 'yet some money' and 'quite some money' give a positive sense.",
+    "bn": "Little অর্থ কিঞ্চিত, নেই বললেই চলে — তাই They have little money অর্থ তাদের কাছে প্রায় কোনো টাকাই নেই। No money at all অর্থ একদমই নেই, যা little-এর চেয়ে শক্ত; yet some money ও quite some money ইতিবাচক অর্থ দেয়।"
+   },
+   "source": "বশেমুরবিপ্রবি ইউনিট E (সামাজিক বিজ্ঞান) ২০১৯-২০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 15,
+   "question": {
+    "mix": "Tanmara speaks very — Russian, but she knows — words.",
+    "en": "Tanmara speaks very — Russian, but she knows — words.",
+    "bn": "তানমারা খুব — রুশ ভাষায় কথা বলে, কিন্তু সে — শব্দ জানে।"
+   },
+   "options": {
+    "a": {
+     "mix": "little — a little",
+     "en": "little — a little",
+     "bn": "little — a little"
+    },
+    "b": {
+     "mix": "little — a few",
+     "en": "little — a few",
+     "bn": "little — a few"
+    },
+    "c": {
+     "mix": "few — little",
+     "en": "few — little",
+     "bn": "few — little"
+    },
+    "d": {
+     "mix": "a few — few",
+     "en": "a few — few",
+     "bn": "a few — few"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Russian হলো uncountable (ভাষা), তাই very little Russian সঠিক; words হলো countable plural, তাই a few words সঠিক। Few countable noun-এর পূর্বে বসে, little নয়; আর a little uncountable-এর পূর্বে বসে।",
+    "en": "'Russian' is uncountable (a language), so 'very little Russian' is correct; 'words' is countable plural, so 'a few words' is correct. 'Few' sits before a countable noun, not 'little'; and 'a little' sits before an uncountable noun.",
+    "bn": "Russian হলো uncountable (ভাষা), তাই very little Russian সঠিক; words হলো countable plural, তাই a few words সঠিক। Few countable noun-এর পূর্বে বসে, little নয়; আর a little uncountable-এর পূর্বে বসে।"
+   },
+   "source": "বশেমুরবিপ্রবি ইউনিট F (ব্যবসায় শিক্ষা) সেট-খ ২০১৯-২০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 16,
+   "question": {
+    "mix": "— rich are not always happy.",
+    "en": "— rich are not always happy.",
+    "bn": "— ধনীরা সবসময় সুখী নয়।"
+   },
+   "options": {
+    "a": {
+     "mix": "A",
+     "en": "A",
+     "bn": "A"
+    },
+    "b": {
+     "mix": "An",
+     "en": "An",
+     "bn": "An"
+    },
+    "c": {
+     "mix": "The",
+     "en": "The",
+     "bn": "The"
+    },
+    "d": {
+     "mix": "By",
+     "en": "By",
+     "bn": "By"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "একই গুণসম্পন্ন সকলকে বোঝাতে adjective-এর পূর্বে the ব্যবহৃত হয় এবং তা plural common noun হয়ে যায়, তাই The rich সঠিক। A বা An এখানে বসে না, আর By কোনো article নয়।",
+    "en": "To mean all those having the same quality, 'the' is used before an adjective, and it becomes a plural common noun, so 'The rich' is correct. 'A' or 'An' does not sit here, and 'By' is not an article.",
+    "bn": "একই গুণসম্পন্ন সকলকে বোঝাতে adjective-এর পূর্বে the ব্যবহৃত হয় এবং তা plural common noun হয়ে যায়, তাই The rich সঠিক। A বা An এখানে বসে না, আর By কোনো article নয়।"
+   },
+   "source": "মাভাবিপ্রবি ইউনিট B (সেট-2) ২০১৯-২০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 17,
+   "question": {
+    "mix": "The English are — wise nation.",
+    "en": "The English are — wise nation.",
+    "bn": "ইংরেজরা — জ্ঞানী জাতি।"
+   },
+   "options": {
+    "a": {
+     "mix": "at",
+     "en": "at",
+     "bn": "at"
+    },
+    "b": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "c": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    },
+    "d": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "The English are a wise nation — এখানে a wise nation একটি অনির্দিষ্ট singular complement, তাই a বসে। The এখানে বসে না, আর at কোনো article নয়।",
+    "en": "'The English are a wise nation' — here 'a wise nation' is an indefinite singular complement, so 'a' sits. 'The' does not sit here, and 'at' is not an article.",
+    "bn": "The English are a wise nation — এখানে a wise nation একটি অনির্দিষ্ট singular complement, তাই a বসে। The এখানে বসে না, আর at কোনো article নয়।"
+   },
+   "source": "মাভাবিপ্রবি ইউনিট D (সেট-1) ২০১৯-২০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 18,
+   "question": {
+    "mix": "Many — student was present in the research lab. Complete the sentence with the appropriate article.",
+    "en": "Many — student was present in the research lab. Complete the sentence with the appropriate article.",
+    "bn": "গবেষণাগারে Many — ছাত্র উপস্থিত ছিল। উপযুক্ত article দিয়ে বাক্যটি সম্পূর্ণ করুন।"
+   },
+   "options": {
+    "a": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "b": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "c": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "d": {
+     "mix": "or",
+     "en": "or",
+     "bn": "or"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Many a student হলো একটি সঠিক idiomatic expression, যার অর্থ অনেক ছাত্র; এর পর singular verb বসে। An এখানে বসে না, the নির্দিষ্ট অর্থ দেবে, আর or কোনো article নয়।",
+    "en": "'Many a student' is a correct idiomatic expression, meaning many students; a singular verb follows it. 'An' does not sit here, 'the' would give a definite sense, and 'or' is not an article.",
+    "bn": "Many a student হলো একটি সঠিক idiomatic expression, যার অর্থ অনেক ছাত্র; এর পর singular verb বসে। An এখানে বসে না, the নির্দিষ্ট অর্থ দেবে, আর or কোনো article নয়।"
+   },
+   "source": "মাভাবিপ্রবি ইউনিট C (সেট-2) ২০১৯-২০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 19,
+   "question": {
+    "mix": "There are — students in class today than there were yesterday.",
+    "en": "There are — students in class today than there were yesterday.",
+    "bn": "গতকালের তুলনায় আজ ক্লাসে — ছাত্র আছে।"
+   },
+   "options": {
+    "a": {
+     "mix": "less",
+     "en": "less",
+     "bn": "less"
+    },
+    "b": {
+     "mix": "a few",
+     "en": "a few",
+     "bn": "a few"
+    },
+    "c": {
+     "mix": "a little",
+     "en": "a little",
+     "bn": "a little"
+    },
+    "d": {
+     "mix": "fewer",
+     "en": "fewer",
+     "bn": "fewer"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Students হলো countable plural noun এবং than দিয়ে তুলনা বোঝানো হয়েছে, তাই comparative determiner fewer বসে। Less uncountable noun-এর পূর্বে বসে; a few ও a little তুলনা বোঝায় না।",
+    "en": "'Students' is a countable plural noun and comparison is meant with 'than', so the comparative determiner 'fewer' sits. 'Less' sits before an uncountable noun; 'a few' and 'a little' do not mean comparison.",
+    "bn": "Students হলো countable plural noun এবং than দিয়ে তুলনা বোঝানো হয়েছে, তাই comparative determiner fewer বসে। Less uncountable noun-এর পূর্বে বসে; a few ও a little তুলনা বোঝায় না।"
+   },
+   "source": "মাভাবিপ্রবি ইউনিট C (সেট-2) ২০১৯-২০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 20,
+   "question": {
+    "mix": "English today is the third — native language worldwide. Choose the correct option for the blank.",
+    "en": "English today is the third — native language worldwide. Choose the correct option for the blank.",
+    "bn": "বর্তমানে বিশ্বব্যাপী ইংরেজি তৃতীয় — মাতৃভাষা। শূন্যস্থানের জন্য সঠিক option বেছে নিন।"
+   },
+   "options": {
+    "a": {
+     "mix": "the most sopken",
+     "en": "the most spoken",
+     "bn": "সবচেয়ে বেশি কথিত"
+    },
+    "b": {
+     "mix": "the more spoken",
+     "en": "the more spoken",
+     "bn": "the more spoken"
+    },
+    "c": {
+     "mix": "least spoken",
+     "en": "least spoken",
+     "bn": "least spoken"
+    },
+    "d": {
+     "mix": "most spoken",
+     "en": "most spoken",
+     "bn": "most spoken"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "The third most spoken native language — এখানে third-এর পর superlative most spoken বসে, the আর বসে না, কারণ third নিজেই নির্দিষ্টতা দিয়েছে। The more spoken comparative, এখানে চলে না; least spoken অর্থ উল্টো।",
+    "en": "'The third most spoken native language' — here the superlative 'most spoken' sits after 'third', and 'the' does not sit again, because 'third' itself gives definiteness. 'The more spoken' is a comparative and does not work here; 'least spoken' means the opposite.",
+    "bn": "The third most spoken native language — এখানে third-এর পর superlative most spoken বসে, the আর বসে না, কারণ third নিজেই নির্দিষ্টতা দিয়েছে। The more spoken comparative, এখানে চলে না; least spoken অর্থ উল্টো।"
+   },
+   "source": "যবিপ্রবি ইউনিট C ২০১৯-২০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 21,
+   "question": {
+    "mix": "Dhaka is — large city.",
+    "en": "Dhaka is — large city.",
+    "bn": "ঢাকা — বড় শহর।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "no article required",
+     "en": "no article required",
+     "bn": "no article required"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Large consonant দিয়ে শুরু হওয়ায় এর পূর্বে a বসে। An vowel-এর পূর্বে বসে; the এখানে নির্দিষ্ট অর্থ দেবে না, আর article ছাড়া বাক্যটি অসম্পূর্ণ থাকে।",
+    "en": "Since 'large' begins with a consonant, 'a' sits before it. 'An' sits before a vowel; 'the' would not give a definite sense here, and without an article the sentence remains incomplete.",
+    "bn": "Large consonant দিয়ে শুরু হওয়ায় এর পূর্বে a বসে। An vowel-এর পূর্বে বসে; the এখানে নির্দিষ্ট অর্থ দেবে না, আর article ছাড়া বাক্যটি অসম্পূর্ণ থাকে।"
+   },
+   "source": "যবিপ্রবি ইউনিট E ২০১৯-২০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 22,
+   "question": {
+    "mix": "Which word is the determiner in the sentence 'Will it take much time?'",
+    "en": "Which word is the determiner in the sentence 'Will it take much time?'",
+    "bn": "'Will it take much time?' বাক্যে কোন শব্দটি determiner?"
+   },
+   "options": {
+    "a": {
+     "mix": "will",
+     "en": "will",
+     "bn": "will"
+    },
+    "b": {
+     "mix": "take",
+     "en": "take",
+     "bn": "take"
+    },
+    "c": {
+     "mix": "much",
+     "en": "much",
+     "bn": "much"
+    },
+    "d": {
+     "mix": "time",
+     "en": "time",
+     "bn": "time"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Much হলো time-এর পরিমাণ নির্দেশক determiner। Will হলো auxiliary verb, take হলো finite verb, আর time হলো noun (object)।",
+    "en": "'Much' is the determiner indicating the quantity of 'time'. 'Will' is an auxiliary verb, 'take' is a finite verb, and 'time' is a noun (object).",
+    "bn": "Much হলো time-এর পরিমাণ নির্দেশক determiner। Will হলো auxiliary verb, take হলো finite verb, আর time হলো noun (object)।"
+   },
+   "source": "যবিপ্রবি ইউনিট F (বিজ্ঞান শাখা) ২০১৯-২০",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 23,
+   "question": {
+    "mix": "She works six days — week.",
+    "en": "She works six days — week.",
+    "bn": "তিনি সপ্তাহে ছয় দিন কাজ করেন।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "c": {
+     "mix": "in",
+     "en": "in",
+     "bn": "in"
+    },
+    "d": {
+     "mix": "for",
+     "en": "for",
+     "bn": "for"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "শূন্যস্থানে যথাযথ word হিসেবে বসবে a, কেননা a weak অর্থ এক সপ্তাহে। শূন্যস্থানে a বসিয়ে প্রদত্ত বাক্যের অর্থ : সে সপ্তাহে ছয় দিন কাজ করে।",
+    "en": "The appropriate word to sit in the blank is 'a', because 'a week' means in one week. With 'a' in the blank, the meaning of the given sentence is: she works six days a week.",
+    "bn": "শূন্যস্থানে যথাযথ word হিসেবে বসবে a, কেননা a weak অর্থ এক সপ্তাহে। শূন্যস্থানে a বসিয়ে প্রদত্ত বাক্যের অর্থ : সে সপ্তাহে ছয় দিন কাজ করে।"
+   },
+   "source": "…কলেজ (বিজ্ঞান অনুষদ) ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 24,
+   "question": {
+    "mix": "There is — hope of her recovery.",
+    "en": "There is — hope of her recovery.",
+    "bn": "তার আরোগ্যের — আশা আছে।"
+   },
+   "options": {
+    "a": {
+     "mix": "many",
+     "en": "many",
+     "bn": "many"
+    },
+    "b": {
+     "mix": "little",
+     "en": "little",
+     "bn": "little"
+    },
+    "c": {
+     "mix": "very",
+     "en": "very",
+     "bn": "very"
+    },
+    "d": {
+     "mix": "few",
+     "en": "few",
+     "bn": "few"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Uncountable noun hope-এর পূর্বে non count determiner little বসবে। Little বসিয়ে বাক্যটির অর্থ তার আরোগ্যের সামান্য আশা রয়েছে।",
+    "en": "The non-count determiner 'little' will sit before the uncountable noun 'hope'. With 'little', the meaning of the sentence is that there is a little hope of her recovery.",
+    "bn": "Uncountable noun hope-এর পূর্বে non count determiner little বসবে। Little বসিয়ে বাক্যটির অর্থ তার আরোগ্যের সামান্য আশা রয়েছে।"
+   },
+   "source": "রাবি ইউনিট D (গ্রুপ-1) ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 25,
+   "question": {
+    "mix": "Fill in the gaps. — salt testes salty, and — pepper testes hot.",
+    "en": "Fill in the gaps. — salt tastes salty, and — pepper tastes hot.",
+    "bn": "শূন্যস্থান পূরণ করুন। — লবণের স্বাদ নোনতা, আর — মরিচের স্বাদ ঝাল।"
+   },
+   "options": {
+    "a": {
+     "mix": "the a",
+     "en": "the a",
+     "bn": "the a"
+    },
+    "b": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    },
+    "c": {
+     "mix": "a, a",
+     "en": "a, a",
+     "bn": "a, a"
+    },
+    "d": {
+     "mix": "the, the",
+     "en": "the, the",
+     "bn": "the, the"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Salt (লবণ) ও pepper (মরিচ) উভয়ই Material noun। সাধারণত Material noun-এর পূর্বে article বসে না।",
+    "en": "'Salt' and 'pepper' are both material nouns. Generally no article sits before a material noun.",
+    "bn": "Salt (লবণ) ও pepper (মরিচ) উভয়ই Material noun। সাধারণত Material noun-এর পূর্বে article বসে না।"
+   },
+   "source": "রাবি ইউনিট E ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 26,
+   "question": {
+    "mix": "This is rather — different question. The correct article is—",
+    "en": "This is rather — different question. The correct article is—",
+    "bn": "এটি বরং — ভিন্ন প্রশ্ন। সঠিক article হলো—"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    },
+    "d": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Singular common noun-এর পূর্বে adjective থাকলে ঐ adjective-এর পূর্বে indefinite article (a/an) বসে। Adjective different শব্দটি consonant দিয়ে শুরু হওয়ায় শূন্যস্থানে a বসবে।",
+    "en": "When an adjective sits before a singular common noun, the indefinite article (a/an) sits before that adjective. Since the adjective 'different' begins with a consonant, 'a' will sit in the blank.",
+    "bn": "Singular common noun-এর পূর্বে adjective থাকলে ঐ adjective-এর পূর্বে indefinite article (a/an) বসে। Adjective different শব্দটি consonant দিয়ে শুরু হওয়ায় শূন্যস্থানে a বসবে।"
+   },
+   "source": "রাবি ইউনিট E ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 27,
+   "question": {
+    "mix": "This is — unique opportunity.",
+    "en": "This is — unique opportunity.",
+    "bn": "এটি — অনন্য সুযোগ।"
+   },
+   "options": {
+    "a": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "b": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "শব্দের শুরুতে যদি vowel থাকে এবং তা যদি ইউ (u)-এর মতো উচ্চারিত হয় তাহলে wordটির পূর্বে a বসে।",
+    "en": "If a word begins with a vowel and it is pronounced like 'yu' (u), then 'a' sits before the word.",
+    "bn": "শব্দের শুরুতে যদি vowel থাকে এবং তা যদি ইউ (u)-এর মতো উচ্চারিত হয় তাহলে wordটির পূর্বে a বসে।"
+   },
+   "source": "ঢাবি ইউনিট A (বিকাল) ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 28,
+   "question": {
+    "mix": "He pulled — boy by — ear.",
+    "en": "He pulled — boy by — ear.",
+    "bn": "সে — ছেলেটিকে — কান ধরে টানল।"
+   },
+   "options": {
+    "a": {
+     "mix": "a, a",
+     "en": "a, a",
+     "bn": "a, a"
+    },
+    "b": {
+     "mix": "a, an",
+     "en": "a, an",
+     "bn": "a, an"
+    },
+    "c": {
+     "mix": "the, the",
+     "en": "the, the",
+     "bn": "the, the"
+    },
+    "d": {
+     "mix": "an, a",
+     "en": "an, a",
+     "bn": "an, a"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "নির্দিষ্ট করে বোঝাতে boy-এর পূর্বে the বসে আর অঙ্গ-প্রত্যঙ্গের নামের পূর্বে preposition-এর পর possessive adjective-এর পরিবর্তে the বসে। প্রদত্ত বাক্যের অর্থ সে ছেলেটির কান ধরে টানল।",
+    "en": "To mean something definite, 'the' sits before 'boy', and before the name of a part of the body, after a preposition, 'the' sits instead of a possessive adjective. The meaning of the given sentence is: he pulled the boy by the ear.",
+    "bn": "নির্দিষ্ট করে বোঝাতে boy-এর পূর্বে the বসে আর অঙ্গ-প্রত্যঙ্গের নামের পূর্বে preposition-এর পর possessive adjective-এর পরিবর্তে the বসে। প্রদত্ত বাক্যের অর্থ সে ছেলেটির কান ধরে টানল।"
+   },
+   "source": "ঢাবি ইউনিট A (বিকাল) ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 29,
+   "question": {
+    "mix": "Use the correct article to complete the sentence. 'Merina enjoys reading — mystery novels'.",
+    "en": "Use the correct article to complete the sentence. 'Merina enjoys reading — mystery novels'.",
+    "bn": "সঠিক article দিয়ে বাক্যটি সম্পূর্ণ করুন। 'Merina enjoys reading — mystery novels'।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Mystery novels (রহস্যময় উপন্যাসগুলো) নির্দিষ্ট করে বোঝাতে এর পূর্বে article the বসবে।",
+    "en": "To mean the mystery novels definitely, the article 'the' will sit before it.",
+    "bn": "Mystery novels (রহস্যময় উপন্যাসগুলো) নির্দিষ্ট করে বোঝাতে এর পূর্বে article the বসবে।"
+   },
+   "source": "চবি ইউনিট A ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 30,
+   "question": {
+    "mix": "We could barely get any information at the airport. — people seemed to have — idea about the flights.",
+    "en": "We could barely get any information at the airport. — people seemed to have — idea about the flights.",
+    "bn": "বিমানবন্দরে আমরা কোনো তথ্যই পাচ্ছিলাম না। — লোকের যেন ফ্লাইটগুলো সম্পর্কে — ধারণা ছিল।"
+   },
+   "options": {
+    "a": {
+     "mix": "Many/any",
+     "en": "Many/any",
+     "bn": "Many/any"
+    },
+    "b": {
+     "mix": "A lot of/any",
+     "en": "A lot of/any",
+     "bn": "A lot of/any"
+    },
+    "c": {
+     "mix": "Only a few/some",
+     "en": "Only a few/some",
+     "bn": "Only a few/some"
+    },
+    "d": {
+     "mix": "Few/no",
+     "en": "Few/no",
+     "bn": "Few/no"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "বাক্যের অর্থের দিক হতে সঠিক determiner হলো only a few (সামান্য সংখ্যক) এবং some (কিছু)।",
+    "en": "From the point of view of the meaning of the sentence, the correct determiners are 'only a few' (a small number) and 'some' (some).",
+    "bn": "বাক্যের অর্থের দিক হতে সঠিক determiner হলো only a few (সামান্য সংখ্যক) এবং some (কিছু)।"
+   },
+   "source": "ইবি ইউনিট বি (1st shift) ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 31,
+   "question": {
+    "mix": "Although she thought she knew — of the subject, the teacher asked a few details she hardly remembered.",
+    "en": "Although she thought she knew — of the subject, the teacher asked a few details she hardly remembered.",
+    "bn": "যদিও সে ভেবেছিল সে বিষয়টির — জানে, শিক্ষক তাকে কয়েকটি খুঁটিনাটি জিজ্ঞেস করলেন যা তার প্রায় মনেই ছিল না।"
+   },
+   "options": {
+    "a": {
+     "mix": "several",
+     "en": "several",
+     "bn": "several"
+    },
+    "b": {
+     "mix": "much",
+     "en": "much",
+     "bn": "much"
+    },
+    "c": {
+     "mix": "many",
+     "en": "many",
+     "bn": "many"
+    },
+    "d": {
+     "mix": "any",
+     "en": "any",
+     "bn": "any"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Much of the subject অর্থ যথেষ্ট কিছু। সুতরাং শূন্যস্থানে much বসবে।",
+    "en": "'Much of the subject' means quite a lot. So 'much' will sit in the blank.",
+    "bn": "Much of the subject অর্থ যথেষ্ট কিছু। সুতরাং শূন্যস্থানে much বসবে।"
+   },
+   "source": "ইবি ইউনিট বি (1st shift) ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 32,
+   "question": {
+    "mix": "The country is about to go bilingual, with two official languages, but — of them is English.",
+    "en": "The country is about to go bilingual, with two official languages, but — of them is English.",
+    "bn": "দেশটি দ্বিভাষিক হতে চলেছে, দুটি সরকারি ভাষা আছে, কিন্তু তাদের মধ্যে — ইংরেজি।"
+   },
+   "options": {
+    "a": {
+     "mix": "Both",
+     "en": "Both",
+     "bn": "Both"
+    },
+    "b": {
+     "mix": "None",
+     "en": "None",
+     "bn": "None"
+    },
+    "c": {
+     "mix": "No",
+     "en": "No",
+     "bn": "No"
+    },
+    "d": {
+     "mix": "Neither",
+     "en": "Neither",
+     "bn": "Neither"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "দুটির মাঝে কোনোটিই নয় বোঝাতে neither ব্যবহৃত হয়। বাক্যে যেহেতু bilingual (দোভাষী) ব্যবহৃত হয়েছে সেহেতু শূন্যস্থানে neither বসবে।",
+    "en": "'Neither' is used to mean none of the two. Since 'bilingual' is used in the sentence, 'neither' will sit in the blank.",
+    "bn": "দুটির মাঝে কোনোটিই নয় বোঝাতে neither ব্যবহৃত হয়। বাক্যে যেহেতু bilingual (দোভাষী) ব্যবহৃত হয়েছে সেহেতু শূন্যস্থানে neither বসবে।"
+   },
+   "source": "ইবি ইউনিট বি (2nd) ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 33,
+   "question": {
+    "mix": "Do you sell bananas by .... Kilo?",
+    "en": "Do you sell bananas by .... Kilo?",
+    "bn": "তুমি কি কলা .... কিলো হিসেবে বিক্রি করো?"
+   },
+   "options": {
+    "a": {
+     "mix": "No article",
+     "en": "No article",
+     "bn": "No article"
+    },
+    "b": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "c": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "d": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Unit অর্থে by the hundred, by the score, by the kilo ব্যবহৃত হয়। The যোগে বাক্যের অর্থ : তুমি কি কিলো হিসেবে কলা বিক্রি করবে?",
+    "en": "In the sense of a unit, 'by the hundred', 'by the score', 'by the kilo' are used. With 'the', the meaning of the sentence is: do you sell bananas by the kilo?",
+    "bn": "Unit অর্থে by the hundred, by the score, by the kilo ব্যবহৃত হয়। The যোগে বাক্যের অর্থ : তুমি কি কিলো হিসেবে কলা বিক্রি করবে?"
+   },
+   "source": "কুবি ইউনিট বি ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 34,
+   "question": {
+    "mix": "It was a beautiful day. There wasn't — cloud in the sky.",
+    "en": "It was a beautiful day. There wasn't — cloud in the sky.",
+    "bn": "দিনটি সুন্দর ছিল। আকাশে — মেঘ ছিল না।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "No article",
+     "en": "No article",
+     "bn": "No article"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Cloud-এর পূর্বে article a বসবে। A যোগে প্রদত্ত বাক্যের অর্থ : সুন্দর দিন ছিলো। আকাশে একটা মেঘও ছিল না।",
+    "en": "The article 'a' will sit before 'cloud'. With 'a', the meaning of the given sentence is: it was a beautiful day. There wasn't a cloud in the sky.",
+    "bn": "Cloud-এর পূর্বে article a বসবে। A যোগে প্রদত্ত বাক্যের অর্থ : সুন্দর দিন ছিলো। আকাশে একটা মেঘও ছিল না।"
+   },
+   "source": "জাককানইবি ইউনিট বি ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 35,
+   "question": {
+    "mix": "— oranges are grown in India.",
+    "en": "— oranges are grown in India.",
+    "bn": "ভারতে — কমলা চাষ হয়।"
+   },
+   "options": {
+    "a": {
+     "mix": "A",
+     "en": "A",
+     "bn": "A"
+    },
+    "b": {
+     "mix": "All",
+     "en": "All",
+     "bn": "All"
+    },
+    "c": {
+     "mix": "An",
+     "en": "An",
+     "bn": "An"
+    },
+    "d": {
+     "mix": "None",
+     "en": "None",
+     "bn": "None"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Plural noun-এর পূর্বে a বা an বসে না। আর সকল oranges India-তে জন্মায় না। সেজন্য শূন্যস্থানে কোনো কিছুই বসবে না।",
+    "en": "'A' or 'an' does not sit before a plural noun. And not all oranges are grown in India. So nothing will sit in the blank.",
+    "bn": "Plural noun-এর পূর্বে a বা an বসে না। আর সকল oranges India-তে জন্মায় না। সেজন্য শূন্যস্থানে কোনো কিছুই বসবে না।"
+   },
+   "source": "জাককানইবি ইউনিট ডি ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 36,
+   "question": {
+    "mix": "Vegetables are delivered to — prison twice a week.",
+    "en": "Vegetables are delivered to — prison twice a week.",
+    "bn": "সপ্তাহে দুবার — কারাগারে সবজি সরবরাহ করা হয়।"
+   },
+   "options": {
+    "a": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "b": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    },
+    "c": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "d": {
+     "mix": "'A' + 'B'",
+     "en": "'A' + 'B'",
+     "bn": "'A' + 'B'"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "নির্দিষ্ট করে বোঝাতে prison-এর পূর্বে article 'the' বসবে।",
+    "en": "To mean something definite, the article 'the' will sit before 'prison'.",
+    "bn": "নির্দিষ্ট করে বোঝাতে prison-এর পূর্বে article 'the' বসবে।"
+   },
+   "source": "জাককানইবি ইউনিট এ-এল ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 37,
+   "question": {
+    "mix": "He is – heir to the property.",
+    "en": "He is – heir to the property.",
+    "bn": "তিনি সম্পত্তির — উত্তরাধিকারী।"
+   },
+   "options": {
+    "a": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "d": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Heir (উত্তরাধিকারী) শব্দটিতে h-এর উচ্চারণ অনুচ্চারিত থাকায় heir-এর পূর্বে a না বসে an বসবে।",
+    "en": "Since the pronunciation of 'h' in the word 'heir' (heir) is silent, 'an' will sit before 'heir', not 'a'.",
+    "bn": "Heir (উত্তরাধিকারী) শব্দটিতে h-এর উচ্চারণ অনুচ্চারিত থাকায় heir-এর পূর্বে a না বসে an বসবে।"
+   },
+   "source": "জাককানইবি ইউনিট এ-এল ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 38,
+   "question": {
+    "mix": "— Mahabharata is — greatest epic in the world literature.",
+    "en": "— Mahabharata is — greatest epic in the world literature.",
+    "bn": "— মহাভারত বিশ্বসাহিত্যের — শ্রেষ্ঠ মহাকাব্য।"
+   },
+   "options": {
+    "a": {
+     "mix": "no article; the",
+     "en": "no article; the",
+     "bn": "no article; the"
+    },
+    "b": {
+     "mix": "no article, no article",
+     "en": "no article, no article",
+     "bn": "no article, no article"
+    },
+    "c": {
+     "mix": "the; the",
+     "en": "the; the",
+     "bn": "the; the"
+    },
+    "d": {
+     "mix": "the; no article",
+     "en": "the; no article",
+     "bn": "the; no article"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "ধর্মগ্রন্থের পূর্বে article the বসে এবং adjective-এর superlative degree-এর পূর্বে the বসে।",
+    "en": "The article 'the' sits before a holy book, and 'the' sits before the superlative degree of an adjective.",
+    "bn": "ধর্মগ্রন্থের পূর্বে article the বসে এবং adjective-এর superlative degree-এর পূর্বে the বসে।"
+   },
+   "source": "জাককানইবি ইউনিট এ-এল ২০১৮-১৯",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 39,
+   "question": {
+    "mix": "We visited —.",
+    "en": "We visited —.",
+    "bn": "আমরা — ভ্রমণ করেছিলাম।"
+   },
+   "options": {
+    "a": {
+     "mix": "Canada and United States",
+     "en": "Canada and United States",
+     "bn": "কানাডা ও যুক্তরাষ্ট্র"
+    },
+    "b": {
+     "mix": "The Canada and the United States",
+     "en": "The Canada and the United States",
+     "bn": "কানাডা ও যুক্তরাষ্ট্র"
+    },
+    "c": {
+     "mix": "Canada and the United States",
+     "en": "Canada and the United States",
+     "bn": "কানাডা ও যুক্তরাষ্ট্র"
+    },
+    "d": {
+     "mix": "The Canada and United States",
+     "en": "The Canada and United States",
+     "bn": "কানাডা ও যুক্তরাষ্ট্র"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "সমষ্টিবাচক দেশের নামের পূর্বে the বসে, তাই the United States সঠিক। কিন্তু Canada একক দেশের নাম, এর পূর্বে the বসে না।",
+    "en": "'The' sits before the names of collective countries, so 'the United States' is correct. But 'Canada' is the name of a single country, so 'the' does not sit before it.",
+    "bn": "সমষ্টিবাচক দেশের নামের পূর্বে the বসে, তাই the United States সঠিক। কিন্তু Canada একক দেশের নাম, এর পূর্বে the বসে না।"
+   },
+   "source": "বশেমুরবিপ্রবি ইউনিট D (মানবিকী) ২০১৮-১৯",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 40,
+   "question": {
+    "mix": "Choose the incorrect word for the gap :' — of the film was worth watching.",
+    "en": "Choose the incorrect word for the gap :' — of the film was worth watching.",
+    "bn": "শূন্যস্থানের জন্য ভুল শব্দটি বেছে নিন :' চলচ্চিত্রটির — দেখার মতো ছিল।"
+   },
+   "options": {
+    "a": {
+     "mix": "Several",
+     "en": "Several",
+     "bn": "Several"
+    },
+    "b": {
+     "mix": "Some",
+     "en": "Some",
+     "bn": "Some"
+    },
+    "c": {
+     "mix": "The whole",
+     "en": "The whole",
+     "bn": "The whole"
+    },
+    "d": {
+     "mix": "Much",
+     "en": "Much",
+     "bn": "Much"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Film হলো singular uncountable-ধর্মী noun এখানে; Several কেবল countable plural noun-এর পূর্বে বসে, তাই Several of the film ভুল। Some, The whole ও Much এখানে বসতে পারে।",
+    "en": "Here 'film' is a singular noun; 'several' sits only before a countable plural noun, so 'Several of the film' is wrong. 'Some', 'The whole' and 'Much' can sit here.",
+    "bn": "Film হলো singular uncountable-ধর্মী noun এখানে; Several কেবল countable plural noun-এর পূর্বে বসে, তাই Several of the film ভুল। Some, The whole ও Much এখানে বসতে পারে।"
+   },
+   "source": "বশেমুরবিপ্রবি ইউনিট E ২০১৮-১৯",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 41,
+   "question": {
+    "mix": "Identify the sentence where the determiner is used properly—",
+    "en": "Identify the sentence where the determiner is used properly—",
+    "bn": "যে বাক্যে determiner সঠিকভাবে ব্যবহৃত হয়েছে সেটি চিহ্নিত করুন—"
+   },
+   "options": {
+    "a": {
+     "mix": "I have not much friends here.",
+     "en": "I have not much friends here.",
+     "bn": "এখানে আমার খুব বেশি বন্ধু নেই"
+    },
+    "b": {
+     "mix": "I have a few friends here.",
+     "en": "I have a few friends here.",
+     "bn": "এখানে আমার কয়েকজন বন্ধু আছে"
+    },
+    "c": {
+     "mix": "I have not a little friends here.",
+     "en": "I have not a little friends here.",
+     "bn": "এখানে আমার অল্প কিছু বন্ধু নেই"
+    },
+    "d": {
+     "mix": "I have a little friends here.",
+     "en": "I have a little friends here.",
+     "bn": "এখানে আমার অল্প কিছু বন্ধু আছে"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Friends হলো countable plural noun, তাই এর পূর্বে a few বসে। Much ও a little uncountable noun-এর পূর্বে বসে, তাই (ক), (গ) ও (ঘ) ভুল।",
+    "en": "'Friends' is a countable plural noun, so 'a few' sits before it. 'Much' and 'a little' sit before uncountable nouns, so (a), (c) and (d) are wrong.",
+    "bn": "Friends হলো countable plural noun, তাই এর পূর্বে a few বসে। Much ও a little uncountable noun-এর পূর্বে বসে, তাই (ক), (গ) ও (ঘ) ভুল।"
+   },
+   "source": "বশেমুরবিপ্রবি ইউনিট F ২০১৮-১৯",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 42,
+   "question": {
+    "mix": "Outside the bright primary rainbow, — much fainter secondary rainbow may be visible.",
+    "en": "Outside the bright primary rainbow, — much fainter secondary rainbow may be visible.",
+    "bn": "উজ্জ্বল প্রধান রংধনুর বাইরে, — আরও অনেক হালকা গৌণ রংধনু দেখা যেতে পারে।"
+   },
+   "options": {
+    "a": {
+     "mix": "so",
+     "en": "so",
+     "bn": "so"
+    },
+    "b": {
+     "mix": "still",
+     "en": "still",
+     "bn": "still"
+    },
+    "c": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "d": {
+     "mix": "as",
+     "en": "as",
+     "bn": "as"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "শূন্যস্থানে determiner হিসেবে article 'a' ব্যবহার হবে। তাছাড়া অন্যান্য শব্দগুলো শূন্যস্থানের জন্য যথাযথ নয়। উজ্জ্বল প্রধান রংধনু ছাড়াও/বাইরেও একটি যথেষ্ট হালকা গৌণ রংধনু দৃষ্টিগোচর হতেও পারে।",
+    "en": "The article 'a' will be used in the blank as a determiner. Besides, the other words are not appropriate for the blank. Apart from/outside the bright primary rainbow, a much fainter secondary rainbow may also be visible.",
+    "bn": "শূন্যস্থানে determiner হিসেবে article 'a' ব্যবহার হবে। তাছাড়া অন্যান্য শব্দগুলো শূন্যস্থানের জন্য যথাযথ নয়। উজ্জ্বল প্রধান রংধনু ছাড়াও/বাইরেও একটি যথেষ্ট হালকা গৌণ রংধনু দৃষ্টিগোচর হতেও পারে।"
+   },
+   "source": "ঢাবি ইউনিট ক ২০১৭-১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 43,
+   "question": {
+    "mix": "One and a half million people drive rickshaws for a living, plus – hundred thousand who own and repair them.",
+    "en": "One and a half million people drive rickshaws for a living, plus – hundred thousand who own and repair them.",
+    "bn": "দেড় মিলিয়ন মানুষ জীবিকার জন্য রিকশা চালায়, আরও — লাখ মানুষ যারা সেগুলোর মালিক ও মেরামত করে।"
+   },
+   "options": {
+    "a": {
+     "mix": "few",
+     "en": "few",
+     "bn": "few"
+    },
+    "b": {
+     "mix": "a few",
+     "en": "a few",
+     "bn": "a few"
+    },
+    "c": {
+     "mix": "little",
+     "en": "little",
+     "bn": "little"
+    },
+    "d": {
+     "mix": "a little",
+     "en": "a little",
+     "bn": "a little"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "Countable noun-এর পূর্বে little এবং a little determiner ব্যবহৃত হয় না আর comma এর পর plus থাকাতে বোঝা যাচ্ছে যে এর পর positive word বসবে negative নয়। Few না বোধক যার অর্থ একেবারেই কম সংখ্যক বা নেই বললেই চলে আর a few অর্থ হাঁ বোধক যার অর্থ অল্পসংখ্যক। সুতরাং শূন্যস্থানে a few বসবে।",
+    "en": "The determiners 'little' and 'a little' are not used before a countable noun, and since 'plus' follows the comma, it is understood that a positive word will sit after it, not a negative one. 'Few' is negative, meaning very few in number or almost none, and 'a few' is affirmative, meaning a small number. So 'a few' will sit in the blank.",
+    "bn": "Countable noun-এর পূর্বে little এবং a little determiner ব্যবহৃত হয় না আর comma এর পর plus থাকাতে বোঝা যাচ্ছে যে এর পর positive word বসবে negative নয়। Few না বোধক যার অর্থ একেবারেই কম সংখ্যক বা নেই বললেই চলে আর a few অর্থ হাঁ বোধক যার অর্থ অল্পসংখ্যক। সুতরাং শূন্যস্থানে a few বসবে।"
+   },
+   "source": "ঢাবি ইউনিট ক ২০১৭-১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 44,
+   "question": {
+    "mix": "— love is such — beautiful thing.",
+    "en": "— love is such — beautiful thing.",
+    "bn": "— ভালোবাসা এমন — সুন্দর জিনিস।"
+   },
+   "options": {
+    "a": {
+     "mix": "no article, a",
+     "en": "no article, a",
+     "bn": "no article, a"
+    },
+    "b": {
+     "mix": "a, no article",
+     "en": "a, no article",
+     "bn": "a, no article"
+    },
+    "c": {
+     "mix": "the, a",
+     "en": "the, a",
+     "bn": "the, a"
+    },
+    "d": {
+     "mix": "a, the",
+     "en": "a, the",
+     "bn": "a, the"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Abstract noun love-এর পূর্বে কোনো article বসে না আর such + a/an + noun বসে। Beautiful যেহেতু consonant দিয়ে শুরু সুতরাং such a beautiful thing হবে।",
+    "en": "No article sits before the abstract noun 'love', and 'such + a/an + noun' sits. Since 'beautiful' begins with a consonant, it will be 'such a beautiful thing'.",
+    "bn": "Abstract noun love-এর পূর্বে কোনো article বসে না আর such + a/an + noun বসে। Beautiful যেহেতু consonant দিয়ে শুরু সুতরাং such a beautiful thing হবে।"
+   },
+   "source": "ঢাবি ইউনিট খ ২০১৭-১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 45,
+   "question": {
+    "mix": "Choose the right determiner : There are many coconut trees on — side of the road.",
+    "en": "Choose the right determiner : There are many coconut trees on — side of the road.",
+    "bn": "সঠিক determiner বেছে নিন : রাস্তার — পাশে অনেক নারকেল গাছ আছে।"
+   },
+   "options": {
+    "a": {
+     "mix": "either",
+     "en": "either",
+     "bn": "either"
+    },
+    "b": {
+     "mix": "both",
+     "en": "both",
+     "bn": "both"
+    },
+    "c": {
+     "mix": "many",
+     "en": "many",
+     "bn": "many"
+    },
+    "d": {
+     "mix": "every",
+     "en": "every",
+     "bn": "every"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "রাস্তার এক দিকে না হয় অন্যদিকে বোঝাতে either শব্দটি শূন্যস্থানে বসবে। Both এবং many-এর পর noun-এর plural form বসে কিন্তু every-এর পর noun এর singular form ব্যবহৃত হলেও বাক্যের ক্ষেত্রে every থেকে either অধিক যথাযথ।",
+    "en": "To mean one side of the road or the other, the word 'either' will sit in the blank. After 'both' and 'many' the plural form of a noun sits, but although the singular form of a noun is used after 'every', in the case of this sentence 'either' is more appropriate than 'every'.",
+    "bn": "রাস্তার এক দিকে না হয় অন্যদিকে বোঝাতে either শব্দটি শূন্যস্থানে বসবে। Both এবং many-এর পর noun-এর plural form বসে কিন্তু every-এর পর noun এর singular form ব্যবহৃত হলেও বাক্যের ক্ষেত্রে every থেকে either অধিক যথাযথ।"
+   },
+   "source": "জাবি ইউনিট বি ২০১৭-১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 46,
+   "question": {
+    "mix": "There were — guests than I expected.",
+    "en": "There were — guests than I expected.",
+    "bn": "আমি যতটা আশা করেছিলাম তার চেয়ে — অতিথি ছিল।"
+   },
+   "options": {
+    "a": {
+     "mix": "less",
+     "en": "less",
+     "bn": "less"
+    },
+    "b": {
+     "mix": "few",
+     "en": "few",
+     "bn": "few"
+    },
+    "c": {
+     "mix": "lesser",
+     "en": "lesser",
+     "bn": "lesser"
+    },
+    "d": {
+     "mix": "fewer",
+     "en": "fewer",
+     "bn": "fewer"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "Count noun-এর পূর্বে determiner few বসে কিন্তু বাক্যে than থাকাতে guests-এর পূর্বে few-এর comparative form fewer বসবে।",
+    "en": "The determiner 'few' sits before a count noun, but since the sentence has 'than', the comparative form of 'few', 'fewer', will sit before 'guests'.",
+    "bn": "Count noun-এর পূর্বে determiner few বসে কিন্তু বাক্যে than থাকাতে guests-এর পূর্বে few-এর comparative form fewer বসবে।"
+   },
+   "source": "জাবি ইউনিট D ২০১৭-১৮",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 47,
+   "question": {
+    "mix": "E. Coli has proven to be — most dangerous bacteria that can be acquired from food and water, even in developed countries.",
+    "en": "E. Coli has proven to be — most dangerous bacteria that can be acquired from food and water, even in developed countries.",
+    "bn": "ই. কোলাই খাবার ও পানি থেকে পাওয়া যায় এমন — সবচেয়ে বিপজ্জনক ব্যাকটেরিয়া বলে প্রমাণিত হয়েছে, এমনকি উন্নত দেশগুলোতেও।"
+   },
+   "options": {
+    "a": {
+     "mix": "one of",
+     "en": "one of",
+     "bn": "one of"
+    },
+    "b": {
+     "mix": "one of the",
+     "en": "one of the",
+     "bn": "one of the"
+    },
+    "c": {
+     "mix": "one",
+     "en": "one",
+     "bn": "one"
+    },
+    "d": {
+     "mix": "of one",
+     "en": "of one",
+     "bn": "of one"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "One of the most dangerous bacteria — superlative-এর পূর্বে the বসে, আর one of the + superlative + plural noun হলো সঠিক গঠন। One of-এর পর the ছাড়া বাক্যটি অসম্পূর্ণ থাকে।",
+    "en": "'One of the most dangerous bacteria' — 'the' sits before a superlative, and 'one of the + superlative + plural noun' is the correct structure. Without 'the' after 'one of', the sentence remains incomplete.",
+    "bn": "One of the most dangerous bacteria — superlative-এর পূর্বে the বসে, আর one of the + superlative + plural noun হলো সঠিক গঠন। One of-এর পর the ছাড়া বাক্যটি অসম্পূর্ণ থাকে।"
+   },
+   "source": "রাবি ইউনিট B ২০১৭-১৮",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 48,
+   "question": {
+    "mix": "Fill in the gap : ..... Miles is a popular band in Bangladesh.",
+    "en": "Fill in the gap : ..... Miles is a popular band in Bangladesh.",
+    "bn": "শূন্যস্থান পূরণ করুন : ..... মাইলস বাংলাদেশের একটি জনপ্রিয় ব্যান্ড।"
+   },
+   "options": {
+    "a": {
+     "mix": "a",
+     "en": "a",
+     "bn": "a"
+    },
+    "b": {
+     "mix": "an",
+     "en": "an",
+     "bn": "an"
+    },
+    "c": {
+     "mix": "the",
+     "en": "the",
+     "bn": "the"
+    },
+    "d": {
+     "mix": "no article",
+     "en": "no article",
+     "bn": "no article"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Miles একটি নির্দিষ্ট বিখ্যাত ব্যান্ডের নাম, তাই এর পূর্বে definite article the বসে। A বা an অনির্দিষ্ট অর্থ দেবে, আর article ছাড়া বাক্যটি অসম্পূর্ণ থাকে।",
+    "en": "'Miles' is the name of a definite famous band, so the definite article 'the' sits before it. 'A' or 'an' would give an indefinite sense, and without an article the sentence remains incomplete.",
+    "bn": "Miles একটি নির্দিষ্ট বিখ্যাত ব্যান্ডের নাম, তাই এর পূর্বে definite article the বসে। A বা an অনির্দিষ্ট অর্থ দেবে, আর article ছাড়া বাক্যটি অসম্পূর্ণ থাকে।"
+   },
+   "source": "রাবি ইউনিট K (IER) ২০১৭-১৮",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 49,
+   "question": {
+    "mix": "According to some studies, dolphins, whales and — other sea creatures use highly sophisticated navigation systems.",
+    "en": "According to some studies, dolphins, whales and — other sea creatures use highly sophisticated navigation systems.",
+    "bn": "কিছু গবেষণা অনুযায়ী, ডলফিন, তিমি ও — অন্যান্য সামুদ্রিক প্রাণী অত্যন্ত উন্নত নেভিগেশন ব্যবস্থা ব্যবহার করে।"
+   },
+   "options": {
+    "a": {
+     "mix": "any",
+     "en": "any",
+     "bn": "any"
+    },
+    "b": {
+     "mix": "a little",
+     "en": "a little",
+     "bn": "a little"
+    },
+    "c": {
+     "mix": "many",
+     "en": "many",
+     "bn": "many"
+    },
+    "d": {
+     "mix": "much",
+     "en": "much",
+     "bn": "much"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "Creatures শব্দটি countable Noun বলে এর determiner হিসেবে many বসে।",
+    "en": "Since the word 'creatures' is a countable noun, 'many' sits as its determiner.",
+    "bn": "Creatures শব্দটি countable Noun বলে এর determiner হিসেবে many বসে।"
+   },
+   "source": "ঢাবি ইউনিট ক ২০১৬-১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 50,
+   "question": {
+    "mix": "— can be grown on arid land.",
+    "en": "— can be grown on arid land.",
+    "bn": "শুষ্ক জমিতে — চাষ করা যায়।"
+   },
+   "options": {
+    "a": {
+     "mix": "Only a few crops",
+     "en": "Only a few crops",
+     "bn": "Only a few crops"
+    },
+    "b": {
+     "mix": "Only few crop",
+     "en": "Only few crop",
+     "bn": "Only few crop"
+    },
+    "c": {
+     "mix": "Only a little crops",
+     "en": "Only a little crops",
+     "bn": "Only a little crops"
+    },
+    "d": {
+     "mix": "Only little crop",
+     "en": "Only little crop",
+     "bn": "Only little crop"
+    }
+   },
+   "answer": "a",
+   "explanation": {
+    "mix": "Countable Noun (crops)-এর পূর্বে some বোঝাতে determiner হিসেবে only a few ব্যবহৃত হবে। কিন্তু few এরপর singular noun থাকায় (খ) ভুল।",
+    "en": "To mean 'some' before the countable noun 'crops', the determiner 'only a few' will be used. But (b) is wrong because a singular noun follows 'few'.",
+    "bn": "Countable Noun (crops)-এর পূর্বে some বোঝাতে determiner হিসেবে only a few ব্যবহৃত হবে। কিন্তু few এরপর singular noun থাকায় (খ) ভুল।"
+   },
+   "source": "ঢাবি ইউনিট 'ক' ২০১৬-১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 51,
+   "question": {
+    "mix": "There's — food in the house, so we'll have to go out and buy — .",
+    "en": "There's — food in the house, so we'll have to go out and buy — .",
+    "bn": "বাড়িতে — খাবার নেই, তাই আমাদের বাইরে গিয়ে — কিনতে হবে।"
+   },
+   "options": {
+    "a": {
+     "mix": "some/any",
+     "en": "some/any",
+     "bn": "some/any"
+    },
+    "b": {
+     "mix": "a/none",
+     "en": "a/none",
+     "bn": "a/none"
+    },
+    "c": {
+     "mix": "no/some",
+     "en": "no/some",
+     "bn": "no/some"
+    },
+    "d": {
+     "mix": "any/them",
+     "en": "any/them",
+     "bn": "any/them"
+    },
+    "e": {
+     "mix": "none/it",
+     "en": "none/it",
+     "bn": "none/it"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "There's no food in the house — বাড়িতে কোনো খাবার নেই, তাই দ্বিতীয় শূন্যস্থানে some বসে: buy some (কিছু কিনতে হবে)। Some/any এখানে চলে না, কারণ প্রথম বাক্যটি না-বোধক; any/them ও none/it অর্থগতভাবে খাপ খায় না।",
+    "en": "'There's no food in the house' — there is no food in the house, so 'some' sits in the second blank: 'buy some'. 'Some/any' does not work here, because the first sentence is negative; 'any/them' and 'none/it' do not fit in meaning.",
+    "bn": "There's no food in the house — বাড়িতে কোনো খাবার নেই, তাই দ্বিতীয় শূন্যস্থানে some বসে: buy some (কিছু কিনতে হবে)। Some/any এখানে চলে না, কারণ প্রথম বাক্যটি না-বোধক; any/them ও none/it অর্থগতভাবে খাপ খায় না।"
+   },
+   "source": "ঢাবি ইউনিট A ২০১৬-১৭",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 52,
+   "question": {
+    "mix": "The roots of the old tree spread out — thirty meters in all directions and damaged nearby buildings.",
+    "en": "The roots of the old tree spread out — thirty meters in all directions and damaged nearby buildings.",
+    "bn": "পুরোনো গাছটির শিকড় সবদিকে — ত্রিশ মিটার পর্যন্ত ছড়িয়ে পড়ে কাছের ভবনগুলো ক্ষতিগ্রস্ত করেছিল।"
+   },
+   "options": {
+    "a": {
+     "mix": "too much",
+     "en": "too much",
+     "bn": "too much"
+    },
+    "b": {
+     "mix": "much more",
+     "en": "much more",
+     "bn": "much more"
+    },
+    "c": {
+     "mix": "so much",
+     "en": "so much",
+     "bn": "so much"
+    },
+    "d": {
+     "mix": "as much as",
+     "en": "as much as",
+     "bn": "as much as"
+    }
+   },
+   "answer": "d",
+   "explanation": {
+    "mix": "As much as thirty meters অর্থ প্রায় ত্রিশ মিটার পর্যন্ত — পরিমাণ বোঝাতে as much as বসে। Too much, much more ও so much এখানে অর্থগতভাবে খাপ খায় না।",
+    "en": "'As much as thirty meters' means up to about thirty meters — 'as much as' sits to mean quantity. 'Too much', 'much more' and 'so much' do not fit here in meaning.",
+    "bn": "As much as thirty meters অর্থ প্রায় ত্রিশ মিটার পর্যন্ত — পরিমাণ বোঝাতে as much as বসে। Too much, much more ও so much এখানে অর্থগতভাবে খাপ খায় না।"
+   },
+   "source": "ঢাবি ইউনিট B1 ২০১৬-১৭",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 53,
+   "question": {
+    "mix": "Heavy fines and jail sentences have made — difference in preventing elephant poaching for their tusks.",
+    "en": "Heavy fines and jail sentences have made — difference in preventing elephant poaching for their tusks.",
+    "bn": "ভারী জরিমানা ও কারাদণ্ড হাতির দাঁতের জন্য শিকার রোধে — পার্থক্য এনেছে।"
+   },
+   "options": {
+    "a": {
+     "mix": "the number of",
+     "en": "the number of",
+     "bn": "the number of"
+    },
+    "b": {
+     "mix": "a few",
+     "en": "a few",
+     "bn": "a few"
+    },
+    "c": {
+     "mix": "little",
+     "en": "little",
+     "bn": "little"
+    },
+    "d": {
+     "mix": "many",
+     "en": "many",
+     "bn": "many"
+    },
+    "e": {
+     "mix": "fewer",
+     "en": "fewer",
+     "bn": "fewer"
+    }
+   },
+   "answer": "c",
+   "explanation": {
+    "mix": "বাক্যে 'difference' শব্দটি একটি uncountable Noun সেহেতু এর পূর্বে context অনুযায়ী 'little' বসবে।",
+    "en": "In the sentence the word 'difference' is an uncountable noun, so 'little' will sit before it according to the context.",
+    "bn": "বাক্যে 'difference' শব্দটি একটি uncountable Noun সেহেতু এর পূর্বে context অনুযায়ী 'little' বসবে।"
+   },
+   "source": "ঢাবি ইউনিট E ২০১৬-১৭",
+   "explanation_source": "book"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 54,
+   "question": {
+    "mix": "— of what he said was very sensible.",
+    "en": "— of what he said was very sensible.",
+    "bn": "তিনি যা বলেছিলেন তার — খুবই যুক্তিসঙ্গত ছিল।"
+   },
+   "options": {
+    "a": {
+     "mix": "Many",
+     "en": "Many",
+     "bn": "Many"
+    },
+    "b": {
+     "mix": "Much",
+     "en": "Much",
+     "bn": "Much"
+    },
+    "c": {
+     "mix": "A few",
+     "en": "A few",
+     "bn": "A few"
+    },
+    "d": {
+     "mix": "Few",
+     "en": "Few",
+     "bn": "Few"
+    },
+    "e": {
+     "mix": "Every",
+     "en": "Every",
+     "bn": "Every"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "What he said হলো uncountable ধারণা, তাই এর পূর্বে much বসে: Much of what he said was very sensible। Many, A few ও Few countable noun-এর পূর্বে বসে; Every এখানে খাপ খায় না।",
+    "en": "'What he said' is an uncountable idea, so 'much' sits before it: 'Much of what he said was very sensible'. 'Many', 'A few' and 'Few' sit before countable nouns; 'Every' does not fit here.",
+    "bn": "What he said হলো uncountable ধারণা, তাই এর পূর্বে much বসে: Much of what he said was very sensible। Many, A few ও Few countable noun-এর পূর্বে বসে; Every এখানে খাপ খায় না।"
+   },
+   "source": "ঢাবি ইউনিট E ২০১৬-১৭",
+   "explanation_source": "generated"
+  },
+  {
+   "section": "University & Medical Questions",
+   "number": 55,
+   "question": {
+    "mix": "Find the right pair of articles to complete the sentence : \"I like — blue T-shirt over there better than — red one\".",
+    "en": "Find the right pair of articles to complete the sentence : \"I like — blue T-shirt over there better than — red one\".",
+    "bn": "বাক্যটি সম্পূর্ণ করতে article-এর সঠিক জোড়াটি খুঁজুন : \"I like — blue T-shirt over there better than — red one\"।"
+   },
+   "options": {
+    "a": {
+     "mix": "a, the",
+     "en": "a, the",
+     "bn": "a, the"
+    },
+    "b": {
+     "mix": "the, the",
+     "en": "the, the",
+     "bn": "the, the"
+    },
+    "c": {
+     "mix": "the, a",
+     "en": "the, a",
+     "bn": "the, a"
+    },
+    "d": {
+     "mix": "the, no article",
+     "en": "the, no article",
+     "bn": "the, no article"
+    },
+    "e": {
+     "mix": "a, no article",
+     "en": "a, no article",
+     "bn": "a, no article"
+    }
+   },
+   "answer": "b",
+   "explanation": {
+    "mix": "দুটি পণ্য নির্দিষ্ট করে বোঝাতে উক্ত পণ্য দুটির পূর্বে article 'the' বসবে। লাল T-shirt-এর চেয়ে নীল T-shirt অধিক পছন্দ করা বোঝাচ্ছে। এক্ষেত্রে T-shirt দুটি এখানে নির্দিষ্ট।",
+    "en": "To mean the two items definitely, the article 'the' will sit before both the items. It means liking the blue T-shirt more than the red T-shirt. In this case both the T-shirts are definite here.",
+    "bn": "দুটি পণ্য নির্দিষ্ট করে বোঝাতে উক্ত পণ্য দুটির পূর্বে article 'the' বসবে। লাল T-shirt-এর চেয়ে নীল T-shirt অধিক পছন্দ করা বোঝাচ্ছে। এক্ষেত্রে T-shirt দুটি এখানে নির্দিষ্ট।"
+   },
+   "source": "ঢাবি ইউনিট E ২০১৬-১৭",
+   "explanation_source": "book"
+  }
+ ],
+ "unclear": [
+  {
+   "page": 115,
+   "note": "Rule headings 9.1 and 9.2 print as '∴1'/'∴2'-style marks in the scan; recorded as 9.1 / 9.2 following the chapter's numbering (9.3 onwards print clearly)."
+  },
+  {
+   "page": 116,
+   "note": "Inline Q4 option (ক) prints 'she hand't many sugar' and option (ঘ) prints 'the gugar' (book typos); preserved verbatim in mix, corrected in en/bn."
+  },
+  {
+   "page": 117,
+   "note": "Inline Q8 question prints 'indentify' (book typo for 'identify'); preserved verbatim in mix, corrected in en/bn."
+  },
+  {
+   "page": 121,
+   "note": "PSC Q1 right-margin source reads 'প্রাণিসম্পদ অধিদপ্তরের ডিএফএ/এফএ (এ/আই)/কম্পাউন্ডার/পোল্ট্রি টেকনিশিয়ান ২০২০' — the post abbreviations are partly illegible in the scan; recorded as best-effort."
+  },
+  {
+   "page": 121,
+   "note": "PSC Q6 right-margin source lists two exams; the second ('প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের ইন্সট্রাক্টর (টিটিসি) ২০১৮') is partly illegible; recorded as best-effort."
+  },
+  {
+   "page": 121,
+   "note": "PSC Q7 right-margin source lists two exams ('BWDB'র ডাটা এন্ট্রি অপারেটর ২০১৯; সরকারি মাধ্যমিক বিদ্যালয় সহকারী শিক্ষক ২০১৯'); the middle line is partly illegible; recorded as best-effort."
+  },
+  {
+   "page": 122,
+   "note": "PSC Q13 is a two-answer question: the margin key reads 'উত্তর: খ, ঘ' (both much and a little correct) and the book Hints confirms both; recorded with answer 'b, d' (no single-answer precedent in Chapters 1-8)."
+  },
+  {
+   "page": 122,
+   "note": "PSC Q16 right-margin source lists three exams; the third ('প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের ইন্সট্রাক্টর (টিটিসি) ২০১৮') is partly illegible; recorded as best-effort."
+  },
+  {
+   "page": 127,
+   "note": "Univ Q23 right-margin source is cut off at the margin edge — only '…কলেজ (বিজ্ঞান অনুষদ) ২০১৮-১৯' is legible; the institution name before 'কলেজ' is missing in the scan, so the source is recorded with a leading ellipsis."
+  },
+  {
+   "page": 127,
+   "note": "Univ Q23 book Hints prints 'a weak অর্থ এক সপ্তাহে' where the sense requires 'a week'; preserved verbatim in mix, corrected to 'week' in en/bn."
+  },
+  {
+   "page": 128,
+   "note": "Univ Q25 question prints 'testes' twice (book typo for 'tastes'); preserved verbatim in mix, corrected to 'tastes' in en/bn."
+  },
+  {
+   "page": 127,
+   "note": "Univ Q20 option (ক) prints 'the most sopken' (book typo for 'spoken'); preserved verbatim in mix, corrected in en/bn."
+  },
+  {
+   "page": 123,
+   "note": "PSC Q25 question prints 'vaction' (book typo for 'vacation'); preserved verbatim in mix, corrected in en/bn."
+  }
+ ],
+ "translation_source": "generated"
+}
