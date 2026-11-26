@@ -1721,7 +1721,7 @@
 /* ---------- Learning view : structured English from the book ----------
    Rules first, then practice in batches of 10; wrong answers collect into
    a review list. All classes are .ln- prefixed. */
-.ln-wrap{max-width:880px}
+.ln-wrap{max-width:none;width:100%}
 .ln-note{font-size:13.5px;color:var(--muted);font-weight:600;padding:14px 4px}
 .ln-toprow{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:14px;min-height:38px}
 .ln-lang{display:inline-flex;gap:4px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px}
